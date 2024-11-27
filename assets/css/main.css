@@ -1,0 +1,189 @@
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+/* Сброс стилей */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Old Standard TT', serif;
+  line-height: 1.6;
+  color: #000; /* Чёрный текст */
+  background-color: #fff; /* Белый фон */
+  margin: 40px; /* Большие поля */
+}
+
+/* Контейнер для содержимого */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+h1 {
+  font-size: 3rem; /* Крупный размер */
+}
+
+h2 {
+  font-size: 2rem; /* Средний размер */
+}
+
+h3 {
+  font-size: 2rem; /* Средний размер */
+}
+
+/* Основной текст */
+p, a, ul, ol, li, table {
+  font-size: 1.2rem; /* Унифицированный размер текста */
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #000;
+}
+
+/* Списки */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Ссылки */
+a {
+  color: #000; /* Чёрный текст для ссылок */
+  text-decoration: none; /* Убрано подчёркивание */
+}
+
+a:hover {
+  text-decoration: none; /* Без подчёркивания при наведении */
+}
+
+/* Стили для изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Контейнеры и блоки */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1 1 45%;
+  padding: 0 10px;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2, h3 {
+    font-size: 1.8rem;
+  }
+
+  p, a, ul, ol, li, table {
+    font-size: 1.1rem;
+  }
+
+  .row {
+    gap: 15px;
+  }
+
+  .column {
+    flex: 1 1 calc(50% - 20px); /* Две колонки */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2, h3 {
+    font-size: 1.6rem;
+  }
+
+  p, a, ul, ol, li, table {
+    font-size: 1rem;
+  }
+
+  .column {
+    flex: 1 1 100%; /* Одна колонка */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  p, a, ul, ol, li, table {
+    font-size: 0.9rem;
+  }
+
+  .row {
+    gap: 10px;
+  }
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem; /* Унифицированный размер */
+  color: #000;
+}
