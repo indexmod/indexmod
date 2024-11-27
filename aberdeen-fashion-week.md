@@ -6,11 +6,11 @@ birth: 2013
 city: Aberdeen
 shortname: ABERDEEN
 givenname: Aberdeen Fashion Week
-familyname: Family name
+familyname: Fashion Week
 othername: AFW
 originlang: Eng.
 originspell: Aberdeen Fashion Week
-appearing: Est.
+appearing: Established
 city: Aberdeen, UK
 venue: Copthorne Hotel
 facebook: '123'
@@ -21,32 +21,23 @@ twitter: '0'
 tumblr: '0'
 vkontakte: '0'
 origin: Scotland
-profession: fashion event in UK, the world’s only platform promoting and showcasing Kids Wear collections
-photo: Models of AFW at stairs of Copthorne Hotel Aberdeen in May of 2018
+profession: Fashion event in the UK, the world’s only platform promoting and showcasing Kids Wear collections
+photo: Models of AFW at the stairs of Copthorne Hotel Aberdeen in May 2018
 photographer: Aberdeen Fashion Week
 source: Instagram
 photographerurl: aberdeen-fashion-week
 sourceurl: https://www.instagram.com/p/BiPl3UAFtuH/?taken-by=aberdeenfashionweek
-founder: 'Lydia Cutler'
+founder: Lydia Cutler
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
-
-Hosted in Aberdeen, once a year in April followed by AFW sponsored fashion show. In 2018 anounced as Aberdeen Fashion & Art Week <span id="a1">[\[1\]](#f1)</span>.
+Hosted annually in Aberdeen, typically in April, followed by the AFW-sponsored fashion show. In 2018, it was rebranded as Aberdeen Fashion & Art Week <span id="a1">[\[1\]](#f1)</span>.
 
 ## Conspectus
 
-|Year|Milestone|
-|-|-|
-|2013|Founded by Lydia Cutler|
-|2018|Transforming to Aberdeen Fashion & Art Week|
-
+| Year | Milestone                               |
+|------|----------------------------------------|
+| 2013 | Founded by Lydia Cutler                |
+| 2018 | Rebranded as Aberdeen Fashion & Art Week |
 
 ## See also
 
@@ -55,6 +46,14 @@ Hosted in Aberdeen, once a year in April followed by AFW sponsored fashion show.
 + [Lydia Cutler](lydia-cutler)
 + [London Fashion Week](london-fashion-week)
 
+## Illustration
+
+![](https://www.instagram.com/p/BiPl3UAFtuH/?taken-by=aberdeenfashionweek)
+
+**Models of AFW at the stairs of Copthorne Hotel Aberdeen in May 2018**
+
+*Photo by [Aberdeen Fashion Week](https://www.instagram.com/p/BiPl3UAFtuH/?taken-by=aberdeenfashionweek)*
+
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [Facebook event Aberdeen Fashion & Art Week (AFAW)](index)
+[[1]](#a1) <span id="f1"></span> [Facebook event: Aberdeen Fashion & Art Week (AFAW)](index)

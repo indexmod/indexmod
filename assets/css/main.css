@@ -19,12 +19,15 @@ body {
   color: #000; /* Чёрный текст */
   background-color: #fff; /* Белый фон */
   margin: 40px; /* Большие поля */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выровнять содержимое по левому краю */
 }
 
 /* Контейнер для содержимого */
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   padding: 20px;
 }
 
@@ -33,6 +36,7 @@ h1, h2, h3 {
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #000;
+  text-align: left; /* Выровнять заголовки по левому краю */
 }
 
 h1 {
@@ -53,6 +57,7 @@ p, a, ul, ol, li, table {
   margin-bottom: 1rem;
   line-height: 1.8;
   color: #000;
+  text-align: left; /* Выровнять текст по левому краю */
 }
 
 /* Списки */
@@ -76,23 +81,24 @@ a:hover {
 
 /* Стили для изображений */
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  filter: grayscale(90%); /* Черно-белый фильтр */
+  margin-bottom: 1rem;
 }
 
 /* Таблицы */
 table {
-  width: 100%;
+  width: 70%; /* Установим ширину таблиц на 70% */
   border-collapse: collapse;
+  margin-bottom: 1rem;
+  border: 1px solid #000; /* Общая рамка */
 }
 
 th, td {
   padding: 0.75rem;
   text-align: left;
-}
-
-tr:hover {
-  background-color: #f9f9f9;
+  border: 1px solid #000; /* Тонкие линии для всех ячеек */
 }
 
 /* Контейнеры и блоки */
