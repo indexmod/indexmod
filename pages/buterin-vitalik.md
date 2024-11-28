@@ -6,15 +6,15 @@ originlang: Rus. / Eng.
 originspell: Original spell
 appearing: Updated / Est. / Born
 city: Moscow
-birth: 1994
-givenname: Vitalik
-familyname: Buterin
-othername: None
+birth: 2018
+givenname: Given name
+familyname: Family name
+othername: Other name
 venue: Red Square
-founder: Founder of Ethereum
-origin: a Russian
-profession: Programmer, founder of Ethereum, and writer based in Europe
-photo: This is a sample for image caption
+founder: Founder
+origin: a / an Russian
+profession: writer based in Europe
+photo: This is sample for image caption
 photographer: Photographer
 source: Source
 photographerurl: index
@@ -41,14 +41,15 @@ pinterest: 0
 
 # Academic interest
 
-A primary interest of Vitalik Buterin lies in studying and exploring the intersection of information theory, cryptography, sociology, epistemology, politics, and economics. He focuses on mechanisms such as prediction markets, cryptoeconomic state machines, security deposits, consumer protection and reputation systems, multi-key personal security architectures, and sampling-and-fallback scalability games.
+A primary interest of Vitalik Buterin in studying and exploring the intersection between theory of information, cryptography, sociology, epistemology, politics and economics, where mechanisms such as prediction markets, cryptoeconomic state machines, security deposits, consumer protection and reputation systems, multi-key personal security architectures and sampling-and-fallback scalability games sit at the core.
 
 # Awards
 
-| Year | Award                      | City          |
-|------|----------------------------|---------------|
-| 2014 | Thiel Fellowship           | Silicon Valley|
-| 2015 | World Technology Award     | London        |
+|Year|Award|City|
+|---|---|
+|2014|Thiel Fellowship|Silicon Valley|
+|2015|World Technology Award|London|
+
 
 # See also
 

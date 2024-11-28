@@ -1,0 +1,147 @@
+---
+permalink: portfolio
+layout: default
+title: Portfolio
+originlang: Rus. / Eng.
+originspell: Original spell
+appearing: Updated / Est. / Born
+city: Moscow
+birth: 2018
+givenname: Given name
+familyname: Family name
+othername: Other name
+venue: Red Square
+founder: Founder
+origin: a / an Russian
+profession: writer based in Europe
+photo: This is sample for image caption
+photographer: Photographer
+source: Source
+photographerurl: index
+sourceurl: index
+shortname: PORTFOLIO
+facebook: 0
+instagram: 0
+youtube: 0
+vimeo: 0
+twitter: 0
+tumblr: 0
+vkontakte: 0
+soundcloud: 0
+pinterest: 0
+---
+
+# Porfolio
+
+# Инфографика
+
+|![](/encyclopedia/images/tempo-1.png)| ![](/encyclopedia/images/tempo-2.png)|
+|--|--|
+|A 001|A 002|
+| A 001 Видео-презентация для конференции| A 002 Видео-презентация для конференции|
+|«Tempo Money Transfer», Москва, 2015|«Tempo Money Transfer», Москва, 2015|
+
+
+
+|![](/encyclopedia/images/oprf-1.png)| ![](/encyclopedia/images/oprf-2.png)|
+|-|-|
+|B 001|002|
+|Инфографика|Инфографика|
+|Общественная палата Российской Федерации, Москва, 2015|Общественная палата Российской Федерации, Москва, 2015|
+
+
+![](/encyclopedia/images/atlas-1.png) ![](/encyclopedia/images/atlas-2.png)
+
+**C 003	 C 004**
+
+*С 003, 004
+Презентация к открытию инновационной клиники
+«Атлас Биомед Груп», Москва, 2014*
+
+# Видео-интервью
+
+![](/encyclopedia/images/bkk-1.png)
+![](/encyclopedia/images/alena-1.png)
+![](/encyclopedia/images/batin-1.png)
+
+
+**D 001	 E 001	 F 001**
+
+*D 001
+Ролик-презентация с фрагментами интервью
+Несколько брендов электронной коммерции, Бангкок, 2014*
+
+*E 001
+Ролик-презентация книги «Парни Москвы»
+Издательство «Капри Паблишинг Лондон», Москва, 2011*
+
+*F 001
+Беседы в «Луче»
+Фонд «Наука за продление жизни», Москва, 2013*
+
+# Арт-директор
+
+![](/encyclopedia/images/spisok-1.jpg)
+![](/encyclopedia/images/spisok-2.jpg)
+![](/encyclopedia/images/spisok-3.jpg)
+![](/encyclopedia/images/spisok-4.jpg)
+
+**G 001	G 002	G 003	G 004**
+
+*G 001 — 004
+Актриса Анита Кравос в макете обложки, шаблоны макетов полос и разворотов Пилотный номер подмосковного альманаха «Список», Москва, 2014*
+
+**H 001	 H 002	 H 003	 H 004	 H 005**
+
+*H 001 — 003
+Концепт макета календаря*
+
+*H 004, 005
+Рендер элементов оформления в Adobe After Effects*
+
+*Всё для физического института имени П. Н. Лебедева, Москва, 2010*
+
+
+
+**I 001	 I 002	 I 003**
+
+*I 001, 002
+Обложки годовых отчётов*
+
+*I 003
+Макет и инфографика для годового отчета*
+
+*АО КБ «Юнистрим», Москва, 2012 — 2013*
+
+# Продюсер
+
+
+ J 001	 J 002	 J 003	 J 004	 J 005
+
+J 001
+Обложки «Мальчики Москвы» из международной серии «Girls of... Boys of...»
+
+J 002
+Фрагмент фото-книги «Мальчики Москвы»
+
+Издательство «Капри Паблишинг Лондон», Москва, 2011
+
+
+J 003, 004
+Афиши конкурса «Лунар-Арх-Прайз»
+
+J 005
+Молодые архитекторы — участники конкурса «Лунар Арх Прайз» на полигоне в Люберцах
+Совместный проект с журналом «Новости космонавтики», Москва 2009 — 2010
+
+Редактор
+
+Съемки, макеты и редактура для раздела «Стиль» в журнале GQ
+ЗАО «Конде Наст», Москва, 2001 — 2004
+
+# Контакты
+
+**Андрей Дейниченко / Andrei Deinichenko**
+
+deinichenko.a@gmail.com
++7 (929) 632-21-32
