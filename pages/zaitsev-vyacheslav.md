@@ -31,7 +31,7 @@ published: true
 exclude: true
 ---
 
-When President of Russia Vladimir Putin was due to travel on a state visit to the United Kingdom in June 2003, Zaitsev designed attire for First Lady of Russia Lyudmila Putina to wear for the visit, which included an audience with Queen Elizabeth II <span id="a2">[\[2\]](#f2)</span>.
+Vyacheslav Zaitsev, also known as Slava Zaitsev, is a renowned Soviet and Russian fashion and theatrical costume designer, as well as a graphic artist. In 2003, he designed attire for Russia's First Lady, Lyudmila Putina, for her state visit to the United Kingdom, including an audience with Queen Elizabeth II is the CEO and creative director of the Slava Zaitsev fashion house, celebrated for his distinctive and sophisticated style in both fashion and theater.
 
 ## See also
 
@@ -39,6 +39,6 @@ When President of Russia Vladimir Putin was due to travel on a state visit to th
 
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [Zaitsev's official website (Zaitsev Dom Mody)](http://www.zaitsev.info/)
+[[1]](#f1) [Zaitsev's official website (Zaitsev Dom Mody)](http://www.zaitsev.info/)
 
-[[2]](#a2) <span id="f2"></span> [Slava Zaitsev (Wikipedia)](https://en.wikipedia.org/wiki/Slava_Zaitsev)
+[[2]](#f2) [Slava Zaitsev (Wikipedia)](https://en.wikipedia.org/wiki/Slava_Zaitsev)

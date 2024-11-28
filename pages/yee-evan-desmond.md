@@ -4,7 +4,6 @@ permalink: yee-evan-desmond
 layout: default
 givenname: Evan Desmond
 familyname: Yee
-othername:
 shortname: YEE
 originlang: Eng.
 originspell: Evan Desmond Yee
@@ -31,26 +30,28 @@ sourceurl: index
 founder: of the Evan Yee Studio
 ---
 
+**Evan Desmond Yee** (b. 1990, Oakland) is an American sculptor and multimedia artist based in New York. Founder of the Evan Yee Studio, his work often examines technology's cultural impact, blending art with digital themes. His 2015 installation, *The App Store*, critiques consumer tech and modern dystopias.
+
 ## Education
 
 + 2013 BFA Sculpture, Pratt Institute
 
 ## Exhibitions
 
-+ 2015 “The App Store”, Fueled Collective
-+ 2015 NEW INC End of Year Showcase, Redbull Studios in collaboration with NEW INC
++ 2015 *The App Store*, Fueled Collective
++ 2015 NEW INC End of Year Showcase, Redbull Studios, in collaboration with NEW INC
 + 2015 StartUp, Gallery 151, in collaboration with Wallplay
-+ 2015 “Chroma is Key” (freedom from the grey), Shelfhaudt Gallery, University of Bridgeport, Bridgeport
-+ 2015 “Human / Nature”, VOHN Gallery
-+ 2015 “The App Store”, Urban Zen Holiday Marketplace, Urban Zen
-+ 2014 “The App Store”, Parrish Roadshow, Parrish Art Museum, Geek Hampton, Sag Harbor
-+ 2013 “No Picture No Name”, Galerie Protégé
-+ 2013 “Showboat”, Schaffler Gallery, Pratt Institute, Brooklyn
-+ 2012 “Born 4 Porn”, Lyons Wier Gallery
-+ 2012 artMRKT Hamptons,  Keyes Art Projects / (Art) Amalgamated, Bridgehampton
++ 2015 *Chroma is Key* (freedom from the grey), Shelfhaudt Gallery, University of Bridgeport, Bridgeport
++ 2015 *Human / Nature*, VOHN Gallery
++ 2015 *The App Store*, Urban Zen Holiday Marketplace, Urban Zen
++ 2014 *The App Store*, Parrish Roadshow, Parrish Art Museum, Geek Hampton, Sag Harbor
++ 2013 *No Picture No Name*, Galerie Protégé
++ 2013 *Showboat*, Schaffler Gallery, Pratt Institute, Brooklyn
++ 2012 *Born 4 Porn*, Lyons Wier Gallery
++ 2012 artMRKT Hamptons, Keyes Art Projects / (Art) Amalgamated, Bridgehampton
 + 2012 Industrial Gallery, presented by Keyes Art Projects, 29 Industrial Rd, Wainscott
-+ 2012 “Presentrapments”, Gallery Bar
-+ 2010 “Catharsis”, Gallery B, Sag Harbor
++ 2012 *Presentrapments*, Gallery Bar
++ 2010 *Catharsis*, Gallery B, Sag Harbor
 
 ## Collectors
 
@@ -67,7 +68,6 @@ founder: of the Evan Yee Studio
 + [Fueled Collective, The](index)
 + [Gallery 151](index)
 + [Nocuous Rift](index)
-
 
 ## Footnotes
 

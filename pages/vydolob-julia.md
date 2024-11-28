@@ -32,15 +32,7 @@ pinterest: 275
 published: true
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
-
-Mrs. Vydolob graduated from the philological faculty of Moscow State University, worked as a journalist and editor in the “Afisha” and on the website afisha.ru, in Look At Me, wrote texts for Vogue, Harper’s Bazaar, Mir, Port, The Business of Fashion magazines.
+Julia Vydolob is a fashion editor based in Moscow. She graduated from Moscow State University’s philological faculty and worked as a journalist and editor at "Afisha" and afisha.ru, Look At Me, and contributed to top magazines like Vogue, Harper’s Bazaar, and The Business of Fashion.
 
 ## See also
 
@@ -50,4 +42,4 @@ Mrs. Vydolob graduated from the philological faculty of Moscow State University,
 
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [Юлия Выдолоб (Moikrug.ru)](https://moikrug.ru/vydolob)
+[[1]](#f1) [Юлия Выдолоб (Moikrug.ru)](https://moikrug.ru/vydolob)

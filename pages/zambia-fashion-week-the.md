@@ -5,7 +5,7 @@ layout: default
 shortname: ZAMBIA
 birth: '2011'
 city: Lusaka
-venue: New Goverment Complex Lusaka
+venue: New Government Complex Lusaka
 facebook: '16155'
 instagram: '0'
 youtube: '0'
@@ -25,6 +25,6 @@ sourceurl: http://essaysofafrica.com/zambia-fashion-week-2017/
 founder: ''
 ---
 
-## See also
+The Zambia Fashion Week (ZFW), established in 2011, is a premier event promoting Zambian arts and fashion. Held annually at the New Government Complex in Lusaka, it showcases local designers and emerging trends in the fashion industry. ZFW plays a key role in shaping the Zambian fashion scene, spotlighting both established and new talents. It has earned recognition for its contributions to African fashion, celebrating Zambia's rich cultural heritage and creative expressions.
 
-+ [{{page.title}} at Wikipedia](https://en.wikipedia.org/wiki/Zambia)
+For more details, visit [Essays of Africa](http://essaysofafrica.com/zambia-fashion-week-2017/).

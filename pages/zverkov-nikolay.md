@@ -33,7 +33,7 @@ soundcloud: 0
 pinterest: 0
 ---
 
-Is a celebrity photographer who stands for 77-th (2016) position at 100 most influential in Russian fashion by SNC edition <span id="a1">[\[1\]](#f1)</span>, working and living in Moscow.
+Nikolay Zverkov is a celebrity photographer, ranked 77th among the 100 most influential figures in Russian fashion in 2016, according to SNC. He is based in Moscow and known for his work in major fashion events like Russian Fashion Week (RFW) and Milan Fashion Week (MFW).
 
 ## See also
 
@@ -43,4 +43,4 @@ Is a celebrity photographer who stands for 77-th (2016) position at 100 most inf
 
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [100 самых влиятельных в русской моде (SNC)](http://www.sncmedia.ru/rating/)
+[[1]](#f1) [100 самых влиятельных в русской моде (SNC)](http://www.sncmedia.ru/rating/)

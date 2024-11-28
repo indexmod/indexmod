@@ -19,13 +19,15 @@ vkontakte: '0'
 venue: Centro de artesanía de Aragón
 origin: Spanish
 profession: fashion event in Zaragoza
-photo: Identity pack "Semana de la Moda, Zaragoza
+photo: Identity pack "Semana de la Moda, Zaragoza"
 photographer: Estudio Mique
 source: Behance
 photographerurl: estudio-mique
 sourceurl: https://www.behance.net/gallery/37053981/Semana-de-la-Moda-Zaragoza
 founder: 'Federación de industrias Textiles'
 ---
+
+Zaragoza Fashion Week, established in 2010, is a key fashion event held at the Centro de Artesanía de Aragón in Zaragoza, Spain. It showcases the latest trends in Spanish fashion and promotes local artisans. The event is organized by the Federación de Industrias Textiles y de la Confección de Aragón (FITCA).
 
 ## Conspectus
 
@@ -44,4 +46,4 @@ founder: 'Federación de industrias Textiles'
 
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [Semana de la Moda, Zaragoza at Federación de industrias Textiles y de la Confección de Aragón, (FITCA)](http://fitca.com/?p=2560)
+[[1]](#f1) [Semana de la Moda, Zaragoza at Federación de industrias Textiles y de la Confección de Aragón, (FITCA)](http://fitca.com/?p=2560)

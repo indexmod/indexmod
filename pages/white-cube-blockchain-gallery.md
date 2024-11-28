@@ -13,7 +13,7 @@ othername: WCBG
 venue: Red Square
 founder: Denis Semenov
 origin: a Russian
-profession: art gallery based in Moscow
+profession: an art gallery based in Moscow
 photo: Denis Semenov, the founder of the White Cube Blockchain Gallery in 2017 (fragment)
 photographer: Unknown author
 source: Facebook
@@ -30,15 +30,10 @@ vkontakte: 0
 soundcloud: 0
 pinterest: 0
 weibo: 0
+published: true
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+The **White Cube Blockchain Gallery** (WCBG), founded in 2018 by Denis Semenov, is a Moscow-based art gallery exploring the intersection of contemporary art and blockchain technology. Known for its innovative exhibitions, WCBG hosted events like "Общество потребления," a unique exhibition set in a supermarket, Auchan Troika Moscow, in January 2019. The gallery represents a growing trend of integrating digital solutions within the art scene, enhancing accessibility and creating new platforms for artistic expression.
 
 ## Сonspectus
 
