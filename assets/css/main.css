@@ -81,15 +81,15 @@ a:hover {
 
 /* Стили для изображений */
 img {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
-  filter: grayscale(90%); /* Черно-белый фильтр */
+  filter: grayscale(50%); /* Черно-белый фильтр */
   margin-bottom: 1rem;
 }
 
 /* Таблицы */
 table {
-  width: 70%; /* Установим ширину таблиц на 70% */
+  width: 90%; /* Установим ширину таблиц на 100% */
   border-collapse: collapse;
   margin-bottom: 1rem;
   border: 1px solid #000; /* Общая рамка */
