@@ -31,8 +31,6 @@ soundcloud: 0
 pinterest: 0
 ---
 
-## Reserve Vintage, La
-
 (Rus. Ла Резерв Винтаж, est. 2013, Moscow) an online store with popups in Moscow and Yekaterinburg. The barand was founded by Anna Yaroshenko in Moscow in 1998 from personal vintage jewelry collection, clothing, and accessories <span id="a1">[\[1\]](#f1)</span>.
 
 ![](/encyclopedia/images/brooch.jpg)
