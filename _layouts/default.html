@@ -6,11 +6,30 @@
   <title>{{ page.title }}</title>
   {% include cover-image.html %}
   {% include meta.html %}
+  {% include cmm.html %}
+  {% include tensorflow.html %}
 </head>
 
 <main>
 <h1>{{ page.title }}</h1>
+
       {{ content }}
+
+## Conspectus
+
+| Year | Highlights                     |
+|------|--------------------------------|
+{% for item in page.conspectus %}
+| {{ item.year }} | {{ item.highlight }} |
+{% endfor %}
+
+## See also
+<ul>
+  {% for item in page.see_also %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+
     </main>
 
   <footer>

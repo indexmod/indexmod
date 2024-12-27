@@ -25,6 +25,13 @@ photographer: Igor Vasiliadis
 source: Indexmod Blockchainpedia
 photographerurl: vasiliadis-igor
 sourceurl: index
+
+see_also:
+  - title: Aberdeen Fashion Week
+    url: aberdeen-fashion-week
+  - title: Acid Noodles
+    url: acid-noodles
+
 ---
 
 
