@@ -4,29 +4,8 @@ permalink: apocalypses
 layout: default
 shortname: APCLS
 givenname: Apocalypses
-familyname:
-othername: Апокалипсисы
-originlang: Rus.
-originspell: Апокалипсисы
-appearing:
 birth: 2023
 city: St. Petersburg
-venue: https://anton-chudya.tilda.ws/
-facebook: '0'
-instagram: '0'
-youtube: '0'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-origin:
-profession:
-photo:
-photographer:
-source: Indexmod
-photographerurl:
-sourceurl:
-founder:
 ---
 
 # My first job (1992) / 私の最初の仕事（1992）
