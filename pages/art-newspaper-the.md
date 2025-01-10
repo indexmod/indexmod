@@ -2,24 +2,8 @@
 title: Art Newspaper, The
 permalink: art-newspaper-the
 layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
 city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname:
+birth: 1983
 ---
 
 The Art Newspaper, est. 1983, Turin—is a is an online and paper publication based in London and New York, provides a news service about the art world, fed by its network of sister editions, which together have around 50 correspondents working in over 30 countries, with editorial offices in London, Turin, New York, Paris, Moscow, Beijing and Athens
