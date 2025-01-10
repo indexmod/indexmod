@@ -19,37 +19,19 @@ photographer: Photographer
 source: Source
 photographerurl: index
 sourceurl: index
-shortname: SHORTNAME
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+shortname:
 ---
-
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
-
 
 The Art Newspaper, est. 1983, Turin—is a is an online and paper publication based in London and New York, provides a news service about the art world, fed by its network of sister editions, which together have around 50 correspondents working in over 30 countries, with editorial offices in London, Turin, New York, Paris, Moscow, Beijing and Athens
 
 # World network openings
 
-Il Giornale dell'Arte (Turin, 1983)
-The Art Newspaper (London, 1990)
-Ta Nea Tes Technes (Athens, 1992)
-Le Journal des Arts (Paris, 1994)
-The Art Newspaper Russia (Moscow, 2012)
-The Art Newspaper China (Beijing, 2013)
++ Il Giornale dell'Arte (Turin, 1983)
++ The Art Newspaper (London, 1990)
++ Ta Nea Tes Technes (Athens, 1992)
++ Le Journal des Arts (Paris, 1994)
++ The Art Newspaper Russia (Moscow, 2012)
++ The Art Newspaper China (Beijing, 2013)
 
 
 # Overview
