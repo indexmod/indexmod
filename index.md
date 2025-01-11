@@ -2,6 +2,7 @@
 title: Indexmod
 exclude: true
 layout: cover
+permalink: index
 ---
 
 + Developed and edited by [Андрей Дейниченко](mailto:indexmod@ya.ru)

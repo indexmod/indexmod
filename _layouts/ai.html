@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: en-US }}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
   {% include meta.html %}
 </head>
 <body>
 <main>
   <h1>{{ page.title }}</h1>
   <br>
-  {% include image.html %}
-  <br>
   {{ content }}
 </main>
-
 <footer>
-  <div class="container"></div>
+<div class="container"></div>
 </footer>
 </body>
 </html>

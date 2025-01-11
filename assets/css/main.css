@@ -40,7 +40,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 6rem; /* Крупный размер по умолчанию */
+  font-size: 4rem; /* Уменьшенный размер по умолчанию */
 }
 
 h2 {
@@ -60,6 +60,11 @@ p, a, ul, ol, li, table {
   text-align: left; /* Выровнять текст по левому краю */
 }
 
+strong {
+  font-weight: 900; /* Жирный шрифт */
+  color: green;     /* Зелёный текст */
+}
+
 /* Списки */
 ul, ol {
   padding-left: 1.5rem;
@@ -71,12 +76,13 @@ li {
 
 /* Ссылки */
 a {
-  color: #000; /* Чёрный текст для ссылок */
+  color: #007acc; /* Голубой цвет для ссылок */
   text-decoration: none; /* Убрано подчёркивание */
 }
 
 a:hover {
-  text-decoration: none; /* Без подчёркивания при наведении */
+  color: #005b8f; /* Темный цвет при наведении */
+  text-decoration: underline;
 }
 
 /* Стили для изображений */
@@ -88,8 +94,13 @@ img {
 }
 
 /* Таблицы */
+.table-container {
+  overflow-x: auto; /* Горизонтальная прокрутка */
+  -webkit-overflow-scrolling: touch; /* Поддержка скроллинга на мобильных устройствах */
+}
+
 table {
-  width: 90%; /* Установим ширину таблиц на 100% */
+  width: 100%; /* Установим ширину таблиц на 100% */
   border-collapse: collapse;
   margin-bottom: 1rem;
   border: 1px solid #000; /* Общая рамка */
@@ -99,6 +110,19 @@ th, td {
   padding: 0.75rem;
   text-align: left;
   border: 1px solid #000; /* Тонкие линии для всех ячеек */
+}
+
+.table-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #999999;
 }
 
 /* Контейнеры и блоки */
@@ -121,56 +145,7 @@ th, td {
   }
 
   h1 {
-    font-size: 5rem;
-  }
-
-  h2, h3 {
-    font-size: 3rem;
-  }
-
-  p, a, ul, ol, li, table {
-    font-size: 1.1rem;
-  }
-
-  .row {
-    gap: 15px;
-  }
-
-  .column {
-    flex: 1 1 calc(50% - 20px); /* Две колонки */
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 95%;
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 4rem; /* Уменьшение на планшетах и мелких экранах */
-  }
-
-  h2, h3 {
-    font-size: 2rem;
-  }
-
-  p, a, ul, ol, li, table {
-    font-size: 1rem;
-  }
-
-  .column {
-    flex: 1 1 100%; /* Одна колонка */
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 5px;
-  }
-
-  h1 {
-    font-size: 3rem; /* Минимальный размер на смартфонах */
+    font-size: 3rem; /* Уменьшить для планшетов */
   }
 
   h2, h3 {
@@ -178,18 +153,27 @@ th, td {
   }
 
   p, a, ul, ol, li, table {
-    font-size: 0.9rem;
-  }
-
-  .row {
-    gap: 10px;
+    font-size: 1.1rem;
   }
 }
 
-/* Футер */
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 1rem; /* Унифицированный размер */
-  color: #000;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem; /* Уменьшить для мобильных телефонов */
+  }
+
+  th, td {
+    font-size: 1rem; /* Уменьшение шрифта внутри таблиц */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem; /* Ещё меньше для маленьких экранов */
+  }
+
+  th, td {
+    font-size: 0.9rem; /* Ещё меньше шрифт внутри таблиц */
+    padding: 0.5rem;
+  }
 }

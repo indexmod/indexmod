@@ -1,32 +1,33 @@
 ---
 title: AES+F  
 permalink: aes+f  
-layout: default  
-originlang: Rus.  
-originspell: АЕС+Ф  
-appearing: Est.  
-city: Moscow  
-birth: 1987  
-givenname: AES  
-othername: АЕС+Ф  
-venue: State Tretyakov Gallery (Moscow)  
-founder: Tatiana Arzamasova, Lev Evzovich, and Evgeny Svyatsky  
-origin: a Russian  
-profession: art group, known for their multimedia installations and global acclaim.  
-photo: AES+F by Egor Zaika for Wallpaper 2012  
-photographer: Egor Zaika  
-source: Aesf.art  
-photographerurl: zaika-egor  
-sourceurl: http://aesf.art/ve-files/0000899.jpg  
-shortname: AES+F  
-facebook: 13353  
-instagram: 17000000  
-
+layout: ai  
 ---
 
+AES+F is a collective of four Russian artists: Tatiana Arzamasova (born 1955), Lev Evzovich (born 1958), Evgeny Svyatsky (born 1957), and Vladimir Fridkes (born 1956)[1][2]. The group was initially formed as AES Group in 1987 by Arzamasova, Evzovich, and Svyatsky, with Fridkes joining in 1995 to complete the current formation[2].
 
+Working across various media, including photography, video, installation, animation, painting, drawing, and sculpture, AES+F is known for creating grand visual narratives that explore contemporary global values, vices, and conflicts[2]. Their work often combines elements from art history, pop culture, and current events to create complex, multi-layered spectacles[4].
 
-AES+F is a Moscow-based Russian art collective formed in 1987, internationally recognized for blending traditional media with digital technologies to create multimedia installations that explore contemporary cultural values and conflicts.
+## Notable Works and Achievements
+
+- **Islamic Project** (1996-2003): A provocative series imagining Western culture under Islamic influence[2].
+- **Last Riot** (2005-2007): A computer-generated animation presenting a dystopian scene[3].
+- **Allegoria Sacra**: This work won several prestigious awards, including the Kandinsky Prize (2012) and the Pino Pascali Prize (2015)[2].
+- **Turandot**: A recent operatic production exploring themes of female authoritarianism and the #MeToo movement[4].
+
+AES+F has exhibited at numerous international festivals and biennales, including Venice, Lyon, Sydney, and Moscow[2]. Their works are featured in major collections worldwide, such as the Centre Georges Pompidou in Paris and the Tretyakov Gallery in Moscow[2].
+
+The collective describes their practice as a form of "social psychoanalysis or collective catharsis," addressing collective fears, anxieties, and desires through their art[4]. Their unique approach and visually striking works have established AES+F as one of the most successful and commercially viable art groups in Russia[5].
+
+Citations:
+[1] https://aesf.art
+[2] https://en.wikipedia.org/wiki/AES+F
+[3] https://www.artnet.com/artists/aesf-group/
+[4] https://www.itsnicethat.com/articles/aes-plus-f-art-230819
+[5] https://ru.wikipedia.org/wiki/%D0%90%D0%95%D0%A1+%D0%A4
+[6] https://www.instagram.com/aesplusf/
+[7] https://www.facebook.com/AESplusF/?locale=en_GB
+
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}.jpg)
 
@@ -53,10 +54,10 @@ AES+F is a Moscow-based Russian art collective formed in 1987, internationally r
 ## Collections and Exhibitions  
 
 | **Venue/Institution**               | **Location**                  |  
-|-------------------------------------|--------------------------------|  
+|-------------------------------------|-------------------------------|  
 | State Tretyakov Gallery             | Moscow                        |  
 | Tate Britain                        | London                        |  
 | Centre Georges Pompidou             | Paris                         |  
 | Museum of Fine Arts                 | La Chaux-de-Fonds, Switzerland|  
-| AGSA / Art Gallery of South Australia | Adelaide                     |  
+| AGSA / Art Gallery of South Australia | Adelaide                    |  
 | MONA                                | Tasmania                      |
