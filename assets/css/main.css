@@ -40,11 +40,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3rem; /* Крупный размер */
+  font-size: 6rem; /* Крупный размер по умолчанию */
 }
 
 h2 {
-  font-size: 2rem; /* Средний размер */
+  font-size: 3rem; /* Средний размер */
 }
 
 h3 {
@@ -121,11 +121,11 @@ th, td {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
 
   h2, h3 {
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
 
   p, a, ul, ol, li, table {
@@ -148,11 +148,11 @@ th, td {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 4rem; /* Уменьшение на планшетах и мелких экранах */
   }
 
   h2, h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   p, a, ul, ol, li, table {
@@ -170,11 +170,11 @@ th, td {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 3rem; /* Минимальный размер на смартфонах */
   }
 
   h2, h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   p, a, ul, ol, li, table {

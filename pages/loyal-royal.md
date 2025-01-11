@@ -33,6 +33,8 @@ pinterest: 0
 
 Loyal Royal (Rus. Лоял-роял) est. in 2012, Moscow—an elegant1 online edition about the modern values of the elite, “which puts the aesthetic and ethical criteria at the top of the editorial material”2 founded by Xenia Ferz. Login to edit Loyal Royal
 
+![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+
 Xenia Ferz—a founder of Royal Loyal in 2014
 Photo: Balance TV / Vimeo
 

@@ -8,7 +8,7 @@ birth: 2023
 city: St. Petersburg
 ---
 
-# My first job (1992) / 私の最初の仕事（1992）
+### My first job (1992)
 
 Anton Chudia, 1992, “My first work”, ballpoint pen, paper, 19.5x60 cm. / アントン・チュディア、1992年、「私の最初の仕事」、ボールペン、紙、19.5x60 cm。
 Anton Chudinov, also known as Chudya, was born in 1979 on Vasilyevsky Island in St. Petersburg, Russia. He graduated from art school and worked as a stylist and makeup artist in Moscow in the 2000s. He was friends with contemporary artists and the metropolitan elite, including Oleg Ognenny, Vlad Monroe, and Arthur Lomakin.
@@ -19,7 +19,7 @@ Chudinov's work is remarkable for its dynamism, energy, and imagination. He capt
 
 The collection offers a unique glimpse into the mind of a young artist with a wild imagination. Chudinov's work is both playful and disturbing, and it challenges viewers to see the world in a new way.
 
-# Highlights from the Collection:
+## Highlights from the Collection:
 
 + My First Job (1992)
 + Robbery (1992)

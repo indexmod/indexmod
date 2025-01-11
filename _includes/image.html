@@ -1,0 +1,5 @@
+{% assign search_query = page.title | uri_escape %}
+{% assign image_url = "https://source.unsplash.com/featured/?fashion," | append: search_query %}
+
+<!-- Вывод изображения -->
+<img src="{{ image_url }}" alt="{{ page.title }}" loading="lazy">
