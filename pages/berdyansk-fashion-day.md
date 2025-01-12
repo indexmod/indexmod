@@ -1,57 +1,34 @@
 ---
 title: Berdyansk Fashion Day
 permalink: berdyansk-fashion-day
-layout: default
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: BERDYANSK
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-(Est. 2016, Berdyansk) is a fashion event in Azov Sea resort founded by Gayane Vardikyan, with Berdyansk's city hall support <span id="a1">[\[1\]](#f1)</span>.
+Berdyansk Fashion Day is a professional fashion event held in Berdyansk, Ukraine. **Key Details**:
 
-![](http://beautiful-lady.com.ua/images/news/2017/05/gajaneGurgen.jpg)
+- **Founder**: Gayane Vardikyan[3][8]
+- **Location**: Panorama Family Hotel in Berdyansk[2]
+- **Event History**:
+  - The event has been running since at least 2016[5]
+  - Notable events include editions in 2017, 2019, and 2021[5][3]
 
-![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+**2021 Event Highlights**:
+- Took place on August 11-12, 2021[3]
+- Featured collaborations like Marianna Yeleiko X Gala Vasenina with the Antispam collection[1]
+- Included performances and shows by designers like Daniil Tkachenko and Pavel Maniukhin[4][6]
 
-**Gayane and Gurgen  Vardikyan**
+**Partnerships and Recognition**:
+- Collaborated with New York Style Guide[8]
+- Tagged official Ukrainian social media accounts, including @olenazelenska_official[7]
 
-*Photo: [Beautiful Lady](/photographer-name-page) / [Beautiful Lady](Beautiful Lady)*
+The event aims to showcase emerging fashion talent and provide a platform for professional fashion presentations in the Berdyansk region.
 
-## Conspectus
-
-|Year|Season|Location|
-|----|-----|---|
-|2016|1||
-|2017|2|Sun Resort|
-|2018|3||
-
-## See also
-
-+ [Berdyansk Marketplace](berdyansk-marketplace)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Организаторы Berdyansk Fashion Day рассказали, чем их не устроили бердянские фотографы (Ирина Дедушева)](http://pro.berdyansk.biz/content.php?id=44420)
+Citations:
+[1] https://www.instagram.com/berdyanskfashion/
+[2] https://www.facebook.com/berdyanskfashionday/
+[3] https://fashionunited.ie/events/Berdyansk-Fashion-Day
+[4] https://www.youtube.com/watch?v=mjAkrVQjV8k
+[5] https://www.youtube.com/playlist?list=PLCRiitgYXNpCfVF6fB7-r66xo-gWJehyB
+[6] https://www.youtube.com/watch?v=FDm2dJI2i-0
+[7] https://www.instagram.com/berdyanskfashion/p/CSSIlBXK_GF/
+[8] https://www.facebook.com/story.php?story_fbid=2756156648021927&id=1611049219199348
