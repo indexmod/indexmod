@@ -7,11 +7,11 @@ url: "https://indexmod.xyz"
 
 github_username: indexmod
 
-# Build settings
 plugins:
   - jekyll-feed
-  - jekyll-autoembed
-  - _plugins/quote-transformer.rb  # Указание на ваш плагин, если нужно явно прописать
+  - jekyll-relative-links
+
+
 
 
 

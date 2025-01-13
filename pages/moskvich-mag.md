@@ -1,36 +1,22 @@
 ---
 title: Moskvich Mag
 permalink: moskvich-mag
-layout: default
-originlang: Rus.
-originspell: Москвич Маг
-appearing: Est.
-city: Moscow
-birth: 2018
-givenname: Moskvich
-familyname:
-othername: Москвич
-venue: Web
-founder: Igor Shulinski
-origin: a Russian
-profession: online magazine about life in Moscow, founded in 2018
-photo: Igor Shulinski a founder of the Moskvich Mag
-photographer: Viktor Nehezin
-source: BBC
-photographerurl: https://www.bbc.com/russian/multimedia/2015/04/150429_v_shulinsky_ptuch
-sourceurl: https://www.bbc.com/russian/multimedia/2015/04/150429_v_shulinsky_ptuch
-shortname: MOSKVICHMAG
-facebook: 3222
-instagram: 786
-youtube: 16
-vimeo: 0
-twitter: 37
-tumblr: 0
-vkontakte: 131
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
+Moskvich Mag is a popular Russian media outlet focused on life in Moscow and beyond. It operates as a magazine and maintains a strong online presence across various social media platforms[1][2][3]. The publication covers a wide range of topics related to Moscow, including city news, cultural events, and lifestyle content.
+
+With 73,000 followers on Instagram and over 6,300 posts, Moskvich Mag has a significant social media following[3]. Their VKontakte page boasts 16,582 subscribers and features 28,028 posts, indicating an active and engaged audience[2]. The magazine also maintains a presence on Facebook and YouTube, where they share various content types, including videos about events in Moscow and discussions about the future of Moscow's restaurants[4][5].
+
+Moskvich Mag's content is primarily in Russian, catering to a Moscow-based and Russian-speaking audience interested in urban life, culture, and current events in the capital city. Their tagline, "О жизни в этом городе и не только" (About life in this city and beyond), suggests a focus on Moscow while also covering broader topics of interest[1].
+
+Citations:
+[1] https://moskvichmag.ru
+[2] https://vk.com/moskvichmag
+[3] https://www.instagram.com/moskvichmag/
+[4] https://www.facebook.com/moskvichmag/?locale=ru_RU
+[5] https://www.youtube.com/@MoskvichMag
+[6] https://yandex.ru/maps/org/moskvich_mag/169995028660/
 
 ![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
