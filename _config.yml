@@ -10,7 +10,7 @@ github_username: indexmod
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-auto-links
+  - jekyll-autoembed
   - _plugins/quote-transformer.rb  # Указание на ваш плагин, если нужно явно прописать
 
 
