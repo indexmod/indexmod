@@ -2,10 +2,11 @@
 title: Adjara Fashion Week
 permalink: adjara-fashion-week
 layout: ai
-image: http://ajaratv.ge/files/photos/Sainformacio/V-ACHARA%20FESHEN%20VIKI%20%20CHRA%203.xmp.mpg_20170724_180654.690.jpg
+image: >-
+  http://ajaratv.ge/files/photos/Sainformacio/V-ACHARA%20FESHEN%20VIKI%20%20CHRA%203.xmp.mpg_20170724_180654.690.jpg
 ---
 
-Adjara Fashion Week is a fashion event held in Batumi, Georgia, featuring multiple days of fashion shows and designer collections. The event typically spans four evenings and involves fashion designers from multiple countries[1][2].
+Adjara Fashion Week — is a fashion event held in Batumi, Georgia, featuring multiple days of fashion shows and designer collections. The event typically spans four evenings and involves fashion designers from multiple countries[1][2].
 
 ## Event Details
 
