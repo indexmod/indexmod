@@ -10,6 +10,8 @@ github_username: indexmod
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-auto-links
+
 
 css:
   - "/assets/css/main.css"

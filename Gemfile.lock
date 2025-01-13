@@ -180,3 +180,5 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.5.23
+
+gem 'jekyll-auto-links'
