@@ -1,35 +1,32 @@
 ---
-title: Vardoui Nazarian
+title: Vardoui Nazarian (brand)
 permalink: vardoui-nazarian
-layout: default
-originlang: Arm.
-originspell: Վարդուհի Նազարյան
-appearing: Est.
-city: Moscow
-birth: 2007
-givenname: Vardoui
-familyname: Nazarian
-othername: VN
-venue: R.E.D., Tsvetnoy, Aizel.ru
-founder: Vardoui Nazarian (Gyumri, 1984)
-origin: a Russian
-profession: women wear brand Armenian origin based in Moscow founded by Vardoui Nazarian in 2007
-photo: VN bird since 2007
-photographer: VN
-source: Facebook
-photographerurl: https://www.facebook.com/Vardoui-Nazarian-147385185279693/
-sourceurl: https://www.facebook.com/Vardoui-Nazarian-147385185279693/
-shortname: VN
-facebook: 1869
-instagram: 2042
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
+
+Vardoui Nazarian is a prominent designer known for her unique fashion collections that draw inspiration from various cultural elements, including the musical heritage of Aram Khachaturian. Her brand focuses on women's clothing, shoes, and accessories, offering a blend of loose-fitting and tailored pieces that cater to contemporary fashion sensibilities.
+
+## Brand Overview
+- **Designer**: Vardoui Nazarian
+- **Inspiration**: Influenced by the musical legacy of Aram Khachaturian.
+- **Product Range**: Women's apparel, footwear, and bags.
+- **Style**: Combines elements such as denim overalls with soft cashmere coats and pastel colors, showcasing a mix of comfort and elegance.
+
+## Online Presence
+Vardoui Nazarian maintains an active presence on social media platforms, including Instagram and Facebook, where she shares her latest collections and fashion insights. Her Instagram account has garnered a following of over 2,400 users, reflecting her growing popularity in the fashion industry[2][3].
+
+## Availability
+Her collections can be found on various online retail platforms, such as VIP Avenue, which offers discounts on her products. This accessibility helps broaden her reach to fashion enthusiasts looking for stylish options at competitive prices[5][8].
+
+Citations:
+[1] https://www.google.com/policies/faq
+[2] https://www.instagram.com/vardouinazarian/
+[3] https://www.facebook.com/p/Vardoui-Nazarian-100063961836723/
+[4] https://www.zoemagazine.net/66157-vardoui-nazarian-ss-2016/
+[5] https://vipavenue.ru/brands/womens/vardoui-nazarian/
+[6] https://www.facebook.com/permalink.php/?story_fbid=794660116009376&id=100063961836723
+[7] https://www.instagram.com/vardouinazarian/?locale=ne_NP&hl=ar
+[8] https://vipavenue.ru/brands/womens/vardoui-nazarian/clothes/
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
@@ -53,9 +50,3 @@ Vardoui Nazarian is a fashion brand created in Moscow by Armenian designer Vardo
 + [Post soviet fashion weeks](post-soviet-fashion-weeks)
 + [Yerevan Fashion Week](yerevan-fashion-week)
 + [Yerevan Fashion Week “Golden Lace”](yerevan-fashion-week-golden-lace)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Клетки и квадраты: 9 артовых образов из летней коллекции Vardoui Nazarian (Graziamagazine.ru)](https://graziamagazine.ru/fashion/kletki-i-kvadraty-9-artovyh-obrazov-iz-letney-kollekcii-vardoui-nazarian)
-
-[[2, 3]](#a2) <span id="f2"></span> [Vardoui Nazarian – перспективный российский дизайнер, создатель одноименного бренда женской одежды (Womanadvice.ru)](https://womanadvice.ru/vardui-nazaryan)
