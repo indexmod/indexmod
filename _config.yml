@@ -11,6 +11,8 @@ github_username: indexmod
 plugins:
   - jekyll-feed
   - jekyll-auto-links
+  - _plugins/quote-transformer.rb  # Указание на ваш плагин, если нужно явно прописать
+
 
 
 css:
