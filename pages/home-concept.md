@@ -1,34 +1,7 @@
 ---
 title: Home Concept
 permalink: home-concept
-layout: default
-shortname: HOMECONCEPT
-originlang: Rus.
-originspell: Хоум Концепт
-appearing: Est.
-city: Moscow
-birth: 2006
-givenname: Home Concept
-familyname:
-othername: HC
-venue: Artplay
-origin: a Russian-British
-profession: furniture concept store inspirited by British vintage style based in Moscow
-photo: British vintage style interiors by Home Concept
-photographer: Ilike Loft
-source: Ilikeloft.ru
-photographerurl: http://ilikeloft.ru
-sourceurl: http://ilikeloft.ru
-facebook: 1545
-instagram: 1954
-youtube: 0
-vimeo: 0
-twitter: 45
-tumblr: 0
-vkontakte: 1252
-soundcloud: 0
-pinterest: 0
-founder: Timothy Oulton, Vadim Yasnogorodsky
+layout: ai
 ---
 
 A furniture concept store inspirited by British vintage style and correspondent to Halo furniture factory.
@@ -54,8 +27,4 @@ Of course, the British accent is present in HC collection strongly enough, HC wi
 ## See also
 
 + [ArtPlay](artplay)
-+ [Halo](halo)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Story)](https://www.facebook.com/pg/homeconceptru/about/?ref=page_internal)
++ [Yasnogorodsky, Vadim](yasnogorodsky-vadim)

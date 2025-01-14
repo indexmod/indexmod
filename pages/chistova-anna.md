@@ -1,44 +1,46 @@
 ---
 title: 'Chistova, Anna'
 permalink: chistova-anna
-layout: default
-originlang: Rus.
-originspell: Анна Чистова
-appearing: Born
-city: Moscow
-birth: 1980
-givenname: Anna
-familyname: Chistova
-othername: Chistova
-venue: Apartement26 / Kuznetsky bridge Str.
-founder: Apartement26
-origin: a Russian
-profession: designer living and working in Moscow
-photo: Anna Chistova, Meglinskaya Gallery, February 24, 2010
-photographer: Alexander Lepeshkin
-source: Flikr
-photographerurl: https://www.flickr.com/photos/lepeshkin/
-sourceurl: https://www.flickr.com/photos/lepeshkin/4499899762
-shortname: CHISTOVA
-facebook: 1590
-instagram: 2288
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Anna Chistova is a Russian actress, costume designer, and fashion professional born on February 15, 1980, in Yekaterinburg, Russia[3][4].
+
+## Professional Career
+
+**Acting and Design Work**
+- She has worked as an actress and costume designer in various films[3][4]
+- Notable film credits include:
+  - Звезда (Star)
+  - Нежность (Tenderness)
+  - Громкая связь (Loud Connection)
+  - Золотое дно (Golden Bottom)
+  - Беспринципные (Unprincipled)
+- She has also been involved in animated projects like Shakespeare: The Animated Tales[6]
+
+**Creative Roles**
+- Fashion Designer
+- Stylist
+- Costume Designer[1][5]
+
+## Personal Details
+- Born: February 15, 1980
+- Birthplace: Yekaterinburg, Russia
+- Currently lives in Moscow, Russia[7]
+
+**Social Media Presence**
+- Instagram: @annachistova (2,482 followers)
+- Facebook: Active since August 2009[1][7]
+
+Citations:
+[1] https://www.instagram.com/annachistova/
+[2] https://www.google.com/policies/faq
+[3] https://www.kinopoisk.ru/name/2004249/
+[4] https://www.imdb.com/name/nm1663093/
+[5] https://www.instagram.com/annachistova/reels/
+[6] https://www.imdb.com/name/nm2164597/
+[7] https://www.facebook.com/anna.chistova.9/
+[8] https://www.linkedin.com/pub/dir/Anna/Chistova
 
 
 (Rus. Анна Чистова, born. 1980, Ekaterinburg) Fashion designer, costume designer, stylist, founder of Apartement26, designer of evening dresses, artist and actress <span id="a1">[\[1\]](#f1)</span>, co-founder ChistovaEndourova brand, founder and owner of [Chistova](chistova-clothes) brand. Anna also known as costume creator and stylist for «Духless» (2005) and «Духless 2» (2015).
@@ -117,19 +119,4 @@ By 2020 Anna’s portfolio consists of more than 20 movies. Her clients are famo
 
 # See also
 
-+ [Gate](gate)
 + [Chistova (clothes)](chistova-clothes)
-+ [Agata Cristi (a Soviet band)](index)
-+ [Духless (the movie)](index)
-
-
-# Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Анна Чистова (КиноПоиск)](https://www.kinopoisk.ru/name/2004249/)
-
-[[2]](#a2) <span id="f2"></span> [Продюсер Елена Чистова (Chistova.info)](http://chistova.info/biografiya)
-
-[[3]](#a3) <span id="f3"></span> [Как Валерия Гай Германика породнила мир кинематографа, рок-музыки и бальных танцев (Woman Hit,
-Alevtina Letopisceva)](http://www.womanhit.ru/stars/interview/2017-09-08-kak-valerija-gaj-germanika-porodnila-mir-kinematografa-rok-muzyki-i-balnyh-tantsev/)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Facebook)](https://www.kinopoisk.ru/name/2004249/)
