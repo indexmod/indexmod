@@ -1,36 +1,36 @@
 ---
-title: Sachkov, Mikhail
-permalink: sachkov-mikhail
-layout: default
-originlang: Rus.
-originspell: Михаил Сачков
-appearing: Born
-birth: 1974
-city: Moscow
-givenname: Mikhail
-familyname: Sachkov
-othername: Mic, Mish, Миш, flockTV!, NKNZN
-venue: Patriki
-origin: a Russian
-profession: multimedia artist working and living in Moscow
-photo: Mikhail Sachkov wearing Turbo Yulia during Bacardi Dancefloor Main Event Disclosure party in Moscow in 2017
-photographer: Dmitry Shumov
-source: Facebook UnityUnity
-photographerurl:
-sourceurl:
-founder: of IIIYM, 4S4R and Super duet
-shortname: SACHKOV
-facebook: 107
-instagram: 743
-youtube: 0
-vimeo: 242
-twitter: 0
-tumblr: 0
-vkontakte: 37
-soundcloud: 127
+title: Sachkov, Mic
+permalink: sachkov-mic
+layout: ai
 ---
 
-## About
+Mic Sachkov (Mikhail Schkov) is a Russian artist and filmmaker born in 1974[2]. He is known for his work in various creative fields, including brand storytelling, media strategy, video production, and immersive experiences[1].
+
+As a filmmaker, Sachkov co-founded 4S4R (Phosphor), a collective of video artists, in 2010[3]. He continues to work in the film industry, creating content for various projects and brands.
+
+Sachkov's artistic repertoire includes:
+
+- Paintings, prints, and sculptures available for sale through art platforms[2]
+- Digital limited edition artworks[4]
+- Live performances, such as his appearance at AVEC on February 8, 2018[5]
+
+He maintains an active presence on YouTube, where he shares various types of content, including:
+
+- Videowalk series featuring cities like Tokyo and Seoul
+- Nightlife and street scenes in 4K resolution
+- Geek culture explorations, such as walks through Akihabara[6]
+
+Sachkov's work often involves interactive installations and digital art productions, as seen in projects like the "M_SLI" launch[8]. His creative endeavors span multiple disciplines, showcasing his versatility as an artist and content creator.
+
+Citations:
+[1] https://www.micsachkov.com
+[2] https://www.artsy.net/artist/mic-sachkov
+[3] https://www.showstudio.com/contributors/mic_sachkov
+[4] https://www.seditionart.com/users/mic-sachkov
+[5] https://www.youtube.com/watch?v=1wMAhDg4pCI
+[6] https://www.youtube.com/c/MicSachkov/channels
+[7] https://www.youtube.com/c/MicSachkov/videos?view=0&sort=dd&shelf_id=0
+[8] https://www.micsachkov.com/creative
 
 Founder of creative association "Super duet", co-founder and art director in 4S4R, one of the first Russian artists began to work in the genre of fashion film, living and working in Moscow.
 
@@ -42,7 +42,7 @@ The night of new media in 2014 was remembered by the bright project of the team 
 
 For the Digital Dreams about Russia, the joint project of the Tretyakov Gallery and RUSAL, who presented 15 works from the museum collection in digital format in Hong Kong in 2015, the 4S4R team created an animation clip for each work.
 
-Since 2017, Mikhail Sachkov works as an independent video art artist. Of the latest projects, it is worth highlighting the audio-visual series for the performance "L'Illusion du Marriage", shown in the main program of the Venice Biennale 2017 in Scuola Grande San Giovanni Evangelista <span id="a2">[\[2\]](#f2)</span>.
+Since 2017, Mikhail Sachkov works as an independent video art artist. Of the latest projects, it is worth highlighting the audio-visual series for the performance "L'Illusion du Marriage", shown in the main program of the Venice Biennale 2017 in Scuola Grande San Giovanni Evangelista.
 
 ## See also
 
@@ -54,9 +54,3 @@ Since 2017, Mikhail Sachkov works as an independent video art artist. Of the lat
 + [Alex Platonov](index)
 + [Alexey Orlov](index)
 + [Super duet](super-duet)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Facebook)](index)
-
-[[2]](#a2) <span id="f2"></span> [MS (Orekhovgallery.com)](http://orekhovgallery.com/artist/4/)
