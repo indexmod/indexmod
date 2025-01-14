@@ -3,7 +3,7 @@ title: Terekhov, Alexander
 date: 2025-01-10
 update:
 layout: ai
-permalink: terekhov-alexander-designer
+permalink: terekhov-alexander
 image:
 ---
 
