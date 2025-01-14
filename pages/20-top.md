@@ -75,7 +75,7 @@ Citations:
 14. [Gazinskaya, Vika](gazinskaya-vika)  
 15. [Chapurin, Igor](chapurin-igor)  
 16. [Osipova, Polina](osipova-polina)  
-17. [Akhmadullina, Alena](akhmadullina-alena)  
+17. [Akhmadullina, Alena](akhmadullina-alena-designer)  
 18. [Yeremkin, Denis](yeremkin-denis)  
 19. [Karput, Olga](karput-olga)  
 20. [Ionova, Natalia](ionova-natalia)  

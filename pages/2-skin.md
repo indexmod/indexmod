@@ -38,17 +38,9 @@ The brand's philosophy combines **style**, **individuality**, and **accessibilit
 - **Web3 Compatibility**: Customers can shop seamlessly without requiring a digital wallet.  
 - **Tokenized Features**: Launching branded tokens for discounts and loyalty programs.
 
-
-## External Links
-
-- **[Shop the collection](http://mashayankovskaya.store)**  
-- **[Elle.ru: 2SKIN + Masha Yankovskaya Collaboration](https://www.elle.ru/krasota/trendy/kollaboraciya-2skin-masha-yankovskaya-id6790788/)**  
-
 ## See Also
 
 + [Masha Yankovskaya](index)
-+ [Pops](pops)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Collaboration: 2SKIN + Masha Yankovskaya (Elle.ru)](https://www.elle.ru/krasota/trendy/kollaboraciya-2skin-masha-yankovskaya-id6790788/)
++ [Collaboration: 2SKIN + Masha Yankovskaya (Elle.ru)](https://www.elle.ru/krasota/trendy/kollaboraciya-2skin-masha-yankovskaya-id6790788/)
++ [Shop the collection](http://mashayankovskaya.store)
++ [Elle.ru: 2SKIN + Masha Yankovskaya Collaboration](https://www.elle.ru/krasota/trendy/kollaboraciya-2skin-masha-yankovskaya-id6790788/)
