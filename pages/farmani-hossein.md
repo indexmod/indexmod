@@ -1,37 +1,33 @@
 ---
-title: 'Farmani, Hossein'
+title: Фармани, Хоссейн
 permalink: farmani-hossein
-layout: default
-originlang: Pers.
-originspell: حسین فرمان
-appearing: Born
-city: Tehran
-birth: 1969
-givenname: Hossein
-familyname: Farmani
-othername: 
-venue: Rooftop Gallery BKK
-founder: of Lucie Awards
-origin: an Iranian
-profession: photographer and collector, founder of the Farmani Group, based in London and Bangkok
-photo: Hossein Farmani
-photographer: Cattleya Jaruthavee
-source: Школа Визуальных Искусств
-photographerurl: jaruthavee-cattleya
-sourceurl: http://schoolva.ru/2015/hossein-farmani/
-shortname: FARMANI
-facebook: 709
-instagram: 2725
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-Иранский фотограф и коллекционер, основатель Группы Фармани [(Farmani Group)](farmani-group), базирующуюся в Лондоне и Бангкоке, основатель премии Lucie Awards, работал с Хельмутом Ньютоном, Ричардом Аведоном, Стивом Маккарри.
+Хоссейн Фармани — выдающийся креативный директор, галерист и куратор выставок, родом из Ирана. Он является основателем и президентом нескольких значимых организаций в мире фотографии, включая **Lucie Awards** в Нью-Йорке, **Focus on AIDS Foundation** и **Farmani Gallery**.
+
+## Ранние годы и образование
+Хоссейн Фармани родился в Тегеране, Иран, в семье рабочего. В детстве он проявил организаторские способности, а после окончания школы переехал в США для изучения кинематографии. Однако его интерес к фотографии стал доминировать, и он получил степень в этой области в Orange Coast College, после чего начал преподавать в Golden West College в Калифорнии[1][2].
+
+## Карьера
+Фармани основал *VUE* — первый модный журнал Лос-Анджелеса, который был издан в 1985 году. Этот успех вдохновил его на создание *Foto-Folio*, который продвигал работы современных фотографов и получил множество наград[2][3]. В 1987 году он также основал **Focus on AIDS Foundation**, которая собирает средства для исследований и помощи людям с ВИЧ/СПИДом[1][2].
+
+В 2003 году Фармани учредил Lucie Awards, которые отмечают достижения в фотографии и поддерживают молодые таланты через стипендии и гранты. Он также активно участвует в организации международных фотофестивалей, таких как Palm Springs Photo Festival и Month of Photography LA[1][3].
+
+## Вклад в искусство
+Фармани известен своей обширной коллекцией фотографии и поддержкой начинающих фотографов. Он активно работает над созданием платформ для обмена опытом между художниками и зрителями через выставки и конкурсы[2][3]. Его деятельность охватывает не только США, но и международные проекты, такие как Prix de la Photographie (PX3) в Париже[3].
+
+Хоссейн Фармани продолжает оказывать значительное влияние на мир фотографии, продвигая искусство и поддерживая важные социальные инициативы.
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Hossein_Farmani
+[2] https://www.farmani.com/hossein/bio.html
+[3] https://farmanigroup.com
+[4] https://www.google.com/policies/faq
+[5] https://www.instagram.com/hfarmani/
+[6] https://www.instagram.com/hfarmani/?locale=ru&hl=am-et
+[7] https://www.photoawards.com/hossein-farmani/
+[8] https://licc.uk/jury/hossein-farmani/
 
 ## Projects
 
@@ -58,8 +54,4 @@ pinterest: 0
 + [Rooftop Gallery](rooftop-gallery)
 + [Винсент Сунг](sung-vinsent)
 + [Urban-a-Liana (2015)](urban-a-liana-2015)
-
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Лекция Хоссейна Фармани — Фотография. Маркетинг и бизнес. (Школа Визуальных Искусств)](http://example.net/article)
++ [Лекция Хоссейна Фармани — Фотография. Маркетинг и бизнес. (Школа Визуальных Искусств)](http://example.net/article)
