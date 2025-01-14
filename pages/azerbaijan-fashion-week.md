@@ -1,35 +1,35 @@
 ---
 title: Azerbaijan Fashion Week
 permalink: azerbaijan-fashion-week
-layout: default
-originlang: Az.
-originspell: Azərbaycan Moda Həftəsi
-appearing: Est.
-city: Baku
-birth: 2015
-givenname: Azerbaijan Fashion Week
-familyname:
-othername: AFW
-venue: Fairmont Baku Flame Towers
-founder: Jalal Askerov, Fashion Consulting Group
-origin: an Azerbaijanian
-profession: fashion event founded by Jalal Askerov in 2015 and held twice in a year in Fairmont Baku Flame Towers
-photo: AFW SS 2018
-photographer: AFW
-source: Instagram
-photographerurl: https://www.instagram.com/p/BbeO_JIhYC5/?taken-by=azerbaijanfashionweek
-sourceurl: https://www.instagram.com/p/BbeO_JIhYC5/?taken-by=azerbaijanfashionweek
-shortname: AZERBAIJAN
-facebook: 4835
-instagram: 7996
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
+
+Azerbaijan Fashion Week (AFW) is a prominent fashion event that showcases the latest trends and talents in the fashion industry, primarily focusing on local designers while also embracing international influences. Here are key details about the event:
+
+## Overview
+- **Event Name**: Azerbaijan Fashion Week (AFW)
+- **Location**: Baku, Azerbaijan
+- **Next Event**: The 17th season is scheduled for December 8-9, 2024, at the Baku Sea Terminal[2][4].
+
+## Key Features
+- **Sustainability Focus**: The upcoming season emphasizes sustainable development by incorporating recycled materials and eco-friendly practices into fashion[4].
+- **Cultural Significance**: AFW serves as a cultural bridge, blending Azerbaijani traditions with modern fashion trends, thereby enhancing the country's appeal as a global fashion hub[1].
+- **Networking Opportunities**: The event brings together designers, industry leaders, influencers, and fashion enthusiasts for runway shows and exclusive events, fostering collaboration and creativity within the fashion community[1].
+
+## Organizational Support
+- The event is supported by several key organizations, including the Azerbaijan Creative Industries Federation and the Azerbaijan Tourism Bureau. These partnerships aim to promote local designers internationally and enhance tourism through cultural showcases[1].
+
+Azerbaijan Fashion Week continues to grow in prominence, positioning Baku as a significant player in the global fashion scene.
+
+Citations:
+[1] https://modepoint.az/bfw.html
+[2] https://www.instagram.com/azerbaijanfashionweek/
+[3] https://www.instagram.com/azerbaijanfashionweek/reels/
+[4] https://www.azernews.az/culture/235107.html
+[5] https://www.facebook.com/AzerbaijanFashionWeek/?profile_tab_item_selected=about
+[6] https://bakufashionweek.com
+[7] https://www.facebook.com/AzerbaijanFashionWeek/?locale=hi_IN
+[8] https://iticket.az/en/events/concerts/azerbaijan-fashion-week
 
 ## Staff
 
@@ -57,9 +57,6 @@ Lana Tigrana is an official representative Azerbaijan Fashion Week in Ukraine. L
 + [Fashion weeks around the world](fashion-weeks-around-the-world)
 + [Kazakhstan Fashion Week](kazakhstan-fashion-week)
 + [Krasnodar Fashion Week](krasnodar-fashion-week)
-+ [Sunrise in Baku Fashion Project](/sunrise-in-baku-fashion-project)
++ [Sunrise in Baku Fashion Project](sunrise-in-baku-fashion-project)
 + [Tbilisi Fashion Week](tbilisi-fashion-week)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Неделя высокой моды Azerbaijan Fashion Week стартовала в Баку (Sputnik.az)](https://ru.sputnik.az/photo/20180518/415389130/azerbaijan-fashion-week-nedelja-mody-foto.html)
++ [Неделя высокой моды Azerbaijan Fashion Week стартовала в Баку (Sputnik.az)](https://ru.sputnik.az/photo/20180518/415389130/azerbaijan-fashion-week-nedelja-mody-foto.html)

@@ -1,37 +1,24 @@
 ---
 title: Baku (magazine)
 permalink: baku-magazine
-layout: default
-originlang: Rus.
-originspell: Баку
-appearing: Est.
-city: Moscow
-birth: 2008
-givenname: Baku
-familyname:
-othername: Журнал «Баку»; LLC "Media Land"
-venue: Moscow, Maly Golovin Lane
-founder: Founder and publisher LLC "Media Land", Leila Aliyeva
-origin: a Russian
-profession: magazine about Azerbaijanis published in Moscow since 2008 by Leila Aliyeva, magazine for all Baku citizens and their friends who live in different parts of the world today
-photo: President of Azerbaijan Ilham Aliyev and First Lady Mehriban Aliyeva in the first issue January 2008
-photographer: Stephan Shakher
-source: Avocado Productions
-photographerurl: shakher-stephan
-sourceurl: avocado-productions
-shortname: BAKU MAG
-facebook: 9884
-instagram: 44200
-youtube: 444
-vimeo: 0
-twitter: 36
-tumblr: 0
-vkontakte: 2389
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-A magazine for all Baku citizens and their friends who live in different parts of the world today <span id="a2">[\[2\]](#f2)</span>. Spread mainly through supermarket chains in Moscow.
+Baku Magazine, launched by Leyla Aliyeva in collaboration with Condé Nast, focuses on **art, culture, conservation, and travel** in Azerbaijan. As of 2025, it continues to highlight the rich cultural tapestry and modern developments within the country. The magazine aims to promote Azerbaijan's heritage and contemporary achievements, making it a notable publication for both locals and international audiences interested in the region[1][5].
+
+In recent issues, Baku Magazine has explored various themes, including the country's architectural evolution and its cultural landmarks. The magazine's editorial direction emphasizes storytelling that connects traditional Azerbaijani culture with modern influences. It serves as a platform for showcasing local artists, culinary experiences, and travel destinations, thereby fostering a deeper understanding of Azerbaijan's identity[1][4].
+
+The magazine also plays a role in the broader context of Baku's rapid urban development. As the city transforms into a hub for tourism and investment, Baku Magazine captures these changes through its articles and features, reflecting on both the opportunities and challenges faced by the nation[2].
+
+Citations:
+[1] https://vk.com/baku_magazine
+[2] https://monocle.com/magazine/issues/37/baku-to-the-future/
+[3] https://www.newsstand.co.uk
+[4] https://www.baku-media.ru
+[5] https://www.instagram.com/bakumag/
+[6] https://artnomono.com/Baku-Magazine
+[7] https://www.instagram.com/baku_magazine/
+[8] https://www.asiaasset.com/post/29127
 
 
 ![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
@@ -48,8 +35,6 @@ A magazine for all Baku citizens and their friends who live in different parts o
 |Design consultant|Eric Jones|
 |Director of PR-service|Rovshan Askerov|
 
-
-
 ## See also
 
 + [Ekaterina Shersheva](shersheva-ekaterina)
@@ -57,9 +42,3 @@ A magazine for all Baku citizens and their friends who live in different parts o
 + [Anna Diulgerova](diulgerova-anna)
 + [Alexei Molchanov](molchanov-alexei)
 + [Avocado Productions](avocado-productions)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Baku-media.ru)](http://baku-media.ru/)
-
-[[2]](#a2) <span id="f2"></span> [{{page.title}} (Vk.com)](https://vk.com/club3423609)
