@@ -1,44 +1,33 @@
 ---
 title: Africa Fashion Week Nigeria
 permalink: africa-fashion-week-nigeria
-layout: default
-originlang: Eng.
-originspell: Africa Fashion Week Nigeria
-appearing: Est.
-city: Lagos
-birth: 2013
-givenname: Africa Fashion Week Nigeria
-familyname:
-othername: Fashion Week Nigeria, Nigerian Fashion Week
-venue: The Lagoon, Ozumba Mbadiwe, Victoria Island
-founder: Ronke Ademiluyi
-origin: a national
-profession: fashion event in Nigeria founded by Ronke Ademiluyi based at Lagos
-photo: Look by Andrea Iyamah
-photographer: AFWN, Andrea Iyamah
-source: Facebook.com
-photographerurl: https://www.facebook.com/Africafashionweeknigeria/photos/a.565953823424401/2336723993014033/?type=3&theater
-sourceurl: https://www.facebook.com/Africafashionweeknigeria/photos/a.565953823424401/2336723993014033/?type=3&theater
-shortname: AFWN
-facebook: 18116
-instagram: 9976
-youtube: 0
-vimeo: 0
-twitter: 3775
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
+Africa Fashion Week Nigeria (AFWN) is a prominent event that celebrates African fashion, culture, and creativity. Founded by Adiree Communications in 2009, AFWN aims to enhance the global development of luxury and mainstream fashion while promoting ethical practices within the industry[1].
+
+### Upcoming Event Details
+- **Dates**: December 6-8, 2024
+- **Location**: Lagos Oriental Hotel, Victoria Island, Lagos
+- **Activities**: The event will feature a variety of activities including runway shows, exhibitions, and summits aimed at showcasing the talents of emerging designers and fostering connections within the fashion industry[6][7].
+
+### Objectives and Impact
+AFWN serves as a platform for designers to gain exposure and connect with international retailers. It emphasizes the importance of bridging gaps between continents and creating opportunities for African designers to thrive in a global market. The initiative also focuses on sustainability and creativity in fashion[1][8].
+
+### Participation
+Designers interested in participating in AFWN can apply through the official website. The application is specifically for designers and exhibitors; general attendees are not eligible to apply[2][4].
+
+For more information about the event and how to get involved, you can visit the official Africa Fashion Week Nigeria website or their social media platforms.
+
+Citations:
+[1] https://africafashionweek.com
+[2] https://africafashionweeknigeria.com/formdesigners/
+[3] https://www.youtube.com/watch?v=X3h3JvoxFBM
+[4] https://africafashionweeknigeria.com
+[5] https://africafashionweeklondonuk.com
+[6] https://www.instagram.com/afwnigeria/
+[7] https://www.instagram.com/afwnigeria/p/DDKKJewgqyb/
+[8] https://www.facebook.com/Africafashionweeknigeria/?locale=en_GB
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
@@ -86,8 +75,4 @@ Africa Fashion week Nigeria a social enterprise that provides a platform to help
 
 + [Nigeria’s Next Top Designer](nigeria-s-next-top-designer)
 + [Fashion weeks around the world](fashion-weeks-around-the-world)
-+ [Ptichka](ptichka)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Africa Fashion Week Nigeria welcomes over 300 models for casting (Pulse.ng)](https://www.pulse.ng/lifestyle/fashion/afwn-2018-africa-fashion-week-nigeria-welcomes-over-300-models-for-casting/jmtt3yj)
++ [Africa Fashion Week Nigeria welcomes over 300 models for casting (Pulse.ng)](https://www.pulse.ng/lifestyle/fashion/afwn-2018-africa-fashion-week-nigeria-welcomes-over-300-models-for-casting/jmtt3yj)

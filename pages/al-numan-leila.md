@@ -1,50 +1,25 @@
 ---
-title: 'Al-Numan, Leila'
+title: Al-Numan, Leila
 permalink: al-numan-leila
-layout: default
-shortname: ALNUMAN
-givenname: Leila
-familyname: Al-Numan
-othername: Лейла Аль-Нуман
-originlang: Rus.
-originspell: Лейла Аль-Нуман
-appearing: Born.
-birth: 1969
-city: Moscow
-venue: Vavilov 65A, House of Artists
-facebook: '0'
-instagram: '0'
-youtube: '0'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-origin: a Russian
-profession: artist, founder art director at the “Alexandria” studio
-photo: Leila Al-Numan at St Petersburg in 2017
-photographer: St. Petersburg State University
-source: Spbu.ru
-photographerurl: http://english.spbu.ru/news/1403-art-university-graduate-a-creator-or-an-artisan
-sourceurl: http://english.spbu.ru
-founder: 'of the “Alexandria” studio'
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
+Leila Al-Numan is a prominent artist known for her work in the field of monumental and decorative art. She graduated from the Moscow State Academic Art Institute named after S.G. Stroganov in 1993, specializing in monumental-decorative and applied arts. Currently, she serves as the chief artist at the Alexandria Studio, where she continues to contribute to the art community through various projects and exhibitions[1][4][7].
 
-In 1993 graduated from S. G. Stroganov Moscow University of Art and Industry (faculty of Monumental Decorative and Applied Arts, Department of Glass). She is the author of more than 500 stained glass works. Leila Al-Numan is a member of Artists’ Union of Russia, International Association of UNESCO Artists. Books, “Stained glass in architecture”, Moscow.
+Her artistic portfolio includes notable works such as stained glass and mosaic pieces, showcasing her expertise in different artistic techniques. Leila's contributions have been recognized within the art world, and she is celebrated for her unique style that blends traditional methods with contemporary themes[1][4].
+
+Citations:
+[1] https://ot-ido.art/u/al-numan-lejla
+[2] https://en.wikipedia.org/wiki/Layla_bint_al-Minhal
+[3] https://es.pinterest.com/elenaleila/
+[4] http://www.tcxp.ru/catalog/dpi/al-numan-leyla-ahmedovna
+[5] https://www.linkedin.com/pub/dir/Leila/Al
+[6] https://x.com/leila_ma
+[7] https://antiqueauction.ru/avtory/al-numan-l
+[8] https://twitter.com/Leila_MA/status/1849212596097777842
 
 ## See also
 
 + [House of Artists on Vavilov 65а](house-of-artists-on-vavilov-65)
 + [Alexandria studio](alexandria-studio)
-
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [(Facebook)](https://www.facebook.com/alexandria.glass.studio/?notif_id=1527024751169651&notif_t=page_invite)
++ [(Facebook)](https://www.facebook.com/alexandria.glass.studio/?notif_id=1527024751169651&notif_t=page_invite)

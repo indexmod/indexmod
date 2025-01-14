@@ -1,43 +1,32 @@
 ---
 title: African Fashion Week Toronto
 permalink: african-fashion-week-toronto
-layout: default
-originlang: Eng.
-originspell: African Fashion Week Toronto
-appearing: Est.
-city: Toronto
-birth: 2013
-givenname: African Fashion Week Toronto
-familyname:
-othername: AFWT
-venue: The Globe and Mail Centre
-founder:
-origin: an international
-profession: fashion event in Toronto
-photo: Models and the design team of the Adebayo Jones showcase pose in a freight elevator at the Design Exchange on August 21
-photographer: Yvano Antonio
-source: Yongemag.com
-photographerurl: https://yongemag.com/african-fashion-week-toronto-2016-ccbaf0a51d01
-sourceurl: https://yongemag.com/african-fashion-week-toronto-2016-ccbaf0a51d01
-shortname: AFWT
-facebook: 0
-instagram: 7999
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
+African Fashion Week Toronto (AFWT) is an annual event that celebrates the richness and diversity of African fashion and culture. The 2024 edition took place from **August 22 to August 25** at Yonge-Dundas Square in Toronto, Canada. This non-profit initiative aims to provide a platform for both established and emerging designers, showcasing their work to a broad audience.
+
+## Highlights of AFWT 2024
+
+- **Student Design & Creative Festival**: Kicking off the week on August 22, this festival highlighted upcoming talent in fashion design. Sponsored by Shark Beauty™, it featured awards for promising students and showcased their innovative designs.
+
+- **Marketplace and Runway Show**: On August 23, Yonge-Dundas Square was transformed into a vibrant marketplace featuring designers from around the world. The day culminated in a high-energy runway show that was open to the public, allowing attendees to experience the cultural significance of African fashion firsthand.
+
+- **Luxury Couture Experience**: The highlight of the week occurred on August 24 at Wychwood Barns, showcasing high-end collections that merged traditional African elements with modern luxury aesthetics. This event attracted fashion enthusiasts and industry leaders alike.
+
+- **Lookbook Day Party**: The event concluded on August 25 with a festive gathering at Spaces Toronto, celebrating the impact of African fashion and bringing together designers, models, and fashion lovers.
+
+AFWT not only emphasizes stunning fashion but also underscores the importance of community, creativity, and cultural expression within the industry. It serves as a significant cultural event in Toronto's calendar, fostering connections among designers and promoting African heritage through fashion[1][2][4].
+
+Citations:
+[1] https://www.weraddicted.com/african-fashion-week-toronto-a-celebration-of-culture-and-fashion/
+[2] https://www.fibre2fashion.com/trade-fairs/african-fashion-week-toronto-2024-63213
+[3] https://www.sankofasquare.ca/calendar/afwt-2024
+[4] https://www.afwt.ca
+[5] https://www.afwt.ca/designers
+[6] https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fafricanfashionweektoronto%2F
+[7] https://www.instagram.com/africanfashionweek/
+[8] https://www.instagram.com/africanfashionweek/reel/C-7u7q2xlHm/
 
 ## See also
 
