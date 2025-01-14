@@ -1,7 +1,7 @@
 title: Indexmod
 email: indexmod@me.com
 description: > # многострочное значение
-  Editor in the GQ editorial in Moscow
+  Editor Andrei Dei indexmod@me.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://indexmod.xyz"
 
@@ -10,10 +10,6 @@ github_username: indexmod
 plugins:
   - jekyll-feed
   - jekyll-relative-links
-
-
-
-
 
 css:
   - "/assets/css/main.css"

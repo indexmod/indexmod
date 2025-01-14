@@ -1,35 +1,21 @@
 ---
-title: 'Michaelson, Victor'
+title: Michaelson, Victor
 permalink: michaelson-victor
-layout: default
-originlang: Rus.
-originspell: Виктор Майклсон
-appearing: Born
-city: Moscow
-birth: 1955
-givenname: Victor
-familyname: Michaelson
-othername: Виктор Майклсон
-venue: RSUH
-founder: of “Communicator” and “Slow Food Ulitka”
-origin: a Russian
-profession: professor, teacher at RSUH, founder of “Communicator” and “Slow Food Ulitka”, Doctor of Political Sciences living and working in Moscow
-photo: Victor Michaelson in 2017
-photographer: Luba Kozorezova
-source: HSE Art And Design School
-photographerurl: kozorezova-luba
-sourceurl: http://design.hse.ru/team/4352
-shortname: MICHAELSON
-facebook: 2328
-instagram: 1786
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 47
-pinterest: 0
+layout: ai
 ---
+
+Victor Michaelson is a notable figure born in September 1955 in Moscow, Russia. He is recognized as a professor and a prominent educator at the Russian State University for the Humanities (RSUH). Michaelson has made significant contributions to the academic field, particularly in political sciences, where he holds the title of Doctor of Political Sciences.
+
+In addition to his academic pursuits, he is the founder of two initiatives: **“Communicator”**, which focuses on communication strategies, and **“Slow Food Ulitka”**, part of the global Slow Food movement that promotes local food cultures and sustainable practices. Michaelson's work reflects a commitment to both education and community engagement, making him a respected voice in his areas of expertise. As of now, he resides in Russia and continues to influence students and peers through his teaching and initiatives [2][4].
+
+Citations:
+[1] https://www.classicposters.com/artist/victor-moscoso/
+[2] https://find-and-update.company-information.service.gov.uk/officers/bl_IrTWGya5K9wKugM5t--l8veQ/appointments
+[3] https://en.wikipedia.org/wiki/Faberg%C3%A9_workmaster
+[4] https://github.com/hanxiaomax/encyclopedia/blob/master/michaelson-victor.md
+[5] https://www.instagram.com/victormichaelson5/
+[6] https://www.facebook.com/sasha.galitsky.1/posts/%D0%BD%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%BB%D1%81%D1%8F-%D0%BD%D0%B0-%D1%82%D1%8B%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA-%D0%BF%D0%BE%D1%81%D1%82-%D0%BE-%D0%B2%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%BC%D1%81%D0%BA-%D0%BC%D0%BE%D0%BB%D1%87%D0%B0-%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%BB-%D0%B2%D1%81%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5/10224254253697661/
+[7] https://www.facebook.com/VovaYarotskiy/?locale=he_IL
 
 ## Family
 
@@ -56,7 +42,4 @@ pinterest: 0
 + [Brewhouse (Mytishchi)](brewhouse-mytishchi)
 + [Cirque du Soleil](cirque-du-soleil)
 + [Slow Food](slow-food)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Виктор Майклсон — Про меня – Сноб (Snob)](https://snob.ru/profile/8149)
++ [Виктор Майклсон — Про меня – Сноб (Snob)](https://snob.ru/profile/8149)
