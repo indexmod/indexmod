@@ -1,6 +1,6 @@
 ---
-title: Akhmadullina, Alena (designer)
-permalink: akhmadullina-alena-brand
+title: Alena Akhmadullina (brand)
+permalink: alena-akhmadullina
 layout: ai
 ---
 
