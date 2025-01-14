@@ -1,44 +1,34 @@
 ---
 title: Hardkea
 permalink: hardkea
-layout: default
-originlang: Rus., Ukr.
-originspell: Хардкея, Хардкеa
-appearing: Est.
-city: Kiev
-birth: 2017
-givenname: Hardkea
-familyname:
-othername: Хардкея
-venue: Elektrozavod
-founder: Kirill Kupin
-origin: an Ukrainian
-profession: brand of concrete-made furniture based in Moscow, founded by Kirill Kupin
-photo: Module a table by Hardkea ₽23000
-photographer: Hardkea
-source: Hardkea.com
-photographerurl: https://hardkea.com/product/14
-sourceurl: https://hardkea.com/product/14
-shortname: HARDKEA
-facebook: 0
-instagram: 1164
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+## Overview of Hardkea
+
+Hardkea appears to be a brand associated with architectural concrete and metal constructions, primarily operating in Moscow, Russia. The brand specializes in custom furniture made from architectural concrete and metal, indicating a focus on durable and aesthetically appealing designs.
+
+### Product Offerings
+- **Furniture**: Hardkea offers a variety of furniture products crafted from architectural concrete, showcasing versatility in design and application.
+- **Custom Solutions**: The brand emphasizes the ability to create bespoke pieces tailored to specific client needs, suggesting a strong commitment to customer satisfaction and unique design.
+
+### Online Presence
+Hardkea maintains an active presence on social media platforms like Facebook and Instagram, where they showcase their projects and products. This engagement likely helps them connect with potential customers and display their portfolio effectively.
+
+### Related Brands
+While not directly related, it's worth noting that other brands such as Härkila focus on hunting apparel and equipment, indicating a diverse market for outdoor and specialized clothing[2]. Additionally, Hard Yakka is known for workwear and safety footwear, highlighting the range of industries that prioritize durable materials similar to those used by Hardkea[3].
+
+For more detailed information about their offerings or specific projects, visiting their social media pages or official website would provide further insights into their work and product range.
+
+Citations:
+[1] https://archello.com/brand/hardkea
+[2] https://harkila.com/en-gb
+[3] https://www.hardyakkaworkwear.co.uk
+[4] https://www.facebook.com/hardkea/
+[5] https://www.instagram.com/hardkea/
+[6] https://www.ebay.co.uk/itm/353997317872
+[7] https://discshop.eu/en/discs/170-rpm-magma-hard-kea
+[8] https://otbdiscs.com/product/magma-hard-kea/
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
