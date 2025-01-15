@@ -30,11 +30,6 @@ Citations:
 [7] https://www.imdb.com/name/nm8005406/
 [8] https://www.instagram.com/agni__ia/
 
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Showreel 2016 (still)**
-
-*Photo: [Agniia Galdanova](https://vimeo.com/187537564) / [Vimeo.com](https://vimeo.com/187537564)*
 
 ## An incident Karetny Ryad 2019
 
@@ -47,11 +42,13 @@ On the night of June 27-28, 2019, two young men attacked and beat the young dire
 |2015|dOP, Berlin|
 |2019|Razbezhkina, Moscow|
 
+
+
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-2.jpg)
 
 **Agniia Galdanova in 2018 wearing the coat by Turbo Yulia**
 
-*Photo: [Masha Lapina](https://indexmod.gq/turbo-yulia) / [Indexmod](https://indexmod.gq/turbo-yulia)*
+*Photo: [Masha Lapina](https://indexmod.xyz/turbo-yulia) / [Indexmod](https://indexmod.xyz/turbo-yulia)*
 
 ## Filmography
 
