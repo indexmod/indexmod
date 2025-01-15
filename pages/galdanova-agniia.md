@@ -68,5 +68,5 @@ On the night of June 27-28, 2019, two young men attacked and beat the young dire
 + [Vandesande, Damien](vandesande-damien)
 + [Agniia Galdanova (Vimeo)](https://vimeo.com/187537564)
 + [Подозреваемых в избиении режиссёра Галдановой задержали в Петербурге (Svoboda.org)](https://www.svoboda.org/a/30035204.html)
-+ Мужчины, напавшие на Агнию Галданову, задержаны полицией (Buro247.ru)](https://www.buro247.ru/news/lifestyle/3-jul-2019-agniya-galdanova-moscow.html)
++ [Мужчины, напавшие на Агнию Галданову, задержаны полицией (Buro247.ru)](https://www.buro247.ru/news/lifestyle/3-jul-2019-agniya-galdanova-moscow.html)
 + [Agniia Galdanova. Director. Costume Designer. Production Designer.  (Imdb.com)](https://www.imdb.com/name/nm8979390/)
