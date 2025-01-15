@@ -1,31 +1,30 @@
 ---
-title: 'Nemchenkova, Valentina'
+title: Nemchenkova, Valentina
 permalink: nemchenkova-valentina
-layout: default
-shortname: NEMCHENKOVA
-givenname: Valentina
-familyname: Nemchenkova
-othername: Валентина Немченкова, Santa Valentina
-birth: '1983'
-city: Sverdlovsk
-venue: Simachev Bar, Ritz Carlton Moscow
-facebook: '2916'
-instagram: '2680'
-originlang: Rus.
-originspell: Валентина Немченкова
-appearing: Born.
-vkontakte: '201'
-soundcloud: '212'
-origin: a Russian
-profession: costume designer, model and DJ. Living and working in Moscow
-photo: Valentina Nemchenkova by Rachel Chandler Guinness for Midland Agency at China Town, Manhattan, New York City
-photographer: Rachel Chandler Guinness
-source: Facebook
-photographerurl: https://www.facebook.com/photo.php?fbid=10211530962375381&set=a.1644315753467.84893.1404071175&type=3&theater
-sourceurl: https://www.facebook.com/photo.php?fbid=10211530962375381&set=a.1644315753467.84893.1404071175&type=3&theater
+layout: ai
 ---
 
-Valentina worked as costume designer <span id="a1">[\[1\]](#f1)</span>, model <span id="a2">[\[2\]](#f2)</span>, stylist <span id="a3">[\[3\]](#f3)</span> and DJ <span id="a4">[\[4\]](#f4)</span>. Today she is living and working in Moscow.
+Valentina Nemchenkova is a multifaceted Russian artist, known for her work as a model, DJ, and musician[1][6]. She performs as a DJ under the alias Santa Valentina, gaining recognition for her eclectic and unpredictable music sets that blend various genres including Italo edits, house, dark electro, and trance[1].
+
+Nemchenkova's career in music began in 2014 in her hometown of Yekaterinburg, Russia, where she worked as a promoter and party host at club Dom Pechati[1]. In 2016, she moved to Moscow and became a resident DJ at the Denis Simachev Bar, as well as a regular performer at St. Petersburg's Tancploshadka and Kuznya House clubs[1].
+
+As a musician, Nemchenkova released an EP titled "Мальчик" (Boy) in 2016, where she recites poetry by famous Russian poetess Anna Akhmatova over dark New Beat rhythms and vintage Fairlight electronics produced by Maxim Nazarov[1]. She has also released other music, including a track titled "Universe Is Mental"[8].
+
+In addition to her music career, Nemchenkova works as a model, represented by Izaio Model Management[3]. She has a significant social media presence, with over 5,000 followers on Instagram[3].
+
+Nemchenkova continues to be active in the music scene, performing live sets and releasing new music. In 2024, she was scheduled to perform at Bar "Sol" in Yekaterinburg on July 29[4].
+
+Citations:
+[1] http://avec.club/malchik
+[2] https://www.facebook.com/valentina.nemchenkova/
+[3] https://www.instagram.com/santavalentina69/
+[4] https://vk.com/nemchenkova_sol
+[5] https://www.youtube.com/watch?v=9oZ7L2DEXUE
+[6] https://soundcloud.com/lunacymodule/ltr63-santa-valentina
+[7] https://www.wonderzine.com/wonderzine/style/garderob_moda/237403-beautiful-valentina
+[8] https://music.apple.com/us/artist/valentina-nemchenkova/1257215201?l=ru
+
+Valentina worked as costume designer <span id="a1">[\[1\]](#f1)</span>, model <span id="a2">[\[2\]](#f2)</span>, stylist <span id="a3">[\[3\]](#f3)</span> and DJ <span id="a4">[\[4\]](#f4)</span>. Today she is living and working in Berlin.
 
 ![(Image correspondent to the article of “{{ page.title }}”. To see an image try another browser!)]({{ site.url }}/images/{{ page.permalink }}-2.jpg)
 
