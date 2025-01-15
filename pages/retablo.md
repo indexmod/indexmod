@@ -1,37 +1,31 @@
 ---
 title: Ретаблос (иконы)
 permalink: retablos
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: РЕТАБЛОС
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-(Ок. 1780, Мексика) религиозные картины в стиле наив, с помощью которых мексиканцы благодарят своих небесных покровителей за удачу в жизни. В 20-м веке появились своеобразные ретаблы с криминальными сюжетами из жизни наркоторговцев <span id="a1">[\[1\]](#f1)</span>.
+Ретаблос — это уникальные иконы, характерные для мексиканской культуры, которые используются для выражения благодарности святым за полученные дары и помощь. Эти изображения часто создаются наркоторговцами и другими людьми, обращающимися к святым с просьбами о защите или удаче в различных жизненных ситуациях.
+
+## **Что такое ретаблос?**
+Ретаблос представляют собой картины с подписями, где люди описывают свои переживания и благодарности. Например, они могут благодарить святых за спасение от опасности или за удачу в бизнесе[1][2]. Эти работы часто содержат элементы народного искусства и отражают местные традиции и верования.
+
+## **Культурное значение**
+Ретаблос являются важным элементом мексиканской духовной жизни. Они служат не только как средство выражения благодарности, но и как форма обращения к высшим силам за помощью в трудные времена. В некоторых случаях эти изображения могут быть довольно эксцентричными, что подчеркивает индивидуальный подход каждого художника[1][4].
+
+## **Процесс создания**
+Создание ретаблос начинается с написания записки художнику, в которой клиент описывает свою историю и то, за что он хочет поблагодарить святого. Затем художник интерпретирует эту историю в визуальной форме, создавая уникальное произведение искусства[2][3].
+
+Таким образом, ретаблос представляют собой не только религиозные артефакты, но и важный культурный феномен, который отражает сложные отношения между людьми и их верой.
+
+Citations:
+[1] https://disgustingmen.com/art/retablos
+[2] https://picturehistory.livejournal.com/5563771.html
+[3] https://knife.media/votives/
+[4] https://dzen.ru/a/W5Aj00bznQCqZxiA
+[5] https://www.pinterest.com/nancyreed7146/retablos/
+[6] https://disgustingmen.com/art/new-retablos/
+[7] https://russianicon.com/ru/icons-retablos-images-of-devotion-at-the-museum-of-russian-icons/
+[8] https://www.pinterest.com/delgado_egea/retablos/
 
 ![(Image correspondent to the article of “{{ page.title }}”. To see an image try another browser!)]({{ site.url }}/images/{{ page.permalink }}.jpg)
 

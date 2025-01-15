@@ -1,44 +1,32 @@
 ---
-title: Rahman, Rahemur
+title: Рахма́н, Раему́р
 permalink: rahman-rahemur
-layout: default
-originlang: Beng.
-originspell: রাহীমুর রাহমান
-appearing: Born
-city: London
-birth: 1990
-givenname: Rahemur
-familyname: Rahman
-othername: Arab. رحيم الرحمن
-venue: 	35 Larson Walk Larson Walk London E14 9HZ
-founder: Founder of Rahemur Rahman Ltd.
-origin: a British-Bangladeshi
-profession: Fashion Design lecturer at UAL and Cambridge School of Visual and Performing Arts, as well as a freelance creative director and has worked on projects such as London Modest Fashion Week
-photo: Rahemur Rahman in 2018
-photographer: Momtaz Begum-Hossain
-source: Asianculturevulture.com
-photographerurl: http://asianculturevulture.com/portfolios/london-fashion-week-men-british-designer-rahemur-rahman-puts-bangladesh-on-the-male-fashion-map-but-not-as-you-know-it/
-sourceurl: http://asianculturevulture.com/portfolios/london-fashion-week-men-british-designer-rahemur-rahman-puts-bangladesh-on-the-male-fashion-map-but-not-as-you-know-it/
-shortname: RAHMAN
-facebook: 176
-instagram: 2650
-youtube: 0
-vimeo: 0
-twitter: 347
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Раему́р Рахма́н (Rahemur Rahman) — британский бенгальский художник и модельер, родившийся в 1990 году в Лондоне. Он известен своими значительными вкладом в британскую бенгальскую диаспору и инновационным использованием традиционных техник бенгальской печати в своем бренде мужской одежды. Рахман стал первым бенгальским модельером, который представил свои работы на Неделе моды в Лондоне в 2019 году и выставил свою коллекцию в Музее Виктории и Альберта в 2022 году[1][2][3].
+
+## Ранние годы
+Рахман вырос в районе Тауэр-Хэмлетс, Лондон. Его отец работал портным в текстильной промышленности, что оказало значительное влияние на его творчество. Вдохновленный наследием своей семьи и культурой Бангладеш, Рахман использует одежду как средство для выражения своей идентичности и культурных корней[1][2].
+
+## Карьера
+Рахман окончил Центральную школу искусств и дизайна Святого Мартина, где его работы сочетали элементы южноазиатской и западной культур. Его первая коллекция "Для людей, мечтающих в цвете" была представлена на Неделе моды в Лондоне и отражала культурную двойственность его семьи[1][2]. В 2020 году он выпустил коллекцию "Дети текстильной торговли", посвященную своему отцу, которая также была признана на международном уровне[1].
+
+## Социальная активность
+Рахман активно участвует в социальных проектах, направленных на поддержку молодого поколения бенгальских художников и сохранение культурного наследия. Он также подчеркивает важность разнообразия и представительства южноазиатских культур в модной индустрии[1][3].
+
+## Признание
+Среди его достижений — финалист премии British Fashion Council's Changemakers "People" в 2021 году и победитель премии Outstanding Achievements Award от British Bangladeshi Fashion Council в 2019 году[1][2].
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Rahemur_Rahman
+[2] https://www.arts.ac.uk/colleges/london-college-of-fashion/people/rahemur-rahman
+[3] https://www.vice.com/en/article/how-to-be-creative-racism-classism/
+[4] https://www.arts.ac.uk/alumni-and-friends/stories/fashion-graduate-brings-bengal-dream-to-london
+[5] https://www.instagram.com/rahemurrahman/
+[6] https://uk.linkedin.com/in/rahemurrahman
+[7] https://www.instagram.com/rahemurrahman/p/CteKY8JNkwb/
+[8] https://www.shutterstock.com/editorial/image-editorial/bangladeshi-london-born-designer-rahemur-rahman-his-design-10101424e
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

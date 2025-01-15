@@ -1,53 +1,27 @@
 ---
 title: Rasiuk, Nina (jeweller)
 permalink: rasiuk-nina-jeweller
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: RASIUK
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
+Nina Rasiuk is a prominent designer and entrepreneur in the jewelry industry. She is the founder of **RANINA Jewelry**, a brand known for its unique designs and craftsmanship. Additionally, she has established **TES MODELS**, showcasing her versatility in the fashion and modeling sectors, where she serves as a creative director and producer[1][5].
 
-(Rus. Нина Расюк) born 1995, Krasnodar, Russian jewelry designer, founder of Ranina brand, illustrator. Nina and her boyfriend living and working in Moscow. Sign in to edit Nina Rasiuk <span id="a1">[\[1\]](#f1)</span>.
+Rasiuk has a background in photography, having worked as a photo editor for **BURO 24/7 Russia**, which highlights her artistic skills beyond jewelry design[1][3]. She is also the CEO and founder of **Proun**, further expanding her influence in the creative industries[1].
 
+Her work reflects a blend of modern aesthetics with traditional craftsmanship, making her a notable figure in contemporary jewelry design. Rasiuk's contributions to the field have garnered attention on various platforms, including social media where she shares insights into her projects and designs[4][6].
 
-Nina Rasiuk in 2012
-Photo: author unknown / Look At M
-
-Twins from Bazaar Russia full horoscope of the 2016 collection
-Graphics: Nina Rasiuk / Bazaar
+Citations:
+[1] https://www.facebook.com/nina.rasiuk/
+[2] https://nina-b.co.uk
+[3] https://www.facebook.com/nina.rasiuk/?locale=ru_RU
+[4] https://ru.pinterest.com/ninarasjuk/
+[5] https://www.facebook.com/tes.models/videos/veronika-backstage/3250573648293619/
+[6] https://www.buro247.ru/fashion/things/20-mar-2018-55-jewelry-first-collection.html
+[7] https://www.linkedin.com/pub/dir/Nina/Rasiuk
+[8] https://www.instagram.com/ninabukvic.jewellery/
 
 # See also
 
 + [Lambada Market](index)
 + [Misak Samokatjan](index)
 + [Ranina](index)
-
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
