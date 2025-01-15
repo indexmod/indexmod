@@ -1,36 +1,26 @@
 ---
-title: 'Belov, Anatoly'
+title: Belov, Anatoly
 permalink: belov-anatoly
-layout: default
-originlang: Ukr.
-originspell: Анатолій Бєлов
-appearing: Born
-city: Kiev
-birth: 1977
-givenname: Anatoly
-familyname: Belov
-othername: Cybele Attis
-venue: PinchukArtCentre
-founder: of Ludska podoba band
-origin: a Ukrainian
-profession: artist, film director shortlisted at National Prize of PinchukArtCentre for young Ukrainian artists (2013)
-photo: Anatoly Belov in 2018
-photographer: Александр Сытников
-source: Facebook.com
-photographerurl: https://www.facebook.com/ANATOLIY.BELOV
-sourceurl: https://www.facebook.com/ANATOLIY.BELOV
-shortname: CYBELEATTIS
-facebook: 4999
-instagram: 1013
-youtube: 309
-vimeo: 21
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
+
+Anatoly Belov, born in 1977 in Kyiv, is a multifaceted Ukrainian artist known for his work as a musician, singer, visual artist, and performer[2][4]. He is a prominent figure in Ukraine's queer art scene and the frontman of the queer band Lyudska Podoba, which he formed in 2012[1][2].
+
+Belov's artistic practice spans various mediums, including graphic design, performance, directing, and music[2]. He has been actively working in contemporary art since 2004[8]. As a musician, Belov performs with the experimental electronic band Lyudska Podoba, which emerged from a desire to address queer themes in pop music at a time when LGBTQI+ visibility was limited in Ukrainian society[1][4].
+
+Throughout his career, Belov has been associated with several Ukrainian artist groups, including 'Penoplast' and 'Emblika Quali'[4][7]. His work often takes the form of musical performances, graphic works, and video pieces[2]. Belov and his band have performed at numerous music events, festivals, and art institutions in Ukraine and internationally, including countries such as Belarus, Russia, Moldova, Austria, Poland, and Germany[1].
+
+In 2018, Lyudska Podoba released their debut album "Volnidorozhkibarashki"[1]. Belov continues to live and work in Kyiv, contributing to the city's vibrant artistic community and advocating for LGBTQI+ visibility through his art[2][5].
+
+Citations:
+[1] https://picklebar.berlin/anatoly-belov,-george-babanski,-lyudska-podoba,-14-march-2024,-performance
+[2] https://ukraineablaze.art/en/artists/anatoly-belov
+[3] https://www.instagram.com/anatoly_belov_/
+[4] https://www.art-collection-telekom.com/en/artists/belov-anatoly
+[5] https://guide.hkw.de/en/ukraine-hkw/anatoly-belov
+[6] https://labirynt.com/2024/03/28/anatoly-belov-toliks-super-art/?lang=en
+[7] https://www.facebook.com/Q21vienna/posts/9021038491240408/
+[8] https://www.vogue.com/photovogue/photographers/152417
 
 Born 1977 in Kyiv, Ukraine, where he currently lives and works. He received degrees from the Republican Taras Shevchenko Art School and the National Technical University of Ukraine. He has been a member of the artists groups R.E.P., Penoplast and Emblika Quali. Belov participated in residencies of the Centre for Contemporary Art founded by George Soros in Kyiv (2005) and the Rotor association for contemporary art in Graz (2009).
 

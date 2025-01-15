@@ -1,31 +1,34 @@
 ---
-title: 'Bordoque, Vladimir'
+title: Bordoque, Vladimir
 permalink: bordoque-vladimir
-layout: default
-shortname: BORDOQUE
-originlang: Ukr.
-originspell: Володимир Бордок
-othername: Vova Bordo
-appearing: Born
-birth: 1982
-city: Dniepropetrovsk
-facebook: '0'
-instagram: '0'
-youtube: '0'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-origin: a Russian and Ukrainian
-profession: artist, journalist, founder the brand "13. 15.", and creative association "Super duet", former Chief Editor of Vconfession online edition, former art director of Air Store in Moscow, DJ, accessories designer, author of fashionable concepts, shop windows decorator, promoter and collector living in Moscow
-photo: Volodia Bordok and his collection, 2014
-photographer: Alena Chandler
-source: Be in
-photographerurl: dei-andrei
-sourceurl: index
-founder: of the brand "13. 15."
+layout: ai
 ---
-(Ukr. Володимир Бордок, also Vova Bordo, born 1982, Dniepropetrovsk) is a Russian and Ukrainian artist, journalist, founder the brand "13. 15.", and creative association "Super duet", former Chief Editor of Vconfession online edition, former art director of Air Store in Moscow, DJ, accessories designer, author of fashionable concepts, shop windows decorator, promoter and collector <span id="a2">[\[2\]](#f2)</span> living in Moscow.
+
+Vladimir Bordoque is a multifaceted artist based in Moscow, Russia. He is known for his work as a stylist, art director, artist, and producer[2][3]. Bordoque describes himself as an "acid baroque dreamer" and is part of the SUPER! duo[2].
+
+On social media, Vladimir Bordoque has a significant presence:
+
+- Instagram: His account @13and15 has over 1,100 followers and nearly 4,800 posts[4].
+- Facebook: He maintains a personal profile, connecting with friends and followers[1].
+
+As an artist, Bordoque is involved in various creative endeavors:
+
+1. Music: He has released tracks on platforms like Beatport, Amazon Music, and Apple Music[6][7][8].
+2. Visual arts: His work can be found on Behance, where he showcases his portfolio as a stylist and art director[3].
+
+Bordoque's most recent musical release is a single titled "Знай Свою Цену" (Know Your Worth), a collaboration with Bazooka Boom, released on June 21, 2024, in the New Age genre[7].
+
+Citations:
+[1] https://www.facebook.com/vladimir.bordoque/
+[2] https://www.instagram.com/13and15/
+[3] https://www.behance.net/vladimibordok
+[4] https://www.instagram.com/13and15/?api=postMessage
+[5] https://www.behance.net/vladimibordok?locale=ru_RU
+[6] https://www.beatport.com/artist/vladimir-bordoque/1209508
+[7] https://music.amazon.co.uk/artists/B073SR1MJY/vladimir-bordoque
+[8] https://music.apple.com/us/artist/vladimir-bordoque/1257189114
+
+(Ukr. Володимир Бордок, also Vova Bordo, born 1982, Dniepro) is a Russian and Ukrainian artist, journalist, founder the brand "13. 15.", and creative association "Super duet", former Chief Editor of Vconfession online edition, former art director of Air Store in Moscow, DJ, accessories designer, author of fashionable concepts, shop windows decorator, promoter and collector <span id="a2">[\[2\]](#f2)</span> living in Moscow.
 
 ## See also
 
@@ -34,7 +37,6 @@ founder: of the brand "13. 15."
 + [13. 15.](13-15)
 + [Cycles and Seasons by MasterCard](cycles-and-seasons-by-master-card)
 + [Super duet](super-duet)
-
 
 ## Footnotes
 

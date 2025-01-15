@@ -1,44 +1,35 @@
 ---
 title: Be-in
 permalink: be-in
-layout: default
-originlang: Rus.
-originspell: Би-ин
-appearing: Est.
-city: Saint Petersburg
-birth: 2007
-givenname: Be-in.ru
-familyname:
-othername: Би-ин
-venue:  
-founder: Alexey Bazhenov
-origin: a Russian
-profession: a web site founded by as a service for finding stores and clothes, as well as an online basket for shopping in the largest online stores in Moscow
-photo: Front page of Be-in.ru in 2018
-photographer: Andrei Dei
-source: Indexmod Blockchainpedia
-photographerurl: dei-andrei
-sourceurl: index
-shortname: BEIN
-facebook: 76918
-instagram: 8279
-youtube: 781
-vimeo: 0
-twitter: 1909
-tumblr: 0
-vkontakte: 217565
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Алексей Баженов - основатель платформы Be-in.ru и Форума новой модной индустрии BE IN OPEN. Он начал заниматься Be-in.ru в 2006 году, создав платформу, посвященную грамотному потреблению моды[1][3].
+
+Баженов имеет филологическое образование, окончив филологический факультет СПбГУ[2]. Его проект Be-in.ru изначально совмещал независимый журнал и сервис для поиска одежды и магазинов. Со временем журнал стал более независимым и манифестирующим, что привело к разделению проектов[2].
+
+## Развитие проектов
+
+- BE IN OPEN: Форум новой модной индустрии, впервые проведенный в 2015 году в Санкт-Петербурге, а затем перенесенный в Москву[2].
+- Beinopen Films: Фестиваль, который в 2021 году охватил 20 городов[2].
+- "Выставка бизнесов и марок": Проводится ежегодно с 2020 года[2].
+- "Гастроли": Проект, включающий лекции и знакомство с людьми по всей стране[2].
+
+## Философия и миссия
+
+Баженов стремится реформировать систему моды в России, создавая новый язык для индустрии. Он подчеркивает важность команды и сообщества, отказываясь от выделения фигуры лидера[2]. Его цель - объединить легкую промышленность, креативную индустрию и ритейл под общим названием "индустрия моды"[2].
+
+BE IN OPEN ставит своей задачей объединение индустрии и поиск новых связей внутри нее. Форум предоставляет платформу для обмена опытом и создания партнерств между различными сегментами fashion-индустрии[1].
+
+Citations:
+[1] https://new-retail.ru/persony/aleksey_bazhenov_osnovatel_be_in_ru_my_uzhe_skopirovali_vse_chto_mozhno_i_teper_nachinaem_iskat_samo4924/
+[2] https://www.sobaka.ru/fashion/heroes/115250
+[3] https://design.hse.ru/news/4013
+[4] https://www.google.com/policies/faq
+[5] https://www.instagram.com/abajenov2/
+[6] https://beinopen.ru/article/interview_bazhenov_wearnet_hybrid_fashion
+[7] https://m.sobaka.ru/fashion/heroes/150995
+[8] https://www.youtube.com/watch?v=by1JYggMlFc
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

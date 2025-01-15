@@ -1,43 +1,25 @@
 ---
 title: Bionica Show, the
 permalink: bionica-show-the
-layout: default
-originlang: Rus.
-originspell: Бионика (шоу)
-appearing: Est.
-city: Moscow
-birth: 2006
-givenname: Bionica
-familyname: Show, the
-othername: Бионика
-venue: World Economic Forum in Davos
-founder: Haik Simonyan and Fedor Dodonov
-origin: Russian
-profession: performance & dance theatre based on natural philosophy and Buddhism, founded by Haik Simonyan and Fedor Dodonov
-photo: The Bionica Show emblem
-photographer: Fedya&Haik
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: BIONIKA
-facebook: 1100
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
-is a Luxurious Performance & Dance Theatre based on natural philosophy and Buddhism. These stunning and unique stories are told through the eyes of visionary designers Haik Simonyan and Fedor Dodonov. Their conceptual costumes and magical music will amaze and transport viewers to places only found in the imagination.
 
-Haik and Fedor have masterfully created a mystical world inhabited by characters that take you on a fantastic adventure to a wonderland of galaxies and worlds unknown. Along with suggestive melodies, dances and models able to seduce with their gestures, designers have given birth to a real theatrical performance.
+The Bionica Show is a luxurious Performance & Dance Theatre based in Moscow, Russia. Founded in the summer of 2006, the show incorporates elements of natural philosophy and Buddhism into its performances[1]. The Bionica Show is known for its elaborate and visually stunning productions, including performances such as the "Russian Dolls" dance, which is set to Igor Stravinsky's "The Firebird" ballet music[7][8].
 
-Their brilliant designs are all rigorously produced in Russia and processed at their atelier in Moscow. Natural materials like textile, leather, and wool are used to create the visually stunning and intricate detail while artificial materials are used only to create the frames and skeletons of the more structures dresses.
+As of January 2025, the Bionica Show continues to be active, with an online presence on various social media platforms. They have a Facebook page with over 1,000 likes[5] and an Instagram account with 138 followers and 71 posts as of the last available data[6].
 
-The Bionica Show performances have been seen at events across Russia and internationally including The Alternative Hair Show (Los Angeles, London, Moscow), APEC-2012 Vladivostok, World Economic Forum in Davos, and other corporate and private events all over the World <span id="a2">[\[2\]](#f2)</span>.
+The show's performances blend traditional Russian cultural elements with modern dance and theatrical techniques, creating a unique and captivating experience for audiences. Their "Russian Dolls" performance, for example, likely draws inspiration from the iconic matryoshka dolls while incorporating contemporary dance movements and music.
+
+Citations:
+[1] https://bionicashow.ru
+[2] https://en.wikipedia.org/wiki/The_Bionic_Woman
+[3] https://www.imdb.com/title/tt0073965/
+[4] https://www.imdb.com/title/tt0880557/
+[5] https://www.facebook.com/bionicashow/
+[6] https://www.instagram.com/bionicashow/
+[7] https://bionicashow.ru/russian-dolls/
+[8] https://www.youtube.com/watch?v=2mRK225l3f0
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
@@ -74,7 +56,3 @@ The Bionica Show performances have been seen at events across Russia and interna
 + [Andrey Bartenev](bartenev-andrey)
 + [Vita Buivid](buivid-vita)
 + [Haik Symonyan ](haik-simonyan)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [(Bionicashow.ru)](http://bionicashow.ru/)

@@ -1,35 +1,32 @@
 ---
 title: Buro 24/7
 permalink: buro-24-7
-layout: default
-originlang: Rus.
-originspell: Бюро 24/7
-appearing: Est.
-city: Moscow
-birth: 2011
-givenname: Buro 24/7
-familyname:
-othername: Buro247.ru
-venue: Trekhgornaya manufactura
-founder: Fira Chilieva
-origin: a Russian
-profession: web-site founded for fashion, culture, lifestyle, entertainment and beauty news
-photo: Fira Chilieva the founder of Buro 24/7
-photographer: Audi Press
-source: GQ
-photographerurl: https://www.gq.ru/person/torzhestvennyj-zavtrak-v-chest-novogo-glavy-audi-rossiya
-sourceurl: https://www.gq.ru/person/torzhestvennyj-zavtrak-v-chest-novogo-glavy-audi-rossiya
-shortname: BURO247
-facebook: 180964
-instagram: 332000
-youtube: 11251
-vimeo: 0
-twitter: 13800
-tumblr: 0
-vkontakte: 81722
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
+
+BURO. is an independent online media platform focused on fashion, beauty, culture, and society. Founded in 2011, it has grown into an international media company with online editions in 11 countries across four continents[2].
+
+## Key Characteristics
+- **Media Focus**: Modern lifestyle, covering trends in fashion, beauty, culture, business, and social phenomena[1][2]
+- **Global Presence**: Operates online media platforms in multiple countries
+- **Unique Positioning**: Described as the first successful media brand originating in Russia and becoming popular internationally[2]
+
+## Notable Initiatives
+- **Buro Fashion Forward Initiative** (2014): A program dedicated to discovering young talented designers[2]
+- **BURO. Beauty Kit** (2018): A digital beauty project offering independent industry ratings[2]
+- **BURO. Shopping Festival** (2019): Seasonal event featuring discounts from concept stores and partner brands[2]
+- **BURO. New Cool** (2020): A festival exploring current trends in technology, fashion, music, and art[2]
+
+The platform aims to inspire its audience, cultivate taste, curate valuable information, and support emerging talents across various creative industries[2].
+
+Citations:
+[1] https://m.buro247.ru
+[2] https://www.buro247.ru/about
+[3] https://buro247.me
+[4] https://www.instagram.com/buro247ru/
+[5] https://www.instagram.com/buro.london/
+[6] https://www.facebook.com/Buro247/?locale=ru_RU
+[7] https://uk.bookshop.org/shop/buro247london
 
 Site also publishing profiles, expert advicees, reportages. In 2016, the brand has expanded to a number of regions including Croatia, Ukraine, Kazakhstan, Azerbaijan, Middle East, Turkey and Australia. Buro 24/7 belongs to Polina Deripaska, publishing house Forward Media Group publishes Hello magazines and "Interior + Design". Several years ago, Oleg Deripaska bought this ID for his wife. They no longer have a joint business, Polina Deripaska is the sole owner of the ID.
 

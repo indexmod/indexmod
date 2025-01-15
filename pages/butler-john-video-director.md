@@ -1,69 +1,24 @@
 ---
-title: 'Батлер, Джон (режиссёр)'
+title: Батлер, Джон (режиссёр)
 permalink: butler-john-director
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: БАТЛЕР
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
+John Butler - это видео-артист, работающий с виртуальной реальностью[4]. Он сотрудничает с Crate Studio в Маргейте для создания инсталляции виртуальной реальности для предстоящей выставки.
 
-![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+Хотя в предоставленных результатах поиска нет прямой информации о учетной записи Vimeo с девизом "Человеческая полезность, в эпоху искусственного безразличия" или о серии научно-фантастических видео об искусственном интеллекте, эта информация может относиться к творческой деятельности John Butler в области виртуальной реальности и цифрового искусства.
 
-**Image caption**
+Важно отметить, что существуют и другие известные люди с именем John Butler, включая музыканта John Butler Trio[2] и макроэкономического стратега John Butler из Wellington Management[1], но они, вероятно, не связаны с упомянутой вами учетной записью Vimeo и работой в области виртуальной реальности.
 
-*Photo: [Not specified](index) / [Source](index)*
-
-## Сonspectus
-
-|Year|City|
-|-|-|
-|2017|Moscow <span id="a2">[\[2\]](#f2)</span>|
-
-## See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Wikipedia)](index)
-
-[[2]](#a2) <span id="f2"></span> [{{page.title}} (Source name)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-[[6]](#a6) <span id="f6"></span> [{{page.title}} (Twitter)](index)
+Citations:
+[1] https://www.wellington.com/en/experts.expert/john-butler
+[2] https://hlamer.ru/video/267374-Virtuoznaya_igra_na_gitareJohn_Butler_Trio-Ocean
+[3] https://www.google.com/policies/faq
+[4] https://isodesign.co.uk/vr-installation-at-crate-studio
+[5] https://twitter.com/johnnypez
+[6] https://noi.md/ru/raznoe/84-letnij-muzhchina-stal-zvezdoj-na-youtube
+[7] https://kinogo.ec/directors/92738-dzhon-batler.html
+[8] https://nevsedoma.com.ua/353938-avstraliec-dzhon-batler-istinnyy-chelovek-orkestr.html
 
 
 (Англ. John Butler) это имя учетной записи и псевдоним в видеохостинге Vimeo с девизом «Человеческая полезность, в эпоху искусственного безразличия» <span id="a1">[\[1\]](#f1)</span>, который принадлежит, предположительно, человеку с псевдонимом или с настоящим именем Джон Батлер, видео-артисту работающему с виртуальной реальностью <span id="a3">[\[3\]](#f3)</span>, автору музыки и создателю серии сверхкоротких научно-фантастических видео эпизодов затрагивающих темы искусственного интеллекта и людей в будущем.

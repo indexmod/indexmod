@@ -1,38 +1,31 @@
 ---
 title: Bring your own beamer
 permalink: bring-your-own-beamer
-layout: default
-originlang: Eng.
-originspell: Bring Your Own Beamer
-appearing: Est.
-city: Berlin
-birth: 2010
-givenname: Bring your own beamer
-familyname: null
-othername: BYOB
-venue: Worldwide
-founder: 'Rafaël Rozendaal, Anne de Vries'
-origin: an international movement
-profession:
-  of a series of one-night-exhibitions curated by different people around the
-  world
-photo: Bring Your Own Beamer at Yeltsin Center Art Gallery in Yekaterinbur in 2017
-photographer: Lubov Kabalinova
-source: Yeltsin.ru
-photographerurl: 'https://yeltsin.ru/news/videoart-tehnologii-i-iskusstvo/'
-sourceurl: 'https://yeltsin.ru/news/videoart-tehnologii-i-iskusstvo/'
-shortname: BYOB
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 307
-soundcloud: 0
-pinterest: 0
-published: true
+layout: ai
 ---
+
+BYOB (Bring Your Own Beamer) is a series of one-night exhibitions where artists showcase their work through projections[1][4]. Conceived by net-art visionary Rafaël Rozendaal, these events are immersive, spontaneous, and always surprising[1][5].
+
+The concept is simple:
+1. Find a venue
+2. Invite multiple artists
+3. Ask them to bring their own projectors (beamers)[4]
+
+BYOB events are free, inclusive, and require minimal budget[3][4]. They explore the medium of projection and serve as a playground for artists working with video art, generative art, and various forms of digital creativity[1][4].
+
+These exhibitions have become popular worldwide, with approximately 350 BYOB events held in cities across the globe[4]. They often take place in diverse settings, from museum lawns to community spaces, attracting both participants and picnicking audiences[2].
+
+BYOB events are open to various forms of projection, including video, film, overhead projectors, and slides[2]. They offer a democratic platform for artists to share their work and for audiences to experience a unique, collaborative artistic environment[1][3].
+
+Citations:
+[1] https://grayarea.org/event/bring-your-own-beamer/
+[2] https://www.menil.org/events/4089-byob-bring-your-own-beamer
+[3] https://www.awesomefoundation.org/en/projects/19979-byob-bring-your-own-beamer
+[4] https://www.byobworldwide.com
+[5] https://www.instagram.com/wearesubset/p/C68F7xCujhk/
+[6] https://www.stroudfilmfestival.org/events-2020-1/2020/3/28/byob-bring-your-own-beamer-projector
+[7] https://moha.wiki/Bring_Your_Own_Beamer
+[8] https://www.aurorapictureshow.org/programs/byob2023
 
 BYOB is a way of making a big exhibition with zero budget. It is an exploration of the medium of projection.
 

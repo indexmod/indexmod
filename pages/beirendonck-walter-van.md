@@ -1,44 +1,20 @@
 ---
-title: Beirendonck, Walter Van
+title: Бейрендонк, Вальтер Ван
 permalink: beirendonck-walter-van
-layout: default
-originlang: Hol.
-originspell: Walter Van Beirendonck
-appearing: Born
-city: Brecht
-birth: 1957
-givenname: Walter
-familyname: Van Beirendonck
-othername: Walter
-venue: Schuttershofstraat 9, Antwerp
-founder: of Walter Van Beirendonck
-origin: a Belgian
-profession: fashion designer founder of Walter Van Beirendonck brand in 1983 in Antwerp, Belgium
-photo: Walter on stage during Walter Van Beirendonck Spring Summer 2019 show
-photographer: FF Channel
-source: PFW
-photographerurl: https://www.youtube.com/watch?v=17sab1I3SZs
-sourceurl: https://www.youtube.com/watch?v=17sab1I3SZs
-shortname: WVB
-facebook: 27817
-instagram: 28900
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Вальтер Ван Бейрендонк (Beirendonck, Walter Van) — это культовый бельгийский модельер и дизайнер[1]. Его имя по-русски пишется как "Вальтер Ван Бейрендонк"[1][3]. Он известен своими авангардными коллекциями одежды и аксессуаров, которые можно приобрести в различных онлайн-магазинах[3][4]. Вальтер Ван Бейрендонк также имеет официальный аккаунт в Instagram, где представляет свои работы[5].
+
+Citations:
+[1] https://air-moscow.com/collection/walter-van-beirendonck-2
+[2] https://www.google.com/policies/faq
+[3] https://www.giglio.com/rus/walter-van-beirendonck/
+[4] https://www.yoox.com/ru/%D0%B4%D0%BB%D1%8F%20%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD/shoponline/walter%20van%20beirendonck_d
+[5] https://www.instagram.com/waltervanbeirendonckofficial/
+[6] https://www.giglio.com/rus/clothing-men_suit-walter-van-beirendonck-8036combiii.html?cSel=005
+[7] https://ru.forvo.com/word/walter_van_beirendonck/
+[8] https://www.ssense.com/en-gb/men/designers/walter-van-beirendonck
 
 ## See also
 

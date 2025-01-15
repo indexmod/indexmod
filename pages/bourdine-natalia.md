@@ -1,34 +1,7 @@
 ---
 title: Bourdine, Natalia
 permalink: bourdine-natalia
-layout: default
-originlang: Rus.
-originspell: Наталья Бурдина
-appearing: Born
-city: Slonim
-birth: 1975
-givenname: Natalia
-familyname: Bourdine
-othername: Natalia Senko
-venue:
-founder: of Relooking
-origin: a Russian
-profession: journalist, product manager, media manager, founder of the Relooking site
-photo: Natalia Bourdine in 2018
-photographer: Unknown
-source: Nataliaburdina.ru
-photographerurl: https://www.nataliaburdina.ru/
-sourceurl: https://www.nataliaburdina.ru/
-shortname: BOURDINE
-facebook: 3981
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
 
 

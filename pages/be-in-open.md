@@ -1,34 +1,24 @@
 ---
 title: Be In Open
 permalink: be-in-open
-layout: default
-shortname: BEINOPEN
-indexmod: Indexmod
-birth: '2016'
-age: '3'
-updateyear: '2018'
-city: Saint Petersburg
-facebook: '1473'
-instagram: '16100'
-youtube: '393'
-originspell: Би-Ин-Опен
-appearing: Est.
-facebook: '0'
-instagram: '0'
-youtube: '0'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-origin: Russian
-profession: fashion event in Moscow
-photo: Be In Open 2017
-photographer: Youlia Kalmykova
-source: District-f.org
-photographerurl: https://district-f.org/2017/06/07/be-in-open-2017/
-sourceurl: https://district-f.org/2017/06/07/be-in-open-2017/
-founder: Be-in (site) and Alexey Bazhenov
+layout: ai
 ---
+
+Be In Open is a significant event in the fashion industry, organized as a forum that brings together professionals to discuss and explore various aspects of the fashion market. The most recent iteration, the Beinopen Forum 2023, took place on December 1-2, 2023, at the Хлебозавод (Bread Factory) in Moscow. This event featured lectures from industry practitioners, case studies from business club members, and workshops focusing on branding, production, marketing, and sales challenges in the fashion sector[4][6].
+
+The forum aims to foster connections among participants in a relaxed atmosphere, allowing for networking opportunities with industry leaders, including directors from Turkish factories. It serves as a platform for discussing pressing issues and trends affecting the fashion industry over the past year[4][5].
+
+In addition to the forum, Хлебозавод itself is a vibrant urban space that hosts various events throughout the year, including markets, exhibitions, and cultural activities. It is designed for leisure and shopping, offering visitors a chance to engage with local brands and enjoy community events[2][3].
+
+Citations:
+[1] https://beinopen.ru
+[2] https://hlebozavod9.ru/events/leto-na-hlebozavode
+[3] https://hlebozavod9.ru/events
+[4] https://beinopen.ru/magazine/tpost/3rakr8s221-forum-modnoi-industrii-beinopen-2023
+[5] https://www.instagram.com/hlebozavod9/p/C-2YwCpiAie/
+[6] https://www.facebook.com/events/%D1%85%D0%BB%D0%B5%D0%B1%D0%BE%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4/%D1%84%D0%BE%D1%80%D1%83%D0%BC-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BC%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D0%B8%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B8-be-in-open-2018/145112739501242/
+[7] https://hlebozavod9.ru/events/letnjaja-smena-vtoraja-vystavka
+[8] https://www.facebook.com/story.php/?story_fbid=1766581076876356&id=100068308374942
 
 ## Сonspectus
 
