@@ -1,42 +1,54 @@
 ---
 title: Australian Fashion Chamber
 permalink: australian-fashion-chamber
-layout: default
-originlang: Eng.
-originspell: Australian Fashion Chamber
-appearing: Est.
-city: Sydney
-birth: 2004
-givenname: Australian Fashion Chamber
-familyname: Family name
-othername: Australian Fashion Council (AFC)
-venue: Sydney
-founder: Founder
-origin: a National
-profession: not-for-profit organization established to promote and develop Australian fashion design locally and internationally
-photo: Australian Designers Abroad showroom to debut in New York in 2017
-photographer: Australian Fashion Chamber
-source: Australian Fashion Chamber
-photographerurl: australian-fashion-chamber
-sourceurl: australian-fashion-chamber
-shortname: AUSTRALIA
-facebook: 2317
-instagram: 11300
-youtube: 7
-vimeo: 0
-twitter: 1790
-tumblr: 0
-vkontakte: 0
-soundcloud: 6
-pinterest: 185
+layout: ai
 ---
 
-A not-for-profit organization established to promote and develop Australian fashion design locally and internationally <span id="a1">[\[1\]](#f1)</span>.
+The **Australian Fashion Chamber (AFC)** is a pivotal organization dedicated to supporting and promoting the Australian fashion and textile industry. Established in July 2014, it serves as a representative body for designers and fashion professionals across the nation. The AFC aims to nurture local talent, enhance business opportunities, and facilitate international success for Australian designers.
+
+## Objectives and Structure
+
+The AFC's primary goals include:
+
+- **Strengthening the Fashion Industry**: The AFC advocates for a vibrant and sustainable fashion ecosystem, focusing on innovation and resilience.
+- **Support for Designers**: By providing resources, networking opportunities, and industry insights, the AFC helps emerging and established designers thrive both locally and abroad.
+- **Collaboration with Stakeholders**: The organization connects various stakeholders in the fashion sector, including manufacturers, retailers, and educational institutions, to foster a collaborative environment.
+
+The AFC operates as a not-for-profit membership organization, drawing members from all segments of the fashion value chain. This diverse membership allows the AFC to effectively champion the interests of the industry at various levels of government and business[2][3][4].
+
+## Leadership
+
+The AFC is guided by a board composed of prominent figures in the fashion industry, including:
+
+- **Edwina McCann** - Chair & Editor-in-Chief of Vogue Australia
+- **Kellie Hush** - Deputy Chair & Editor of Harper's Bazaar Australia
+- **Alicia Kemp** - Executive Director at AMP Capital Shopping Centres
+- **Alison Veness** - Executive Director & Editor of 10 Magazine Australia
+
+These leaders bring extensive experience from various fields such as media, finance, law, and design, contributing to the AFC's strategic direction[2][3].
+
+## Economic Impact
+
+The Australian fashion industry is a significant contributor to the national economy, valued at approximately $12 billion and employing over 220,000 people across design, manufacturing, wholesale, and retail sectors. The AFC plays a crucial role in advocating for policies that support this economic footprint[1][3].
+
+## Conclusion
+
+Through its comprehensive approach to advocacy, support for local talent, and collaboration with industry stakeholders, the Australian Fashion Chamber strives to create a prosperous future for Australian fashion on both local and international stages.
+
+Citations:
+[1] https://ausfashioncouncil.com
+[2] https://artsandculture.google.com/story/australian-fashion-chamber-australian-fashion-chamber/gQXRj3tIGUd5Lw?hl=en
+[3] https://fashionunited.com/companies/australian-fashion-council
+[4] https://ausfashioncouncil.com/about/
+[5] https://au.linkedin.com/company/ausfashioncouncil
+[6] https://www.devex.com/organizations/australian-fashion-chamber-69092
+[7] https://artsandculture.google.com/partner/australian-fashion-chamber
+[8] https://muckrack.com/media-outlet/ausfashioncouncil
 
 ## Selected milestones
 
 + 2014, Inaugural AFC Christmas Celebration, Sydney
-+ 2015, AFC designers abroad showroom announced, Paris <span id="a2">[\[2\]](#f2)</span>
++ 2015, AFC designers abroad showroom announced, Paris
 
 ## Objectives
 
@@ -44,7 +56,6 @@ A not-for-profit organization established to promote and develop Australian fash
 + Support emerging top talent
 + Provide thought leadership
 + Foster education & affiliation
-<span id="a3">[\[3\]](#f3)</span>.
 
 The Australian Fashion Council (AFC) exists to promote the growth of the textile & fashion industry in Australia.
 
@@ -82,7 +93,4 @@ The Chamber has a host of activities  from guest lecture series for educational 
 + [Fashion weeks around the world](fashion-weeks-around-the-world)
 + [Council of Textile & Fashion Industries of Australia](ctfi-australia)
 + [Vogue Australia](vogue-australia)
-
-## Footnotes
-
-[[1, 2, 3]](#a1) <span id="f1"></span> [About (Australian Fashion Chamber)](https://ausfashioncouncil.com/who-we-are/)
++ [About (Australian Fashion Chamber)](https://ausfashioncouncil.com/who-we-are/)

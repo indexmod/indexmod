@@ -1,45 +1,37 @@
 ---
-title: 'Амед, Имран (блогер)'
+title: Амед, Имран (блогер)
 permalink: amed-imran
-layout: default
-shortname: AMED
-givenname: Imran
-familyname: Amed
-othername: Имран Амед
-city: Calgary
-originlang: Eng.
-originspell: Imran Amed
-appearing: Born
-birth: 1972
-facebook: '1644'
-instagram: '461000'
-youtube: '0'
-vimeo: '0'
-twitter: '1081000'
-tumblr: '0'
-vkontakte: '0'
-origin:  a British-Canadian
-profession: entrepreneur, founder and CEO of "The Business of Fashion"
-photo: Имран Амед выступает во время презентации "BoF Голоса" в Сиднейском оперном театре
-photographer: Getty
-source: GQ Австралия
-photographerurl: index
-sourceurl: index
-founder: 'основатель проектов “The Business of Fashion” и "BoF Голоса"'
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
+Имран Амед — канадско-британский предприниматель в области моды, родившийся 20 апреля 1975 года в Калгари, Альберта. Он является основателем и главным редактором *The Business of Fashion* (BoF), авторитетного онлайн-ресурса, который охватывает новости и аналитику в сфере моды и роскоши.
 
-`Bilingual article`
+## Образование и карьера
 
-Британский и канадский предприниматель, основатель и генеральный директор “The Business of Fashion” (Бизнес моды), основатель проекта "BoF Голоса" <span id="a2">[\[2\]](#f2)</span>, живёт и работает в Лондоне.
+Имран получил степень бакалавра коммерции в Университете Макгилла и затем завершил MBA в Гарвардской школе бизнеса. После окончания учёбы в 2002 году он начал свою карьеру в качестве консультанта в McKinsey & Company, где работал до 2006 года. Вдохновленный своей страстью к моде, он решил перейти в эту индустрию и в 2007 году запустил BoF как блог из своей квартиры в Ноттинг Хилле[1][2][5].
 
+С тех пор BoF превратился из небольшого блога в международную медиа-компанию с офисами в Лондоне, Нью-Йорке и Шанхае. На сегодняшний день сайт имеет более 100 000 подписчиков из более чем 130 стран и получает более 1.5 миллиона уникальных посетителей ежемесячно[2][6].
+
+## Достижения и награды
+
+Имран Амед получил множество наград за свои достижения в модной индустрии. В 2016 году он был удостоен звания Члена ордена Британской империи (MBE) за услуги моде. Кроме того, он стал почетным профессором бизнес-модели моды в Глазго Каледонском университете и получил почетную докторскую степень от Центральной святой Маргариты[1][4][5].
+
+## Личная жизнь
+
+Имран Амед состоит в отношениях с Нихилом Мансатой, креативным директором и стилистом. Он активно участвует в обсуждениях о будущем модной индустрии, подчеркивая важность сочетания креативности и аналитики[1][2].
+
+В целом, Имран Амед считается одним из ведущих комментаторов и аналитиков модной индустрии, его работа помогает многим профессионалам лучше понимать динамику этого быстро меняющегося сектора[3][8].
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Imran_Amed
+[2] https://www.businessoffashion.com/imran-amed/
+[3] https://it-it.about.flipboard.com/on-the-red-couch-with-business-of-fashions-imran-amed/
+[4] https://www.buro247.ru/fashion/heroes/imran-amed.html
+[5] https://www.arts.ac.uk/people/honoraries/imran-amed-mbe
+[6] https://www.cjr.org/the_feature/the-outsiders-business-of-fashion-imran-amed.php
+[7] https://www.interviewmagazine.com/culture/imran-amed
+[8] https://vogue.ph/fashion/imran-amed-the-state-of-fashion/
+[9] https://dzen.ru/a/YN7Q8J1nrBKyquIj
 
 ## Наргады и премии
 
@@ -52,12 +44,9 @@ Full edit instructions
 
 ## Cм. также
 
-- [The Blueprint](blueprint-the)
-- [The Business of Fashion](business-of-fashion-the)
-- [Buro 24/7](buro-24-7)
-
-## Сноски
-
-[[1]](#a1) <span id="f1"></span> [Прямая речь: Имран Амед, основатель сайта The Business of Fashion (Look at me, Юлия Выдолоб)](http://www.lookatme.ru/mag/archive/industry-interview/118417-imran-amed)
-
-[[2]](#a2) <span id="f2"></span> [Имран Амед, основатель BoF: "Если сидеть на месте, вы однозначно проиграете" (Бюро 24/7, Сильвия Бомбардини)](https://www.buro247.ru/fashion/interview/imran-amed.html)
++ [The Blueprint](blueprint-the)
++ [The Business of Fashion](business-of-fashion-the)
++ [Buro 24/7](buro-24-7)
++ [Нихил Мансата]()
++ [Прямая речь: Имран Амед, основатель сайта The Business of Fashion (Look at me, Юлия Выдолоб)](http://www.lookatme.ru/mag/archive/industry-interview/118417-imran-amed)
++ [Имран Амед, основатель BoF: "Если сидеть на месте, вы однозначно проиграете" (Бюро 24/7, Сильвия Бомбардини)](https://www.buro247.ru/fashion/interview/imran-amed.html)

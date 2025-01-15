@@ -1,11 +1,7 @@
 ---
 title: Apocalypses
 permalink: apocalypses
-layout: default
-shortname: APCLS
-givenname: Apocalypses
-birth: 2023
-city: St. Petersburg
+layout: ai
 ---
 
 ### My first job (1992)

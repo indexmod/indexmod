@@ -1,41 +1,65 @@
 ---
 title: Artcom Media
 permalink: artcom-media
-layout: default
-givenname: Artcom
-familyname:
-othername: Артком Медиа Групп
-shortname: ACMG
-originlang: Rus.
-originspell: Артком Медиа Групп
-appearing: Est.
-birth: 2008
-city: Moscow
-venue: Stolyarnyy pereulok, 3, 6
-facebook: '2289'
-instagram: '2027'
-youtube: '0'
-vimeo: '0'
-twitter: '124'
-tumblr: '0'
-vkontakte: '0'
-origin: an international
-profession: media group with headquarters in Russia, a global network which operates in Italy, Germany and France
-photo: During the photoshoot of publishing house team connected with the10th anniversary of the ACMG
-photographer: Archive
-source: Acmgroup.info
-photographerurl: http://www.acmgroup.info/jubilee/17537/
-sourceurl: http://www.acmgroup.info/jubilee/17537/
-founder: Antonio Alizzi
+layout: ai
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
+ARTCOM Media is a prominent Russian media group that encompasses a variety of services, including publishing, advertising, and event management. Here’s a detailed overview:
+
+## Overview of ARTCOM Media
+
+- **Structure**: ARTCOM Media operates as a media holding company, integrating multiple facets of media and communications. This includes:
+  - **Publishing Group**: Engages in various publishing activities.
+  - **Advertising Agency**: Focuses on creating and implementing advertising campaigns across different platforms.
+  - **Event Agency**: Organizes and manages events for various clients.
+
+- **Experience**: The agency boasts over 20 years in the industry, emphasizing its extensive experience and established presence in the market[1][2].
+
+## Services Offered
+
+ARTCOM Media provides a comprehensive range of services that include:
+
+- **Media Services**:
+  - Television
+  - Radio
+  - Out-of-home (OOH) and indoor advertising
+
+- **Digital Marketing**:
+  - Online advertising
+  - Paid social media campaigns
+  - Programmatic advertising
+  - Paid search
+  - Influencer marketing and online reputation management (ORM)
+  - Business intelligence (BI) and analytics
+
+- **Creative Services**:
+  - Video production
+  - Development of landing pages
+  - Creation of communication platforms
+  - Promotional activations[2][8].
+
+## Unique Features
+
+- **Client Retention**: ARTCOM Media has a strong track record with approximately 75% of its clients retained for over three years.
+- **Media Turnover**: The agency reports a media turnover of around 1.6 billion rubles.
+- **Team Composition**: The agency employs over 40 professionals, leveraging their expertise to deliver effective campaigns[2][8].
+
+## Contact Information
+
+ARTCOM Media is located in Moscow at:
+- **Address**: ulitsa Fridrikha Engelsa, 20/2, Moscow, Russia.
+
+For more information or inquiries, potential clients can reach out through their official channels on social media platforms like Instagram and Facebook[1][5].
+
+Citations:
+[1] https://www.instagram.com/artcommedia/
+[2] https://art-com.ru/en
+[3] https://www.instagram.com/explore/locations/12377302/artcom-media/
+[4] https://www.artcom-berlin.com
+[5] https://www.facebook.com/artcommedia/
+[6] https://www.youtube.com/playlist?list=PLJrvbZRxXLicAdNj0t3vLVHjXNvPZecFm
+[7] https://www.facebook.com/artcommedia/photos/
+[8] https://tadviser.com/index.php/Company:Artcom_Media_Group_(ACMG)
 
 A publishing house part of Russian media holding company, established in 1995, specializes in the publication of licensed versions of foreign magazines, includes publishing group Artcom Media, advertising, digital and event agency.
 
@@ -65,9 +89,5 @@ In 2018, the Editor of the Russian edition of Forbes Nikolai Uskov was dismissed
 - [André Leon Talley](andre-leon-talley)
 - [Kseniya Sobchak](kseniya-sobchak)
 - [Anzor Kankulov](anzor-kankulov)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [About Artcom Media Group (Acmgroup.info)](http://www.acmgroup.info/eng/about/)
-
-[[2]](#a2) <span id="f2"></span> [Усков, Николай Феликсович (Wikipedia)](https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D0%BA%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%A4%D0%B5%D0%BB%D0%B8%D0%BA%D1%81%D0%BE%D0%B2%D0%B8%D1%87)
++ [About Artcom Media Group (Acmgroup.info)](http://www.acmgroup.info/eng/about/)
++ [Усков, Николай Феликсович (Wikipedia)](https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D0%BA%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%A4%D0%B5%D0%BB%D0%B8%D0%BA%D1%81%D0%BE%D0%B2%D0%B8%D1%87)
