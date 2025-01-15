@@ -1,35 +1,39 @@
 ---
-title: 'Galinskaia, Olga'
+title: Galinskaia, Olga
 permalink: galinskaia-olga
-layout: default
-originlang: Rus.
-originspell: Ольга Галинская
-appearing: Born
-city: Temirtau
-birth: 1973
-givenname: Olga
-familyname: Galinskaia
-othername: Gala
-venue: Dead lake (film by Roman Prygunov)
-founder:
-origin: a Russian
-profession: artist of film costume, stylists, image consultant living and working in Moscow
-photo: Graphics by Olga Galinskaia (2018)
-photographer: Olga Galinskaia
-source: Facebook
-photographerurl: galinskaia-olga
-sourceurl: https://www.facebook.com/photo.php?fbid=10214218217223013&set=a.2774084184912&type=3
-shortname: GALINSKAIA
-facebook: 1066
-instagram: 821
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
 ---
+
+Olga Galinskaia (Russian: Ольга Галинская) is a Russian artist of film costume, stylist, and image consultant born in 1973 in Temirtau[1]. She lives and works in Moscow, where she has established herself as a prominent figure in the fashion and entertainment industry.
+
+Galinskaia began her career as a stylist in 2001, working for Condé Nast publications such as GQ, AD, Vogue, Glamour, and Gala, as well as Afisha Mir Magazine[1]. In 2005, she expanded her career into television, becoming the in-house stylist for 20 shows on national channels, including top-ranked shows and talk shows dedicated to fashion[1][3].
+
+Throughout her career, Galinskaia has worked on various high-profile projects:
+
+## Television and Film
+- Styled Russian editions of international formats like "What Not To Wear" and "Next Top-Model"[1]
+- Worked as the leading stylist on NTV Channel and as Chief Stylist on "Home" Channel in Moscow[1]
+- Contributed to films such as "Pro Lubov" and "I am going to you" (both directed by Anna Melikian in 2017), "Beyond the Edge" (2018), and "Dead Lake" (2018)[1]
+
+## Advertising and Commercial Work
+- Created costume concepts for advertising shoots, music videos, and fashion performances[1]
+- Worked on assignments for major brands like Bacardi, Sberbank, and the Sochi Olympic Games commercial[1]
+- Contributed to the opening of Saks Fifth Avenue in Kazakhstan (2013)[1]
+
+Galinskaia is known for her ability to create impressive looks using mass-market apparel and her expertise in personal image-making and shopping[1]. Her work is characterized by exquisite analysis of commercial aims and the ability to work under pressure and tight deadlines[1].
+
+As of January 2025, Olga Galinskaia maintains a presence on social media platforms, including Instagram, where she has over 1,000 followers[4].
+
+Citations:
+[1] https://github.com/hanxiaomax/encyclopedia/blob/master/galinskaia-olga.md
+[2] https://www.linkedin.com/pub/dir/Olga/Galinskaia
+[3] https://ru.linkedin.com/in/olga-galinskaia-7143578a
+[4] https://www.instagram.com/olga__galinskaya__/
+[5] https://www.instagram.com/olgalinskaya/
+[6] https://twitter.com/gadonist
+[7] https://www.facebook.com/public/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0-%D0%93%D0%B0%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F
+[8] https://www.facebook.com/public/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0-%D0%93%D0%B0%D1%80%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F
+
 
 (Rus. Ольга Галинская, born 1973, Temirtau) Russian artist of film costume, stylists, image consultant living and working in Moscow.
 
