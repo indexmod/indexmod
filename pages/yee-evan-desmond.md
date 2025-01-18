@@ -1,34 +1,31 @@
 ---
-title: 'Yee, Evan Desmond'
+title: Yee, Evan Desmond
 permalink: yee-evan-desmond
-layout: default
-givenname: Evan Desmond
-familyname: Yee
-shortname: YEE
-originlang: Eng.
-originspell: Evan Desmond Yee
-appearing: Born
-birth: 1990
-city: Oakland
-facebook: '0'
-instagram: '1890'
-venue: Spring / Break Art Show
-youtube: '0'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-pinterest: 0
-soundcloud: 0
-origin: an American
-profession: sculpture, multimedia artist living and working in New York
-photo: Evan Desmond Yee
-photographer: The App Store by Evan Desmond Yee
-source: The Sonic Jungle
-photographerurl: index
-sourceurl: index
-founder: of the Evan Yee Studio
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+permalink:
+image:
+credits:
 ---
+
+Еван Десмонд Йи (родился в 1990 году в Окленде) — американский скульптор и мультимедийный художник, базирующийся в Нью-Йорке. Он является основателем студии Evan Yee Studio, и его творчество часто исследует культурное влияние технологий, сочетая искусство с цифровыми темами.
+
+**Ключевые работы:**
+- В 2015 году он создал инсталляцию под названием **"The App Store"**, которая является критикой потребительских технологий и современных дистопий. Эта работа отражает его интерес к тому, как технологии формируют общество и индивидуальное восприятие реальности.
+
+Йи активно использует различные медиа для выражения своих идей, что делает его работы многослойными и актуальными в контексте современного культурного дискурса.
+
+Citations:
+[1] https://archive.org/stream/sovremennykhoreographicheskiydiskurs2019/Sovremenny_khoreographicheskiy_diskurs_2019_djvu.txt
+[2] https://worldofcomics.ua/ru/characters-list/
+[3] http://polpred.ru/news/?person_id=9462&sector=3&page=1
+[4] https://libroroom.ru/catalog/knigi/iskusstvo_iskusstvovedenie/
+[5] https://www.kino-teatr.ru/kino/movie/hollywood/y2007/g14/usa/
+[6] https://www.polpred.com/?cat_a=on&ns=1&sector=3&page=202
+[7] https://newpressa.pressa.ru/media/private/7-dnej/2020/03-2020/raw_issue/7-dnej-2020-03-2020.pdf
+[8] https://fanfics.me/character102684
 
 **Evan Desmond Yee** (b. 1990, Oakland) is an American sculptor and multimedia artist based in New York. Founder of the Evan Yee Studio, his work often examines technology's cultural impact, blending art with digital themes. His 2015 installation, *The App Store*, critiques consumer tech and modern dystopias.
 
@@ -68,7 +65,4 @@ founder: of the Evan Yee Studio
 + [Fueled Collective, The](index)
 + [Gallery 151](index)
 + [Nocuous Rift](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [“Artist Creates A Fake Apple Store Filled With Crazy, Dystopian Tech” Collectively (Swaraj Art Archive)](https://swarajarchive.wordpress.com/2015/08/31/start-up-a-twisted-apple-store-filled-with-crazy-dystopian-tech/)
++ [“Artist Creates A Fake Apple Store Filled With Crazy, Dystopian Tech” Collectively (Swaraj Art Archive)](https://swarajarchive.wordpress.com/2015/08/31/start-up-a-twisted-apple-store-filled-with-crazy-dystopian-tech/)
