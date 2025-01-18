@@ -2,6 +2,10 @@
 title: Tbilisi Fashion Week
 permalink: tbilisi-fashion-week
 layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image:
+credits:
 ---
 
 Tbilisi Fashion Week (TFW) is a prominent biannual fashion event held in Tbilisi, Georgia, showcasing the work of both local and international designers. Established in 2009 during the Tbilisoba festival, TFW has become a vital platform for promoting Georgian fashion and connecting designers with global markets[2][3].

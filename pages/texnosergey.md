@@ -1,45 +1,27 @@
 ---
 title: TexnoSergey
 permalink: texnosergey
-layout: default
-originlang: Rus.
-originspell: ТехноCергей
-appearing: Est.
-city: Moscow
-birth: 2018
-givenname: TexnoSergey
-familyname: Unspecified
-othername: Серёжа, Sergei Kozyrev, Павел Александров
-venue:
-founder: Founder of @Texnosergey channel on Instagram
-origin: a Russian
-profession: futurologist, blogger, video artist became famous in 2019 for his caricatures on celebrities in the fashion world, based in Moscow
-photo: Texnosergey in 2019
-photographer: Texnosergey
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: TEXNOSERGEY
-facebook: 0
-instagram: 53900
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://r.fashionunited.com/XUGaxb-MJhLQ8JKIrnsUA_28vwZabcXRLoJgireN5N8/resize:fit:1200:630:0/gravity:ce/quality:70/aHR0cHM6Ly9zdGF0aWMuZmFzaGlvbnVuaXRlZC5jb20vMjAyMDAxL1RleG5vc2VyZ2V5LTEuanBn.jpeg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+TexnoSergey, also known as Серёжа, is a multifaceted online personality active across various social media platforms. He has a notable presence on Instagram, where he shares content related to advertising and futurism, amassing over 54,000 followers. His Instagram handle is [@texnosergey](https://www.instagram.com/texnosergey/) and features a mix of personal posts and promotional material related to his work in advertising[1].
 
+On SoundCloud, TexnoSergey showcases his musical talents, allowing users to stream tracks and discover his music. His profile includes various playlists and collaborations, indicating an active engagement in the music scene[2][7]. Additionally, he maintains a YouTube channel where he posts videos that often explore themes related to cryptocurrency and other contemporary topics[3].
+
+TexnoSergey is also active on Threads, where he discusses various subjects, including societal observations and personal reflections[5]. His diverse online presence reflects his interests in advertising, music, and digital culture.
+
+Citations:
+[1] https://www.instagram.com/texnosergey/
+[2] https://soundcloud.com/texnosergey
+[3] https://www.youtube.com/channel/UCOZqrJDbZg13qevue0vdjOw
+[4] https://www.instagram.com/texnosergey/reel/CwbAky5p8VG/
+[5] https://www.threads.net/@texnosergey
+[6] https://tuponogova.com/page10629892.html
+[7] https://soundcloud.com/texnosergey/discodromo-vs-michel-lecomte-magical-space-forms
 
 Russian web edition Spletnik called him as "the one who describes the life of consumers of luxury items" Rus. [ obozrevatel tezhelogo luksa ] <span id="a3">[\[3\]](#f3)</span>.
 

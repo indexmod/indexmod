@@ -1,35 +1,44 @@
 ---
 title: Toronto Fashion Week
 permalink: toronto-fashion-week
-layout: default
-originlang: Eng.
-originspell: Toronto Fashion Week
-appearing: Est.
-city: Toronto
-birth: 2000
-givenname: Toronto Fashion Week
-familyname:
-othername: TFW
-venue: Yorkville, Hazelton Avenue and Yorkville Avenue
-founder: Founder
-origin: an international
-profession: fashion event in Canada
-photo: A model wears a creation by Korhani during Toronto Fashion Week on March 12, 2012
-photographer: George Pimentel
-source: Windsorstar.com
-photographerurl: http://www.windsorstar.com/life/fashionshows/Photos+Korhani+Toronto+Fashion+Week+Fall+2012/6301009/story.html
-sourceurl: http://www.windsorstar.com/life/fashionshows/Photos+Korhani+Toronto+Fashion+Week+Fall+2012/6301009/story.html
-shortname: TORONTO
-facebook: 14243
-instagram: 33000
-youtube: 33
-vimeo: 0
-twitter: 831
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+permalink:
+image: https://thebuzzmag.ca/wp-content/uploads/2018/02/TFW-Main.jpeg
+credits:
 ---
+
+
+## Overview of Toronto Fashion Week (TFW)
+
+Toronto Fashion Week (TFW) is a prominent semi-annual event that showcases fashion, art, and culture in Toronto, Canada. It is recognized as the largest fashion week in Canada and the second largest in North America, following New York Fashion Week. TFW takes place twice a year: in February for fall/winter collections and in September for spring/summer collections[2].
+
+### History and Development
+
+Founded in 1999 by the Fashion Design Council of Canada under Robin Kay and Pat McDonagh, TFW aimed to elevate Canadian designers on the international stage. The inaugural event was held at the Windsor Arms Hotel, featuring six designers and an audience of about 200 people[2]. Over the years, TFW has undergone several transformations, including changes in sponsorship and management.
+
+Initially known as **L'Oréal Fashion Week** from 2002 to 2008, it later became **LG Fashion Week**, and then **World MasterCard Fashion Week** before reverting back to its original name in 2016 after a change in ownership. The event was sold to IMG in 2012 but was closed down due to lack of funding in 2016. It was revived later that year under new ownership led by Peter Freed, focusing on a more compact three-day format instead of the previous seven-day schedule[2].
+
+### Impact and Significance
+
+TFW has garnered significant media attention, attracting around 40,000 guests over five days during its peak years. The event has showcased over 100 designers and generated millions of media impressions globally[2]. It plays a crucial role in promoting Canadian fashion brands and designers, helping them gain international recognition.
+
+### Current Status
+
+As of now, TFW continues to be a vital platform for both emerging and established designers to present their collections to buyers, media, and the public. The event is typically held in Toronto's upscale Yorkville area, emphasizing luxury and high fashion[1][2].
+
+For more information about upcoming events or participation details, you can visit the official Toronto Fashion Week website.
+
+Citations:
+[1] https://torontofashionweek.to
+[2] https://en.wikipedia.org/wiki/Toronto_Fashion_Week
+[3] https://www.tfwhub.ca
+[4] https://www.gands.com/blog/2024/08/30/significant-changes-ahead-new-measures-to-limit-temporary-foreign-worker-program-in-canada/
+[5] https://www.canada.ca/en/employment-social-development/programs/temporary-foreign-worker.html
+[6] https://www.instagram.com/tfw/
+[7] https://www.instagram.com/TFW/?__d=1%3Futm_source%3Dig_embed%21
+[8] https://www.canada.ca/en/employment-social-development/services/foreign-workers.html
 
 ## About
 

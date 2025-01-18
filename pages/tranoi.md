@@ -1,44 +1,30 @@
 ---
 title: Tranoï
 permalink: tranoi
-layout: default
-originlang: It.
-originspell: Tra noi (“between us”)
-appearing: Est.
-city: Paris
-birth: 1992
-givenname: Tranoï
-familyname:
-othername: Tra Noi
-venue: 22 Place du General Catroux
-founder: Mr. David Hadida, Tranoi SAS., a public limited company
-origin: an international
-profession: Paris-based fashion trade show
-photo: Armand Hadida, the founder of Tranoï
-photographer: BOF
-source: Fashionnetwork.com
-photographerurl: https://fr.fashionnetwork.com/news/Tranoi-Homme-sous-le-signe-du-street-luxe-,455461.html#.XEHkos8zbzZ
-sourceurl: https://fr.fashionnetwork.com/news/Tranoi-Homme-sous-le-signe-du-street-luxe-,455461.html#.XEHkos8zbzZ
-shortname: TRANOÏ
-facebook: 23057
-instagram: 34500
-youtube: 54
-vimeo: 0
-twitter: 3195
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image:
+credits:
 ---
+Tranoï — это ведущая международная выставка моды, проходящая в Париже. С 30 сентября по 3 октября 2025 года она станет платформой для дизайнеров со всего мира, позволяя им представить свои коллекции крупным байерам и модным специалистам[2][3].
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+**Основные факты о Tranoï:**
+- **Формат:** Tranoï представляет собой B2B-событие, которое объединяет дизайнеров и байеров в рамках Парижской недели моды[8].
+- **Цели:** Выставка направлена на продвижение креативности, инноваций и экспертизы в модной индустрии, создавая уникальные инсталляции и показы[1][3].
+- **Участники:** В Tranoï участвуют как новые, так и известные бренды, что делает ее важной частью мирового модного календаря[2][8].
+
+Tranoï также активно сотрудничает с различными партнерами, что способствует созданию запоминающихся мероприятий для участников[1].
+
+Citations:
+[1] https://www.tranoi.com
+[2] https://artsstudioparis.com/tranoi/?lang=ru
+[3] https://artsstudioparis.com/tranoi-paris-womans/?lang=ru
+[4] https://www.instagram.com/tranoi_show/
+[5] https://poizon.io/brand-tranoi/r-women-s-sneakers
+[6] https://poizon.io/p-tranoi-casual-shoes-men-low-top-V175594847
+[7] https://www.instagram.com/tranoibrand/
+[8] https://profashion.ru/events/exhibitions/vystavka-trano-obedinilas-s-paris-fashion-week/
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

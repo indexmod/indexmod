@@ -1,35 +1,41 @@
 ---
 title: Teplitskaya Design
 permalink: teplitskaya-design
-layout: default
-originlang: Rus.
-originspell: Теплицкая Дизайн
-appearing: Est.
-city: Moscow
-birth: 1999
-givenname: Teplitskaya Design
-familyname:
-othername: teplitskaya_design
-venue: House of Artists on Vavilov 65
-founder: Elena Teplitskaya
-origin: a Russian
-profession: brand and the same name studio of  interior design, courses in decor, clothing and accessories, and also fashion brand atelier founded by Elena Teplitskaya and based in Moscow
-photo: A Founder of the Teplitskaya Design Elena Teplitskaya
-photographer: Teplitskaya Design
-source: Instagram
-photographerurl: index
-sourceurl: index
-shortname: TEPLITSKAYA
-facebook: 2076
-instagram: 2807
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 303
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+permalink:
+image:
+credits:
 ---
+
+Teplitskaya Design, founded by **Elena Teplitskaya**, is a prominent design studio specializing in interior design and clothing creation. Elena is recognized for her expertise in color and her unique approach to architecture and art objects. The studio is known for crafting vibrant interiors aimed at enhancing the quality of life for its clients[1][4].
+
+### Key Aspects of Teplitskaya Design
+
+- **Founder**: Elena Teplitskaya, a celebrated designer and color expert.
+- **Focus Areas**:
+  - **Interior Design**: Creating bright and inviting spaces.
+  - **Fashion Design**: Developing women's wear collections showcased in various fashion events, including Mercedes-Benz Fashion Week Russia.
+- **Educational Initiatives**: The studio offers author courses aimed at sharing design knowledge and skills[1][5].
+
+### Recent Highlights
+
+- Teplitskaya Design has been featured in fashion shows, including the Spring/Summer 2022 collection presented at MBFW Russia, which received significant attention for its innovative designs[2][8].
+- The studio has also been recognized for its artistic contributions, winning awards for the best artistic solutions in exhibitions[7].
+
+Elena Teplitskaya's work emphasizes a harmonious relationship between design elements, creating environments that are not only aesthetically pleasing but also functional and welcoming.
+
+Citations:
+[1] https://teplitskaya.ru
+[2] https://www.youtube.com/watch?v=WL-xQkSnadU
+[3] http://teplitskaya.ru
+[4] https://www.instagram.com/teplitskaya_design/
+[5] https://www.facebook.com/Teplitskaya.Design/
+[6] https://vk.com/teplitskaya_design
+[7] https://www.instagram.com/teplitskaya_design/reel/DDC6w7Bo32I/
+[8] https://www.youtube.com/watch?v=i4na82m8htY
 
 ## About designer
 
@@ -45,7 +51,4 @@ Elena Teplitskaya is the head and founder of the Teplitskaya Design studio. A pr
 
 + [House of Artists on Vavilov 65а](house-of-artists-on-vavilov-65)
 + [Al-Numan, Leila](al-numan-leila)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Кижская Ночь искусств с Еленой Теплицкой (Stolicaonego.ru)](https://stolicaonego.ru/news/kizhskaja-noch-iskusstv-s-elenoj-teplitskoj/)
++ [Кижская Ночь искусств с Еленой Теплицкой (Stolicaonego.ru)](https://stolicaonego.ru/news/kizhskaja-noch-iskusstv-s-elenoj-teplitskoj/)

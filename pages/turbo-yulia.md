@@ -1,52 +1,38 @@
 ---
 title: Turbo Yulia
 permalink: turbo-yulia
-layout: default
-originlang: Rus.
-originspell: Турбо Юлия
-appearing: Est.
-city: Saint Petersburg
-birth: 2010
-givenname: Turbo Yulia
-familyname:
-othername: Turbo_Yulia
-venue: Turbo Shop
-founder: Yulia Makarova
-origin: a Russian
-profession: brand founded by fashion designer, Andrey Bartenev’s companion and finalist of the “New Names in Design” competition Yulia Vorobieva (Makarova) and inspired by futurism and artificial digital reality
-photo: The coat by Turbo Yulia worn by Agniia Galdanova in 2018
-photographer: Masha Lapina
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: TURBO
-facebook: 1948
-instagram: 3488
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://assets.vogue.com/photos/59f3847c07f0220ed726afd7/master/w_1280%2Cc_limit/01-turbo-yulia.jpg
+credits:
+
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Turbo Yulia is an emerging designer brand known for its **futuristic and experimental fashion**. The brand has gained attention for its unique aesthetic that blends elements of **intergalactic themes** with contemporary fashion design.
 
-## About
+### Key Highlights of Turbo Yulia:
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdeinichenkoandrei%2Fposts%2F2334403893518988&show_text=false&width=552&appId=173711889938607&height=986" width="552" height="986" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+- **Design Philosophy**: Turbo Yulia focuses on creating pieces that evoke a sense of youth and potential, often drawing inspiration from fantastical and circus-like elements. This approach aims to bring a playful yet avant-garde spirit to its collections[5].
 
+- **Social Media Presence**: The brand maintains an active presence on platforms like Instagram, where it showcases its latest designs and engages with followers. The official Instagram account, @turbo_yulia_studio, features a variety of posts highlighting their artistic vision and collections[3].
 
-**Turbo_Yulia 2020 campaign**
+- **Fashion Shows**: Turbo Yulia has been featured in notable fashion events, including the Spring 2018 collection showcased on Vogue Runway. Their presentations often reflect a blend of bold colors, innovative materials, and striking silhouettes[4][6].
 
-*Turbo_Yulia / Facebook*
+- **Community Engagement**: The brand also connects with its audience through platforms like Facebook and Pinterest, where they share updates and interact with fans of their unique style[2][7].
+
+Overall, Turbo Yulia represents a fresh voice in the fashion industry, pushing boundaries with its creative designs and engaging storytelling.
+
+Citations:
+[1] https://notjustalabel.com/turbo-yulia
+[2] https://www.facebook.com/turbo.yulia/
+[3] https://www.instagram.com/turbo_yulia_studio/
+[4] https://www.vogue.com/fashion-shows/designer/turbo-yulia
+[5] http://pitch-present.com/TURBO-YULIA
+[6] https://www.vogue.com/fashion-shows/russia-spring-2018/turbo-yulia/slideshow/collection
+[7] https://www.pinterest.com/turboyulia/
+[8] https://vk.com/turboyulia
+
 
 ## See also
 
