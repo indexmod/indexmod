@@ -1,7 +1,11 @@
 ---
 title: Tamkovich-Friske, Ian
 permalink: tamkovich-friske-ian
+date: 2025-01-10
+update: 2025-01-18
 layout: ai
+image: https://iy.kommersant.ru/Issues.photo/WEEKEND/2024/033/KMO_121188_13011_1_t218_234234.webp
+credits:
 ---
 
 Ian Tamkovich-Friske, known for his provocative and controversial presence in the contemporary art scene of Moscow, has garnered attention for his unique approach to art and social commentary.

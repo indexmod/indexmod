@@ -1,73 +1,36 @@
 ---
 title: Stockolm Fashion Week
 permalink: stockolm-fashion-week
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: STOCKOLM
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://i0.wp.com/vintageclothingguides.com/wp-content/uploads/2024/09/stockholm_fashion_week_evolution.jpg?fit=1018%2C575&ssl=1&w=640
+credits:
+
 ---
 
-(Est. {{ page.birth }}, {{ page.city }}) is a ---  <span id="a1">[\[1\]](#f1)</span>.
+Stockholm Fashion Week is a prominent biannual event that showcases the latest collections from Scandinavian fashion designers and brands. Established in 2005, it has become a key player in the Northern European fashion scene, attracting attention from industry professionals, media, and fashion enthusiasts globally[1][2].
 
-![(Image correspondent to the article of “{{ page.title }}”. To see an image try another browser!)]({{ site.url }}/images/{{ page.permalink }}.jpg)
+## Event Overview
+- **Frequency**: Biannual (twice a year)
+- **Next Dates**:
+  - Fashion Week Trade: February 3–7, 2025
+  - Main Fashion Week: June 2–5, 2025[4][5].
 
-**Image**
+## Highlights
+- **Showcases**: The event features runway shows, presentations, and exhibitions across various venues in Stockholm, displaying both established and emerging designers[1].
+- **Design Aesthetic**: Collections typically reflect Scandinavian design principles characterized by minimalism, functionality, and quality craftsmanship[1].
+- **Networking and Discussion**: Beyond fashion displays, the event serves as a platform for networking and discussions on trends, sustainability, and the future of the fashion industry[1][2].
 
-*Photo: [Not specified](index) / [Source](index)*
+## Significance
+Stockholm Fashion Week plays a crucial role in promoting Scandinavian fashion on the international stage and contributes to Stockholm's reputation as a dynamic fashion capital. It fosters creativity and collaboration among industry professionals while addressing contemporary issues such as sustainability in fashion[1][2].
 
-## Сonspectus
-
-|Year|City|
-|-|-|
-|2017|Moscow|
-
-## Indexmod [*](indexmod)
-
-|Variables|2018|2019|
-|-|-|-|
-|Facebook <span id="a3">[\[3\]](#f3)</span>|{{ page.facebook }}||
-|Instagram <span id="a4">[\[4\]](#f4)</span>|{{ page.instagram }}||
-|YouTube <span id="a5">[\[5\]](#f5)</span>|{{ page.youtube }}||
-|Twitter <span id="a6">[\[6\]](#f6)</span>|{{ page.twitter }}||
-|Age|{{ page.age }}||
-|Indexmod|{{ page.content | number_of_words }}||
-|Total|{{ page.indexmod }}||
-
-## See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-## Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-[[6]](#a6) <span id="f6"></span> [{{page.title}} (Twitter)](index)
+Citations:
+[1] https://visitnordic.com/en/attraction/stockholm-fashion-week
+[2] https://europaregina.eu/fashion-weeks/fashion-weeks-europe/stockholm-fashion-week/
+[3] https://vocast.com/event/stockholm-fashion-week-aw24
+[4] https://www.stockholmfashiondistrict.se/en/event/fashion-week-trade-augusti-2022/
+[5] https://www.asfb.se/sthlmfw/stockholm-fashion-week
+[6] https://www.instagram.com/stockholmfashionweekofficial/?hl=ru
+[7] https://www.instagram.com/stockholmfashiondistrict/p/C7tWGKSCbnz/
+[8] https://www.facebook.com/stockholmfashionweek/

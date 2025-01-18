@@ -1,35 +1,33 @@
 ---
 title: Sochi Fashion Week
 permalink: sochi-fashion-week
-layout: default
-originlang: Rus.
-originspell: Неделя моды в Сочи; Сочинская неделя моды
-appearing: Est.
-city: Sochi
-birth: 2017
-givenname: Sochi Fashion Week
-familyname:
-othername: SFW
-venue: Hyatt Regency Sochi
-founder: Papin Aproyan, Nikita Shipulin
-origin: a South Russia
-profession: fashion event in Sochi
-photo: Russian actor Maxim Averin and designer Yulia Ivanova presenting the collection “Live!” on SFW in 2018
-photographer: Galina Skorik
-source: World Podium
-photographerurl: https://worldpodium.ru/news/maksim-averin-i-dizayner-yuliya-ivanova-predstavyat-kollekciyu-zhit
-sourceurl: https://worldpodium.ru/news/maksim-averin-i-dizayner-yuliya-ivanova-predstavyat-kollekciyu-zhit
-shortname: SFW
-facebook: 322
-instagram: 22700
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://moda247.ru/wp-content/uploads/2022/04/sochi-fashion-week-04.jpg?v=1650737661
+credits:
 ---
+
+Sochi Fashion Week is a prominent fashion event held twice a year in Sochi, Russia, showcasing the latest trends and collections from various designers. This event serves as a significant communication platform for Russian designers, buyers, and consumers, enhancing the fashion industry's visibility in the region.
+
+## Key Features of Sochi Fashion Week
+
+- **Timing**: The event occurs biannually, typically in spring and autumn.
+- **Location**: Sochi, a resort city on the Black Sea, provides a unique backdrop that enhances the overall atmosphere of the event.
+- **Activities**: The week includes runway shows featuring trendy collections, special performances, and networking opportunities for industry professionals.
+- **Community Engagement**: It fosters connections among local and international designers, buyers, and fashion enthusiasts.
+
+Sochi Fashion Week has gained recognition as a key fashion event in Southern Russia, attracting attention for its vibrant presentations and the diverse talent showcased.
+
+Citations:
+[1] http://sochifw.ru
+[2] https://vk.com/sochifw
+[3] https://www.instagram.com/sochifw/
+[4] https://fashionunited.uk/events/sochi-fashion-week-may-19
+[5] https://www.instagram.com/explore/locations/118662288753065/sochi-fashion-week/
+[6] https://www.instagram.com/sochifw/reel/DCZInTGMpCQ/
+[7] https://www.facebook.com/sochifw/
+[8] https://www.youtube.com/playlist?list=PLX9mVg4eJUvYYZ0mJeTOEoQ-amNWDGG03
 
 ## Conspectus
 

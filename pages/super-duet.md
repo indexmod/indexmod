@@ -3,7 +3,7 @@ title: Super duet
 permalink: super-duet
 givenname: Super duet
 familyname:
-layout: default
+layout: ai
 shortname: SUPERDUET
 originlang: Rus.
 originspell: Дуэт «Супер»

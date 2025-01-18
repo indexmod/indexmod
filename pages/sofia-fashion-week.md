@@ -1,35 +1,35 @@
 ---
 title: Sofia Fashion Week
 permalink: sofia-fashion-week
-layout: default
-originlang: Bul.
-originspell: Седмица на модата в София
-appearing: Est.
-city: Sofia
-birth: 2015
-givenname: Sofia Fashion Week
-familyname:
-othername: SFW
-venue: Hotel Marinela Sofia
-founder: EFE Event Management, Code Fashion TV, Vladimir Milchev Ivanov
-origin: an international
-profession: fashion event in Bulgaria
-photo: Vasil Troyanov Boyanov (Azis) at Sofia Fashion Week AW 2018 defile
-photographer: SFW
-source: Iwoman.bg
-photographerurl: https://www.iwoman.bg/krasiva/moda/Azis-defilira-na-Sofia-Fashion-Week-AW-2018-695824.html
-sourceurl: https://www.iwoman.bg/krasiva/moda/Azis-defilira-na-Sofia-Fashion-Week-AW-2018-695824.html
-shortname: SOFIA
-facebook: 20395
-instagram: 2682
-youtube: 63
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image:
+credits:
 ---
+
+Sofia Fashion Week is an annual fashion event held in Sofia, Bulgaria, typically organized by Hotel Marinela and Code Fashion TV, the only Bulgarian fashion television channel. The event showcases the latest trends and collections from various designers, featuring both women's and men's fashion.
+
+### Upcoming Event
+The next Sofia Fashion Week is scheduled for **September 18-20, 2024**, at Hotel Marinela. This event will highlight the Autumn/Winter 2024 collections and is expected to attract numerous designers and models from Bulgaria and beyond[1][3].
+
+### Participation
+The event includes a diverse group of models, with many participating in various runway shows. For instance, the model lineup for the upcoming season features individuals with varying heights and measurements, showcasing a broad spectrum of talent[2].
+
+### Social Media Presence
+Sofia Fashion Week maintains an active presence on social media platforms like Instagram, where they share updates, photos, and videos related to the event. Their official Instagram account is a hub for followers to stay informed about the latest happenings and view past events[3][4].
+
+This annual fashion week not only promotes local designers but also enhances Sofia's status as a growing hub for fashion in Eastern Europe.
+
+Citations:
+[1] https://sofiafashionweek.com
+[2] https://sofiafashionweek.com/women-models/
+[3] https://www.instagram.com/sofiafashionweek/?hl=ru
+[4] https://www.instagram.com/explore/locations/807080113/sofia-fashion-week/
+[5] https://www.youtube.com/watch?v=YOOl32ouTF4
+[6] https://www.youtube.com/playlist?list=PLvpqXEa8aNmkmcCkpEY9BydUS15f4Qenl
+[7] https://www.facebook.com/SFW.BG/events/
+[8] https://www.youtube.com/playlist?list=PLvpqXEa8aNmmzIWl_Ep88KRqhU0HVzfbf
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

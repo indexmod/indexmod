@@ -1,7 +1,11 @@
 ---
 title: St. Petersburg Fashion Week
 permalink: st-petersburg-fashion-week
+date: 2025-01-10
+update: 2025-01-18
 layout: ai
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwTjoyuveQ0mxT7N7kG5vw2Nl_urxx6gQUOg&s
+credits:
 ---
 
 St. Petersburg Fashion Week (SPbFW) is a prominent fashion event in Russia, recognized as the only professional fashion week in the Northwestern region of the country. It serves as a platform for both established and emerging designers to showcase their latest collections and trends.

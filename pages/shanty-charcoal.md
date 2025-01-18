@@ -1,43 +1,12 @@
 ---
 title: Shanty Charcoal
 permalink: shanty-charcoal
-layout: default
-originlang: Eng.
-originspell: ˈʃænti ˈtʃɑːrˌkoʊl
-appearing: Year performed
-city: Whitstable
-birth: 2022
-givenname: Shanty
-familyname: Charcoal
-othername: シャンティチャコール
-venue: Whitstable
-founder: Barbara Antinoro
-origin: an original
-profession: perfomace and video documentation by Barbara Antinoro an Italian artist based in the UK
-photo: Video documentation of the Shanty Charcoal by Barbara Antinoro
-photographer: Barbara Antinoro
-source: YouTube
-photographerurl:
-sourceurl: https://www.youtube.com/watch?v=2ti2tU63TMg
-shortname: SHANTY CHARCOAL
-facebook: 0
-instagram: 249
-youtube: 5
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image:
+credits:
 ---
-
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions /edit
--->
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

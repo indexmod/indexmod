@@ -1,44 +1,39 @@
 ---
 title: Sobchak, Ksenia
 permalink: sobchak-ksenia
-layout: default
-originlang: Rus.
-originspell: Ксения Собчак
-appearing: Born
-city: Leningrad
-birth: 1981
-givenname: Ksenia
-familyname: Sobchak
-othername: Ksiusha Sobchak
-venue:
-founder: Moscow Fashion Association
-origin: a Russian
-profession: TV presenter, journalist, founder of Moscow Fashion Association
-photo: Ksenia Sobchak in 2017
-photographer: Alexander Zemlianichenko/AP
-source: Theguardian.com
-photographerurl: https://www.theguardian.com/world/2017/oct/18/putin-mentors-daughter-ksenia-sobchak-to-run-for-president
-sourceurl: https://www.theguardian.com/world/2017/oct/18/putin-mentors-daughter-ksenia-sobchak-to-run-for-president
-shortname: SOBCHAK
-facebook: 766
-instagram: 6600000
-youtube: 875000
-vimeo: 0
-twitter: 1400000
-tumblr: 0
-vkontakte: 35000
-soundcloud: 0
-pinterest: 0
-weibo: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://cloudfront-us-east-2.images.arcpublishing.com/reuters/RNXUNAJGKRMSPPXWIJAUMEFBGQ.jpg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Ksenia Anatolyevna Sobchak, born on November 5, 1981, in Leningrad (now Saint Petersburg), is a prominent Russian-Israeli public figure known for her multifaceted career as a television presenter, journalist, actress, and socialite. She is the daughter of Anatoly Sobchak, the first democratically elected mayor of Saint Petersburg and a mentor to Vladimir Putin, and Lyudmila Narusova, a senator. Sobchak rose to fame as the host of the reality show *Dom-2* and later became an anchor for the independent channel TV Rain (Dozhd) [1][2][3].
+
+### Education and Early Career
+Sobchak studied International Relations at Saint Petersburg State University, graduating in 2002, and later obtained a master's degree in Political Science from the Moscow State Institute of International Relations in 2004. Her career began with hosting various reality shows and eventually transitioned into journalism [3][4].
+
+### Political Involvement
+In 2018, Sobchak ran for president of Russia, positioning herself as a liberal alternative to Putin. Her campaign focused on issues such as civil rights and political reform. Despite her efforts, she garnered only a small percentage of the vote [1][2]. Throughout her career, she has been critical of Putin's policies, particularly regarding the annexation of Crimea, which she views as a violation of international law [1][3].
+
+### Recent Developments
+In late 2022, Sobchak became embroiled in controversy when her associate was arrested for alleged extortion. Following police raids on her property, she fled to Lithuania but later returned to Russia [4]. Her political stance remains complex; while she has criticized the government, she also acknowledges the challenges facing opposition figures in Russia today [7].
+
+### Personal Life
+Sobchak is married to Konstantin Bogomolov and has one son named Plato from her previous marriage to Maxim Vitorgan. She is known for her active presence on social media and continues to engage with her audience on various platforms [2][6].
+
+### Conclusion
+Ksenia Sobchak's life reflects a blend of privilege and public scrutiny, shaped by her family's political legacy and her own ambitions in media and politics. Her ongoing influence in Russian society makes her a significant figure in contemporary discussions about governance and civil rights in Russia.
+
+Citations:
+[1] https://en.wikipedia.org/wiki/Ksenia_Sobchak
+[2] https://simple.wikipedia.org/wiki/Ksenia_Sobchak
+[3] https://goodcountry.org/global-vote/elections/russia/candidates/ksenia-sobchak/
+[4] https://www.politico.eu/article/ksenia-sobchak-anatoly-sobchak-flight-russia-father-daughter-irony/
+[5] https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D1%87%D0%B0%D0%BA,_%D0%9A%D1%81%D0%B5%D0%BD%D0%B8%D1%8F_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%BD%D0%B0
+[6] https://www.instagram.com/xenia_sobchak/?hl=ru
+[7] https://www.nytimes.com/2023/08/11/world/europe/ksenia-sobchak-putin-russia-ukraine-war.html
+[8] https://www.bbc.co.uk/programmes/n3ct2kmp
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
