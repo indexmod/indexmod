@@ -1,12 +1,12 @@
 ---
-title: Yee, Evan Desmond
+title: Йи, Еван Десмонд
 permalink: yee-evan-desmond
 layout: ai
 date: 2025-01-10
 update: 2025-01-18
 layout: ai
 permalink:
-image:
+image: https://girlwhowouldbeking.com/wp-content/uploads/2015/09/apple3.jpg
 credits:
 ---
 

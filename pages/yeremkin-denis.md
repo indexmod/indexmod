@@ -4,7 +4,7 @@ date: 2025-01-10
 update:
 layout: ai
 permalink: yeremkin-denis
-image:
+image: https://dszn.ru/uploads/editor/d8/c0/28293b749cc084b8f16a83ede0ebf036a13d8471.jpg
 ---
 
 Denis Yeremkin is a notable designer and educator in the field of fashion design. He holds the position of head of the "Costume Design" department, where he emphasizes the importance of formal education in fashion. He has been actively involved in teaching courses on modeling, cutting, sewing, and garment construction, aiming to equip students with both theoretical knowledge and practical skills necessary for a career in fashion design[1][7].
