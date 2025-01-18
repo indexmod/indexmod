@@ -5,7 +5,7 @@ layout: ai
 date:
 update:
 image: https://assets.vogue.ru/photos/5dc5372a0c545400095c3475/2:3/w_2560%2Cc_limit/7df6202d4b19972193d920129333992b.jpg
-credits: 
+credits:
 ---
 
 Alla Verber was a prominent figure in the Russian fashion industry, known as the vice president of Mercury, Russia's largest luxury goods group, and the fashion director of TSUM and DLT department stores[1][3]. Born on May 21, 1958, in Leningrad (now St. Petersburg), Verber played a crucial role in bringing Western luxury brands to Russia after the collapse of the Soviet Union[4][5].

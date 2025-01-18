@@ -4,10 +4,47 @@ permalink: vancouver-fashion-week
 layout: ai
 date:
 update:
-image:
+image: https://imageio.forbes.com/specials-images/imageserve/64492db2175f57bd9651f763/models/960x0.jpg
+credits:
 ---
+Vancouver Fashion Week (VFW) is a prominent fashion event held biannually in Vancouver, British Columbia, Canada. Founded in 2001 by Jamal Abdourahman, it has grown to become the **second-largest fashion week in North America** and is recognized for its commitment to showcasing both local and international designers.
 
-## About
+## Overview
+
+- **Establishment**: 2001
+- **Founder**: Jamal Abdourahman
+- **Frequency**: Biannual (March and September)
+- **Location**: Vancouver, British Columbia, Canada
+- **Notable Features**:
+  - Hosts approximately 50 designer showcases each season.
+  - Focuses on diversity and multiculturalism within the fashion industry.
+  - Includes the **Nancy Mak Award**, which supports emerging British Columbia designers.
+
+## Recent Events
+
+The most recent edition of VFW took place from **October 23 to October 27, 2024**, featuring a range of designers from British Columbia and beyond. The event highlighted innovative designs and included various activities such as runway shows, industry awards, and showcases from design academies[3][4].
+
+## Future Events
+
+The next scheduled event is the **Fall/Winter 2025 show**, set for **April 2025**. Tickets for this event are already available for purchase[1][5].
+
+## Significance in Fashion
+
+Vancouver Fashion Week plays a crucial role in promoting new talent and fostering creativity within the fashion industry. It serves as a platform for designers to gain exposure and connect with industry leaders, further enhanced by initiatives like the Global Fashion Collective, which helps designers showcase their work internationally[5][6].
+
+Overall, VFW continues to be a vital part of the fashion landscape in North America, celebrating innovation and cultural diversity in fashion design.
+
+Citations:
+[1] https://www.vanfashionweek.com
+[2] https://www.ellecanada.com/fashion/fashion-weeks/the-designers-we-loved-at-vancouver-fashion-week
+[3] https://en.wikipedia.org/wiki/Vancouver_Fashion_Week
+[4] https://vancouversun.com/life/fashion-beauty/vancouver-fashion-week-october-2024
+[5] https://fashionunited.com/events/vancouver-fashion-week
+[6] https://www.leeds-art.ac.uk/whats-happening/leeds-arts-university-news/exchange-student-presents-at-vancouver-fashion-week-2024
+[7] https://www.vanfashionweek.com/schedule
+[8] https://www.instagram.com/vanfashionweek/
+
+## More
 
 Vancouver Fashion Week (VFW) is a one-of-a-kind event that continuously brings together buyers, media, celebrities, industry professionals and innovative designers from around the world to celebrate creativity and fashion. Diversity and multiculturalism are VFW's core values. This semi-annual event has been host to a range of collections from street wear to eco-friendly garments.
 
@@ -44,9 +81,5 @@ The marketing director might not have wanted to get her feet wet, but it seems l
 + [Montréal Fashion and Design Festival](montreal-fashion-and-design-festival)
 + [Tom](tom)
 + [Toronto Fashion Week](toronto-fashion-week)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Balochi frocks hit Vancouver Fashion Week (Samaa.tv)](https://www.samaa.tv/culture/2018/12/balochi-frocks-hit-vancouver-fashion-week/)
-
-[[2]](#a2) <span id="f2"></span> [#notourfashionweek: young creatives picket vancouver fashion week (Witchslapped.org)](https://www.witchslapped.org/awitchsworld/notourfashionweek-young-creatives-picket-vancouver-fashion-week/)
++ [Balochi frocks hit Vancouver Fashion Week (Samaa.tv)](https://www.samaa.tv/culture/2018/12/balochi-frocks-hit-vancouver-fashion-week/)
++ [#notourfashionweek: young creatives picket vancouver fashion week (Witchslapped.org)](https://www.witchslapped.org/awitchsworld/notourfashionweek-young-creatives-picket-vancouver-fashion-week/)

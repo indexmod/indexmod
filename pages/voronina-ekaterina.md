@@ -23,8 +23,6 @@ Citations:
 [7] https://notjustalabel.com/katepetrov
 [8] https://www.behance.net/katevoron
 
-
-
 ## Indexmod 20 Топ 2025
 
 1. [Darienko, Sofia](darienko-sofia)  

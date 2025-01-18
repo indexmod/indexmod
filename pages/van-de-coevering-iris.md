@@ -5,6 +5,7 @@ layout: ai
 date:
 update:
 image:
+credits:
 ---
 
 Iris van de Coevering is an Armenian-born entrepreneur and skincare expert who has been living in Bali for over 15 years[1]. She is the founder of Muka Concepts, a Bali-based skincare company that specializes in natural, locally sourced products[1][2].

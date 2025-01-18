@@ -4,7 +4,8 @@ permalink: vardoui-nazarian
 layout: ai
 date:
 update:
-image: 
+image: https://avatars.dzeninfra.ru/get-zen_doc/8170504/pub_63f49532f0238d321d0c2c83_63f49533b599371fa9fe71b1/scale_1200
+credits:
 ---
 
 Vardoui Nazarian is a prominent designer known for her unique fashion collections that draw inspiration from various cultural elements, including the musical heritage of Aram Khachaturian. Her brand focuses on women's clothing, shoes, and accessories, offering a blend of loose-fitting and tailored pieces that cater to contemporary fashion sensibilities.

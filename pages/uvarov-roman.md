@@ -4,8 +4,25 @@ permalink: uvarov-roman
 layout: ai
 date:
 update:
-image:
+image: https://static.sobaka.ru/images/image/01/04/61/92/_normal.jpg?v=1541962879
+credits:
 ---
+
+Roman Vitalievich Uvarov, born on February 23, 1997, in Maykop, Russia, is a prominent fashion designer known for his innovative designs and contributions to the fashion industry. He is the founder and creative director of **Roma Uvarov Design**, a brand that focuses on contemporary clothing and accessories. Uvarov has gained recognition for his unique style and has built a significant following on social media platforms, particularly Instagram, where he showcases his work and engages with fans[1][3].
+
+Uvarov's designs often reflect modern aesthetics while incorporating elements of traditional craftsmanship. His brand has been involved in various fashion collections, gaining attention for its quality and creativity. In addition to his design work, Uvarov is also active in promoting his brand through social media, where he shares insights into his creative process and the fashion industry[1][3].
+
+In summary, Roman Uvarov is a talented young designer making waves in the fashion world with his distinctive approach to design and branding.
+
+Citations:
+[1] https://www.instagram.com/romauvarov/
+[2] https://redseptemberdesign.com/catalog/
+[3] https://www.instagram.com/romauvarovdesign/?hl=ru
+[4] https://ratings.fide.com/profile/34304576
+[5] https://www.linkedin.com/pub/dir/Roman/Uvarov
+[6] https://www.researchgate.net/profile/Roman-Uvarov
+[7] https://worldathletics.org/athletes/russia/roman-uvarov-14451166
+[8] https://ru.wikipedia.org/wiki/%D0%A3%D0%B2%D0%B0%D1%80%D0%BE%D0%B2,_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
