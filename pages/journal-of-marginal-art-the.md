@@ -1,5 +1,5 @@
 ---
-title: Ж.М.И. (Journal of Marginal Art, The)
+title: Ж.М.И.
 permalink: journal-of-marginal-art-the
 layout: ai
 image:
@@ -21,11 +21,9 @@ Citations:
 [7] https://eurasia-art.ru/art/article/view/909
 [8] https://deziiign.com/project/d8784a3ba04e43bf968494161f28afb3
 
-## English
+## Journal of Marginal Art, The
 
 Founded by group of Russian artists discussed that the magazine will preach the struggle against gloss, the destruction of polygraphic rubbish and promote collage-style. There were talks to just post female tits. Or develop the theme of a mythical city, which would be called Jiviseria.
-
-
 
 ## See also
 
