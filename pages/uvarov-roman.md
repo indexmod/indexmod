@@ -1,34 +1,10 @@
 ---
 title: Uvarov, Roman
 permalink: uvarov-roman
-layout: default
-originlang: Rus.
-originspell: Роман Уваров
-appearing: Born
-city: Maykop
-birth: 1997
-givenname: Roman
-familyname: Uvarov
-othername: Рома Уваров
-venue: Nob, Podium TV Show, MRFW
-founder: of Roma Uvarov Design
-origin: a Russian
-profession: fashion designer, founder of Roma Uvarov Design,  included in the rating of the most promising Russians under 30 - 2020 by Forbes
-photo: Roma Uvarov
-photographer: Denis Yakovlev
-source: Газета «Краснодарские известия»
-photographerurl: http://ki-news.ru/2018/04/04/yarko-svobodno-ot-romauvarov-/
-sourceurl: http://ki-news.ru/2018/04/04/yarko-svobodno-ot-romauvarov-/
-shortname: UVAROV
-facebook: 4961
-instagram: 20400
-youtube: 0
-vimeo: 0
-twitter: 285
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date:
+update:
+image:
 ---
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)

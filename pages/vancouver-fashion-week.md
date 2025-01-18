@@ -1,34 +1,10 @@
 ---
 title: Vancouver Fashion Week
 permalink: vancouver-fashion-week
-layout: default
-originlang: Eng.
-originspell: Vancouver Fashion Week
-appearing: Est.
-city: Vancouver
-birth: 2001
-givenname: Vancouver Fashion Week
-familyname:
-othername: VFW
-venue: Vancouver Art Gallery North Plaza
-founder: Jamal Abdourahman
-origin: an international
-profession: fashion event in Canada
-photo: VFW protest organizers Chase and Jamie
-photographer: Witchslapped
-source: Witchslapped.org
-photographerurl: https://www.witchslapped.org/wp-content/uploads/2015/03/vancouver-fashion-week-2015-not-our-fashion-week-protest.jpg
-sourceurl: https://www.witchslapped.org/wp-content/uploads/2015/03/vancouver-fashion-week-2015-not-our-fashion-week-protest.jpg
-shortname: VANCOUVER
-facebook: 32197
-instagram: 25100
-youtube: 1000
-vimeo: 0
-twitter: 10100
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date:
+update:
+image:
 ---
 
 ## About
