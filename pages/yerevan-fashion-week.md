@@ -34,9 +34,9 @@ Citations:
 [7] https://armenia.travel/events/yerevan-fashion-week-2024/
 [8] https://evnreport.com/lifestyle/yerevan-fashion-week-makes-waves/
 
-##
+## Establishing
 
-Yerevan Fashion Week, established in 2000 and based in Yerevan, Armenia, is a prominent fashion event celebrating local and international fashion designers. Founded by Arman Antonyan, the event showcases runway shows, expos, and festivals while hosting a national awards ceremony recognizing contributions to the fashion industry. The week is held at venues like the DoubleTree by Hilton Yerevan City Centre and features designers such as Vardoui Nazarian. Its focus extends to innovation and traditional aesthetics, strengthening Armenia’s presence on the global fashion stage.
+Yerevan Fashion Week, established in 2000, founded by Arman Antonyan, the event showcases runway shows, expos, and festivals while hosting a national awards ceremony recognizing contributions to the fashion industry. The week is held at venues like the DoubleTree by Hilton Yerevan City Centre and features designers such as Vardoui Nazarian. Its focus extends to innovation and traditional aesthetics, strengthening Armenia’s presence on the global fashion stage.
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

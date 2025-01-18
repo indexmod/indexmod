@@ -85,13 +85,39 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Стили для изображений */
+/* Общие стили для изображений */
 img {
-  max-width: 50%;
-  height: auto;
-  filter: grayscale(50%); /* Черно-белый фильтр */
-  margin-bottom: 1rem;
+  display: block; /* Убирает лишние отступы у inline-элемента */
+  max-width: 100%; /* Подгоняет изображение под ширину контейнера */
+  height: auto; /* Сохраняет пропорции изображения */
+  filter: grayscale(50%) contrast(110%) brightness(90%); /* Улучшенный ч/б фильтр */
+  margin: 1rem auto; /* Добавляет отступ сверху и снизу, центрирует изображение */
+  border-radius: 8px; /* Закруглённые углы */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
 }
+
+/* Стили для изображений внутри ссылок */
+a img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+a img:hover {
+  transform: scale(1.05); /* Увеличение при наведении */
+  filter: grayscale(0%) brightness(100%) contrast(100%); /* Убираем фильтр при наведении */
+}
+
+/* Стили для изображений в контейнерах */
+.container img {
+  max-width: 80%; /* Ограничиваем ширину в контейнере */
+}
+
+/* Медиа-запрос для адаптации на мобильных устройствах */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+}
+
 
 /* Таблицы */
 .table-container {
