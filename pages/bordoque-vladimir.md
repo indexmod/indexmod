@@ -2,7 +2,13 @@
 title: Bordoque, Vladimir
 permalink: bordoque-vladimir
 layout: ai
+date: 2010-01-10
+update: 2025-01-18
+image: https://st.peopletalk.ru/wp-content/uploads/2016/08/Dusya-Maksimova-i-Vladimir-Bordok.jpg
+credits:
+exclude: true
 ---
+
 
 Vladimir Bordoque is a multifaceted artist based in Moscow, Russia. He is known for his work as a stylist, art director, artist, and producer[2][3]. Bordoque describes himself as an "acid baroque dreamer" and is part of the SUPER! duo[2].
 
