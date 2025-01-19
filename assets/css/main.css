@@ -87,19 +87,26 @@ a:hover {
 
 /* Общие стили для изображений */
 img {
-  display: block; /* Убирает лишние отступы у inline-элемента */
   max-width: 50%; /* Подгоняет изображение под ширину контейнера */
-  filter: grayscale(50%) contrast(110%) brightness(90%); /* Улучшенный ч/б фильтр */
+  height: auto;
+  filter: grayscale(20%); /* Полностью черно-белый фильтр */
+  border: 0.5px solid #000; /* Тонкая черная рамка */
+  margin: 5px 0; /* Отступ только сверху и снизу */
+  text-align: left; /* Выравнивание по левому краю */
 }
 
-/* Медиа-запрос для адаптации на мобильных устройствах */
-@media (max-width: 768px) {
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1024px) {
   img {
-    max-width: 100%;
-    border-radius: 4px;
+    max-width: 70%; /* Увеличиваем ширину на средних экранах */
   }
 }
 
+@media (max-width: 768px) {
+  img {
+    max-width: 90%; /* Увеличиваем ширину на мобильных устройствах */
+  }
+}
 
 /* Таблицы */
 .table-container {
@@ -144,6 +151,38 @@ th, td {
   flex: 1 1 45%;
   padding: 0 10px;
 }
+
+/* Стиль линии */
+.footer-line {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-top: 1pt solid black;
+}
+
+/* Стиль футера */
+.footer-content {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Ссылка футера */
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+/* Логотип футера */
+.footer-logo {
+  width: 23px;
+  height: 23px;
+  margin-right: 1px;
+  vertical-align: -1;
+  border: 0px solid white; /* Тонкая черная рамка */
+}
+
 
 /* Медиа-запросы для адаптивности */
 @media (max-width: 1024px) {
