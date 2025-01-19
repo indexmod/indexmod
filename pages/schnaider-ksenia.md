@@ -1,44 +1,38 @@
 ---
-title: Ksenia Schnaider
-permalink: ksenia-schnaider
-layout: default
-originlang: Ukr.
-originspell: Ксенія Шнайдер
-appearing: Est.
-city: Kiev
-birth: 2011
-givenname: Ksenia
-familyname: Schnaider
-othername:
-venue: Amazon Fashion Week
-founder: Ksenia and Anton Schnaider
-origin: an Ukrainian fashion brand
-profession: founded by Ksenia and Anton Schnaider based in Kiev, who has won over the world after the invention of demi-denims and asymmetrical jeans
-photo: Asymmetrical Jeans by Ksenia Schnaider SS 2019, $375
-photographer: Ksenia Schnaider
-source: Kseniaschnaider.com
-photographerurl: https://www.kseniaschnaider.com/products/asymmetrical-jeans
-sourceurl: https://www.kseniaschnaider.com/products/asymmetrical-jeans
-shortname: SCHNAIDER
-facebook: 7076
-instagram: 43400
-youtube: 35
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 4
-pinterest: 240
-weibo: 1154
+title: Schnaider, Ksenia
+permalink: schnaider-ksenia
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://assets.vogue.com/photos/5c895fea65c8fa2d0a921349/master/w_1600%2Cc_limit/03-ksenia-schnaider.jpg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Ksenia Schnaider is a prominent figure in the fashion industry, known for her innovative designs and sustainable practices. She co-founded the Kyiv-based fashion label KSENIASCHNAIDER with her husband, Anton Schnaider, in 2011. The brand has gained international recognition, particularly for its unique approach to denim, including the creation of "demi-denims," which combine elements of culottes and skinny jeans into a single silhouette[3][4].
+
+### Early Life and Education
+Ksenia Schnaider studied Fashion/Apparel Design at КНУТД (Kyiv National University of Technologies and Design), where she developed her foundational skills in fashion design[2]. Her journey in fashion began with the creation of her first pair of jeans made from second-hand denim, which sparked an ongoing commitment to upcycling within her brand[3].
+
+### Career and Achievements
+As the **Co-Creative Director** of KSENIASCHNAIDER, Ksenia has been instrumental in establishing the brand's identity and ethos. The label focuses heavily on sustainability, with approximately one-third of its seasonal collections consisting of upcycled materials. Each year, KSENIASCHNAIDER repurposes around 5.3 tonnes of denim, creating new garments from old jeans[3].
+
+Ksenia's work has attracted attention from celebrities and fashion influencers, contributing to the brand's growing popularity. Notable figures such as Celine Dion and Bella Hadid have been spotted wearing her designs[3]. The brand has also collaborated with various companies to produce limited-edition collections that emphasize sustainability, including partnerships with denim producer ISKO and shoe label Morobé[3].
+
+### Recognition
+In 2019, Ksenia Schnaider was included in the Vogue Green Talent shortlist for her commitment to upcycling and sustainable fashion practices. This recognition highlights her influence in promoting eco-friendly initiatives within the fashion industry[3].
+
+### Current Endeavors
+As of January 2025, Ksenia continues to lead KSENIASCHNAIDER from Haywards Heath, England, while maintaining strong ties to Ukraine. Her work not only showcases innovative design but also emphasizes the importance of sustainability in contemporary fashion[2][3].
+
+Citations:
+[1] https://www.kseniaschnaider.com
+[2] https://uk.linkedin.com/in/ksenia-schnaider-66a0444a
+[3] https://en.wikipedia.org/wiki/Ksenia_Schnaider
+[4] https://www.instagram.com/itsmekseniaschnaider/
+[5] https://www.instagram.com/kseniaschnaider/?hl=ru
+[6] https://www.facebook.com/Kseniaschnaiderstudio/
+[7] https://www.zalando.co.uk/ksenia-schnaider/
+[8] https://www.lyst.co.uk/designer/ksenia-schnaider/
 
 ## Stockists
 

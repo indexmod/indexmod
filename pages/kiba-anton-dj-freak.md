@@ -37,7 +37,7 @@ Citations:
 + Glowing helmet (2008), Antimuseum, Moscow
 + Hurdy-gurdy, (2015—2016), Antimuseum, Moscow
 
-# Becoming DJ Freak
+## Becoming DJ Freak
 
 Since 1997, Anton creates visual effects for advertising video panes, becoming a professional DJ. From 1997 to 2001 works as an industrial climber, an expert in computer technology, network, and internet technologies. From 2001, he begins to the professional activity of the DJ, touring the nightclubs of Moscow and Russia. Since 2003, he documents his work in a photo portfolio and officially referred to as “the artist of the DJ-genre” in the directories as “Russian Musical Yearbook”, “InterMedia”, “MusicGuide”, “Euro-DJ”, “Want Media”, “Vodan First”. Anton begins to create music and remixes on the basis of his own studio in Moscow. In 2004, Anton opening a label “House Masters”. In 2005, Anton opening Internet portal after-party.ru. In 2008, he starts DJ-project freak.su, in art team of Alla Kiba, Ekaterina Sidelnikova with the support of latex workshop rubear.ru. In 2009, Anton as DJ Freak and DJ Rick (Kosmonautica) jointly organize a mash-up duo “Pirate Radio”, mash-up.su, developing a mixing in four hands, effects, bootlegs, live-remixes, megamix, mesh -aping, pitching and scratching. In 2012, DJ Freak creates a program of live performances, mixing live more than 100 well-known dance hits of various styles of rock and roll, Latin, disco, house, using “a magic glowing table” invented during the summer rehearsals with the Astral and created by Alla Kiba.
 
