@@ -2,63 +2,43 @@
 title: Copenhagen Fashion Week
 permalink: copenhagen-fashion-week
 layout: default
-originlang: Eng.
-originspell: Copenhagen Fashion Week
-appearing: Est.
-city: Copenhagen
-birth: 2006
-givenname: Copenhagen Fashion Week
-familyname: Family name
-othername: CFW
-venue: BLOX
-founder: Danish Ministry of Industry
-origin: a Scandinavia's
-profession: largest fashion event
-photo: Model on runway during CFW
-photographer: CFW
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: COPENHAGEN
-facebook: 39486
-instagram: 73700
-youtube: 0
-vimeo: 0
-twitter: 3394
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+image: https://copenhagenfashionweek.com/assets/SS25-Copenhagen-Fashion-Week-Han-Kj%C3%B8benhavn-Runway-4x5-James-Cochrane-25.jpg
+credits:
 ---
 
-Every February and August, Copenhagen is host to Scandinavia's largest fashion event, Copenhagen Fashion Week. On the catwalks and trade fairs are a growing number of new and known Scandinavian talent with a preview of their upcoming collections.
+Copenhagen Fashion Week (CPHFW) is an international biannual fashion event held in Copenhagen, Denmark. First established in 2006, it emerged from the merger of Danish clothing trade fairs dating back to the 1950s[2].
 
-## The application committee
+## Event Details
+The event takes place twice a year, with the upcoming Autumn/Winter 2025 edition scheduled from January 27-31, 2025[1][4]. It spans five days and features:
+- Fashion shows
+- Presentations
+- Trade shows (CIFF and Revolver)
+- Open showrooms
+- Talks
+- Parties
 
-Frederik Lenzt Andersen, Fashion Director, Euroman
+## Organizational Structure
+Copenhagen Fashion Week is a non-profit organization with a unique funding model:
+- 15% public funding
+- 85% commercial partnerships
+- Main contributor is the Danish Ministry of Industry, Business and Financial Affairs[2]
 
-Uffe Buchard, Creative Director, Darling Creative Studio
+## Sustainability Focus
+A key distinguishing feature of CPHFW is its strong commitment to sustainability. In 2018, CEO Cecilie Thorsmark established an advisory board to organize sustainability practices. The event now requires participating brands to:
+- Demonstrate that at least 50% of their collection uses certified, preferred, up-cycled, or recycled materials
+- Commit to due diligence throughout their supply chain[2][3]
 
-Rikke Agnete Dam, Fashion Director, Børsen
+The event has gained international recognition for showcasing Scandinavian fashion brands and setting new standards for sustainable fashion practices[3].
 
-Elin Frendberg, CEO, Swedish Fashion Council
-
-Kine B. Hartz, Editor-in-chief, Costume Norway
-
-Gisle Mardal, Director, Norwegian Fashion Institute
-
-Yu Masui, Fashion journalist, Freelance
-
-Sarah Skarum, Fashion journalist, Berlingske
-
-Kasper Steenbach, Editor-in-chief, Dossier
-
-Randi Helene Svendsen, Fashion Director, Costume Norway
-
-## See also
-
-+ [Wikipedia](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Wikipedia)](index)
+Citations:
+[1] https://copenhagenfashionweek.com
+[2] https://en.wikipedia.org/wiki/Copenhagen_Fashion_Week
+[3] https://www.harpersbazaar.com/uk/fashion/shows-trends/g28622845/copenhagen-fashion-week/
+[4] https://www.dezeen.com/eventsguide/2025/01/copenhagen-fashion-week-aw-2025/
+[5] https://copenhagenfashionweek.com/events
+[6] http://www.copenhagenfashionweek.com
+[7] https://www.instagram.com/cphfw/
+[8] https://www.youtube.com/c/CopenhagenFashionWeek

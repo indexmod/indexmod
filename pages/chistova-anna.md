@@ -1,7 +1,11 @@
 ---
-title: 'Chistova, Anna'
+title: Chistova, Anna
 permalink: chistova-anna
 layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://images.thevoicemag.ru/upload/img_cache/7bd/7bdc505f367261d4ccd441ff598c5428_cropped_600x900.webp
+credits:
 ---
 
 Anna Chistova is a Russian actress, costume designer, and fashion professional born on February 15, 1980, in Yekaterinburg, Russia[3][4].

@@ -1,37 +1,45 @@
 ---
 title: Cairo Fashion Festival
 permalink: cairo-fashion-festival
-layout: default
-originlang: Ar.
-originspell: مهرجان كايرو فاشون
-appearing: Est.
-city: Cairo
-birth: 2012
-givenname: Cairo Fashion Festival
-familyname:
-othername: CFF
-venue: Cairo Festival City Mall
-founder: Cairo Festival City Mall, Nada Mohamed
-origin: a local and international
-profession: fashion event in Cairo, a seasonal event created for the sole purpose of promoting local/international emerging fashion designers
-photo: Cairo fashionista at the opening of the store  of the Egyptian brand Montu by Cairo Fashion Festival CFF Agency in 2018
-photographer: CFF
-source: Facebook
-photographerurl: https://www.facebook.com/pg/CairoFashionFestival/photos/?tab=album&album_id=1943889072395563
-sourceurl: https://www.facebook.com/pg/CairoFashionFestival/photos/?tab=album&album_id=1943889072395563
-shortname: CFF
-facebook: 65771
-instagram: 88900
-youtube: 160
-vimeo: 0
-twitter: 1397
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image:
+credits: https://thelineshub.com/wp-content/uploads/2019/12/Cairo_Fashion_Festival_2019.jpg
 ---
 
-Seasonal fashion platform for local, Middle East, African designers and international retailers. Est. 2012
+Cairo Fashion Festival (CFF) is a seasonal fashion platform established in 2012 that showcases local, Middle Eastern, African designers, and international brands[4][8]. It is an annual event designed to promote emerging fashion designers and position Egypt in the global fashion market[8].
+
+## Key Features
+
+**Event Characteristics**
+- Launched by Cairo Festival City
+- Provides a platform for diverse fashion designers
+- Aims to highlight both local and international fashion talent[8]
+
+**Event Highlights**
+- Features spectacular fashion shows
+- Attracts top fashion figures and personas
+- Includes entertainment elements alongside fashion presentations[5]
+
+**Venues and Platforms**
+- Hosts events at locations like Cairo Festival City Mall
+- Utilizes multiple media platforms for showcasing fashion, including:
+  - Instagram (@cairofashionfestival)
+  - Facebook
+  - Live fashion show broadcasts[6][7]
+
+The festival serves as a significant promotional event for designers, offering them exposure and an opportunity to showcase their unique styles and collections to a broader audience.
+
+Citations:
+[1] https://www.cairofashionweek.com
+[2] https://europaregina.eu/fashion-weeks/fashion-weeks-africa/cairo-fashion-week/
+[3] https://www.cairofashiontex.com
+[4] https://www.instagram.com/cairofashionfestival/
+[5] https://www.facebook.com/CairoFashionFestival/
+[6] https://www.facebook.com/1878086262309178
+[7] https://www.instagram.com/cairofashionfestival/p/BsYfsCpn-vi/
+[8] https://azya2egypt.wordpress.com/cairo-fashion-festival-positions-egypt-in-fashion-global-market/
 
 ## See also
 

@@ -4,7 +4,7 @@ date: 2025-01-10
 update:
 layout: ai
 permalink: chekrygin-nikita
-image:
+image: https://cdn.forbes.ru/forbes-static/1040x669/new/2022/04/Nikita-Cekrygin-6262d64dcb339.jpeg
 ---
 
 Nikita Chekrygin is a prominent Russian fashion designer known for founding the brand **CH4RM**, which has gained recognition for its unique blend of Y2K nostalgia and Eastern European aesthetics. Born and raised in Tula, Russia, Chekrygin developed an early passion for fashion, influenced by his family's background in the industry; his mother owned a tailoring studio, and his aunt was a notable designer[3][4].

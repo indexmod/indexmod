@@ -1,7 +1,7 @@
 ---
 title: Curiosity Index
 permalink: curiosity-index-2014
-layout: default
+layout: ai
 originlang: Rus.
 originspell: Индекс любопытства
 appearing: Made

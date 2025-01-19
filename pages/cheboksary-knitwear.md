@@ -1,44 +1,36 @@
 ---
 title: Cheboksary knitwear (brand)
 permalink: cheboksary-knitwear-brand
-layout: default
-originlang: Cv.
-originspell: Шупашкар трикотажĕ
-appearing: Est.
-city: Poltava, Ukraine
-birth: 1958
-givenname: Cheboksary knitwear
-familyname:
-othername: Чебоксарский трикотаж, Чулочно-трикотажная фабрика
-venue: Cheboksary
-founder: USSR (Gov.)
-origin: a Chuvashian
-profession: brand of knitwear founded in Poltava (USSR) located in Chuvash Republic
-photo: Drawers Cheboksary jersey H-2
-photographer: Modalada
-source: Modalada.ru
-photographerurl: http://modalada.ru/product/pantalony-cheboksarskiy-trikotazh-ch-2
-sourceurl: http://modalada.ru/product/pantalony-cheboksarskiy-trikotazh-ch-2
-shortname: CHEBOKNIT
-facebook: 0
-instagram: 0
-youtube: 64
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image:
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Cheboksary, the capital of the Chuvash Republic in Russia, is known for its knitwear and textile industry. Several notable brands and companies are associated with Cheboksary knitwear:
+
+1. JSC Lenta: A modern company with over 75 years of history, producing a wide range of textile products including tapes and cords[1]. While not specifically focused on knitwear, it represents the textile industry in Cheboksary.
+
+2. UNC (УНК): A clothing brand established in 2021, based in Cheboksary[2]. Although not exclusively a knitwear brand, it contributes to the city's fashion industry.
+
+3. Cheboksary Knitwear: This brand produces t-shirts and other clothing items made from 100% cotton[3]. They offer printed designs and fashion tees for men.
+
+4. Cheboksary Trikotazh: A well-known brand producing high-quality products such as socks, sports knitwear, and children's clothing[5]. The factory uses modern knitting machines to create their goods.
+
+5. Cheboksary Textile Mill: This company focuses on home textiles, using various materials including cotton and knitwear[8].
+
+These brands showcase the diverse knitwear and textile industry in Cheboksary, ranging from traditional knitwear to modern fashion brands and industrial textile production.
+
+Citations:
+[1] https://www.lentacheb.ru/en/company/
+[2] https://uncwear.ru
+[3] https://www.aliexpress.com/item/1005007549087489.html
+[4] https://hsn.ru/html/tricotage0_eng.htm
+[5] https://www.loquis.com/en/loquis/7070660/Cheboksary+Hosiery+and+Knitting+Factory
+[6] https://www.instagram.com/wlk.brand/
+[7] https://www.instagram.com/_hitre_/
+[8] https://www.ruslegprom.ru/en/brand/cheboksary-textile-mill/
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

@@ -1,35 +1,44 @@
 ---
 title: Cairo Fashion Week
 permalink: cairo-fashion-week
-layout: default
-originlang: Ar.
-originspell: أسبوع الموضة في القاهرة
-appearing: Est.
-city: Cairo
-birth: 2010
-givenname: Cairo Fashion Week
-familyname:
-othername: CFW
-venue: El Hegaz Street
-founder: Media Hatem Salem
-origin: an international
-profession: fashion event in Egypt
-photo: Still from Forest Theme Edition of the Forest Theme Runway Film by Hatem Salem in 2018
-photographer: Hatem Salem
-source: Cairofashionweek.com
-photographerurl: http://www.cairofashionweek.com/
-sourceurl: http://www.cairofashionweek.com/
-shortname: CAIRO
-facebook: 8759
-instagram: 0
-youtube: 18
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image:
+credits: https://www.abouther.com/sites/default/files/2023/05/15/egypt_fashion_week.jpg
 ---
+
+Cairo Fashion Week is a prominent international fashion trade event that brings together fashion industry professionals and designers. It serves as a trade, promotional, and artistic fashion forum designed to showcase fashion from local, Middle Eastern, and international brands[1][4][6].
+
+## Key Details
+
+**Event Characteristics**
+- Provides a platform for fashion industry advocates
+- Aims to connect major stakeholders in the fashion world
+- Offers opportunities for designers and brands to exhibit their work
+
+**Scope and Participation**
+- Includes designers from the Middle East, Africa, and international markets[3]
+- Supports both local and international fashion brands
+- Organized by professional fashion organizations like the Egyptian Fashion and Design Council[5]
+
+## Related Events
+
+Cairo also hosts other significant fashion events, including:
+- Cairo Fashion & Tex Expo: An international exhibition specialized in textile, garment, and accessories
+- Cairo Fashion Festival: A seasonal fashion platform established in 2012[2][3]
+
+The events are typically held at venues like the Cairo International Convention Center, providing a professional and expansive space for fashion showcases and trade interactions[2].
+
+Citations:
+[1] https://www.cairofashionweek.com
+[2] https://www.cairofashiontex.com
+[3] https://www.instagram.com/cairofashionfestival/
+[4] https://www.cairofashionweek.com/about.php
+[5] https://www.instagram.com/egyptfashionweek2023/
+[6] https://europaregina.eu/fashion-weeks/fashion-weeks-africa/cairo-fashion-week/
+[7] https://www.facebook.com/CairoFashionFestival/
+[8] https://www.instagram.com/arabianfashionweek/reel/DAYfeaZI81q/?locale=gb&hl=am-et
 
 Cairo Fashion Week is a trade, promotional and artistic fashion forum within international standard, identical to similar fashion events being part of the world fashion calendar. With a strong international profile, Fashion Weeks has played a major role in the last 70 years in contributing to the growth and development of apparel, beauty and all other segments of fashion industry. Cairo Fashion Week is a fashion trade event aimed at bringing together major advocates of the fashion industry by providing them a single platform. As an international specialist trade fashion show CFW represents marketing and communication platform for brands, labels and designers from all areas of clothing, home textiles, furniture & decorations, fashion accessories, Jewelry, cosmetics and much more of all creative industries.
 

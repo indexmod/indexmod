@@ -2,6 +2,10 @@
 title: Cote d’Ivoire Fashion Week
 permalink: cote-d-ivoire-fashion-week
 layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image:
+credits:
 ---
 
 Côte d'Ivoire is set to host several significant fashion events in 2024, highlighting the country's vibrant fashion industry and cultural heritage.
