@@ -89,7 +89,7 @@ a:hover {
 img {
   max-width: 50%; /* Подгоняет изображение под ширину контейнера */
   height: auto;
-  filter: grayscale(20%); /* Полностью черно-белый фильтр */
+  filter: grayscale(70%); /* Полностью черно-белый фильтр */
   border: 0.5px solid #000; /* Тонкая черная рамка */
   margin: 5px 0; /* Отступ только сверху и снизу */
   text-align: left; /* Выравнивание по левому краю */
@@ -150,58 +150,6 @@ th, td {
 .column {
   flex: 1 1 45%;
   padding: 0 10px;
-}
-
-/* Стиль линии */
-.footer-line {
-  width: 100%;
-  margin: 0 auto;
-  border: none;
-  border-top: 1pt solid black;
-}
-
-/* Стиль футера */
-.footer-content {
-  text-align: center;
-  margin: 10px 0;
-}
-
-/* Ссылка футера */
-.footer-link {
-  display: inline-flex;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-}
-
-/* Логотип футера */
-.footer-logo {
-  width: 23px;
-  height: 23px;
-  margin-right: 1px;
-  vertical-align: -1;
-  border: 0px solid white; /* Тонкая черная рамка */
-}
-
-
-/* Медиа-запросы для адаптивности */
-@media (max-width: 1024px) {
-  .container {
-    max-width: 90%;
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 3rem; /* Уменьшить для планшетов */
-  }
-
-  h2, h3 {
-    font-size: 1.5rem;
-  }
-
-  p, a, ul, ol, li, table {
-    font-size: 1.1rem;
-  }
 }
 
 @media (max-width: 768px) {

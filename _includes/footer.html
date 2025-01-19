@@ -1,7 +1,48 @@
+<!-- Футер -->
 <hr class="footer-line">
-<p class="footer-content">
-<a href="{{ site.url }}" class="footer-link">
-    <img src="/logo.png" alt="Indexmod" class="footer-logo">
-     2006 — 2025 Indexmod Fashion & Art Сhainpædia
-  </a>
-</p>
+<img src="/logo.png" alt="Indexmod" class="footer-logo">
+<span class="footer-year">2006 — 2025</span>
+<a href="{{ site.url }}" class="footer-link">Indexmod Fashion & Art Сhainpædia</a>
+
+<style>
+  /* Линия футера */
+  .footer-line {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+
+  /* Логотип футера */
+  .footer-logo {
+    width: 100px; /* Устанавливаем ширину логотипа 100px */
+    height: auto; /* Высота будет пропорциональна ширине */
+    margin: 50px; /* Отступы со всех сторон по 50px */
+    border: none; /* Убираем любые рамки */
+    outline: none; /* Убираем возможные внешние границы */
+  }
+
+  /* Годы в футере */
+  .footer-year {
+    font-size: 30px; /* Размер шрифта 30px */
+    font-weight: normal;
+    line-height: 1;
+    margin-right: 20px; /* Отступ справа от текста */
+  }
+
+  /* Ссылка футера */
+  .footer-link {
+    font-size: 30px; /* Размер шрифта 30px */
+    font-weight: normal;
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Цвет текста соответствует основному */
+  }
+
+  /* Общий стиль для футера */
+  footer {
+    font-size: 30px; /* Размер шрифта для всего футера */
+    text-align: center; /* Центрируем текст в футере */
+  }
+</style>
