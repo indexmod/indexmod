@@ -1,36 +1,15 @@
 ---
-title: 'Deinichenko, Andrei'
+title: Deinichenko, Andrei
 permalink: deinichenko-andrei
-layout: default
-shortname: DEINICHENKO
-givenname: Andrei
-familyname: Deinichenko
-othername: Dei
-originlang: Rus.
-originspell: Андрей Дейниченко
-appearing: Born
-birth: 1971
-venue: Eta fellowship headquarters
-city: Aksai
-facebook: '321'
-instagram: '0'
-youtube: '3281'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-origin: a Russian
-profession: 'journalist founder of Indexmod, multimedia artist, actor, visioner at the Eta'
-photo: Andrei Deinichenko in 2007 at the Eastern gallery
-photographer: Donor Darom
-source: LiveJournal
-photographerurl: donor-darom
-sourceurl: 'http://donor-darom.livejournal.com/70036.html'
-founder: of Indexmod
-published: true
+date: 2025-01-10
+update: 2025-01-18
+layout: ai
+permalink:
+image:
+credits:
 ---
 
-Russian journalist founder of Indexmod, multimedia artist, actor, visioner at the Eta fellowship, <span id="a1">[\[1\]](#f1)</span>, layout and prints designer <span id="a2">[\[2\]](#f2)</span>.
+Russian journalist author of Indexmod, Indexmod fashion and art Сhainpedia, multimedia artist, actor, visioner at the Eta fellowship, <span id="a1">[\[1\]](#f1)</span>, layout and prints designer <span id="a2">[\[2\]](#f2)</span>.
 
 ## From autobiography
 
@@ -51,6 +30,7 @@ I became a journalist, it being happened, I worked for several years as a Fashio
 |2018|Indexmod blockchainpedia|
 |2019|Animation Producer at Lastik Studio|
 |2024|«Эфир» онлайн радио Indexmod Encyclopedia|
+|2025|Indexmod fashion and art Сhainpedia|
 
 ## Transhumanist actionism
 
