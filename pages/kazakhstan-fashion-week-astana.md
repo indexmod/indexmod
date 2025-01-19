@@ -1,35 +1,41 @@
 ---
 title: Kazakhstan Fashion Week Astana
 permalink: kazakhstan-fashion-week-astana
-layout: default
-originlang: Kz.
-originspell: Қазақстан сән апталығы
-appearing: Est.
-city: Almaty
-birth: 2004
-givenname: Kazakhstan Fashion Week
-familyname:
-othername: Kazakhstan Fashion Week Astana
-venue: Congress center Astana
-founder: Irina Bayzhanova, Olga Kim
-origin: an international
-profession: largest pret-a-porter fashion week in Central Asia held twice in capital Astana
-photo: The jurors of the Fashion for Future kurkur organized by Kazakhstan Fashion Week in cooperation with the European Design Institute IED
-photographer: KFWA
-source: Dailynews.kz
-photographerurl: http://www.dailynews.kz/culture/v_astane_opredelili_luchshih_molodyh_dizajnerov_mody
-sourceurl: http://www.dailynews.kz/culture/v_astane_opredelili_luchshih_molodyh_dizajnerov_mody
-shortname: KFWA
-facebook: 153
-instagram: 20700
-youtube: 17
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://images.vogue.it/wp-content/uploads/2017/12/04115052/astana-534x800.jpg
+credits:
 ---
+
+Kazakhstan Fashion Week (KFW) is a prominent fashion event in Central Asia, showcasing both local and international designers. Here are the key details:
+
+**Event Highlights**
+- Considered the **largest fashion week in Central Asia**[4][7]
+- Has hosted over 1,000,000 guests across 20 years
+- Featured more than 2,500 designers from around the world[4][7]
+
+**Recent Events**
+Kazakhstan has been hosting diverse fashion events that highlight both traditional and contemporary design:
+
+- **Bozjyra Fashion Week**: Held in Astana in September 2024, this event focused on ethnic-style clothing by Kazakh and foreign designers. The theme celebrated Aru Soltana, a 16th-century Kazakh aristocrat who impressed the English court[2].
+
+- **Turkish Designers Fashion Show**: On October 22, 2024, Astana hosted a fashion show featuring nine Turkish designers. The event aimed to strengthen cultural and economic ties between Kazakhstan and Türkiye[3].
+
+**Upcoming Event**
+Kazakhstan Fashion Week is set to hold its 36th season in April 2025[4][7], continuing its tradition of showcasing innovative fashion from around the world.
+
+The events demonstrate Kazakhstan's growing significance in the international fashion scene, emphasizing cultural exchange and design innovation.
+
+Citations:
+[1] https://kfw.kz
+[2] https://silkwaytv.kz/en/ethnic-fashion-week-with-modern-twist-takes-place-in-astana_43680
+[3] https://astanatimes.com/2024/10/turkish-designers-take-center-stage-at-fashion-show-in-astana/
+[4] https://www.instagram.com/kfwkz/
+[5] https://eurasianfashionweek.com/en/kazakhstan-fashion-week-astana-fw-2018-19/
+[6] https://www.styleofeurasia.com/podium-1/item/1143-kazakhstan-fashion-week-astana-ss-2018-day-1
+[7] https://www.instagram.com/kfwkz/?locale=th-TH&hl=en
+[8] https://www.facebook.com/kazakhstanfashion.weekastana/
 
 ## See also
 

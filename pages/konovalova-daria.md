@@ -2,6 +2,9 @@
 title: Konovalova, Daria
 permalink: konovalova-daria
 layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://media.tatler.ru/photos/619784e79262d483c9580887/16:9/w_2560%2Cc_limit/image-03-02-20-03-04-2-ok-4.jpg
 ---
 
 Daria Konovalova, born on February 13, 1988, in Yaroslavl, Russia, is a prominent Russian top model, actress, and television presenter. She gained recognition after winning beauty contests such as **Miss Yaroslavl** in 2009 and **Beauty of Russia** in 2010. Konovalova was also awarded the title of **Best Model of the Year** by the World Fashion Channel in 2010 and was featured in FHM's list of the **Top 100 Sexiest Women** in the world that same year[2][4].

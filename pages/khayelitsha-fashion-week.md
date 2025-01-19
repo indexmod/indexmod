@@ -1,35 +1,39 @@
 ---
 title: Khayelitsha Fashion Week
 permalink: khayelitsha-fashion-week
-layout: default
-originlang: Eng.
-originspell: Khayelitsha Fashion Week
-appearing: Est.
-city: Khayelitsha, Cape Town
-birth: 2017
-givenname: Khayelitsha Fashion Week
-familyname:
-othername: KFW
-venue: Isivivane Center
-founder: Bongani Matenjwa, Zuko Langeni
-origin: a South African
-profession: fashion event founded by Bongani Matenjwa, Zuko Langeni held bi-annually in the house of Isivivane Center next to Khayelistsha Mall opposite Home affairs and Khayelistsha Hospital at Khayelitsha, Cape Town
-photo: Khayelitsha Fashion Week founder Bongani Matenjwa
-photographer: KFW
-source: Khayelitshafashionweek.co.za
-photographerurl: http://www.khayelitshafashionweek.co.za/about
-sourceurl: http://www.khayelitshafashionweek.co.za/about
-shortname: KHAYELITSHA
-facebook: 5073
-instagram: 508
-youtube: 0
-vimeo: 0
-twitter: 175
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://www.goodthingsguy.com/wp-content/uploads/2024/07/khayelitshafashionweek.jpeg
 ---
+
+Khayelitsha Fashion Week (KFW) is a dynamic platform dedicated to showcasing the talents of emerging fashion professionals in South Africa[1][2]. The event provides a unique opportunity for **aspiring fashion designers, photographers, and models** to display their creative work and skills[1][2].
+
+## Key Features
+
+- **Purpose**: Empower and highlight upcoming talent in the fashion industry[2][6]
+- **Participants**: Local fashion designers, models, and photographers
+- **Mission**: Provide a stage for emerging designers to showcase their designs[6]
+
+## Event Highlights
+
+The fashion week has been running for several years, with its eighth edition noted in recent coverage[7]. Each event typically features a specific theme that inspires the designers' collections. For instance, one recent event had the theme "Grounded in Nature"[7], while another was titled "Alter Ego Effect"[5].
+
+## Platforms and Visibility
+
+KFW maintains an active social media presence, with Instagram and Facebook pages that help promote the event and connect with fashion enthusiasts[3][4]. The event has gained recognition as part of the broader Mother City Fashion Experience[7].
+
+Interested participants and attendees can find event details and tickets through platforms like Webtickets[6], and the event has been known to take place at venues such as the Khayelitsha Resource Centre[5].
+
+Citations:
+[1] https://www.khayelitshafashionweek.co.za
+[2] https://www.facebook.com/KhayelitshaFashionWeekpage/
+[3] https://www.instagram.com/khayelitshafashion/
+[4] https://www.facebook.com/KhayelitshaFashionWeekpage/?locale=kk_KZ
+[5] https://www.instagram.com/khayelitshafashion/p/DAyDhycupMA/
+[6] https://webtickets.co.za/v2/Event.aspx?itemid=1553543948
+[7] https://groundup.org.za/article/daring-and-colourful-designs-at-khayelitsha-fashion-week/
+[8] https://www.instagram.com/khayelitshafashion/reel/C8zDo23I9X_/
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

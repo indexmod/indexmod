@@ -2,45 +2,45 @@
 title: Kankulov, Anzor
 permalink: kankulov-anzor
 layout: default
-originlang: Rus.
-originspell: Канкулов Анзор Жамалович
-appearing: Born
-city: Baksan
-birth: 1968
-givenname: Anzor
-familyname: Kankulov
-othername: Анзор Канкулов
-venue: HSE University
-founder: Moscow Fashion Association
-origin: a Russian
-profession: journalist, Senior Lecturer at Faculty of Communications, Media, and Design
-photo: Anzor Kankulov
-photographer: RFE/RL
-source: Svoboda.org
-photographerurl: https://www.svoboda.org/a/28718025.html
-sourceurl: https://www.svoboda.org/a/28718025.html
-shortname: KANKULOV
-facebook: 2849
-instagram: 2514
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+permalink:
+exclude: true
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://theblueprint.ru/upload/23982/social_image@2x.jpg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Anzor Kankulov is a prominent Russian fashion journalist, educator, and academic leader in the fashion industry. He currently serves as the Head of the Fashion Department and leads the HSE Fashion Lab at the Higher School of Economics (HSE) Design School[2][3][4].
 
-Is a Russian journalist, Senior Lecturer at Faculty of Communications, Media, and Design, сurator of the Fashion direction at the HSE School of Design <span id="a2">[\[2\]](#f2)</span>.
+**Professional Background**
+Throughout his career, Kankulov has held significant editorial positions in major Russian fashion and lifestyle magazines, including:
+- Chief Editor of Harper's Bazaar Russia (2007-2009)
+- Chief Editor of OM Magazine (1998-2003)
+- Chief Editor of PORT Russia Magazine (2012-present)
+- Editorial Director of L'Officiel and Numero magazines[2][3][4]
+
+**Academic Career**
+- Senior Lecturer at the Faculty of Creative Industries / Design School
+- Head of the Fashion Educational Program at HSE
+- Started working at HSE in 2014
+- Has 10 years of academic and pedagogical experience[4]
+
+**Personal Life**
+Kankulov works closely with Katya Pavelko, with whom he co-leads the Fashion educational program at HSE. They have a collaborative and equal partnership, both professionally and personally. Kankulov describes himself as passionate and sometimes hot-tempered, but committed to creating an innovative and project-based educational approach in fashion design[3].
+
+**Recent Recognition**
+- Received a commendation from the HSE Vice-Rector in November 2023[4]
+
+Citations:
+[1] https://www.instagram.com/anzorkankulov/
+[2] https://program.fashionsummit.org/speakers/anzor-kankulov
+[3] https://theblueprint.ru/fashion/industry/katya-pavelko-anzor-kankulov
+[4] https://www.hse.ru/org/persons/135415335/
+[5] https://snob.ru/style/anzor-kankulov-pozitsiia-ty-poidesh-kuda-to-uchitsia-i-posle-etogo-dolzhen-kem-to-stat-vygliadit-kraine-nesovremennoi/
+[6] https://masters-project.ru/teachers/anzor-kankulov/
+[7] https://design.hse.ru/team/103
+[8] https://www.facebook.com/anzor.kankulov/
 
 
 ## See also

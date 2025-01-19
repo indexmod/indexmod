@@ -1,35 +1,38 @@
 ---
-title: 'Kozochka, Sima'
+title: Kozochka, Sima
 permalink: kozochka-sima
-layout: default
-originlang: Rus.
-originspell: Сима Козочка
-appearing: Born
-city: Moscow
-birth: 1998
-givenname: Serafima
-familyname: Solovieva
-othername: Saymon Sima
-venue: Simachev Bar
-founder:
-origin: a Russian
-profession: is an alternative model, DJ and art-diva, working and living in Moscow
-photo: Sima Kozochka
-photographer: Alena Chendler
-source: Vogue Russia
-photographerurl: chendler-alena
-sourceurl: https://www.vogue.com/slideshow/moscow-shopping-souvenirs-sima-saymon#4
-shortname: KOZOCHKA
-facebook: 347
-instagram: 15000
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://static.life.ru/publications/2021/3/20/3150476742.4300523.jpg
 ---
+
+Sima Kozochka, whose real name is Seraфима Соловьева, is a notable figure in the fashion and social media landscape. Born in Moscow, she has gained recognition for her unique appearance and has become a prominent model and influencer.
+
+### Background
+- **Real Name**: Серафима Соловьева
+- **Age**: 24 years old
+- **Location**: Moscow, Russia
+
+### Career Highlights
+- **Modeling**: Sima Kozochka has made a name for herself in the modeling industry, known for her unconventional looks that challenge traditional beauty standards. This has made her a sought-after figure in various fashion circles[6][8].
+- **Social Media Influence**: She actively engages with her audience on platforms like Instagram and Pinterest, where she shares content related to beauty, fashion, and lifestyle. Her Instagram handle is [@simakozochka](https://www.instagram.com/simakozochka/) [4].
+
+### Personal Life
+Sima has been open about her experiences, including discussions surrounding her appearance. It has been speculated that she may have total alopecia, which contributes to her distinctive look[5][7]. Despite this, she embraces her identity and uses her platform to promote self-acceptance and diversity in beauty.
+
+### Public Perception
+Sima Kozochka is often described as an "art diva" and has garnered attention from both local and international media. Her unique style and perspective resonate with many young people today, making her a significant voice in contemporary fashion discussions[6][7].
+
+Citations:
+[1] https://www.facebook.com/UsernameSaymonSima/
+[2] https://vk.com/saymonsima
+[3] https://ru.pinterest.com/saymonsima/
+[4] https://www.instagram.com/simakozochka/
+[5] https://ya.ru/neurum/c/krasota-i-stil/q/pochemu_serafima_soloveva_sima_kozochka_lysaya_69a4680d
+[6] https://life.ru/p/953432
+[7] https://life.ru/p/949392
+[8] https://dzen.ru/a/Xm2nCWvp1yGCueTR
 
 ## See also
 

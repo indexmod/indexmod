@@ -1,35 +1,32 @@
 ---
-title: 'Келли-Брант, Мегин Мари'
+title: Келли-Брант, Мегин Мари
 permalink: kelly-brunt-megyn-marie
-layout: default
-originlang: Eng.
-originspell: Megyn Marie Kelly-Brunt
-appearing: Born
-city: Champaign, Illinois
-birth: 1970
-givenname: Мегин Мари
-familyname: Келли-Брант
-othername: Megyn Marie Kelly-Brunt
-venue: NBC News
-founder: 
-origin: an American
-profession: journalist and television presenter became known in Russia after several interviews with Donald Trump and Vladimir Putin, also known in the US for the support of anti-LGBT groups
-photo: Мегин Келли
-photographer: Getty
-source: TooFab
-photographerurl: index
-sourceurl: index
-shortname: KELLYBRUNT
-facebook: 1018263
-instagram: 28200
-youtube: 0
-vimeo: 0
-twitter: 2390000
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vladimir_Putin_and_Megyn_Kelly_03.jpg/640px-Vladimir_Putin_and_Megyn_Kelly_03.jpg
 ---
+
+Мегин Мари Келли-Брант, известная как Мегин Келли, родилась 18 ноября 1970 года в Шампейне, штат Иллинойс, США. Она является американской журналисткой, телеведущей и юристом. Келли выросла в Сиракузах и потеряла отца в возрасте 15 лет. В 1995 году она окончила Олбанскую юридическую школу и начала карьеру в юридической практике, работая в таких компаниях, как «Jones Day» и «Bickel & Brewer LLP»[1][2][3].
+
+Келли начала свою журналистскую карьеру в 2003 году на телеканале WJLA-TV, а затем в 2004 году присоединилась к Fox News, где быстро завоевала популярность благодаря своим юридическим сегментам и собственному шоу «Суд Келли». В 2010 году она начала вести дневное шоу «America Live»[1][4]. В 2017 году Келли подписала контракт с NBC News, где также достигла значительных успехов[2][5].
+
+Келли была замужем дважды. Первый брак с доктором Дэниелом Кендаллом закончился разводом в 2006 году. С 2008 года она замужем за бизнесменом Дугласом Брантом, с которым у них трое детей: сын Эдвард и дочери Ярдли и Тэтчер[1][2][3].
+
+Келли также известна своими скандальными интервью и острыми комментариями по актуальным вопросам, что сделало её одной из самых влиятельных фигур в американской журналистике. В 2014 году она была включена в список «100 самых влиятельных людей» по версии Time[1][3].
+
+Citations:
+[1] https://rus.team/people/megin-kelli-megyn-marie-kelly-brunt
+[2] https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9C%D0%B5%D0%B3%D0%B8%D0%BD
+[3] https://news.rambler.ru/other/39328591-kto-takaya-megin-kelli/
+[4] https://roscongress.org/speakers/kelli-megin/
+[5] https://ru.kinorium.com/name/3313096/info/
+[6] https://www.theplace.ru/Megyn_Kelly_mod6362.html
+[7] https://vk.com/megynmariekellybrunt?search=1
+[8] https://dic.academic.ru/dic.nsf/ruwiki/1805791
+
+## Гомофобия
+
 Американская журналистка и телеведущая стала изветстна в России после нескольких интервью с Дональдом Трампом и Владимиром Путиным, также известна в США поддержкой анти-ЛГБТ групп.
 
 # Избранные интервью
@@ -39,7 +36,6 @@ pinterest: 0
 |2017|Дональд Трамп||
 |2018|Владимир Путин|Калининград|
 
-
 # See also
 
 + [Болен, Диттер](index)
@@ -47,7 +43,6 @@ pinterest: 0
 + [Дмитренко, Леора](index)
 + [Мадонна](index)
 + [Ярошенко, Анна](index)
-
 
 # Footnotes
 

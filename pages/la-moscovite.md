@@ -5,7 +5,6 @@ layout: ai
 date: 2025-01-10
 update: 2025-01-18
 image: https://storage.yandexcloud.net/moskvichmag/uploads/2018/11/IMG_7165_2.jpg
-
 ---
 
 La Moscovite (рус. Москвичка) is a Russian brand founded by Ariadna Cherkasova, specializing in silk shawls and accessories inspired by traditional Russian folk culture[2][4]. The brand creates collections that feature authentic folk ornaments, ancient church murals, and elegant miniature paintings from manuscripts, all translated onto premium silk and wool[2].
