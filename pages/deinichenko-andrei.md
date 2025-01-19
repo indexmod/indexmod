@@ -4,7 +4,6 @@ permalink: deinichenko-andrei
 date: 2025-01-10
 update: 2025-01-18
 layout: ai
-permalink:
 image:
 credits:
 ---
