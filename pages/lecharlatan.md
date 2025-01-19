@@ -1,31 +1,37 @@
 ---
 title: Lecharlatan (socks)
 permalink: lecharlatan
-givenname: Lecharlatan
-familyname:
-layout: default
-shortname: LECHARLATAN
-originlang: Rus.
-originspell: Ле Шарлатан
-appearing: Est.
-birth: 2015
-city: Moscow
-facebook: '719'
-instagram: '4258'
-youtube: '2668'
-vkontakte: '2257'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-origin: a Russian
-profession: brand of socks
-photo: Olly Alexander wears Lecharlatan socks
-photographer: Tom Jamieson
-source: The New York Times
-photographerurl: tom-jamieson
-sourceurl: https://www.nytimes.com/2015/07/05/arts/music/olly-alexander-releases-his-debut-album-with-years-years
-founder: 'Andrey Bozhyev'
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f26d89dc-b6b6-5644-89fe-54358d95c32b/33dff60c-8cb1-5372-87da-fd638fef9f06.jpg
 ---
+Lecharlatan is a Russian streetwear clothing brand founded in 2013 in Moscow, specializing in high-quality socks with unique designs[1]. The brand was originally co-founded by Andrey Bozhyev and Maria Aldarova, with Bozhyev later purchasing and registering the brand solely under his name in 2015[1].
+
+## Key Details
+- **Founding**: Established in 2013 in Moscow
+- **Founders**: Initially Andrey Bozhyev and Maria Aldarova
+- **Specialty**: High-quality socks with distinctive designs
+
+## First Collection
+The brand's first collection featured six socks with provocative and cultural names, including "New shit", "Internet", "Peace" ("Мир"), "Time", "420", and "Focus on me". The collection was intentionally designed in black and white, aiming to create cultural tags that young people could reinterpret[2].
+
+## Notable Achievements
+- Sold in stores across Russia and Japan[1]
+- Featured in music videos for artists like Poshlaya Molly and Monetochka[1]
+- Worn by musicians like Olly Alexander and Ivan Dorn[1]
+
+The brand has gained significant social media presence, with thousands of followers on platforms like Instagram and Facebook[1].
+
+Citations:
+[1] https://github.com/hanxiaomax/encyclopedia/blob/master/lecharlatan.md
+[2] https://fuckingyoung.es/le-charlatan-first-collection/
+[3] https://whatsonthestar.com/brand/lecharlatan
+[4] https://www.instagram.com/lecharlatanru/
+[5] https://www.facebook.com/lecharlatanofficial/
+[6] https://www.redbubble.com/shop/charlatan+womens-clothing
+[7] https://www.facebook.com/lecharlatanofficial/?locale=de_DE
+[8] https://www.facebook.com/aarionclothing/videos/aarion-x-lecharlatan/1242707099126068/
 
 (Est. 2013, Moscow) is a clothing brand, Russian streetwear brand <span id="a1">[\[1\]](#f1)</span>, an independent label providing high quality socks founded Le Charlatan by Andrey Bozhyev <span id="a2">[\[2\]](#f2)</span> and Maria Aldarova <span id="a3">[\[3\]](#f3)</span>, later purchased from co-founder and registered as Lecharlatan by Andrey Bozhyev (2015). Partner of the TEDxSadovoeRing <span id="a4">[\[4\]](#f4)</span>.
 

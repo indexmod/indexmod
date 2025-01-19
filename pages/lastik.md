@@ -1,36 +1,43 @@
 ---
 title: Lastik (studio)
 permalink: lastik
-layout: default
-originlang: Rus.
-originspell: Ластик
-appearing: Est.
-city: Moscow
-birth: 2018
-givenname: Lastik
-familyname:
-othername: Студия Ластик
-venue: Dorogomilovo
-founder: Alexei Platonov
-origin: a Russian
-profession: animation studio based in Moscow, founded by Alexei Platonov
-photo: Logo of Lastik in 2018
-photographer: Karina Zarzhevskaya
-source: Lastik
-photographerurl: lastik
-sourceurl: https://www.instagram.com/lastik.studio/
-shortname: LASTIK
-facebook: 0
-instagram: 167
-youtube: 0
-vimeo: 19
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://static.tildacdn.com/tild3164-3435-4833-a130-643334353137/red-Logo_latin_rgb-0.png
+credits:
 ---
+
+Lastik Studio is an **animation and motion design studio** that creates content for various media including advertising, movies, and educational projects[1][3][4]. The studio has a **global team** of art directors, illustrators, and animators who are united by a **playful visual approach**[3][4].
+
+## Studio Details
+- **Location**: The team is based across multiple cities, including Berlin, Riga, Vilnius, and Tbilisi[4]
+- **Specialties**:
+  - Animation
+  - Motion design
+  - Advertising content
+  - Infographics
+  - Creative visual techniques[1][3][4]
+
+## Online Presence
+The studio maintains an active presence on multiple social media platforms, including:
+- Instagram (@lastik.studio)
+- LinkedIn
+- Facebook
+- Behance
+- Pinterest[2][4][6][8]
+
+Their work is characterized by creative visual storytelling, with one description noting they love "switching fantastic roles" and "jumping from one visual technique to another"[2][5].
+
+Citations:
+[1] http://lastik.studio
+[2] https://www.instagram.com/lastik.studio/
+[3] https://www.behance.net/lastik
+[4] https://www.linkedin.com/company/lastik-studio
+[5] https://www.instagram.com/lastik.studio/channel/
+[6] https://www.facebook.com/lastikstudio/
+[7] https://www.facebook.com/lastikdesignstudio/photos/
+[8] https://in.pinterest.com/lastikstudio/
 
 ## Producers of Lastik
 
@@ -39,6 +46,7 @@ weibo: 0
 |2018|Alexei Platonov <span id="a2">[\[2\]](#f2)</span>|
 |2018|Karina Zarzhevskaya <span id="a2">[\[2\]](#f2)</span>|
 |2019|Tatiana Shapiguzova|
+|2020|Tatiana Ochinskaya|
 
 ## See also
 

@@ -2,34 +2,41 @@
 title: Loshadka Prty (party)
 permalink: loshadka-party
 layout: default
-originlang: Rus.
-originspell: Лошадка-пати
-appearing: Est.
-city: Saint Petersburg
-birth: 2009
-givenname: Loshadka
-familyname:
-othername: Loshadka Prty
-venue: Squat 3.4
-founder: Dmitri Estrin
-origin: an International
-profession: series of parties in Moscow, St. Petersburg,  Kiev and Odessa
-photo: Dmitri Estrin (left), founder of Loshadka Prty at discussion by Be-in.ru in 2010
-photographer: Alexei Bazhenov
-source: bazhenov-alexei
-photographerurl: index
-sourceurl: https://www.be-in.ru/subject/9732-modniki_vs_designers/
-shortname: LOSHADKA
-facebook: 2142
-instagram: 9797
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 37626
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://happia.ru/upload/homepage/loshadkaprty.jpg
+credits:
 ---
+Loshadka Prty is an underground party event series known for its energetic and extravagant style, primarily held in Russia and Belarus. The events are characterized by their vibrant and unconventional atmosphere, often featuring unique musical performances and DJ sets.
+
+## Event Highlights
+
+- The party has been active since at least 2012, with events documented in various cities including Moscow and Belarus[3][7]
+- Known for hosting performances by artists like Ali Love and featuring DJ sets from performers such as LERA FOER[2][6]
+- Described as a celebration of "extravagance, sexuality, and beauty"[3]
+
+## Event Locations and Venues
+
+The party has been hosted in multiple venues, including:
+- Disco bar "Afrika" in Belarus (January 2017)[3]
+- Central Station[7]
+- Green Theater[8]
+- Various locations in Moscow[2][5]
+
+## Musical Style
+
+The events feature diverse music styles, with tracks ranging from electronic dance music to more experimental sounds. Artists associated with Loshadka Prty include performers like Ali Love, and the events often include live DJ sets[4][6].
+
+Citations:
+[1] https://www.last.fm/music/Loshadka-party
+[2] https://www.instagram.com/loshadka.party/
+[3] https://www.instagram.com/loshadka.prty/
+[4] https://www.last.fm/music/Loshadka+Party
+[5] https://vk.com/album-8659657_234574347
+[6] https://vk.com/video-126511523_456239020
+[7] https://www.youtube.com/watch?v=O2J0soa7LmI
+[8] https://www.youtube.com/playlist?list=PLQo4qDFxN1SfKUOlEcLsaP9nAW3C4GLFG
 
 The event is known for its freak shows, contrast music program and "the loud bring-ups".
 

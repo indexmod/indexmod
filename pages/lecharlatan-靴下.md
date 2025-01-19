@@ -1,30 +1,10 @@
 ---
 title: Lecharlatan (衣料品ブランドです)
 permalink: lecharlatan-衣料品ブランドです
-givenname: Lecharlatan
-familyname:
-layout: default
-shortname: LECHARLATAN
-originlang: Rus.
-originspell: Ле Шарлатан
-appearing: Est.
-birth: 2015
-city: Moscow
-facebook: '719'
-instagram: '4258'
-youtube: '2668'
-vkontakte: '2257'
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-origin: a Russian
-profession: brand of socks
-photo: Olly Alexander wears Lecharlatan socks
-photographer: Tom Jamieson
-source: The New York Times
-photographerurl: tom-jamieson
-sourceurl: https://www.nytimes.com/2015/07/05/arts/music/olly-alexander-releases-his-debut-album-with-years-years
-founder: 'Andrey Bozhyev'
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f26d89dc-b6b6-5644-89fe-54358d95c32b/33dff60c-8cb1-5372-87da-fd638fef9f06.jpg
 ---
 
 (設立	2016年, モスクワ) 衣料品ブランドです、ロシアストリートウェアブランド <span id="a1">[\[1\]](#f1)</span>、アンレイ・ボジエフによるル・シャラタンを設立した高品質のソックスを提供する独立したレーベル <span id="a2">[\[2\]](#f2)</span> そして マリア・アルダロワ <span id="a3">[\[3\]](#f3)</span>, 後で共同設立者から購入した Andrey Bozhyev（2015）によってLecharlatanとして登録されました。TEDxサドーヴェリングのパートナー <span id="a4">[\[4\]](#f4)</span>。

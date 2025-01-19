@@ -1,36 +1,44 @@
 ---
 title: Levadnaja Details
 permalink: levadnaja-details
-layout: default
-originlang: Rus.
-originspell: Левадная Дитейлс
-appearing: Est.
-city: Moscow
-birth: 2006
-givenname: Levadnaja Details
-familyname: 
-othername: LD
-venue: Levadnaja Showroom Stoleshnikov
-founder: Svetlana Levadnaja
-origin: a Russian
-profession: brand, established by clothes, bags, accessories and ceramics to combine the Russian traditions with the modern context
-photo: Fragment of vase "Steppe" from Levadnaja Ceramics collection by Levadnaja Details
-photographer: Levadnaja
-source: Levadnaja Ceramics
-photographerurl: index
-sourceurl: http://en.levadnajadetails.com/magazin/product/vase-steppe
-shortname: LEVADNAJA
-facebook: 17559
-instagram: 41200
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 102
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://levadnajadetails.com/thumb/2/c2IzsXfocrgB33YsdYpFgQ/r/d/400a0190aw.jpg
 ---
 
+Levadnaja Details is a high-end clothing brand founded by Светлана Левадная (Svetlana Levadnaya) in 2005[3][5]. The brand is deeply rooted in Russian cultural traditions and specializes in luxury clothing, accessories, and home decor[3].
+
+## Key Characteristics
+
+**Design Philosophy**
+- Focuses on preserving and continuing Russian craftsmanship traditions[5]
+- Emphasizes **hand embroidery** as a signature element of their designs[4]
+- Uses high-quality fabrics from world-leading manufacturers[4]
+
+**Product Range**
+- Luxury clothing
+- Accessories
+- Home decor items
+- Unique pieces like hand-embroidered denim jackets[7]
+
+**Contact Information**
+- WhatsApp: +79261093363, +79690363336[1][6]
+- Available on multiple social media platforms:
+  - Instagram
+  - Facebook
+  - VKontakte (VK)
+
+The brand represents an elegant fusion of traditional Russian craftsmanship with contemporary luxury fashion design, offering exclusive pieces that celebrate cultural heritage[3][4].
+
+Citations:
+[1] https://www.instagram.com/levadnajadetails/
+[2] https://levadnajadetails.com
+[3] https://legri.online/info/brands/levadnaja/
+[4] https://www.instagram.com/levadnajadetails/reel/C52tLfEqlCA/
+[5] https://www.facebook.com/p/Levadnaja-Details-100064421780107/
+[6] https://www.instagram.com/explore/locations/476586179036034/levadnaja-details/
+[7] https://vk.com/id284004915
 
 ## Conspectus
 

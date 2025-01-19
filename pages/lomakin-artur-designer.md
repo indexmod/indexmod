@@ -1,40 +1,42 @@
 ---
 title: Lomakin, Artur (designer)
 permalink: lomakin-artur-designer
-layout: default
-originlang: Rus.
-originspell: Артур Ломакин
-appearing: Born
-city: Moscow
-birth: 1980
-givenname: Artur
-familyname: Lomakin
-othername: Ломакин
-venue: Calvert Journal
-founder: Founder of Frorget Me Not
-origin: a Russian
-profession: stylist living and working in Moscow, founder of Forget me not brand
-photo: A coat by Artur Lomakin
-photographer: Artur Lomakin
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: LOMAKIN
-facebook: 0
-instagram: 251
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://cms.showstudio.com/images/rjhJDu8lSpvFxf6h9NxLzCJy-xE=/130214/width-1280/contributors_1925.jpg
 ---
 
-`Photo`
+Artur Lomakin is a Russian fashion designer and photographer known for founding the fashion brand **Forget Me Not** in 2010[1][2][8]. He is recognized for introducing a **minimalist aesthetic** to Moscow's underground fashion scene[8].
 
-“Magic hour” by Artur Lomakin for Opening Ceremony 2014
-Photo: Masha Demianova / Tumblr
+## Background and Inspiration
+
+Lomakin draws inspiration from the **grey anonymity of Moscow's suburbs**, which significantly influences his creative work[3]. His design approach is characterized by a unique perspective that captures the essence of post-Soviet urban landscapes.
+
+## Creative Work
+
+- Founded the fashion brand Forget Me Not in 2010[2]
+- Works as both a fashion designer and photographer[5]
+- Presented photography projects at events like DOCA-2015[5]
+- Known for sophisticated and conceptual fashion design[6]
+
+## Aesthetic and Style
+
+Lomakin's work is deeply connected to the post-Soviet aesthetic, which is often described as **strange and unfamiliar to Western mainstream culture**. His designs reflect the complex cultural landscape of contemporary Russia, blending street culture with historical references[1].
+
+## Recognition
+
+He has been recognized as one of the early independent Russian designers, gaining attention for his innovative approach to fashion and photography[6][8].
+
+Citations:
+[1] https://1granary.com/opinion/defining-post-soviet-aesthetic/
+[2] https://www.showstudio.com/contributors/artur_lomakin
+[3] https://www.new-east-archive.org/articles/show/546/artur-lomakin-forget-me-not-conceptual-fashion-moscow
+[4] https://www.instagram.com/arturlomakin/
+[5] https://doca.moscow/doca/2015/proekty/37/
+[6] https://www.showstudio.com/projects/dressing_the_screen_russia/essay-russias-young-creatives
+[7] https://www.pinterest.com/pin/forget-me-not-by-artur-lomakin-spring-lookbook-2011-ad--297589487852020586/
+[8] https://www.new-east-archive.org/lists/list-item/7844/forget-me-not1
 
 # See also
 

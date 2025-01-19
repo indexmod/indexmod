@@ -1,44 +1,40 @@
 ---
 title: Lablaco
 permalink: lablaco
-layout: default
-originlang: It.
-originspell: Lablaco
-appearing: Est.
-city: Milan
-birth: 2016
-givenname: Lablaco
-familyname:
-othername: Lablaco Srl
-venue: Corso di Porta Vittoria 18
-founder: Lorenzo Albrighi, ShihYun (Eliana) Kuo
-origin: a global
-profession: platform, app, website, services under brandname Lablaco committed to making fashion circular
-photo: Lorenzo Albrighi CEO & Co-Founder of Lablaco
-photographer: Unknown author
-source: Circular Fashion Summit 2019 Press kit
-photographerurl: https://www.circularfashionsummit.com/press
-sourceurl: https://www.circularfashionsummit.com/press
-shortname: LABLACO
-facebook: 15255
-instagram: 46500
-youtube: 995
-vimeo: 2
-twitter: 239
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 14
-weibo: 0
+layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://www.renewablematter.eu/themes/simple/images_content/MR29-30/SU/SU4.jpg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Lablaco is a digital platform dedicated to creating a sustainable and transparent circular fashion ecosystem. Founded by Italo-English Lorenzo Albrighi and Taiwanese Shih Yun, the platform uses blockchain technology to revolutionize the fashion shopping experience[2][3].
+
+**Key Features**:
+- Social marketplace for buying and selling used clothes
+- Blockchain-enabled platform for fashion transparency
+- Allows users to earn digital coins (Lablacoins) and discount coupons
+- Connects sellers, brands, designers, and influencers in a single space[2]
+
+**Technological Innovations**:
+- Uses blockchain to provide end-to-end traceability of clothing
+- Offers two main apps:
+  1. SPIN: Allows consumers to tokenize and track clothing
+  2. LPLUS: Provides traceability of product data, authenticity, and environmental impact[3]
+
+The platform aims to make fashion more **sustainable**, **democratic**, and **transparent** by enabling clothes exchange, raising awareness about fashion's environmental impact, and creating a digital community that can track a garment's entire lifecycle[2][3].
+
+Lablaco has been active since 2016 and has participated in initiatives like the Circular Fashion Summit, working to transform how people interact with fashion through technology[2].
+
+Citations:
+[1] https://www.labla.co
+[2] https://www.renewablematter.eu/en/lablaco-a-platform-for-transparent-circular-and-digital-fashion
+[3] https://knowledge-hub.circle-economy.com/wctd/article/3937?n=Lablaco-A-Digital-Platform-for-Circular-Fashion
+[4] https://www.ourcrowd.com/startup/lablaco
+[5] https://www.instagram.com/lablaco/
+[6] https://www.facebook.com/lablaco/
+[7] https://x.com/lablaco_
+[8] https://wellfound.com/company/lablaco/people
 
 A platform, app, website, services under brandname Lablaco committed to making fashion circular, revolutionizing the average shopping experience to create the first social-commerce platform to give away pre-loved clothes, earn discounts, shop designer fashion worldwide.
 
