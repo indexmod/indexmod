@@ -4,7 +4,7 @@ permalink: khromtchenko-evelina
 layout: ai
 date: 2025-01-10
 update: 2025-01-18
-image: https://img.businessoffashion.com/resizer/v2/https%3A%2F%2Fprod-bof-media.s3.eu-west-1.amazonaws.com%2Fimport%2Fprofiles%2Fasset%2F161%2F27a244b4040c07d8fe59a0badde18197c889c5ba.jpeg
+image: https://78.ru/images/uploads/1708957671698.jpg
 ---
 Evelina Khromtchenko is a prominent Russian **journalist**, **television host**, and **fashion media personality**. Born on February 27, 1971, in Ufa, Russia, she comes from a family of an economist and a Russian language teacher[2][3].
 
