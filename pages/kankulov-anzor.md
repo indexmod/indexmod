@@ -1,9 +1,6 @@
 ---
 title: Kankulov, Anzor
 permalink: kankulov-anzor
-layout: default
-permalink:
-exclude: true
 layout: ai
 date: 2025-01-10
 update: 2025-01-18
