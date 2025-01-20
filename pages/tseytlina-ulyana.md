@@ -3,7 +3,7 @@ title: Tseytlina, Ulyana
 permalink: tseytlina-ulyana
 date: 2025-01-10
 update: 2025-01-18
-layout: ai:
+layout: ai
 image: https://cache.diomedia.com/diocomp/01/AX/07/comp/01AX-075C.jpg
 credits:
 ---
