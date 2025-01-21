@@ -1,5 +1,5 @@
 ---
-title: «Селфи» — Жулиме
+title: Жулиме
 permalink: selfie
 layout: interview
 ---
