@@ -70,8 +70,10 @@
                 {% assign previous_letter = current_letter %}
               {% endif %}
               <li class="intro">
-                <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-              </li>
+      {% unless page.layout == "interview" and page.url contains "/interview/" %}
+        <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+      {% endunless %}
+    </li>
             {% endunless %}
           {% endif %}
         {% endfor %}
