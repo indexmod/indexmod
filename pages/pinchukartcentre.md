@@ -1,37 +1,45 @@
 ---
 title: PinchukArtCentre
 permalink: pinchukartcentre
-shortname: PINCHUK
-layout: default
-givenname: PinchukArtCentre
-familyname:
-originlang: Ukr.
-originspell: Пінчук Арт Центр
-othername: Mіжнародний центр сучасного мистецтва Віктора Пінчука
-appearing: Est.
-venue: Bessarabian Market Square
-birth: 2006
-city: Kiev
-facebook: 29524
-instagram: 11000
-youtube: 277737
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-origin: an International
-profession: art center in Kiev, the largest and most dynamic private contemporary art centre in Central and Eastern Europe with free admission
-photo: Dineo Seshee Bopape, artist, Victor Pinchuk, businessman and philanthropist at vernissage of the shortlisted artists for the PinchukArtCentre Prize 2018
-photographer: Sergey Illin, Alexander Pilyugin
-source: Source
-photographerurl: http://pinchukartcentre.org/en/photo_and_video/photo/32147
-sourceurl: http://pinchukartcentre.org/en/photo_and_video/photo/32147
-founder: Victor Pinchuk Foundation
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://lp-cms-production.imgix.net/2023-05/iStock-1370376411.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75
+credits:
 ---
 
-As a project of the Victor Pinchuk Foundation, it is dedicated to fostering artistic education, creation and appreciation in Ukraine.
+PinchukArtCentre is a private contemporary art centre located in Kyiv, Ukraine, established by steel billionaire Victor Pinchuk on September 16, 2006[2]. It is considered the largest and most dynamic private contemporary art centre in Central and Eastern Europe[3][5].
+
+## Key Characteristics
+- **Location**: Kyiv, Ukraine
+- **Founding**: September 16, 2006
+- **Founder**: Victor Pinchuk
+- **Admission**: Free
+- **Operating Hours**: Wednesday–Sunday, 12 p.m. to 9 p.m.
+
+## Mission and Focus
+The centre aims to foster artistic education, creation, and art appreciation in Ukraine. Its mission includes:
+- Exhibiting new artistic production
+- Collecting national and international contemporary art
+- Facilitating cultural dialogue between East and West
+- Supporting artistic development
+
+## Notable Achievements
+- Represented Ukraine at the Venice Biennale in 2007 and 2009[2]
+- Established the Future Generation Art Prize in 2009, a biennial award for artists under 35[2]
+- As of November 2019, had over 3,000,000 total visitors[3]
+
+The PinchukArtCentre continues to play a significant role in promoting contemporary art and supporting emerging Ukrainian artists through various programs and exhibitions.
+
+Citations:
+[1] https://new.pinchukartcentre.org/en
+[2] https://en.wikipedia.org/wiki/PinchukArtCentre
+[3] https://pinchukfund.org/en/projects/6/
+[4] https://www.e-flux.com/directory/2847/pinchukartcentre/
+[5] https://www.artsy.net/partner/pinchukartcentre
+[6] https://new.pinchukartcentre.org
+[7] https://www.instagram.com/pinchukartcentre/
+[8] https://www.tripadvisor.co.uk/ShowUserReviews-g294474-d2180167-r164886424-PinchukArtCentre-Kyiv.html
 
 ## See also
 

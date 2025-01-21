@@ -1,34 +1,11 @@
 ---
 title: Pinea Chrome
 permalink: pinea-chrome
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PINEA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 (2013, Nakhabino) is a concept of interior gadget created by Andrei Deinichenko made of a pine and chrome-plated aluminum details <span id="a1">[\[1\]](#f1)</span>.
@@ -63,16 +40,6 @@ The prototype Pinea Chrome has been assembled in Moscow from pine and chrome-pla
 
 + Pinea Ferrum
 + Trubezh Concept
-
-# Footnotes
-
-
-[[1]](#a1) <span id="f1"></span> [Pinea Chrome (Vimeo)](https://vimeo.com/121336598)
-
-[[2]](#a2) <span id="f2"></span> [Crowdfunding in Russian Federation. Lunev V. D. (EduHerald)](http://www.eduherald.ru/pdf/2015/6/153.pdf)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Vimeo)](https://vimeo.com/121336598)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
++ [Pinea Chrome (Vimeo)](https://vimeo.com/121336598)
++ Crowdfunding in Russian Federation. Lunev V. D. (EduHerald)](http://www.eduherald.ru/pdf/2015/6/153.pdf)
++ [{{page.title}} (Vimeo)](https://vimeo.com/121336598)

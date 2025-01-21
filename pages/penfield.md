@@ -1,69 +1,47 @@
 ---
-title: Penfield
+title: Penfield (одежда)
 permalink: penfield
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PENFIELD
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://dz3aw12iizk17.cloudfront.net/cache/catalog/Penfield/penfield_bowerbirdge_jacket_black_1-870x1110.jpg
+credits:
 ---
 
+Penfield — это американский бренд верхней одежды, основанный в 1975 году в городе Хадсон, штат Массачусетс[2][3]. Компания специализируется на производстве качественной, комфортной и функциональной одежды для путешественников и городских жителей[2].
 
-(Est. 2013, city) is a --------- <span id="a1">[\[1\]](#f1)</span>.
+## История и особенности бренда
 
-![](/encyclopedia/images/image-name.jpg)
+Основатель компании Харви Гросс стремился создать одежду, которая сохраняла бы тепло даже в сильный мороз[2]. Penfield начал с производства курток-пуховиков и жилетов для лесорубов, используя пух и перо в качестве утеплителя[2][3].
 
-**Image title**
+Ключевые особенности одежды Penfield:
 
-*Photo: [Name](index) / [Source](index)*
+- Использование пуха и пера для утепления
+- Легкость и сохранение тепла
+- Защита от ветра с помощью тефлона
+- Яркие цвета для заметности
 
-# {{page.title}} Conspectus
+## Ассортимент
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+Сегодня Penfield предлагает широкий ассортимент одежды:
 
-# {{page.title}} Indexmod
+- Куртки и пуховики
+- Флисовые толстовки
+- Рубашки и футболки
+- Аксессуары
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+Бренд сочетает функциональность экипировки с силуэтами, вдохновленными стилем Лиги Плюща[2].
 
+## Философия бренда
 
-# See also
+Penfield стремится сочетать современный подход с приверженностью качеству, практичностью и долговечностью[2]. Дизайн одежды основан на классической эстетике Новой Англии, что обеспечивает глобальную популярность бренда[3].
 
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://www.penfield.com
+[2] https://fabstore.ru/brands/penfield/
+[3] https://www.workingclassheroes.co.uk/penfield
+[4] https://www.unionclothing.co.uk/collections/penfield
+[5] https://www.next.co.uk/shop/brand-penfield-0
+[6] https://www.terracesmenswear.co.uk/penfield
+[7] https://www.badgerclothing.co.uk/collections/penfield
+[8] https://www.fatbuddhastore.com/clothing-c1/penfield-m421

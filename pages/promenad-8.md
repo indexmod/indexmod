@@ -1,34 +1,11 @@
 ---
 title: Promenad 8
 permalink: promenad-8
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PROMENAD
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 (Rus. «Променад 8», 2018, Moscow) is a multimedia concert of eight parts created and performed by [Andrei Deinichenko](deinichenko-andrei) to the anniversary of the creation of the fellowship [Eta](eta-fellowship) <span id="a1">[\[1\]](#f1)</span>.

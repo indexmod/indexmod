@@ -1,69 +1,55 @@
 ---
 title: Philippine Fashion Week
 permalink: philippine-fashion-week
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PHILIPPINE
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://plus.inquirer.net/wp-content/uploads/2024/11/864165.jpeg
+credits:
 ---
 
+Philippine Fashion Week (PhFW) is the Philippines' longest-running and most significant fashion event, established in 1997 by Joey A. Espino Jr. and Audie Espino[1][2]. It is a **biannual fashion showcase** held in Metro Manila, with events typically scheduled in May for holiday collections and October for spring and summer collections[2].
 
-(Est. 2013, city) is a --------- <span id="a1">[\[1\]](#f1)</span>.
+## Event Characteristics
 
-![](/encyclopedia/images/image-name.jpg)
+- Known as the "Olympics" of Philippine fashion
+- Held at venues like SMX Convention Center and SM Mall of Asia
+- By invitation only, with designers undergoing a stringent selection process
+- Generates approximately five million viewers worldwide[2]
 
-**Image title**
+## Recent Developments
 
-*Photo: [Name](index) / [Source](index)*
+In 2024, Philippine Fashion Week underwent a significant transformation. The event is now managed by Amorada Inc. and has expanded its scope beyond traditional runway shows. It now aims to be a **multi-dimensional platform** covering seven lifestyle domains:
 
-# {{page.title}} Conspectus
+- Fashion
+- Dining
+- Beverages
+- Home
+- Travel
+- Arts & Entertainment
+- Wellness[4][5]
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+## Notable Achievements
 
-# {{page.title}} Indexmod
+Philippine Fashion Week has featured numerous renowned Filipino designers, including:
+- Ito Curata
+- Ezra Santos
+- Albert Andrada
+- Jerome Salaya Ang
+- And many others[2]
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+The event has also attracted international attention, with designers from PhFW having their pieces worn by global celebrities like Beyoncé, Rihanna, and Lady Gaga[2].
 
+## Future Vision
 
-# See also
+The 2025 season focuses on **global collaboration** and positioning Filipino fashion on the international stage, creating opportunities for local designers to showcase their creativity and innovation[4].
 
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://www.philippinefashionweek.com
+[2] https://en.wikipedia.org/wiki/Philippine_Fashion_Week
+[3] https://europaregina.eu/fashion-weeks/fashion-weeks-asia/philippine-fashion-week/
+[4] https://artplus.ph/features/philippine-fashion-week-is-back-heres-what-you-need-to-know
+[5] https://www.tatlerasia.com/style/fashion/philippine-fashion-week-launch
+[6] https://www.instagram.com/phfashionweek/
+[7] https://www.facebook.com/PhilippineFashionWeek/
+[8] https://plus.inquirer.net/lifestyle/rebooting-philippine-fashion-week/

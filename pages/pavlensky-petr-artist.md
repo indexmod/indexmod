@@ -1,80 +1,39 @@
 ---
 title: Pavlensky, Petr (artist)
 permalink: pavlensky-petr-artist
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PAVLENSKY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://c.files.bbci.co.uk/552D/production/_98350812_petrpavlensky.jpg
+credits:
 ---
 
-(Est. 2013, city) is a Petr Pavlensky, Pjotr Pawlenski (Rus. Пётр Павленский) born 1984, Leningrad—is a Russian performance artist acts in a genre of protest art1. Petr becomes popular after scandal action “Fixation” on Red Square in Moscow in 2013. Login to edit Petr Pavlensky <span id="a1">[\[1\]](#f1)</span>.
+Petr Pavlensky is a prominent Russian contemporary artist known for his provocative and politically charged performance art. Born on March 8, 1984, Pavlensky's work often blurs the lines between art, protest, and personal sacrifice, utilizing extreme actions that challenge authority and censorship in Russia.
 
-![](/encyclopedia/images/image-name.jpg)
+## Artistic Philosophy and Early Works
 
-**Image title**
-Two journalists recording Pavlensky's action on Lubyanka
-Photo: BBC Russia / Youtube / Gif by Indexmod
+Pavlensky describes his artistic practice as **Subject-Object Art**, which focuses on the dynamics of power between those who govern and those who are governed. He aims to make the mechanisms of power visible through his performances, compelling authorities to engage with his art directly[1]. His notable early work, **Seam** (2012), involved sewing his lips shut in protest against the imprisonment of the punk band Pussy Riot. This act was a commentary on the suppression of artistic expression in contemporary Russia and garnered significant media attention[2].
 
-Petr Pavlensky in 2013
-Photo: Maksim Belousov / Wikipedia
-*Photo: [Name](index) / [Source](index)*
+## Notable Performances
 
-# {{page.title}} Selected actions
- 2013	 Fixation	 Red Square
- 2014	 Segregation	 Serbsky Institute
- 2015	 Menace	 FSB on Lubianka
+Pavlensky's performances often involve self-mutilation and nudity, drawing inspiration from Viennese Actionism. His most infamous act occurred in 2013 when he nailed his scrotum to Red Square, symbolizing the oppression of artists under Vladimir Putin's regime[3]. These extreme gestures are intended to provoke public discourse about freedom of expression and governmental control.
 
+## Legal Troubles and Asylum
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+In 2017, Pavlensky was granted political asylum in France after fleeing Russia amid sexual assault allegations, which he denies. His activism continued in France, where he set fire to the facade of the Banque de France as a form of protest against state institutions, resulting in a conviction for criminal damage[4][3]. Despite facing legal challenges, he remains a vocal critic of both Russian and French governmental practices regarding artistic freedom.
 
-# {{page.title}} Indexmod
+## Recent Developments
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+Pavlensky continues to engage in controversial performances that challenge societal norms and governmental authority. His actions have sparked debates about the role of art in political activism and the limits of free expression. In 2019, he was sentenced to three years for setting fire to the bank but was released immediately due to time served[4]. His work remains influential in discussions about art's intersection with politics and activism.
 
+Pavlensky's approach has made him a polarizing figure; while some view him as a courageous advocate for freedom of expression, others criticize his methods as reckless or harmful. Regardless, his contributions to contemporary art continue to provoke thought and dialogue around power dynamics in society[2][1].
 
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-Pussy Riot
-Voina Group
-
-# Footnotes
-
-1 Ухо художника: несколько слов о новой акции Петра Павленского
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://en.wikipedia.org/wiki/Petr_Pavlensky
+[2] https://www.zirartmag.com/2021/06/02/art-and-activism-the-subversive-actions-by-petr-pavlensky/
+[3] https://www.bbc.co.uk/news/world-europe-41650245
+[4] https://www.theartnewspaper.com/2019/01/11/russian-performance-artist-pyotr-pavlensky-gets-three-year-prison-sentence-but-walks-free-for-time-served
+[5] https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9,_%D0%9F%D1%91%D1%82%D1%80_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B5%D0%B2%D0%B8%D1%87
+[6] https://www.instagram.com/pyotr.pavlensky/
+[7] https://www.nytimes.com/2019/07/11/magazine/pyotr-pavlensky-art.html
+[8] https://www.artriot.art/artist.html?id=PyotrPavlensky&ch=perfomance&tid=40

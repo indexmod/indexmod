@@ -1,68 +1,37 @@
 ---
 title: Perry, Grayson (artist)
 permalink: perry-grayson-artist
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PERRY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://birdinflight.com/wp-content/uploads/2017/03/e3104eccab49e41c123cfe94d3d4c6ec.jpg
+credits:
 ---
 
-(Est. 2013, city) is a --------- <span id="a1">[\[1\]](#f1)</span>.
+Грейсон Перри — английский художник, родившийся 24 марта 1960 года в Челмсфорде. Он известен своими керамическими изделиями, печатными гобеленами и работами, исследующими темы идентичности, гендера и социальной справедливости. Перри также известен своим альтер эго, Клэр, которое он использует для выражения своих идей о культуре и обществе.
 
-![](/encyclopedia/images/image-name.jpg)
+## Образование и карьера
+Перри получил степень бакалавра изящных искусств в Политехническом институте Портсмута в 1982 году. Он начал заниматься керамикой после того, как записался на вечерние курсы по гончарному делу. Его работы часто содержат автобиографические элементы и критику социальных норм[1][4].
 
-**Image title**
+## Художественный стиль
+Перри создает свои знаменитые вазы классической формы, которые оформлены яркими цветами и изображают сюжеты, противоречащие их привлекательному внешнему виду. Его работы исследуют такие темы, как насилие, секс и общественные предвзятости. Он использует керамику как средство для обсуждения сложных социальных вопросов[3][6][10].
 
-*Photo: [Name](index) / [Source](index)*
+## Награды и признание
+В 2003 году Перри стал первым керамистом, удостоенным премии Тёрнера. Его работы находятся в коллекциях таких музеев, как Музей современного искусства в Нью-Йорке и Тейт в Лондоне[1][4]. Он также активно участвует в телевидении, создавая документальные программы и художественные проекты[4][9].
 
-# {{page.title}} Conspectus
+## Литературная деятельность
+Перри является автором нескольких книг, включая *The Descent of Man* и *Playing to the Gallery*, где он исследует темы мужской идентичности и современного искусства[5][6].
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+Грейсон Перри продолжает оставаться влиятельной фигурой в современном искусстве, используя свою платформу для обсуждения актуальных социальных вопросов через призму своего уникального художественного подхода.
 
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
-
-
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D1%80%D0%B8,_%D0%93%D1%80%D0%B5%D0%B9%D1%81%D0%BE%D0%BD
+[2] https://www.livelib.ru/author/990879/top-grejson-perri
+[3] https://www.artnet.com/artists/grayson-perry/
+[4] https://en.wikipedia.org/wiki/Grayson_Perry
+[5] https://www.yakaboo.ua/author/view/Grejson_Perri
+[6] https://www.victoria-miro.com/artists/12-grayson-perry/
+[7] https://www.interior.ru/place/5360-khudozhnik-grejson-perri-dom-v-essekse.html
+[8] https://www.livelib.ru/author/990879/series/listview/bigtiles
+[9] https://www.royalacademy.org.uk/art-artists/name/grayson-perry-ra
+[10] https://www.saatchigallery.com/artist/grayson_perry

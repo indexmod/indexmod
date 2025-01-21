@@ -1,34 +1,11 @@
 ---
-title: 'Puhoff, Yan'
+title: Puhoff, Yan
 permalink: pouhoff-yan
-layout: default
-originlang: Rus.
-originspell: Ян Пухов
-appearing: Born
-city: Moscow
-birth: 1979
-givenname: Yan
-familyname: Puhov
-othername: Puhoff
-venue:
-founder: of Puhoff's School Photography
-origin: a Russian
-profession: photographer, stylist, make-up artist, fashion PR and promotion expert, founder of the Yan Puhoff's School Photography, working and living in Moscow
-photo: Yan Puhoff's selfportrait
-photographer: Yan Puhoff
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: PUHOFF
-facebook: 4878
-instagram: 1471
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 13
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 ## From Bio

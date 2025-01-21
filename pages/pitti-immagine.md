@@ -1,67 +1,39 @@
 ---
 title: Pitti Immagine
 permalink: pitti-immagine
-layout: default
-exclude: true
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PITTI 
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://www.modemonline.com/img/_upload/tradeshow/pitti_immagine/slideshow/pitti_immagine_20240614184504.jpg
+credits:
 ---
 
 
-![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+Pitti Immagine - это итальянская компания, специализирующаяся на продвижении fashion-индустрии и организации международных выставок моды[1][5]. Компания была основана в 1989 году и проводит несколько специализированных мероприятий:
 
-**Image caption**
+## Основные мероприятия
+- **Pitti Uomo**: международная выставка мужской моды
+- **Pitti Bimbo**: выставка детской моды
+- **Pitti Filati**: текстильная выставка
+- **Fragranze**: парфюмерная выставка
 
-*Photo: [Not specified](index) / [Source](index)*
+## История и особенности
+Компания базируется во Флоренции и имеет богатую историю культурных проектов. В 2002 году была создана **Fondazione Pitti Immagine Discovery**, цель которой - развитие культурных инициатив в области моды, искусства и современных коммуникаций[2].
 
-## Сonspectus
+## Текущая деятельность
+Pitti Immagine организует международные салоны и события в секторе моды и lifestyle, представляя новейшие коллекции и стили[2][3]. В 2025 году запланированы следующие мероприятия:
+- Pitti Immagine Uomo: 14-17 января и 17-20 июня
+- Pitti Immagine Bimbo: 22-23 января
+- Pitti Immagine Filati: 28-30 января
 
-|Year|City|
-|-|-|
-|2017|Moscow <span id="a2">[\[2\]](#f2)</span>|
+Компания является значимой платформой для профессионалов fashion-индустрии, где встречаются дизайнеры, байеры и представители мировой моды[5][6].
 
-## See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Wikipedia)](index)
-
-[[2]](#a2) <span id="f2"></span> [{{page.title}} (Source name)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-[[6]](#a6) <span id="f6"></span> [{{page.title}} (Twitter)](index)
+Citations:
+[1] https://www.facebook.com/Pittimmagine/?locale=ru_RU
+[2] https://www.pittimmagine.com/en/focuson/fondazione-pitti-immagine-discovery
+[3] https://uomo.pittimmagine.com
+[4] http://www.pittimmagine.com
+[5] https://ru.wikipedia.org/wiki/Pitti_Immagine
+[6] https://m.sobaka.ru/fashion/heroes/82004
+[7] https://ru.linkedin.com/company/pitti-immagine
+[8] https://www.instagram.com/pittimmagine/

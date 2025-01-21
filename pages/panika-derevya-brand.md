@@ -1,68 +1,56 @@
 ---
 title: Panika Derevya (brand)
 permalink: panika-derevya-brand
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PANIKA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://img.rl0.ru/afisha/1500x-/daily.afisha.ru/uploads/images/c/61/c618e1a9d07746eb9ef13470ce51dbe4.jpg
+credits:
 ---
 
-(Est. 2013, city) is a --------- <span id="a1">[\[1\]](#f1)</span>.
+Panika Derevya is a Russian fashion brand and creative studio founded by an artist, designer, and curator. The brand is known for its innovative approach to fashion and design, with several notable characteristics:
 
-![](/encyclopedia/images/image-name.jpg)
+**Background and Founder**
+Panika Derevya was established by a designer from Omsk, Russia, who has gained recognition in the fashion industry[4][7]. The founder has a master's degree in design and has been active in various fashion and art platforms[2][7].
 
-**Image title**
+**Professional Achievements**
+The brand and its founder have participated in several prestigious fashion events, including:
+- Russian Fashion Week
+- Mercedes-Benz Fashion Week
+- Guangzhou Fashion Week
+- London Fashion's "Dressing the Screen"[2]
 
-*Photo: [Name](index) / [Source](index)*
+**Design Aesthetic**
+The brand is characterized by:
+- Clothing designs for both men and women
+- Muted color palette
+- Innovative design concepts[4]
 
-# {{page.title}} Conspectus
+**Creative Scope**
+Panika Derevya is not just a clothing brand but also encompasses:
+- Brand concept development
+- Design
+- Art direction
+- Brand management
+- Exhibition installations[5][6]
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+**Collaborations**
+The brand has collaborated with various institutions, including:
+- Strelka Institute of Media, Architecture, and Design
+- Wordshop Communications Academy
+- Tomsk State University
+- Artmossphere Street Art Biennale
+- Museum of Machine Tools (Tula)
+- Polytechnic Museum (Moscow)[2]
 
-# {{page.title}} Indexmod
+The brand continues to be active in the Russian fashion and design scene, with the founder also working as a curator for fashion design education at the Higher School of Economics[2][3].
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
-
-
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://www.facebook.com/panikaderevya/
+[2] https://design.hse.ru/team/24310
+[3] https://www.instagram.com/panikaderevya/
+[4] https://www.showstudio.com/contributors/panika_derevya
+[5] https://www.instagram.com/panikaderevyastudio/
+[6] https://vlfin.ru/a/panika-derevya-kreativnyy-resurs-tozhe-dolzhen-byt-oplachen-kak-monetizirovat-provintsialnyy-brend
+[7] https://garagemca.org/en/event/fashion-art-cooperation-a-meeting-with-panika-derevya
+[8] https://vk.com/panikaderevya?offset=10&own=0

@@ -1,79 +1,44 @@
 ---
-title: Polskaya, Sonya
+title: Polskaya, Sonya (Velotsvetochnitsa)
 permalink: polskaya-sonya
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: POLSKAYA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+exclude: true
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://i.pinimg.com/280x280_RS/10/bd/50/10bd50b3a0b231ce7cf57e165b954832.jpg
+credits:
 ---
 
+Sonya Polskaya is a notable figure in the art world, recognized for her contributions as an art expert and curator. She is the founder of "Velotsvetochnitsa" and a co-founder of Partizaning, a platform focused on socially engaged art and activism.
 
-(Est. 2013, city) is a Sonya Polskaya (Rus. Соня Польская)—art expert, curator, founder of “Velotsvetochnitsa”, and co-founder of Partizaning. Login to edit Sonya Polskaya <span id="a1">[\[1\]](#f1)</span>.
+### Professional Background
+- **Art Expertise**: Polskaya has established herself as a significant voice in contemporary art, particularly within the Russian context.
+- **Curatorial Work**: As a curator, she has been involved in various projects that promote artistic dialogue and community engagement.
 
-![](/encyclopedia/images/image-name.jpg)
+### Online Presence
+- **Social Media**: Sonya Polskaya is active on platforms like Instagram under the handle [@sonynpony](https://www.instagram.com/sonynpony/) where she shares insights into her life and work, showcasing her interests in women, plants, children, and animals[2].
+- **LinkedIn**: On LinkedIn, she is listed as an editor at Partizaning.org, further emphasizing her role in the art community[8].
 
-**Image title**
+### Additional Information
+Polskaya's work often intersects with themes of activism and social engagement, reflecting her commitment to using art as a means of addressing societal issues. Her influence extends beyond traditional curatorial practices, aiming to foster a more inclusive and participatory art scene.
 
-*Photo: [Name](index) / [Source](index)*
+For more detailed information about her projects and contributions, you can explore her profiles on social media or professional networking sites.
 
-# {{page.title}} Velotsvetochnitsa
+Citations:
+[1] https://www.facebook.com/sonya.polskaya/?locale=ru_RU
+[2] https://www.instagram.com/sonynpony/
+[3] https://www.instagram.com/sonynpony/p/DE4063Bir5_/
+[4] https://uk.pinterest.com/sonyapolskaya/
+[5] https://github.com/hanxiaomax/encyclopedia/blob/master/polskaya-sonya.md
+[6] https://www.pinterest.com/sonyapolskaya/
+[7] https://russianartarchive.net/en/catalogue/person/PJVRB
+[8] https://www.linkedin.com/in/sonya-polskaya-33825732
+
+(Est. 2013, city) is a Sonya Polskaya (Rus. Соня Польская)—art expert, curator, founder of “Velotsvetochnitsa”, and co-founder of Partizaning.
+
+### Velotsvetochnitsa
+
 “At first, I work as a laborer for 70 rubles per hour at Timiryazev Agricultural Academy”—Sonya Polskaya said to site “Gorod Afisha” about “Velotsvetochnitsa” service startup.1 Login to edit Velotsvetochnitsa startup
-
-
 
 Sonya Polskaya (left) at “Tsiferblat” space in Moscow
 Photo: Sasha Karelina / Gorod Afisha
-
-|Year|City|
-|-|-|
-|2017|Moscow|
-
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
-
-
-# See also
-Partizaning (disambiguation)
-Anton Polsky (Make)
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-1 “Velotsvetochnitsa” and inexpensive bouquets of garden and wild flowers
-
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`

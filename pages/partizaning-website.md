@@ -1,78 +1,53 @@
 ---
 title: Partizaning (website)
 permalink: partizaning-website
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PARTIZANING SITE
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://d32q37k5f6yh2c.cloudfront.net/media/12/128b4eff604b1915a962a475f1881402
+credits:
 ---
 
+Partizaning is a non-profit, self-funded movement, collective, and website launched in November 2011 in Moscow, Russia[1][2][4]. It documents and promotes art-based activism, urban interventions, and participatory urban re-planning from around the world[2].
 
-(Est. 2013, city) is a Partizaning (Partizaning.org)—a website about street art, cities and human interactions launched in November 2011 by gorup of Partizaning.1 <span id="a1">[\[1\]](#f1)</span>.
+## Key Characteristics
 
-![](/encyclopedia/images/image-name.jpg)
+**Mission**: The project aims to explore how art can be a practical tool for:
+- Inclusive city regeneration
+- Social activism
+- Challenging and reshaping urban and social realities[2]
 
-**Image title**
-Logo of Russian version of Partizaning
-Photo: Partizaning / Partizaning
+**Core Principles**:
+- Promote bottom-up urbanism
+- Encourage citizens to be active stakeholders in their cities
+- Use artistic interventions to create social dialogue
+- Demonstrate that unsanctioned repairs and improvements can help recreate better urban spaces[1]
 
-Founders of Partizaning.org
-Photo: author unknown / Partizaning
-*Photo: [Name](index) / [Source](index)*
+## Founding and Members
 
-# {{page.title}} Conspectus
+The collective was founded with four key members:
+- Igor Ponosov (Artist, Curator, Writer)
+- Shriya Malhotra (Artist, Researcher)
+- Anton Polsky (Artist, Activist)
+- Dmytro Zaiets (Sociologist)[2]
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+## Projects and Activities
 
-# {{page.title}} Indexmod
+Partizaning has engaged in various urban interventions, including:
+- Creating DIY benches
+- Painting alternative pedestrian crosswalks
+- Developing community suggestion "mailboxes"
+- Producing maps and signs promoting alternative city trajectories
+- Organizing exhibitions, publishing books, and conducting workshops[3][4]
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+The project maintains websites in both Russian and English, launched its international edition on March 4, 2012, and continues to inspire grassroots urban activism worldwide[2].
 
-
-# See also
-
-Partizaning (disambiguation)
-Anton Polsky (Make)
-Igor Ponosov
-Shriya Malhotra
-Dmytro Zaiets
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://www.urbanista.org/issues/local-eyes/features/partizaning-participatory-art-research-and-creative-urban-activism
+[2] https://ressource0.fr/partizaning/
+[3] https://www.cappnetwork.com/capp-project/partizaning-maunula/
+[4] https://www.instituteforpublicart.org/case-studies/partizaning/
+[5] http://igor-ponosov.ru/english/?p=1000
+[6] https://www.facebook.com/Partizaning/
+[7] https://www.facebook.com/PartizaningOrganized/
+[8] https://www.cecartslink.org/participant/igor-ponosov/

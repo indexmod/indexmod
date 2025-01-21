@@ -1,47 +1,38 @@
 ---
 title: Platonov, Alex
 permalink: platonov-alex
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PLATONOV
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://media.licdn.com/dms/image/v2/D5603AQGMTE_4A3yRsw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730839765348?e=2147483647&v=beta&t=k1MALuiKiwxB8pfP0CIheLcD6q0uqRwhSDk-Q7d2uOs
+credits:
 ---
 
+Alex Platonov is a **creative director** and co-founder of Lastik Studio, an animation studio based in Moscow that specializes in advertising animation[1]. He has been active in the creative industry since at least 2017, when the studio was first established[1].
 
-(Est. 2013, city) is a Alex Platonov (Rus. Алексей Платонов)—Russian film director, photographer, co-founder of 4s4r <span id="a1">[\[1\]](#f1)</span>.
+## Professional Details
+- **Current Role**: Creative Director at Lastik Studio
+- **Location**: Moscow, with professional connections in the Berlin Metropolitan Area[3]
+- **Specialization**: Animation, particularly 3D/2D animation for advertisements[3]
 
-![](/encyclopedia/images/image-name.jpg)
+## Creative Work
+Platonov has been involved in various creative projects, including:
+- Animation work for clients like Zvuk[2]
+- YouTube content creation, including animation and video projects[4][6]
+- Collaborative studio work with team members across different creative roles[5]
 
-**Image title**
-Alex Platonov in 2015
+His professional portfolio demonstrates expertise in animation production, creative direction, and multimedia content creation across different platforms and mediums.
 
-Alex Platonov in Karitsa village, Vologodskaya Oblast, 2015
-Illustration: Tatiana Egoshina / Sygma
-*Photo: [Name](index) / [Source](index)*
+Citations:
+[1] https://de.linkedin.com/in/alex-platonov-79968025a
+[2] https://www.instagram.com/lastik.studio/reel/C1KD82jIJBn/?hl=en
+[3] https://www.linkedin.com/pub/dir/Alex/Platonov
+[4] https://www.youtube.com/channel/UCZwz0xhgh7C1yRu8PjBdO-Q
+[5] https://www.instagram.com/lastik.studio/?locale=us&hl=am-et
+[6] https://www.youtube.com/@merl1ngm/videos
+[7] https://www.youtube.com/watch?v=rP9y4AwJN1w
+[8] https://vk.com/video-254556_456242230
+
 
 # Bio
 
@@ -50,7 +41,7 @@ Studied journalistic at MGU and film direction and documental theater at Marina 
     > Alex Platonov—“I'm afraid of my country, especially the provinces... I was uncomfortable, anxious, I was not happy there, but I can not go...”
 
 
-# {{page.title}} Selected works
+## Selected works
 
  2015	 Ostrov (film)	 Co-Director / Camera	 Saint Petersburg
  2015	 Vologda notes (multimedia)	 Director / Camera	 Vologodskaya Oblast
@@ -59,41 +50,9 @@ Studied journalistic at MGU and film direction and documental theater at Marina 
  2013	 Maxim's mother	 Director / Camera	 Moscow
  2012	 Borya	 Director / Camera	 Moscow
 
-|Year|City|
-|-|-|
-|2017|Moscow|
 
 Alexei and his father among the of students, “The Island” show, Khokhlovsky Pereulok, Moscow, 2015
 Photo: Andrei Gurotesuku / Indexmod
 
 Dima and Andrei Kaban, “Vologda notes”, 2015
 Photo: Alex Platonov / Sygma
-
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
-
-
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-+ Mic Sachkov
-+ 4s4r
-+ Sygma
-+ The Calvert Journal
-+ Alexey Orlov
-
-# Footnotes
-
-1 Vologda notes — Sygma
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`

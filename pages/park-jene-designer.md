@@ -1,45 +1,44 @@
 ---
 title: Park, Jene (designer)
 permalink: park-jene-designer
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a South Korea—American
-profession: fashion designer, Creative Director for Thomas Wylde (2016)
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PARK
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://www.designscene.net/wp-content/uploads/2018/04/Jene_SS17-Thomas-Wylde5412-620x930.jpg
+credits:
 ---
 
-Jene Park, born and raised in South Korea—American fashion designer, Creative Director for Thomas Wylde (2016), living and working in California <span id="a1">[\[1\]](#f1)</span>.
+Jene Park is a prominent fashion industry professional with an extensive career spanning over 25 years. Originally born in South Korea, she immigrated to the United States and graduated from the Fashion Institute of Design & Merchandising (FIDM) in Los Angeles[2][4].
 
-## Bio
+## Career Highlights
 
-Jene Park is a graduate of FIDM, a Fred Hayman award winner for a scholarship to Maison Lesage, studied at the Parisian Atelier working on embroidery techniques for haute couture houses of Dior, Chanel, Balenciaga, and Givenchy, worked at BCBG for Max Azria, founder of design, development, and production consultation company.1
-Seasonal collections (selection)
-2015, Thomas Wylde Pre-Fall, Los Angeles
-2016, AW 2016 “90291”, Los Angeles
-“After nearly decade within the company facilitating all the key elements that brought together the brand vision and product development and production, this was a likely next step for us and for Jene”—said Mr. Hanna, CEO, Thomas Wylde. Sign in to edit Seasonal collections
+**Early Career**
+- Began working with Max Azria at BCBG, helping grow the company's annual revenues from $2 million to $700 million by 2005[2]
+- Worked as R&D Director at BCBG from 1995 to 2004[2]
+
+**Entrepreneurship and Leadership**
+- Founded Jen E Jen in 2005, a design and product development consultation firm working with brands like Vera Wang and Seven for All Mankind[2]
+- Joined Thomas Wylde as COO in 2006, becoming Creative Director and partner in 2015[2]
+- In 2019, became Creative Director and CEO of Recycled Karma, a vintage-inspired lifestyle brand[2]
+
+## Professional Achievements
+- Recipient of the Fred Hayman award
+- Won a scholarship from Maison Lesage, a prestigious Parisian embroidery atelier
+- Worked with haute couture designers and luxury fashion brands
+- Instrumental in establishing Thomas Wylde as a world-renowned luxury brand[2]
+
+## Personal Philosophy
+Jene Park is passionate about creating, evolving in her industry, and mentoring the next generation of fashion professionals. She values hard work, creativity, and connecting with people who share similar sensibilities[3].
+
+Citations:
+[1] https://ineedabookcover.com/designers/june-park/
+[2] https://www.linkedin.com/in/jene-park-3072708
+[3] https://www.theprojectforwomen.com/inspiration/jene-park/
+[4] https://exeleonmagazine.com/jene-park-driving-fashion-sustainability/
+[5] https://www.instagram.com/jeandoeswhatjeandoes/
+[6] https://www.charleskeith.com/aw/press/embrace-spring-with-jenny-park.html
+[7] https://shopstylefinder.com/products/parks-jean
+[8] https://www.actuate-us.com/ready-to-wear/denim/designer-mens-park-skinny-denim-jean-medium-light-blue/
 
 ## See also
 
@@ -48,9 +47,3 @@ Seasonal collections (selection)
 + [Balenciaga](index)
 + [Givenchy](index)
 + [Thomas Wylde](index)
-
-## Footnotes
-
-1,2 Thomas Wylde Los Angeles-based ready-to-wear brand appoints Jene Park Creative Director—Jill Eisenstadt / Bluprint
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)

@@ -1,35 +1,36 @@
 ---
 title: Psycho Daily
 permalink: psycho-daily
-layout: default
-originlang: Rus.
-originspell: Психо Дейли
-appearing: Est.
-city: Moscow
-birth: 2018
-givenname: Psycho Daily
-familyname:
-othername: Психо Daily
-venue: Jack's Friends'
-founder: Katya Dementieva, Panya Kirillina, Philip Mironov, Alisa Poe, Pasha Vardishvili
-origin: a Russian
-profession: curatorial agency of events with own media without a site and prints, which tells about the manifestations of urban culture
-photo: Pop-up avatar of September 2018
-photographer: Artem Stefanov
-source: Telegram
-photographerurl: https://t.me/psychodaily
-sourceurl: https://t.me/psychodaily
-shortname: PSYCHODAILY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-01
+update: 2025-01-21
+image:
+credits:
 ---
+
+Psycho Daily appears to be a social media account and content channel with a presence across multiple platforms:
+
+**Social Media Presence**
+- Instagram account with 11K followers and 566-567 posts[1][6]
+- SoundCloud profile for streaming music[4][5]
+- The Instagram account suggests they have a Telegram channel "про хайп и вечность" (about hype and eternity) and an Instagram account focused on "вкусную еду" (delicious food)[1]
+
+**Additional Context**
+While the search results provide basic information about the Psycho Daily accounts, they do not offer comprehensive details about the specific nature or purpose of the content. The account seems to be a multi-platform content creator with an active social media presence across different channels.
+
+**Platforms**
+- Instagram: @psycho_daily
+- SoundCloud: psycho daily
+
+Citations:
+[1] https://www.instagram.com/psycho_daily/
+[2] https://www.dailyscript.com/scripts/psycho_revised.html
+[3] https://www.psychologytoday.com/us
+[4] https://soundcloud.com/psycho_daily
+[5] https://soundcloud.com/psycho_daily?theme=active
+[6] https://www.instagram.com/_u/psycho_daily/?ig_mid=CE6A7D9B-1205-4AEA-9796-FDBA42A81973
+[7] https://www.facebook.com/Sparrow.In.Black/
+[8] https://www.afisha.ru/excursion/14-45-psycho-daily-h-cruise-852/
 
 
 ![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)

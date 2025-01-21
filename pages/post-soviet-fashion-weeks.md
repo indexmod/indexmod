@@ -1,7 +1,11 @@
 ---
 title: Post-soviet fashion weeks
 permalink: post-soviet-fashion-weeks
-layout: default
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 **Armenia**

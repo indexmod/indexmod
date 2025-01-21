@@ -1,68 +1,40 @@
 ---
 title: PFDC Sunsilk Fashion Week
 permalink: pfdc-sunsilk-fashion-week
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PFDC SUNSILK
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://i.dawn.com/primary/2017/04/58f5f30739ab9.jpg
+credits:
 ---
 
-(Est. 2013, city) is a --------- <span id="a1">[\[1\]](#f1)</span>.
+The **PFDC Sunsilk Fashion Week** is an annual fashion event held in Pakistan, organized by the Pakistan Fashion Design Council (PFDC) in collaboration with Sunsilk[1].
 
-![](/encyclopedia/images/image-name.jpg)
+## Key Details
+- **Established**: The PFDC began hosting regular fashion weeks in February 2010[1]
+- **Locations**: Primarily held in Lahore and Karachi[2]
+- **Significance**: The fashion week aims to put Pakistan on the international fashion circuit[1]
 
-**Image title**
+## Organizational Background
+The Pakistan Fashion Design Council, established in September 2006, is a non-profit organization dedicated to supporting and promoting Pakistani designers. To date, the council has successfully held 5 fashion weeks and 2 bridal weeks[1].
 
-*Photo: [Name](index) / [Source](index)*
+## International Recognition
+The fashion week has achieved notable international success, including:
+- Representation at the Federation Françoise du Prêt a Porter Feminin in Paris in September 2011[1]
+- Signed a Memorandum of Understanding with the World Fashion Organization and World Fashion Week[1]
+- Invited eight Pakistani designers to hold an exclusive fashion show in Paris[1]
 
-# {{page.title}} Conspectus
+## Social Initiatives
+The PFDC has also demonstrated commitment to social responsibility, partnering with the United Nations World Food Programme in April to raise awareness about food insecurity and malnutrition[1]. Additionally, the organization is involved in reviving the crafts sector, highlighting that 90% of South Asian subcontinent embroideries originate from Pakistan[1].
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+The eleventh PFDC Sunsilk Fashion Week officially commenced on March 9, 2018, marking the ninth consecutive year of the prêt a porter platform[5].
 
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
-
-
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://europaregina.eu/fashion-weeks/fashion-weeks-asia/pfdc-sunsilk-fashion-week/
+[2] https://en.wikipedia.org/wiki/PFDC_Fashion_Week
+[3] https://www.gettyimages.co.uk/photos/pfdc-sunsilk-fashion-week
+[4] https://www.instagram.com/explore/locations/741460233/pfdc-sunsilk-fashion-week/
+[5] https://www.facebook.com/PFDC.Sunsilk.Fashion.Week/
+[6] https://www.gettyimages.co.uk/photos/sunsilk-fashion-week
+[7] https://www.dn-mag.com/fashion-glossary/pfdc-sunsilk-fashion-week/
+[8] https://www.instagram.com/sublimebysara/p/CvC5E4bokf2/

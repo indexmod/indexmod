@@ -1,73 +1,39 @@
 ---
 title: Plavinsky, Maria
 permalink: plavinsky-maria
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PLAVINSKY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://www.erarta.com/upload/iblock/d22/d220079fd9afb0d5160b6841bbe7f1d2.png
+credits:
 ---
 
 
-(Est. 2013, city) is a Maria Plavinsky (Rus. Мария Плавинская) born 1952—Russian artist, photographer who live and work in Moscow. Maria studied at the Moscow State University at the Department of Russian and Soviet art, worked on a position of Research Fellow at All-Union Exhibition Center Central House of Artists. From 1990 have moved to New York. Login to edit Maria Plavinsky <span id="a1">[\[1\]](#f1)</span>.
+Maria Plavinskaya is a contemporary artist based in Russia. She is known for her unique artistic approach, particularly in photography and visual arts[2].
 
-![](/encyclopedia/images/image-name.jpg)
+## Professional Background
 
-**Image title**
-Maria Plavinsky «Brush», 2009, a photo on metal (fragment). Photo: From catalogue «Paper. Print. Installation» / Kultproekt
+**Artistic Style**
+Maria Plavinskaya is recognized for using photographs as a starting point to create complex artistic works[2]. Her artistic methodology involves transforming photographic images into more intricate visual expressions.
 
-Maria Plavinsky in 2009
-Photo: Dmitry Plavinsky / Kultproekt
-*Photo: [Name](index) / [Source](index)*
+## Exhibitions and Recognition
 
-# {{page.title}} Conspectus
+- In 2014, she had an exhibition called "Three Cameras" at the Mimi Ferzt Gallery in New York City[5]
+- She participated in the "Structures of Time" exhibition alongside her late colleague Dmitry Plavinsky, which was held at the Erarta Museum of Contemporary Art[3][8]
 
-|Year|City|
-|-|-|
-|2017|Moscow|
+## Personal Details
 
-# {{page.title}} Indexmod
+- Education: Studied Theory and History of Art at Moscow State University (МГУ им. М.В. Ломоносова)[1]
+- Location: Lives in Moscow, Russia[1]
 
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+Maria Plavinskaya continues to be an active artist in the contemporary Russian art scene, with her work exploring innovative approaches to visual representation.
 
-
-# See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-+ Lisa Plavinsky
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`
+Citations:
+[1] https://www.facebook.com/maria.plavinsky/
+[2] https://www.erarta.com/en/museum/collection/artists/detail/author-00263/
+[3] https://www.erarta.com/en/calendar/exhibitions/detail/bbb2f567-b59c-11e3-ad5a-8920284aa333/
+[4] https://www.flickr.com/photos/maria_plavinsky/
+[5] https://artfacts.net/artist/maria-plavinsky/451773
+[6] https://www.youtube.com/watch?v=IsM0leBnTso
+[7] https://www.facebook.com/maria.plavinsky/?profile_tab_item_selected=photos
+[8] https://artinvestment.ru/en/news/exhibitions/20140410_plavinskiy_erarta.html

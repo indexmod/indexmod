@@ -2,6 +2,10 @@
 title: Pupis, Donis
 permalink: pupis-donis
 layout: ai
+date: 2025-01-10
+update: 2025-01-18
+image: https://theblueprint.ru/upload/2718/971b7f96525b490d48332d7f8ded09bf_small.png
+credits:
 ---
 
 Donis Pupis is a Cypriot fashion designer who co-founded the avant-garde brand Nina Donis in 2000 with Russian artist and designer Nina Neretina[1][2]. The duo has been working together since then, creating simple yet modern collections that are highly sought after both in Russia and abroad[2]. Nina Donis is considered Russia's most notable independent label, known for their simple silhouettes, pure colors, and beautiful look books[2]. The brand has received recognition from international fashion platforms and has been included on i-D's list of the most influential contemporary designers[2].

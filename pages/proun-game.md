@@ -1,35 +1,42 @@
 ---
 title: Проун (игра)
 permalink: proun-game
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: ПРОУН
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://cdn.arstechnica.net/wp-content/uploads/2011/06/prountrack.jpg
+credits:
 ---
+
+Проун - это абстрактная гоночная игра, разработанная Йостом ван Донгеном и выпущенная в 2011 году[1]. В игре игрок управляет шаром, движущимся по кабелю через уровни, наполненные геометрическими объектами, которые нужно избегать, вращаясь вокруг кабеля[1][2].
+
+## Геймплей
+
+Основная цель игры - добраться до финиша за как можно меньшее время. Столкновения с препятствиями снижают скорость, поэтому их следует избегать. Вращение также замедляет движение. Игрок может собирать ускорения, не врезаясь в течение 12 секунд[1].
+
+## Режимы игры
+
+- Одиночная гонка: соревнование с компьютерными противниками
+- Гонка на время: соревнование с собственными лучшими результатами
+- Чемпионат: прохождение всех трасс для набора очков
+
+Игра также включает многопользовательский режим с разделенным экраном до 4 игроков и онлайн-таблицы лидеров[1].
+
+## Визуальный стиль
+
+Проун вдохновлен работами русского художника Эль Лисицкого и его одноименной серией абстрактных картин 1919-1927 годов[1]. Визуальный стиль игры напоминает работы Пита Мондриана и Василия Кандинского[8].
+
+Проун+ - это версия игры, разработанная Engine Software для iOS и Nintendo[8], в то время как оригинальная версия была выпущена для Windows[1].
+
+Citations:
+[1] https://www.mobygames.com/game/52263/proun/
+[2] https://dutchgameindustry.directory
+[3] https://www.igromania.ru/game/9224/Proun.html
+[4] https://www.youtube.com/watch?v=ofsNVuNj0CM
+[5] https://gameunder.net/proun-review
+[6] https://vgtimes.ru/games/proun/
+[7] https://small-games.info/?go=game&c=6&i=1916
+[8] https://en.wikipedia.org/wiki/Proun+
 
 (Созд. 2011, Амстердам) независимая игра-гонка для платформ PC и Mac, созданная голландским девелопером Юстом ван Донгеном <span id="a1">[\[1\]](#f1)</span>, с абстрактным игровым пространством напоминающим по стилю супрематческие [прауны](proun-visual-concept) Эль Лисицкого, в котором нет понятий вверха и низа, в которой шарик-игрок движется по кабелю пронизывающему мир геометрических объектов и больших цветных поверхностей, с целью избегать препятствия вращаясь вокруг поверхности кабеля и разогнаться как можно быстрее <span id="a2">[\[2\]](#f2)</span>.
 

@@ -1,34 +1,11 @@
 ---
 title: Proun (movement)
 permalink: proun-movement
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PROUN 
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 (Рус. Проун, est. 2016, Moscow) is an aesthetic movement appeared in the association of visual artists Misak Samoktian, Alexei Rudenko, Alexandra Gavrilova and Sergei Titov (Stain Group). Later the movement included G. Leonova, A. Rebrov, I. Yakubov, M. Maximov, M. Sachkov, P. Seldimirov.

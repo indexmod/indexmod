@@ -1,7 +1,12 @@
 ---
 title: Plovdiv Fashion Week
 permalink: plovdiv-fashion-week
+exclude: true
 layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://europaregina.eu/wp-content/uploads/2014/07/Plovdiv-Fashion-Week.jpg
+credits:
 ---
 
 Plovdiv Fashion Week is a prominent event in Bulgaria's fashion calendar, known for showcasing a variety of styles and designers. Here are the key details regarding this event:

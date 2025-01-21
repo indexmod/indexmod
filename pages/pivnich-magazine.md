@@ -1,57 +1,30 @@
 ---
 title: Pivnich Magazine
 permalink: pivnich-magazine
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: PIVNICH
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
+Pivnich Magazine is an independent electronic music magazine focused on Ukrainian and neighboring music scenes[2][6]. The publication appears to have an active online presence across multiple platforms, including:
 
-(Est. 2013, city) is a Pivnich Magazine (Ukr. Північ Mегезин) est. 2016, Kiev, is an online edition about places, people and events, a chronicle of independent electronic scene in Ukraine and neighboring countries in reports, releases and directly from the events. Sign in to edit Pivnich Magazine
- <span id="a1">[\[1\]](#f1)</span>.
+- **YouTube Channel**: Dedicated to showcasing independent electronic music from Ukraine and nearby regions[2][6]
+- **SoundCloud**: Hosting music playlists and collections, such as "Progressive Future for PIVNICH Magazine vol.2"[1][3]
+- **Facebook Page**: Shares content related to music and culture[4]
 
-![](/encyclopedia/images/image-name.jpg)
+The magazine seems particularly interested in promoting independent electronic music, providing a platform for artists and musical discoveries from Ukraine and surrounding areas[2][6]. While the search results provide limited detailed information about the magazine's founding or complete history, they demonstrate its active engagement with digital music platforms and independent music scenes.
 
-**Image title**
-
-*Photo: [Name](index) / [Source](index)*
-
-# {{page.title}} Conspectus
-
-|Year|City|
-|-|-|
-|2017|Moscow|
-
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|Indexmod|
-|-|-|-|-|-|
-|2018|000 <span id="a3">[\[3\]](#f3)</span>|000 <span id="a4">[\[4\]](#f4)</span>|000 <span id="a5">[\[5\]](#f5)</span>|00|0,0000|
+Citations:
+[1] https://soundcloud.com/pivnich-magazine
+[2] https://www.youtube.com/channel/UC040IkYjVk_KI0NczynAKBQ
+[3] https://soundcloud.com/user-639715464/progressive-future-for-pivnich-magazine-vol2/sets
+[4] https://www.facebook.com/pivnichmagazine/
+[5] https://www.last.fm/music/Alex+Savage/_/Alex+Savage+for+PIVNICH+Magazine
+[6] https://www.youtube.com/@pivnichmagazine610/about
+[7] https://mestprom.com
+[8] https://yandex.ru/maps/org/sever/20106715290/
 
 
 # See also
@@ -64,13 +37,3 @@ pinterest: 0
 + Peauty-fute
 + Tilda Publishing
 + Petr Shirkovsky
-
-# Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-`Updated Mar. 2018 (Andrei Dei)`

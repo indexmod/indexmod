@@ -1,51 +1,34 @@
 ---
 title: Pirate television
 permalink: pirate-television
-layout: default
-originlang: Rus.
-originspell: Пиратское телевидение
-appearing: Est.
-city: Leningrad
-birth: 1989
-givenname: Pirate television
-familyname:
-othername: Пиратское ТВ
-venue: Do 16 i starshe
-founder: Timur Novikov, Juris Lesnik, Sergey Shutov, Vlad Monroe
-origin: a Russian
-profession: show, alternative television, program, collaboration of artists, art movement founded in 1989 in Leningrad by Timur Novikov, Juris Lesnik, Sergey Shutov, Vlad Monroe
-photo: Vlad Monroe in Volga Volga as Lubov Orlova on cover of Pirate television page on Facebook
-photographer: Pirate television
-source: Facebook
-photographerurl: index
-sourceurl: index
-shortname: PIRATETV
-facebook: 2106
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: ai
+date: 2018-01-02
+update: 2025-01-21
+image: https://s3.amazonaws.com/mhka_ensembles_production/assets/public/000/000/149/large/563Monroe,%20Vlad,%20Pirate%20TV,%201991-1994%20still5.jpg
+credits:
 ---
 
-Since 2010 page of memory of Vlad Monroe where materials of the digital archive of the artist are published. Page administrated by Mikhail Sachkov <span id="a2">[\[2\]](#f2)</span>.
+Vladislav Mamyshev-Monroe co-founded **Pirate TV** in 1989, a groundbreaking media art project that parodied official Soviet television programming[3][4][7]. This innovative project was created with fellow artists Timur Novikov and Yuris Lesnik, and was considered the first independent television station for artists in Leningrad (now St. Petersburg)[7].
 
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+## Key Characteristics of Pirate TV
 
-**A still from PTV**
+- **Purpose**: Imitated and critiqued Soviet television programming
+- **Focus**: Broadcast news of art life in Leningrad
+- **Founders**: Vladislav Mamyshev-Monroe, Timur Novikov, and Yuris Lesnik
+- **Time Period**: Active from 1989 to 1992[6]
 
-*Photo: [Пиратское Телевидение](https://www.facebook.com/PiratskoeTelevidenie/photos/a.167565609925137/167579976590367/?type=3&theater) / [Facebook](https://www.facebook.com/PiratskoeTelevidenie/photos/a.167565609925137/167579976590367/?type=3&theater)*
+## Artistic Significance
 
-## See also
+Pirate TV was more than just a television project; it was a form of artistic expression that challenged the existing media landscape. Mamyshev-Monroe used the platform to showcase his unique ability to transform and impersonate various personalities, from historical figures to contemporary celebrities[4]. The project was part of the broader post-Soviet art movement, reflecting the cultural and political changes happening in Russia during the late 1980s and early 1990s[2].
 
-+ [Vlad Monroe](monroe-vlad)
-+ [Mikhail Sachkov](sachkov-mikhail)
+The project highlighted Mamyshev-Monroe's innovative approach to art, blending performance, video art, and social commentary. It positioned him as a key figure in the first wave of video artists to emerge in the Post-Soviet era[2][3].
 
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Пиратское ТВ (Mediaartlab.ru)](http://www.mediaartlab.ru/db/work.html?id=124)
-
-[[2]](#a2) <span id="f2"></span> [Пиратское Телевидение (Mediaartlab.ru)](https://www.facebook.com/pg/PiratskoeTelevidenie)
+Citations:
+[1] https://www.e-e.eu/Pirate-Television/
+[2] https://baibakovartprojects.wordpress.com/2013/03/22/in-memory-of-vlad-mamyshev-monroe-1969-2013/
+[3] http://manifesta10.org/en/artists/vladislav-mamyshev-monroe/
+[4] https://kiasma.fi/en/exhibitions/vladislav-mamyshev-monroe/
+[5] https://ensembles.org/actors/vladislav-vlad-monroe
+[6] https://www.tate.org.uk/art/artworks/mamyshev-monroe-lesnik-novikov-pirate-tv-t15807
+[7] https://ensembles.org/items/69
+[8] https://www.e-e.eu/Monrologia/index.htm
