@@ -15,70 +15,32 @@
     {% assign pages_per_column = total_pages | divided_by: 3 %}
     {% assign two_columns_limit = pages_per_column | times: 2 %}
 
-    <!-- Первая колонка -->
-    <div class="column">
-      <ul>
-        {% assign previous_letter = "" %}
-        {% for page in mypages %}
-          {% if forloop.index <= pages_per_column %}
-            {% unless page.exclude %}
-              {% assign current_letter = page.title | slice: 0, 1 | upcase %}
-              {% if current_letter != previous_letter %}
-                <h2>{{ current_letter }}</h2> <!-- Changed to h2 for better SEO -->
-                {% assign previous_letter = current_letter %}
-              {% endif %}
-              <li class="intro">
-                <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-              </li>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <!-- Вторая колонка -->
-    <div class="column">
-      <ul>
-        {% assign previous_letter = "" %}
-        {% for page in mypages %}
-          {% if forloop.index > pages_per_column and forloop.index <= two_columns_limit %}
-            {% unless page.exclude %}
-              {% assign current_letter = page.title | slice: 0, 1 | upcase %}
-              {% if current_letter != previous_letter %}
-                <h2>{{ current_letter }}</h2> <!-- Changed to h2 for better SEO -->
-                {% assign previous_letter = current_letter %}
-              {% endif %}
-              <li class="intro">
-                <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-              </li>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <!-- Третья колонка -->
-    <div class="column">
-      <ul>
-        {% assign previous_letter = "" %}
-        {% for page in mypages %}
-          {% if forloop.index > two_columns_limit %}
-            {% unless page.exclude %}
-              {% assign current_letter = page.title | slice: 0, 1 | upcase %}
-              {% if current_letter != previous_letter %}
-                <h2>{{ current_letter }}</h2> <!-- Changed to h2 for better SEO -->
-                {% assign previous_letter = current_letter %}
-              {% endif %}
-              <li class="intro">
-      {% unless page.layout == "interview" and page.url contains "/interview/" %}
-        <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-      {% endunless %}
-    </li>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+    <!-- Функция вывода колонок -->
+    {% for column_index in (1..3) %}
+      <div class="column">
+        <ul>
+          {% assign previous_letter = "" %}
+          {% for page in mypages %}
+            {% if
+              (column_index == 1 and forloop.index <= pages_per_column) or
+              (column_index == 2 and forloop.index > pages_per_column and forloop.index <= two_columns_limit) or
+              (column_index == 3 and forloop.index > two_columns_limit)
+            %}
+              {% unless page.exclude or (page.layout == "interview" and page.url contains "/interview/") %}
+                {% assign current_letter = page.title | slice: 0, 1 | upcase %}
+                {% if current_letter != previous_letter %}
+                  <h2>{{ current_letter }}</h2>
+                  {% assign previous_letter = current_letter %}
+                {% endif %}
+                <li class="intro">
+                  <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+                </li>
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
   </div>
 </body>
 </html>
