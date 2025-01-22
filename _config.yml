@@ -10,6 +10,8 @@ github_username: indexmod
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+  - token_generator  # Добавляем сюда наш плагин
+
 
 
 css:
