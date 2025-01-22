@@ -1,9 +1,9 @@
 ---
-title: Daria, Chia
+title: Chia, Daria (Chichkina)
 permalink: daria-chia
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
 credits:
 ---
