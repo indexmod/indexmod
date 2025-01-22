@@ -1,9 +1,70 @@
 ---
 title: Fashion weeks around the world
 permalink: fashion-weeks-around-the-world
-layout: default
+layout: ai
+date: 2018-01-02
+update: 2025-01-22
+image: https://opsnorthstar.com/wp-content/uploads/2019/05/Fashion-week-graphic-final-900x696.png
+credits:
 ---
 
+Fashion weeks are prestigious global events that showcase the latest trends and designs in the fashion industry. The most prominent fashion weeks are known as the **"Big Four"**:
+
+1. **New York Fashion Week**
+2. **London Fashion Week**
+3. **Milan Fashion Week**
+4. **Paris Fashion Week**[1][4][5][8]
+
+## Global Fashion Week Landscape
+
+The fashion week scene has become increasingly multipolar in the 21st century, with numerous events taking place worldwide. Beyond the Big Four, other significant fashion weeks include:
+
+### Regional Fashion Weeks
+
+- **North America**:
+  - Vancouver Fashion Week
+  - Los Angeles Fashion Week
+  - Miami Fashion Week
+  - Multiple city-specific events like Atlanta, Chicago, and Boston Fashion Weeks[1]
+
+- **Asia**:
+  - India Fashion Week
+  - Tokyo Fashion Week
+  - Shanghai Fashion Week
+  - Seoul Fashion Week
+  - Dubai Fashion Week[1]
+
+- **Europe**:
+  - Copenhagen Fashion Week
+  - Berlin Fashion Week
+  - Madrid Fashion Week
+  - Vienna Fashion Week[2]
+
+- **Africa**:
+  - Dakar Fashion Week
+  - Lagos Fashion Week
+  - African Fashion Week London[1][2]
+
+## Unique Characteristics
+
+**Paris Fashion Week** stands out as particularly notable, being considered the fashion capital of the world. It features:
+- Haute couture, menswear, and womenswear
+- Prominent French labels like Chanel, Dior, and Saint Laurent
+- An international lineup, with 50% of brands not being French[4]
+
+These fashion weeks are not just runway shows, but platforms for designers to showcase creativity, attract buyers, media, celebrities, and set global fashion trends[5].
+
+The fashion week calendar continues to expand, with over a hundred events worldwide spanning from Fiji to Panama, including specialized events like plus-size and eco-focused fashion shows[5].
+
+Citations:
+[1] https://en.wikipedia.org/wiki/List_of_fashion_events
+[2] https://europaregina.eu/fashion-weeks/
+[3] https://fashionweekdates.com
+[4] https://sizebay.com/en/blog/biggest-fashion-events/
+[5] https://fashionunited.com/landing/fashionweeks-around-the-world-list
+[6] https://fashionweekonline.com/fashion-week-dates
+[7] https://cfda.com/fashion-calendar/important-dates/upcoming
+[8] https://en.wikipedia.org/wiki/Fashion_week
 
 ## Africa
 

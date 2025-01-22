@@ -2,7 +2,7 @@
 title: Feklisova, Galina
 date: 2025-01-10
 update:
-layout: ai
+layout: crypto
 permalink: feklisova-galina
 image:
 ---

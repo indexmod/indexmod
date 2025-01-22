@@ -1,7 +1,11 @@
 ---
 title: Africa Fashion Week Nigeria
 permalink: africa-fashion-week-nigeria
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-21
+image:
+credits:
 ---
 
 Africa Fashion Week Nigeria (AFWN) is a prominent event that celebrates African fashion, culture, and creativity. Founded by Adiree Communications in 2009, AFWN aims to enhance the global development of luxury and mainstream fashion while promoting ethical practices within the industry[1].

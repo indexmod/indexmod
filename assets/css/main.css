@@ -95,6 +95,17 @@ img {
   text-align: left; /* Выравнивание по левому краю */
 }
 
+.badge {
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 0 6px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
+  background-color: #11312C;
+  color: #3ED2B4;
+}
+
+
 /* Медиа-запросы для адаптивности */
 @media (max-width: 1024px) {
   img {

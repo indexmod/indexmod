@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: en-US }}">
+<head>
+  {% include meta.html %}
+  {% include crypto.html %}
+  {% include favicon.html %}
+  {% include yandex.html %}
+</head>
+<body>
+<main>
+  {% include edit-button.html %}
+  <h1>{{ page.title }}</h1>
+  <br>
+  {{ content }}
+  <br>
+  <img src="{{ page.image }}" alt="{{ page.image }}">
+  <br>
+  <p><strong>Image credits will be appear here if included {{ page.image }}</strong></p>
+</main>
+{% include footer.html %}
+<p><span class="badge">{{ page.title | generate_token }}</span> This is token name for the following topic {{ page.title }}</p>
+</body>
+</html>

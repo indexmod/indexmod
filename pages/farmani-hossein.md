@@ -1,7 +1,11 @@
 ---
-title: Фармани, Хоссейн
+title: Farmani, Hossein
 permalink: farmani-hossein
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Хоссейн Фармани — выдающийся креативный директор, галерист и куратор выставок, родом из Ирана. Он является основателем и президентом нескольких значимых организаций в мире фотографии, включая **Lucie Awards** в Нью-Йорке, **Focus on AIDS Foundation** и **Farmani Gallery**.

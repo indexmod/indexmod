@@ -2,7 +2,7 @@
 title: Julime
 date: 2025-01-10
 update:
-layout: ai
+layout: crypto
 permalink: julime
 image:
 ---

@@ -1,33 +1,26 @@
 ---
 title: Fedorova, Veronika
 permalink: fedorova-veronika
-layout: default
-givenname: Veronika
-familyname: Fedorova
-othername:
-venue:
-founder:
-birth: 1997
-city: Moscow
-photo: Veronika Fedorova in 2017
-originlang: Rus.
-originspell: Вероника Фёдорова
-appearing: Born
-origin: a Russian
-profession: instagramer, blogger, digital manager at RSVP PR & Lifestyle Communications Agency
-photographer: Kirill Kirillov
-source: Peopletalk.ru
-photographerurl: kirillov-kirill
-sourceurl: https://peopletalk.ru/article/novoe-pokolenie-doch-glavreda-glamour-mashi-fedorovoy-veronika-o-razvode-roditeley-pervoy-rabote-i-l/
-shortname: FEDOROVAVERONIKA
-facebook:
-instagram: 12100
-youtube:
-vimeo:
-twitter:
-tumblr:
-vkontakte:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://kak2z.ru/my_img/img/2019/10/29/a5b95.jpg
+credits:
 ---
+
+Veronika Fedorova is the daughter of Maria (Masha) Fedorova, a prominent Russian journalist and former editor-in-chief of *Vogue Russia* and *Glamour Russia*. Veronika has gained attention in recent years for her transformation and modeling career. She impressed followers with significant weight loss, which was highlighted on social media platforms like Instagram[3][5].
+
+Maria Fedorova, Veronika's mother, is well-known for her unique sense of style and contributions to the fashion industry. She has also co-founded a plus-size clothing brand, Divno, and has spoken openly about topics such as body positivity and the challenges faced by women in the fashion industry[2][6]. Veronika seems to follow in her mother’s footsteps, engaging with the fashion world as a model[4][7].
+
+Citations:
+[1] https://www.youtube.com/watch?v=SxvDNldmprI
+[2] https://srsly.ru/person/show/2631/
+[3] https://peopletalk.ru/article/doch-byvshego-glavreda-glamour-mashi-fedorovoj-voshitila-podpischikov-ekstremalnym-pohudeniem/
+[4] https://www.fashionmodeldirectory.com/models/veronika_fedorova/showphoto/226170/
+[5] https://www.instagram.com/peopletalkru/p/CWVFY0hsrJ-/
+[6] https://www.youtube.com/watch?v=oFWT97ahgJ8
+[7] https://www.vogue.com/photovogue/photographers/232327
+[8] https://www.facebook.com/maria.fedorova.9235/
 
 ## Family
 
