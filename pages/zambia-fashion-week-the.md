@@ -1,7 +1,11 @@
 ---
 title: Zambia Fashion Week, The
 permalink: zambia-fashion-week-the
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Zambia Fashion Week is an annual fashion event that has become the ultimate fashion showcase in Zambia. The event aims to promote and expose the country's growing fashion industry both locally and internationally[1].

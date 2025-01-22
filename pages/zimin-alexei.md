@@ -1,7 +1,7 @@
 ---
 title: Zimin, Alexei
 permalink: zimin-alexei
-layout: ai
+layout: crypto
 date: 2018-01-02
 update: 2025-01-21
 image: https://images.lbc.co.uk/images/687422?crop=16_9&width=660&relax=1&format=webp&signature=xbCMnOB5B7WcpfudY4tjydeAErc%3D

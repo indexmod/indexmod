@@ -1,7 +1,11 @@
 ---
 title: Zlye (art group)  
 permalink: zlye-art-group  
-layout: ai  
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Zlye (Russian: Злые, meaning "Evil" or "Angry") is a Russian art group formed in the mid-2000s[3][5]. Based in Yekaterinburg, this creative collective consists of an unspecified number of artists with a changing composition[3][6]. Zlye is known for their provocative and politically charged street art, public interventions, and mixed media experiments[1][3].

@@ -1,7 +1,11 @@
 ---
 title: Zhou, Xander
 permalink: zhou-xander
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Xander Zhou is a pioneering Chinese fashion designer known for his innovative and boundary-pushing menswear. He established his fashion label in 2007 and has made significant strides in the international fashion scene[2][3].

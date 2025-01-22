@@ -1,7 +1,11 @@
 ---
 title: Zaragoza Fashion Week
 permalink: zaragoza-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Aragón Fashion Week is an annual fashion event held in Zaragoza, Spain, celebrating regional fashion and design. The most recent edition (2024) took place from April 29 to May 5, featuring a variety of fashion-related activities[8].
