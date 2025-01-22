@@ -1,7 +1,11 @@
 ---
 title: Odessa Holiday Fashion Week
 permalink: odessa-holiday-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Odessa Holiday Fashion Week is a significant fashion event that showcases the creativity and talent of designers in Ukraine. Here are some key details about the event:

@@ -1,36 +1,12 @@
 ---
-title: 'Ognenny, Oleg'
+title: Ognenny, Oleg
 permalink: ognenny-oleg
-layout: default
-originlang: Rus.
-originspell: Олег Огненный
-appearing: Born
-city: Baky
-birth: 1966
-givenname: Oleg
-familyname: Gusaev
-othername: Ognennaya lady
-venue: Moscow
-founder: of Ognennaya lady theater
-origin: a Russian
-profession: artist, costumes collector, creator of Ognennaya lady personage known in alternative night movement in Moscow, living and working in Moscow
-photo: Oleg Onenny
-photographer: Photographer
-source: Source
-photographerurl: TVRAIN
-sourceurl: TVRain
-shortname: OGNENNY
-facebook: 0
-instagram: 110
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
-
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

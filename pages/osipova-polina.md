@@ -1,10 +1,11 @@
 ---
 title: Osipova, Polina
-date: 2025-01-10
-update:
-layout: ai
 permalink: osipova-polina
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
+credits:
 ---
 
 Polina Osipova is a prominent Chuvash designer and multidisciplinary artist known for her innovative work that intertwines traditional Chuvash culture with contemporary artistic practices. Born into a colonized ethnic minority in Russia, her heritage significantly influences her artistic vision, allowing her to explore themes of identity, memory, and cultural resilience through various mediums, including textiles, sculpture, and photography.

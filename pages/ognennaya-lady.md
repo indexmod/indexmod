@@ -1,34 +1,11 @@
 ---
 title: Ognennaya Lady
 permalink: ognennaya-lady
-layout: default
-originlang: Rus.
-originspell: Огненная леди
-appearing: Est.
-city: Moscow
-birth: 1993
-givenname: Ognennaya Lady
-familyname:
-othername: Ognennaya
-venue: Птюч (magazine)
-founder: Oleg Gusaev
-origin: an Russian
-profession: personage, brand, established by artist Oleg Gusaev in Moscow in middle 90-s
-photo: Ognennaya Lady in 90-s
-photographer: Unknown
-source: Indexmod
-photographerurl: index
-sourceurl: index
-shortname: OGNENNAYA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Today brand is transformed by owner to [Oleg Ognenny](ognenny-oleg)

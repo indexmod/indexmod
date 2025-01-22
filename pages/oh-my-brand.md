@@ -1,36 +1,12 @@
 ---
-title: 'Oh, My (brand)'
+title: Oh, My (ready-to-wear)
 permalink: oh-my-brand
-layout: default
-originlang: Rus.
-originspell: О-май
-appearing: Est.
-city: Saint Petersburg
-birth: 2010
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Sergei Kovelenov
-origin: a Russian
-profession: brand of basic clothes with moto "Bread, salt and matches"
-photo: Founder of "Oh, my" Sergei Kovelenov
-photographer: Piotr Lukritsa
-source: Russian Fashion Now
-photographerurl: https://rfnow.ru/biografiya-kovelenov-sergey
-sourceurl: https://rfnow.ru/biografiya-kovelenov-sergey
-shortname: OH, MY
-facebook: 35926
-instagram: 45100
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
-
 
 (Est. 2010, Saint Petersburg) is a Russian brand of basic clothes with moto "Bread, salt and matches" <span id="a1">[\[1\]](#f1)</span> founded by Sergei Kovelenov (Сергей Ковеленов), positioning itself as a competitor of Uniqlo, Gap, Benetton, H&M <span id="a2">[\[2\]](#f2)</span>.
 

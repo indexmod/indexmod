@@ -1,35 +1,33 @@
 ---
-title: OleOp
+title: OleOp (brand)
 permalink: oleop
-layout: default
-originlang: Rus.
-originspell: Аллей-уп
-appearing: Est.
-city: Moscow
-birth: 2017
-givenname: OleOp
-familyname:
-othername:
-venue: Goma&Co
-founder: Dmitry Chernyaev
-origin: a Russian
-profession: brand of casual wear, also self-named as a “human softwear” and founded by artist Dmitry Chernyaev (Дмитрий Черняев)
-photo: OleOp's “loop” ID  for shirts
-photographer: Dmitry Chernyaev / Mic Sachkov
-source: Instagram
-photographerurl: chernyaev-dmitry
-sourceurl: https://www.instagram.com/oleoplovesyou/
-shortname: OLEOP
-facebook: 237
-instagram: 384
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
+
+OleOp appears to be a small fashion brand and art-focused clothing gallery with a unique style. The brand emphasizes **natural fabrics** and an artistic approach to clothing design. Key characteristics include:
+
+- Focus on **artistic clothing** and streetwear
+- Uses **natural fabrics** like cotton and linen
+- Combines art and fashion, with a particular emphasis on design
+- Located at Eg. Ninoshvili 1, with a gallery shop open daily from 11:30 am to 7:30 pm
+- Offers handmade jewelry and original clothing designs
+- Incorporates elements like graffiti and tattoo art into their style
+
+The brand seems to position itself as a creative, artistically-driven clothing brand that goes beyond traditional fashion, promoting what they describe as a "positive style" that merges art, clothing, and personal expression[3][4][8].
+
+Citations:
+[1] https://www.oleoshop.com/en/blog/main-fashion-marketplaces-in-europe1
+[2] https://www.instagram.com/oleoplovesyou/
+[3] https://www.facebook.com/oleoplovesyou/
+[4] https://www.instagram.com/oleoplovesyou/p/C76lL0CC397/
+[5] https://www.instagram.com/oleoplovesyou/p/C76lL0CC397/?locale=ar-en&hl=en
+[6] https://www.facebook.com/oleoplovesyou/videos/chapan-for-your-artistic-style-and-marvellous-life/1311635526045582/
+[7] https://www.zazzle.co.uk/oleo+clothing
+[8] https://www.instagram.com/steklo_ibis/reel/DEFGgMbojgz/
 
 # Origin of the term
 
