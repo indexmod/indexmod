@@ -8,7 +8,6 @@ image:
 credits:
 ---
 
-
 ## Overview of Raketa Amphibia
 
 The **Raketa Amphibia** is a notable Russian dive watch, renowned for its robust design and functionality. Developed by the Raketa watch factory, it is part of a lineage that includes the earlier Vostok Amphibia, which was introduced in 1967. The Raketa Amphibia has gained a reputation for reliability and affordability, making it a significant player in the world of diving watches.
