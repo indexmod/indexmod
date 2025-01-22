@@ -1,7 +1,11 @@
 ---
 title: Richards, Robert W.
 permalink: richards-robert-w
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Robert W. Richards — известный иллюстратор моды и эротики, родом из США, который более 50 лет работает в области модной иллюстрации. Он стал заметной фигурой в мире искусства благодаря своему уникальному стилю и интуитивному подходу к рисованию.
@@ -31,6 +35,7 @@ Citations:
 [6] https://en.wikipedia.org/wiki/Edward_Gorey
 [7] https://es.pinterest.com/pin/408772103677971133/
 [8] https://en.wikipedia.org/wiki/Richard_Avedon
+
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
 **A 70s Party**
@@ -40,7 +45,4 @@ Citations:
 ## See also
 
 + [Belov, Anatoly](belov-anatoly)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Robert W Richards: Couture Érotique (Wikipedia)](index)
++ [Robert W Richards: Couture Érotique (Wikipedia)](index)

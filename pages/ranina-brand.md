@@ -1,7 +1,11 @@
 ---
 title: Ranina (brand)
 permalink: ranina-brand
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Ranina (Ranina jewelry) est. in 2013, Moscow, jewelry brand founded by Nina Rasiuk. Nina Rasiuk is a prominent designer and entrepreneur known for her work in the jewelry industry, specifically through her brand **RANINA**. She is also the founder of **TES MODELS**, a modeling agency, and has held the position of CEO at **Proun**. Rasiuk has a background in media, having previously worked as a photo editor at **BURO 24/7 Russia**[1][5].

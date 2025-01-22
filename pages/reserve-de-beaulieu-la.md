@@ -1,7 +1,11 @@
 ---
 title: Réserve De Beaulieu, La
 permalink: reserve-de-beaulieu-la
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Est. 2013, city) is a La Réserve de Beaulieu—a hotel, spa and restaurant at Beaulieu-Sur-Mer at French Riviera well known among contemporary Russian travelers. Sign in to edit La Réserve de Beaulieu.
@@ -10,7 +14,3 @@ layout: ai
 
 + [Russia Cola](index)
 + [La Reserve Vintage](index)
-
-## Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)

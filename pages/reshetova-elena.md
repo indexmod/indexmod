@@ -1,7 +1,11 @@
 ---
 title: Reshetova, Elena
 permalink: reshetova-elena
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Elena Reshetova is a notable figure in the fashion industry, recognized for her multifaceted roles as a director, event organizer, and scriptwriter. She is also the founder of the Reshetova Model Agency (RMA), which has been influential in the modeling scene since its establishment. The agency has collaborated with prestigious designers and fashion houses, showcasing talent in various high-profile events.

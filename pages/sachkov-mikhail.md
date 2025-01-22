@@ -1,7 +1,11 @@
 ---
 title: Sachkov, Mic
 permalink: sachkov-mic
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Mic Sachkov (Mikhail Schkov) is a Russian artist and filmmaker born in 1974[2]. He is known for his work in various creative fields, including brand storytelling, media strategy, video production, and immersive experiences[1].

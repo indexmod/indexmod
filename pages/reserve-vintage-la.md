@@ -1,7 +1,11 @@
 ---
 title: Reserve Vintage, La
 permalink: reserve-vintage-la
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Rus. Ла Резерв Винтаж, est. 2013, Moscow) an online store with popups in Moscow and Yekaterinburg. The barand was founded by Anna Yaroshenko in Moscow in 1998 from personal vintage jewelry collection, clothing, and accessories <span id="a1">[\[1\]](#f1)</span>.
@@ -23,7 +27,4 @@ layout: ai
 ## See also
 
 + [Aizel Trudel](trudel-aizel)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Article name short (Author name)](http://example.net/article)
++ [Article name short (Author name)](http://example.net/article)

@@ -1,7 +1,11 @@
 ---
 title: Raare Fashion Days
 permalink: raare-fashion-days
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 A fashion event at Port Baku Mall, founded by Aisel Guseinova, is part of an initiative to promote both Azerbaijani and international designers through an online shopping platform. This event aims to showcase a diverse range of fashion talent while fostering a connection between local craftsmanship and global trends.

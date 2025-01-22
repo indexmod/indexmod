@@ -1,7 +1,11 @@
 ---
 title: Raskovalova, Yana (jeweller)
 permalink: raskovalova-yana-jeweller
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Yana Raskovalova is a prominent Russian jeweller and designer, known for her eponymous brand, Yana Jewellery. Born on March 5, 1976, in Leningrad (now St. Petersburg), she grew up in a well-off family and developed an early interest in art and design, eventually studying at the St. Petersburg Institute of Service and Economics[2][5].

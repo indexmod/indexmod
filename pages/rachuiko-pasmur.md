@@ -1,7 +1,11 @@
 ---
 title: Rachuiko, Pasmur
 permalink: rachuiko-pasmur
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Rus. Пасмур Рачуйко, born. 1986, Rostov-on-Don) Pasmur Rachuiko is a contemporary artist born in 1986 in Rostov-on-Don, Russia. He received his education at the St. Petersburg State University of Culture and Arts, where he developed his artistic skills. Rachuiko is known for his unique style that falls within the **naïve surrealism** genre, often portraying characters from his own epos that blend elements of psychedelic fantasy with reality[2][3].

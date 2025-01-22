@@ -1,34 +1,11 @@
 ---
 title: Ruban (brand)
 permalink: ruban-brand
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: RUBANBR
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Est. 2013, city) is a Ruban—a fashion house established in 2010 by sisters Alisa and Yulia Ruban with flagship office at Kamergerski side-street in Moscow. Since 2013, each season the collections is presented in a large international online retailer Moda Operandi, having the highest popularity on American and English markets.1 Sign in to edit Ruban.

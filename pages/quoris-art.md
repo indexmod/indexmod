@@ -1,7 +1,11 @@
 ---
 title: Quoris Art
 permalink: quoris-art
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Quoris Art is a conceptual project associated with Kia Motors, aimed at merging automotive design with artistic expression. The initiative seeks to showcase various forms of art and creativity, often linked to the Kia Quoris luxury sedan.

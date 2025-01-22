@@ -1,7 +1,11 @@
 ---
 title: Riga Fashion Week
 permalink: riga-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Riga Fashion Week, a prominent event in the Baltic region, is currently taking place from January 15 to January 18, 2025. This edition marks the **39th** iteration of the event, which showcases both local and international designers, highlighting the creativity and innovation within Latvia's fashion scene.

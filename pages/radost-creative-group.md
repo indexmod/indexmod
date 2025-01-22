@@ -1,7 +1,11 @@
 ---
 title: Radost Creative Group
 permalink: radost-creative-group
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Radost Creative Group appears to be a brand involved in fashion, specifically identified as a Russian brand of stylish clothing. The group maintains an online presence primarily through social media platforms such as Instagram and Facebook, where they share updates about their products and engage with followers.

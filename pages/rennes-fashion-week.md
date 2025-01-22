@@ -1,8 +1,13 @@
 ---
 title: Rennes Fashion Week
 permalink: rennes-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
+
 Rennes is set to host several significant fashion events in 2025, showcasing a vibrant mix of styles and cultural influences.
 
 ## Key Events

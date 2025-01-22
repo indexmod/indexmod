@@ -1,7 +1,11 @@
 ---
 title: Raw Magic
 permalink: raw-magic
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Raw Magic is a significant contemporary art project that emerged in April 2016 at Galerie Iragui in Moscow. This exhibition was curated by Alexander Zhuravlev and showcased the work of a collective of young, independent artists, including Alina Glazoun, Mitya Zilberstein, Dima Kavko, Petr Kirusha, Sergei Poteryaev, Sergei Rozhin, Alexei Rumin, Matvey Segal, and Protey Temen.

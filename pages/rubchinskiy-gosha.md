@@ -1,31 +1,11 @@
 ---
-title: Rubchinskiy, Gosha
-permalink: rubchinskiy-gosha
-layout: default
-shortname: RUBCHINSKIY
-givenname: Georgiy
-familyname: Rubchinskiy
-originlang: Rus.
-othername: Гоша Рубчинский
-originspell: Георгий Рубчинский
-appearing: Born
-birth: 1984
-city: Moscow
-facebook: '24496'
-instagram: '433000'
-youtube:
-vimeo:
-twitter:
-tumblr:
-vkontakte: '45992'
-origin: Russian
-profession: fashion designer and photographer and the founder of his eponymous brand
-photo: Georgiy Rubchinsky in Paris
-photographer:  Jacopo Raule
-source: Lenta.ru, Getty Images
-photographerurl: jacopo-raule
-sourceurl: https://lenta.ru/news/2018/04/04/gr_new/
-founder: 'of label Gosha Rubchinskiy'
+title: Gosha Rubchinskiy (brand)
+permalink: gosha-rubchinskiy
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 

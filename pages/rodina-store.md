@@ -1,34 +1,11 @@
 ---
 title: Rodina (store)
 permalink: rodina-store
-layout: default
-originlang: Rus.
-originspell: Родина
-appearing: Est.
-city: Nizhny Novgorod
-birth: 2015
-givenname: Rodina
-familyname:
-othername: Rodinastore.ru
-venue: Red Square
-founder: Artiom Malyshev
-origin: a Russian
-profession: store based on Russian and Ukrainian streetwear brands with worldwide shipping
-photo: Limited edition of T-shirts "Forward for the Nizhny" by Sasha Stan
-photographer: Basketball club Nizhny Novgorod
-source: Nn-basket.ru
-photographerurl: http://nn-basket.ru/
-sourceurl: http://nn-basket.ru/
-shortname: RODINA
-facebook: '114'
-instagram: '16000'
-vkontakte: '23246'
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 A store based on Russian and Ukrainian streetwear brands with worldwide shipping <span id="a1">[\[1\]](#f1)</span>, also owned local clothing line, franchizing chain in 6 Russian cities (2018) all founded by {{ page.founder }} <span id="a2">[\[2\]](#f2)</span>.

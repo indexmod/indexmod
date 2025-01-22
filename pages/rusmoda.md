@@ -1,7 +1,11 @@
 ---
 title: Rusmoda
 permalink: rusmoda
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 RusModa is a fashion company based in Moscow, primarily known for its association with the designer Alexander Terekhov. The brand has experienced various phases since its inception, including significant growth and challenges.

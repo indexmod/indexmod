@@ -1,7 +1,11 @@
 ---
 title: R.E.D.
 permalink: r-e-d
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 R.E.D. Shoe Room in Moscow is a notable destination for fashion enthusiasts, especially those interested in luxury footwear. This boutique is part of the evolving Moscow fashion scene, which has gained prominence and sophistication comparable to that of Paris and London.

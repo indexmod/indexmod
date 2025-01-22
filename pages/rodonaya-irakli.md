@@ -1,7 +1,11 @@
 ---
 title: Rodonaya, Irakli
 permalink: rodonaya-irakli
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Irakli Rodonaya is a Georgian producer and actor born on July 4, 1981, in Gagra, Abkhaz ASSR, Georgian SSR, USSR (now Abkhazia)[1][6]. He is known for his work in the film industry, particularly for his involvement in the critically acclaimed movie "Brighton 4th" (2021)[1][2].

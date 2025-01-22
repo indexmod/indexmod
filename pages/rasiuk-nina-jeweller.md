@@ -1,7 +1,11 @@
 ---
 title: Rasiuk, Nina (jeweller)
 permalink: rasiuk-nina-jeweller
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Nina Rasiuk is a prominent designer and entrepreneur in the jewelry industry. She is the founder of **RANINA Jewelry**, a brand known for its unique designs and craftsmanship. Additionally, she has established **TES MODELS**, showcasing her versatility in the fashion and modeling sectors, where she serves as a creative director and producer[1][5].

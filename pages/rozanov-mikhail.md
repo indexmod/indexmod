@@ -1,34 +1,11 @@
 ---
 title: Rozanov, Mikhail
 permalink: rozanov-mikhail
-layout: default
-originlang: Rus.
-originspell: Михаил Розанов
-appearing: Born
-city: Moscow
-birth: 1973
-givenname: Mikhail
-familyname: Rozanov
-othername: Михаил Розанов
-venue: GTSVZ
-founder: 
-origin: a Russian
-profession: photographer, actor, teacher at the British Higher School of Art and Design in Moscow
-photo: Mikhail Rozanov
-photographer: Petr Antonov
-source: Petrantonov.com
-photographerurl: http://petrflikr.petrantonov.com/comissioned/rozanov/
-sourceurl: http://petrflikr.petrantonov.com/comissioned/rozanov/
-shortname: ROZANOV
-facebook: 4920
-instagram: 939
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 ## A family
