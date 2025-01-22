@@ -1,10 +1,11 @@
 ---
 title: Darienko, Sofia
-date: 2025-01-10
-update:
-layout: ai
 permalink: darienko-sofia
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
+credits:
 ---
 
 Sofia Darienko is a notable student and emerging designer from Russia, specifically associated with the Omsk State Technical University (OмГТУ). She is currently studying in the Costume Design department and has gained recognition for her contributions to the field of fashion design.
@@ -29,7 +30,6 @@ Citations:
 [6] https://vk.com/wall-24301617_5696
 [7] https://www.instagram.com/tramplin.media/p/DD6r2qktF-R/
 [8] https://bk55.ru/news/article/240575/
-
 
 ## Indexmod 20 Топ 2025
 

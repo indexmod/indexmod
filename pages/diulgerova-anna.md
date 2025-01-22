@@ -1,37 +1,40 @@
 ---
 title: Dyulgerova, Anna
 permalink: dyulgerova-anna
-layout: default
-originlang: Rus.
-originspell: Анна Дюльгерова
-appearing: Born
-city: Moscow
-birth: 1976
-givenname: Anna
-familyname: Dyulgerova
-othername: Анна Дюльгерова
-venue: Garage Moscow
-founder: Cycles&Seasons, Anna Dyulgerova Communication
-origin: a Russian
-profession: PR-consultant and business director for Garage magazine
-photo: Anna at after-party of the “Fondation Louis Vuitton Collection. Favorites" exhibition at Strelka Bar
-photographer: Sasha Mademuaselle
-source: Theblueprint.ru
-photographerurl: https://theblueprint.ru/culture/koncert-duran-duran
-sourceurl: https://theblueprint.ru/culture/koncert-duran-duran
-shortname: DYULGEROVA
-facebook: 0
-instagram: 562
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://static.beautyinsider.ru/2015/09/EMS-3D-filler-anti-age-1.jpg
+credits:
 ---
 
+Anna Dyulgerova is a versatile professional in the fashion and cultural industries, known for her significant contributions to Moscow's creative scene. A documentary filmmaker by education, she has worked extensively in fashion, serving as an Executive Fashion Editor at Russian Vogue under Aliona Doletskaya[1].
+
+**Career Highlights**
+- Started her career at Russian Vogue, rising to Executive Fashion Editor
+- Became CEO of Moscow-based designer Denis Simachev
+- Created "Cycles and Seasons", an alternative platform to Moscow Fashion Week
+- Discovered and supported emerging designers like Gosha Rubchinskiy[1]
+
+**Professional Focus**
+Dyulgerova is passionate about nurturing creative talent and challenging the short-term mentality in the Russian fashion industry. She aims to support sustainable producers and innovative designers who can transform cultural experiences into compelling fashion[1].
+
+**Current Work**
+- Runs a consultancy based in Berlin, Germany[3]
+- Involved with Villa Lena Foundation and Commontopia[2]
+- Continues to be an influential figure in art, culture, and fashion circles
+
+Her perspective on Moscow's evolving cultural landscape is notably optimistic, highlighting the emergence of new creative platforms and a changing urban environment[1].
+
+Citations:
+[1] https://www.anothermag.com/fashion-beauty/1087/anna-dyulgerova-cycles-and-seasons
+[2] https://www.instagram.com/annadyu/
+[3] https://www.facebook.com/anna.dyulgerova.consultancy/
+[4] https://www.facebook.com/public/Anna-Dyulgerova/
+[5] https://moreislove.com/look/390/the-LOOK-with-Anna-Dyulgerova
+[6] https://www.linkedin.com/pub/dir/Anna/Dyulgerova
+[7] https://de.linkedin.com/in/anna-dyulgerova-50344645
+[8] https://www.wonderzine.com/wonderzine/life/bookshelf/216139-dyulgerova
 
 PR-consultant and business director for Garage magazine, former executive fashion editor of Russian Vogue <span id="a2">[\[2\]](#f2)</span>, Sanahunt Cultural Initiative's ambassador <span id="a3">[\[3\]](#f3)</span>, entrepreneur and socialite <span id="a4">[\[4\]](#f4)</span>, marketing consultant <span id="a5">[\[5\]](#f5)</span>.
 

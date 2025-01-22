@@ -3,10 +3,40 @@ title: Deinichenko, Andrei
 permalink: deinichenko-andrei
 date: 2025-01-10
 update: 2025-01-18
-layout: ai
-image:
+layout: crypto
+image: https://i1.sndcdn.com/avatars-000215422937-sckjje-t1080x1080.jpg
 credits:
 ---
+
+Andrei Deinichenko is a Russian **visual artist**, **writer**, and **multimedia creator** born in 1971 in Aksai. He is a multifaceted professional with several notable achievements:
+
+**Professional Roles and Contributions**
+- Founder of the **Indexmod Encyclopedia**
+- Multimedia artist
+- Journalist
+- Writer (author of the novel "Lianozovo platform Curses")
+- Actor
+- Visioner at the Eta fellowship
+
+**Artistic Pursuits**
+Deinichenko is active across various creative platforms, including:
+- SoundCloud, where he has published tracks like "Х", "Mildonium", and "Longevity"
+- Instagram (140 followers)
+- Flickr (383 photos)
+
+**Professional Recognition**
+He has been involved in creative projects such as the film "Indigo" (2008), where he worked in the costume department[3]. Deinichenko is also known by alternative names like Andrei Dei and Gurotesuku[1].
+
+His work spans multiple disciplines, demonstrating a versatile approach to artistic and creative expression.
+
+Citations:
+[1] https://soundcloud.com/deinichenko-andrei
+[2] https://www.facebook.com/public/Andrei-Deinichenko
+[3] https://www.imdb.com/name/nm6826609/
+[4] https://github.com/hanxiaomax/encyclopedia/blob/master/deinichenko-andrei.md
+[5] https://www.instagram.com/andrei.deinichenko/
+[6] https://www.flickr.com/photos/49023353@N04/
+[7] https://soundcloud.com/deinichenko-andrei/mildonium
 
 Russian journalist author of Indexmod, Indexmod fashion and art Сhainpedia, multimedia artist, actor, visioner at the Eta fellowship, <span id="a1">[\[1\]](#f1)</span>, layout and prints designer <span id="a2">[\[2\]](#f2)</span>.
 

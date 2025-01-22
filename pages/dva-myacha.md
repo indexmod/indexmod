@@ -1,32 +1,31 @@
 ---
 title: Dva Myacha
 permalink: dva-myacha
-layout: default
-givenname: Dva Myacha
-othername: Два мяча
-shortname: DVAMYACHA
-venue: Tsvetnoy store, Moscow
-birth: '1965'
-city: Moscow
-facebook: '7068'
-instagram: '9617'
-youtube: '77'
-originlang: Rus.
-originspell: Два мяча
-appearing: Est.
-vimeo: '0'
-twitter: '0'
-tumblr: '0'
-vkontakte: '6784'
-origin: a Soviet
-profession: brand that was reinvented after the cult in the 60-s in the USSR
-photo: A still from video campaign directed by Anastasya Zavadskaya
-photographer: Vlad Bakhanovich
-source: YouTube
-photographerurl: bakhanovich-vlad
-sourceurl: https://www.youtube.com/watch?v=Z90Mr4jhEgA
-founder: reinvented by Evgeni Raykov (2016)
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://mir-s3-cdn-cf.behance.net/project_modules/fs/196c01106102001.5f8822e6906e0.jpg
+credits:
 ---
+
+Dva Myacha is a Soviet-era sneaker brand that originated in 1965 as a joint Soviet-Chinese production[3][4]. The brand became particularly notable among Soviet athletic youth, producing distinctive footwear[4].
+
+## Company Details
+
+**Product Range**: Dva Myacha (which translates to "Two Balls") produces and sells footwear, clothing, and accessories, with a focus on classic and original models[5]. Their sneakers are characterized by being lightweight yet durable, with features like polyester upper materials and sherpa fleece lining, making them suitable for winter walks[2].
+
+**Historical Significance**: The brand emerged during a period when few shoe brands existed, establishing itself as a unique name in Soviet footwear manufacturing[3]. Their sneakers were particularly popular among young athletes and represented a significant part of Soviet youth fashion in the 1960s[4].
+
+## Modern Presence
+
+Today, Dva Myacha maintains an online presence through various platforms, including an official web store, Instagram account, and LinkedIn page, continuing to showcase their footwear heritage[1][2][3].
+
+Citations:
+[1] https://dvamyacha.ru
+[2] https://www.instagram.com/dvamyacha/
+[3] https://www.linkedin.com/company/dva-myacha
+[4] https://www.reddit.com/r/Sneakers/comments/v2nlie/dva_myacha_sneakers_soviet_sneakers_that/
+[5] https://catalog.moscow-export.com/en/industrie/ooo-dva-myacha/
 
 Based on the cult in the 60-s in the USSR <span id="a2">[\[2\]](#f2)</span> so-called “two balls” brand of sneakers that have been imported from China <span id="a3">[\[3\]](#f3)</span> in 1960 — 1980 <span id="a4">[\[4\]](#f4)</span>. After 3 years of testing, and searching for investors, ready-to-wear online sales began on July 6, 2016, and retail sales started from July 13, 2016, in department store “Tsvetnoy” <span id="a5">[\[5, 6, 7, 8, 9\]](#f5)</span>.
 

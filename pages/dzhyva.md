@@ -1,34 +1,34 @@
 ---
 title: Dzhyva (リネン)
 permalink: dzhyva
-layout: default
-originlang: Ukr.
-originspell: Джи́ва
-appearing: Est.
-birth: '2017'
-city: Kiev
-othername: Джива
-venue: Festival "Misto shaslivyh ludei" in the city of Brovary
-givenname: Dzhyva
-origin: an Ukrainian
-profession: brand of natural linen from flax and hemp with selection of old signs and patterns as a charm or amulet
-photo: Olga Govorova Ukrayinske Village 近くの下着のサンプルを紹介しています
-photographer: Andrei Dei
-source: Indexmod Blockchainpedia
-photographerurl: dei-andrei
-sourceurl: index
-founder: Olga Govorova
-shortname: DZHIVA
-facebook: '324'
-instagram: '275'
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
+
+Dzhyva is a Ukrainian linen brand that specializes in producing unique **linen bedding and textile products**. The brand focuses on creating high-quality textile items with special attention to traditional symbolism and craftsmanship[1][3].
+
+## Key Characteristics
+
+- **Unique Design**: Each product features distinctive ornaments and protective symbols[1]
+- **Natural Materials**: The brand uses unbleached gray linen, which is believed to preserve special qualities[4]
+- **Holistic Approach**: Their textiles are designed to create a favorable environment for rest and support human health, both physically and mentally[3]
+
+The brand's product line includes:
+- Linen bedding sets
+- Linen covers with traditional ornamental patterns
+- Textile items with symbolic embroidery
+
+Dzhyva appears to have a strong presence on social media platforms like Facebook and Instagram, where they showcase their unique linen collections[1][2][3].
+
+Citations:
+[1] https://www.facebook.com/dzhyvalinen/
+[2] https://www.facebook.com/dzhyvalinen/photos/a.1269500906516202/1523898754409748/?type=3
+[3] https://www.instagram.com/dzhyva_linen/p/CXEQf41tiG-/?img_index=dzhyva_linen
+[4] https://www.instagram.com/dzhyva_linen/p/BjqKW4XFmOt/?hl=fi
+[5] https://www.tiktok.com/@_dreamer_92/video/7071914597736779010
 
 ## Conspectus
 

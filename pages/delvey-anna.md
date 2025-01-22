@@ -1,44 +1,40 @@
 ---
-title: 'Delvey, Anna'
+title: Delvey, Anna
 permalink: delvey-anna
-layout: default
-originspell: Анна Делви
-originlang: Rus.
-appearing: Born
-city: Domodedovo
-birth: 1991
-givenname: Anna
-familyname: Sorokina
-othername: Анна Сорокина
-venue: Rikers Island
-founder: Anna Delvey Foundation
-origin: dauter of Russian immigrants from Colone's suburbs,
-profession: a founder of the Anna Delvey Foundation
-photo: Anna Delvey
-photographer: Sergio Corvacho
-source: The Cut
-photographerurl: 'https://www.thecut.com/2018/05/how-anna-delvey-tricked-new-york.html'
-sourceurl: 'https://www.thecut.com/2018/05/how-anna-delvey-tricked-new-york.html'
-shortname: DELVEY
-facebook: 0
-instagram: 74100
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-published: true
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://static.themoscowtimes.com/image/article_1360/bf/3126BFF7-ABB0-4477-95F4-96C60EC6E82F.jpeg
+credits:
 ---
 
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
+Анна Сорокина (также известная как Анна Делви) - немецкая мошенница русского происхождения, родившаяся 23 января 1991 года в Домодедово, Россия[1][2]. В 2007 году она переехала с семьей в Германию[2].
+
+**Основные факты**:
+- Настоящее имя: Анна Вадимовна Сорокина
+- Прозвище: Анна Делви
+- Происхождение: Родилась в России, выросла в Германии
+- Известна как аферистка, которая выдавала себя за богатую немецкую наследницу в Нью-Йорке с 2013 по 2017 год[2]
+
+**Криминальная история**:
+- Арестована 25 января 2019 года
+- Осуждена за кражу и мошенничество
+- Приговорена к тюремному заключению от 4 до 12 лет
+- Освобождена за хорошее поведение[1]
+
+**Медийная известность**:
+- Стала главной героиней сериала Netflix "Изобретая Анну" в 2022 году[1]
+- О ней написана книга "Моя подруга Анна" Рэйчел Уильямс[5]
+
+Citations:
+[1] https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D0%B8%D0%BD%D0%B0,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%BE%D0%B2%D0%BD%D0%B0
+[2] https://en.wikipedia.org/wiki/Anna_Sorokin
+[3] https://www.esquire.com/uk/culture/tv/a38893415/where-is-anna-delvey-from-accent-inventing-anna-russian-german/
+[4] https://people.com/crime/inventing-anna-true-story/
+[5] https://www.bookwiseonline.co.uk/my-friend-anna---the-true-story-of-anna-delvey-fake-heiress-of-new-york-16854-p.asp
+[6] https://www.tiktok.com/discover/%D0%B0%D0%BD%D0%BD%D0%B0-%D0%B4%D0%B5%D0%BB%D0%B2%D0%B8-%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC
+[7] https://vk.com/theannadelvey
+[8] https://www.instagram.com/theannadelvey/?locale=ru&hl=ru
 
 Is a dauter of Russian immigrants from Colone suburbs, founder of the Anna Delvey Foundation in NYC, posing as a thoroughbred German woman, described by New York Magazine online supplement The Cut as "wannabe socialite busted for skipping out on pricey hotel bills" <span id="a2">[\[2\]](#f2)</span>, who was arrested in Malibu in the summer of 2017 and charged with six charges as thefts and their attempts. Since October 2017, Anna Delvey (Sorokina) was arrested <span id="a3">[\[3\]](#f3)</span> and awaits trial in Rikers Prison on the eponymous island near New York.
 
