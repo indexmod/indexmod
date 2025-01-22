@@ -1,9 +1,9 @@
 ---
 title: Verber, Alla
 permalink: verber-alla
-layout: ai
-date:
-update:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image: https://assets.vogue.ru/photos/5dc5372a0c545400095c3475/2:3/w_2560%2Cc_limit/7df6202d4b19972193d920129333992b.jpg
 credits:
 ---

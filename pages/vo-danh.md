@@ -1,7 +1,7 @@
 ---
 title: Во, Дан
 permalink: vo-danh
-layout: ai
+layout: crypto
 permalink:
 image:
 credits:

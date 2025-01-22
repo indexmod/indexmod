@@ -1,7 +1,7 @@
 ---
 title: Vyatka mod
 permalink: vyatka-mod
-layout: ai
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
 image: https://ic.pics.livejournal.com/selyanka1/80512851/3455438/3455438_original.png

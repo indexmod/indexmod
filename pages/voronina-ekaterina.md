@@ -1,7 +1,7 @@
 ---
 title: Voronina, Ekaterina
 date: 2025-01-10
-update:
+layout: crypto
 layout: ai
 permalink: voronina-ekaterina
 image:

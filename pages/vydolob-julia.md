@@ -1,7 +1,11 @@
 ---
 title: Vydolob, Julia
 permalink: vydolob-julia
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Julia Vydolob is a prominent fashion journalist and entrepreneur currently residing in Tel Aviv, Israel, originally from Moscow, Russia. She is a partner at the Dot Comms agency, where she consults for various fashion brands and serves as a creative director for the Blue Store shopping platform. Additionally, she has a background with The Blueprint, a notable Russian fashion publication.

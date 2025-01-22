@@ -1,9 +1,9 @@
 ---
 title: 2 Skin
 permalink: 2-skin
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-22
 image:
 credits:
 ---

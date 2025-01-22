@@ -1,9 +1,9 @@
 ---
 title: Vancouver Fashion Week
 permalink: vancouver-fashion-week
-layout: ai
-date:
-update:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image: https://imageio.forbes.com/specials-images/imageserve/64492db2175f57bd9651f763/models/960x0.jpg
 credits:
 ---

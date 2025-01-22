@@ -1,7 +1,7 @@
 ---
 title: Vardoui Nazarian (brand)
 permalink: vardoui-nazarian
-layout: ai
+layout: crypto
 date:
 update:
 image: https://avatars.dzeninfra.ru/get-zen_doc/8170504/pub_63f49532f0238d321d0c2c83_63f49533b599371fa9fe71b1/scale_1200

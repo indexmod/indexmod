@@ -1,7 +1,7 @@
 ---
 title: Ву, Зонг
 permalink: vu-zong
-layout: ai
+layout: crypto
 permalink:
 image: https://avatars.mds.yandex.net/get-altay/1938795/2a0000017042ee23304f87fa71a8d8c6ae2b/orig
 credits:

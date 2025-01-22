@@ -1,9 +1,9 @@
 ---
 title: Van de Coevering, Iris
 permalink: van-de-coevering-iris
-layout: ai
-date:
-update:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
 credits:
 ---
