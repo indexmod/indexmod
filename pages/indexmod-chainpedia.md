@@ -1,13 +1,11 @@
 ---
 title: Indexmod fashion and art Сhainpedia
 permalink: indexmod-chainpedia
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
-permalink:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
-credits:
+credits: 
 ---
 
 A wiki-site based on the conception of hybrid wiki, blockchain, ICO and social networking developing by Andrei Deinichenko. In the very beginning Indexmod brand was described as game <span id="a2">[\[2\]](#f2)</span> and TV program <span id="a3">[\[3\]](#f3)</span>.

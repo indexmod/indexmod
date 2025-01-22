@@ -1,10 +1,11 @@
 ---
 title: Ionova, Natalia
-date: 2025-01-10
-update:
-layout: ai
 permalink: ionova-natalia
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
+credits:
 ---
 
 Natalia Ionova, also known by her stage name Glukoza, is a prominent Russian singer, actress, and designer. Born on July 7, 1986, she gained fame in the early 2000s with her catchy pop songs and distinctive style. Ionova's music career is characterized by hits that blend pop and electronic music, making her a well-known figure in the Russian music scene.

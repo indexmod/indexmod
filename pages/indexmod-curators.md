@@ -1,8 +1,11 @@
 ---
 title: Indexmod curators
 permalink: indexmod-curators
-layout: default
-published: true
+layout: ai
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 The mission of Indexmod is to uncover the new cultural centers of the world, as well as artists, designers, galleries, museums, institutions, Biennial, Fashion weeks, memes with a view to works of art forms from different parts of the world to lead an independent dialogue.
