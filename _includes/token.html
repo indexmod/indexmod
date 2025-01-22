@@ -1,0 +1,9 @@
+{% assign words = page.title | replace: ',', '' | replace: '.', '' | strip | split: " " %}
+{% assign token = words[0] | slice: 0,3 | upcase %}
+
+{% for word in words offset:1 %}
+  {% assign letter = word | slice: 0,1 | upcase %}
+  {% assign token = token | append: letter %}
+{% endfor %}
+
+{{ token | strip }}

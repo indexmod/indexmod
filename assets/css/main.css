@@ -96,14 +96,20 @@ img {
 }
 
 .badge {
+  display: inline-block; /* Убедиться, что badge ведет себя как блок внутри текста */
   font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
   border-radius: 4px;
-  padding: 0 6px;
+  padding: 2px 8px; /* Добавлен небольшой вертикальный отступ */
+  margin-right: 5px; /* Добавлен отступ справа, чтобы не сливалось со следующим словом */
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
   font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
   background-color: #11312C;
   color: #3ED2B4;
+  letter-spacing: 1px; /* Немного увеличиваем расстояние между буквами для читаемости */
 }
+
 
 
 /* Медиа-запросы для адаптивности */
