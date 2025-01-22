@@ -4,7 +4,7 @@ permalink: akulinichev-kirill
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: https://sun9-5.userapi.com/s/v1/ig2/j_evxts3KJljgoIozdMRyOR4ttdzWvZpoxFYVt8EuePg3cGh7HIlDOzQ1yJuIF_uhMNw01EoKdaqjyFJHhMkV-2-.jpg?quality=95&crop=1%2C0%2C2108%2C2108&as=32x32%2C48x48%2C72x72%2C108x108%2C160x160%2C240x240%2C360x360%2C480x480%2C540x540%2C640x640%2C720x720%2C1080x1080%2C1280x1280%2C1440x1440%2C2108x2108&from=bu&u=i0XbJDKIrL0_5bEVDlr5ej9eFj9BD1lAo3-7qKe1QYU&cs=640x640
+image: https://api.vladey.net/storage/artwork/5424/regular_preview_image-ccd43e2eb5fd2a57cf8e1aca00a6e6fc.jpg
 credits:
 ---
 
