@@ -1,54 +1,39 @@
 ---
 title: Оксенбульд, Эд
 permalink: oxenbould-ed
-layout: default
-exclude: true
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: SHORTNAME
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://rus.team/images/article/32322/2018-05-07-059_60353-7_512167.webp
+credits:
 ---
 
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+Эд Оксенбульд - австралийский актер, родившийся 1 июня 2001 года[1][2][3]. На данный момент ему 23 года. Он получил известность благодаря роли в фильме "Джулиан" (2012), а затем снялся в сериале "Половое созревание" (2012-2014)[2]. Широкую популярность ему принесла главная роль в фильме "Александр и ужасный, кошмарный, нехороший, очень плохой день" (2014)[2][3].
 
-**Image caption**
+## Карьера
 
-*Photo: [Not specified](index) / [Source](index)*
+Эд продолжил свою карьеру, снявшись в таких фильмах, как:
 
-## Сonspectus
+- "Бумажные самолеты" (2015)
+- "Визит" (2015)
+- "Лучше берегись" (2016)
+- "Дикая жизнь" (2018)
+- "Наггет мертв?" (2024)[2]
 
-|Year|City|
-|-|-|
-|2017|Moscow <span id="a2">[\[2\]](#f2)</span>|
+Он также озвучивал персонажей в анимационных фильмах "Дерево желаний" (2019) и "Пушистые спасатели" (2020)[3][7].
 
-## See also
+## Личная жизнь
 
-+ [About](index)
-+ [More](index)
+Эд родился в семье актеров Дианы Адамс и Джейми Оксенбульда[2][3]. Он является племянником комика и актера Бена Оксенбульда[1][2]. Рост актера составляет 1,68 м[1].
 
-## Footnotes
+На данный момент Эд Оксенбульд продолжает активно сниматься в кино и на телевидении, развивая свою актерскую карьеру.
 
-[[1]](#a1) <span id="f1"></span> [(Wikipedia)](index)
+Citations:
+[1] https://www.kinopoisk.ru/name/2553932/
+[2] https://en.wikipedia.org/wiki/Ed_Oxenbould
+[3] https://www.imdb.com/name/nm4590837/
+[4] https://www.instagram.com/edoxenbould/
+[5] https://www.vokrug.tv/person/show/ed_oksenbuld/
+[6] https://www.film.ru/person/ed-oxenbould
+[7] https://www.ivi.tv/person/ed-oksenbuld
+[8] https://www.kino-teatr.ru/kino/acter/m/hollywood/406410/bio/
