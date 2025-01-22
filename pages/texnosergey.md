@@ -3,7 +3,7 @@ title: TexnoSergey
 permalink: texnosergey
 date: 2025-01-10
 update: 2025-01-18
-layout: ai
+layout: crypto
 image: https://r.fashionunited.com/XUGaxb-MJhLQ8JKIrnsUA_28vwZabcXRLoJgireN5N8/resize:fit:1200:630:0/gravity:ce/quality:70/aHR0cHM6Ly9zdGF0aWMuZmFzaGlvbnVuaXRlZC5jb20vMjAyMDAxL1RleG5vc2VyZ2V5LTEuanBn.jpeg
 credits:
 ---
