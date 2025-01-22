@@ -1,7 +1,11 @@
 ---
 title: Mercedes-Benz Fashion Week Tbilisi
 permalink: mercedes-benz-fashion-week-tbilisi
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Mercedes-Benz Fashion Week Tbilisi will take place from **May 4th to May 8th, 2025**, at Factory Tbilisi. This edition marks the return of the event after a hiatus due to the Covid-19 pandemic, promising a vibrant showcase of both established and emerging designers from Georgia and beyond[1].

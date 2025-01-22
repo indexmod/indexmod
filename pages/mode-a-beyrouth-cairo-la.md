@@ -1,35 +1,33 @@
 ---
 title: Mode A Beyrouth Cairo, La
 permalink: mode-a-beyrouth-cairo-la
-layout: default
-originlang: Fr.
-originspell: La Mode A Beyrouth Cairo
-appearing: Est.
-city: Cairo
-birth: 2016
-givenname: La Mode A Beyrouth Cairo
-familyname:
-othername: MBC
-venue: Fairmont Heliopolis
-founder: Multi Art
-origin: an international
-profession: fashion event in Cairo, bringing together designers from allover the world
-photo: Christine Massarany is the newest designer to enter the Egyptian fashion scene when she entered the “La Mode a Beyrouth” competition
-photographer: Photos courtesy of Christine Massarany
-source: Egypttoday.com
-photographerurl: index
-sourceurl: index
-shortname: BEYROUTH
-facebook: 11917
-instagram: 2160
-youtube: 0
-vimeo: 0
-twitter: 3
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://live.staticflickr.com/4190/33699263304_ee9643fe99_b.jpg
+credits:
 ---
+
+La Mode A Beyrouth Cairo is a unique **bi-annual fashion week** held in Cairo, Egypt[5]. This fashion event brings together designers from around the world, with a focus on Arab, Egyptian, and international fashion talents[1][5].
+
+## Key Details
+- **Origin**: A franchise of Lebanon's official fashion week[8]
+- **Purpose**: To bring international quality to the local fashion market[8]
+- **Participants**: Arab, Egyptian, and international designers[5]
+
+The event has been notable for featuring various fashion designers and attracting significant attention, including appearances by celebrities, stars, fashion magazines, and national newspapers[6]. It has been described as a significant fashion event that showcases the latest creations from designers across different regions[2].
+
+The fashion show has previously been held at venues like the Four Seasons Hotel in Beirut and has received coverage from multiple media platforms, including social media channels like Facebook and Instagram[4][3].
+
+Citations:
+[1] https://www.facebook.com/Lamodeabeyrouthcairo/
+[2] https://www.egypttoday.com/Tag/6535/La-Mode-A-Beyrouth-Cairo
+[3] https://www.facebook.com/story.php?story_fbid=860209160797882&id=618927394926061
+[4] https://www.instagram.com/lamodeabeyrouth/p/BMhELd9gPmL/
+[5] https://indexmod.xyz/mode-a-beyrouth-cairo-la
+[6] https://www.youtube.com/@lamodeabeyrouthcairo8331/featured
+[7] https://www.facebook.com/inspirationgroup/videos/la-mode-a-beyrouth-cairo-hanna-touma-couture-directed-by-fouad-choufany/1343194942424702/
+[8] https://www.dailynewsegypt.com/2016/12/08/la-mode-beyrouth-cairos-newest-fashion-marathon/
 
 After going through all the elements pertaining to the Mega Fashion week that we held last November and intending to hold the second edition in May, 2017, please find here under a detailed brief about it.
 

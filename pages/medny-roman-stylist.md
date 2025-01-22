@@ -1,35 +1,51 @@
 ---
 title: Medny, Roman (stylist)
 permalink: medny-roman-stylist
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: MEDNY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://info-hit.ru/upload/iblock/d85/ew46inriuxre9ayiy21wqcvqqnzebcly/mednyy_roman.jpg
+credits:
 ---
+
+Roman Medny is a prominent Russian stylist, television host, and style coach with extensive experience in fashion and personal styling. He received his cultural studies education from Donetsk National University and has built an impressive career in the fashion and media industry[2].
+
+## Professional Background
+
+**Career Milestones**:
+- In 2005, he moved to Saint Petersburg and worked as a chief editor in a hospitality and restaurant industry journal
+- Collaborated with various publications like TimeOut.Petersburg, Sobaka.ru, Afisha, and L'Officiel
+- Started individual styling consultations and shopping accompaniment in 2008
+- Completed fashion styling courses at Marangoni in 2009
+- Trained in makeup at Make-Up Atelier in 2011 and interned in Paris
+
+## Professional Achievements
+
+**Training and Expertise**:
+- Conducts style training across multiple Russian and Ukrainian cities
+- Recognized by Forbes Russia as one of the best shopping accompaniment specialists
+- Hosted a popular style program on the Ukrainian TV channel СТБ since spring 2012
+- Collaborated with the Italian Fashion Chamber in 2013
+- Released an accessory capsule collection in November 2014[2]
+
+**Unique Approach**:
+Medny distinguishes himself by focusing on the individual beyond mere appearance, aiming to help clients discover their personal style and aesthetic environment that encourages self-improvement[2].
+
+## Media and Recognition
+
+- Expert contributor to publications like Russian Reporter, Gazeta.Ru, and Expert
+- Active on social media platforms including Instagram and YouTube
+- Described by Interview magazine as a stylist who knows everything about body types, color contrasts, and how to apply this knowledge[2]
+
+Citations:
+[1] https://medny-style.com
+[2] https://medny-style.com/about-medny/
+[3] https://www.instagram.com/medny_style/
+[4] https://www.instagram.com/medny/
+[5] https://www.youtube.com/channel/UCbvD13GVFJmCiUkvmr7gcIA
+[6] https://www.facebook.com/romanmedny/
+[7] https://www.pinterest.com/roma_medny/
+[8] https://www.instagram.com/medny_style/reel/DAlUQtdt_V0/
 
 (Rus. Роман Медный) born 1986, Donetsk is a Russian-Ukrainian stylist, TV presenter, trainer, founder of the online course “Smart Style from the Roman Medny”, “one of the best experts on shopping support” (Forbes).
 

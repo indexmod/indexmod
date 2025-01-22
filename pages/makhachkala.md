@@ -1,7 +1,7 @@
 ---
-title: Makhachkala
+title: Makhachkala (city)
 permalink: makhachkala
-layout: ai
+layout: crypto
 date: 2018-01-02
 update: 2025-01-21
 image: https://m.media-amazon.com/images/I/A1mN82gBRyL._CLa%7C2140%2C2000%7CB1NgsDRWpML.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png

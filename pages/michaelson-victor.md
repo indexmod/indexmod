@@ -1,7 +1,11 @@
 ---
 title: Michaelson, Victor
 permalink: michaelson-victor
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Victor Michaelson is a notable figure born in September 1955 in Moscow, Russia. He is recognized as a professor and a prominent educator at the Russian State University for the Humanities (RSUH). Michaelson has made significant contributions to the academic field, particularly in political sciences, where he holds the title of Doctor of Political Sciences.

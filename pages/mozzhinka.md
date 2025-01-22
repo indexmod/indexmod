@@ -1,7 +1,11 @@
 ---
 title: Mozzhinka
 permalink: mozzhinka
-layout: default
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Rus. Мозжинка) est. 1946, is a cottage village founded after the decree signed by Joseph Stalin and donated to the private property to a number of soviet academics.

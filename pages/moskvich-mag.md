@@ -1,7 +1,11 @@
 ---
 title: Moskvich Mag
 permalink: moskvich-mag
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Moskvich Mag is a popular Russian media outlet focused on life in Moscow and beyond. It operates as a magazine and maintains a strong online presence across various social media platforms[1][2][3]. The publication covers a wide range of topics related to Moscow, including city news, cultural events, and lifestyle content.

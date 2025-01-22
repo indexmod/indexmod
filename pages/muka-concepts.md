@@ -1,11 +1,11 @@
 ---
 title: Muka Concepts
-date: 2025-01-10
-update:
-layout: ai
 permalink: muka-concepts
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image:
-
+credits:
 ---
 
 Muka Concepts is a multi-faceted brand based in Bali, focusing on both fashion and skincare. It operates primarily from two locations, with its main establishment in Pererenan Village.

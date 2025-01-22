@@ -1,7 +1,11 @@
 ---
 title: Mercedes-Benz Fashion Week Istanbul
 permalink: mercedes-benz-fashion-week-istanbul
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Mercedes-Benz Fashion Week Istanbul 2025 is set to be a significant event in the global fashion calendar, showcasing a blend of traditional and contemporary styles against the backdrop of Istanbul's rich cultural heritage.

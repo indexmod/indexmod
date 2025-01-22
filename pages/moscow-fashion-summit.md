@@ -1,44 +1,12 @@
 ---
-title: Moscow Fashion Summit
+title: Moscow Fashion Summit 2019
 permalink: moscow-fashion-summit
-layout: default
-originlang: Rus.
-originspell: Модный саммит в Москве
-appearing: Est.
-city: Moscow
-birth: 2019
-givenname: Moscow Fashion Summit
-familyname: Модный саммит в Москве
-othername: MFS
-venue: Vinzavod
-founder: MEC and Moscow City Government
-origin: a Russian
-profession: fashion event in Moscow
-photo: Ksenia Sobchak and Anzor Kankulov presented the project “Moscow Fashion Association”
-photographer: PR Archives
-source: Instyle.ru
-photographerurl: https://instyle.ru/stars/news/kseniya-sobchak-i-anzor-kankulov-predstavili-proekt-assotsiatsii-mody-moskvy/?slide=5&gallery=2
-sourceurl: https://instyle.ru/stars/news/kseniya-sobchak-i-anzor-kankulov-predstavili-proekt-assotsiatsii-mody-moskvy/?slide=5&gallery=2
-shortname: MFS
-facebook: 2
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
-weibo: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
-
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-indexmod.gq/edit
--->
 
 ## Speakers 2019
 

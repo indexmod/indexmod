@@ -1,37 +1,14 @@
 ---
 title: Musaeva, Nazrin Adyl (Marmot)
 permalink: musaeva-nazrin-adyl-marmot
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: MUSAEVA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
-Nazrin Musayeva (Marmot) born 1990, Baku—an Azerbaijani visual artist, working as a designer decorator and teacher of composition and painting​, designer decorator in art studio, in the educational centre, graduate Baku State Social Economic College, Bachelor degree,Design decoration (tapestry) Faculty of Fine Art, Azerbaijan State Academy of Art Volunteer in animal shelters.
+Nazrin Musayeva (Marmot) born 1990, Baku — an Azerbaijani visual artist, working as a designer decorator and teacher of composition and painting​, designer decorator in art studio, in the educational centre, graduate Baku State Social Economic College, Bachelor degree,Design decoration (tapestry) Faculty of Fine Art, Azerbaijan State Academy of Art Volunteer in animal shelters.
 
 # Exhibitions
 

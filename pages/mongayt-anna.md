@@ -1,35 +1,47 @@
 ---
-title: 'Mongayt, Anna'
+title: Mongayt, Anna
 permalink: mongayt-anna
-layout: default
-originlang: Rus.
-originspell: Анна Монгайт
-appearing: Born
-city: Odessa
-birth: 1978
-givenname: Anna
-familyname: Mongayt
-othername: (maiden) Loshak; (Ukr.) Ганна Монґайт
-venue: Channel "Rain"
-founder: of "Women on top" program
-origin: a Russian
-profession: journalist, actress, TV presenter, creative producer of the television channel "Rain" working in Latvia
-photo: Anna Mongayt
-photographer: Julia Mayorova
-source: Bedush & Marennikova PR-agency
-photographerurl: https://daily.afisha.ru/cities/1290-sindeeva-makeeva-i-mongajt-o-paradoksah-dozhdya/
-sourceurl: https://daily.afisha.ru/cities/1290-sindeeva-makeeva-i-mongajt-o-paradoksah-dozhdya/
-shortname: MONGAYT
-facebook: 36440
-instagram: 8013
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://upload.wikimedia.org/wikipedia/commons/a/a2/Anna_Mongayt%2C_August_2019.jpg
+credits:
 ---
+
+Anna Viktorovna Mongait is a prominent Russian journalist, television presenter, and creative producer born on March 9, 1978, in Odesa, Ukrainian Soviet Socialist Republic[3][4]. She is best known for her work with TV Rain (Dozhd) channel and has had a distinguished career in Russian media.
+
+## Professional Career
+
+Mongait began her journalism career early, with her first notable article published in **Izvestia** when she was just 13 years old[4]. She worked at various prominent Russian television channels, including:
+
+- Channel One Russia
+- Russia-1
+- Russia-K
+- NTV (2001-2004 as a news correspondent)
+- TV Rain (since 2010)
+
+**Notable Programs**: She has hosted several significant programs, including:
+- "About Art" on Russia-K (2005-2010)
+- "Here and Now"
+- "Women on Top"
+- "Mongait" (her own program on TV Rain)
+
+## Personal Background
+
+Mongait comes from a prominent media family. Her father, Viktor Loshak, is a journalist, and her mother, Marina Loshak, is an art historian and director of the Pushkin State Museum of Fine Arts[3]. She is married to Sergei Mongait, a creative director, and they have two sons: Matvey (born 2008) and Demyan (born 2016)[3].
+
+## Recent Developments
+
+In November 2022, the Russian Ministry of Justice designated her as a "foreign agent"[3]. Following Russia's invasion of Ukraine, she left Russia in March 2022, initially living in Tbilisi and then moving to Riga, Latvia, where she continued working with TV Rain[3].
+
+Citations:
+[1] https://www.instagram.com/mongayt/
+[2] https://www.linkedin.com/in/anna-mongayt-counselman
+[3] https://en.wikipedia.org/wiki/Anna_Mongait
+[4] https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B3%D0%B0%D0%B9%D1%82,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0
+[5] https://www.vokrug.tv/person/show/anna_mongait/
+[6] https://www.facebook.com/anna.mongayt/?locale=ru_RU
+[7] https://www.facebook.com/anna.mongayt/?profile_tab_item_selected=about
 
 ## Filmography
 

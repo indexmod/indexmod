@@ -1,7 +1,7 @@
 ---
 title: Mados infekcija
 permalink: mados-infekcija
-layout: ai
+layout: crypto
 date: 2018-01-02
 update: 2025-01-21
 image:

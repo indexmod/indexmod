@@ -1,7 +1,11 @@
 ---
 title: Mercedes Fashion Week Chile
 permalink: mercedes-fashion-week-chile
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Mercedes Fashion Week in Chile is not a standalone event under that specific name, but there are significant fashion events in the country, such as **Andes Fashion Week**, which showcases both local and international designers.

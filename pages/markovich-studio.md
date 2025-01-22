@@ -1,34 +1,11 @@
 ---
 title: Markovich studio
 permalink: markovich-studio
-layout: default
-originlang: Rus.
-originspell: Маркович
-appearing: Est.
-city: Saint-Petersbourg
-birth: 2015
-givenname: Markovich
-familyname:
-othername: Студия Маркович
-venue: BP “Kozhevniki”, “Аuditoriya” show room
-founder: Anna Markovich
-origin: a Russian
-profession: brand of women's clothing with urban rhythm and mythology of romance, vinner of the the Grand Prix of the contest “Fashionable Start Up” in 2015
-photo: Item from lookbook of the Markovich Studio. Spring / Summer 2018
-photographer: Markovich studio
-source: Instagram
-photographerurl: index
-sourceurl: index
-shortname: MARKOVICH
-facebook: 187
-instagram: 9664
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 152
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 ## Philosophy

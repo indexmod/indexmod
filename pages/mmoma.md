@@ -1,35 +1,45 @@
 ---
 title: MMOMA
 permalink: mmoma
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: MMOMA
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Petrovka25_MMOMA.jpg/1200px-Petrovka25_MMOMA.jpg
+credits:
 ---
+
+The Moscow Museum of Modern Art (MMOMA) is a prominent contemporary art museum located in Moscow, Russia. Founded in December 1999, the museum was initiated by Zurab Tsereteli, president of the Russian Academy of Arts[3][4].
+
+## Key Details
+
+- **Founding**: Established in December 1999[4]
+- **Focus**: Modern and contemporary art of the 20th and 21st centuries[3][6]
+- **Locations**: Multiple venues across Moscow, including:
+  - 25 Petrovka St. (main location)
+  - Ermolayevsky Pereulok
+  - Tverskoy Boulevard
+  - Gogolevsky Boulevard
+  - Bolshaya Gruzinskaya
+
+## Collection and Highlights
+
+The museum's core collection was originally drawn from Zurab Tsereteli's private collection, with a special emphasis on Russian avant-garde art[4]. It features an extensive collection of non-conformist art from the 1950-70s, showcasing works by artists like V. Nemukhin, E. Steinberg, V. Komar, and A. Melamid[4].
+
+## Additional Offerings
+
+- **Education**: The museum hosts the School of Modern Art ("Free Studios"), offering a two-year program with lectures and creative studio work[4]
+- **Research**: Maintains a research library with Russian and international art publications[4]
+- **Publishing**: Prioritizes educational publishing activities[4]
+
+In 2024, MMOMA will celebrate its 25th anniversary, continuing its mission of promoting contemporary art[1].
+
+Citations:
+[1] https://mmoma.ru
+[2] https://sarahmontani.com/metaverse-museum-mmoma
+[3] https://www.e-flux.com/directory/70387/moscow-museum-of-modern-art-mmoma/
+[4] https://en.wikipedia.org/wiki/Moscow_Museum_of_Modern_Art
+[5] https://www.tripadvisor.co.uk/ShowUserReviews-g298484-d2341895-r705236700-Moscow_Museum_of_Modern_Art-Moscow_Central_Russia.html
+[6] https://artpil.com/mmoma/
 
 (Rus. Московский музей современного искусства, est. 1999, Moscow) museum in Russia with activities exclusively on the the 20-th and 21-st centuries founded with the support of the Moscow City Government and Moscow City Department of Culture.
 
