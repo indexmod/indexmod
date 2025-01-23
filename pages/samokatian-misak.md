@@ -1,33 +1,11 @@
 ---
-title: 'Samokatian, Misak'
+title: Samokatian, Misak
 permalink: samokatian-misak
-layout: default
-givenname: Misak
-familyname: Samokatian
-published: true
-shortname: SAMOKATIAN
-originlang: Rus.
-originspell: Мисак Самоктьян
-othername: Мисак Минасян (Minasyan)
-appearing: Born
-birth: 1983
-city: Stanitsa Marianskaya (Russia)
-facebook: '1187'
-instagram: '1475'
-youtube: '0'
-vimeo: '128'
-twitter: '0'
-tumblr: '0'
-vkontakte: '0'
-venue: Erevan
-origin: an Russian/Armenian
-profession: visual artist student of Rodchenko School
-photo: Misak Samokatjan is posing for Plums Fest in 2013
-photographer: Nina Rasiuk
-source: Plums Fest
-photographerurl: rasiuk-nina
-sourceurl: http://plumsfest.ru/samokatyan/
-founder: 'of Synthposium'
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Co-founder of [Proun](proun-movement), also known as [Minasyan (Минасян)](minasyan-misak), curator in Synthposium festival <span id="a1">[\[2\]](#f1)</span>, a transcendental person who does not exist in the consciousness of being-for-itself, phenomenon of the phenomenon, existential emanation of self, ontological accident, escapist-technocrat, minimalist, nothingness structuralist, intelligent dadaist, scholastic saboteur, techno mannerist, catechist of the absurd. Misak living and working in Erevan.

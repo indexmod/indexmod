@@ -1,10 +1,9 @@
 ---
 title: Tehran Fashion Week
 permalink: tehran-fashion-week
-layout: ai 
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://cdn.i-scmp.com/sites/default/files/2015/08/14/799100be07a09b6a0a4e1bf4e5c953ec.jpg
 credits:
 ---

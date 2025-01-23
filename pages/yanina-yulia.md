@@ -1,10 +1,11 @@
 ---
 title: Yanina, Yulia
-date: 2025-01-10
-update:
-layout: ai
 permalink: yanina-yulia
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Yulia Yanina is a prominent Russian fashion designer and the founder of the Yanina Fashion House, a luxury brand known for its elegant couture. Born in Saratov, Russia, she established her fashion house in 1993, initially operating with a small team of four. Yanina's vision was to create high-quality, fashionable clothing that was lacking in the Russian market at that time[2][4].

@@ -1,9 +1,9 @@
 ---
 title: Stockolm Fashion Week
 permalink: stockolm-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://i0.wp.com/vintageclothingguides.com/wp-content/uploads/2024/09/stockholm_fashion_week_evolution.jpg?fit=1018%2C575&ssl=1&w=640
 credits:
 

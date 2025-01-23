@@ -1,9 +1,9 @@
 ---
 title: St. Petersburg Fashion Week
 permalink: st-petersburg-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwTjoyuveQ0mxT7N7kG5vw2Nl_urxx6gQUOg&s
 credits:
 ---

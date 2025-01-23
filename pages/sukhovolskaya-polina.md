@@ -1,9 +1,9 @@
 ---
 title: Sukhovolskaya, Polina
 permalink: sukhovolskaya-polina
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://iq-media.ru/system/widget_fields/field_attachments/001/736/331/large_80/%D0%9F%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%A1%D1%83%D1%85%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F.jpeg
 credits:
 

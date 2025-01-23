@@ -1,10 +1,9 @@
 ---
 title: Urban-a-Liana (2015)
 permalink: urban-a-liana-2015
-layout: ai
-date: 2018-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
 credits:
 ---

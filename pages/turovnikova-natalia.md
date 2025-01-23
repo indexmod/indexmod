@@ -1,9 +1,9 @@
 ---
 title: Turovnikova, Natalia
 permalink: turovnikova-natalia
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/cf242e33-986b-42fc-bfa0-416422d89297/220x330
 credits:
 ---

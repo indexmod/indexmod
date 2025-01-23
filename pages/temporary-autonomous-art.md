@@ -1,10 +1,9 @@
 ---
 title: Temporary Autonomous Art
 permalink: temporary-autonomous-art
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://www.taaexhibitions.org/images/TAA2023/TAA-autumn-2023-pre-flyer.png
 credits:
 

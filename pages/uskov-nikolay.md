@@ -1,9 +1,9 @@
 ---
 title: Uskov, Nikolay
 permalink: uskov-nikolay
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://cdn5.vedomosti.ru/image/2018/4g/x8qwt/original-172z.jpg
 credits:
 ---

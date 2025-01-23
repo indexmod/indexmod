@@ -1,9 +1,9 @@
 ---
 title: Sochi Fashion Week
 permalink: sochi-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://moda247.ru/wp-content/uploads/2022/04/sochi-fashion-week-04.jpg?v=1650737661
 credits:
 ---

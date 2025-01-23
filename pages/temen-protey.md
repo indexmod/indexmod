@@ -1,10 +1,9 @@
 ---
 title: Temen, Protey
 permalink: temen-protey
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://static.wixstatic.com/media/915b53_3cb88fdcbe99470db15c52c26b37a174~mv2.jpg/v1/fill/w_594,h_557,al_c,lg_1,q_80,enc_auto/915b53_3cb88fdcbe99470db15c52c26b37a174~mv2.jpg
 credits:
 ---

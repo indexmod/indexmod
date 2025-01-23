@@ -1,10 +1,9 @@
 ---
 title: Tallinn Fashion Week
 permalink: tallinn-fashion-week
-layout: default
-date: 2018-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://file.visittallinn.ee/sfc17d/detail-1-1-false-false-92948acda005f9cc21c4a210df4471f2.jpg
 credits:
 ---

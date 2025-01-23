@@ -1,10 +1,10 @@
 ---
 title: Yerevan Fashion Week
 permalink: yerevan-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://theglassmagazine.com/wp-content/uploads/2024/11/Yerevan-Fashion-Week-2024-Report.jpg
 ---
 

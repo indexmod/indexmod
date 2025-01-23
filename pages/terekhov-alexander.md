@@ -1,10 +1,11 @@
 ---
 title: Terekhov, Alexander
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
 permalink: terekhov-alexander
-image: 
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Alexander Terekhov is a prominent Russian fashion designer known for his elegant and feminine clothing. Born in 1980 in Vjazniki, Vladimir Oblast, he developed an early passion for fashion, creating outfits for dolls at a young age. He studied at the Moscow Institute of Fashion and Design, where he gained recognition for his collection "Twilight" during his studies, which earned him a second place at the All-Russian competition "Russian Silhouette" in 1999. This achievement led to an internship at Yves Saint Laurent in Paris[1][3].

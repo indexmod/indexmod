@@ -1,9 +1,10 @@
 ---
 title: Yeremkin, Denis
-date: 2025-01-10
-update:
-layout: ai
 permalink: yeremkin-denis
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://dszn.ru/uploads/editor/d8/c0/28293b749cc084b8f16a83ede0ebf036a13d8471.jpg
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Tregulova, Zelfira
 permalink: tregulova-zelfira
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://www.goldtrezzini.ru/wp-content/uploads/2018/07/%D0%A2%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D0%BE%D0%B2%D0%B0-1.jpg
 credits:
 ---

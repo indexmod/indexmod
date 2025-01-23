@@ -1,9 +1,9 @@
 ---
 title: Tom
 permalink: tom
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://torontolife.mblycdn.com/uploads/tl/2015/03/Mens-Fashion-Week-Runway-Shows-intro.jpg
 credits:
 ---

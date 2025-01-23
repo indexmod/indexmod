@@ -1,10 +1,9 @@
 ---
 title: Toronto Fashion Week
 permalink: toronto-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
-permalink:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://thebuzzmag.ca/wp-content/uploads/2018/02/TFW-Main.jpeg
 credits:
 ---

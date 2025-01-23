@@ -1,9 +1,9 @@
 ---
 title: Turbo Yulia
 permalink: turbo-yulia
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://assets.vogue.com/photos/59f3847c07f0220ed726afd7/master/w_1280%2Cc_limit/01-turbo-yulia.jpg
 credits:
 

@@ -1,9 +1,9 @@
 ---
 title: Shanghai Fashion Week
 permalink: shanghai-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://wwd.com/wp-content/uploads/2023/03/GettyImages-1250040206.jpg
 credits:
 ---

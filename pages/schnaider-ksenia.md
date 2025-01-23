@@ -1,9 +1,9 @@
 ---
 title: Schnaider, Ksenia
 permalink: schnaider-ksenia
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://assets.vogue.com/photos/5c895fea65c8fa2d0a921349/master/w_1600%2Cc_limit/03-ksenia-schnaider.jpg
 credits:
 ---

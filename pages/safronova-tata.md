@@ -1,10 +1,11 @@
 ---
 title: Safronova, Tata
-date: 2025-01-10
-update:
-layout: ai
 permalink: safronova-tata
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Tata Safronova is a designer based in Vologda, Russia, recognized for her work in fashion and design. She gained notable attention as the laureate of the International Fashion and Beauty Festival "Fashion Style 2023," where her collection "Grassbrand" secured third place[7][8].

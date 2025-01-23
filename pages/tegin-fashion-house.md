@@ -1,9 +1,9 @@
 ---
 title: Tegin Fashion House
 permalink: tegin-fashion-house
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://tegin.com/wa-data/public/site/crea5r.jpeg
 credits:
 ---

@@ -1,9 +1,9 @@
 ---
 title: Tamkovich-Friske, Ian
 permalink: tamkovich-friske-ian
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://iy.kommersant.ru/Issues.photo/WEEKEND/2024/033/KMO_121188_13011_1_t218_234234.webp
 credits:
 ---

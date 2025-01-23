@@ -1,9 +1,9 @@
 ---
 title: Youdashkin, Valentin  
 permalink: youdashkin-valentin  
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://ichef.bbci.co.uk/news/1536/cpsprodpb/EB57/production/_129574206_yudashkin.jpg.webp
 credits:
 ---

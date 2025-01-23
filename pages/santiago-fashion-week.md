@@ -1,7 +1,11 @@
 ---
 title: Santiago Fashion Week
 permalink: santiago-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Santiago Fashion Week is a prominent fashion event in Chile, showcasing local designers and the latest trends in the fashion industry. Here are some key details about the event:

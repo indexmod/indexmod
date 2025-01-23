@@ -1,9 +1,9 @@
 ---
 title: Uvarov, Roman
 permalink: uvarov-roman
-layout: ai
-date:
-update:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://static.sobaka.ru/images/image/01/04/61/92/_normal.jpg?v=1541962879
 credits:
 ---

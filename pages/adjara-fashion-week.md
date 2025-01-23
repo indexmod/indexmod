@@ -1,9 +1,9 @@
 ---
 title: Adjara Fashion Week
 permalink: adjara-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-23
 credits:
 image: http://ajaratv.ge/files/photos/Sainformacio/V-ACHARA%20FESHEN%20VIKI%20%20CHRA%203.xmp.mpg_20170724_180654.690.jpg
 ---

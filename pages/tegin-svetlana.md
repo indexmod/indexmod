@@ -1,11 +1,9 @@
 ---
 title: Tegin, Svetlana
 permalink: tegin-svetlana
-layout: default
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
-permalink:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://ashadedviewonfashion.com/wp-content/uploads/2018/06/Aglaya-Tarasova-with-Svetlana-Tegin.png
 credits:
 ---

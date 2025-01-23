@@ -1,7 +1,11 @@
 ---
 title: Yasnogorodsky, Vadim
 permalink: yasnogorodsky-vadim
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Vadim Yasnogorodsky is a multifaceted artist and creative professional. Born in Leningrad (now St. Petersburg), he currently resides in Munich, Germany, after having lived in various cities including West Berlin, London, Marseille, and Paris[3].

@@ -1,9 +1,9 @@
 ---
 title: Simonyan, Haik
 permalink: simonyan-haik
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://ru.hayazg.info/images/thumb/a/ac/%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D1%8F%D0%BD_%D0%93%D0%B0%D0%B9%D0%BA_%D0%9C%D1%83%D1%88%D0%B5%D0%B3%D0%BE%D0%B2%D0%B8%D1%87.jpg/200px-%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D1%8F%D0%BD_%D0%93%D0%B0%D0%B9%D0%BA_%D0%9C%D1%83%D1%88%D0%B5%D0%B3%D0%BE%D0%B2%D0%B8%D1%87.jpg
 credits:
 ---

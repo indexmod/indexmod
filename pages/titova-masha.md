@@ -1,9 +1,9 @@
 ---
 title: Titova, Masha
 permalink: titova-masha
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://storage.yandexcloud.net/moskvichmag/uploads/2020/04/cocos-1024x1024.jpg
 credits:
 ---

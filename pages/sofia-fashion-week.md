@@ -1,9 +1,9 @@
 ---
 title: Sofia Fashion Week
 permalink: sofia-fashion-week
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
 credits:
 ---

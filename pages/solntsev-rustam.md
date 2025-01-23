@@ -1,9 +1,9 @@
 ---
 title: Solntsev, Rustam
 permalink: solntsev-rustam
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://teleprogramma.org/sites/default/files/text-images/2023-01/glavnaya_1672852038_1672853708.png
 credits:
 ---
