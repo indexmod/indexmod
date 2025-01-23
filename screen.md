@@ -6,9 +6,9 @@ exclude: true
 ---
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бегущая строка</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Скринсейвер</title>
     <style>
         body {
             background: black;
@@ -18,30 +18,67 @@ exclude: true
             overflow: hidden;
             display: flex;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             width: 100vw;
         }
 
-        .marquee {
-            white-space: nowrap;
-            font-size: 300px;
+        .content-container {
+            font-size: 160px;
             font-weight: bold;
             text-transform: uppercase;
-            position: absolute;
-            left: 100vw;
-            animation: marquee 90s linear infinite;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        @keyframes marquee {
-            from { transform: translateX(0); }
-            to { transform: translateX(-200vw); }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
 <body>
-    <div class="marquee">
-        {% for page in site.pages %}
-            {{ page.title | upcase }} &nbsp;•&nbsp;
-        {% endfor %}
-    </div>
+    <div id="content" class="content-container">ЗАГРУЗКА...</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const contentContainer = document.getElementById("content");
+            let tokens = [
+                {% for page in site.pages %}
+                    {% assign words = page.title | replace: ',', '' | replace: '.', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' | replace: '–', '' | replace: '_', '' | replace: '/', '' | replace: '&', '' | strip | split: " " %}
+                    {% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,3 | upcase %}
+
+                    {% for word in words offset:1 %}
+                        {% assign clean_word = word | replace: '[^a-zA-Z]', '' %}
+                        {% assign letter = clean_word | slice: 0,1 | upcase %}
+                        {% assign token = token | append: letter %}
+                    {% endfor %}
+
+                    "{{ token | strip }}",
+                {% endfor %}
+            ];
+
+            let currentIndex = 0;
+
+            function showNextToken() {
+                if (tokens.length > 0) {
+                    contentContainer.innerHTML = tokens[currentIndex];
+                    contentContainer.classList.add("fade-in");
+
+                    setTimeout(() => contentContainer.classList.remove("fade-in"), 1000);
+
+                    currentIndex = (currentIndex + 1) % tokens.length;
+                }
+            }
+
+            showNextToken();
+            setInterval(showNextToken, 5000);
+        });
+    </script>
 </body>
