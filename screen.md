@@ -5,56 +5,43 @@ permalink: screen
 exclude: true
 ---
 
-<!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бегущая строка</title>
     <style>
-        @font-face {
-            font-family: 'Helvetica';
-            src: local('Helvetica'), url('/fonts/Helvetica.woff2') format('woff2');
-        }
-
         body {
             background: black;
             color: white;
-            font-family: 'Helvetica', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
+            overflow: hidden;
             display: flex;
-            justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden;
+            width: 100vw;
         }
 
         .marquee {
             white-space: nowrap;
-            overflow: hidden;
-            width: 100%;
+            font-size: 300px;
+            font-weight: bold;
+            text-transform: uppercase;
             position: absolute;
-        }
-
-        .marquee span {
-            display: inline-block;
-            padding-left: 100%;
-            animation: marquee 20s linear infinite;
+            left: 100vw;
+            animation: marquee 90s linear infinite;
         }
 
         @keyframes marquee {
-            from { transform: translateX(100%); }
-            to { transform: translateX(-100%); }
+            from { transform: translateX(0); }
+            to { transform: translateX(-200vw); }
         }
     </style>
 </head>
 <body>
     <div class="marquee">
-        <span>
-            {% for page in site.pages %}
-                {{ page.content | strip_html | truncatewords: 50 }} &nbsp;•&nbsp;
-            {% endfor %}
-        </span>
+        {% for page in site.pages %}
+            {{ page.title | upcase }} &nbsp;•&nbsp;
+        {% endfor %}
     </div>
 </body>
-</html>
