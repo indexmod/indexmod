@@ -1,34 +1,11 @@
 ---
 title: Curiosity Index
 permalink: curiosity-index-2014
-layout: ai
-originlang: Rus.
-originspell: Индекс любопытства
-appearing: Made
-city: Moscow
-birth: 2014
-givenname: Curiosity Index
-familyname:
-othername:
-venue: Electromuseum
-founder: Varenye Organizm
-origin: an interactive
-profession: installation by Varenye Organizm
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: CURIOSITY
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 An interactive installation by Varenye Organizm
@@ -42,7 +19,3 @@ A socket, which is not worth poking your fingers, a transformer booth, which is 
 + [Antimuseum](index)
 + [Electromuseum](index)
 + [Dancing in St. Petersburg (2015)](index)
-
-## Footnotes
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)

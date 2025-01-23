@@ -1,7 +1,11 @@
 ---
 title: Himalayan Times TGIF Nepal Fashion Week, The
 permalink: himalayan-times-tgif-nepal-fashion-week-the
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 The Himalayan Times TGIF Nepal Fashion Week is a prominent fashion event held annually in Kathmandu, Nepal. This event showcases the latest trends and designs from both local and international designers, contributing significantly to the fashion landscape of the region.

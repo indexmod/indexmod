@@ -1,12 +1,11 @@
 ---
 title: Bordoque, Vladimir
 permalink: bordoque-vladimir
-layout: ai
+layout: crypto
 date: 2010-01-10
 update: 2025-01-18
 image: https://st.peopletalk.ru/wp-content/uploads/2016/08/Dusya-Maksimova-i-Vladimir-Bordok.jpg
 credits:
-exclude: true
 ---
 
 

@@ -1,7 +1,11 @@
 ---
 title: Nuriev, Harry
 permalink: harry-nuriev
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Harry Nuriev is a prominent architect, artist, and furniture designer, recognized for his innovative contributions to the fields of interior architecture and design. Born in 1984 in Russia, he graduated from the Moscow Architectural Institute before establishing himself in the global design scene.

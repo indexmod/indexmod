@@ -1,9 +1,11 @@
 ---
 title: Konovalova, Daria
 permalink: konovalova-daria
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 image: https://media.tatler.ru/photos/619784e79262d483c9580887/16:9/w_2560%2Cc_limit/image-03-02-20-03-04-2-ok-4.jpg
 ---
 

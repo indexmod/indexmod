@@ -1,7 +1,7 @@
 ---
 title: Chile Fashion Week
 permalink: chile-fashion-week
-layout: ai
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
 image: https://images.lifestyleasia.com/wp-content/uploads/sites/7/2024/05/21000720/chile-806x459.jpg

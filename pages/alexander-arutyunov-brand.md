@@ -1,7 +1,11 @@
 ---
 title: Alexander Arutyunov (brand)
 permalink: alexander-arutyunov-brand
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Alexander Arutyunov is a luxury fashion brand founded in 2008 by designer Alexander Arutyunov, based in Moscow, Russia. The brand is known for its innovative designs that blend traditional national features with contemporary fashion elements. Arutyunov's collections often incorporate a mix of materials such as silk, leather, and metallic threads, showcasing decorative patterns, hand embroidery, and sophisticated proportions[2][5].

@@ -2,7 +2,7 @@
 title: Chekrygin, Nikita
 date: 2025-01-10
 update:
-layout: ai
+layout: crypto
 permalink: chekrygin-nikita
 image: https://cdn.forbes.ru/forbes-static/1040x669/new/2022/04/Nikita-Cekrygin-6262d64dcb339.jpeg
 ---

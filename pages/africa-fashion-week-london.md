@@ -1,10 +1,14 @@
 ---
 title: Africa Fashion Week London
 permalink: africa-fashion-week-london
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
-Africa Fashion Week London (AFWL) is Europe's largest annual African fashion event, founded in 2011 by Queen Ronke Ademiluyi-Ogunwusi[3]. 
+Africa Fashion Week London (AFWL) is Europe's largest annual African fashion event, founded in 2011 by Queen Ronke Ademiluyi-Ogunwusi[3].
 
 ## Event Details
 The 14th edition of AFWL will take place on **11th and 12th October 2024** at the Kensington and Chelsea Conference Event Centre in London[1][2]. The event is part of Black History Month 2024 and promises an exciting showcase of African fashion and culture.

@@ -1,9 +1,10 @@
 ---
 title: Levadnaja Details
 permalink: levadnaja-details
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://levadnajadetails.com/thumb/2/c2IzsXfocrgB33YsdYpFgQ/r/d/400a0190aw.jpg
 ---
 

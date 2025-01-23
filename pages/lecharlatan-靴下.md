@@ -1,9 +1,10 @@
 ---
 title: Lecharlatan (衣料品ブランドです)
 permalink: lecharlatan-衣料品ブランドです
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f26d89dc-b6b6-5644-89fe-54358d95c32b/33dff60c-8cb1-5372-87da-fd638fef9f06.jpg
 ---
 

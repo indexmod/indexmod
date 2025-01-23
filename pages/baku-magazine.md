@@ -1,7 +1,11 @@
 ---
 title: Baku (magazine)
 permalink: baku-magazine
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Baku Magazine, launched by Leyla Aliyeva in collaboration with Condé Nast, focuses on **art, culture, conservation, and travel** in Azerbaijan. As of 2025, it continues to highlight the rich cultural tapestry and modern developments within the country. The magazine aims to promote Azerbaijan's heritage and contemporary achievements, making it a notable publication for both locals and international audiences interested in the region[1][5].

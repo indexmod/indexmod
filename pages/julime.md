@@ -1,10 +1,11 @@
 ---
 title: Julime
-date: 2025-01-10
-update:
-layout: crypto
 permalink: julime
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 

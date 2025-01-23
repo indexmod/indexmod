@@ -1,7 +1,11 @@
 ---
 title: Alena Akhmadullina (brand)
 permalink: alena-akhmadullina
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Alena Akhmadullina is a prominent Russian fashion brand founded in 2001 by designer Alena Akhmadullina in St. Petersburg. The brand quickly gained recognition for its unique blend of Russian fairy-tale inspirations and modern fashion sensibilities, aiming to bring a sense of magic to the everyday lives of women.

@@ -1,7 +1,7 @@
 ---
 title: Cheboksary knitwear (brand)
 permalink: cheboksary-knitwear-brand
-layout: ai
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
 image:

@@ -1,7 +1,11 @@
 ---
 title: Bucharest Fashion Week
 permalink: bucharest-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Mercedes-Benz Bucharest Fashion Week is Romania's first major international fashion event, which took place from October 15-18, 2024. The event was launched by ELLE Romania Editor in Chief Roxana Voloseniuc, who had been preparing the fashion week for over 24 years[1].

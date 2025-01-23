@@ -1,9 +1,9 @@
 ---
 title: Kazakhstan Fashion Week Astana
 permalink: kazakhstan-fashion-week-astana
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://images.vogue.it/wp-content/uploads/2017/12/04115052/astana-534x800.jpg
 credits:
 ---

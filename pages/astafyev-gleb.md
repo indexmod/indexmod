@@ -1,7 +1,11 @@
 ---
 title: Astafyev, Gleb
 permalink: astafyev-gleb
-givenname: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Gleb Astafyev is a notable figure in contemporary Russian art and activism, particularly known for his bold actions in support of free expression and against political repression. Born in 2000, he gained attention at the age of 16 when he staged a solitary picket in Kurgan, Russia, to support the dissident artist Pyotr Pavlensky, who was facing legal issues for his provocative performances. Astafyev's demonstration involved sewing his mouth shut and holding a placard, which led to his arrest and subsequent confinement in a psychiatric hospital for 15 days[1][2].

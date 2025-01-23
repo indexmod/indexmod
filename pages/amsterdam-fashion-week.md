@@ -1,7 +1,11 @@
 ---
 title: Amsterdam Fashion Week
 permalink: amsterdam-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Amsterdam Fashion Week (AFW) is a prominent biannual fashion event held in Amsterdam, Netherlands, showcasing both established and emerging designers. The event has evolved significantly since its inception in 2004, focusing on promoting Dutch fashion talent while also embracing sustainability and inclusivity.

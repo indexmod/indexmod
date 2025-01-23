@@ -1,7 +1,11 @@
 ---
 title: Батлер, Джон (режиссёр)
 permalink: butler-john-director
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 John Butler - это видео-артист, работающий с виртуальной реальностью[4]. Он сотрудничает с Crate Studio в Маргейте для создания инсталляции виртуальной реальности для предстоящей выставки.

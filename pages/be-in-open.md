@@ -1,7 +1,11 @@
 ---
 title: Be In Open
 permalink: be-in-open
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Be In Open is a significant event in the fashion industry, organized as a forum that brings together professionals to discuss and explore various aspects of the fashion market. The most recent iteration, the Beinopen Forum 2023, took place on December 1-2, 2023, at the Хлебозавод (Bread Factory) in Moscow. This event featured lectures from industry practitioners, case studies from business club members, and workshops focusing on branding, production, marketing, and sales challenges in the fashion sector[4][6].

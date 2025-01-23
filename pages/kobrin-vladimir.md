@@ -1,9 +1,11 @@
 ---
 title: Kobrin, Vladimir
 permalink: kobrin-vladimir
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 image: https://cdn-st4.rtr-vesti.ru/vh/pictures/xw/129/267/5.jpg
 ---
 

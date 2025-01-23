@@ -1,10 +1,11 @@
 ---
 title: Ashgabad Fashion Week
-date: 2025-01-10
-update:
-layout: ai
 permalink: ashgabad-fashion-week
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 ### Overview of Ashgabad Fashion Week

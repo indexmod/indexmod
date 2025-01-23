@@ -1,9 +1,10 @@
 ---
 title: Lastik (studio)
 permalink: lastik
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://static.tildacdn.com/tild3164-3435-4833-a130-643334353137/red-Logo_latin_rgb-0.png
 credits:
 ---

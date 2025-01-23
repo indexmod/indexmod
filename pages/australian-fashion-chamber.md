@@ -1,7 +1,11 @@
 ---
 title: Australian Fashion Chamber
 permalink: australian-fashion-chamber
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 The **Australian Fashion Chamber (AFC)** is a pivotal organization dedicated to supporting and promoting the Australian fashion and textile industry. Established in July 2014, it serves as a representative body for designers and fashion professionals across the nation. The AFC aims to nurture local talent, enhance business opportunities, and facilitate international success for Australian designers.

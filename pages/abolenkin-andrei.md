@@ -1,7 +1,11 @@
 ---
 title: Abolenkin, Andrei
 permalink: abolenkin-andrei
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Andrei Abolenkin is a prominent Russian fashion analyst and industry expert. He has been active in the fashion industry since the early 1990s, focusing on the development and promotion of Russian designer fashion[2]. Abolenkin is known for his work as an art director for the first boutique of Russian designers and currently collaborates with Russian fashion houses and consults major retailers[4].

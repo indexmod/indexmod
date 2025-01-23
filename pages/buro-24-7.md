@@ -1,7 +1,11 @@
 ---
 title: Buro 24/7
 permalink: buro-24-7
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 BURO. is an independent online media platform focused on fashion, beauty, culture, and society. Founded in 2011, it has grown into an international media company with online editions in 11 countries across four continents[2].

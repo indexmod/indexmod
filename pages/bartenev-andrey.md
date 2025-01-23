@@ -1,7 +1,11 @@
 ---
 title: Bartenev, Andrey
 permalink: bartenev-andrey
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Andrey Bartenev is a prominent Russian artist, sculptor, and experimentalist, known for his provocative and interactive installations and performances. Born on October 9, 1965, in Norilsk, Russia, he has established a diverse career that spans various artistic disciplines, including theater design and curatorial work.

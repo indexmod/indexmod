@@ -1,34 +1,11 @@
 ---
 title: E-Soap
 permalink: e-soap
-layout: default
-originlang: Rus.
-originspell: И-соп
-appearing: Est.
-city: Moscow
-birth: 2016
-givenname: E-Soap
-familyname:
-othername: Цифровое мыло
-venue: Internet Yami-Ichi
-founder: Veroid
-origin: a Russian
-profession: handmade soap by Veroid created for the Internet Yami-Ichi, with signs of Internet as “#”, “@”, “4G”, “Wi-Fi”, made of natural ingredients, flavored aroma oils
-photo: E-Soap selection
-photographer: Veronica Idelson
-source: Facebook
-photographerurl: https://www.facebook.com/search/top/?q=%D1%8F%D0%BC%D0%B8%20%D0%B8%D1%87%D0%B8%20
-sourceurl: https://www.facebook.com/search/top/?q=%D1%8F%D0%BC%D0%B8%20%D0%B8%D1%87%D0%B8%20
-shortname: ESOAP
-facebook: 40
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 ## Conspectus

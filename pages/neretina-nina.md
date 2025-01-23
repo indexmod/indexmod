@@ -1,8 +1,13 @@
 ---
 title: Neretina, Nina
 permalink: neretina-nina
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
+
 Nina Neretina is a Russian fashion designer and artist born in 1967 near Voronezh, Russia[1][6]. She is best known as one half of the design duo Nina Donis, which she co-founded with Donis Poupis in 2000[1][2].
 
 ## Early Career and Education

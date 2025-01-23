@@ -1,7 +1,11 @@
 ---
 title: Archive (store)
 permalink: archive-store
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Visiting the Archive Store is an experience that appeals even to those who may not typically appreciate vintage furniture. The store predominantly features **modern designer furniture**, with a limited selection of antique items, mainly lamps and accessories. While the prices may be on the higher side, the pieces are curated with care, offering unique and rare finds that are personally selected by the owners, **Anastasia Palionova** and **Mikhail Kiselev**.

@@ -1,7 +1,11 @@
 ---
 title: Alberta Fashion Week
 permalink: alberta-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Alberta Fashion Week is part of the broader Western Canada Fashion Week (WCFW), which showcases local, Canadian, and international designers through a series of runway shows and events. These events are designed to support both established and emerging designers, creating a platform for creativity and cultural exchange in the fashion industry.

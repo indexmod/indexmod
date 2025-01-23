@@ -1,9 +1,9 @@
 ---
 title: Lablaco
 permalink: lablaco
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://www.renewablematter.eu/themes/simple/images_content/MR29-30/SU/SU4.jpg
 credits:
 ---

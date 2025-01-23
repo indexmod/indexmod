@@ -1,53 +1,51 @@
 ---
 title: New Delhi
 permalink: new-delhi
-layout: default
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: NDELHI
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image: https://wwd.com/wp-content/uploads/2021/03/FDCI-Rainbow-Show-SS-2019.jpeg
+credits:
 ---
 
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+Delhi International Fashion Week (DIFW) is an upcoming fashion event with multiple editions planned in 2025 and 2024. Here are the key details:
 
-**Image caption**
+**Upcoming Events**
+- **DIFW FW24 (Fall/Winter)**: 26 - 29 September 2024, Taj Hotel, New Delhi[1]
+- **DIFW - Kolkata Edition**: Scheduled for June 2024[1]
+- **DIFW - Bangalore Edition**: Planned for July 2024[1]
+- **DIFW Spring/Summer 2025**: 8 - 10 March 2025, Radisson Blu, New Delhi[1]
 
-*Photo: [Not specified](index) / [Source](index)*
+**Unique Features**
+DIFW focuses on sustainable and ethical fashion, with a dedicated **Circular Fashion Award** that highlights key sustainability principles such as:
+- Ethical sourcing of materials
+- Zero waste design
+- Upcycling and recycling
+- Slow fashion
+- Sustainable accessories
+- Carbon neutrality
+- Eco-collaborations
+- Consumer awareness
+- Industry advocacy[1]
 
-## Сonspectus
+**International Representation**
+The event features designers and models from multiple countries, including:
+- Russia
+- Egypt
+- USA
+- Dubai
+- France
+- Turkey
+- Vietnam[1]
 
-|Year|City|
-|-|-|
-|2017|Moscow <span id="a2">[\[2\]](#f2)</span>|
+The event is powered by Sanjay Kannan Fashion Entertainment Pvt Ltd and aims to celebrate diversity, creativity, and innovative fashion trends.
 
-## See also
-
-+ [About](index)
-+ [More](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [(Wikipedia)](index)
+Citations:
+[1] https://difw.in
+[2] https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdifwofficial%2F
+[3] https://www.instagram.com/delhirunwayweek/
+[4] https://www.instagram.com/dtfwindia/
+[5] https://www.instagram.com/designer.fashion.week/reel/DDrnybtP2Zo/
+[6] https://www.gettyimages.co.uk/photos/the-delhi-fashion-week
+[7] https://www.instagram.com/designer.fashion.week/reel/DBNarkIiGqw/
+[8] https://www.instagram.com/designer.fashion.week/reel/DD3Z1YlPP4R/

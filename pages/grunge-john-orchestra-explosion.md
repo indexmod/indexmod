@@ -1,36 +1,38 @@
 ---
 title: Grunge John Orchestra. Explosion
 permalink: grunge-john-orchestra-explosion
-layout: default
-originlang: Rus.
-originspell: Гранж Джон Оркестра. Эксплоужн
-appearing: Est.
-city: Moscow
-birth: 2009
-givenname: Grunge John Orchestra
-familyname:
-othername: Grunge John. Made somewhere in Moscow. GJO.E
-venue: A flagmanship store at Nikitski Bulvar in Moscow
-founder: Igor Isaev, Ilia Nafeev
-origin: a Russian
-profession: hi-end urban fashion brand based in Moscow
-photo: Tesla Live by Nikita Zabelin during GJO.E Decade at Club 1930 in 2019 in Moscow
-photographer: Gia Abramishvili
-source: Facebook.com
-photographerurl: https://www.facebook.com/giaabramishvili
-sourceurl: https://www.facebook.com/giaabramishvili
-shortname: GJO.E
-facebook: 15056
-instagram: 26600
-youtube: 16133
-vimeo: 2
-twitter: 65
-tumblr: 0
-vkontakte: 9132
-soundcloud: 48
-pinterest: 4
-weibo: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
+
+Grunge John Orchestra. Explosion is a **contemporary urban clothing brand** founded in Moscow in 2009. The brand specializes in producing high-quality, functional clothing that combines innovative technologies and modern design[1][3][8].
+
+## Key Characteristics
+- **Founded**: 2009 in Moscow, Russia
+- **Specialty**: Hi-end performance clothing
+- **Product Range**: Men's and women's pieces, including insulated jackets and stylish urban wear[4][7]
+- **Design Philosophy**: Focuses on practical, durable materials and technological cut[1][8]
+
+## Brand Highlights
+- Known for creating clothing inspired by the rhythm of the city
+- Uses modern, high-quality materials in their collections
+- Has a flagship store located on Nikitsky Boulevard in Moscow[6]
+- Approaching its tenth anniversary as of 2015, with recognition for its quality everyday clothing[1]
+
+The brand has a strong social media presence, with active accounts on platforms like Instagram, Facebook, and VKontakte, where they share new drops and special offers for their loyal customers[2][3][5][6].
+
+Citations:
+[1] https://grungejohn.com/brand/
+[2] https://www.grungejohn.com
+[3] https://vk.com/grungejohn
+[4] https://www.instagram.com/gjo_e/
+[5] https://www.facebook.com/GRUNGEJOHN/?locale=en_GB
+[6] https://www.instagram.com/gjo_e/?locale=en_GB%2Cen_GB&hl=am-et
+[7] https://www.facebook.com/2201943726483974
+[8] https://m.aviapark.com/en/grunge-john-orchestra-explosion
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 

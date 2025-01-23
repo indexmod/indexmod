@@ -1,7 +1,11 @@
 ---
 title: Blueprint, The
 permalink: blueprint-the
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 The Blueprint is a leading Russian lifestyle publication and independent online media outlet focusing on fashion, beauty, and contemporary culture[3]. It has established itself as a prominent new-age media source in Russia over the past decade[3].

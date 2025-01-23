@@ -1,7 +1,11 @@
 ---
 title: Art Newspaper, The
 permalink: art-newspaper-the
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 The Art Newspaper Russia has recently highlighted significant events and developments in the Russian art scene. Here are the key updates:
 

@@ -1,9 +1,9 @@
 ---
 title: London Pacific Fashion Week
 permalink: london-pacific-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://c8.alamy.com/comp/WW9R8P/london-uk-13th-sep-2019-london-pacific-fashion-week-2019-showcases-it-lastest-collection-to-fights-climate-change-with-materials-from-tree-plant-and-leaves-at-royal-horseguards-hotel-on-13-september-2019-london-uk-credit-picture-capitalalamy-live-news-WW9R8P.jpg
 credits:
 ---

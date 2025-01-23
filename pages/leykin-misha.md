@@ -1,9 +1,10 @@
 ---
 title: Leykin, Misha
 permalink: leykin-misha
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://storage.yandexcloud.net/moskvichmag/uploads/2018/07/%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8%D0%BDS.jpg
 ---
 

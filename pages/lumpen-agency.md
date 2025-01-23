@@ -1,9 +1,9 @@
 ---
 title: Lumpen (agency)
 permalink: lumpen-agency
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://metro.co.uk/wp-content/uploads/2015/06/ad_172745656.jpg?quality=80&strip=all
 credits:
 ---

@@ -1,9 +1,10 @@
 ---
 title: Ким Ё Чен
 permalink: kim-yo-jong
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://cdnn21.img.ria.ru/images/07e4/08/15/1576083623_311:0:2359:2048_1280x0_80_0_0_399d09c3f1f8970c04985b9d33906c17.jpg
 ---
 

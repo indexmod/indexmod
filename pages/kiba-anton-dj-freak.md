@@ -1,9 +1,10 @@
 ---
 title: Kiba, Anton (DJ Freak)
 permalink: kiba-anton-dj-freak
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://i1.sndcdn.com/artworks-000011539421-xl3d0i-t500x500.jpg
 ---
 

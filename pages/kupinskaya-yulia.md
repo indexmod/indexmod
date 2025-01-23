@@ -1,10 +1,11 @@
 ---
 title: Kupinskaya, Yulia
-date: 2025-01-10
-update:
-layout: ai
 permalink: kupinskaya-yulia
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Yulia Kupinskaya is a Russian fashion designer known for her unique approach to design, focusing on natural fabrics and leather accessories. She studied clothing design at the Laboratory of Fashion under Vyacheslav Zaitsev and industrial design at the Moscow State Academic Art Institute named after S.G. Stroganov.

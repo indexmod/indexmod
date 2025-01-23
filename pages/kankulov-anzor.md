@@ -1,9 +1,9 @@
 ---
 title: Kankulov, Anzor
 permalink: kankulov-anzor
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://theblueprint.ru/upload/23982/social_image@2x.jpg
 credits:
 ---

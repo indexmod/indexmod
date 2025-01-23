@@ -1,7 +1,11 @@
 ---
 title: Non-barbarian guide to English
 permalink: non-barbarian-guide-to-english
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Non-barbarian guide to English - это современный курс английского языка, ориентированный на занятых людей с ограниченным временем[5][7]. Курс предлагает следующие особенности:

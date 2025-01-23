@@ -1,9 +1,10 @@
 ---
 title: Lomakin, Artur (designer)
 permalink: lomakin-artur-designer
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://cms.showstudio.com/images/rjhJDu8lSpvFxf6h9NxLzCJy-xE=/130214/width-1280/contributors_1925.jpg
 ---
 

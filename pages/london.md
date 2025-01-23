@@ -1,10 +1,10 @@
 ---
 title: London
 permalink: london
-exclude: true
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://hips.hearstapps.com/hmg-prod/images/gettyimages-1206958270.jpg
 ---
 

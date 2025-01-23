@@ -1,30 +1,11 @@
 ---
 title: Adelaide Fashion Festival  
 permalink: adelaide-fashion-festival  
-layout: default  
-originlang: Eng.  
-originspell: Adelaide Fashion Festival  
-appearing: Est.  
-city: Adelaide  
-birth: 2013  
-givenname: Adelaide Fashion Festival  
-othername: AFF  
-venue: Norwood, Payneham, and St Peters  
-founder: Government of South Australia  
-origin: a national  
-profession: fashion event in Australia  
-photo: Marie Totsikas, Stavroula Mountzouris, and Julie White at the AFF opening night at Government House  
-photographer: PerthNow  
-source: The Sunday Times  
-photographerurl: perthnow  
-sourceurl: https://www.perthnow.com.au/entertainment/confidential/gallery-fashion-fest-takes-adelaide-ng-60a65860e5142597fa09d257aafd08db  
-shortname: ADELAIDE  
-facebook: 14231  
-instagram: 28200  
-youtube: 261  
-vimeo: 0  
-twitter: 1888  
-
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Fashion event in Australia, nurtured by the City of Norwood, Payneham, and St Peters, the festival was elevated onto the international stage in 2015 under the ownership of the South Australian Government and management of Events South Australia, the state’s major events arm <span id="a2">[\[3, 4, 5, 6\]](#f2)</span>.

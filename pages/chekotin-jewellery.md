@@ -1,7 +1,7 @@
 ---
 title: Chekotin Jewellery
 permalink: chekotin-jewellery
-layout: ai
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
 image: https://chekotin.com/upload/resize_cache/iblock/203/422_422_2/wygmrrczefwhglfehfq9ykwqbcgdgph8.png

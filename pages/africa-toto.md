@@ -1,6 +1,11 @@
 ---
-Title: Africa (Toto)
-Permalink: africa-toto
+title: Africa (Toto)
+permalink: africa-toto
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Песня "Africa", выпущенная в 1982 году как десятый трек на альбоме *Toto IV*, стала культовым произведением благодаря своему уникальному сочетанию музыкальных стилей, текстов и культурных влияний.

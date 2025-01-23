@@ -1,7 +1,11 @@
 ---
 title: Galdanova, Agniia
 permalink: galdanova-agniia
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Agniia Galdanova is an award-winning documentary film director and writer born in Saint Petersburg, Russia, in 1987[3]. She is known for her immersive storytelling and deep exploration of complex human relationships through observational language[1][2].

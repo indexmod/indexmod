@@ -1,7 +1,11 @@
 ---
 title: Botswana Fashion Weekend
 permalink: botswana-fashion-weekend
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Botswana's Batho Fashion Week, the country's only fashion week, has become a significant event aimed at promoting fashion tourism and diversifying the economy. The second edition took place from August 10 to 13, 2023, in Kasane, a popular tourist destination at the crossroads of Botswana, Namibia, Zimbabwe, and Zambia. This year's event showcased a vibrant mix of local and international talent, featuring 16 designers—10 from Botswana and 6 from countries including the USA, Namibia, Mozambique, South Africa, and Kenya[1][2].

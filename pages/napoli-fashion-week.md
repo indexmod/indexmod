@@ -1,67 +1,26 @@
 ---
 title: Napoli Fashion Week
 permalink: napoli-fashion-week
-layout: default
-exclude: true
-originlang: Rus. / Eng.
-originspell: Original spell
-appearing: Updated / Est. / Born
-city: Moscow
-birth: 2018
-givenname: Given name
-familyname: Family name
-othername: Other name
-venue: Red Square
-founder: Founder
-origin: a / an Russian
-profession: writer based in Europe
-photo: This is sample for image caption
-photographer: Photographer
-source: Source
-photographerurl: index
-sourceurl: index
-shortname: NAPOLI  
-facebook: 0
-instagram: 0
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image: https://www.napolike.it/wp-content/uploads/2022/10/napoli-fashion-week-e1666253093713.jpg
+credits:
 ---
 
+There are two distinct Fashion Weeks associated with Naples:
 
-![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
+**Naples, Florida (USA)**
+Naples Fashion Week is a luxury fashion event celebrating fashion, art, and design. The upcoming Fall/Winter 2025 edition is scheduled for March 30th - April 5th[2].
 
-**Image caption**
+**Naples, Italy**
+Napoli Fashion Week (NFW) promotes the beauty of Naples both locally and internationally. The event has multiple editions, with promotional activities happening in December and May[3][4]. The event has previously attracted significant attention, with one source noting a "grande successo" (great success) for the fashion week[5].
 
-*Photo: [Not specified](index) / [Source](index)*
+Both events aim to showcase fashion and design, though they occur in different locations and have distinct characteristics. The Florida event seems more focused on luxury fashion shows and curated experiences, while the Italian event appears to have a broader cultural promotion goal.
 
-## Сonspectus
-
-|Year|City|
-|-|-|
-|2017|Moscow <span id="a2">[\[2\]](#f2)</span>|
-
-## See also
-
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [{{page.title}} (Wikipedia)](index)
-
-[[2]](#a2) <span id="f2"></span> [{{page.title}} (Source name)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[3]](#a3) <span id="f3"></span> [{{page.title}} (Facebook)](index)
-
-[[4]](#a4) <span id="f4"></span> [{{page.title}} (Instagram)](index)
-
-[[5]](#a5) <span id="f5"></span> [{{page.title}} (YouTube)](index)
-
-[[6]](#a6) <span id="f6"></span> [{{page.title}} (Twitter)](index)
+Citations:
+[1] https://www.naplesfashionweek.com
+[2] https://www.instagram.com/thenaplesfashionweek/
+[3] https://www.instagram.com/fashionweeknapoli/
+[4] https://www.facebook.com/FashionWeekNapoliArt/
+[5] https://www.facebook.com/ilmattino.it/videos/napoli-grande-successo-per-la-fashion-week/466054219153135/

@@ -1,9 +1,10 @@
 ---
 title: Moscovite, La
 permalink: moscovite-la
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://storage.yandexcloud.net/moskvichmag/uploads/2018/11/IMG_7165_2.jpg
 ---
 

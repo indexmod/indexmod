@@ -1,10 +1,11 @@
 ---
 title: Chapurin, Igor
-date: 2025-01-10
-update:
-layout: ai
 permalink: chapurin-igor
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Igor Vyacheslavovich Chapurin, born on March 21, 1968, in Velikiye Luki, Russia, is a prominent Russian fashion designer and the founder of the fashion house Chapurin. He is recognized for his contributions to both haute couture and pret-a-porter collections and is often referred to as a leading figure in contemporary Russian fashion, sometimes likened to "the Russian Armani" [2][4].

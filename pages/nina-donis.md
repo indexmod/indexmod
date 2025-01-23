@@ -1,10 +1,11 @@
 ---
 title: Nina Donis
-date: 2025-01-12
-update: 2025-01-14
-layout: ai
 permalink: nina-donis
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Nina Donis is an **independent Russian fashion brand** founded in 2000 by Nina Neretina and Donis Pupis[5]. The brand has been recognized for its innovative design, with the founders being included in iD magazine's list of most influential fashion designers[5].

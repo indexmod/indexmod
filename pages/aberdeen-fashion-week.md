@@ -1,7 +1,11 @@
 ---
 title: Aberdeen Fashion Week
 permalink: aberdeen-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 **Aberdeen Fashion Week (AFW)** is a prominent annual event established in **2013** in Aberdeen, Scotland. Founded by **Lydia Cutler**, it has become a celebrated platform for designers, particularly recognized as the **world’s only fashion event exclusively promoting Kids Wear collections**. AFW highlights the creative spirit of the UK while attracting international talent and audiences.

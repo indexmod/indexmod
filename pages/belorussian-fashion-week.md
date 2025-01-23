@@ -1,7 +1,11 @@
 ---
 title: Belorussian Fashion Week
 permalink: belorussian-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Belarus Fashion Week (BFW) is an **international professional event** focused on promoting designer clothing in Belarus. Founded in the fall of 2010, the fashion week has several key objectives[2][3]:

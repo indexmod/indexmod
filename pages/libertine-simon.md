@@ -1,9 +1,10 @@
 ---
 title: Libertine, Simon
 permalink: libertine-simon
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://the-edit-prod.s3.amazonaws.com/wp-content/uploads/2019/09/20182739/Edited-190729_Shoemacher_Libertine_Shot4_0394-copy.jpg
 ---
 

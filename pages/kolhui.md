@@ -1,10 +1,11 @@
 ---
 title: Kolhui
 permalink: kolhui
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Kolhui (Rus. Колхуи, колдовские художники) is an art collective based in St. Petersburg, Russia, known for its unique and eclectic approach to contemporary art. The group, often referred to as the "Sorcery Artists," emphasizes originality and creativity among its members, each of whom develops distinct styles and genres. For instance, Nikolai Kopeikin is noted for his fervent cartoon realism, while Andrei Kagadeev focuses on creating evil characters and morbid imagery[2][3].

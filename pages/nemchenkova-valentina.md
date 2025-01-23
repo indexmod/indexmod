@@ -1,7 +1,11 @@
 ---
 title: Nemchenkova, Valentina
 permalink: nemchenkova-valentina
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Valentina Nemchenkova is a multifaceted Russian artist, known for her work as a model, DJ, and musician[1][6]. She performs as a DJ under the alias Santa Valentina, gaining recognition for her eclectic and unpredictable music sets that blend various genres including Italo edits, house, dark electro, and trance[1].

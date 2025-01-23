@@ -1,9 +1,9 @@
 ---
 title: AES+F  
 permalink: aes+f  
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-23
 image:
 credits:
 ---

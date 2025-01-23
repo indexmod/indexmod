@@ -1,7 +1,11 @@
 ---
 title: Bazhenov, Alexey
 permalink: bazhenov-alexey
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Alexey Bazhenov is a prominent figure in the Russian fashion industry and the founder of the **Institute for the Development of the Fashion Industry** known as **Beinopen**. He has played a crucial role in transforming the fashion landscape in Russia through various initiatives aimed at fostering local talent and creating sustainable business ecosystems.

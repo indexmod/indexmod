@@ -1,9 +1,9 @@
 ---
 title: Cairo Couture Collections
 permalink: cairo-couture-collections
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
 image: https://assets.vogue.com/photos/5b2f056147b9940fb269bb4b/master/w_2560%2Cc_limit/christian-dior-spring-2004-couture-00010h-erin-oconnor.jpg
 credits:
 ---

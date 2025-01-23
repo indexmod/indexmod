@@ -1,10 +1,9 @@
 ---
 title: Copenhagen Fashion Week
 permalink: copenhagen-fashion-week
-layout: default
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
-layout: ai
 image: https://copenhagenfashionweek.com/assets/SS25-Copenhagen-Fashion-Week-Han-Kj%C3%B8benhavn-Runway-4x5-James-Cochrane-25.jpg
 credits:
 ---

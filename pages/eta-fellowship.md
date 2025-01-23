@@ -1,34 +1,11 @@
 ---
 title: Eta (fellowship)
 permalink: eta-fellowship
-layout: default
-originlang: Rus.
-originspell: Эта
-appearing: Est.
-city: Moscow
-birth: 2017
-givenname: Товарищество «Эта»
-familyname:
-othername: Heth
-venue: IFZ RAN
-founder: Maxim Tuzhikov
-origin: a Russian
-profession: creative fellowship fonded by Maxim Tuzhikov in 2017, based Moscow
-photo:
-photographer:
-source:
-photographerurl:
-sourceurl:
-shortname: HETH
-facebook: 2
-instagram: 0
-youtube: 2
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 (Rus. Товарищество «Эта», est. 2017, Mozzhinka) is a creative fellowship based in Moscow, founded by Maksim Kamo and Andrei Dei with aim to visualize of science data. In 2017 also collaborated with Petro Sanchuk, Elvira Kuznetsova.

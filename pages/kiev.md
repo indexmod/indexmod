@@ -1,10 +1,11 @@
 ---
 title: Kiev
 permalink: kiev
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Ukrainian fashion has demonstrated remarkable **resilience** during the ongoing conflict with Russia, particularly through the Ukrainian Fashion Week (UFW) event. In September 2024, the 55th season of UFW returned to Kyiv for the first time since the Russian invasion in 2022[1][2].

@@ -1,7 +1,11 @@
 ---
 title: Artcom Media
 permalink: artcom-media
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 ARTCOM Media is a prominent Russian media group that encompasses a variety of services, including publishing, advertising, and event management. Here’s a detailed overview:

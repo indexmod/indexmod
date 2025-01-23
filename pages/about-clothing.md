@@ -1,43 +1,12 @@
 ---
 title: About (clothing)
 permalink: about-clothing
-layout: default
-originlang: Lit.
-originspell: Apie
-appearing: Est.
-city: Utena
-birth: 2012
-givenname: About
-familyname:
-othername: Utenos
-venue: Utenos trikotažas
-founder: Utenos trikotažas
-origin: a Lithuanian
-profession: innovative underwear and leisurewear brand with the latest technological possibilities with the sense of zeitgeist in design trends, with locally developed fabrics enriched with extra skin-care textile finishing, based on aloe vera, beeswax, silk proteins and antibacterial silver
-photo: Beside its core B2B activities, Utenos trikotažas internationally operates two in-house created fashion brands
-photographer: Utenos trikotažas
-source: Ut.lt
-photographerurl: http://www.ut.lt/our-brands
-sourceurl: http://www.ut.lt/our-brands
-shortname: ABOUT
-facebook: 14378
-instagram: 1045
-youtube: 30
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
-
-<!---
-To edit top block see
-icon "Meta Data"
-on right menu
-Full edit instructions
-{{ site.url }}/edit
--->
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}.jpg)
 

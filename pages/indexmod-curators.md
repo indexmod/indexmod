@@ -3,7 +3,7 @@ title: Indexmod curators
 permalink: indexmod-curators
 layout: ai
 date: 2018-01-02
-update: 2025-01-22
+update: 2025-01-23
 image:
 credits:
 ---

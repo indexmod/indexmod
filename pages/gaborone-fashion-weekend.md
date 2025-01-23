@@ -1,7 +1,11 @@
 ---
 title: Gaborone Fashion Weekend
 permalink: gaborone-fashion-weekend
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Gaborone Fashion Weekend in 2025 is set to be an exciting event for fashion enthusiasts. Here are the key details:

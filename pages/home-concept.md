@@ -1,7 +1,11 @@
 ---
 title: Home Concept
 permalink: home-concept
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 A furniture concept store inspirited by British vintage style and correspondent to Halo furniture factory.

@@ -1,7 +1,11 @@
 ---
 title: Buterin, Vitalik
 permalink: buterin-vitalik
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Виталик Бутерин (Vitalik Buterin) - канадско-российский программист, родившийся 31 января 1994 года в Коломне, Россия[2][3]. Он наиболее известен как сооснователь Ethereum, второй по величине криптовалютной платформы после Bitcoin[3].

@@ -1,10 +1,11 @@
 ---
 title: Nikatnov, Stas
-date: 2025-01-10
-update:
-layout: ai
 permalink: nikatnov-stas
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Stas Nikatnov is a prominent designer known for his innovative approach in the fields of fashion and product design. He has gained recognition for blending contemporary aesthetics with functional design, creating pieces that are both visually striking and practical.

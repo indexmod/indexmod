@@ -1,7 +1,11 @@
 ---
 title: Alexander Arutyunov Jewelry
 permalink: alexander-arutyunov-jewelry
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Alexander Arutyunov is a prominent designer in the Russian fashion industry, known for his unique approach to jewelry and accessories. Born in Tbilisi, Georgia, he moved to Moscow for his education, where he discovered his passion for design. His cultural roots in Georgia significantly influence his work, drawing from the country's rich traditions and values[1].

@@ -1,9 +1,9 @@
 ---
 title: Kazakhstan Fashion Week
 permalink: kazakhstan-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://kfw.kz/storage/uploads/optimized/998ac72b-695d-4ba0-b474-8489f4f3c132.jpg
 credits:
 ---

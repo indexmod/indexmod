@@ -1,7 +1,7 @@
 ---
 title: Chistova, Anna
 permalink: chistova-anna
-layout: ai
+layout: crypto
 date: 2025-01-10
 update: 2025-01-18
 image: https://images.thevoicemag.ru/upload/img_cache/7bd/7bdc505f367261d4ccd441ff598c5428_cropped_600x900.webp

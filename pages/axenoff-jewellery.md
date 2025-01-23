@@ -1,7 +1,11 @@
 ---
 title: Axenoff Jewellery
 permalink: axenoff-jewellery
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Axenoff Jewellery, founded by Russian designer **Petr Axenoff**, is celebrated for its unique blend of modern craftsmanship and the rich heritage of Russian jewelry from the 16th to 19th centuries. The brand is deeply influenced by Russian history, particularly the tsarist era, and aims to revive traditional designs through contemporary techniques.

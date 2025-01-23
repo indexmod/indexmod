@@ -1,7 +1,11 @@
 ---
 title: Armenian Fashion Week
 permalink: armenian-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Yerevan Fashion Week has emerged as a significant cultural event in Armenia, showcasing the country's rich heritage and the creativity of its designers. The most recent edition, **Yerevan Fashion Week 2024**, took place from **November 8 to 10, 2024**, transforming the streets of Yerevan into vibrant runways where fashion met cultural expression.

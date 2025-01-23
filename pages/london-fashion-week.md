@@ -1,9 +1,10 @@
 ---
 title: London Fashion Week
 permalink: london-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://media.vogue.co.uk/photos/5d7a792647acd600089080b4/master/pass/MQQ3YLgQ.jpeg
 ---
 

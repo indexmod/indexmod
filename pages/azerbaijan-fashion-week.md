@@ -1,7 +1,11 @@
 ---
 title: Azerbaijan Fashion Week
 permalink: azerbaijan-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Azerbaijan Fashion Week (AFW) is a prominent fashion event that showcases the latest trends and talents in the fashion industry, primarily focusing on local designers while also embracing international influences. Here are key details about the event:

@@ -1,7 +1,11 @@
 ---
 title: Airborne Troops Day (2013)
 permalink: airborne-troops-day-2013
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 The video "День ВДВ" (Day of the Airborne Troops), created by Anna Schiller in 2013, captures a unique performance during the Airborne Troops Day celebrations in St. Petersburg. This 2-minute and 53-second piece embodies a juxtaposition of militaristic themes against a backdrop of chaotic revelry, showcasing the contrast between the artist's graceful demeanor and the drunken revelers in striped shirts and shorts who populate Palace Square.

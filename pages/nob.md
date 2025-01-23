@@ -1,34 +1,11 @@
 ---
 title: Nob
 permalink: nob
-layout: default
-originlang: Rus.
-originspell: Агентство «Ноб»
-appearing: Est.
-city: Moscow
-birth: 2017
-givenname: Nob
-familyname:
-othername: Nob Agency
-venue: Glinischevsky Lane
-founder: Gosha Rostovshchikov
-origin: a Russian
-profession: fashion agency, buyers showroom based in Moscow
-photo: Contributor Roman Uvarov and founder Gosha Rostovshchikov
-photographer: NN Sobaka
-source: Instagram
-photographerurl:
-sourceurl:
-shortname: NOB
-facebook: 250
-instagram: 8933
-youtube: 0
-vimeo: 0
-twitter: 0
-tumblr: 0
-vkontakte: 0
-soundcloud: 0
-pinterest: 0
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 ## About

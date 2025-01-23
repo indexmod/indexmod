@@ -1,9 +1,9 @@
 ---
 title: Kisselman, Iluxa
 permalink: kisselman-iluxa
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://mir-s3-cdn-cf.behance.net/projects/404/64427478639119.Y3JvcCw2NzEsNTI1LDM5MiwxMzE.jpg
 ---
 

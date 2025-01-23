@@ -1,11 +1,11 @@
 ---
 title: Loyal Royal (Xenia Ferz)
 permalink: loyal-royal
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-image: https://optim.tildacdn.com/tild6630-3062-4762-a637-653334663766/-/resize/300x/-/format/webp/Facetune_26-03-2020-.JPG
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 credits:
+image: https://optim.tildacdn.com/tild6630-3062-4762-a637-653334663766/-/resize/300x/-/format/webp/Facetune_26-03-2020-.JPG
 ---
 
 Loyal Royal appears to be a media platform or website focused on interviews and discussions about aristocracy, culture, and lifestyle, primarily run by Ксения Ферзь (Xenia Ferz). The platform features a series of in-depth interviews and articles covering various topics such as:

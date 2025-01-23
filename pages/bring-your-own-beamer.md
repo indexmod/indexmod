@@ -1,7 +1,11 @@
 ---
 title: Bring your own beamer
 permalink: bring-your-own-beamer
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 BYOB (Bring Your Own Beamer) is a series of one-night exhibitions where artists showcase their work through projections[1][4]. Conceived by net-art visionary Rafaël Rozendaal, these events are immersive, spontaneous, and always surprising[1][5].

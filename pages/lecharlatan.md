@@ -1,11 +1,13 @@
 ---
 title: Lecharlatan (socks)
 permalink: lecharlatan
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f26d89dc-b6b6-5644-89fe-54358d95c32b/33dff60c-8cb1-5372-87da-fd638fef9f06.jpg
 ---
+
 Lecharlatan is a Russian streetwear clothing brand founded in 2013 in Moscow, specializing in high-quality socks with unique designs[1]. The brand was originally co-founded by Andrey Bozhyev and Maria Aldarova, with Bozhyev later purchasing and registering the brand solely under his name in 2015[1].
 
 ## Key Details

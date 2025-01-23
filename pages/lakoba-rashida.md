@@ -1,10 +1,11 @@
 ---
 title: Lakoba, Rashida
-date: 2025-01-10
-update:
-layout: ai
 permalink: lakoba-rashida
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Rasida Lakoba is a prominent fashion designer and the founder of the luxury fashion brand RASARIO, established in 2012. Her work is deeply influenced by her childhood in Abkhazia, a region in the South Caucasus known for its stunning natural beauty and rich cultural heritage. The aesthetic of RASARIO is characterized by a celebration of femininity and sensuality, often featuring delicate fabrics and intricate designs that highlight women's elegance[1].

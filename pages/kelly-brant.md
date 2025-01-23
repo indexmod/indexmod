@@ -1,9 +1,10 @@
 ---
 title: Келли-Брант, Мегин Мари
 permalink: kelly-brunt-megyn-marie
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vladimir_Putin_and_Megyn_Kelly_03.jpg/640px-Vladimir_Putin_and_Megyn_Kelly_03.jpg
 ---
 

@@ -1,7 +1,11 @@
 ---
 title: Berdyansk Fashion Day
 permalink: berdyansk-fashion-day
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Berdyansk Fashion Day is a professional fashion event held in Berdyansk, Ukraine. **Key Details**:

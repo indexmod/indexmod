@@ -1,10 +1,11 @@
 ---
 title: Gazinskaya, Vika
-date: 2025-01-10
-update:
-layout: ai
 permalink: gazinskaya-vika
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Vika Gazinskaya, born on February 2, 1984, in Moscow, is a prominent Russian fashion designer known for her eponymous brand, Vika Gazinskaya. She began her journey in fashion design at the Moscow State University of Service, where she studied costume design. Gazinskaya gained early recognition by winning the "Russian Silhouette" competition in 2002, which allowed her to showcase her work at the Smirnoff International Design Competition in Italy[2][3].

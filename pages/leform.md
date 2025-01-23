@@ -1,9 +1,10 @@
 ---
 title: Leform
 permalink: leform
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://americanbeauty.online/dist/img/leform.png
 ---
 

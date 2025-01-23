@@ -1,7 +1,11 @@
 ---
 title: African Fashion Week Toronto
 permalink: african-fashion-week-toronto
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 African Fashion Week Toronto (AFWT) is an annual event that celebrates the richness and diversity of African fashion and culture. The 2024 edition took place from **August 22 to August 25** at Yonge-Dundas Square in Toronto, Canada. This non-profit initiative aims to provide a platform for both established and emerging designers, showcasing their work to a broad audience.

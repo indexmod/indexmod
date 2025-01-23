@@ -1,9 +1,10 @@
 ---
 title: Libertine (brand)
 permalink: libertine-brand
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+credits:
 image: https://media.licdn.com/dms/image/v2/D4D0BAQFYLsFYsgx3UA/company-logo_200_200/company-logo_200_200/0/1665156235395/libertine_logo?e=2147483647&v=beta&t=Gct3_RnbfKC0GJhD0CcjvQw4Us0RQbHyLIJnWvtr9rM
 ---
 

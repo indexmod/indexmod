@@ -1,7 +1,11 @@
 ---
 title: Africa Fashion Week
 permalink: africa-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 Adirée is a multi-media marketing communications and retail firm that specializes in fostering connections between brands and culturally relevant audiences, particularly focusing on Africa's retail potential. Headquartered in New York and Boston, Adirée operates in 23 markets globally, leveraging its expertise to enhance brand visibility and engagement through innovative marketing strategies.

@@ -1,9 +1,9 @@
 ---
 title: Lamp of MD (2015)
 permalink: lamp-of-md-2015
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
 credits:
 ---

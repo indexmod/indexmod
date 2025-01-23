@@ -1,11 +1,11 @@
 ---
 title: Cairo Fashion Festival
 permalink: cairo-fashion-festival
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
-image:
-credits: https://thelineshub.com/wp-content/uploads/2019/12/Cairo_Fashion_Festival_2019.jpg
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image: https://thelineshub.com/wp-content/uploads/2019/12/Cairo_Fashion_Festival_2019.jpg
+credits:
 ---
 
 Cairo Fashion Festival (CFF) is a seasonal fashion platform established in 2012 that showcases local, Middle Eastern, African designers, and international brands[4][8]. It is an annual event designed to promote emerging fashion designers and position Egypt in the global fashion market[8].

@@ -1,7 +1,11 @@
 ---
 title: Apocalypses
 permalink: apocalypses
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
+image:
+credits:
 ---
 
 ### My first job (1992)

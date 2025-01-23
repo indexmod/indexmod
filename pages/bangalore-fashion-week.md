@@ -1,7 +1,11 @@
 ---
 title: Bangalore Fashion Week
 permalink: bangalore-fashion-week
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Bangalore Fashion Week (BFW) is a prominent bi-annual fashion event held in Bangalore, India, established in 2009. It serves as a platform for showcasing Indian fashion and fostering business relationships between designers and trade buyers globally. The event is managed by Dream Merchants and is known for its exclusivity, as participation is by invitation only, with designers selected through a stringent jury process based on their design ingenuity[1][2].

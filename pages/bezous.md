@@ -1,7 +1,11 @@
 ---
 title: Bezous
 permalink: bezous
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
 
 Ruslan Bezous is a Moscow-based fashion designer and founder of the BEZOUS clothing brand[2][4]. He operates an atelier and fashion brand, offering both ready-to-wear collections and custom tailoring services[2]. Bezous showcases his designs through fashion shows, including a Fall/Winter collection[3].

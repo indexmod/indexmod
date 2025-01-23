@@ -1,9 +1,10 @@
 ---
 title: Galaktionova, Olga
-date: 2025-01-18
-update:
-layout: ai
 permalink: galaktionova-olga
+layout: crypto
+date: 2025-01-23
+update: 2025-01-23
+credits:
 image: https://arsenal-museum.art/wp-content/uploads/2025/01/olga-galaktionova-scaled.jpg
 ---
 

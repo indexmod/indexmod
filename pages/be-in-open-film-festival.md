@@ -1,8 +1,13 @@
 ---
 title: Be In Open Film Festival
 permalink: be-in-open-film-festival
-layout: ai
+layout: crypto
+date: 2018-01-02
+update: 2025-01-22
+image:
+credits:
 ---
+
 The **International Open Film Festival (IOFF)** is a significant event aimed at celebrating filmmakers who create exceptional short films and new media. This festival focuses on discovering and showcasing the accomplishments of these artists, providing a platform for their work to gain visibility and recognition.
 
 ### Key Details about IOFF

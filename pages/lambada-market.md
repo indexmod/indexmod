@@ -1,9 +1,9 @@
 ---
 title: Lambada Market
 permalink: lambada-market
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://static.themoscowtimes.com/image/article_1360/af/f20121a4f6394a77953a08a5f0cffe17.jpg
 credits:
 ---

@@ -1,10 +1,11 @@
 ---
 title: Mininkhanova, Kristina
-date: 2025-01-10
-update:
-layout: ai
 permalink: mininkhanova-kristina
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
+credits:
 ---
 
 Kristina Mininkhanova is the founder of the brand KHAN, which focuses on personal branding and strategy. Her work emphasizes the importance of building a strong personal brand in various professional contexts. Mininkhanova's approach integrates insights from her experiences and aims to empower individuals to leverage their unique identities for career advancement and business success.
