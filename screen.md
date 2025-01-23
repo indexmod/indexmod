@@ -1,7 +1,8 @@
 ---
 layout: none
 title: Скринсейвер
-permalink: marquee
+permalink: screen
+exclude: true
 ---
 
 <!DOCTYPE html>
