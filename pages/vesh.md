@@ -50,3 +50,10 @@ Citations:
 [6] https://www.instagram.com/vesh_brand/
 [7] https://www.instagram.com/vesh.brand/reel/C2fWCxrvvA_/
 [8] https://www.instagram.com/vesh.brand/reel/C9zY4v4Mg_U/
+
+
+## См. также
+
++ Максим Максимов
++ Театр Наций
++ [London Fashion Festival 2025]()
