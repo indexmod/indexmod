@@ -1,6 +1,5 @@
 ---
 title: Indexmod
-exclude: true
 layout: cover
 permalink: index
 ---

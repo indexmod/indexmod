@@ -72,6 +72,7 @@ exclude: true
             white-space: nowrap;
         }
     </style>
+  {% include favicon.html %}
 </head>
 <body>
     <div class="content-wrapper">
