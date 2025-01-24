@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: /images/roudenko-alexey.jpg
-credits:
+credits: Alexey Roudenko at 30.07.2024 Generative Gallery
 ---
 
 Alexey Roudenko is a prominent visual artist and creative developer based in Moscow, Russian Federation[1][5]. He specializes in generative graphics and creative coding, showcasing his work through various digital platforms[1][4].
