@@ -10,12 +10,6 @@ credits:
 
 (Рус. Проун, est. 2016, Moscow) is an aesthetic movement appeared in the association of visual artists Misak Samoktian, Alexei Rudenko, Alexandra Gavrilova and Sergei Titov (Stain Group). Later the movement included G. Leonova, A. Rebrov, I. Yakubov, M. Maximov, M. Sachkov, P. Seldimirov.
 
-![(Image correspondent to the article of “{{ page.title }}”. To see an image try another browser!)]({{ site.url }}/images/{{ page.permalink }}.jpg)
-
-**Audiovisual sculpture, in the form of a spatial sound wave. Misak Samokatyan, 2016**
-
-*Photo: [Proun](proun-movement) / [Readymag Proun](https://readymag.com/proun/893272/)*
-
 ## 1920s El Lissitzky Proun
 
 Proun was an innovative artistic movement developed by El Lissitzky in the early 1920s. The term "Proun" is an acronym for "project for the affirmation of the new" in Russian[1][5]. Lissitzky created Proun as a new type of artwork that combined elements of Suprematism, Constructivism, Futurism, and Cubism[2].
@@ -69,3 +63,8 @@ Citations:
 - [Abram Rebrov](abram-rebrov)  
 - [Pasha Seldymirov](pasha-seldymirov)  
 - [Ildar Yakubov](ildar-yakubov)
+
+
+**Audiovisual sculpture, in the form of a spatial sound wave. Misak Samokatyan, 2016**
+
+*Photo: [Proun](proun-movement) / [Readymag Proun](https://readymag.com/proun/893272/)*

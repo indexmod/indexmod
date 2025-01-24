@@ -4,7 +4,7 @@ permalink: roudenko-alexey
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: https://mir-s3-cdn-cf.behance.net/projects/404/3ab485181011073.Y3JvcCwzMjI5LDI1MjUsMzc5NiwyNjkz.jpg
+image: /images/roudenko-alexey.jpg
 credits:
 ---
 
@@ -32,7 +32,7 @@ Citations:
 - [Galina Leonova](galina-leonova)  
 - [Mikhail Maximov](mikhail-maximov)  
 - [Proun (disambiguation)](proun-disambiguation)  
-- [Mikhail Sachkov](mic-sachkov)  
+- [Mikhail Sachkov](mi-sachkov)  
 - [Misak Samokatyan](misak-samokatyan)  
 - [Stain](stain)  
 - [Abram Rebrov](abram-rebrov)  
