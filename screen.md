@@ -43,11 +43,11 @@ exclude: true
         }
 
         .fade-in {
-            animation: fadeIn 3s ease-in-out;
+            animation: fadeIn 5s ease-in-out;
         }
 
         .fade-out {
-            animation: fadeOut 3s ease-in-out;
+            animation: fadeOut 5s ease-in-out;
         }
 
         @keyframes fadeIn {
@@ -151,7 +151,7 @@ exclude: true
                             imageElement.classList.add("fade-in");
                             setTimeout(() => {
                                 imageElement.classList.remove("fade-in");
-                            }, 3000); // Фейд длится 3 секунды
+                            }, 5000); // Фейд длится 5 секунд
                         });
                     }
 
@@ -160,12 +160,12 @@ exclude: true
                     setTimeout(() => {
                         imageIndex = 1;
                         showImageWithFade(imageUrls[imageIndex]);
-                    }, 3000); // Через 3 секунды показываем следующее
+                    }, 5000); // Через 5 секунд показываем следующее
 
                     setTimeout(() => {
                         imageIndex = 2;
                         showImageWithFade(imageUrls[imageIndex]);
-                    }, 6000); // Через 6 секунд показываем следующее
+                    }, 10000); // Через 10 секунд показываем следующее
 
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
@@ -176,14 +176,14 @@ exclude: true
                     setTimeout(() => {
                         tokenContainer.classList.remove("fade-in");
                         titleElement.classList.remove("fade-in");
-                    }, 3000); // Токен и заголовок фейдятся 3 секунды
+                    }, 10000); // Токен и заголовок фейдятся 10 секунд
 
                     currentIndex = (currentIndex + 1) % items.length;
                 }
             }
 
             showNextItem();
-            setInterval(showNextItem, 9000); // Повторять показ раз в 9 секунд (показываем все изображения за 9 секунд)
+            setInterval(showNextItem, 10000); // Повторять показ раз в 10 секунд (показываем все изображения за 10 секунд)
         });
     </script>
 </body>
