@@ -94,22 +94,29 @@ exclude: true
                     {% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,3 | upcase %}
 
                     {% for word in words offset:1 %}
-                        {% assign clean_word = word | replace: '[^a-zA-Z]', '' %}
+                        {% assign clean_word = word | replace: '[^a-zAZ]', '' %}
                         {% assign letter = clean_word | slice: 0,1 | upcase %}
                         {% assign token = token | append: letter %}
                     {% endfor %}
 
                     {% assign img1 = "/images/" | append: page.permalink | append: ".jpg" %}
                     {% assign img2 = "/images/" | append: page.permalink | append: "-1.jpg" %}
-                    {% assign final_image = page.image | default: img1 %}
+                    {% assign final_image = img1 %}
 
                     {
                         token: "{{ token | strip }}",
                         title: "{{ page.title }}",
-                        image: "{{ final_image | default: img2 | default: '/images/black.jpg' }}"
+                        image: "{{ final_image }}"
                     },
                 {% endfor %}
             ];
+
+            // Функция для проверки существования изображения
+            function imageExists(url) {
+                return fetch(url, { method: 'HEAD' })
+                    .then(response => response.ok)
+                    .catch(() => false); // Если ошибка, возвращаем false
+            }
 
             // Перемешиваем массив случайным образом
             items = items.sort(() => Math.random() - 0.5);
@@ -119,10 +126,15 @@ exclude: true
             function showNextItem() {
                 if (items.length > 0) {
                     let currentItem = items[currentIndex];
+                    const imageUrl = currentItem.image;
 
                     tokenContainer.innerHTML = currentItem.token;
-                    imageElement.src = currentItem.image;
                     titleElement.innerHTML = currentItem.title;
+
+                    imageExists(imageUrl).then(exists => {
+                        // Если изображение найдено, показываем его, иначе подставляем logo.png
+                        imageElement.src = exists ? imageUrl : '/images/logo.png';
+                    });
 
                     tokenContainer.classList.add("fade-in");
                     imageElement.classList.add("fade-in");
