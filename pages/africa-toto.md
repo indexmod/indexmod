@@ -1,11 +1,11 @@
 ---
-title: Africa (Toto)
+title: Africa (песня)
 permalink: africa-toto
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/05/25/15/screen-shot-2018-05-25-at-15.27.47.png?quality=75&width=1250&crop=3%3A2%2Csmart&auto=webp
+credits: A still from Toto's official video for 'Africa' (YouTube/Toto) / An appreciation of 'Africa' by Toto - one of the most cathartic songs of all time https://www.independent.co.uk/arts-entertainment/music/features/africa-day-2018-toto-song-meaning-lyrics-appreciation-weezer-cover-a8369361.html
 ---
 
 Песня "Africa", выпущенная в 1982 году как десятый трек на альбоме *Toto IV*, стала культовым произведением благодаря своему уникальному сочетанию музыкальных стилей, текстов и культурных влияний.
@@ -17,17 +17,21 @@ credits:
 - **Вокал**: Вокальные партии исполняются несколькими участниками группы, что добавляет многоголосие и гармонию, усиливающую эмоциональную нагрузку песни[4][9].
 
 ## Лирическое содержание
+
 Текст песни затрагивает темы любви и приключений, что делает его универсальным и доступным для широкой аудитории. Образы, связанные с африканской природой и культурой, создают яркие визуальные ассоциации у слушателей[1][4].
 
 ## Культурное влияние
+
 - **Коммерческий успех**: "Africa" достигла вершины Billboard Hot 100 в 1983 году и стала одним из самых продаваемых синглов в истории[4][9]. Песня получила признание на международной арене, включая множество кавер-версий и пародий.
 - **Современное восприятие**: В последние годы "Africa" пережила второе рождение благодаря социальным сетям, став мемом и объектом культурного обсуждения[7][9]. Это подтверждает ее актуальность и влияние на новые поколения слушателей.
 
 ## Заключение
+
 "**Africa**" от Toto — это не просто песня; это культурный феномен, который сочетает в себе музыкальное мастерство, глубокие тексты и богатые культурные ассоциации. Уникальность трека заключается в его способности оставаться актуальным и любимым на протяжении десятилетий, что делает его одним из самых значимых произведений в истории рок-музыки.
 
-Citations:
-[1] https://dtf.ru/u/537339-tolko-muzyka/1837420-kak-sozdavalsya-hit-toto-africa
+## Citations
+
+**[1] https://dtf.ru/u/537339-tolko-muzyka/1837420-kak-sozdavalsya-hit-toto-africa
 [2] https://ru.wikipedia.org/wiki/Toto_IV
 [3] https://ru.ruwiki.ru/wiki/Toto_IV
 [4] https://ru.wikipedia.org/wiki/Africa
@@ -36,4 +40,4 @@ Citations:
 [7] https://style.rbc.ru/repost/5c3d90d59a79477dbe9c711d
 [8] https://www.youtube.com/watch?v=twCXz4G5tRA
 [9] https://en.wikipedia.org/wiki/Africa_(Toto_song)
-[10] https://resource.download.wjec.co.uk/vtc/2019-20/WJEC19-20_1-10/pdf/eduqas-toto-africa-notes-update-08-20.pdf
+[10] https://resource.download.wjec.co.uk/vtc/2019-20/WJEC19-20_1-10/pdf/eduqas-toto-africa-notes-update-08-20.pdf**

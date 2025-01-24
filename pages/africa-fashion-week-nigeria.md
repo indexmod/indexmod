@@ -4,8 +4,8 @@ permalink: africa-fashion-week-nigeria
 layout: crypto
 date: 2018-01-02
 update: 2025-01-21
-image:
-credits:
+image: /images/africa-fashion-week-nigeria-1.jpg
+credits: Fashion Brand Rikaoto By Me is the proudly Nigerian, proudly African brand owned by stupendously gorgeous, ex-beauty queen from Kebbi State by name, Mariam Elisha https://www.facebook.com/Africafashionweeknigeria/photos/a.565953823424401/2299671513385948/?type=3&theater
 ---
 
 Africa Fashion Week Nigeria (AFWN) is a prominent event that celebrates African fashion, culture, and creativity. Founded by Adiree Communications in 2009, AFWN aims to enhance the global development of luxury and mainstream fashion while promoting ethical practices within the industry[1].
@@ -23,21 +23,16 @@ Designers interested in participating in AFWN can apply through the official web
 
 For more information about the event and how to get involved, you can visit the official Africa Fashion Week Nigeria website or their social media platforms.
 
-Citations:
-[1] https://africafashionweek.com
+## Citations
+
+**[1] https://africafashionweek.com
 [2] https://africafashionweeknigeria.com/formdesigners/
 [3] https://www.youtube.com/watch?v=X3h3JvoxFBM
 [4] https://africafashionweeknigeria.com
 [5] https://africafashionweeklondonuk.com
 [6] https://www.instagram.com/afwnigeria/
 [7] https://www.instagram.com/afwnigeria/p/DDKKJewgqyb/
-[8] https://www.facebook.com/Africafashionweeknigeria/?locale=en_GB
-
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Fashion Brand Rikaoto By Me is the proudly Nigerian, proudly African brand owned by stupendously gorgeous, ex-beauty queen from Kebbi State by name, Mariam Elisha**
-
-*Photo: [Unknown author](https://www.facebook.com/Africafashionweeknigeria/photos/a.565953823424401/2299671513385948/?type=3&theater) / [Facebook.com](https://www.facebook.com/Africafashionweeknigeria/photos/a.565953823424401/2299671513385948/?type=3&theater)*
+[8] https://www.facebook.com/Africafashionweeknigeria/?locale=en_GB**
 
 ## Stuff
 
@@ -61,13 +56,7 @@ Citations:
 |Folusho Ogunde|Digital Marketing|2018|
 |Omoniyi Tomilola Gwen|Digital Marketing|2018|
 
-The AFWN team provides a platform for designers who want expose but do not have great finances to do international shows.
-
-The AFWN stuff have seen so many young people in Nigeria being able to lift themselves out of adverse situations and build sustainable livings for themselves and their families through fashion.and our main focus is on using fashion as an instrument of sustainability and of social change.
-
-The AFWN team believe that for creativity to grow, there needs to be a platform that promotes and supports its growth.
-
-Africa Fashion week Nigeria a social enterprise that provides a platform to help promote Nigerian brands through worldwide visibility and distribution and manufacturing. The AFWN team focus on empowerment, creating jobs and supporting education and skills training in fashion.
+The AFWN team provides a platform for designers who want expose but do not have great finances to do international shows. The AFWN stuff have seen so many young people in Nigeria being able to lift themselves out of adverse situations and build sustainable livings for themselves and their families through fashion.and our main focus is on using fashion as an instrument of sustainability and of social change. The AFWN team believe that for creativity to grow, there needs to be a platform that promotes and supports its growth. Africa Fashion week Nigeria a social enterprise that provides a platform to help promote Nigerian brands through worldwide visibility and distribution and manufacturing. The AFWN team focus on empowerment, creating jobs and supporting education and skills training in fashion.
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-2.jpg)
 

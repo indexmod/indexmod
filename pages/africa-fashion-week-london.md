@@ -4,8 +4,8 @@ permalink: africa-fashion-week-london
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://bazeonlineradio.co.ke/storage/2023/11/1-fashion-Baze-Radio-756x504.jpg
+credits: https://bazeonlineradio.co.ke/the-diversity-of-kenyan-fashion-and-brands/
 ---
 
 Africa Fashion Week London (AFWL) is Europe's largest annual African fashion event, founded in 2011 by Queen Ronke Ademiluyi-Ogunwusi[3].
@@ -34,12 +34,13 @@ AFWL is dedicated to promoting and nurturing African and African-inspired design
 
 The event aims to bring awareness to Africa's burgeoning fashion industry and create opportunities for African designers on the global stage.
 
-Citations:
-[1] https://diversitybusinesspromotes.uk/welcome-to-africa-fashion-week-london-2024-the-home-of-the-true-fashion-disruptors/
+## Citations
+
+**[1] https://diversitybusinesspromotes.uk/welcome-to-africa-fashion-week-london-2024-the-home-of-the-true-fashion-disruptors/
 [2] https://www.blackhistorymonth.org.uk/article/listings/region/kingston-upon-thames/africa-fashion-week-london-2024/
 [3] https://africafashionweeklondonuk.com/aboutafw/
 [4] https://www.eventbrite.co.uk/e/africa-fashion-week-london-2024-the-best-in-african-fashion-tickets-928090412407
 [5] https://www.eventbrite.co.uk/o/africa-fashion-week-london-8259623456
 [6] https://africafashionweeklondonuk.com
 [7] https://www.instagram.com/afwlondon/
-[8] https://www.facebook.com/Africafwl/?locale=en_GB
+[8] https://www.facebook.com/Africafwl/?locale=en_GB**

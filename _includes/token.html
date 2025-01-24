@@ -1,5 +1,5 @@
 {% assign words = page.title | replace: ',', '' | replace: '.', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' | replace: '–', '' | replace: '_', '' | replace: '/', '' | replace: '&', '' | strip | split: " " %}
-{% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,3 | upcase %}
+{% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,4 | upcase %}
 
 {% for word in words offset:1 %}
   {% assign clean_word = word | replace: '[^a-zA-Z]', '' %}
