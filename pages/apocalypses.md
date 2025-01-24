@@ -4,14 +4,13 @@ permalink: apocalypses
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://static.tildacdn.com/tild6134-3337-4063-a263-323630373035/Chudya-001.jpeg
+credits: Anton Chudia, 1992, “My first work”, ballpoint pen, paper, 19.5x60 cm.	 / 	アントン・チュディア、1992年、「私の最初の仕事」、ボールペン、紙、19.5x60 cm。
 ---
 
-### My first job (1992)
+## My first job (1992)
 
-Anton Chudia, 1992, “My first work”, ballpoint pen, paper, 19.5x60 cm. / アントン・チュディア、1992年、「私の最初の仕事」、ボールペン、紙、19.5x60 cm。
-Anton Chudinov, also known as Chudya, was born in 1979 on Vasilyevsky Island in St. Petersburg, Russia. He graduated from art school and worked as a stylist and makeup artist in Moscow in the 2000s. He was friends with contemporary artists and the metropolitan elite, including Oleg Ognenny, Vlad Monroe, and Arthur Lomakin.
+Anton Chudia, 1992, “My first work”, ballpoint pen, paper, 19.5x60 cm. / アントン・チュディア、1992年、「私の最初の仕事」、ボールペン、紙、19.5x60 cm。Anton Chudinov, also known as Chudya, was born in 1979 on Vasilyevsky Island in St. Petersburg, Russia. He graduated from art school and worked as a stylist and makeup artist in Moscow in the 2000s. He was friends with contemporary artists and the metropolitan elite, including Oleg Ognenny, Vlad Monroe, and Arthur Lomakin.
 
 The online collection presented here is the first and only collection created by Chudinov at the age of 12. It includes more than 20 works, all made in the form of panoramas on paper with a ballpoint pen. The works depict apocalyptic battles with crusaders, karatekas, spiders, dragons, giant octopuses, and robots.
 

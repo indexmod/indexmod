@@ -4,8 +4,8 @@ permalink: amsterdam-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
-credits:
+image: /images/amsterdam-fashion-week.jpg
+credits: AFW
 ---
 
 Amsterdam Fashion Week (AFW) is a prominent biannual fashion event held in Amsterdam, Netherlands, showcasing both established and emerging designers. The event has evolved significantly since its inception in 2004, focusing on promoting Dutch fashion talent while also embracing sustainability and inclusivity.
@@ -32,20 +32,22 @@ In recent years, AFW has increasingly spotlighted sustainable practices within t
 
 Amsterdam Fashion Week continues to grow as a significant event in the global fashion calendar, blending high-fashion professionalism with public accessibility. Its commitment to sustainability and support for emerging talent solidifies its role as a vital platform within the fashion industry.
 
-Citations:
-[1] https://amsterdamfashionweek.nl
+## Citations
+
+**[1] https://amsterdamfashionweek.nl
 [2] https://en.wikipedia.org/wiki/Amsterdam_Fashion_Week
 [3] https://www.amsterdamstay.com/amsterdam-fashion-week
 [4] https://www.iamsterdam.com/en/business/amsterdam-fashion-week-kicks-off-with-a-spotlight-on-sustainability
 [5] https://fashionunited.uk/news/fashion/amsterdam-fashion-week-2024-the-highlights/2024091177505
 [6] https://www.instagram.com/amsterdamfashionweek/
 [7] https://www.forbes.com/sites/cassellferere/2024/09/15/it-was-cinema-and-surinamese-culture-at-amsterdam-fashion-week-2024/
-[8] https://www.facebook.com/AmsterdamFashionWeek/?locale=en_GB
+[8] https://www.facebook.com/AmsterdamFashionWeek/?locale=en_GB**
 
 Amsterdam Fashion Week (AFW) is a semi-annual event that celebrates Dutch fashion through runway shows, presentations and events. Amsterdam Fashion Week embraces young talent but also offers established designers and existing labels a stage. Both physically and virtually on the platform www.amsterdamfashionweek.nl. This is a daily online newspaper with news, interviews and articles about the Dutch fashion and beauty industry, but also covers related topics such as art, interior design & graphic design.
 
-The catwalk in the Westergasfabriek in 2010
-The Amsterdam Fashion Week is a fashion event that takes place twice a year in the city of Amsterdam. Both established and novice designers and fashion brands show their collections. The AIFW is held for professionals on the site of the Westergasfabriek. In addition to the catwalk shows, which are only open to invited guests, the week also has a program that is open to the public, the AIFW Downtown. The Downtown event consists of various exhibitions, parties, store openings and other events in the field of fashion, spread across the city of Amsterdam <span id="a2">[\[2\]](#f2)</span>.
+## The catwalk in the Westergasfabriek in 2010
+
+The Amsterdam Fashion Week is a fashion event that takes place twice a year in the city of Amsterdam. Both established and novice designers and fashion brands show their collections. The AIFW is held for professionals on the site of the Westergasfabriek. In addition to the catwalk shows, which are only open to invited guests, the week also has a program that is open to the public, the AIFW Downtown. The Downtown event consists of various exhibitions, parties, store openings and other events in the field of fashion, spread across the city of Amsterdam.
 
 ## History
 

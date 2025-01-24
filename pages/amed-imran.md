@@ -4,8 +4,8 @@ permalink: amed-imran
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: /images/amed-imran.jpg
+credits: Имран Амед 
 ---
 
 Имран Амед — канадско-британский предприниматель в области моды, родившийся 20 апреля 1975 года в Калгари, Альберта. Он является основателем и главным редактором *The Business of Fashion* (BoF), авторитетного онлайн-ресурса, который охватывает новости и аналитику в сфере моды и роскоши.
@@ -26,8 +26,9 @@ credits:
 
 В целом, Имран Амед считается одним из ведущих комментаторов и аналитиков модной индустрии, его работа помогает многим профессионалам лучше понимать динамику этого быстро меняющегося сектора[3][8].
 
-Citations:
-[1] https://en.wikipedia.org/wiki/Imran_Amed
+## Citations
+
+**[1] https://en.wikipedia.org/wiki/Imran_Amed
 [2] https://www.businessoffashion.com/imran-amed/
 [3] https://it-it.about.flipboard.com/on-the-red-couch-with-business-of-fashions-imran-amed/
 [4] https://www.buro247.ru/fashion/heroes/imran-amed.html
@@ -35,7 +36,7 @@ Citations:
 [6] https://www.cjr.org/the_feature/the-outsiders-business-of-fashion-imran-amed.php
 [7] https://www.interviewmagazine.com/culture/imran-amed
 [8] https://vogue.ph/fashion/imran-amed-the-state-of-fashion/
-[9] https://dzen.ru/a/YN7Q8J1nrBKyquIj
+[9] https://dzen.ru/a/YN7Q8J1nrBKyquIj**
 
 ## Наргады и премии
 

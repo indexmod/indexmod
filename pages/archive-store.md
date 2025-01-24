@@ -4,13 +4,13 @@ permalink: archive-store
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: /images/archive-store.jpg
+credits: Archive 
 ---
 
 Visiting the Archive Store is an experience that appeals even to those who may not typically appreciate vintage furniture. The store predominantly features **modern designer furniture**, with a limited selection of antique items, mainly lamps and accessories. While the prices may be on the higher side, the pieces are curated with care, offering unique and rare finds that are personally selected by the owners, **Anastasia Palionova** and **Mikhail Kiselev**.
 
-### Key Highlights of the Archive Store
+## Key Highlights of the Archive Store
 
 - **Modern Focus**: The store's primary collection consists of contemporary and designer furniture, making it a suitable destination for modern aesthetics.
 - **Limited Vintage Selection**: Although there are vintage items available, they are few and primarily include decorative accessories rather than large furniture pieces.
@@ -19,8 +19,9 @@ Visiting the Archive Store is an experience that appeals even to those who may n
 
 The Archive Store is positioned as a place where one can discover not just furniture, but also a sense of style that transcends typical vintage or modern decor boundaries.
 
-Citations:
-[1] https://thearchivestore.com
+## Citations
+
+**[1] https://thearchivestore.com
 [2] https://www.tomdixon.net/en_gb/shop/furniture.html
 [3] https://www.grahamandgreen.co.uk/furniture
 [4] https://stylebyemilyhenderson.com/blog/how-and-why-i-mix-vintage-and-modern-home-decor
@@ -30,7 +31,7 @@ Citations:
 [8] https://thefurniturerooms.co.uk
 [9] https://www.stockroomlondon.com
 [10] https://akdfurniture.co.uk/blog/unique-furniture-ideas/
-[11] https://audenza.com/collections/furniture
+[11] https://audenza.com/collections/furniture**
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
