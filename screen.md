@@ -43,12 +43,21 @@ exclude: true
         }
 
         .fade-in {
-            animation: fadeIn 1s ease-in-out;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .fade-out {
+            animation: fadeOut 3s ease-in-out;
         }
 
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
         }
 
         /* Контейнер для изображения и названия */
@@ -72,7 +81,6 @@ exclude: true
             white-space: nowrap;
         }
     </style>
-  {% include favicon.html %}
 </head>
 <body>
     <div class="content-wrapper">
@@ -102,12 +110,13 @@ exclude: true
 
                     {% assign img1 = "/images/" | append: page.permalink | append: ".jpg" %}
                     {% assign img2 = "/images/" | append: page.permalink | append: "-1.jpg" %}
-                    {% assign final_image = img1 %}
+                    {% assign img3 = "/images/" | append: page.permalink | append: "1.jpg" %}
+                    {% assign final_image = page.image | default: img1 %}
 
                     {
                         token: "{{ token | strip }}",
                         title: "{{ page.title }}",
-                        image: "{{ final_image }}"
+                        images: [ "{{ final_image }}", "{{ img3 }}", "{{ img2 }}"]
                     },
                 {% endfor %}
             ];
@@ -127,32 +136,54 @@ exclude: true
             function showNextItem() {
                 if (items.length > 0) {
                     let currentItem = items[currentIndex];
-                    const imageUrl = currentItem.image;
+                    let imageUrls = currentItem.images;
+                    let imageIndex = 0;
+
+                    // Функция для показа изображения с анимацией
+                    function showImageWithFade(imageUrl) {
+                        imageExists(imageUrl).then(exists => {
+                            if (exists) {
+                                imageElement.src = imageUrl;
+                            } else {
+                                imageElement.src = '/images/logo.png'; // если изображение не найдено, показываем logo.png
+                            }
+
+                            imageElement.classList.add("fade-in");
+                            setTimeout(() => {
+                                imageElement.classList.remove("fade-in");
+                            }, 3000); // Фейд длится 3 секунды
+                        });
+                    }
+
+                    // Показываем 3 изображения с интервалами
+                    showImageWithFade(imageUrls[imageIndex]);
+                    setTimeout(() => {
+                        imageIndex = 1;
+                        showImageWithFade(imageUrls[imageIndex]);
+                    }, 3000); // Через 3 секунды показываем следующее
+
+                    setTimeout(() => {
+                        imageIndex = 2;
+                        showImageWithFade(imageUrls[imageIndex]);
+                    }, 6000); // Через 6 секунд показываем следующее
 
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
 
-                    imageExists(imageUrl).then(exists => {
-                        // Если изображение найдено, показываем его, иначе подставляем logo.png
-                        imageElement.src = exists ? imageUrl : '/images/logo.png';
-                    });
-
                     tokenContainer.classList.add("fade-in");
-                    imageElement.classList.add("fade-in");
                     titleElement.classList.add("fade-in");
 
                     setTimeout(() => {
                         tokenContainer.classList.remove("fade-in");
-                        imageElement.classList.remove("fade-in");
                         titleElement.classList.remove("fade-in");
-                    }, 1000);
+                    }, 3000); // Токен и заголовок фейдятся 3 секунды
 
                     currentIndex = (currentIndex + 1) % items.length;
                 }
             }
 
             showNextItem();
-            setInterval(showNextItem, 5000);
+            setInterval(showNextItem, 9000); // Повторять показ раз в 9 секунд (показываем все изображения за 9 секунд)
         });
     </script>
 </body>
