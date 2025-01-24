@@ -1,9 +1,9 @@
 ---
 title: Puebla Fashion Show
 permalink: puebla-fashion-show
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://i.pinimg.com/736x/8f/17/36/8f1736e67a761b694f3ac7622231a21c.jpg
 credits:
 ---

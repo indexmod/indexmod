@@ -1,10 +1,9 @@
 ---
 title: Polskaya, Sonya (Velotsvetochnitsa)
 permalink: polskaya-sonya
-exclude: true
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://i.pinimg.com/280x280_RS/10/bd/50/10bd50b3a0b231ce7cf57e165b954832.jpg
 credits:
 ---

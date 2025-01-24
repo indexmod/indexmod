@@ -1,9 +1,9 @@
 ---
 title: Peru Fashion Week
 permalink: peru-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://notjustalabel-prod.s3-accelerate.amazonaws.com/s3fs-public/styles/njal_large/public/LISBAZANAREVALO%20%2820%29%20copy_0.jpg?itok=pxunZUhw
 credits:
 ---

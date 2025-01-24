@@ -1,9 +1,9 @@
 ---
 title: Phoenix (city)
 permalink: phoenix
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.azcentral.com/gcdn/presto/2020/11/17/PPHX/b3c2abb5-2a7e-4fee-af84-5e1ef6857e49-beingdapper2.jpg
 credits:
 ---

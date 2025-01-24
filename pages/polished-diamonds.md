@@ -1,10 +1,9 @@
 ---
 title: Polished Diamonds (Dan Joines)
 permalink: polished-diamonds
-exclude: true
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.centreofitall.co.nz/uploads/images/_heroNoCrop/Dan-1_2024-06-26-230240_csfm.jpg
 credits:
 ---

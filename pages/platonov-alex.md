@@ -1,9 +1,9 @@
 ---
 title: Platonov, Alex
 permalink: platonov-alex
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://media.licdn.com/dms/image/v2/D5603AQGMTE_4A3yRsw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730839765348?e=2147483647&v=beta&t=k1MALuiKiwxB8pfP0CIheLcD6q0uqRwhSDk-Q7d2uOs
 credits:
 ---

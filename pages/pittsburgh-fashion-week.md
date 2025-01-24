@@ -1,9 +1,9 @@
 ---
 title: Pittsburgh Fashion Week
 permalink: pittsburgh-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://images.squarespace-cdn.com/content/v1/59131ada197aea7fffb6be59/1716495123073-2RULZ4NCAE4UFCGQO9WL/Fifth+Influence-340.JPG
 credits:
 ---

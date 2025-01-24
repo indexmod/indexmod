@@ -1,9 +1,9 @@
 ---
 title: Pavlensky, Petr (artist)
 permalink: pavlensky-petr-artist
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://c.files.bbci.co.uk/552D/production/_98350812_petrpavlensky.jpg
 credits:
 ---

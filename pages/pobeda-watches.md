@@ -1,10 +1,9 @@
 ---
 title: Pobeda (watches)
 permalink: pobeda-watches
-exclude: true
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://i.etsystatic.com/25241044/r/il/d0196a/5227033236/il_570xN.5227033236_s1xp.jpg
 credits:
 ---

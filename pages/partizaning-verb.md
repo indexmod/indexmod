@@ -1,9 +1,9 @@
 ---
 title: Partizaning (глагол)
 permalink: partizaning-verb
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglXgwwwTNhdmadN7WfqjvbTot5E2VlMriaSx7WBIEvLBpg1OgLV3MTamHNIuNaj44BsbJxHjayb1ivPhhg2YJ42NS_kIbjNSRwaPLYXf8A0PLWScsL_ZN0ePPOf_EVzDoVb4PTxMTwz9U/s1600/container.jpeg
 credits:
 ---

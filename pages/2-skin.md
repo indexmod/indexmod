@@ -4,15 +4,13 @@ permalink: 2-skin
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
-credits:
+image: /images/2-skin.jpg
+credits: 2 Skin
 ---
 
 **2SKIN** is a Moscow-based brand specializing in high-quality **temporary tattoos** and accessories. Founded in **2017** by **Lorena Chkadua**, the brand quickly gained popularity for its bold designs and international shipping options. Known for collaborations with artists like **Masha Yankovskaya**, 2SKIN offers exclusive collections, making its mark in the temporary tattoo industry.
 
 2SKIN operates as an **online store**, delivering products worldwide. It embraces modern technologies like **Web3**, accepting cryptocurrencies and integrating blockchain-based solutions for its customers.
-
-
 
 ## Highlights
 

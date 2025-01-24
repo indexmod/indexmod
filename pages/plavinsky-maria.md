@@ -1,9 +1,9 @@
 ---
 title: Plavinsky, Maria
 permalink: plavinsky-maria
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.erarta.com/upload/iblock/d22/d220079fd9afb0d5160b6841bbe7f1d2.png
 credits:
 ---

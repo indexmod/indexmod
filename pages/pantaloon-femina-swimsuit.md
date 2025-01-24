@@ -1,9 +1,9 @@
 ---
 title: Pantaloon Femina Swimsuit
 permalink: pantaloon-femina-swimsuit
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://i0.wp.com/racingnelliebly.com/wp-content/uploads/2021/08/2-service-pnp-cph-3b40000-3b45000-3b45800-3b45864v.jpg?ssl=1
 credits:
 ---

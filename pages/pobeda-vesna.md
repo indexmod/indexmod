@@ -1,9 +1,9 @@
 ---
 title: Pobeda Vesna
 permalink: pobeda-vesna
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://aswatch.ru/wp-content/uploads/2019/08/%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B0-PW-03-62-40-0067-%D0%92%D0%B5%D1%81%D0%BD%D0%B0-01.jpg
 credits:
 ---

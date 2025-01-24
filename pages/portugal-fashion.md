@@ -1,9 +1,9 @@
 ---
 title: Portugal Fashion Week
 permalink: portugal-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://portugalfashion.com/wp-content/uploads/2023/03/jpcaride2_street_style_photography_realistic_two_boys_wearing_ma_e6bb2f7b-2bc6-42ea-a924-19f978ee94c8.png
 credits:
 ---

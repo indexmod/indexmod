@@ -1,9 +1,9 @@
 ---
 title: Pirate television
 permalink: pirate-television
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://s3.amazonaws.com/mhka_ensembles_production/assets/public/000/000/149/large/563Monroe,%20Vlad,%20Pirate%20TV,%201991-1994%20still5.jpg
 credits:
 ---

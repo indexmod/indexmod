@@ -1,9 +1,9 @@
 ---
 title: Pupis, Donis
 permalink: pupis-donis
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://theblueprint.ru/upload/2718/971b7f96525b490d48332d7f8ded09bf_small.png
 credits:
 ---

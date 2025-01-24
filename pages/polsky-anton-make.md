@@ -1,10 +1,9 @@
 ---
 title: Polsky, Anton (Make)
 permalink: polsky-anton-make
-exclude: true
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://live.staticflickr.com/65535/49053781557_d9e77fdac1_b.jpg
 credits:
 ---

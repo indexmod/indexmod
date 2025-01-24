@@ -1,9 +1,9 @@
 ---
 title: Проун (игра)
 permalink: proun-game
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-23
 image: https://cdn.arstechnica.net/wp-content/uploads/2011/06/prountrack.jpg
 credits:
 ---

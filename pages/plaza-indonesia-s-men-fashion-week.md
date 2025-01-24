@@ -1,9 +1,9 @@
 ---
 title: Plaza Indonesia's Men Fashion Week
 permalink: plaza-indonesia-s-men-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://manual.co.id/wp-content/uploads/2014/09/Day-1-Men-Fashion-Week-Event_Fashion_PLaza-Indonesia-1.jpg
 credits:
 ---

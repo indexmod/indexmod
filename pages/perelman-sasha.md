@@ -1,9 +1,9 @@
 ---
 title: Perelman, Sasha
 permalink: perelman-sasha
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://hercannalife.wordpress.com/wp-content/uploads/2018/01/sasha_p_mg.jpg?w=1000
 credits:
 ---

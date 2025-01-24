@@ -1,9 +1,9 @@
 ---
 title: PFDC Sunsilk Fashion Week
 permalink: pfdc-sunsilk-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://i.dawn.com/primary/2017/04/58f5f30739ab9.jpg
 credits:
 ---

@@ -1,9 +1,9 @@
 ---
 title: Pakistan Fashion Week
 permalink: pakistan-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://images.squarespace-cdn.com/content/v1/5b3d0f7f36099bf25be25e36/1562234710359-S2X2MO5PL6HH6BX7ZWM7/Pakistan+fashion+week
 credits:
 ---

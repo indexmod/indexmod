@@ -4,8 +4,8 @@ permalink: aberdeen-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://www.tellthemwell.com/wp-content/uploads/2021/03/Lydia-cutler-portrait-1024x675.jpg
+credits: https://www.tellthemwell.com/interview-with-lydia-cutler-from-the-aberdeen-fashion-week/
 ---
 
 **Aberdeen Fashion Week (AFW)** is a prominent annual event established in **2013** in Aberdeen, Scotland. Founded by **Lydia Cutler**, it has become a celebrated platform for designers, particularly recognized as the **world’s only fashion event exclusively promoting Kids Wear collections**. AFW highlights the creative spirit of the UK while attracting international talent and audiences.
@@ -40,15 +40,16 @@ Some designers featured in the recent fashion week included:
 
 The event was organized by Aberdeen Fashion Week & Fashion Art Media Ltd, a company incorporated on May 10, 2016, which was dissolved on March 14, 2023[4]. Despite this, the fashion week continues to be an active and vibrant event in Aberdeen's cultural calendar[7][8].
 
-Citations:
-[1] https://www.aberdeenfashionweek.org
+## Citations
+
+**[1] https://www.aberdeenfashionweek.org
 [2] https://www.pressandjournal.co.uk/fp/lifestyle/6269678/aberdeen-fashion-week-introduces-fresh-ideas-and-new-designers/
 [3] https://www.aberdeenfashionweek.org/tickets-and-event-information
 [4] https://find-and-update.company-information.service.gov.uk/company/SC534996
 [5] https://allevents.in/aberdeen/aberdeen-fashion-week/200026039128249
 [6] https://allevents.in/aberdeen/fashion
 [7] https://www.facebook.com/groups/Aberdeenfashionweek/?locale=en_GB
-[8] https://www.facebook.com/aberdeenfashionweekend/
+[8] https://www.facebook.com/aberdeenfashionweekend/**
 
 ## Milestones
 
@@ -65,21 +66,9 @@ Since its inception, the event has evolved to include diverse forms of art along
 - **Venue**: The luxurious **Copthorne Hotel Aberdeen** serves as the primary location for its grand showcases.  
 - **Rebranding in 2018**: The event expanded its scope to include art exhibitions, reflecting a more holistic creative vision.
 
-## Illustration
-
-![](https://www.instagram.com/p/BiPl3UAFtuH/?taken-by=aberdeenfashionweek)
-
-*Models of AFW at the stairs of Copthorne Hotel Aberdeen in May 2018.*
-
-*Photo by [Aberdeen Fashion Week](https://www.instagram.com/p/BiPl3UAFtuH/?taken-by=aberdeenfashionweek)*
-
 ## See Also
 
 + [Andrei Abolenkin](abolenkin-andrei)  
 + [Copthorne Hotel Aberdeen](copthorne-hotel-aberdeen)  
 + [Lydia Cutler](lydia-cutler)  
 + [London Fashion Week](london-fashion-week)  
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Facebook event: Aberdeen Fashion & Art Week (AFAW)](index)

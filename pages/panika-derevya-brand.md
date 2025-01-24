@@ -1,9 +1,9 @@
 ---
 title: Panika Derevya (brand)
 permalink: panika-derevya-brand
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://img.rl0.ru/afisha/1500x-/daily.afisha.ru/uploads/images/c/61/c618e1a9d07746eb9ef13470ce51dbe4.jpg
 credits:
 ---

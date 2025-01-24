@@ -1,9 +1,9 @@
 ---
 title: Partizaning (website)
 permalink: partizaning-website
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://d32q37k5f6yh2c.cloudfront.net/media/12/128b4eff604b1915a962a475f1881402
 credits:
 ---

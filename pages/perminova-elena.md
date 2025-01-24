@@ -1,9 +1,9 @@
 ---
 title: Perminova, Elena
 permalink: perminova-elena
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://media.glamourmagazine.co.uk/photos/6138c688573794386521a065/master/w_1600%2Cc_limit/elena-Perminova-3-GL-27jul17_rex_b.jpg
 credits:
 ---

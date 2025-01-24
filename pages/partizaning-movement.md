@@ -1,9 +1,9 @@
 ---
 title: Partizaning (movement)
 permalink: partizaning-movement
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.instituteforpublicart.org/site/assets/files/2451/partizaning_-_photo_by_fedor_lavrentiev_2.768x0.jpg
 credits:
 ---

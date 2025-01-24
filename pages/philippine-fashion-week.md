@@ -1,9 +1,9 @@
 ---
 title: Philippine Fashion Week
 permalink: philippine-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://plus.inquirer.net/wp-content/uploads/2024/11/864165.jpeg
 credits:
 ---

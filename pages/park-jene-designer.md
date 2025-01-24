@@ -1,9 +1,9 @@
 ---
 title: Park, Jene (designer)
 permalink: park-jene-designer
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.designscene.net/wp-content/uploads/2018/04/Jene_SS17-Thomas-Wylde5412-620x930.jpg
 credits:
 ---

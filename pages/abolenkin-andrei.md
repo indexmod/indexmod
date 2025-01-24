@@ -4,8 +4,8 @@ permalink: abolenkin-andrei
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: /images/abolenkin-andrei.jpg
+credits: Andrei Abolenkin
 ---
 
 Andrei Abolenkin is a prominent Russian fashion analyst and industry expert. He has been active in the fashion industry since the early 1990s, focusing on the development and promotion of Russian designer fashion[2]. Abolenkin is known for his work as an art director for the first boutique of Russian designers and currently collaborates with Russian fashion houses and consults major retailers[4].
@@ -44,9 +44,6 @@ Citations:
 Andrei Abolenkin, born in 1972 in Moscow, is a prominent style and fashion expert, consultant, and promoter. He is renowned for his involvement in Moscow's fashion scene, particularly for supporting emerging designers and curating cultural events. Over the years, Abolenkin has become an advocate for avant-garde fashion in Russia, using his platform to mentor new talent. His contributions to the industry continue to shape the Russian fashion landscape, and he remains an influential figure in the creative community.
 
 
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}.jpg)
-
-
 ## Conspectus
 
 | Year | Highlights                     |
@@ -62,7 +59,4 @@ Andrei Abolenkin, born in 1972 in Moscow, is a prominent style and fashion exper
 + [Galinskaia, Olga](galinskaia-olga)
 + [Ognenny, Oleg](ognenny-oleg)
 + [Litvinova, Violetta](litvinova-violetta)
-
-## Footnotes
-
-[[1]](#a1) <span id="f1"></span> [Выставку памяти Виолетты Литвиновой откроют в «Стране чудес» (Intermedia)](http://www.intermedia.ru/news/286753)
++ [Выставку памяти Виолетты Литвиновой откроют в «Стране чудес» (Intermedia)](http://www.intermedia.ru/news/286753)

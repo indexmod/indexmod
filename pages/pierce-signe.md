@@ -1,9 +1,9 @@
 ---
 title: Pierce, Signe
 permalink: pierce-signe
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://uncannyarchive.com/wp-content/uploads/2022/01/signe-pierce-hyperreality-multimedia-artist-scaled.jpg
 credits:
 ---

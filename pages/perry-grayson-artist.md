@@ -1,9 +1,9 @@
 ---
 title: Perry, Grayson (artist)
 permalink: perry-grayson-artist
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://birdinflight.com/wp-content/uploads/2017/03/e3104eccab49e41c123cfe94d3d4c6ec.jpg
 credits:
 ---

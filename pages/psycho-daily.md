@@ -1,9 +1,9 @@
 ---
 title: Psycho Daily
 permalink: psycho-daily
-layout: ai
-date: 2018-01-01
-update: 2025-01-21
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image:
 credits:
 ---

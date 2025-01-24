@@ -1,9 +1,9 @@
 ---
 title: Parfenova, Tatiana
 permalink: parfenova-tatiana
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%9F%D0%B0%D1%80%D1%84%D1%91%D0%BD%D0%BE%D0%B2%D0%B0.jpg
 credits:
 ---

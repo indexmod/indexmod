@@ -1,9 +1,9 @@
 ---
 title: Panama Fashion Week
 permalink: panama-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-24
 image: https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=328,height=328,format=auto/m/e16e/bcbc/ad1a/0451/1d3c/49e8/6953/1417/8fe1/2736/2736.png
 credits:
 ---

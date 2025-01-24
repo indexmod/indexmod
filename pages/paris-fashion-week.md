@@ -1,9 +1,9 @@
 ---
 title: Paris Fashion Week
 permalink: paris-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://cdn.vogue.ua/i/image_720x/uploads/article-inline/7b3/eab/dba/5c76dbaeab7b3.jpeg.webp
 credits:
 ---

@@ -1,9 +1,9 @@
 ---
 title: PinchukArtCentre
 permalink: pinchukartcentre
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://lp-cms-production.imgix.net/2023-05/iStock-1370376411.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75
 credits:
 ---

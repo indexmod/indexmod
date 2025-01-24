@@ -1,10 +1,9 @@
 ---
 title: Ponosov, Igor
 permalink: ponosov-igor
-exclude: true
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.zku-berlin.org/fileadmin/_processed_/3/a/csm_Portrait_by_Roman_Konovalov_Moscow_2020_7f42f4da6f.jpg
 credits:
 ---

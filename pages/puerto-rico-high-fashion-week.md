@@ -1,9 +1,9 @@
 ---
 title: Puerto Rico High Fashion Week
 permalink: puerto-rico-high-fashion-week
-layout: ai
-date: 2025-01-10
-update: 2025-01-18
+layout: crypto
+date: 2018-01-02
+update: 2025-01-23
 image: https://media.glamour.com/photos/5ad8f0d410f39129f940b536/master/w_1600%2Cc_limit/IMG_1514.jpg
 credits:
 ---

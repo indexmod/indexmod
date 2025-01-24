@@ -1,9 +1,9 @@
 ---
 title: Peshawar Fashion Week
 permalink: peshawar-fashion-week
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2018/10/26/f443ac9f381bee4659861b4e85b0a145.jpg?fit=2000%2C1271&quality=80&zoom=1&ssl=1
 credits:
 ---

@@ -1,9 +1,9 @@
 ---
 title: Pepperstein, Pavel
 permalink: pepperstein-pavel
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://upload.wikimedia.org/wikipedia/commons/1/11/%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB_%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD.jpg
 credits:
 ---

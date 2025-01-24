@@ -1,9 +1,9 @@
 ---
 title: Partizaning (gorup)
 permalink: partizaning-gorup
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://sun9-24.userapi.com/s/v1/ig2/IKi92laJc7-EUJt02PWZo_Wz3KnBeC1ifhLg408ty7TfE6kF8h12AeveVDvuxbf4ttnwX2O55HrMR7MDr0yAzVzW.jpg?quality=95&as=32x43%2C48x64%2C72x96%2C108x144%2C160x213%2C240x320%2C360x479%2C480x639%2C540x719%2C640x852%2C720x959%2C961x1280&from=bu&u=5s3j0r7xLAkHCKE4rkTN6TP69gqaplREMKlZSrJNqvU&cs=606x807
 credits:
 ---

@@ -1,9 +1,9 @@
 ---
 title: Pitti Immagine
 permalink: pitti-immagine
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://www.modemonline.com/img/_upload/tradeshow/pitti_immagine/slideshow/pitti_immagine_20240614184504.jpg
 credits:
 ---

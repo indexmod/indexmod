@@ -1,9 +1,9 @@
 ---
 title: Penfield (одежда)
 permalink: penfield
-layout: ai
+layout: crypto
 date: 2018-01-02
-update: 2025-01-21
+update: 2025-01-24
 image: https://dz3aw12iizk17.cloudfront.net/cache/catalog/Penfield/penfield_bowerbirdge_jacket_black_1-870x1110.jpg
 credits:
 ---
