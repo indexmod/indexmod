@@ -4,33 +4,37 @@ permalink: artyomov-andrey
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://img.businessoffashion.com/resizer/v2/https%3A%2F%2Fprod-bof-media.s3.eu-west-1.amazonaws.com%2Fimport%2Fprofiles%2Fasset%2F1645400362279226%2Fandrey-artyomov_courtesy-1645400416343150.png?auth=089cb781653dd01b3d87ae94eac318a53d61f94baf3cf9574335750fc1c0a975&height=350
+credits: https://www.businessoffashion.com/people/andrey-artyomov/
 ---
 
 Andrey Artyomov is a prominent Russian fashion designer and stylist, best known as the founder and creative director of the brand **Walk of Shame** (WOS). His work is characterized by a playful and youthful aesthetic, which he captures through the brand's tongue-in-cheek name, reflecting a sense of humor and modernity in fashion[3][8].
 
-### Early Life and Education
+## Early Life and Education
+
 Artyomov was born in Ufa, a city in Southern Russia. He pursued his studies in fashion design at university, despite initial opposition from his father, who believed that a man should choose a more traditional career path[8].
 
-### Career Highlights
+## Career Highlights
+
 - **Walk of Shame**: Launched in 2014, Walk of Shame quickly gained recognition for its unique blend of streetwear and high fashion. The brand is celebrated for its bold designs and has become popular among young fashion enthusiasts[3].
 - **Styling Background**: Before establishing his brand, Artyomov worked in the Russian offices of prestigious fashion magazines such as L'Officiel and Tatler, where he honed his skills in styling and fashion curation[4].
 
-### Social Media Presence
+## Social Media Presence
+
 Artyomov maintains an active presence on social media platforms, particularly Instagram, where he shares insights into his work and personal style. His account has garnered a significant following, reflecting his influence in the fashion industry[1][5].
 
 Through his innovative designs and engaging personality, Andrey Artyomov continues to shape the contemporary fashion landscape in Russia and beyond.
 
-Citations:
-[1] https://www.instagram.com/andreyartyomov/
+## Citations
+
+**[1] https://www.instagram.com/andreyartyomov/
 [2] https://www.google.com/policies/faq
 [3] https://www.businessoffashion.com/people/andrey-artyomov/
 [4] https://www.showstudio.com/contributors/andrey_artyomov
 [5] https://www.instagram.com/andreyartyomov/reels/
 [6] https://www.facebook.com/artyomov/
 [7] https://www.instagram.com/andreyartyomov/p/DCwVBDcCVe4/
-[8] https://www.vogue.com/article/walk-of-shame-andrey-artyomov-russian-designer
+[8] https://www.vogue.com/article/walk-of-shame-andrey-artyomov-russian-designer**
 
 ## Indexmod 20 Топ 2025
 

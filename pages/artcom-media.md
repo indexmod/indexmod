@@ -4,7 +4,7 @@ permalink: artcom-media
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/artcom-media.jpg
 credits:
 ---
 
@@ -55,15 +55,16 @@ ARTCOM Media is located in Moscow at:
 
 For more information or inquiries, potential clients can reach out through their official channels on social media platforms like Instagram and Facebook[1][5].
 
-Citations:
-[1] https://www.instagram.com/artcommedia/
+## Citations
+
+**[1] https://www.instagram.com/artcommedia/
 [2] https://art-com.ru/en
 [3] https://www.instagram.com/explore/locations/12377302/artcom-media/
 [4] https://www.artcom-berlin.com
 [5] https://www.facebook.com/artcommedia/
 [6] https://www.youtube.com/playlist?list=PLJrvbZRxXLicAdNj0t3vLVHjXNvPZecFm
 [7] https://www.facebook.com/artcommedia/photos/
-[8] https://tadviser.com/index.php/Company:Artcom_Media_Group_(ACMG)
+[8] https://tadviser.com/index.php/Company:Artcom_Media_Group_(ACMG)**
 
 A publishing house part of Russian media holding company, established in 1995, specializes in the publication of licensed versions of foreign magazines, includes publishing group Artcom Media, advertising, digital and event agency.
 
@@ -81,7 +82,7 @@ Magazines about fashion and lifestyle:  Numéro, Port, SNC, Golf Digest. Publica
 
 ## The Uskov's scandal
 
-In 2018, the Editor of the Russian edition of Forbes Nikolai Uskov was dismissed by the decision of the owner; As reasons for dismissal, dissatisfaction with the quality of Uskov's work and his repeated participation in "outside events of other brands" were cited. According to Uskov himself, the real reason for the dismissal was the conflict between him and the owner of the publication, Alexander Fedotov <span id="a2">[\[2\]](#f2)</span>.
+In 2018, the Editor of the Russian edition of Forbes Nikolai Uskov was dismissed by the decision of the owner; As reasons for dismissal, dissatisfaction with the quality of Uskov's work and his repeated participation in "outside events of other brands" were cited. According to Uskov himself, the real reason for the dismissal was the conflict between him and the owner of the publication, Alexander Fedotov.
 
 ## President
 

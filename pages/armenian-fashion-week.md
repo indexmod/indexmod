@@ -4,8 +4,8 @@ permalink: armenian-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
-credits:
+image: https://api.armenia.travel/storage/webp/Yerevan-Fashion-Week-2024-672db75fe220a.webp
+credits: https://armenia.travel/events/yerevan-fashion-week-2024/
 ---
 
 Yerevan Fashion Week has emerged as a significant cultural event in Armenia, showcasing the country's rich heritage and the creativity of its designers. The most recent edition, **Yerevan Fashion Week 2024**, took place from **November 8 to 10, 2024**, transforming the streets of Yerevan into vibrant runways where fashion met cultural expression.
@@ -26,15 +26,16 @@ Yerevan Fashion Week has emerged as a significant cultural event in Armenia, sho
 
 Yerevan Fashion Week symbolizes hope and opportunity for a new generation of Armenian designers. With continued support from industry leaders and a commitment to showcasing local talent, the event is poised to become a staple in the global fashion calendar, fostering both cultural pride and creative innovation in Armenia[1][4].
 
-Citations:
-[1] https://www.thearmenianreport.com/post/fashion-designers-transform-armenian-streets-into-runways-at-yerevan-fashion-week-2024
+## Citations
+
+**[1] https://www.thearmenianreport.com/post/fashion-designers-transform-armenian-streets-into-runways-at-yerevan-fashion-week-2024
 [2] https://www.youtube.com/watch?v=35Mi4fHMTaQ
 [3] https://www.lemilemagazine.com/yerevan-fashion-week
 [4] https://armenia.travel/events/yerevan-fashion-week-2024/
 [5] https://www.instagram.com/fdc_armenia/
 [6] https://www.lemilemagazine.com/specials/yerevan-fashion-week-2024
 [7] https://evnreport.com/lifestyle/yerevan-fashion-week-makes-waves/
-[8] https://visityerevan.am/events/details/1034/en/
+[8] https://visityerevan.am/events/details/1034/en/**
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
 
