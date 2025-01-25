@@ -82,23 +82,8 @@ image: /logo.png
 
             let items = [
                 {% for page in site.pages %}
-                {% assign clean_title = page.title
-                    | replace: '-', ' '
-                    | replace: '.', ' '
-                    | replace: '(', ' '
-                    | replace: ')', ' '
-                    | replace: ',', ' '
-                %}
-                {% assign words = clean_title | split: ' ' %}
-                {% assign first_part = words[0] | slice: 0,4 | upcase %}
-                {% assign initials = '' %}
-                {% for word in words offset:1 %}
-                    {% assign first_letter = word | slice: 0,1 | upcase %}
-                    {% assign initials = initials | append: first_letter %}
-                {% endfor %}
-
                 {
-                    token: "{{ first_part }}{{ initials }}",
+                    token: "{{ forloop.index }}",  // Порядковый номер
                     title: "{{ page.title }}",
                     image: "{{ page.image }}"
                 },
@@ -122,7 +107,7 @@ image: /logo.png
                     // Обновляем текстовые элементы и картинку
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
-                    imageElement.src = currentItem.image || '';
+                    imageElement.src = currentItem.image || '/images/black.jpg';
 
                     // Плавно показываем новые элементы
                     setTimeout(() => {
