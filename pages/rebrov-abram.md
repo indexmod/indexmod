@@ -4,8 +4,8 @@ permalink: rebrov-abram
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/rebrov-abram.jpg
-credits:
+image: https://thb.tildacdn.com/tild3966-6136-4662-a664-666161653962/-/resize/504x/73809347-5126-4305-9.jpeg
+credits: https://vyksaair.com/rebrov
 ---
 
 
