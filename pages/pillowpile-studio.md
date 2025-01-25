@@ -4,7 +4,7 @@ permalink: pillowpile-studio
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image:
+image: /images/pillowpile-studio.jpg
 credits:
 ---
 
@@ -12,7 +12,8 @@ PillowPile Studio is a creative animation studio located in Berlin that speciali
 
 While the search results provide limited details about the studio, they emphasize PillowPile Studio's commitment to storytelling through animation, using a unique and appealing visual style to communicate product messages.
 
-Citations:
+## Citations
+
 [1] http://pillowpile.studio
 
 ## Conspectus

@@ -29,7 +29,8 @@ The PFDC has also demonstrated commitment to social responsibility, partnering w
 
 The eleventh PFDC Sunsilk Fashion Week officially commenced on March 9, 2018, marking the ninth consecutive year of the prêt a porter platform[5].
 
-Citations:
+## Citations
+
 [1] https://europaregina.eu/fashion-weeks/fashion-weeks-asia/pfdc-sunsilk-fashion-week/
 [2] https://en.wikipedia.org/wiki/PFDC_Fashion_Week
 [3] https://www.gettyimages.co.uk/photos/pfdc-sunsilk-fashion-week

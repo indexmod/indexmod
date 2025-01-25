@@ -28,7 +28,8 @@ Pavlensky continues to engage in controversial performances that challenge socie
 
 Pavlensky's approach has made him a polarizing figure; while some view him as a courageous advocate for freedom of expression, others criticize his methods as reckless or harmful. Regardless, his contributions to contemporary art continue to provoke thought and dialogue around power dynamics in society[2][1].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Petr_Pavlensky
 [2] https://www.zirartmag.com/2021/06/02/art-and-activism-the-subversive-actions-by-petr-pavlensky/
 [3] https://www.bbc.co.uk/news/world-europe-41650245

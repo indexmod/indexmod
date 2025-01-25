@@ -33,7 +33,8 @@ Pittsburgh Fashion Week not only serves as a platform for showcasing talent but 
 
 In summary, Pittsburgh Fashion Week continues to grow as a significant cultural event that celebrates creativity while promoting sustainability and community engagement within the fashion industry.
 
-Citations:
+## Citations
+
 [1] https://www.pghfw.com
 [2] https://en.wikipedia.org/wiki/Pittsburgh_Fashion_Week
 [3] https://www.inspiringlivesmagazine.com/fashion-beauty/pittsburgh-fashion-week-2024-a-transformative-showcase-of-creativity-and-community/

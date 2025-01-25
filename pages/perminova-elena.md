@@ -24,7 +24,8 @@ Perminova entered a long-term relationship with Alexander Lebedev, with whom she
 
 In a personal update at the end of 2024, Perminova announced her separation from Lebedev, stating "Even the most beautiful stories come to an end"[3].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/lenaperminova/?hl=ru
 [2] https://teleprogramma.org/persons/elena-perminova
 [3] https://24smi.org/celebrity/2705-elena-perminova.html

@@ -43,7 +43,8 @@ Joines is known for:
 
 Customers consistently praise Joines for his expertise, patience, and commitment to creating exceptional jewellery pieces that exceed expectations.
 
-Citations:
+## Citations
+
 [1] https://www.polisheddiamonds.co.nz/about-us
 [2] https://www.polisheddiamonds.co.nz/testimonials
 [3] https://nz.linkedin.com/in/daniel-joines-19884b36

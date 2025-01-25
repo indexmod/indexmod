@@ -24,7 +24,8 @@ The project emerged during a period of new artistic movements in Russia followin
 
 A notable perspective from Ksenia Mokrushina, an urban planning expert, describes Partizaning as a crucial movement that awakens **civic consciousness** and creates a demand for urban changes "from the bottom up"[3].
 
-Citations:
+## Citations
+
 [1] https://www.setters.media/article/strit-art-i-iskusstvo-blagoustroystva
 [2] https://www.brooklynstreetart.com/2021/06/01/bsa-writers-bench-igor-posonov-with-poetry-philosophy-manifestos-in-russian-streets/
 [3] https://www.hse.ru/news/72572009.html
@@ -35,7 +36,7 @@ Citations:
 [8] http://igor-ponosov.ru/english/?page_id=2
 
 
-# See also
+## See also
 
 + [Partizaning (disambiguation)](partizaning-disambiguation)
 + [Anton Polsky (Make)](polsky-anton-make)

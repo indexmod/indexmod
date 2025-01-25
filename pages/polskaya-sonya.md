@@ -23,7 +23,8 @@ Polskaya's work often intersects with themes of activism and social engagement, 
 
 For more detailed information about her projects and contributions, you can explore her profiles on social media or professional networking sites.
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/sonya.polskaya/?locale=ru_RU
 [2] https://www.instagram.com/sonynpony/
 [3] https://www.instagram.com/sonynpony/p/DE4063Bir5_/

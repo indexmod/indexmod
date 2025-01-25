@@ -4,7 +4,7 @@ permalink: pivnich-magazine
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image:
+image: /images/pivnich-magazine.jpg
 credits:
 ---
 
@@ -16,7 +16,8 @@ Pivnich Magazine is an independent electronic music magazine focused on Ukrainia
 
 The magazine seems particularly interested in promoting independent electronic music, providing a platform for artists and musical discoveries from Ukraine and surrounding areas[2][6]. While the search results provide limited detailed information about the magazine's founding or complete history, they demonstrate its active engagement with digital music platforms and independent music scenes.
 
-Citations:
+## Citations
+
 [1] https://soundcloud.com/pivnich-magazine
 [2] https://www.youtube.com/channel/UC040IkYjVk_KI0NczynAKBQ
 [3] https://soundcloud.com/user-639715464/progressive-future-for-pivnich-magazine-vol2/sets
@@ -27,10 +28,8 @@ Citations:
 [8] https://yandex.ru/maps/org/sever/20106715290/
 
 
-# See also
+## See also
 
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
 + Strichka Festival
 + Ambience
 + Wulffius

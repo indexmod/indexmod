@@ -32,7 +32,8 @@ The city has several platforms for fashion professionals to connect, such as the
 
 The Phoenix Art Museum also contributes to the fashion scene, featuring a collection of mid-century haute couture from designers like Charles James, Balenciaga, and Givenchy[8].
 
-Citations:
+## Citations
+
 [1] https://www.arizonafoothillsmagazine.com/features/features/1371-dressed-for-success.html
 [2] https://phoenixfashionweek.com/designers/
 [3] https://phoenixfashionweek.com

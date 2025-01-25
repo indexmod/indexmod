@@ -44,7 +44,8 @@ The event has also attracted international attention, with designers from PhFW h
 
 The 2025 season focuses on **global collaboration** and positioning Filipino fashion on the international stage, creating opportunities for local designers to showcase their creativity and innovation[4].
 
-Citations:
+## Citations
+
 [1] https://www.philippinefashionweek.com
 [2] https://en.wikipedia.org/wiki/Philippine_Fashion_Week
 [3] https://europaregina.eu/fashion-weeks/fashion-weeks-asia/philippine-fashion-week/

@@ -25,7 +25,8 @@ Several fashion-related events are happening in Puebla in 2024:
 
 These events highlight Puebla's vibrant fashion and textile scene, offering platforms for local and international designers to showcase their work.
 
-Citations:
+## Citations
+
 [1] https://textile-academy.org/beyond-fashion-fab24/
 [2] https://www.fibre2fashion.com/trade-fairs/exintex-2024-62244
 [3] https://www.instagram.com/designweekpuebla/p/DDPfAZix0cA/

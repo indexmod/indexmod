@@ -4,13 +4,11 @@ permalink: pouhoff-yan
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image:
+image: /images/pouhoff-yan.jpg
 credits:
 ---
 
 ## From Bio
-
-`Neutral point of view is necessary here`
 
 He often works on the set not only as a photographer, but also as a stylist, creating an image with his famous make-up, he delivers a completely "his" product -- finished and perfect.
 He goes his own way, not walking over others, but constantly encountering obstacles and misunderstandings, envy and unprofessionalism, and as a result he created his own style, which is easily recognizable at first sight.

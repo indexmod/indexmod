@@ -26,7 +26,8 @@ The event attracted significant attention, with various highlights captured thro
 
 The closing day of the event was particularly memorable, with Plaza Indonesia sharing highlights from the final day of the fashion week[8]. Social media platforms like Instagram and YouTube were used to document and share the event's most exciting moments[3][5][6].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/plazaindonesia/p/C-9hh6vSqe_/
 [2] https://www.instagram.com/plazaindonesia/p/C-_2EgDyPuY/
 [3] https://www.instagram.com/zamri69/reel/C_nT2VzSZY8/

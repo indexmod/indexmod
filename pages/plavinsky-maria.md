@@ -28,7 +28,8 @@ Maria Plavinskaya is recognized for using photographs as a starting point to cre
 
 Maria Plavinskaya continues to be an active artist in the contemporary Russian art scene, with her work exploring innovative approaches to visual representation.
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/maria.plavinsky/
 [2] https://www.erarta.com/en/museum/collection/artists/detail/author-00263/
 [3] https://www.erarta.com/en/calendar/exhibitions/detail/bbb2f567-b59c-11e3-ad5a-8920284aa333/

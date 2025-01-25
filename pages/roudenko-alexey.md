@@ -16,7 +16,8 @@ Roudenko's professional experience includes working with Radugadesign, a company
 
 With a career spanning over a decade, Roudenko joined Behance on October 28, 2013, and has since been featured in various categories including Set, Props & Costume, Exhibition & Signage, 3D Motion, and After Effects[1]. His work demonstrates a fusion of technology and artistry, appealing to a wide audience in the digital art world.
 
-Citations:
+## Citations
+
 [1] https://www.behance.net/alexey_roudenko
 [2] https://www.instagram.com/meetjay/
 [3] https://www.instagram.com/arthew0/

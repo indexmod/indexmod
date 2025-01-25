@@ -27,7 +27,8 @@ The Proun movement emerged during a time of significant social and political cha
 
 Proun had a lasting impact on abstract art and design, influencing various fields including architecture, graphic design, and typography. It represented a significant step in the development of non-objective art and the integration of art with technology and everyday life[3].
 
-Citations:
+## Citations
+
 [1] https://www.moma.org/collection/works/79040
 [2] https://blog.dma.org/2023/03/08/nature-and-the-machine-biocentrism-in-el-lissitzkys-kestner-proun/
 [3] https://thecharnelhouse.org/2013/09/16/proun/

@@ -45,7 +45,8 @@ The brand has collaborated with various institutions, including:
 
 The brand continues to be active in the Russian fashion and design scene, with the founder also working as a curator for fashion design education at the Higher School of Economics[2][3].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/panikaderevya/
 [2] https://design.hse.ru/team/24310
 [3] https://www.instagram.com/panikaderevya/

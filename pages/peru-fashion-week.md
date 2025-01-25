@@ -34,7 +34,8 @@ Some prominent Peruvian fashion brands include:
 
 While the exact dates and full details of Peru Fashion Week are not comprehensively provided in the search results, it is clearly an important platform for showcasing Peru's rich fashion design ecosystem.
 
-Citations:
+## Citations
+
 [1] https://perufashionweekend.com
 [2] https://copenhagenfashionweek.com/event/velada-de-moda-peruana-by-promper%C3%BA-white-label-project
 [3] https://universomola.com/peru-is-present-at-paris-fashion-week/

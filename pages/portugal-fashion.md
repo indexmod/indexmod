@@ -33,7 +33,8 @@ Portuguese fashion influencers are currently embracing trends such as:
 
 The Portugal Fashion event continues to be a crucial platform for showcasing and promoting Portuguese design and creativity in the fashion industry.
 
-Citations:
+## Citations
+
 [1] https://portugalfashion.com/en/
 [2] https://oladaniela.com/made-in-portugal-sustainable-portuguese-fashion-brands/
 [3] https://en.wikipedia.org/wiki/Portugal_Fashion

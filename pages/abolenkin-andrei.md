@@ -31,7 +31,8 @@ Abolenkin has been featured in various media outlets:
 
 Andrei Abolenkin's long-standing career and diverse involvement in the fashion industry, from analysis to education and consulting, have established him as a respected figure in Russian fashion circles.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/a.abolenkin/
 [2] https://britishdesign.ru/about/tutors/225342/
 [3] https://abolenkin.livejournal.com

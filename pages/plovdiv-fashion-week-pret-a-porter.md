@@ -27,7 +27,8 @@ In addition to the regular fashion week events, Plovdiv will also host the **Tex
 
 Plovdiv Fashion Week continues to be a vital platform for fashion innovation in Bulgaria, fostering creativity and collaboration within the industry.
 
-Citations:
+## Citations
+
 [1] https://www.fair.bg/en/news/news/2024/plovdiv-to-be-world-capital-of-fashion-again-between-september-26-and-28
 [2] https://europaregina.eu/fashion-weeks/fashion-weeks-europe/plovdiv-fashion-week/
 [3] https://europaregina.eu/fashion-weeks/fashion-weeks-europe/fashion-week-bulgaria/

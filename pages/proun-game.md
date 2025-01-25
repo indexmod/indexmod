@@ -28,7 +28,8 @@ credits:
 
 Проун+ - это версия игры, разработанная Engine Software для iOS и Nintendo[8], в то время как оригинальная версия была выпущена для Windows[1].
 
-Citations:
+## Citations
+
 [1] https://www.mobygames.com/game/52263/proun/
 [2] https://dutchgameindustry.directory
 [3] https://www.igromania.ru/game/9224/Proun.html

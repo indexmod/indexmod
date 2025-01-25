@@ -4,7 +4,7 @@ permalink: pops
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image:
+image: /images/pops.jpg
 credits:
 ---
 

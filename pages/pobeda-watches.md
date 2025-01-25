@@ -42,7 +42,8 @@ Interesting specifications of a typical Pobeda ZIM model include:
 - Case thickness: 10.6mm
 - Weight: Approximately 1 ounce (28g)[5]
 
-Citations:
+## Citations
+
 [1] https://soviet-box.com/pobeda
 [2] https://en.wikipedia.org/wiki/Pobeda_(watch)
 [3] https://raketa.com/w/en/brand-pobeda/

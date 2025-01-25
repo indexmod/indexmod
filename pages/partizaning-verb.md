@@ -23,7 +23,8 @@ credits:
 **Примечание**:
 Российскому движению "Партизанинг" посвящен сайт, созданный художниками Игорем Поносовым и Антоном Польским, которые занимаются теоретической разработкой этого понятия[1].
 
-Citations:
+## Citations
+
 [1] https://paperpaper.io/baffing-partizaning-i-zhek-art-kak-govo/
 [2] http://rinpo.suitd.ru/docs/content/vestnik_mu_2_2024.pdf
 [3] https://cyberleninka.ru/article/n/o-vyschipe-tsvetov-i-vyderge-travy-ili-spor-ob-umestnosti-upotrebleniya-v-russkom-yazyke-otglagolnyh-imen
@@ -33,7 +34,7 @@ Citations:
 [7] http://igor-ponosov.ru/?p=1000
 [8] https://glagol38.ru/text/15-05-2023/011
 
-# See also
+## See also
 
 + [Partizaning (disambiguation)](partizaning-disambiguation)
 + [Anton Polsky (Make)](polsky-anton-make)

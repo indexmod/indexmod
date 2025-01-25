@@ -23,7 +23,8 @@ Pirate TV was more than just a television project; it was a form of artistic exp
 
 The project highlighted Mamyshev-Monroe's innovative approach to art, blending performance, video art, and social commentary. It positioned him as a key figure in the first wave of video artists to emerge in the Post-Soviet era[2][3].
 
-Citations:
+## Citations
+
 [1] https://www.e-e.eu/Pirate-Television/
 [2] https://baibakovartprojects.wordpress.com/2013/03/22/in-memory-of-vlad-mamyshev-monroe-1969-2013/
 [3] http://manifesta10.org/en/artists/vladislav-mamyshev-monroe/

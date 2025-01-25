@@ -39,7 +39,8 @@ Paris Fashion Week (PFW) является одной из четырех сам�
 
 Paris Fashion Week по праву считается кульминацией сезона в мире моды, демонстрируя самые передовые тренды и коллекции[1][3].
 
-Citations:
+## Citations
+
 [1] https://elle.ua/ru/moda/fashion-blog/london-nyu-york-parizh-milan-chem-otlichaetsya-nedelya-modi-v-kazhdom-gorode-bolshoy-chetverki/
 [2] https://vogue.ua/ru/article/fashion/brend/bolshaya-chetverka-kratkaya-istoriya-nedeli-mody-v-parizhe-33385.html
 [3] https://www.aircharterservice.com/about-us/news-features/blog/when-where-and-how-to-get-there-2024s-big-four-fashion-weeks

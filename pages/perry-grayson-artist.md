@@ -24,7 +24,8 @@ credits:
 
 Грейсон Перри продолжает оставаться влиятельной фигурой в современном искусстве, используя свою платформу для обсуждения актуальных социальных вопросов через призму своего уникального художественного подхода.
 
-Citations:
+## Citations
+
 [1] https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D1%80%D0%B8,_%D0%93%D1%80%D0%B5%D0%B9%D1%81%D0%BE%D0%BD
 [2] https://www.livelib.ru/author/990879/top-grejson-perri
 [3] https://www.artnet.com/artists/grayson-perry/

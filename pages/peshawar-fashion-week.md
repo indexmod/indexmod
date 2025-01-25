@@ -23,7 +23,8 @@ Several fashion shows have been held in Peshawar over the years, including:
 
 The event's primary goal is to promote local fashion and support regional designers, particularly highlighting the products of women designers[8].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Fashion_Pakistan_Week
 [2] https://www.alamy.com/stock-photo/a-fashion-show-peshawar.html
 [3] https://www.instagram.com/pakistan_fashion_week/

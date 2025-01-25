@@ -42,7 +42,8 @@ Partizaning has engaged in various urban interventions, including:
 
 The project maintains websites in both Russian and English, launched its international edition on March 4, 2012, and continues to inspire grassroots urban activism worldwide[2].
 
-Citations:
+## Citations
+
 [1] https://www.urbanista.org/issues/local-eyes/features/partizaning-participatory-art-research-and-creative-urban-activism
 [2] https://ressource0.fr/partizaning/
 [3] https://www.cappnetwork.com/capp-project/partizaning-maunula/

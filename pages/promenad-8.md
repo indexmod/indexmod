@@ -4,20 +4,17 @@ permalink: promenad-8
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image:
+image: /images/promenad-8.jpg
 credits:
 ---
 
 (Rus. «Променад 8», 2018, Moscow) is a multimedia concert of eight parts created and performed by [Andrei Deinichenko](deinichenko-andrei) to the anniversary of the creation of the fellowship [Eta](eta-fellowship) <span id="a1">[\[1\]](#f1)</span>.
 
-
-![](/encyclopedia/images/list.png)
-
 **Concerto program**
 
 *Photo: [Eta](eta) / [Eta](eta)*
 
-# {{page.title}} Conspectus
+## Conspectus
 
 |Years|Compositions|Authors|
 |-|-|-|
@@ -30,22 +27,16 @@ credits:
 |2017|Ice melts (Between us)|Gryby, Youry Bardash|
 |1869|Entry of the Gods Into Valhalla|Richard Wagner|
 
-# Premiere perfomance
+## Premiere perfomance
 
 The Premiere perfomance of the concert took place in the object of cultural heritage of the city of Moscow "The Chambers of the Ukrainian" (Палаты Украинцева) in Khokhlovskiy Lane. In 18-th centyry there was the archive of the Ministry of Foreign Affairs, Russian Imperator Nicholas sent poet Alexander Pushkin with the commission to compile the history of the Pugachev Rebellion. Also before the Russian Revolution the music publishing house of Jurgenson was located. Today (2018) the offices of experts in marketing, the group "Communicator" are located in the chambers.
 
-# {{page.title}} Indexmod
-
-|Year|Facebook|Instagram|YouTube|Age|IMD|
-|-|-|-|-|-|
-|2018|100 <span id="a3">[\[3\]](#f3)</span>|200 <span id="a4">[\[4\]](#f4)</span>|300 <span id="a4">[\[4\]](#f4)</span>|12|0,0025|
-
-# See also
+## See also
 
 + [Eta (fellowship)](eta-fellowship)
 + [Maxim Tuzhikov](tuzhikov-maxim)
 + [Victor Michaelson](michaelson-victor)
 
-# Footnotes
+## Footnotes
 
 [[2]](#a2) <span id="f2"></span> [Товарищество «Эта» представит последние мультимедийные разработки в палатах Украинцева (Пресс-релизы, E-t-a.space)](http://e-t-a.space//14-февраля-2018)

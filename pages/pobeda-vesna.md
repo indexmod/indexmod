@@ -28,7 +28,8 @@ The Vesna (meaning "spring" in Russian) brand was a successful watch line until 
 
 The Pobeda "Vesna" collection represents a modern continuation of this historic Russian watchmaking tradition, offering an affordable and stylish timepiece for women[5].
 
-Citations:
+## Citations
+
 [1] https://www.flickr.com/photos/137612128@N07/37331009864
 [2] https://mroatman.wixsite.com/watches-of-the-ussr/pobeda
 [3] https://www.instagram.com/pobedawatches_com/

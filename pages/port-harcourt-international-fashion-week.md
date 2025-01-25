@@ -31,7 +31,8 @@ The most recent events have focused on innovation and sustainability. The 2023 e
 
 The event continues to be a significant showcase of fashion creativity in Nigeria, supporting both established and emerging designers in the fashion industry.
 
-Citations:
+## Citations
+
 [1] https://guardian.ng/saturday-magazine/port-harcourt-fashion-week-2023-set-to-enhance-growth-sustainability/
 [2] https://en.wikipedia.org/wiki/Port_Harcourt_International_Fashion_Week
 [3] https://www.portharcourtfashionweek.com

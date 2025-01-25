@@ -30,7 +30,8 @@ Jene Park is a prominent fashion industry professional with an extensive career 
 ## Personal Philosophy
 Jene Park is passionate about creating, evolving in her industry, and mentoring the next generation of fashion professionals. She values hard work, creativity, and connecting with people who share similar sensibilities[3].
 
-Citations:
+## Citations
+
 [1] https://ineedabookcover.com/designers/june-park/
 [2] https://www.linkedin.com/in/jene-park-3072708
 [3] https://www.theprojectforwomen.com/inspiration/jene-park/

@@ -26,7 +26,8 @@ Her entry into the cannabis industry began when she discovered the Cannabis Femi
 
 Perelman describes herself as a "serial connector of people and things" who believes in bringing people together to create positive change[3]. Her work emphasizes community building, brand strategy, and innovative event experiences across various industries.
 
-Citations:
+## Citations
+
 [1] https://www.thinkingoutsidethebud.com/podcast/090-sasha-perelman
 [2] https://nzpod.co.nz/podcast/maria-jane-women-in-cannabis-business/sasha-perelman-founder-of-revolver-productions-tal
 [3] https://musebyclios.com/higher-calling/liz-santana-and-sasha-perelman-their-cannabis-pop-nyc/

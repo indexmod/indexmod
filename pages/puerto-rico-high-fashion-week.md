@@ -16,7 +16,8 @@ While specific dates for the upcoming Puerto Rico High Fashion Week are not prov
 
 Puerto Rico High Fashion Week plays a crucial role in promoting the island's fashion industry and showcasing Latin-inspired designs. It contributes to Puerto Rico's cultural and economic landscape by attracting visitors and putting the spotlight on local talent in the global fashion arena.
 
-Citations:
+## Citations
+
 [1] https://www.dn-mag.com/fashion-glossary/puerto-rico-high-fashion-week/
 [2] https://www.facebook.com/PRHFW/
 [3] https://twitter.com/prhfw

@@ -39,7 +39,8 @@ His work has been praised by notable figures like Marina Abramović, who describ
 
 His works are held in collections including the Museu de Arte do Rio, Moscow Museum of Modern Art, and the Design Museum in London[2].
 
-Citations:
+## Citations
+
 [1] https://fyodorpavlovandreevich.com
 [2] https://en.wikipedia.org/wiki/Fyodor_Pavlov-Andreevich
 [3] https://gazelliarthouse.com/artists/fyodor-pavlov-andreevich/biography/

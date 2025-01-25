@@ -29,7 +29,8 @@ The fashion week showcases:
 
 The most recent Panama Fashion Week was held from September 20-24, 2023, continuing its tradition of being a premier fashion platform in Central America[3]. The event has evolved over the years, expanding its scope and international visibility, and now serves as a marketing tool for various industries beyond fashion, including technology, nutrition, and personal care[2].
 
-Citations:
+## Citations
+
 [1] https://fashionweekpanama.com
 [2] https://europaregina.eu/fashion-weeks/fashion-weeks-central-america-and-caribbean/fashion-week-panama/
 [3] https://fashionunited.com/events/Fashion-Week-Panama

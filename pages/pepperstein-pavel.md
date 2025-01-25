@@ -38,7 +38,8 @@ Beyond visual art, Pepperstein is also:
 
 His work continues the tradition of the Moscow Conceptual School, offering complex, multilayered commentary on social and political realities through a unique artistic lens[2].
 
-Citations:
+## Citations
+
 [1] https://www.dscgallery.com/en/artists/28?tab=bio
 [2] https://en.wikipedia.org/wiki/Pavel_Pepperstein
 [3] https://www.sprovieri.com/exhibitions/pavel-pepperstein3

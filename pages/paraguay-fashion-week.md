@@ -32,7 +32,8 @@ Vasquez's key recommendation for young Paraguayans interested in fashion: "Study
 
 The event has become increasingly international and attracts over 25,000 people across four days[7], cementing its position as the largest fashion event in Paraguay.
 
-Citations:
+## Citations
+
 [1] https://asunciontimes.com/culture/art/asuncion-fashion-week-launches-with-the-exclusive-tanya-maldonado-fashion-show/
 [2] https://www.instagram.com/afwoficial/
 [3] https://www.facebook.com/asuncionfashionweek/?locale=en_GB

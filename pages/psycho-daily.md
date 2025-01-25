@@ -4,7 +4,7 @@ permalink: psycho-daily
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/psycho-daily.jpg
 credits:
 ---
 
@@ -22,7 +22,8 @@ While the search results provide basic information about the Psycho Daily accoun
 - Instagram: @psycho_daily
 - SoundCloud: psycho daily
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/psycho_daily/
 [2] https://www.dailyscript.com/scripts/psycho_revised.html
 [3] https://www.psychologytoday.com/us

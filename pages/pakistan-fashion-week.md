@@ -24,7 +24,8 @@ Pakistan Fashion Week (PFW) is a prominent annual fashion event held in Karachi,
 
 Overall, Pakistan Fashion Week plays a crucial role in promoting the country's fashion industry, providing a platform for creativity while fostering cultural exchange.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Fashion_Pakistan_Week
 [2] https://pwcta.com/fashion-week-2024/
 [3] https://www.instagram.com/pakistan_fashion_week/

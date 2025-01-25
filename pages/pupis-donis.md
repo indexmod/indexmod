@@ -19,7 +19,8 @@ Donis Pupis is a Cypriot fashion designer who co-founded the avant-garde brand N
 
 Nina Donis's designs are characterized by their avant-garde approach, drawing inspiration from various themes including Russian avant-garde, workwear, constructivism, Pushkin's tales, Suprematism, Russian cinema, art, folk costumes, Soviet rock, and propaganda posters of the USSR[1].
 
-Citations:
+## Citations
+
 [1] https://asthik.com/en/nina-donis/
 [2] https://www.rbth.com/lifestyle/326447-russian-fashion-designers-buy-online
 [3] https://www.familysearch.org/en/wiki/United_States,_World_War_II_Draft_Registration_Cards,_1942_Digital_Folder_Number_List

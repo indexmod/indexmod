@@ -31,7 +31,8 @@ The centre aims to foster artistic education, creation, and art appreciation in 
 
 The PinchukArtCentre continues to play a significant role in promoting contemporary art and supporting emerging Ukrainian artists through various programs and exhibitions.
 
-Citations:
+## Citations
+
 [1] https://new.pinchukartcentre.org/en
 [2] https://en.wikipedia.org/wiki/PinchukArtCentre
 [3] https://pinchukfund.org/en/projects/6/

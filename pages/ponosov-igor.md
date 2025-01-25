@@ -30,7 +30,8 @@ Between 2005 and 2009, Ponosov published three books on street art in Russia and
 **Interdisciplinary Interests**
 Beyond urban art, Ponosov is interested in contemporary art, activism, performances, and conceptual practices[8].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/igor_ponosov/
 [2] https://lleditions.se/collaborator/igor-ponosov/
 [3] https://www.zku-berlin.org/people/igor-ponosov/

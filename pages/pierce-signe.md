@@ -40,7 +40,8 @@ Pierce also records music under the name **Big Sister** and collaborated with pr
 
 Pierce continues to push artistic boundaries, using her multidisciplinary approach to question and explore contemporary experiences of reality and identity.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/signepierce/
 [2] https://www.annkakultys.com/artists/signe-pierce/
 [3] https://metalmagazine.eu/en/post/signe-pierce-neo-noir-feminism-url-to-irl-jos-porath

@@ -30,7 +30,8 @@ By documenting examples of art-based activism worldwide through its website, Par
 
 Overall, Partizaning represents a significant shift towards participatory urbanism in Russia, where artists and citizens collaborate to reclaim public spaces and foster community engagement in urban planning processes.
 
-Citations:
+## Citations
+
 [1] https://www.instituteforpublicart.org/case-studies/partizaning/
 [2] https://www.urbanista.org/issues/local-eyes/features/partizaning-participatory-art-research-and-creative-urban-activism
 [3] https://www.cappnetwork.com/capp-project/partizaning-maunula/
@@ -60,8 +61,7 @@ Movement founded by a group of street art activists in Moscow in beginning of 10
 
 *Photo: [Make](index) / [Facebook](index)*
 
-
-# See also
+## See also
 
 + [Partizaning (disambiguation)](partizaning-disambiguation)
 + [Anton Polsky (Make)](polsky-anton-make)

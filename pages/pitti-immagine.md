@@ -28,7 +28,8 @@ Pitti Immagine организует международные салоны и �
 
 Компания является значимой платформой для профессионалов fashion-индустрии, где встречаются дизайнеры, байеры и представители мировой моды[5][6].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/Pittimmagine/?locale=ru_RU
 [2] https://www.pittimmagine.com/en/focuson/fondazione-pitti-immagine-discovery
 [3] https://uomo.pittimmagine.com

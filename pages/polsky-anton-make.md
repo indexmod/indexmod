@@ -16,7 +16,8 @@ As an artist and researcher, Polsky focuses on street art and its intersection w
 
 In addition to his artistic practice, Polsky works as a university lecturer and board game designer[4]. He has participated in various art residencies, including one in Odesa, Ukraine, in October 2019[2]. As of 2025, Polsky is based in Berlin, Germany, where he continues his work at the intersection of art, activism, and urban studies[4][5].
 
-Citations:
+## Citations
+
 [1] https://cac.lt/en/event/anton-polskys-make-lecture-the-tactics-of-urban-activism-to-involve-citizens-in-the-process-of-self-control-city/
 [2] https://www.flickr.com/photos/open_place_ua/49053781557
 [3] https://russianartarchive.net/en/catalogue/person/PMRA
