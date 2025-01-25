@@ -12,7 +12,7 @@ exclude: true
     <style>
         body {
             background: black;
-            color: white;
+            color: #d3d3d3; /* Светло-серый цвет текста */
             font-family: Arial, sans-serif;
             margin: 0;
             overflow: hidden;
@@ -40,6 +40,7 @@ exclude: true
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
+            color: #FFA500; /* Оранжевый цвет для токена */
         }
 
         .fade-in {
@@ -82,6 +83,7 @@ exclude: true
         }
     </style>
 </head>
+
 <body>
     <div class="content-wrapper">
         <div id="token" class="token-container">ЗАГРУЗКА...</div>
