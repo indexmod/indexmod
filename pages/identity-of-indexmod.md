@@ -1,7 +1,7 @@
 ---
 title: Identity of Indexmod
 permalink: identity-of-indexmod
-layout: crypto
+layout: ai
 date: 2018-01-02
 update: 2025-01-22
 image: /logo.png
