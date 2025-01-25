@@ -4,8 +4,8 @@ permalink: harvey-anna
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/harvey-anna.jpg
-credits:
+image: https://assets.vogue.ru/photos/5dc5402f679012000843feb5/master/w_1600,c_limit/%D1%84%D1%8B%D1%84%D1%8B%D1%84%D0%B2.jpg
+credits: vogue.ru
 ---
 
 Анна Харви (12 сентября 1944 – 9 октября 2018) была выдающейся фигурой в мире моды и журналистики[2]. Ее карьера в Condé Nast Publications продолжалась более 30 лет, где она занимала ряд ключевых позиций:
