@@ -4,8 +4,8 @@ permalink: khaustova-arina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/khaustova-arina.jpg
-credits:
+image: https://timetracker.hse.ru/handlers/useravatar.ashx?userid=4457&width=270&height=270
+credits: https://design.hse.ru/
 ---
 
 Arina Khaustova is a designer and creative professional known for her work in fashion styling and art direction. She has been involved in various creative projects, including collaborations with production companies like WHAT IF Creative Studio, where she has served as a makeup artist[2]. Khaustova showcases her artistic endeavors on social media platforms, particularly Instagram, where she shares her fashion styling and creative direction work[1][4].
