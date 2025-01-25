@@ -1,8 +1,9 @@
 ---
 layout: none
-title: Screensaver
+title: Indexmod Screensaver
 permalink: screen
 exclude: true
+image: /logo.png
 ---
 
 <head>
