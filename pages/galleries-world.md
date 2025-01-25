@@ -1,7 +1,7 @@
 ---
 title: Galleries (world)
 permalink: galleries-world
-layout: crypto
+layout: ai
 date: 2018-01-02
 update: 2025-01-24
 image: /logo.png
