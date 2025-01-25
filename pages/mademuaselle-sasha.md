@@ -26,7 +26,8 @@ Sasha is known for her raw and authentic photographic style, especially in captu
 
 Her work has been featured in various publications, including Metal Magazine and Dazed Digital, highlighting her significance in contemporary photography[2][8].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/sashamademuaselle/
 [2] https://metalmagazine.eu/en/post/sasha-mademuaselle-rave-goddess-documenting-cool-kids-an-nightingale
 [3] https://www.instagram.com/sashamademuaselle/?locale=en_GB%2Cen_US%2Cen_GB%2Cen_GB&hl=am-et

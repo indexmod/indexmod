@@ -148,7 +148,8 @@ Contributed to an exhibition of theatrical artifacts, featuring designs for an i
 **Present**  
 Collaborates with private clients on costume design, manages a Telegram channel, and develops jewelry for the 13.15 brand.
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/vladimir.bordoque/
 [2] https://www.instagram.com/13and15/
 [3] https://www.behance.net/vladimibordok

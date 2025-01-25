@@ -4,7 +4,7 @@ permalink: botswana-fashion-weekend
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/botswana-fashion-weekend.jpg
 credits:
 ---
 

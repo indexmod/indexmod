@@ -26,7 +26,8 @@ KFW maintains an active social media presence, with Instagram and Facebook pages
 
 Interested participants and attendees can find event details and tickets through platforms like Webtickets[6], and the event has been known to take place at venues such as the Khayelitsha Resource Centre[5].
 
-Citations:
+## Citations
+
 [1] https://www.khayelitshafashionweek.co.za
 [2] https://www.facebook.com/KhayelitshaFashionWeekpage/
 [3] https://www.instagram.com/khayelitshafashion/

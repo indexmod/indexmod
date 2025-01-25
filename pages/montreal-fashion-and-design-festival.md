@@ -43,7 +43,8 @@ The festival actively works to reduce its environmental impact by:
 
 Organized by M.A.D. Collective, this festival has become a leading platform for fashion, design, music, and cultural creativity in North America[4].
 
-Citations:
+## Citations
+
 [1] https://www.mtl.org/en/what-to-do/festivals-and-events/montreal-fashion-and-design-mad
 [2] https://fashionunited.com/events/festival-mode-design-montreal
 [3] https://www.quartierdesspectacles.com/en/discover-the-quartier/getting-here/mode-design

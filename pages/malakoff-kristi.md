@@ -42,7 +42,8 @@ She has participated in artist residencies and exhibited her work extensively ac
 
 Her work is deeply rooted in exploring **contrasts** and **unexpected relationships** between concepts, materials, and ideas. She aims to create immersive, transformative environments that challenge viewers' perceptions and invite them to explore themes of life, death, beauty, and horror[2].
 
-Citations:
+## Citations
+
 [1] https://www.kristimalakoff.com
 [2] https://nelsonmuseum.ca/exhibitions/kristi-malakoff-the-golden-bell/
 [3] https://www.pinterest.com/moark1969/kristi-malakoff/

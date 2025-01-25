@@ -29,7 +29,8 @@ In 2024, she has been exploring new design techniques, particularly experimentin
 **Business Impact**
 Her jewelry brand has gained significant recognition, with her work being described as crafting both striking statement pieces and intricate designs[7]. She has been instrumental in developing and expanding her jewelry business over the past decade[1].
 
-Citations:
+## Citations
+
 [1] https://triciakim.co
 [2] https://www.instagram.com/triciakim_nagiciajewelry/
 [3] https://www.facebook.com/TriciaKimBali/

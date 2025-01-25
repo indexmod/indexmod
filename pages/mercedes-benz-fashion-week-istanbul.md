@@ -4,7 +4,7 @@ permalink: mercedes-benz-fashion-week-istanbul
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/mercedes-benz-fashion-week-istanbul.jpg
 credits:
 ---
 

@@ -32,7 +32,8 @@ A key distinguishing feature of CPHFW is its strong commitment to sustainability
 
 The event has gained international recognition for showcasing Scandinavian fashion brands and setting new standards for sustainable fashion practices[3].
 
-Citations:
+## Citations
+
 [1] https://copenhagenfashionweek.com
 [2] https://en.wikipedia.org/wiki/Copenhagen_Fashion_Week
 [3] https://www.harpersbazaar.com/uk/fashion/shows-trends/g28622845/copenhagen-fashion-week/

@@ -19,7 +19,8 @@ The event has been notable for featuring various fashion designers and attractin
 
 The fashion show has previously been held at venues like the Four Seasons Hotel in Beirut and has received coverage from multiple media platforms, including social media channels like Facebook and Instagram[4][3].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/Lamodeabeyrouthcairo/
 [2] https://www.egypttoday.com/Tag/6535/La-Mode-A-Beyrouth-Cairo
 [3] https://www.facebook.com/story.php?story_fbid=860209160797882&id=618927394926061
@@ -29,11 +30,7 @@ Citations:
 [7] https://www.facebook.com/inspirationgroup/videos/la-mode-a-beyrouth-cairo-hanna-touma-couture-directed-by-fouad-choufany/1343194942424702/
 [8] https://www.dailynewsegypt.com/2016/12/08/la-mode-beyrouth-cairos-newest-fashion-marathon/
 
-After going through all the elements pertaining to the Mega Fashion week that we held last November and intending to hold the second edition in May, 2017, please find here under a detailed brief about it.
-
-La Mode A Beyrouth – Cairo is a Unique fashion week that is held bi-annually in Cairo-Egypt, where participants are Arabs, Egyptians and International designers.
-
-Multi-Art Group have franchised LMAB-Cairo on February 9, 2016 <span id="a2">[\[2\]](#f2)</span> and it is now entitled to be the largest and most popular consumer fashion event in the country attracting around 10,000 people across a 5-day event. The next edition will take place on the 8th – 12th of May, 2017 at Fairmont Heliopolis. Moreover, creating a platform across the Egyptian fashion industry to promote the Cairo Young Fashion Designer Competition (CYFDC).
+After going through all the elements pertaining to the Mega Fashion week that we held last November and intending to hold the second edition in May, 2017, please find here under a detailed brief about it. La Mode A Beyrouth – Cairo is a Unique fashion week that is held bi-annually in Cairo-Egypt, where participants are Arabs, Egyptians and International designers. Multi-Art Group have franchised LMAB-Cairo on February 9, 2016 <span id="a2">[\[2\]](#f2)</span> and it is now entitled to be the largest and most popular consumer fashion event in the country attracting around 10,000 people across a 5-day event. The next edition will take place on the 8th – 12th of May, 2017 at Fairmont Heliopolis. Moreover, creating a platform across the Egyptian fashion industry to promote the Cairo Young Fashion Designer Competition (CYFDC).
 
 ## See also
 

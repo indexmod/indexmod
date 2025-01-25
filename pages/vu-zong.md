@@ -10,7 +10,8 @@ credits:
 
 Зонг Ву — основатель модного бренда, имеющий семейные корни в текстильной промышленности. Он вырос, проводя много времени на текстильных фабриках, так как его родители всю жизнь занимались этим бизнесом[2]. Вместе с Машей Титовой Зонг основал собственную марку одежды[2]. Его опыт и знания в области текстиля, полученные с детства, вероятно, сыграли значительную роль в создании и развитии их бренда.
 
-Citations:
+## Citations
+
 [1] https://www.youtube.com/channel/UCYFzJZUS6TEvVqmH8QNTCqA
 [2] https://blog.cocos-moscow.ru/cocos-moscow_people-masha-titova-i-zong-vu-osnovateli-marki/
 [3] https://www.youtube.com/channel/UCYFzJZUS6TEvVqmH8QNTCqA/videos
@@ -32,7 +33,8 @@ Citations:
 
 Изначально COCOS Moscow планировался как бренд базовой одежды, но в процессе работы основатели решили расширить концепцию, создавая более интересные, но по-прежнему удобные и легко комбинируемые вещи[3].
 
-Citations:
+## Citations
+
 [1] https://dzen.ru/a/Zna30OFfEimNsZqz
 [2] https://cocos-moscow.ru/about/
 [3] https://blog.cocos-moscow.ru/cocos-moscow_people-masha-titova-i-zong-vu-osnovateli-marki/

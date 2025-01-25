@@ -13,7 +13,8 @@ Kisselman has a diverse portfolio that includes work in **advertising**, **music
 
 In addition to his professional work, Kisselman is active on social media platforms such as Instagram, where he shares updates about his projects and artistic endeavors[7]. He is married to Maria Koloskova[1].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/iluxa.kisselman/
 [2] https://www.behance.net/KISSELMAN
 [3] https://lightroom.adobe.com/u/KISSELMAN

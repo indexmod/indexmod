@@ -18,7 +18,8 @@ After his untimely death, his friend Eugenia Kuyda created a unique digital memo
 
 Mazurenko was known for his distinctive communication style, which included mild dyslexia and the use of idiosyncratic phrases. His digital memorial became a poignant example of how technology can preserve memories and connections after death[2].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/romanmazurenko02/
 [2] https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/
 [3] http://www.theverge.com/a/luka-artificial-intelligence-memorial-roman-mazurenko-bot

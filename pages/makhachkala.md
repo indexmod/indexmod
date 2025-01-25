@@ -36,7 +36,8 @@ While globalization has significantly impacted fashion, some traditional element
 
 The fashion in Makhachkala ultimately represents a dynamic interplay between global trends and local cultural identity, showcasing how modern urban style can coexist with traditional values[1].
 
-Citations:
+## Citations
+
 [1] https://www.europeanproceedings.com/article/10.15405/epsbs.2019.03.02.302
 [2] https://www.instagram.com/bankai.fashion/
 [3] https://ie.pinterest.com/pin/1039627895239805387/

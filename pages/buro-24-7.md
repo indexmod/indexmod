@@ -4,7 +4,7 @@ permalink: buro-24-7
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/buro-24-7.jpg
 credits:
 ---
 

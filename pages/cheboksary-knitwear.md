@@ -4,7 +4,7 @@ permalink: cheboksary-knitwear-brand
 layout: crypto
 date: 2025-01-10
 update: 2025-01-18
-image:
+image: /images/cheboksary-knitwear-brand.jpg
 credits:
 ---
 

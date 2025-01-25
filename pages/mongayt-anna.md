@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://upload.wikimedia.org/wikipedia/commons/a/a2/Anna_Mongayt%2C_August_2019.jpg
-credits:
+credits: Anna Viktorovna Mongait wikimedia.org
 ---
 
 Anna Viktorovna Mongait is a prominent Russian journalist, television presenter, and creative producer born on March 9, 1978, in Odesa, Ukrainian Soviet Socialist Republic[3][4]. She is best known for her work with TV Rain (Dozhd) channel and has had a distinguished career in Russian media.
@@ -34,7 +34,8 @@ Mongait comes from a prominent media family. Her father, Viktor Loshak, is a jou
 
 In November 2022, the Russian Ministry of Justice designated her as a "foreign agent"[3]. Following Russia's invasion of Ukraine, she left Russia in March 2022, initially living in Tbilisi and then moving to Riga, Latvia, where she continued working with TV Rain[3].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/mongayt/
 [2] https://www.linkedin.com/in/anna-mongayt-counselman
 [3] https://en.wikipedia.org/wiki/Anna_Mongait

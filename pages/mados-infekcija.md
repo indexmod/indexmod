@@ -4,7 +4,7 @@ permalink: mados-infekcija
 layout: crypto
 date: 2018-01-02
 update: 2025-01-21
-image:
+image: /images/mados-infekcija.jpg
 credits:
 ---
 

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://img.jakpost.net/c/2020/11/12/2020_11_12_107211_1605176124._large.jpg
-credits:
+credits: IFW jakpost.net
 ---
 
 Indonesia Fashion Week (IFW) is the largest fashion event in Indonesia, held annually since 2011 at the Jakarta Convention Center[2]. The event is organized by the Indonesian Fashion Entrepreneurs and Designers Association (APPMI) with the goal of promoting and showcasing Indonesian fashion culture[2][3].
@@ -33,7 +33,8 @@ The event also features additional activities such as:
 
 Indonesia Fashion Week represents a platform for displaying the diverse and rich cultural heritage of Indonesia through fashion, with the ultimate goal of establishing Indonesia as a leading fashion center in the region and globally[3].
 
-Citations:
+## Citations
+
 [1] https://indonesiafashionweek.id
 [2] https://en.wikipedia.org/wiki/Indonesia_Fashion_Week
 [3] https://indonesiafashionweek.id/about/

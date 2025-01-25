@@ -4,7 +4,7 @@ permalink: khaustova-arina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/khaustova-arina.jpg
 credits:
 ---
 
@@ -12,7 +12,8 @@ Arina Khaustova is a designer and creative professional known for her work in fa
 
 Her background includes a strong connection to the arts, reflected in her original artworks available for sale and her participation in various fashion-related projects. Khaustova is also active on platforms like Facebook and VK, where she engages with her audience and promotes her work[3][5][6].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/khaustova_a/
 [2] https://whatif.ae
 [3] https://www.facebook.com/p/%D0%90%D1%80%D0%B8%D0%BD%D0%B0-%D0%A5%D0%B0%D1%83%D1%81%D1%82%D0%BE%D0%B2%D0%B0-100011139044985/

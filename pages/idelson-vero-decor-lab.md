@@ -4,7 +4,7 @@ permalink: idelson-vero-decor-lab
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/idelson-vero-decor-lab.jpg
 credits:
 ---
 

@@ -4,7 +4,7 @@ permalink: musaeva-nazrin-adyl-marmot
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/musaeva-nazrin-adyl-marmot.jpg
 credits:
 ---
 

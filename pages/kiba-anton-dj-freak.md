@@ -22,7 +22,8 @@ He is particularly known for creating mashup mixes, such as his Rio Soundtrack M
 **Additional Interests**
 Interestingly, he is also described as a "hacker and fricker" (computer attacker), suggesting he may have diverse technical skills beyond his musical career[7].
 
-Citations:
+## Citations
+
 [1] https://soundcloud.com/mash-up-dj/rio-soundtrack-megamix
 [2] https://www.youtube.com/watch?v=wi6AQvL4ZYg
 [3] https://www.youtube.com/watch?v=yzgWvBNpiSk

@@ -30,7 +30,8 @@ Vladimir Kobrin is considered one of the leading figures in Russian popular-scie
 
 Kobrin's legacy endures as a testament to his unique vision and contribution to cinema, illustrating the potential of film as a medium for exploring complex ideas beyond mere entertainment.
 
-Citations:
+## Citations
+
 [1] https://monoskop.org/Vladimir_Kobrin
 [2] https://www.imdb.com/name/nm8121930/
 [3] https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B1%D1%80%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87

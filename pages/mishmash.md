@@ -25,7 +25,8 @@ The artists describe their work as a blend of unpredictable elements, stating: "
 ## Notable Recognition
 The art group was featured as **Artist of the Year** at Cosmoscow in 2019, where they presented a "total microspective" of their work[2]. Their artistic approach embraces what they call "hideoism" - a philosophy that finds beauty in the unexpected and perceives art as overcoming obstacles.
 
-Citations:
+## Citations
+
 [1] https://mishmashproductions.co.uk
 [2] https://www.cosmoscow.com/en/program/project-91/
 [3] https://www.mishmashtattoos.com/artists

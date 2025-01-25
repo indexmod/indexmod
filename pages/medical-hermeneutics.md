@@ -31,7 +31,8 @@ Inspection Medical Hermeneutics became a significant force in the Russian contem
 
 The group's work has been included in major art collections worldwide, including the Moscow Museum of Contemporary Art and the Deutsche Bank Collection in Berlin[1].
 
-Citations:
+## Citations
+
 [1] https://www.sprovieri.com/artists/pavel-pepperstein
 [2] https://www.kanka.de/aurora/pp_b1.htm
 [3] https://ravenrow.org/texts/pavel-pepperstein-inspection-medical-hermeneutics

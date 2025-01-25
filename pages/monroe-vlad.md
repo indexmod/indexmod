@@ -4,7 +4,7 @@ permalink: monroe-vlad
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/monroe-vlad.jpg
 credits:
 ---
 

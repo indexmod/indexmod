@@ -44,7 +44,8 @@ Her approach is inspired by the concept that "everyone is an artist", popularize
 
 Malhotra continues to work on projects that challenge traditional boundaries between art, urban planning, and civic responsibility.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/shriyamalhotra/
 [2] https://www.britishcouncil.org/sites/default/files/in-city-everyone-artist-shriya-malhotra.pdf
 [3] https://be.linkedin.com/in/shriya-malhotra-31b259b5
@@ -80,9 +81,5 @@ Shriya Malhotra is an urban researcher and artist working with Partizaning in Mo
 
 ## Footnotes
 
-
-
 [[1]](#a1) <span id="f1"></span> [IN THE CITY, EVERYONE IS AN ARTIST (Britishcouncil.org)](https://www.britishcouncil.org/sites/default/files/shriyamalhotra_a4_digital_highres.pdf)
-
-
 [[2]](#a2) <span id="f2"></span> [Shriya Malhotra (Resite.org)](https://www.resite.org/speakers/shriya-malhotra)

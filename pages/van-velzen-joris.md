@@ -5,6 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.kunst100.com/cdn/shop/collections/Joris_-_Joris_van_Velzen_7a180518-aacf-4036-8cc8-535a83ebeb9f_800x.jpg
+credits:
 ---
 
 Йорис ван Велзен - голландский предприниматель и бизнесмен, проживающий в Германии. Он является владельцем компании Wostok, которая производит лимонады в Германии с "российским запахом"[3][5]. Ван Велзен имеет разнообразный опыт в бизнесе:
@@ -17,7 +18,8 @@ image: https://www.kunst100.com/cdn/shop/collections/Joris_-_Joris_van_Velzen_7a
 
 В интервью Йорис обсуждал свой бизнес, связанный с российской тематикой, и его отношение к текущим событиям, подчеркивая, что, несмотря на "российский запах" его продукции, он не является русским[3][5].
 
-Citations:
+## Citations
+
 [1] https://www.google.com/policies/faq
 [2] https://www.instagram.com/dailyrebel/
 [3] https://www.youtube.com/watch?v=GoJz8M8Jjks

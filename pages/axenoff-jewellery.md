@@ -4,7 +4,7 @@ permalink: axenoff-jewellery
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/axenoff-jewellery.jpg
 credits:
 ---
 

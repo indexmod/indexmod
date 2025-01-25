@@ -4,7 +4,7 @@ permalink: beirendonck-walter-van
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/beirendonck-walter-van.jpg
 credits:
 ---
 

@@ -31,7 +31,8 @@ Cairo Fashion Festival (CFF) is a seasonal fashion platform established in 2012 
 
 The festival serves as a significant promotional event for designers, offering them exposure and an opportunity to showcase their unique styles and collections to a broader audience.
 
-Citations:
+## Citations
+
 [1] https://www.cairofashionweek.com
 [2] https://europaregina.eu/fashion-weeks/fashion-weeks-africa/cairo-fashion-week/
 [3] https://www.cairofashiontex.com

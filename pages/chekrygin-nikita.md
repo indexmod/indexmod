@@ -22,7 +22,8 @@ Nikita Chekrygin is a prominent Russian fashion designer known for founding the 
 
 Nikita Chekrygin continues to push boundaries in fashion, combining his roots with modern trends to create a distinctive brand that resonates with both local and global audiences.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/nikita_chek/
 [2] https://www.highsnobiety.com/p/ch4rm-nikita-chekrygin-interview/
 [3] https://myslo.ru/news/tula/2022-05-26-izvestnyj-dizajner-odezhdy-iz-tuly-nikita-chekrygin-voshel-v-spisok-forbes

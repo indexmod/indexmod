@@ -33,7 +33,8 @@ The museum's core collection was originally drawn from Zurab Tsereteli's private
 
 In 2024, MMOMA will celebrate its 25th anniversary, continuing its mission of promoting contemporary art[1].
 
-Citations:
+## Citations
+
 [1] https://mmoma.ru
 [2] https://sarahmontani.com/metaverse-museum-mmoma
 [3] https://www.e-flux.com/directory/70387/moscow-museum-of-modern-art-mmoma/

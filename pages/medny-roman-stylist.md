@@ -37,7 +37,8 @@ Medny distinguishes himself by focusing on the individual beyond mere appearance
 - Active on social media platforms including Instagram and YouTube
 - Described by Interview magazine as a stylist who knows everything about body types, color contrasts, and how to apply this knowledge[2]
 
-Citations:
+## Citations
+
 [1] https://medny-style.com
 [2] https://medny-style.com/about-medny/
 [3] https://www.instagram.com/medny_style/

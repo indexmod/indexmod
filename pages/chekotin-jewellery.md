@@ -23,7 +23,8 @@ The brand recently introduced a new jewelry set featuring rare tanzanites and di
 
 Their YouTube channel suggests they are a family-run business that not only creates jewelry but also shares insights into their creative process and sources of inspiration[5].
 
-Citations:
+## Citations
+
 [1] https://chekotin.com
 [2] https://www.instagram.com/chekotin_jewellery/reel/DENgyOlOPKj/
 [3] https://www.instagram.com/explore/locations/1524439137796905/chekotin-jewellery/

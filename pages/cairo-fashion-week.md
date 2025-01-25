@@ -30,7 +30,8 @@ Cairo also hosts other significant fashion events, including:
 
 The events are typically held at venues like the Cairo International Convention Center, providing a professional and expansive space for fashion showcases and trade interactions[2].
 
-Citations:
+## Citations
+
 [1] https://www.cairofashionweek.com
 [2] https://www.cairofashiontex.com
 [3] https://www.instagram.com/cairofashionfestival/

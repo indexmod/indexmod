@@ -36,7 +36,8 @@ Anna Chistova is a Russian actress, costume designer, and fashion professional b
 - Instagram: @annachistova (2,482 followers)
 - Facebook: Active since August 2009[1][7]
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/annachistova/
 [2] https://www.google.com/policies/faq
 [3] https://www.kinopoisk.ru/name/2004249/

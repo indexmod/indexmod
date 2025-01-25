@@ -4,7 +4,7 @@ permalink: van-de-coevering-iris
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/van-de-coevering-iris.jpg
 credits:
 ---
 
@@ -40,7 +40,8 @@ Iris maintains a presence on social media platforms:
 
 Iris van de Coevering continues to operate her skincare business in Bali, offering facial treatments and promoting the use of local, natural ingredients in skincare products[1].
 
-Citations:
+## Citations
+
 [1] https://theyakmag.com/herbology-in-bali/
 [2] https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResults?inquiryType=OfficerRegisteredAgentName&inquiryDirectionType=CurrentList&searchTerm=Van+De+Casteele+++++Russell&searchNameOrder=VANDECKERPATRICIA+L120000621202&ListNameOrder=VANDECKERPATRICIA+L120000621202
 [3] https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=OfficerRegisteredAgentName&directionType=ForwardList&searchNameOrder=VANDECOEVERINGPETRUSJ+L080000400781&aggregateId=flal-l08000040078-c82a5304-f237-464e-b68a-dc3ae48128e3&searchTerm=Van+De+Casteele+++++Russell&listNameOrder=VANDECKERPATRICIA+L120000621202

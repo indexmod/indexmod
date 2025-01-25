@@ -33,7 +33,8 @@ Kazakhstan Fashion Week (KFW) is a prominent fashion event in Central Asia that 
 
 The event continues to grow, showcasing Kazakhstan's evolving fashion scene and its unique blend of traditional craftsmanship with contemporary design.
 
-Citations:
+## Citations
+
 [1] https://kfw.kz
 [2] https://metalmagazine.eu/en/post/visa-fashion-week-almaty-2024
 [3] https://www.instagram.com/kfwkz/

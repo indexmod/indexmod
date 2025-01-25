@@ -30,7 +30,8 @@ Modebadze maintains an active online presence through multiple platforms:
 
 Her designs are notable for their craftsmanship, with items like her leather boots retailing for high-end prices (e.g., $1,100 for custom knee-high boots)[7]. The brand frequently offers promotions, including holiday sales with significant discounts[8].
 
-Citations:
+## Citations
+
 [1] https://nutsamodebadze.ge
 [2] https://notjustalabel.com/nutsa-modebadze
 [3] https://nutsamodebadze.com
@@ -40,12 +41,9 @@ Citations:
 [7] https://www.ebay.co.uk/itm/323095804577
 [8] https://www.instagram.com/nutsa/reel/DEbGs1DSQW0/
 
-(Rus. Нуца Модебадзе), born 24 March 1922, Tbilisi — Georgian designer working in Moscow, Tbilisi and Denpasar.
+(Rus. Нуца Модебадзе), born 24 March 1922, Tbilisi — Georgian designer working in Moscow, Tbilisi and Denpasar. Student of famous Georgian shoes craftsman Irakly Bochrishvili. Nutsa owns a brand of her own name, loves to experiment with many technics of final touch of shoe making like waxing, dying, washing, burying, sun drying.
 
-
-Student of famous Georgian shoes craftsman Irakly Bochrishvili. Nutsa owns a brand of her own name, loves to experiment with many technics of final touch of shoe making like waxing, dying, washing, burying, sun drying.
-
-# Private life
+## Private life
 
 Сohabiting with Russian artist and illustrator Gleb Solntsvev.
 

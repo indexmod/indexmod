@@ -18,7 +18,8 @@ image: https://copybrothers.ru/wp-content/uploads/kisselman-1.jpg
 - **Iluxa Kisselman**: The studio is linked to Iluxa Kisselman, who has a background in art direction and education from notable institutions such as the Artistic School No. 1 and the Special Architectural School No. 50 in Moscow[3].
 
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/kisselmanart/
 [2] https://www.facebook.com/groups/179479328816472/
 [3] https://www.behance.net/KISSELMAN

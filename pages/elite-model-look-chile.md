@@ -36,7 +36,8 @@ The competition has launched the careers of many Chilean models, including:
 
 The competition continues to be a significant platform for discovering modeling talent in Chile, providing young models with opportunities to launch their international careers.
 
-Citations:
+## Citations
+
 [1] https://www.elitechile.cl
 [2] https://en.wikipedia.org/wiki/Elite_Model_Look_Chile
 [3] https://www.elitemodellook.com/int/en/home/meet-the-winners-of-elite-model-look-chile/index.htm

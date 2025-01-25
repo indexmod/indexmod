@@ -24,7 +24,8 @@ Ministry of Supply - это американский бренд одежды, о
 
 Компания позиционирует себя как **инновационный бренд**, который создает одежду, сочетающую профессиональный стиль с высокой производительностью и комфортом[4]. Они гарантируют качество своих изделий и предлагают пожизненную гарантию на продукцию.
 
-Citations:
+## Citations
+
 [1] https://www.cbinsights.com/company/ministry-of-supply
 [2] https://www.tribuneindia.com/news/business/us-sanctions-wont-hit-russian-oil-supply-government/
 [3] https://www.government.nl/ministries/ministry-of-economic-affairs

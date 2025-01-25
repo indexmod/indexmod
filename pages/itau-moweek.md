@@ -4,7 +4,7 @@ permalink: itau-moweek
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/itau-moweek.jpg
 credits:
 ---
 
@@ -23,7 +23,8 @@ MoWeek maintains an active social media presence, with a substantial following o
 
 Attendees can also engage with the event through various digital channels, including the official website moweek.com.uy, where they can access event information and potentially make purchases[4].
 
-Citations:
+## Citations
+
 [1] https://moweek.com.uy
 [2] https://www.facebook.com/events/latu/ita%C3%BA-moweek-uruguay-fashion-week/1723040531312441/?locale=en_GB
 [3] https://www.instagram.com/mo_week/

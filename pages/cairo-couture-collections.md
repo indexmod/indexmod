@@ -18,7 +18,8 @@ While not directly related to Cairo Couture Collections, it's worth noting that 
 
 These events collectively contribute to Egypt's growing reputation as a fashion destination, combining its rich cultural heritage with modern couture to create unique and memorable fashion experiences.
 
-Citations:
+## Citations
+
 [1] https://www.anothermag.com/fashion-beauty/14569/dior-pre-fall-2023-kim-jones-dune-show-review-egypt
 [2] https://www.flickr.com/photos/34132153@N06/17157823431/
 [3] https://fatinacouture.com/product/limited-edition-from-cairo-cinta-collection-fleur-damour/

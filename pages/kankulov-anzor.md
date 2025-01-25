@@ -29,7 +29,8 @@ Kankulov works closely with Katya Pavelko, with whom he co-leads the Fashion edu
 **Recent Recognition**
 - Received a commendation from the HSE Vice-Rector in November 2023[4]
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/anzorkankulov/
 [2] https://program.fashionsummit.org/speakers/anzor-kankulov
 [3] https://theblueprint.ru/fashion/industry/katya-pavelko-anzor-kankulov

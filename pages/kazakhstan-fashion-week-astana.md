@@ -27,7 +27,8 @@ Kazakhstan Fashion Week is set to hold its 36th season in April 2025[4][7], cont
 
 The events demonstrate Kazakhstan's growing significance in the international fashion scene, emphasizing cultural exchange and design innovation.
 
-Citations:
+## Citations
+
 [1] https://kfw.kz
 [2] https://silkwaytv.kz/en/ethnic-fashion-week-with-modern-twist-takes-place-in-astana_43680
 [3] https://astanatimes.com/2024/10/turkish-designers-take-center-stage-at-fashion-show-in-astana/

@@ -29,7 +29,8 @@ Moscow Fashion Week has become a crucial platform for emerging and established d
 
 Notable designers who have been featured include Igor Chapurin, Andrei Sharov, Tatyana Parfyonov, and Victoria Andreyanova. The event primarily involves members of the Russian Association of haute couture and ready-to-wear, who represent the contemporary face of Russian fashion[2].
 
-Citations:
+## Citations
+
 [1] https://moscowfashion.ru/en
 [2] https://europaregina.eu/fashion-weeks/fashion-weeks-europe/moscow-fashion-week-russia-europe/
 [3] https://www.dn-mag.com/fashion-week/moscow-fashion-week/

@@ -4,15 +4,15 @@ permalink: indexmod-chainpedia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
-credits: 
+image: /logo.png
+credits: Indexmod fashion and art Сhainpedia
 ---
 
 A wiki-site based on the conception of hybrid wiki, blockchain, ICO and social networking developing by Andrei Deinichenko. In the very beginning Indexmod brand was described as game <span id="a2">[\[2\]](#f2)</span> and TV program <span id="a3">[\[3\]](#f3)</span>.
 
 ## Manifesto  
 
-The aim of Indexmod chainpedia to simplify wiki syntax for a pretty and light format .
+The aim of Indexmod chainpedia to simplify wiki syntax for a pretty and light format.
 
 ## Naming & domains
 
@@ -28,10 +28,7 @@ The aim of Indexmod chainpedia to simplify wiki syntax for a pretty and light fo
 |2020|Indexmod|Indexmod.xyz|
 |2025|Indexmod fashion and art Сhainpedia|
 
-
-
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}.jpg)
-
 
 ## History
 
@@ -53,8 +50,30 @@ The website was founded by Andrei Deinichenko.
 
 ## Perplexyty
 
+Indexmod Fashion & Art Сhainpædia is an online encyclopedia focused on fashion and art[1]. It was last updated on January 1, 2025, which is relatively recent compared to the current date[1]. The platform covers a wide range of topics related to fashion and art, including designers, brands, events, and cultural phenomena.
 
+The Сhainpædia includes entries on various fashion weeks around the world, such as:
 
+- Moscow Fashion Week
+- New York Fashion Week
+- Paris Fashion Week
+- London Fashion Week
+- São Paulo Fashion Week
+
+It also features information about designers and brands like:
+
+- Gosha Rubchinskiy
+- Alena Akhmadullina
+- Alexander Arutyunov
+- Nina Donis
+
+The encyclopedia covers art-related topics and artists, including:
+
+- AES+F
+- Petr Pavlensky
+- Pavel Pepperstein
+
+Indexmod Fashion & Art Сhainpædia appears to be a comprehensive resource for those interested in fashion and art, particularly with a focus on Russian and international scenes. The platform likely serves as a valuable reference for researchers, students, and enthusiasts in these fields.
 
 ## See also
 

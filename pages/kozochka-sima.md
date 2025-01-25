@@ -25,7 +25,8 @@ Sima has been open about her experiences, including discussions surrounding her 
 ### Public Perception
 Sima Kozochka is often described as an "art diva" and has garnered attention from both local and international media. Her unique style and perspective resonate with many young people today, making her a significant voice in contemporary fashion discussions[6][7].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/UsernameSaymonSima/
 [2] https://vk.com/saymonsima
 [3] https://ru.pinterest.com/saymonsima/

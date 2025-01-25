@@ -16,7 +16,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Vladimir_Putin_
 
 Келли также известна своими скандальными интервью и острыми комментариями по актуальным вопросам, что сделало её одной из самых влиятельных фигур в американской журналистике. В 2014 году она была включена в список «100 самых влиятельных людей» по версии Time[1][3].
 
-Citations:
+## Citations
+
 [1] https://rus.team/people/megin-kelli-megyn-marie-kelly-brunt
 [2] https://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BB%D0%BB%D0%B8,_%D0%9C%D0%B5%D0%B3%D0%B8%D0%BD
 [3] https://news.rambler.ru/other/39328591-kto-takaya-megin-kelli/
