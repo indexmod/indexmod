@@ -34,7 +34,8 @@ Vancouver Fashion Week plays a crucial role in promoting new talent and fosterin
 
 Overall, VFW continues to be a vital part of the fashion landscape in North America, celebrating innovation and cultural diversity in fashion design.
 
-Citations:
+## Citations
+
 [1] https://www.vanfashionweek.com
 [2] https://www.ellecanada.com/fashion/fashion-weeks/the-designers-we-loved-at-vancouver-fashion-week
 [3] https://en.wikipedia.org/wiki/Vancouver_Fashion_Week

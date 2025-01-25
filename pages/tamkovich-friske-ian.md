@@ -27,7 +27,8 @@ As of January 2025, Ian Tamkovich-Friske continues to be an influential figure i
 
 In summary, Ian Tamkovich-Friske stands out as a complex character in the realm of contemporary art, challenging societal norms while navigating the intricacies of personal and artistic identity.
 
-Citations:
+## Citations
+
 [1] https://knife.media/tamkovich-friske/
 [2] https://www.instagram.com/my.darkest.light.will.shine/
 [3] https://www.youtube.com/channel/UCD5QEeE5XCVCPhsAfoXknOA

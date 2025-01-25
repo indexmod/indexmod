@@ -24,7 +24,8 @@ Yerevan Fashion Week 2024, held from November 7 to 10, marked a significant evol
 
 As Yerevan Fashion Week continues to grow, it aims to establish itself as a key player in the global fashion calendar by promoting dialogue between tradition and innovation while nurturing local talent[1][2].
 
-Citations:
+## Citations
+
 [1] https://fault-magazine.com/2024/11/yerevan-fashion-week-2024/
 [2] https://www.fdc.am/news/yerevan-fashion-week-2024-designers
 [3] https://www.youtube.com/watch?v=35Mi4fHMTaQ

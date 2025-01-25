@@ -4,7 +4,7 @@ permalink: voronina-ekaterina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/voronina-ekaterina.jpg
 credits:
 ---
 
@@ -14,7 +14,8 @@ In addition to her design work, Voronina is involved in project management and h
 
 Voronina's contributions to the fashion industry are marked by her innovative designs and dedication to evolving the landscape of modern fashion.
 
-Citations:
+## Citations
+
 [1] https://katevoronina.com/about
 [2] https://www.instagram.com/voroninakate/
 [3] https://www.instagram.com/voronina_e/

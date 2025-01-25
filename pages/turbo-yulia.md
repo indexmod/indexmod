@@ -23,7 +23,8 @@ Turbo Yulia is an emerging designer brand known for its **futuristic and experim
 
 Overall, Turbo Yulia represents a fresh voice in the fashion industry, pushing boundaries with its creative designs and engaging storytelling.
 
-Citations:
+## Citations
+
 [1] https://notjustalabel.com/turbo-yulia
 [2] https://www.facebook.com/turbo.yulia/
 [3] https://www.instagram.com/turbo_yulia_studio/

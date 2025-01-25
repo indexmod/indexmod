@@ -38,7 +38,8 @@ Selected personal exhibitions include:
 
 His works are part of several notable collections, including NCCA, MMOMA, MAMM, and Gazprom[2].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/mikhail.leykin/
 [2] https://art-index.ru/en/artists/mishmash-
 [3] https://artfacts.net/artist/misha-leykin/418242

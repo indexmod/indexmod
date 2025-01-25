@@ -24,7 +24,8 @@ In addition to his artistic work, Protey Temen serves as a teacher at the Design
 
 Overall, Protey Temen's contributions to contemporary art are marked by a distinctive blend of scientific inquiry and artistic innovation, making him a notable figure in today's art landscape.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/proteytemen/
 [2] https://de.linkedin.com/in/proteytemen
 [3] https://www.studiesopeninner.school/welcome/about-protey-temen/

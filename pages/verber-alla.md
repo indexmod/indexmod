@@ -16,7 +16,8 @@ Tragically, Alla Verber passed away on August 6, 2019, at the age of 61[5][8]. H
 
 Throughout her career, Verber maintained a strong presence on social media, with thousands of followers on Instagram[1][2]. Her legacy continues to influence the Russian fashion scene, having paved the way for the integration of international luxury brands into the Russian market.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/verberalla/
 [2] https://www.instagram.com/verber.alla/
 [3] https://www.businessoffashion.com/people/alla-verber/

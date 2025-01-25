@@ -29,7 +29,8 @@ Lomakin's work is deeply connected to the post-Soviet aesthetic, which is often 
 
 He has been recognized as one of the early independent Russian designers, gaining attention for his innovative approach to fashion and photography[6][8].
 
-Citations:
+## Citations
+
 [1] https://1granary.com/opinion/defining-post-soviet-aesthetic/
 [2] https://www.showstudio.com/contributors/artur_lomakin
 [3] https://www.new-east-archive.org/articles/show/546/artur-lomakin-forget-me-not-conceptual-fashion-moscow

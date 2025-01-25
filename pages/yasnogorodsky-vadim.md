@@ -4,7 +4,7 @@ permalink: yasnogorodsky-vadim
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/yasnogorodsky-vadim.jpg
 credits:
 ---
 
@@ -20,7 +20,8 @@ On social media, Yasnogorodsky maintains an active presence. His personal Instag
 
 Currently, Yasnogorodsky works as a freelancer based in Munich, bringing his diverse experience from previous roles, including one at Home Concept[8].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/yasnogorodsky/
 [2] https://www.google.com/policies/faq
 [3] https://www.instagram.com/yasnogorodsky_art/

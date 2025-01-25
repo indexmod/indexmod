@@ -14,7 +14,8 @@ On SoundCloud, TexnoSergey showcases his musical talents, allowing users to stre
 
 TexnoSergey is also active on Threads, where he discusses various subjects, including societal observations and personal reflections[5]. His diverse online presence reflects his interests in advertising, music, and digital culture.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/texnosergey/
 [2] https://soundcloud.com/texnosergey
 [3] https://www.youtube.com/channel/UCOZqrJDbZg13qevue0vdjOw

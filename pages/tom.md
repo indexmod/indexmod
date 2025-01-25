@@ -24,7 +24,8 @@ TOM* has garnered attention not only for its role in promoting menswear but also
 
 As of January 2025, TOM* continues to be a key player in the Canadian fashion landscape, contributing to the ongoing evolution of menswear and reflecting broader trends in sustainability and innovation in design. The event remains a vital venue for showcasing the diversity and creativity of menswear designers in Canada.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Men's_Fashion_Week
 [2] https://www.instagram.com/tfw/
 [3] https://ca.linkedin.com/company/tom-fw---toronto-men's-fashion-week

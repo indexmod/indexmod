@@ -4,7 +4,7 @@ permalink: vydolob-julia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/vydolob-julia.jpg
 credits:
 ---
 
@@ -12,7 +12,8 @@ Julia Vydolob is a prominent fashion journalist and entrepreneur currently resid
 
 Vydolob is actively involved in mentoring creators and sharing insights on fashion through her various platforms, including a Telegram channel and Substack, where she discusses trends and highlights fashion in Tel Aviv and beyond. Her social media presence includes an Instagram account where she engages with her audience about her work and personal style[1][3][4][5].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/vydolob/
 [2] https://www.instagram.com/vydolob/?locale=en_US&hl=en
 [3] https://www.linkedin.com/in/julia-vydolob-6ba97b37/
@@ -30,7 +31,8 @@ Recently, Vydolob has transitioned to a new role as a partner at Dot Comms agenc
 
 Vydolob's contributions to the fashion world extend beyond journalism; she is recognized for her efforts to support Russian designers and promote their work on global platforms. This commitment is reflected in her participation in initiatives like MODE: MOSCOW, aimed at fostering relationships between Russian designers and international buyers[1][3][5].
 
-Citations:
+## Citations
+
 [1] https://fashionweekonline.com/mode-moscow-an-initiative-aiming-to-support-russian-designers-internationally-launches-during-paris-fashion-week
 [2] https://www.refinery29.com/en-us/2018/05/198267/fake-news-russian-it-girls-miroslava-duma
 [3] https://vydolob.substack.com/about

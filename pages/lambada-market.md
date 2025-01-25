@@ -29,7 +29,8 @@ Lambada Market has a strong online presence with significant following:
 ## Unique Characteristics
 The market is known for its **modern and bright Moscow scene**, providing a platform for local designers to showcase their creative work[1]. It offers unique, handcrafted items ranging from clothing and accessories to home decor and artisanal products.
 
-Citations:
+## Citations
+
 [1] https://smartvolta.com/places/lambada-market/
 [2] https://lmbd.ru
 [3] https://vk.com/lambadamarket

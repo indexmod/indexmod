@@ -8,7 +8,6 @@ image: https://thebuzzmag.ca/wp-content/uploads/2018/02/TFW-Main.jpeg
 credits:
 ---
 
-
 ## Overview of Toronto Fashion Week (TFW)
 
 Toronto Fashion Week (TFW) is a prominent semi-annual event that showcases fashion, art, and culture in Toronto, Canada. It is recognized as the largest fashion week in Canada and the second largest in North America, following New York Fashion Week. TFW takes place twice a year: in February for fall/winter collections and in September for spring/summer collections[2].
@@ -29,7 +28,8 @@ As of now, TFW continues to be a vital platform for both emerging and establishe
 
 For more information about upcoming events or participation details, you can visit the official Toronto Fashion Week website.
 
-Citations:
+## Citations
+
 [1] https://torontofashionweek.to
 [2] https://en.wikipedia.org/wiki/Toronto_Fashion_Week
 [3] https://www.tfwhub.ca

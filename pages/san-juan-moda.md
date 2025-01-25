@@ -23,7 +23,8 @@ San Juan Moda showcases collections from prestigious Puerto Rican designers and 
 
 The event offers various fashion-related activities, including runway shows, designer presentations, and networking opportunities[7]. Interested participants can find event details and tickets through platforms like Eventbrite and the event's social media channels.
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/SanJuanModaPR/?locale=en_GB
 [2] https://www.instagram.com/sanjuanmodapr/
 [3] https://www.instagram.com/explore/locations/461835303904733/san-juan-moda/

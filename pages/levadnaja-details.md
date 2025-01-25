@@ -32,7 +32,8 @@ Levadnaja Details is a high-end clothing brand founded by Светлана Ле�
 
 The brand represents an elegant fusion of traditional Russian craftsmanship with contemporary luxury fashion design, offering exclusive pieces that celebrate cultural heritage[3][4].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/levadnajadetails/
 [2] https://levadnajadetails.com
 [3] https://legri.online/info/brands/levadnaja/

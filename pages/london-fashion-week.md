@@ -30,7 +30,8 @@ The next London Fashion Week will take place from Thursday, February 20th to Mon
 ## Additional Event
 Following the main fashion week, the London Fashion Week Festival (LFWF) takes place, offering consumers a chance to experience designer collections, attend catwalk shows, and explore upcoming trends[2].
 
-Citations:
+## Citations
+
 [1] https://londonfashionweek.co.uk
 [2] https://en.wikipedia.org/wiki/London_Fashion_Week
 [3] https://www.britishfashioncouncil.co.uk/GLOBAL-PLATFORMS/London-Fashion-Week

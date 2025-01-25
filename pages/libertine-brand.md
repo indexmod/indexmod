@@ -22,7 +22,8 @@ Libertine - это бренд с уникальным стилем, которы
 
 Для покупок и дополнительной информации можно обратиться напрямую через электронную почту, указанную в их Instagram[4].
 
-Citations:
+## Citations
+
 [1] https://libertine-libertine.com
 [2] https://uk.linkedin.com/company/libertine
 [3] https://brandshop-ru.livejournal.com/257295.html

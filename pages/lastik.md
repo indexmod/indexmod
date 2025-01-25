@@ -30,7 +30,8 @@ The studio maintains an active presence on multiple social media platforms, incl
 
 Their work is characterized by creative visual storytelling, with one description noting they love "switching fantastic roles" and "jumping from one visual technique to another"[2][5].
 
-Citations:
+## Citations
+
 [1] http://lastik.studio
 [2] https://www.instagram.com/lastik.studio/
 [3] https://www.behance.net/lastik

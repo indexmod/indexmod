@@ -14,7 +14,8 @@ Yeremkin is also recognized for his contributions to the fashion community throu
 
 His work extends beyond education and public speaking; he is also active on social media platforms like Instagram, where he shares insights into his designs and creative process[2][3]. Through these endeavors, Denis Yeremkin continues to influence the next generation of designers while contributing to the broader cultural dialogue surrounding fashion.
 
-Citations:
+## Citations
+
 [1] https://www.ipk-design.com/technology_and_design/
 [2] https://www.instagram.com/eryomkindi/?hl=ru
 [3] https://www.instagram.com/eryomkindi/p/Bw9w6iIia5H/
@@ -23,8 +24,6 @@ Citations:
 [6] https://www.youtube.com/watch?v=3nZp3MygZyA
 [7] https://artflashmagazine.ru/fashion-education/
 [8] https://strajin.ru/szfl_19aw/
-
-
 
 ## Indexmod 20 Топ 2025
 

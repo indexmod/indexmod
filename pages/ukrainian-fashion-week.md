@@ -24,7 +24,8 @@ Following the September event, Ukrainian Fashion Week is scheduled to take place
 
 The return of UFW not only revitalizes the local fashion scene but also serves as a beacon of hope and resilience for Ukrainians during these challenging times.
 
-Citations:
+## Citations
+
 [1] http://fashionweek.ua
 [2] https://www.service95.com/ukrainian-fashion-week-return
 [3] https://www.harpersbazaar.com/uk/fashion/shows-trends/a62004654/ukrainian-fashion-week/

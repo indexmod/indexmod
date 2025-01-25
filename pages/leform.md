@@ -18,7 +18,8 @@ Leform is a pioneering fashion concept store that opened in Moscow in 1997, maki
 
 The store initially started as an "underground" boutique that carefully curated exclusive fashion items not readily available in the conservative Russian market at the time. Over the years, Leform has grown to have three physical stores in Russia and an online store, primarily targeting customers aged 25 and above[2].
 
-Citations:
+## Citations
+
 [1] https://leform.ru
 [2] https://rakutenfashionweektokyo.com/en/topics/interview/leform/
 [3] https://umawang.com/_/en/boutiques.php.html

@@ -19,7 +19,8 @@ COCOS Moscow was founded with the vision of providing stylish, basic clothing at
 **Philosophy and Style**
 Maria's philosophy blends her experiences in both Russia and England. She aims to create a brand that reflects both comfort and aesthetic appeal, moving away from the notion that one must dress to impress. COCOS Moscow strives to combine elements of both cultures, offering clothing that is both practical and visually appealing[2][3].
 
-Citations:
+## Citations
+
 [1] https://cocos-moscow.ru/about/
 [2] https://blog.cocos-moscow.ru/cocos-moscow_people-masha-titova-i-zong-vu-osnovateli-marki/
 [3] https://uk.linkedin.com/in/maria-titova-3441aa4b

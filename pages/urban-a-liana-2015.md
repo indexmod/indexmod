@@ -4,7 +4,7 @@ permalink: urban-a-liana-2015
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/urban-a-liana-2015.jpg
 credits:
 ---
 

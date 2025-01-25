@@ -27,7 +27,8 @@ The party has been hosted in multiple venues, including:
 
 The events feature diverse music styles, with tracks ranging from electronic dance music to more experimental sounds. Artists associated with Loshadka Prty include performers like Ali Love, and the events often include live DJ sets[4][6].
 
-Citations:
+## Citations
+
 [1] https://www.last.fm/music/Loshadka-party
 [2] https://www.instagram.com/loshadka.party/
 [3] https://www.instagram.com/loshadka.prty/

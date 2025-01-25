@@ -22,7 +22,8 @@ Vardoui Nazarian maintains an active presence on social media platforms, includi
 ## Availability
 Her collections can be found on various online retail platforms, such as VIP Avenue, which offers discounts on her products. This accessibility helps broaden her reach to fashion enthusiasts looking for stylish options at competitive prices[5][8].
 
-Citations:
+## Citations
+
 [1] https://www.google.com/policies/faq
 [2] https://www.instagram.com/vardouinazarian/
 [3] https://www.facebook.com/p/Vardoui-Nazarian-100063961836723/

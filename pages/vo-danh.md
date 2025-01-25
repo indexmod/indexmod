@@ -19,7 +19,8 @@ credits:
 
 В настоящее время Дан Во живет и работает в Берлине и Мехико[1].
 
-Citations:
+## Citations 1
+
 [1] https://en.wikipedia.org/wiki/Danh_V%C3%B5
 [2] https://www.angrydan.com
 [3] https://riversidegallery.co.uk/product-category/artists/dan-walmsley/
@@ -57,7 +58,8 @@ Citations:
 
 Однако дело не дошло до исполнения этого решения. Юристы сторон достигли урегулирования, в результате которого Крейк отказался от своего иска. Таким образом, конфликт между коллекционером и художником был разрешен во внесудебном порядке.
 
-Citations:
+## Citations 2
+
 [1] https://www.italaw.com/sites/default/files/case-documents/italaw4159_0.pdf
 [2] https://www.ushmm.org/m/pdfs/Russian_Language_Pursuing_Justice_Handbook.pdf
 [3] https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%87%D0%B5%D1%81%D1%82%D0%B5%D1%80_%D0%A1%D0%B8%D1%82%D0%B8

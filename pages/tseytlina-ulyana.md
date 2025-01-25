@@ -19,7 +19,8 @@ Ulyana Tseytlina is married to Alexey Fedorychev, a businessman and commodity tr
 
 Overall, Ulyana Tseytlina is recognized not only for her contributions to modeling and television but also for her association with prominent figures in business and sports.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Alexey_Fedorychev
 [2] https://www.instagram.com/ulyana_latysheva/
 [3] https://www.imago-images.com/st/0054131506

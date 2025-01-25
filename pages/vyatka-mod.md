@@ -12,7 +12,8 @@ credits:
 
 The phrase "Вятский модник" encapsulates not just his fashion choices but also his role as a cultural icon within his community, symbolizing creativity and individuality against a backdrop of more conventional attire[1].
 
-Citations:
+## Citations
+
 [1] https://selyanka1.livejournal.com/244454.html
 [2] https://www.instagram.com/ekaterinarebezha/
 [3] https://kirov-portal.ru/news/svoi-lyudi/viktor-kazakovtsev-ya-pytayus-sootvetstvovat-dukhu-demokratii-eta-zhizn-menya-raduet/?auth_service_id=Twitter&check_key=3af12d5078833368044251fb21fcbcd1&ELEMENT_CODE=viktor-kazakovtsev-ya-pytayus-sootvetstvovat-dukhu-demokratii-eta-zhizn-menya-raduet

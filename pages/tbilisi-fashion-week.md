@@ -4,7 +4,7 @@ permalink: tbilisi-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/tbilisi-fashion-week.jpg
 credits:
 ---
 
@@ -24,7 +24,8 @@ In addition to TFW, the **Mercedes-Benz Fashion Week Tbilisi (MBFWT)** was launc
 
 Tbilisi Fashion Week serves as a crucial hub for the development of the fashion industry in Georgia, fostering creativity and innovation while positioning Tbilisi as one of Eastern Europe's emerging fashion capitals.
 
-Citations:
+## Citations
+
 [1] https://www.mbfashionweektbilisi.com
 [2] https://en.wikipedia.org/wiki/Tbilisi_Fashion_Week
 [3] https://liveyourownlife.ge/en/events/2

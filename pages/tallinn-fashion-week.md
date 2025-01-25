@@ -18,7 +18,8 @@ Tallinn Fashion Week (TFW) is a prominent fashion event organized by the Estonia
 ### Importance
 Tallinn Fashion Week plays a crucial role in promoting Estonian fashion on both local and international stages, allowing designers to connect with audiences and industry professionals alike.
 
-Citations:
+## Citations
+
 [1] https://tfw.ee
 [2] https://visittallinn.ee/eng/visitor/see-do/events/events/11529/tallinn-fashion-week-tfw
 [3] https://www.instagram.com/tallinnfashionweek/

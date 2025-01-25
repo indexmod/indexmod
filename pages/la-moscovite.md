@@ -33,7 +33,8 @@ The brand's products are primarily purchased by foreigners and some Muscovites, 
 
 As of late 2018, La Moscovite was planning to open a showroom in central Moscow, designed as a cozy space with a village style to showcase their products in their natural environment[4].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/la_moscovite/
 [2] https://carrerusse.com/en/designers/18
 [3] https://liostore.com/resa

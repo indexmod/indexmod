@@ -26,7 +26,8 @@ The platform aims to make fashion more **sustainable**, **democratic**, and **tr
 
 Lablaco has been active since 2016 and has participated in initiatives like the Circular Fashion Summit, working to transform how people interact with fashion through technology[2].
 
-Citations:
+## Citations
+
 [1] https://www.labla.co
 [2] https://www.renewablematter.eu/en/lablaco-a-platform-for-transparent-circular-and-digital-fashion
 [3] https://knowledge-hub.circle-economy.com/wctd/article/3937?n=Lablaco-A-Digital-Platform-for-Circular-Fashion

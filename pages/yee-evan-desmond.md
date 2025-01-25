@@ -15,7 +15,8 @@ credits:
 
 Йи активно использует различные медиа для выражения своих идей, что делает его работы многослойными и актуальными в контексте современного культурного дискурса.
 
-Citations:
+## Citations
+
 [1] https://archive.org/stream/sovremennykhoreographicheskiydiskurs2019/Sovremenny_khoreographicheskiy_diskurs_2019_djvu.txt
 [2] https://worldofcomics.ua/ru/characters-list/
 [3] http://polpred.ru/news/?person_id=9462&sector=3&page=1

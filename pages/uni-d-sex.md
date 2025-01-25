@@ -4,7 +4,7 @@ permalink: uni-d-sex
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/uni-d-sex.jpg
 credits:
 ---
 
@@ -24,7 +24,8 @@ The Uni(D)Sex trend aligns with contemporary movements advocating for gender inc
 
 In summary, Uni(D)Sex represents a significant evolution in fashion, merging style with inclusivity and reflecting changing societal attitudes towards gender identity.
 
-Citations:
+## Citations
+
 [1] https://unifresher.co.uk/cities/national/revealed-these-are-the-unis-with-the-students-having-the-most-sex/
 [2] https://www.birmingham.ac.uk/staff/profiles/education/dolimpio-laura
 [3] https://www.lancaster.ac.uk

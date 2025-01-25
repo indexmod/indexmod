@@ -21,7 +21,8 @@ Currently residing in Los Angeles with his rescue dogs, Hartig continues to expl
 
 Hartig's commitment to pushing boundaries in fashion has established him as a key figure in contemporary design, making Libertine a cult favorite over its more than two-decade journey.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Johnson_Hartig
 [2] https://www.reservedmagazine.com/libertine-fall-2021/
 [3] https://www.townandcountrymag.com/style/fashion-trends/a39173791/libertine-designer-johnson-hartig-21-year-anniversary/

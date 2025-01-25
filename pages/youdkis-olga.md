@@ -4,7 +4,7 @@ permalink: youdkis-olga
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/youdkis-olga.jpg
 credits:
 ---
 
@@ -17,9 +17,8 @@ Olga Youdkis, born in 1968 in Saint Petersburg, is a notable Russian media perso
 
 Olga Youdkis's contributions to the fashion sector and her professional background highlight her impact on media and public relations within Russia.
 
+## Citations
 
-
-Citations:
 [1] https://www.bbc.com/news/articles/c25rre8ww57o
 [2] https://uk.linkedin.com/in/olgamaksimovica
 [3] https://reutersinstitute.politics.ox.ac.uk/people/dr-olga-smirnova

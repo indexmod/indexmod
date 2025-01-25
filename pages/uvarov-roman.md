@@ -14,7 +14,8 @@ Uvarov's designs often reflect modern aesthetics while incorporating elements of
 
 In summary, Roman Uvarov is a talented young designer making waves in the fashion world with his distinctive approach to design and branding.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/romauvarov/
 [2] https://redseptemberdesign.com/catalog/
 [3] https://www.instagram.com/romauvarovdesign/?hl=ru

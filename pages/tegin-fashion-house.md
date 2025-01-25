@@ -28,7 +28,8 @@ Tegin Fashion House products can be found in high-end boutiques across Russia, i
 
 The brand continues to evolve while maintaining its commitment to quality and artistic expression, making it a significant player in the contemporary fashion landscape.
 
-Citations:
+## Citations
+
 [1] https://tegin.com/company/
 [2] https://tegin.com
 [3] https://www.instagram.com/teginfashionhouse/

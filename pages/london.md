@@ -54,7 +54,8 @@ A crucial part of the global fashion market, London Fashion Week:
 
 The city's fashion history reflects its multicultural nature, with significant contributions from migrant communities, including Huguenot silk weavers and Jewish designers, making London a truly global fashion hub[3].
 
-Citations:
+## Citations
+
 [1] https://londonfashionweek.co.uk
 [2] https://corushotels.com/corus-hyde-park/london-fashion-throughout-the-decades/
 [3] https://www.londonmuseum.org.uk/collections/about/what-we-collect/dress-and-textiles/

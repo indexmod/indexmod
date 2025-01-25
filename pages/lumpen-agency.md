@@ -22,7 +22,8 @@ The agency has gained recognition for its distinctive casting approach, with cov
 
 Lumpen represents a unique perspective in the modeling industry, challenging traditional beauty standards by highlighting diverse and unconventional faces from across Russia.
 
-Citations:
+## Citations
+
 [1] https://lumpen.agency
 [2] https://www.instagram.com/lumpenmen/?hl=ru
 [3] https://www.instagram.com/lumpenmen/reels/?locale=en-SG

@@ -4,7 +4,7 @@ permalink: teplitskaya-design
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/teplitskaya-design.jpg
 credits:
 ---
 
@@ -25,7 +25,8 @@ Teplitskaya Design, founded by **Elena Teplitskaya**, is a prominent design stud
 
 Elena Teplitskaya's work emphasizes a harmonious relationship between design elements, creating environments that are not only aesthetically pleasing but also functional and welcoming.
 
-Citations:
+## Citations
+
 [1] https://teplitskaya.ru
 [2] https://www.youtube.com/watch?v=WL-xQkSnadU
 [3] http://teplitskaya.ru

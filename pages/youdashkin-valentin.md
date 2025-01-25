@@ -27,7 +27,8 @@ Yudashkin's career was not without controversy. He was an outspoken supporter of
 ## Legacy
 Yudashkin's legacy is marked by his role as a pioneer who brought contemporary Russian fashion to global prominence. His works are part of major museum collections, and he received numerous accolades throughout his career, including various honors from both Russia and France[3][4]. His death came shortly after that of another influential designer, Vladislav Zaitsev, highlighting a significant loss for the Russian fashion community[2].
 
-Citations:
+## Citations
+
 [1] https://valentinyudashkin.com
 [2] https://www.themoscowtimes.com/2023/05/02/russian-fashion-designer-valentin-yudashkin-dies-at-59-a81004
 [3] https://en.wikipedia.org/wiki/Valentin_Yudashkin

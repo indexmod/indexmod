@@ -4,7 +4,7 @@ permalink: yanina-yulia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/yanina-yulia.jpg
 credits:
 ---
 
@@ -31,7 +31,8 @@ Yulia Yanina's design philosophy revolves around creating pieces that not only l
 
 Yulia Yanina continues to lead her family-run business, inspiring new generations through her work and dedication to the art of fashion. Her daughter Dasha has also taken on a significant role within the company, furthering its reach and relevance in today's fashion landscape[2][3].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/yanina.yulia/
 [2] https://yaninacouture.com/en/history/
 [3] https://yaninacouture.com/en/about/

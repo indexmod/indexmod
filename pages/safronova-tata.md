@@ -4,7 +4,7 @@ permalink: safronova-tata
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/safronova-tata.jpg
 credits:
 ---
 
@@ -14,7 +14,8 @@ Safronova actively shares her designs and creative process on social media platf
 
 In summary, Tata Safronova is an emerging designer making waves in the fashion industry with her innovative designs and successful participation in international fashion festivals.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/tata__safronova/
 [2] https://www.instagram.com/tata__safronova/reel/CiIkDLvJCHR/
 [3] https://www.pinterest.com/pin/12525705206988740/

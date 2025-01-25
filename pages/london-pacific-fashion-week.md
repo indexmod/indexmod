@@ -22,7 +22,8 @@ The fashion week features diverse cultural elements, including performances like
 
 LPFW has continued to host events in subsequent years, with documented fashion shows in 2021 and 2022[3][4]. The platform serves as a significant cultural bridge, bringing South Pacific fashion and artistic talent to the London fashion scene.
 
-Citations:
+## Citations
+
 [1] https://londonpacificfashion.wordpress.com
 [2] https://londonpacificfashion.wordpress.com/about/
 [3] https://www.youtube.com/watch?v=6vhG4pc5UFM

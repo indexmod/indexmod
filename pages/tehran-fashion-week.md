@@ -12,7 +12,8 @@ Tehran Fashion Week is scheduled to take place from **January 19 to January 25, 
 
 The previous edition of the festival was held in July 2022 at Milad Tower, featuring a variety of fashion designers who presented their collections[1].
 
-Citations:
+## Citations
+
 [1] https://www.tehrantimes.com/news/487731/Tehran-Fashion-Week-to-be-held-in-January
 [2] https://www.instagram.com/tehranfashionweekofficial/
 [3] https://www.instagram.com/thrfw/

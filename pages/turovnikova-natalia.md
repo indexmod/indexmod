@@ -23,7 +23,8 @@ Turovnikova's background includes living abroad; she was born while her father w
 
 Overall, Natalia Turovnikova embodies a blend of creativity and entrepreneurship in the Russian fashion landscape.
 
-Citations:
+## Citations
+
 [1] https://www.vokrug.tv/person/show/natalya_turovnikova/
 [2] https://m.sobaka.ru/people/5244
 [3] https://www.kinopoisk.ru/name/4971362/

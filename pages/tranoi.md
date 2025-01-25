@@ -4,9 +4,10 @@ permalink: tranoi
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/tranoi.jpg
 credits:
 ---
+
 Tranoï — это ведущая международная выставка моды, проходящая в Париже. С 30 сентября по 3 октября 2025 года она станет платформой для дизайнеров со всего мира, позволяя им представить свои коллекции крупным байерам и модным специалистам[2][3].
 
 **Основные факты о Tranoï:**
@@ -16,7 +17,8 @@ Tranoï — это ведущая международная выставка м
 
 Tranoï также активно сотрудничает с различными партнерами, что способствует созданию запоминающихся мероприятий для участников[1].
 
-Citations:
+## Citations
+
 [1] https://www.tranoi.com
 [2] https://artsstudioparis.com/tranoi/?lang=ru
 [3] https://artsstudioparis.com/tranoi-paris-womans/?lang=ru

@@ -25,7 +25,8 @@ The brand's first collection featured six socks with provocative and cultural na
 
 The brand has gained significant social media presence, with thousands of followers on platforms like Instagram and Facebook[1].
 
-Citations:
+## Citations
+
 [1] https://github.com/hanxiaomax/encyclopedia/blob/master/lecharlatan.md
 [2] https://fuckingyoung.es/le-charlatan-first-collection/
 [3] https://whatsonthestar.com/brand/lecharlatan

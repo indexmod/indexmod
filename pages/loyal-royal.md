@@ -29,7 +29,8 @@ The platform explores themes like:
 
 Xenia Ferz seems to be the primary interviewer and content creator, conducting conversations with various aristocrats, historians, and cultural experts across different domains[1][2].
 
-Citations:
+## Citations
+
 [1] https://loyalroyal.me
 [2] https://loyalroyal.me/fearless-botany
 [3] https://www.facebook.com/LoyalRoyalMe/

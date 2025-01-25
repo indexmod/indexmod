@@ -4,7 +4,7 @@ permalink: lakoba-rashida
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/lakoba-rashida.jpg
 credits:
 ---
 
@@ -14,7 +14,8 @@ In addition to RASARIO, Lakoba has launched a new brand called Kóvik, further e
 
 Lakoba is also active on social media, where she shares insights into her work and personal life, boasting a following of over 35,000 on Instagram[3]. Her journey reflects a blend of artistic vision and cultural inspiration, positioning her as a notable figure in contemporary fashion.
 
-Citations:
+## Citations
+
 [1] https://therasario.com/pages/about-us
 [2] https://en.wikipedia.org/wiki/2022_Abkhazian_parliamentary_election
 [3] https://www.instagram.com/rasida_lakoba/

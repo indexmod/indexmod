@@ -4,7 +4,7 @@ permalink: laska-tattoo
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/laska-tattoo.jpg
 credits:
 ---
 
@@ -21,7 +21,8 @@ The brand transforms temporary tattoos into delicate skin decorations, presentin
 ## Online Presence
 LASKA maintains an active social media presence, particularly on Instagram, where they showcase their tattoo designs and engage with their audience[2]. While primarily a Russian brand, their design aesthetic appears to appeal to a broader audience interested in unique, artistic temporary tattoo solutions.
 
-Citations:
+## Citations
+
 [1] https://modbrand.ru/collection/laska/product/perevodnaya-tatuirovka-blueberry
 [2] https://www.instagram.com/laska.pureink/
 [3] https://www.instagram.com/explore/locations/312991835731382/laska-tattoos/

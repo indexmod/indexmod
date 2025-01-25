@@ -28,7 +28,8 @@ TAA has hosted numerous events over the years, with notable recent exhibitions i
 
 Temporary Autonomous Art continues to be a vital platform for artistic expression and community engagement in the UK. By reclaiming space for creativity and dialogue, TAA challenges conventional art norms and fosters a vibrant cultural landscape.
 
-Citations:
+## Citations
+
 [1] https://www.taaexhibitions.org
 [2] https://www.instagram.com/taa_exhibitions/
 [3] https://www.instagram.com/taa_london/

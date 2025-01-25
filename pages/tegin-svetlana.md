@@ -24,7 +24,8 @@ Svetlana maintains an active presence on social media platforms like Instagram, 
 ### Personal Life
 Svetlana is married to Alexey Tegin and continues to influence the fashion landscape with her unique vision and dedication to quality craftsmanship [7].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/teginsvetlana/
 [2] https://tegin.com
 [3] https://www.gettyimages.co.uk/photos/svetlana-tegin
