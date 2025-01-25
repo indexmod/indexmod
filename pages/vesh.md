@@ -41,7 +41,8 @@ VESH активно представлен в Instagram, где демонстр
 - Шоу-рум находится в ТЦ "Цветной", 2 уровень
 - Адрес: ул. Нижняя Красносельская, 35/1, вход URBAN, офис 3114[3]
 
-Citations:
+## Citations
+
 [1] https://vesh.store
 [2] https://vesh.ru
 [3] https://www.instagram.com/vesh.brand/

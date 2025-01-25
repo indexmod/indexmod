@@ -44,7 +44,8 @@ The fashion scene reflects broader social dynamics, such as the demographic rati
 
 Ultimately, St. Petersburg street fashion is a dynamic, evolving style that balances practical necessity with creative self-expression, deeply influenced by both local conditions and global fashion trends.
 
-Citations:
+## Citations
+
 [1] https://globalist.yale.edu/photos/st-petersburg-street-style/
 [2] https://www.farfetch.com/style-guide/trends-subcultures/global-city-style-series-st-petersburg/
 [3] https://styledbymckenz.com/2023/05/01/what-im-wearing-in-saint-petersburg-florida/

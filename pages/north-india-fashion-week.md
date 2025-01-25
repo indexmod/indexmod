@@ -24,7 +24,8 @@ While the search results provide basic information about North India Fashion Wee
 
 Note: The search results primarily contain limited metadata about NIFW, so a more in-depth exploration would require additional research sources.
 
-Citations:
+## Citations
+
 [1] https://indiafashionweek.co.uk
 [2] https://indiafashionweek.co.uk/highlights/
 [3] https://www.facebook.com/nifw.official/

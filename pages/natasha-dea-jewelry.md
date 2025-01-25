@@ -4,7 +4,7 @@ permalink: natasha-dea-jewelry
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/natasha-dea-jewelry.jpg
 credits:
 ---
 
@@ -25,7 +25,8 @@ The brand appears to offer various jewelry types, including:
 
 Natasha Platanova's design approach seems to focus on reimagining materials and creating unique, artistic jewelry pieces[3].
 
-Citations:
+## Citations
+
 [1] https://notjustalabel.com/natasha-dea-jewelry
 [2] https://www.facebook.com/natashadeajewelry/videos/natasha-dea-jewelry/1794495380602863/?locale=en_GB
 [3] https://www.youtube.com/channel/UCAtYn9yweyvyM7OhBpH9i8g

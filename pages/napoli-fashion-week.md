@@ -18,7 +18,8 @@ Napoli Fashion Week (NFW) promotes the beauty of Naples both locally and interna
 
 Both events aim to showcase fashion and design, though they occur in different locations and have distinct characteristics. The Florida event seems more focused on luxury fashion shows and curated experiences, while the Italian event appears to have a broader cultural promotion goal.
 
-Citations:
+## Citations
+
 [1] https://www.naplesfashionweek.com
 [2] https://www.instagram.com/thenaplesfashionweek/
 [3] https://www.instagram.com/fashionweeknapoli/

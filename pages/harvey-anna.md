@@ -4,7 +4,7 @@ permalink: harvey-anna
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/harvey-anna.jpg
 credits:
 ---
 
@@ -43,7 +43,8 @@ credits:
 
 Анна Харви оставила значительный след в мире моды, влияя на стиль как членов королевской семьи, так и обычных людей через свою работу в журналах и книгу "Стиль вне времени"[1][3].
 
-Citations:
+## Citations
+
 [1] https://lena-view.livejournal.com/63190.html
 [2] https://en.wikipedia.org/wiki/Anna_Harvey
 [3] https://theblueprint.ru/fashion/lichnost/anna-harvey

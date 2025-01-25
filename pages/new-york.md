@@ -33,7 +33,8 @@ During New York Fashion Week SS25, fashion enthusiasts showcase their most darin
 - Mix of casual and high-fashion streetwear
 - Emphasis on individual expression and personal style
 
-Citations:
+## Citations
+
 [1] https://www.youtube.com/watch?v=ngLIeZbyB8A
 [2] https://www.elle.com/uk/fashion/g22736205/best-street-style-new-york-fashion-week/
 [3] https://www.youtube.com/watch?v=Nmua_5M7afU

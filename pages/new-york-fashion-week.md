@@ -42,7 +42,8 @@ Designers have been experimenting with innovative formats, such as:
 - Virtual and online fashion shows
 - Collaborative presentations to reduce costs[2][3]
 
-Citations:
+## Citations
+
 [1] https://nyfw.com
 [2] https://en.wikipedia.org/wiki/New_York_Fashion_Week
 [3] https://fashionweekonline.com/new-york/schedule

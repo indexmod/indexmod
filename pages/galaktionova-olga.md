@@ -37,7 +37,8 @@ On January 17, 2025, Galaktionova was named the new director of the Pushkin Stat
 
 Galaktionova's diverse background in arts, media, and museum management positions her uniquely to lead one of Russia's most prestigious cultural institutions.
 
-Citations:
+## Citations
+
 [1] https://mel.fm/zhizn/povestka/1874065-kto-takaya-olga-galaktionova-chto-izvestno-o-novom-direktore-gmii-im-a-s-pushkina
 [2] https://snob.ru/culture/olga-galaktionova-chto-my-znaem-o-novom-direktore-pushkinskogo-muzeia/
 [3] https://aif.ru/culture/person/direktor-gmii-imeni-pushkina-olga-galaktionova-dose

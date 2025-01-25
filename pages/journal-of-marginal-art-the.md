@@ -4,7 +4,7 @@ permalink: journal-of-marginal-art-the
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/journal-of-marginal-art-the.jpg
 credits:
 ---
 
@@ -14,7 +14,8 @@ credits:
 
 Кроме того, «Ж.М.И.» служит важным ресурсом для изучения маргинальности в искусстве и его влияния на современное общество, что делает его значимым элементом культурного ландшафта России[2][5].
 
-Citations:
+## Citations
+
 [1] https://garagemca.org/programs/library/catalogue/L62742
 [2] https://vk.com/journalmarginalart
 [3] https://russianartarchive.net/ru/catalogue/document/L62742

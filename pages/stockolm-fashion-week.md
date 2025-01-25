@@ -25,7 +25,8 @@ Stockholm Fashion Week is a prominent biannual event that showcases the latest c
 ## Significance
 Stockholm Fashion Week plays a crucial role in promoting Scandinavian fashion on the international stage and contributes to Stockholm's reputation as a dynamic fashion capital. It fosters creativity and collaboration among industry professionals while addressing contemporary issues such as sustainability in fashion[1][2].
 
-Citations:
+## Citations
+
 [1] https://visitnordic.com/en/attraction/stockholm-fashion-week
 [2] https://europaregina.eu/fashion-weeks/fashion-weeks-europe/stockholm-fashion-week/
 [3] https://vocast.com/event/stockholm-fashion-week-aw24

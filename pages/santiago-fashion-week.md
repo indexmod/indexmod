@@ -4,7 +4,7 @@ permalink: santiago-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/santiago-fashion-week.jpg
 credits:
 ---
 

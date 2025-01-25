@@ -32,7 +32,8 @@ Solntsev is known for making provocative statements about celebrities. In 2018, 
 
 Rustam Solntsev is 185 cm tall and weighs 85 kg[2]. He promotes a healthy lifestyle, avoiding harmful products and engaging in sports[2]. Solntsev has a close relationship with his mother, even gifting her a non-surgical facelift for her birthday[2].
 
-Citations:
+## Citations
+
 [1] https://en.atomiyme.com/biography-of-rustam-solntsev-participant-of-the-reality-show-dom-2/
 [2] https://24smi.org/celebrity/4030-rustam-solntsev.html
 [3] https://teleprogramma.org/persons/rustam-solncev

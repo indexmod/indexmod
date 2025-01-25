@@ -4,7 +4,7 @@ permalink: himalayan-times-tgif-nepal-fashion-week-the
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/himalayan-times-tgif-nepal-fashion-week-the.jpg
 credits:
 ---
 
@@ -22,7 +22,8 @@ TGIF Nepal Fashion Week serves as a platform for emerging designers to gain visi
 
 This annual event not only highlights fashion but also fosters creativity and innovation within the industry, making it a key event on the South Asian fashion calendar.
 
-Citations:
+## Citations
+
 [1] https://thehimalayantimes.com/photo-gallery/tgif-nepal-fashion-week-2022
 [2] https://www.facebook.com/TGIFNFW/?locale=en_GB
 [3] https://vocal.media/marriage/fashion-forward-a-glimpse-into-the-himalayan-times-tgif-nepal-fashion-week-2024

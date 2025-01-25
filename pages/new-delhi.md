@@ -40,7 +40,8 @@ The event features designers and models from multiple countries, including:
 
 The event is powered by Sanjay Kannan Fashion Entertainment Pvt Ltd and aims to celebrate diversity, creativity, and innovative fashion trends.
 
-Citations:
+## Citations
+
 [1] https://difw.in
 [2] https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdifwofficial%2F
 [3] https://www.instagram.com/delhirunwayweek/

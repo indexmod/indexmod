@@ -4,7 +4,7 @@ permalink: jury-urso-no-5
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/jury-urso-no-5.jpg
 credits:
 ---
 

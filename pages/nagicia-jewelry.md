@@ -46,7 +46,8 @@ The brand has also adorned celebrities on television and red carpet events[1].
 
 Tricia Kim, the founder, brings extensive experience from her background in art schools in New York and Paris, and her previous work with renowned brands like John Hardy[1][2].
 
-Citations:
+## Citations
+
 [1] https://id.linkedin.com/in/triciakimco
 [2] https://triciakim.co
 [3] https://www.facebook.com/TriciaKimBali/

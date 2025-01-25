@@ -29,7 +29,8 @@ Interested participants can get styling consultations by calling 230-34-19 at th
 
 The event has been praised for inspiring many fashion enthusiasts, with organizers noting that "Novosibirsk Fashion Week has inspired many, and that is our pride!"[2]
 
-Citations:
+## Citations
+
 [1] http://fashion-week-nsk.ru
 [2] https://vk.com/novosibirsk_fashion_week
 [3] https://www.instagram.com/novosibirsk_fashion_week/

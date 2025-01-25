@@ -22,7 +22,8 @@ Mutasov is active on multiple social media platforms:
 
 He is also known for creating content about creativity, with YouTube videos discussing topics like how to enhance creative skills[7]. His Instagram bio highlights his passion for helping creative professionals develop their careers[1][6].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/mutasov/
 [2] https://www.linkedin.com/pub/dir/Gennady/Mutasov
 [3] https://www.facebook.com/mutasov/

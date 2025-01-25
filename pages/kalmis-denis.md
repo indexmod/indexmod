@@ -4,7 +4,7 @@ permalink: kalmis-denis
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/kalmis-denis.jpg
 credits:
 ---
 
@@ -14,7 +14,8 @@ Kalmis is also active on social media, particularly Instagram, where he shares h
 
 In the business realm, Denis Kalmis is listed as an active director of a company based in London, indicating his involvement in entrepreneurial ventures beyond the kitchen[7].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/deniscalmis/
 [2] https://www.thevanderlust.com/en/city/moscow/insider/272.html
 [3] https://soundcloud.com/dkalmis

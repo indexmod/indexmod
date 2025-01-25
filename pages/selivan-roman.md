@@ -25,7 +25,8 @@ Selivan specializes in creating **ultra-high retention frameworks** that focus o
 **Education**
 While specific details are limited, he appears to have professional training and experience across multiple domains, including design, event management, and strategic communications[4].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/romanselivan/
 [2] https://es.linkedin.com/in/selivan
 [3] https://www.facebook.com/public/Roman-Selivan

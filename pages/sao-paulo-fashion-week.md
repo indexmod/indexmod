@@ -41,7 +41,8 @@ The event has grown significantly since its inception:
 
 The event has become a crucial platform for Brazilian designers, international fashion professionals, and a catalyst for social change in the fashion industry.
 
-Citations:
+## Citations
+
 [1] https://spfw.com.br
 [2] https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F_%D0%BC%D0%BE%D0%B4%D1%8B_%D0%B2_%D0%A1%D0%B0%D0%BD-%D0%9F%D0%B0%D1%83%D0%BB%D1%83
 [3] https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Fashion_Week

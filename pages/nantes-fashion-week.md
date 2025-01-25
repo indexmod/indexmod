@@ -30,7 +30,8 @@ Based on the available search results, there isn't a comprehensive "Nantes Fashi
 
 While these events demonstrate Nantes' vibrant fashion scene, there is no specific "Nantes Fashion Week" event definitively scheduled for 2025 in the search results.
 
-Citations:
+## Citations
+
 [1] https://www.fashiongreenhub.org/fashion-green-days-nantes-2023/
 [2] https://www.eventbrite.com/d/france--nantes/fashion-week/
 [3] https://www.facebook.com/events/1891113564504803/

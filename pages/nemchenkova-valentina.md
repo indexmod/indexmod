@@ -4,7 +4,7 @@ permalink: nemchenkova-valentina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/nemchenkova-valentina.jpg
 credits:
 ---
 
@@ -18,7 +18,8 @@ In addition to her music career, Nemchenkova works as a model, represented by Iz
 
 Nemchenkova continues to be active in the music scene, performing live sets and releasing new music. In 2024, she was scheduled to perform at Bar "Sol" in Yekaterinburg on July 29[4].
 
-Citations:
+## Citations
+
 [1] http://avec.club/malchik
 [2] https://www.facebook.com/valentina.nemchenkova/
 [3] https://www.instagram.com/santavalentina69/

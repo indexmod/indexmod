@@ -4,7 +4,7 @@ permalink: galdanova-agniia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/galdanova-agniia.jpg
 credits:
 ---
 
@@ -24,7 +24,8 @@ Galdanova is known for her observational approach and her ability to capture int
 
 Her work often focuses on complex human relationships and societal issues, particularly those related to LGBTQ+ rights and activism in Russia[1][4][5]. Galdanova's films have been supported by prestigious organizations such as Sundance and IDFA[1][6].
 
-Citations:
+## Citations
+
 [1] https://docsbarcelona.com/en/profiles/agniia-galdanova
 [2] https://www.blendbarcelona.com/agniia-galdanova/
 [3] https://www.luxfilmfest.lu/en/guests/agniia-galdanova/

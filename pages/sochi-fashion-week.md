@@ -19,7 +19,8 @@ Sochi Fashion Week is a prominent fashion event held twice a year in Sochi, Russ
 
 Sochi Fashion Week has gained recognition as a key fashion event in Southern Russia, attracting attention for its vibrant presentations and the diverse talent showcased.
 
-Citations:
+## Citations
+
 [1] http://sochifw.ru
 [2] https://vk.com/sochifw
 [3] https://www.instagram.com/sochifw/

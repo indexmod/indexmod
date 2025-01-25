@@ -19,7 +19,8 @@ Haik Simonyan is a prominent Russian artist and designer, recognized for his con
 
 In summary, Haik Simonyan is a multifaceted artist whose work reflects a deep connection to Russian culture and design, making significant contributions to the contemporary art scene.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/haiksimonyan/
 [2] https://www.facebook.com/simonyan.haik/?locale=ru_RU
 [3] https://am.linkedin.com/in/hayk--simonyan

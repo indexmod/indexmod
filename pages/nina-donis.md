@@ -4,7 +4,7 @@ permalink: nina-donis
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/nina-donis.jpg
 credits:
 ---
 
@@ -47,7 +47,8 @@ The brand continues to be active in the fashion industry, regularly releasing ne
 |-|-|-|
 |Moving mood board|2018|Olya Korsun, Masha Frolova <span id="a5">[\[5\]](#f5)</span>|
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/nina_donis/
 [2] http://www.ninadonis.com/ru_collections.html
 [3] https://www.google.com/policies/faq

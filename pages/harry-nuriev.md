@@ -4,7 +4,7 @@ permalink: harry-nuriev
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/harry-nuriev.jpg
 credits:
 ---
 
@@ -28,7 +28,8 @@ He has also lectured at prestigious institutions such as Harvard University and 
 
 As of 2023, Nuriev continues to push the boundaries of design through various projects that explore the intersection of digital realms and physical spaces. He is represented by Carpenters Workshop Gallery and is set to publish his first monograph titled *How to Land in the Metaverse* in May 2023[4][5]. His work remains influential in shaping modern interior design trends and practices.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/harrynuriev/
 [2] https://www.businessoffashion.com/people/harry-nuriev/
 [3] https://carpentersworkshopgallery.com/artists/harry-nuriev/

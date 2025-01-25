@@ -33,7 +33,8 @@ Several notable designers will showcase their collections:
 
 The event continues to emphasize **diversity**, **inclusivity**, and **sustainability**, showcasing innovative designs from both established and emerging designers[1].
 
-Citations:
+## Citations
+
 [1] https://thesybarite.co/london-fashion-week-2025-what-to-know
 [2] https://www.chicstylecollective.com/london-fashion-week-fall-winter-2025/
 [3] https://www.eventbrite.com/e/london-fashion-week-gala-fw-25-friday-february-21st-2025-tickets-1075244718899

@@ -23,7 +23,8 @@ St. Petersburg Fashion Week has evolved over the years to include various aspect
 
 For more information about participation or attendance, interested parties can visit the official website or contact organizers via provided communication channels[1].
 
-Citations:
+## Citations
+
 [1] https://spbfw.ru
 [2] https://nevafashionweek.ru
 [3] https://www.absoluteyachts.com/en/absolute_event/st-petersburg-fashion-week/

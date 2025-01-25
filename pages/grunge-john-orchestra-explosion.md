@@ -4,7 +4,7 @@ permalink: grunge-john-orchestra-explosion
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/grunge-john-orchestra-explosion.jpg
 credits:
 ---
 
@@ -24,7 +24,8 @@ Grunge John Orchestra. Explosion is a **contemporary urban clothing brand** foun
 
 The brand has a strong social media presence, with active accounts on platforms like Instagram, Facebook, and VKontakte, where they share new drops and special offers for their loyal customers[2][3][5][6].
 
-Citations:
+## Citations
+
 [1] https://grungejohn.com/brand/
 [2] https://www.grungejohn.com
 [3] https://vk.com/grungejohn

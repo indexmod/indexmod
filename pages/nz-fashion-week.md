@@ -25,7 +25,8 @@ The event experienced significant disruption during the COVID-19 pandemic, with 
 
 In 2025, NZFW will transition to a **biennial format**, scheduled from August 25-30, taking place at Shed 10 on Queens Wharf in Tāmaki Makaurau (Auckland)[7][8]. This marks a new chapter for the event, which has traditionally been an annual showcase of fashion, art, and culture[1][3][4].
 
-Citations:
+## Citations
+
 [1] https://www.nzfashionweek.com
 [2] https://en.wikipedia.org/wiki/New_Zealand_Fashion_Week
 [3] https://fashionunited.com/events/New-Zealand-Fashion-Week

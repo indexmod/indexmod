@@ -4,7 +4,7 @@ permalink: hardkea
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/hardkea.jpg
 credits:
 ---
 
@@ -24,7 +24,8 @@ While not directly related, it's worth noting that other brands such as Härkila
 
 For more detailed information about their offerings or specific projects, visiting their social media pages or official website would provide further insights into their work and product range.
 
-Citations:
+## Citations
+
 [1] https://archello.com/brand/hardkea
 [2] https://harkila.com/en-gb
 [3] https://www.hardyakkaworkwear.co.uk

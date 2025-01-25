@@ -4,7 +4,7 @@ permalink: neretina-nina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/neretina-nina.jpg
 credits:
 ---
 
@@ -25,7 +25,8 @@ In 2000, Neretina and Poupis officially launched the Nina Donis brand, creating 
 
 Their work has been recognized internationally, with exhibitions at London Fashion Week and features in influential fashion magazines[1].
 
-Citations:
+## Citations
+
 [1] https://www.fashionmodeldirectory.com/designers/nina-neretina--donis-poupis/
 [2] https://asthik.com/en/nina-donis/
 [3] https://theblueprint.ru/culture/interview/nina-donis

@@ -28,7 +28,8 @@ Norsoyan's legacy includes her emphasis on team collaboration and consumer feedb
 
 Sadly, Lyudmila Norsoyan passed away on July 8, 2022, at the age of 59, after battling cancer for five years[1].
 
-Citations:
+## Citations
+
 [1] https://www.forbes.ru/forbes-woman/487675-rabotala-gruzcicej-myla-poly-kak-ludmila-norsoan-stala-pionerom-mody-v-rossii
 [2] https://ru.linkedin.com/in/liudmila-norsoyan-5b0890226
 [3] https://notjustalabel.com/norsoyan

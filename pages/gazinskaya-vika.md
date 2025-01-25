@@ -4,7 +4,7 @@ permalink: gazinskaya-vika
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/gazinskaya-vika.jpg
 credits:
 ---
 
@@ -25,7 +25,8 @@ Gazinskaya is known for her commitment to cruelty-free fashion, avoiding the use
 
 Her work has attracted a celebrity following, with notable figures like Kirsten Dunst and Katy Perry wearing her designs. Gazinskaya continues to influence the fashion industry with her innovative approach and dedication to sustainability[5].
 
-Citations:
+## Citations
+
 [1] https://vikagazinskaya.ru
 [2] https://profashion.ru/guide/gazinskaya-vika/
 [3] https://www.businessoffashion.com/people/vika-gazinskaya/

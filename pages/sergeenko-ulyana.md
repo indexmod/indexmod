@@ -42,7 +42,8 @@ Sergeenko was previously married to Russian insurance billionaire Danil Khachatu
 
 In 2018, she faced public criticism for a handwritten note containing a racial slur, which she subsequently apologized for[2].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/ulyanasergeenko/?hl=ru
 [2] https://en.wikipedia.org/wiki/Ulyana_Sergeenko
 [3] https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%B0_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0

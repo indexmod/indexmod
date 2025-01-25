@@ -22,7 +22,8 @@ For those seeking unique fashion items, Schwerin-inspired merchandise is availab
 
 The presence of both local shops and international chains like C&A in Schwerin ensures a wide range of fashion options at different price points, making fashion accessible to various segments of the population[8].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/only_schwerin/p/DC1NHPZoXcF/
 [2] https://www.ebay.co.uk/itm/154723475689
 [3] https://www.gettyimages.co.uk/photos/schwerin

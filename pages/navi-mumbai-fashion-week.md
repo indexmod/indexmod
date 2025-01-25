@@ -22,7 +22,8 @@ Several local institutions are involved in the fashion scene in Navi Mumbai, inc
 
 While specific details about the exact dates and full program of the upcoming Navi Mumbai Fashion Week are not completely clear from the search results, the event seems to be an important platform for showcasing design talent in the region[6].
 
-Citations:
+## Citations
+
 [1] https://www.nifdvashi.com/fashion-design.php
 [2] https://www.instagram.com/mumbaifashionweek/
 [3] https://www.facebook.com/Navi-Mumbai-Fashion-Week-609700566204410/

@@ -4,7 +4,7 @@ permalink: sofia-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/sofia-fashion-week.jpg
 credits:
 ---
 
@@ -21,7 +21,8 @@ Sofia Fashion Week maintains an active presence on social media platforms like I
 
 This annual fashion week not only promotes local designers but also enhances Sofia's status as a growing hub for fashion in Eastern Europe.
 
-Citations:
+## Citations
+
 [1] https://sofiafashionweek.com
 [2] https://sofiafashionweek.com/women-models/
 [3] https://www.instagram.com/sofiafashionweek/?hl=ru

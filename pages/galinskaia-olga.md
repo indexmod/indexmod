@@ -4,7 +4,7 @@ permalink: galinskaia-olga
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/galinskaia-olga.jpg
 credits:
 ---
 
@@ -28,7 +28,8 @@ Galinskaia is known for her ability to create impressive looks using mass-market
 
 As of January 2025, Olga Galinskaia maintains a presence on social media platforms, including Instagram, where she has over 1,000 followers[4].
 
-Citations:
+## Citations
+
 [1] https://github.com/hanxiaomax/encyclopedia/blob/master/galinskaia-olga.md
 [2] https://www.linkedin.com/pub/dir/Olga/Galinskaia
 [3] https://ru.linkedin.com/in/olga-galinskaia-7143578a

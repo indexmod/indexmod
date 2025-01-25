@@ -18,7 +18,8 @@ In addition to producing music, Nazarov performs live sets. He has played at AVE
 
 Nazarov's work as a label owner through AVEC demonstrates his involvement in the broader electronic music scene, supporting and releasing music from other artists in addition to his own productions[2][4].
 
-Citations:
+## Citations
+
 [1] https://soundcloud.com/maxim-nazarov12
 [2] https://avecavecavec.bandcamp.com/album/the-light
 [3] https://music.apple.com/us/artist/maxim-nazarov/352356181

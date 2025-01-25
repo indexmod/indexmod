@@ -16,7 +16,8 @@ Looking ahead, preparations for the Goyol 2025 Fashion Show are already underway
 
 Goyol plays a significant role in shaping Mongolia's fashion trends and overall aesthetic[3]. It serves as a platform for showcasing local talent and promoting the country's fashion industry on both national and international stages.
 
-Citations:
+## Citations
+
 [1] https://montsame.mn/en/read/331555
 [2] https://en.wikipedia.org/wiki/Goyol_Fashion_Festival
 [3] https://www.instagram.com/goyol_fashion_show/

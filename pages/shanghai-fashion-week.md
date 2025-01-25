@@ -28,7 +28,8 @@ Shanghai Fashion Week is a significant biannual event held in Shanghai, typicall
 
 Shanghai Fashion Week continues to evolve as a critical hub for fashion innovation, blending local artistry with global trends while fostering an environment conducive to new ideas and collaborations.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Shanghai_Fashion_Week
 [2] https://metalmagazine.eu/en/post/shanghai-fashion-week-ss-2025-our-favourite-collections
 [3] https://jingdaily.com/posts/international-brands-flock-to-shanghai-fashion-week

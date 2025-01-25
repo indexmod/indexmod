@@ -25,7 +25,8 @@ Sobchak is married to Konstantin Bogomolov and has one son named Plato from her 
 ### Conclusion
 Ksenia Sobchak's life reflects a blend of privilege and public scrutiny, shaped by her family's political legacy and her own ambitions in media and politics. Her ongoing influence in Russian society makes her a significant figure in contemporary discussions about governance and civil rights in Russia.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Ksenia_Sobchak
 [2] https://simple.wikipedia.org/wiki/Ksenia_Sobchak
 [3] https://goodcountry.org/global-vote/elections/russia/candidates/ksenia-sobchak/

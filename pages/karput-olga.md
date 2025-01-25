@@ -4,7 +4,7 @@ permalink: karput-olga
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image:
+image: /images/karput-olga.jpg
 credits:
 ---
 
@@ -26,7 +26,8 @@ Olga's personal life gained attention when she married Pavel Ty, an entrepreneur
 
 Karput's impact on the fashion scene continues to grow as she champions innovative design and supports new talent within the industry.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/okarput/
 [2] https://24smi.org/celebrity/138263-olga-karput.html
 [3] https://www.thevanderlust.com/en/city/moscow/insider/393.html

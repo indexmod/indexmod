@@ -24,7 +24,8 @@ SWAIA Native Fashion Week is scheduled for May 7-11, 2025. The event will featur
 
 The key distinction is that SWAIA Native Fashion Week specifically highlights Indigenous designers and their creative expressions, while Santa Fe Fashion Week appears to be a more general fashion showcase.
 
-Citations:
+## Citations
+
 [1] https://swaianativefashion.org
 [2] https://swaianativefashion.org/video-gallery
 [3] https://www.prnewswire.com/news-releases/swaia-announces-dates-for-2025-native-fashion-week-302324212.html

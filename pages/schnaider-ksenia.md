@@ -24,7 +24,8 @@ In 2019, Ksenia Schnaider was included in the Vogue Green Talent shortlist for h
 ### Current Endeavors
 As of January 2025, Ksenia continues to lead KSENIASCHNAIDER from Haywards Heath, England, while maintaining strong ties to Ukraine. Her work not only showcases innovative design but also emphasizes the importance of sustainability in contemporary fashion[2][3].
 
-Citations:
+## Citations
+
 [1] https://www.kseniaschnaider.com
 [2] https://uk.linkedin.com/in/ksenia-schnaider-66a0444a
 [3] https://en.wikipedia.org/wiki/Ksenia_Schnaider
