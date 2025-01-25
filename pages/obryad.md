@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: /images/obryad.jpg
-credits:
+credits: https://vk.com/wall-219608091_20496
 ---
 
 The "Russkiy Stil: Obryad" (Russian Style: Ritual) is a unique fashion project presented at the International Exhibition-Forum "Russia" that goes beyond a traditional fashion show. This artistic performance reinterprets Russian women's traditional clothing through a contemporary lens[1].
@@ -34,7 +34,8 @@ The initiators aim to:
 - Time: 18:00-18:45
 - Admission: Free[1]
 
-Citations:
+ ## Citations
+
 [1] https://russia.ru/news/krasota-tradicii-v-novom-zvucanii-pokaz-russkii-stil-obriad-16-iiunia-na-vystavke-rossiia
 [2] https://www.youtube.com/watch?v=TaA-zQCeoas
 [3] https://www.instagram.com/emelyanova_market/p/C87VxCcitMN/
