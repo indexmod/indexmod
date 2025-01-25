@@ -1,0 +1,32 @@
+<title>{{ page.title }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<meta name="viewport" content="width=device-width">
+
+
+<!-- Open Graph Meta Tags -->
+<meta property="fb:app_id" content="" />
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+<meta property="og:image" content="{{ page.image }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Open Graph: Image Alt -->
+<meta property="og:image:alt" content="{{ page.title | escape }}" />
+
+<!-- Twitter Card Meta Tags (for X) -->
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+<meta name="twitter:image" content="{{ page.image }}">
+<meta name="twitter:site" content="@indexmod" />
+
+<!-- General Meta Tags for SEO -->
+<meta name="description" content="{{ page.excerpt | strip_html }}">
+<meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+<meta name="robots" content="index, follow">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
