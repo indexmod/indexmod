@@ -1,11 +1,11 @@
 ---
 title: Вашингтонская неделя моды (DCFW)
-permalink: washington-nedelya-mody
+permalink: washington
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/washington-nedelya-mody.jpg
-credits:
+image: /images/washington-1.jpg
+credits: Консультанты моды Садэ Ноэ и Чадэ Ноколь позируют на мероприятии 23 февраля 2017 года в посольстве Гаити в Вашингтоне; Photo, Erin Schaff, washingtonpost.com
 ---
 
 Вашингтонская неделя моды, известная как **DC Fashion Week**, представляет собой важное событие в мире моды, проходящее дважды в год: в сентябре и феврале. В 2024 году следующие показы запланированы с 4 по 7 февраля и с 8 по 12 июля[2].
@@ -18,7 +18,8 @@ credits:
 
 Вашингтонская неделя моды становится все более заметной на международной арене, привлекая внимание не только местных жителей, но и туристов, что способствует развитию модной культуры в столице США.
 
-Citations:
+## Citations
+
 [1] https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F_%D0%BC%D0%BE%D0%B4%D1%8B
 [2] https://www.lofficielbaltic.com/fashion/11-maloizvestnyh-nedel-mody-po-vsemu-miru-na-kotorye-stoit-obratit-vnimanie
 [3] https://www.facebook.com/media/set/?set=a.10150303197422026&type=3&comment_id=10150303265657026
@@ -43,12 +44,6 @@ Citations:
 ## Мода
 
 С 2011 года в Вашингтоне проходит **«Неделя моды округа Колумбия»**, основанная [Ианом Вильямсоном](williams-ean). Это некоммерческая организация, предоставляющая образовательные и консультационные услуги для молодых дизайнеров, включая стипендии и помощь студентам. Мероприятие также поддерживает участников федеральных программ в области моды и постановки модных шоу <span id="a2">[\[2\]](#f2)</span>.
-
-![(Additional images correspondent to the article of “{{ page.title }}”)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Консультанты моды Садэ Ноэ и Чадэ Ноколь позируют на мероприятии 23 февраля 2017 года в посольстве Гаити в Вашингтоне**
-
-*Photo: [Erin Schaff ](Erin Schaff Erin Schaff) / [The Washington Post](https://www.washingtonpost.com)*
 
 ## Галереи и стрит-арт
 

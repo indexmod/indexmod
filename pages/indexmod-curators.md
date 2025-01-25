@@ -12,6 +12,10 @@ The mission of Indexmod is to uncover the new cultural centers of the world, as 
 
 If you are interested in becoming a local curator and you live in one of the listened cities, contact the encyclopedia e-mailing to the Editor.
 
++ Developed and edited by [Андрей Дейниченко](mailto:indexmod@ya.ru)
+
++ Эфир by Indexmod 24/7 говорит по-русски  [air.indexmod.xyz](https://air.indexmod.xyz/)
+
 
 
 | City         | Persone           |

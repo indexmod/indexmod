@@ -4,8 +4,8 @@ permalink: kiev
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/kiev.jpg
-credits:
+image: https://assets.vogue.com/photos/5a75fbaacbd8f42a6ea8de40/16:9/w_1280,c_limit/13-Kiev-Fall-2018-Day-2.jpg
+credits: https://www.vogue.com/tag/city/kiev The Best Street Style From Kiev’s Fall 2018 Shows
 ---
 
 Ukrainian fashion has demonstrated remarkable **resilience** during the ongoing conflict with Russia, particularly through the Ukrainian Fashion Week (UFW) event. In September 2024, the 55th season of UFW returned to Kyiv for the first time since the Russian invasion in 2022[1][2].
@@ -37,7 +37,8 @@ Despite ongoing conflict, the fashion industry has adapted:
 
 As designer Ivan Frolov poignantly stated, "Life continues" - and for Ukrainian fashion, this means not just surviving, but thriving in the face of adversity.
 
-Citations:
+## Citations
+
 [1] https://kyivindependent.com/amid-missile-strikes-fashion-takes-the-stage-in-kyiv-photos/
 [2] https://www.cnn.com/2024/07/26/style/ukrainian-fashion-week-returns-war/index.html
 [3] http://fashionweek.ua
@@ -55,7 +56,7 @@ Citations:
 
 *Photo: [Alyona Shum](shum-alyona) / [Kyiv Street Style Blogspot](http://kyivstreetstyle.blogspot.com/)*
 
-# See also
+## See also
 
 + [Berdyansk Fashion Day](berdyansk-fashion-day)
 + [Odessa Fashion Week](odessa-fashion-week)

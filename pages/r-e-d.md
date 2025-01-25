@@ -4,7 +4,7 @@ permalink: r-e-d
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/r-e-d.jpg
+image: /logo.png
 credits:
 ---
 
@@ -23,7 +23,8 @@ R.E.D. Shoe Room in Moscow is a notable destination for fashion enthusiasts, esp
 
 The R.E.D. Shoe Room exemplifies the luxurious shopping culture in Moscow, appealing to both local and international fashion aficionados.
 
-Citations:
+## Citations
+
 [1] https://www.telegraph.co.uk/luxury/womens-style/russia-style-fashion-best-moscow-fashion-shopstsum-department/
 [2] https://www.aldoshoes.com/international
 [3] https://www.apm.mc

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-23
 image: /images/kupinskaya-yulia.jpg
-credits:
+credits: Вечные половины https://spletnik.ru/54725-mbfw-russia-modnye-pokazy-vtorogo-dnya-52606
 ---
 
 Yulia Kupinskaya is a Russian fashion designer known for her unique approach to design, focusing on natural fabrics and leather accessories. She studied clothing design at the Laboratory of Fashion under Vyacheslav Zaitsev and industrial design at the Moscow State Academic Art Institute named after S.G. Stroganov.
@@ -14,7 +14,8 @@ Her work emphasizes **authorial design**, which combines creativity with functio
 
 In addition to her design work, she is active on social media platforms like Instagram, where she shares insights into her creative process and showcases her designs [1][3]. Her designs often reflect a blend of artistic expression and practical wearability, positioning her as a notable figure in contemporary fashion [2][4].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/uliya_kupinskaya/
 [2] https://www.facebook.com/kupinskayadesign/
 [3] https://www.instagram.com/uliya_kupinskaya/reels/
@@ -23,7 +24,6 @@ Citations:
 [6] https://www.intermoda.ru/cit/julija-kupinskaja-kollekcija-prozhenstvennost.html
 [7] http://dailyculture.ru/stati/litsa/yuliya_kupinskaya_moda_kak_iskusstvo_mne_dorozhe_vsego_/
 [8] https://vk.com/id2831811
-
 
 ## Indexmod 20 Топ 2025
 

@@ -4,8 +4,8 @@ permalink: rasiuk-nina-jeweller
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/rasiuk-nina-jeweller.jpg
-credits:
+image: https://www.buro247.ru/images/2019/12/1576837501733281.jpg
+credits: Гид по армянской столице от основателя модельного агентства Tes Models Нины Расюк buro247
 ---
 
 Nina Rasiuk is a prominent designer and entrepreneur in the jewelry industry. She is the founder of **RANINA Jewelry**, a brand known for its unique designs and craftsmanship. Additionally, she has established **TES MODELS**, showcasing her versatility in the fashion and modeling sectors, where she serves as a creative director and producer[1][5].
@@ -14,7 +14,8 @@ Rasiuk has a background in photography, having worked as a photo editor for **BU
 
 Her work reflects a blend of modern aesthetics with traditional craftsmanship, making her a notable figure in contemporary jewelry design. Rasiuk's contributions to the field have garnered attention on various platforms, including social media where she shares insights into her projects and designs[4][6].
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/nina.rasiuk/
 [2] https://nina-b.co.uk
 [3] https://www.facebook.com/nina.rasiuk/?locale=ru_RU
