@@ -4,8 +4,8 @@ permalink: paris-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image: https://cdn.vogue.ua/i/image_720x/uploads/article-inline/7b3/eab/dba/5c76dbaeab7b3.jpeg.webp
-credits:
+image: https://cdn.vogue.ua/i/image_720x/uploads/article-inline/7b3/eab/dba/5c76dbaeab7b3.jpeg
+credits: Paris Fashion Week vogue.ua
 ---
 
 Paris Fashion Week (PFW) является одной из четырех самых престижных недель моды в мире, входящих в так называемую **"Большую четверку"**[3][4][5].
