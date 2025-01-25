@@ -4,8 +4,8 @@ permalink: london
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-credits:
 image: https://hips.hearstapps.com/hmg-prod/images/gettyimages-1206958270.jpg
+credits: London hearstapps.com
 ---
 
 London has established itself as a **global fashion capital** with a rich and diverse fashion history. The city is home to some of the world's most successful high-end fashion designers, including Alexander McQueen and Stella McCartney[2][4].
