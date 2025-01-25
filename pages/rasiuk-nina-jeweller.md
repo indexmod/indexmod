@@ -4,7 +4,7 @@ permalink: rasiuk-nina-jeweller
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/rasiuk-nina-jeweller.jpg
 credits:
 ---
 

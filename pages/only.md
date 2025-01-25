@@ -4,7 +4,7 @@ permalink: only-role-of-the-superstar-the-2011
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/only-role-of-the-superstar-the-2011.jpg
 credits:
 ---
 

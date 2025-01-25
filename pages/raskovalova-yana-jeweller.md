@@ -4,7 +4,7 @@ permalink: raskovalova-yana-jeweller
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/raskovalova-yana-jeweller.jpg
 credits:
 ---
 

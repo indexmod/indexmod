@@ -4,7 +4,7 @@ layout: crypto
 permalink: gde-na-lune
 date: 2018-01-02
 update: 2025-01-21
-image:
+image: /images/gde-na-lune.jpg
 credits:
 ---
 

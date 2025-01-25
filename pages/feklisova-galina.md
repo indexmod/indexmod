@@ -1,10 +1,10 @@
 ---
 title: Feklisova, Galina
-date: 2025-01-10
-update:
-layout: crypto
 permalink: feklisova-galina
-image:
+date: 2025-01-10
+update: 2025-01-25
+layout: crypto
+image: /images/feklisova-galina.jpg
 ---
 
 Galina Feklisova is a designer known for her work in children's fashion, particularly highlighted through her collection titled "Пряничное детство" (Gingerbread Childhood). She participated in the XI International Fashion and Beauty Festival "Fashion Style," which took place in Tula, Russia. At this festival, her collection received recognition, securing second place among numerous talented designers from various regions, including Moscow and Yekaterinburg[1][2].

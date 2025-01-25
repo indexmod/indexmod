@@ -4,16 +4,9 @@ permalink: ognenny-oleg
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
-credits:
+image: /images/ognenny-oleg.jpg
+credits: Oleg in 90-s; Photo, Ekaterina Pavlovskaya
 ---
-
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Oleg in 90-s**
-
-*Photo: [Ekaterina Pavlovskaya](index) / [Facebook](index)*
-
 
 ## See also
 

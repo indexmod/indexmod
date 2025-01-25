@@ -2,11 +2,11 @@
 title: Coty Russia
 permalink: coty-russia
 layout: default
-date: 2025-01-10
-update: 2025-01-18
-layout: ai
-image:
-credits:
+layout: crypto
+date: 2018-01-02
+update: 2025-01-24
+image: /images/coty-russia.jpg
+credits: Coty Russia
 ---
 
 Coty, the global beauty company, announced its decision to exit the Russian market in April 2022[2][3]. The company began winding down its operations in Russia immediately following the announcement[4]. This decision came in response to Russia's invasion of Ukraine in February 2022[3].
@@ -24,15 +24,16 @@ The exit from Russia had some negative impact on Coty's performance:
 
 Despite these challenges, Coty has continued to perform well in other markets. The company has seen strong growth in its e-commerce channel, with reported net revenues growing by over 20% in FY24[5]. Coty has also maintained momentum in growth engine markets and high-growth channels, particularly in Travel Retail and markets such as Brazil, Latin America, Southeast Asia, and Africa[5].
 
-Citations:
-[1] https://leave-russia.org/coty
+## Citations
+
+**[1] https://leave-russia.org/coty
 [2] https://fashionunited.uk/news/business/beauty-giant-coty-to-exit-russia/2022043062852
 [3] https://www.beautypackaging.com/contents/view_breaking-news/2022-04-28/coty-pulls-out-of-russia/
 [4] https://www.retaildive.com/news/the-weekly-closeout-coty-winds-down-russian-operations-and-the-north-face/622913/
 [5] https://www.coty.com/news/coty-reports-double-digit-growth-in-fy24-outpacing-beauty-market
 [6] https://www.reuters.com/business/retail-consumer/covergirl-owner-coty-wind-down-russia-operations-2022-04-27/
 [7] https://misstweed.com/articles/coty-sacks-entire-staff-in-russia-kylie-cosmetics-underperforms-
-[8] https://www.happi.com/breaking-news/coty-will-exit-russia/
+[8] https://www.happi.com/breaking-news/coty-will-exit-russia/**
 
 ## History
 
