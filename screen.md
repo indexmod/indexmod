@@ -12,7 +12,7 @@ exclude: true
     <style>
         body {
             background: black;
-            color: white;
+            color: #e1e1e1;
             font-family: Arial, sans-serif;
             margin: 0;
             overflow: hidden;
@@ -40,10 +40,15 @@ exclude: true
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
+            color: #d97f1a;
         }
 
         .fade-in {
             animation: fadeIn 5s ease-in-out;
+        }
+
+        .fade-out {
+            animation: fadeOut 5s ease-in-out;
         }
 
         @keyframes fadeIn {
@@ -51,24 +56,41 @@ exclude: true
             to { opacity: 1; }
         }
 
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        /* Контейнер для изображения и названия */
         .footer-container {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 100%;
             max-width: 800px;
+            text-align: center;
         }
 
         .footer-image {
             height: 50px;
             width: auto;
-            margin-right: 20px;
+            margin-bottom: 10px;
         }
 
         .footer-title {
             font-family: monospace;
             font-size: 30px;
             white-space: nowrap;
+        }
+
+        .footer-content {
+            font-size: 16px;
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 3em;
         }
     </style>
 </head>
@@ -78,6 +100,7 @@ exclude: true
         <div class="footer-container">
             <img id="image" src="" alt="Image" class="footer-image">
             <span id="title" class="footer-title"></span>
+            <div id="content" class="footer-content">{{ page.content | truncate: 100 }}</div>
         </div>
     </div>
 
@@ -86,6 +109,7 @@ exclude: true
             const tokenContainer = document.getElementById("token");
             const imageElement = document.getElementById("image");
             const titleElement = document.getElementById("title");
+            const contentElement = document.getElementById("content");
 
             let items = [
                 {% for page in site.pages %}
@@ -105,11 +129,13 @@ exclude: true
                     {
                         token: "{{ token | strip }}",
                         title: "{{ page.title }}",
+                        content: "{{ page.content | truncate: 100 }}",
                         images: [ "{{ final_image }}", "{{ img2 }}"]
                     },
                 {% endfor %}
             ];
 
+            // Функция для проверки существования изображения
             function imageExists(url) {
                 return fetch(url, { method: 'HEAD' })
                     .then(response => response.ok)
@@ -117,7 +143,6 @@ exclude: true
             }
 
             items = items.sort(() => Math.random() - 0.5);
-
             let currentIndex = 0;
 
             function showNextItem() {
@@ -133,7 +158,6 @@ exclude: true
                             } else {
                                 imageElement.src = '/images/logo.png';
                             }
-
                             imageElement.classList.add("fade-in");
                             setTimeout(() => {
                                 imageElement.classList.remove("fade-in");
@@ -149,14 +173,7 @@ exclude: true
 
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
-
-                    tokenContainer.classList.add("fade-in");
-                    titleElement.classList.add("fade-in");
-
-                    setTimeout(() => {
-                        tokenContainer.classList.remove("fade-in");
-                        titleElement.classList.remove("fade-in");
-                    }, 10000);
+                    contentElement.innerHTML = currentItem.content;
 
                     currentIndex = (currentIndex + 1) % items.length;
                 }
