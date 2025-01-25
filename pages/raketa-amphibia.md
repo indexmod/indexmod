@@ -4,8 +4,8 @@ permalink: raketa-amphibia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
-credits:
+image: /images/raketa-amphibia.jpg
+credits: Raketa Amphibia
 ---
 
 ## Overview of Raketa Amphibia
@@ -38,7 +38,8 @@ The Raketa Amphibia has become a cultural icon among watch enthusiasts, particul
 
 The Raketa Amphibia stands out as a durable and stylish dive watch that combines historical significance with modern engineering. Its ability to perform under extreme conditions has made it a favorite among divers and collectors alike.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Amfibia
 [2] https://www.watchcrunch.com/ofQuartz/reviews/raketa-amphibia-review-489249
 [3] https://raketa.com/w/en/shop/straps/raketa-remeshki/strap-amphibia/

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://mir-s3-cdn-cf.behance.net/project_modules/fs/196c01106102001.5f8822e6906e0.jpg
-credits:
+credits: Dva Myacha behance.net
 ---
 
 Dva Myacha is a Soviet-era sneaker brand that originated in 1965 as a joint Soviet-Chinese production[3][4]. The brand became particularly notable among Soviet athletic youth, producing distinctive footwear[4].
@@ -20,7 +20,8 @@ Dva Myacha is a Soviet-era sneaker brand that originated in 1965 as a joint Sovi
 
 Today, Dva Myacha maintains an online presence through various platforms, including an official web store, Instagram account, and LinkedIn page, continuing to showcase their footwear heritage[1][2][3].
 
-Citations:
+## Citations
+
 [1] https://dvamyacha.ru
 [2] https://www.instagram.com/dvamyacha/
 [3] https://www.linkedin.com/company/dva-myacha

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.themoscowtimes.com/image/article_1360/0a/a6628bf3ab204ce9a52adc71fcb93ffd.jpg
-credits:
+credits: Alisa Ruban themoscowtimes.com
 ---
 
 

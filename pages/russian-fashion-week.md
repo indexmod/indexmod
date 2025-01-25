@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://fashionweekonline.com/wp-content/uploads/2020/10/mbfw-russia-will-show-moscow-featured.jpg
-credits:
+credits: MBFW Russia fashionweekonline.com
 ---
 
 Mercedes-Benz Fashion Week Russia (MBFW Russia) is the largest fashion event in Russia and Eastern Europe, attracting over 120,000 participants annually[1]. The event takes place twice a year in Moscow, bringing together top designers, business representatives, media, and entertainment professionals[1].

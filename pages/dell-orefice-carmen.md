@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Carmen_Dell%27Orefice_September_2012_%28cropped%29.jpg/1200px-Carmen_Dell%27Orefice_September_2012_%28cropped%29.jpg
-credits:
+credits: Кармен Делль'Орефиче wikimedia.org
 ---
 
 Кармен Делль'Орефиче - американская модель и актриса, родившаяся 3 июня 1931 года в Нью-Йорке[1]. Она известна как **старейшая работающая модель в мире**, чья карьера длится уже почти семь десятилетий[2].
@@ -26,7 +26,8 @@ credits:
 
 Кармен Делль'Орефиче известна своей **элегантностью** и **долголетием** в модельном бизнесе. Она снялась в нескольких фильмах и документальных проектах, посвященных моде[1].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Carmen_Dell'Orefice
 [2] https://ana-lee.livejournal.com/246289.html
 [3] https://www.instagram.com/_couturebook_/p/C9ZiUIGM2_V/

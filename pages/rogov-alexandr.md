@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.tildacdn.com/tild6561-3633-4736-b033-633930303062/_normal.png
-credits:
+credits: Alexandr Rogov tildacdn.com
 ---
 
 Alexandr Rogov is a prominent Russian stylist, television host, blogger, and fashion expert. Born on March 29, 1981, in Voronezh, Russia, he has established himself as a multifaceted media personality[2][3][4].
@@ -33,7 +33,8 @@ Rogov grew up in a family where his father worked as an engineer and his mother 
 
 Rogov is known for his innovative approach to fashion and style, making him a significant figure in Russian media and fashion industries.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/alexandrrogov/
 [2] https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B3%D0%BE%D0%B2,_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_(%D1%81%D1%82%D0%B8%D0%BB%D0%B8%D1%81%D1%82)
 [3] https://www.rbc.ru/person/65bb6d869a7947afd71a32e4

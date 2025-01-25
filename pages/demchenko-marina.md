@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://upload.wikimedia.org/wikipedia/commons/5/5f/Marina_Demchenko_1.jpg
-credits:
+credits: Marina Demchenko wikimedia.org
 ---
 
 Marina Demchenko is a prominent Russian fashion magazine editor and media professional. In 2003, she founded "Fashion Collection", the first Russian glossy magazine[3]. She has served as the Editor-in-Chief and editorial network director, managing an extensive editorial network across 37 cities in Russia, Kazakhstan, and Belarus[3][2][5].
@@ -30,7 +30,8 @@ Marina Demchenko maintains an active professional presence on multiple social me
 
 Her professional focus remains centered on fashion media and editorial leadership in the Russian media landscape.
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/marina_demchenko/
 [2] https://www.linkedin.com/in/marina-demchenko-127053a7
 [3] https://program.fashionsummit.org/en/speakers/marina-demchenko

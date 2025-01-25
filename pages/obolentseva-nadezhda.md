@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://artburo.com/wp-content/uploads/2015/04/567d5c85dc553.jpg
-credits:
+credits: Nadezhda Obolentseva artburo.com
 ---
 
 Nadezhda Obolentseva is a Russian socialite, businesswoman, and actress born on July 24, 1983, in Moscow[1][2]. She comes from a diplomatic family, with her father Stanislav Yuryevich Obolentsev being a former diplomat and later a businessman, and her mother named Asia[1].
@@ -31,7 +31,8 @@ She has appeared in minor acting roles, including an episodic part in the erotic
 
 Obolentseva is recognized as a **style icon** and **successful businesswoman** who has maintained a prominent presence in Moscow's social circles[2].
 
-Citations:
+## Citations
+
 [1] https://www.vokrug.tv/person/show/15514237171/
 [2] https://24smi.org/celebrity/23256-nadezhda-obolentseva.html
 [3] https://www.instagram.com/nadineobolentseva/

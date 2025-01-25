@@ -16,7 +16,8 @@ Ionova is also active on social media platforms like Instagram, where she shares
 
 Overall, Natalia Ionova's multifaceted career spans music, acting, and fashion design, making her a significant cultural figure in contemporary Russia.
 
-Citations:
+## Citations
+
 [1] https://www.facebook.com/glukozaofficial/
 [2] https://www.instagram.com/ulyana_sergeenko_moscow/p/6IcTj-hu88/
 [3] https://forums.thefashionspot.com/threads/natalia-ionova.199045/

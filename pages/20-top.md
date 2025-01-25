@@ -4,7 +4,7 @@ permalink: 20-top
 layout: ai
 date: 2018-01-02
 update: 2025-01-21
-image: /images/permalink.jpg
+image: /logo.png
 credits:
 ---
 

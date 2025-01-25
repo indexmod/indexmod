@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.esferalibros.com/wp-content/uploads/2021/04/Foto-Covadonga-OShea-scaled.jpg
-credits:
+credits: Covadonga O'Shea esferalibros.com
 ---
 
 Covadonga O'Shea is a prominent Spanish writer, businessperson, and journalist, born on April 29, 1938. She is well-known for her contributions to literature and her insights into the fashion industry.
@@ -21,7 +21,8 @@ Covadonga O'Shea is a prominent Spanish writer, businessperson, and journalist, 
 
 O'Shea's writings reflect her extensive knowledge of business and fashion, positioning her as a significant figure in both fields.
 
-Citations:
+## Citations
+
 [1] https://www.wikidata.org/wiki/Q16735459
 [2] https://www.audible.co.uk/author/Covadonga-OShea/B001K175VU
 [3] https://www.goodreads.com/author/show/1556821.Covadonga_O_Shea

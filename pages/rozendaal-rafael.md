@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://cms.newnow-festival.com/media/pages/kuenstler-innen/rafael-rozendaal/dda4b75c4b-1684246879/230419-300dpi-rafael-rozendaal-museum-folkwang-0907-2-1200x.jpg
-credits:
+credits: Rafaël Rozendaal newnow-festival.com
 ---
 
 Rafaël Rozendaal is a Dutch-Brazilian visual artist born in 1980 who currently lives and works in New York City. He is widely recognized as a pioneer of **Internet Art**[1][2][3].
@@ -37,7 +37,8 @@ His art has been featured in international publications like Time Magazine, Wall
 
 Rozendaal believes in creating art that is universally accessible. As he states, "I always wanted to make work that could be seen by anyone, anywhere, anytime"[4]. His websites are designed to be robust, adapting fluidly across different screen resolutions and devices.
 
-Citations:
+## Citations
+
 [1] https://www.upstreamgallery.nl/artists/15/rafael-rozendaal
 [2] https://whitney.org/artists/17027
 [3] https://en.wikipedia.org/wiki/Rafa%C3%ABl_Rozendaal

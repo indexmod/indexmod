@@ -4,8 +4,8 @@ permalink: robko-taras
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: https://cyberleninka.ru/viewer_images/17982943/f/1.png
-credits:
+image: https://media.tatler.ru/photos/6197d6991544536988e3cdc5/master/w_320%2Cc_limit/375af82c8f496f8ac0fa904fb81a07c2.jpg
+credits: Тарас Рабко и Ирина Водолазова на открытии Русского павильона в Венеции, Фото, Григорий Галантный, tatler.ru
 ---
 
 Taras Rabko is a 36-year-old lawyer who married supermodel Irina Vodolazova in 2013. He was a close friend of Boris Yeltsin's grandson and became known for his connections to the National Bolshevik Party in the 1990s[3].
@@ -18,7 +18,8 @@ Their wedding took place in Barviha and was attended by notable personalities li
 
 Interestingly, Irina's mother, Valentina Leonidovna, had previously expressed preference for Rabko over her daughter's previous relationship, noting his serious nature and professional success[3].
 
-Citations:
+## Citations
+
 [1] https://www.survivingantidepressants.org/forums/topic/20465-robko-my-story-23-years-on-seroxat-paxil-paroxetine/
 [2] https://www.facebook.com/irina.vodolazova/?locale=ru_RU
 [3] https://www.eg.ru/politics/37763/

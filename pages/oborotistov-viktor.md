@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://storage08.litfund.ru/images/lots/541/541-175-SP1001-21-Oborotistov-Viktor_Zelenij-futbol_2013-1.jpg
-credits:
+credits: Viktor Ivanovich Oborotistov litfund.ru
 ---
 
 Viktor Ivanovich Oborotistov is a Russian artist born on July 13, 1965[2]. He received his artistic education at the P.P. Khozhatelev School, where he trained as an artist-performer[2]. Oborotistov is known for his paintings, including portraits and still life works.
@@ -39,7 +39,8 @@ Oborotistov has participated in various exhibitions and art events. In 2021, he 
 
 Viktor Oborotistov's art is recognized in the Russian art scene, particularly in Yekaterinburg. He has been featured in creative portrait series of gallery artists[3] and his works can be found in various collections[4].
 
-Citations:
+## Citations
+
 [1] https://www.instagram.com/fazeletdin/p/DE5MzIhsOoV/
 [2] https://xn--80ajk9a.xn--80acgfbsl1azdqr.xn--p1ai/projects/gallery-projects/vystavka-viktora-oborotistova/
 [3] https://www.youtube.com/watch?v=Rpg4AbP5Ujk

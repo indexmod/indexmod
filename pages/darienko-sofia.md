@@ -21,7 +21,8 @@ In addition to her academic pursuits, Sofia maintains a presence on social media
 
 Overall, Sofia Darienko is a promising young designer whose work is making an impact in the Russian fashion scene.
 
-Citations:
+## Citations
+
 [1] https://www.pinterest.com/sofiadarienko/
 [2] https://omgtu.ru/l/?bxajaxid=ed6a1e3c35f216831ec325867fd822cd
 [3] https://www.facebook.com/people/%D0%A1%D0%BE%D1%84%D0%B8%D1%8F-%D0%94%D0%B0%D1%80%D0%B8%D0%B5%D0%BD%D0%BA%D0%BE/100011320864587/

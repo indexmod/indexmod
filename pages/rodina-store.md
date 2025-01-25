@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b3256040381533.577d6118dd213.jpg
-credits:
+credits: Родина behance.ne
 ---
 
 Rodina is a Russian **streetwear brand** with strong Soviet cultural influences. The brand operates as both a streetwear brand and a multibrand shop that emphasizes Russian design aesthetics[2][3][4].
@@ -19,7 +19,8 @@ The brand appears to have a design-focused approach, with connections to creativ
 
 While primarily based in Russia, they seem to have some international reach, with one of their social media accounts indicating delivery capabilities and contact information for orders[7].
 
-Citations:
+## Citations
+
 [1] https://rodinastore.ru
 [2] https://www.behance.net/gallery/40381533/Rodina-streetwear-brand-shop/modules/244356997
 [3] https://www.behance.net/gallery/40381533/Rodina-streetwear-brand-shop
@@ -29,7 +30,6 @@ Citations:
 [7] https://www.instagram.com/rodinashopp/
 [8] https://www.instagram.com/rodina_/
 
-A store based on Russian and Ukrainian streetwear brands with worldwide shipping <span id="a1">[\[1\]](#f1)</span>, also owned local clothing line, franchizing chain in 6 Russian cities (2018) all founded by {{ page.founder }} <span id="a2">[\[2\]](#f2)</span>.
 
 ## Сonspectus
 

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://images.vs-static.com/paOHxH0agoLSOf1CL7TTtrYVdh0=/1900x0/streetstyle_oslo2021_46_cf5570d71c/streetstyle_oslo2021_46_cf5570d71c.jpg
-credits:
+credits: Oslo Runway
 ---
 
 Oslo Runway is an annual fashion event showcasing Norwegian design talent, set to take place in Oslo, Norway from August 26 to 31, 2024[1][2]. The event highlights both established and emerging Norwegian fashion brands, featuring 34 designers across various presentations and shows[2].
@@ -37,7 +37,8 @@ The event not only showcases fashion but also emphasizes Norwegian creativity at
 
 Upcoming Norwegian Fashion Week is also scheduled for August 10-16, 2025, further highlighting Norway's growing fashion scene[5].
 
-Citations:
+## Citations
+
 [1] https://www.oslorunway.no
 [2] https://www.voguescandinavia.com/articles/oslo-runways-official-2024-lineup-has-arrived
 [3] https://www.whowhatwear.com/fashion/street-style/oslo-fashion-week-street-style-trends-august-2024

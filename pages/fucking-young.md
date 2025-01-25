@@ -24,7 +24,8 @@ Some key points about recent Fucking Young! editions:
 
 While specific details about the most recent #25 edition are not provided in the search results, Fucking Young! continues to be an active publication in the men's fashion and culture space.
 
-Citations:
+## Citations
+
 [1] https://fuckingyoung.es
 [2] https://www.itsnicethat.com/articles/cordova-canillas-fucking-young-13-publication-010219
 [3] https://en.wikipedia.org/wiki/Fucking_Young_/_Perfect

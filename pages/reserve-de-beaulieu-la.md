@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f0/5d/ee/caption.jpg?w=700&h=-1&s=1
-credits:
+credits: La Réserve de Beaulieu tripadvisor.com
 ---
 
 La Réserve de Beaulieu - это **5-звездочный роскошный отель и спа** на Французской Ривьере, расположенный в городе Больё-сюр-Мер[1][4][7].
@@ -39,7 +39,8 @@ La Réserve de Beaulieu - это **5-звездочный роскошный о�
 
 **Важно**: Отель будет закрыт с 27 октября 2024 года и откроется 4 апреля 2025 года[1].
 
-Citations:
+## Citations
+
 [1] https://www.reservebeaulieu.ru
 [2] https://la-reserve-de-beaulieu-spa-hotel.nochi.com
 [3] https://la-reserve-de-beaulieu-spa.leprovencehotels.com/ru/

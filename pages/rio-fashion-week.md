@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/6d4e/17fe/0381/7424/1229/f20d/a3e7/9c71/9ba7/b113/b113.jpg
-credits:
+credits: RFW fashionnetwork.com
 ---
 
 Rio Fashion Week (RFW) is a biannual fashion event held in Rio de Janeiro, Brazil[1][2]. The event aims to showcase Brazilian and Latin American fashion to a global audience[1].
@@ -26,7 +26,8 @@ The fashion week is known for its unique style, reflecting the vibrant and relax
 
 While the event has evolved over time, it continues to be an important platform for Brazilian and Latin American fashion designers to present their collections and gain international recognition.
 
-Citations:
+## Citations
+
 [1] https://europaregina.eu/fashion-weeks/fashion-weeks-south-america/fashion-rio/
 [2] https://en.wikipedia.org/wiki/Rio_Fashion_Week
 [3] https://www.gettyimages.co.uk/photos/brazil-rio-fashion-week

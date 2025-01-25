@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://schonmagazine.com/wp-content/uploads/2019/07/Feeric-2019-Ramelle-18-1000x667.jpg
-credits:
+credits: Feeric Fashion Week Schonmagazine.com
 ---
 
 Feeric Fashion Week is an international fashion event held annually in Sibiu, Transylvania, Romania, since 2008[1][2][3]. Founded by art director and fashion photographer Mitichi, it has grown from a one-night local fashion show to a significant six-day international fashion event[2].
@@ -34,7 +34,8 @@ The 14th edition took place from July 20-24, 2022, and the 16th edition in 2024 
 
 The event's founder, Mitichi, aims to transform Feeric Fashion Week into a global fashion hub, emphasizing creativity, education, and international connections[3].
 
-Citations:
+## Citations
+
 [1] https://www.feeric.ro
 [2] https://en.wikipedia.org/wiki/Feeric_Fashion_Week
 [3] https://fashionweekonline.com/feeric-fashion-week-14th-edition

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.graduatefashionweek.com/static/dc87b9e2187cba5a527e20cbdd463723/e4ef3/RS-OSAKA-HERO.jpg
-credits:
+credits: Osaka Fashion Week graduatefashionweek.com
 ---
 Osaka Fashion Week appears to be an emerging fashion event with several interesting highlights:
 
@@ -30,7 +30,8 @@ The Osaka Institute of Fashion (OIF) hosts several related events that complemen
 
 While details about the specific dates and full scope of Osaka Fashion Week are limited in these search results, it appears to be a dynamic and innovative fashion event showcasing both local and international design talent.
 
-Citations:
+## Citations
+
 [1] https://www.lifestyle-expo.jp/kansai/en-gb.html
 [2] https://www.graduatefashionweek.com/universities/osaka-institute-of-fashion/
 [3] https://www.osaka-bunka.com/en/event/

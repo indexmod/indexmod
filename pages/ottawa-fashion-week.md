@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://charlatan.ca/wp-content/uploads/aOFWday2_Lindsay-1_WEB.jpg
-credits:
+credits: OFW charlatan.ca
 ---
 
 Ottawa Fashion Week (OFW) is a biannual nonprofit fashion event held in Ottawa, Ontario, Canada. Originally established in 2003, the event initially ran for 11 seasons before concluding in 2014[1]. However, in 2024, a new owner named Kataryn Tataryn revived the event under the name "Fashion Week Ottawa" with the original owners' blessing[1].
@@ -30,7 +30,8 @@ The event has featured several well-known fashion labels, including:
 ## Current Status
 As of 2024, Fashion Week Ottawa continues to operate with a focus on supporting the local fashion community, providing opportunities for models, photographers, designers, and artists[6]. The event typically includes multiple daily fashion shows and after-parties[2].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Ottawa_Fashion_Week
 [2] https://www.yelp.ca/biz/ottawa-fashion-week-ottawa
 [3] https://www.eventbrite.ca/e/fashion-week-ottawa-tickets-980885554097

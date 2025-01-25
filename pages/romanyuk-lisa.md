@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.fashiontime.ru/upload/iblock/c46/c46654cd61a2cd33801734fb3bae0f34w500h500cr.jpg
-credits:
+credits: Lisa Romanyuk fashiontime.ru
 ---
 
 Lisa Romanyuk is a fashion designer who has participated in multiple fashion weeks and runway shows. She has showcased collections in notable fashion events, including:
@@ -18,7 +18,8 @@ Her work has been featured in various fashion publications and platforms, includ
 
 Romanyuk appears to be a creative professional in the fashion industry, known for designing women's clothing collections and participating in international fashion events across different cities.
 
-Citations:
+## Citations
+
 [1] https://www.elle.com/lisa-romanyuk-runway/
 [2] https://www.facebook.com/lisa.romanyuk/
 [3] https://ww.fashionnetwork.com/galeries/photos/Lisa-Romanyuk,29370.html

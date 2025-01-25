@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.sleek-mag.com/wp-content/uploads/2022/02/96F8651-1024x683.jpg?v=1645208838
-credits:
+credits: Rome Fashion Week sleek-mag.com
 ---
 
 Rome Fashion Week is a prestigious international fashion event dedicated exclusively to ceremonial fashion. The upcoming edition will take place from May 24 to 26, 2025, at Fiera di Roma in Pavilion 1[1][2][4].
@@ -35,7 +35,8 @@ Rome Fashion Week has become a crucial platform for the fashion industry, with t
 
 As noted by Andrew Lookman, the event's founder, the fair continues to evolve to meet the changing needs of the fashion sector, with an increasing focus on new generations and special occasion wear like 18th birthday collections[2].
 
-Citations:
+## Citations
+
 [1] https://romefashionweek.it/en/
 [2] https://romefashionweek.it/en/rome-fashion-week-2025-new-dates-announced/
 [3] https://turismoroma.it/en/events/fw-rome-fashion-week-2024

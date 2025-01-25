@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.themoscowtimes.com/image/article_1360/bf/3126BFF7-ABB0-4477-95F4-96C60EC6E82F.jpeg
-credits:
+credits: Анна Сорокина themoscowtimes.com
 ---
 
 Анна Сорокина (также известная как Анна Делви) - немецкая мошенница русского происхождения, родившаяся 23 января 1991 года в Домодедово, Россия[1][2]. В 2007 году она переехала с семьей в Германию[2].
@@ -26,7 +26,8 @@ credits:
 - Стала главной героиней сериала Netflix "Изобретая Анну" в 2022 году[1]
 - О ней написана книга "Моя подруга Анна" Рэйчел Уильямс[5]
 
-Citations:
+## Citations
+
 [1] https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D0%B8%D0%BD%D0%B0,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%BE%D0%B2%D0%BD%D0%B0
 [2] https://en.wikipedia.org/wiki/Anna_Sorokin
 [3] https://www.esquire.com/uk/culture/tv/a38893415/where-is-anna-delvey-from-accent-inventing-anna-russian-german/

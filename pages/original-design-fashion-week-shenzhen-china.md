@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.gl-events.com/sites/default/files/styles/hero_background_image/public/2020-11/ACTUALITES-BENTO-HEADER.jpg?itok=gETgVmV2
-credits:
+credits: ODF
 ---
 
 The Shenzhen Original Design Fashion Week (ODF) is a pioneering fashion event in China that was launched in 2014[1][2]. It is unique as China's first trading-oriented original design fashion platform, specifically tailored for designers and the entire clothing supply chain[1].
@@ -36,7 +36,8 @@ The next Shenzhen Original Design Fashion Week is scheduled for 10th to 12th Apr
 
 The event continues to be a critical platform for showcasing cutting-edge design, supporting original designers, and connecting fashion industry professionals[2][7][8].
 
-Citations:
+## Citations
+
 [1] https://www.fibre2fashion.com/trade-fairs/shenzhen-original-design-fashion-week-odf-2023-60972
 [2] https://www.fibre2fashion.com/trade-fairs/shenzhen-original-fashion-week-aw2024-62316
 [3] https://www.fashionsource.cn/en/article/115.html

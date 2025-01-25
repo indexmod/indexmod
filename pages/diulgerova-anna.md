@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.beautyinsider.ru/2015/09/EMS-3D-filler-anti-age-1.jpg
-credits:
+credits: Anna Dyulgerova beautyinsider.ru
 ---
 
 Anna Dyulgerova is a versatile professional in the fashion and cultural industries, known for her significant contributions to Moscow's creative scene. A documentary filmmaker by education, she has worked extensively in fashion, serving as an Executive Fashion Editor at Russian Vogue under Aliona Doletskaya[1].
@@ -26,7 +26,8 @@ Dyulgerova is passionate about nurturing creative talent and challenging the sho
 
 Her perspective on Moscow's evolving cultural landscape is notably optimistic, highlighting the emergence of new creative platforms and a changing urban environment[1].
 
-Citations:
+## Citations
+
 [1] https://www.anothermag.com/fashion-beauty/1087/anna-dyulgerova-cycles-and-seasons
 [2] https://www.instagram.com/annadyu/
 [3] https://www.facebook.com/anna.dyulgerova.consultancy/

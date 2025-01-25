@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.life.ru/posts/2018/02/1086389/57b92a9849152b0e002826676a8254f9.jpg
-credits:
+credits: Fedorova, Maria life.ru
 ---
 
 Maria Fedorova is a prominent figure in Russian fashion journalism and publishing. Born in Moscow in 1972, she has had a distinguished career in the fashion industry[1][2].
@@ -28,7 +28,8 @@ Following her departure from Vogue, Fedorova has focused on creating a clothing 
 
 Fedorova was previously in a civil partnership and has a daughter named Veronika, born in 1997[2]. She has been an advocate for body positivity in Russia, promoting a plus-size image on social media platforms[2].
 
-Citations:
+## Citations
+
 [1] https://www.buro247.ru/stars/mariya-fedorova
 [2] https://24smi.org/celebrity/140524-mariia-fedorova.html
 [3] https://theblueprint.ru/fashion/interview/masha-fedorova-vogue-russia

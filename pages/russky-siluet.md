@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.eg.ru/wp-content/uploads/2023/04/tatyana-mihalkova.jpg
-credits:
+credits: Русский Силуэт eg.ru
 ---
 
 Russky Siluet (Русский Силуэт) is a charitable foundation established in 1997 dedicated to supporting young fashion designers and preserving national cultural traditions[2][3]. The organization is led by Tatiana Mikhalkova, a corresponding member of the Russian Academy of Arts, and was founded by Alexander Mitroshenkov, president of AVM Media[3].
@@ -49,7 +49,8 @@ Russky Siluet has expanded beyond Russia, with representative offices in multipl
 
 The foundation aims to create a **creative space for talented young fashion designers** and contribute to the future of fashion[3].
 
-Citations:
+## Citations
+
 [1] http://russian-siluet.ru
 [2] https://profashion.ru/guide/russkiy-siluet/
 [3] http://russian-siluet.ru/o-fonde/

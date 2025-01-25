@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.sobaka.ru/images/image/01/03/73/18/_normal.jpg?v=1539857724
-credits:
+credits: Roma Uvarov Design sobaka.ru
 ---
 
 Roma Uvarov Design is a unique Russian fashion brand known for its distinctive and creative approach to clothing design. **Key Characteristics**:
@@ -27,7 +27,8 @@ The brand's clothing is characterized as **"crazy clothing with an idea"**, emph
 - Prices range from 2,000 to 23,520 rubles[8]
 - Occasionally offers promotional discounts, such as a -15% discount code[3]
 
-Citations:
+## Citations
+
 [1] https://nuw.store/catalog-full/roma_uvarov/
 [2] https://redseptemberdesign.com/catalog/
 [3] https://vk.com/romauvarov

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://uploads2.wikiart.org/00371/images/fedot/11401443-898828513511972-8874388386199965960-n.jpg!Portrait.jpg
-credits:
+credits: Vladimir Fedorov wikiart.org
 ---
 
 Vladimir Fedorov was a significant figure in the Russian art group Inspection Medical Hermeneutics. He joined the group in 1991, replacing Yuri Leiderman, and received the status of "Fetish MG"[7]. Fedorov became a senior inspector of the group, which was established in 1987 in the Furmanny squat[5].
@@ -16,7 +16,8 @@ Fedorov contributed to the group's conceptual approach, which included themes su
 
 Vladimir Fedorov's involvement with Inspection Medical Hermeneutics lasted until at least 2012, as evidenced by exhibitions featuring the group's work during that time[3]. His contributions helped shape the group's unique artistic vision, which combined elements of Russian conceptualism with broader philosophical and cultural explorations.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Inspection_Medical_Hermeneutics
 [2] https://revistas.comillas.edu/index.php/pensamiento/article/download/20565/18198/47873
 [3] https://artmap.com/ovcharenko/exhibition/inspection-medical-hermeneutics-2012
@@ -26,7 +27,7 @@ Citations:
 [7] https://www.wikiart.org/en/fedot
 [8] https://eastwestreport.org/?view=article&id=346%3Aovercoming-fundamentalism&catid=43%3Ae-20-2
 
-(Ukr. Федоров Володимир, born 1963, Sumi, dead, 2018 Kharkiv) Ukrainian-Russian artist, co-founder of the art group “Inspection of Medical Hermeneutics”, Precious fetish of "Medical Hermeneutics" <span id="a1">[\[1\]](#f1)</span>, in 2014 moved to Moscow, in 2015 have worked with Ivana Babushkina at House of Artists on Vavilov 65 <span id="a2">[\[2\]](#f2)</span>.
+(Ukr. Федоров Володимир, born 1963, Sumi, dead, 2018 Kharkiv) Ukrainian-Russian artist, co-founder of the art group “Inspection of Medical Hermeneutics”, Precious fetish of "Medical Hermeneutics", in 2014 moved to Moscow, in 2015 have worked with Ivana Babushkina at House of Artists on Vavilov 65.
 
 ## Bio
 

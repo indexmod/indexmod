@@ -12,7 +12,7 @@ exclude: true
     <style>
         body {
             background: black;
-            color: #d3d3d3; /* Светло-серый цвет текста */
+            color: #d3d3d3;
             font-family: Arial, sans-serif;
             margin: 0;
             overflow: hidden;
@@ -40,7 +40,7 @@ exclude: true
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
-            color: #FFA500; /* Оранжевый цвет для токена */
+            color: #FFA500;
         }
 
         .footer-container {
@@ -81,11 +81,26 @@ exclude: true
 
             let items = [
                 {% for page in site.pages %}
-                    {
-                        token: "{{ page.title | slice: 0, 4 | upcase }}",
-                        title: "{{ page.title }}",
-                        image: "{{ page.image }}"  // Добавляем картинку для каждого элемента
-                    },
+                {% assign clean_title = page.title
+                    | replace: '-', ' '
+                    | replace: '.', ' '
+                    | replace: '(', ' '
+                    | replace: ')', ' '
+                    | replace: ',', ' '
+                %}
+                {% assign words = clean_title | split: ' ' %}
+                {% assign first_part = words[0] | slice: 0,4 | upcase %}
+                {% assign initials = '' %}
+                {% for word in words offset:1 %}
+                    {% assign first_letter = word | slice: 0,1 | upcase %}
+                    {% assign initials = initials | append: first_letter %}
+                {% endfor %}
+
+                {
+                    token: "{{ first_part }}{{ initials }}",
+                    title: "{{ page.title }}",
+                    image: "{{ page.image }}"
+                },
                 {% endfor %}
             ];
 
@@ -106,14 +121,14 @@ exclude: true
                     // Обновляем текстовые элементы и картинку
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
-                    imageElement.src = currentItem.image || ''; // Обновляем картинку
+                    imageElement.src = currentItem.image || '';
 
                     // Плавно показываем новые элементы
                     setTimeout(() => {
                         tokenContainer.style.opacity = 1;
                         titleElement.style.opacity = 1;
                         imageElement.style.opacity = 1;
-                    }, 100); // Появление через 100ms
+                    }, 100);
 
                     // Следующий элемент
                     currentIndex = (currentIndex + 1) % items.length;
@@ -121,7 +136,7 @@ exclude: true
             }
 
             showNextItem();
-            setInterval(showNextItem, 9000); // Переход к следующему элементу каждые 9 секунд
+            setInterval(showNextItem, 9000);
         });
     </script>
 </body>

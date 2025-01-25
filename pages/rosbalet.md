@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://optim.tildacdn.com/tild3666-6137-4336-b463-303765643430/-/resize/660x/-/format/webp/image.png
-credits:
+credits: Rosbalet tildacdn.com
 ---
 
 Rosbalet is a Russian shoe brand that produces fashion footwear. The company appears to specialize in various types of shoes, including ballet flats and pumps.
@@ -32,7 +32,8 @@ The brand can be found on several online platforms:
 
 The brand seems to focus on stylish and comfortable women's shoes, offering various styles that can transition between seasons[6].
 
-Citations:
+## Citations
+
 [1] https://rosbalet.ru
 [2] https://www.rosbalt.ru
 [3] https://www.yoox.com/us/women/shoponline/rosbalet_d

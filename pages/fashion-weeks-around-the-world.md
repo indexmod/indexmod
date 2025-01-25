@@ -5,7 +5,7 @@ layout: ai
 date: 2018-01-02
 update: 2025-01-22
 image: https://opsnorthstar.com/wp-content/uploads/2019/05/Fashion-week-graphic-final-900x696.png
-credits:
+credits: Fashion weeks around the world opsnorthstar.com
 ---
 
 Fashion weeks are prestigious global events that showcase the latest trends and designs in the fashion industry. The most prominent fashion weeks are known as the **"Big Four"**:
@@ -56,7 +56,8 @@ These fashion weeks are not just runway shows, but platforms for designers to sh
 
 The fashion week calendar continues to expand, with over a hundred events worldwide spanning from Fiji to Panama, including specialized events like plus-size and eco-focused fashion shows[5].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/List_of_fashion_events
 [2] https://europaregina.eu/fashion-weeks/
 [3] https://fashionweekdates.com

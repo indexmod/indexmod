@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-21
 image: https://static.tildacdn.com/tild3261-6266-4663-b934-613236376462/2022-05-19_142250.jpg
-credits:
+credits: NINO Fashion Week tildacdn.com
 ---
 
 Nizhny Novgorod Fashion Week, also known as NINO Fashion Week, is a significant fashion event held in Nizhny Novgorod, Russia. The event showcases Russian designers and new talents in the fashion industry[1][2]. The most recent edition of NINO Fashion Week took place on December 2, 2024, at the Nizhny Novgorod Stadium[6].
@@ -26,7 +26,8 @@ In previous years, NINO Fashion Week has been a platform for both established an
 
 NINO Fashion Week has become an important event in Nizhny Novgorod's cultural calendar, attracting attention from local media and fashion enthusiasts[5]. It serves as a showcase for the city's and region's fashion talent, contributing to the development of the local fashion industry.
 
-Citations:
+## Citations
+
 [1] https://vk.com/nnfashionweek
 [2] https://vk.com/nino_fashion_week
 [3] https://www.facebook.com/people/Nizhny-Novgorod-Fashion-Week/100069612310411/?locale=be_BY

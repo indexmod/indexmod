@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F03%2Fhow-gosha-rubchinskiy-was-born-from-comme-des-garcons-012.jpg?w=960&cbr=1&q=90&fit=max
-credits:
+credits: Gosha Rubchinskiy
 ---
 
 Gosha Rubchinskiy is a Russian fashion designer, photographer, and founder of his eponymous brand. Born on June 29, 1984, in Moscow, he emerged as a significant figure in the fashion world by capturing the essence of post-Soviet youth culture[1][2][3].
@@ -35,7 +35,8 @@ A significant milestone in his career came in 2012 when Comme des Garçons began
 
 In 2018, Rubchinskiy faced accusations of inappropriate interactions with a minor, which he denied, claiming it was part of a casting process[4][5].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Gosha_Rubchinskiy
 [2] https://www.highsnobiety.com/tag/gosha-rubchinskiy/
 [3] https://www.artspace.com/artists/gosha-rubchinskiy
@@ -47,12 +48,10 @@ Citations:
 
 # In popular culture
 
-In 2015, Gosha mentioned in one of the songs in the “Psychedelic Cloud rap” album of the singer from Yekaterinburg.2 In 2016 a Face with Tommy Kruise created a single with name Гоша Рубчинский.
+In 2015, Gosha mentioned in one of the songs in the “Psychedelic Cloud rap” album of the singer from Yekaterinburg. In 2016 a Face with Tommy Kruise created a single with name Гоша Рубчинский.
 
 # See also
 
-+ [About {{page.title}}](index)
-+ [{{page.title}} at Wikipedia](index)
 + [032 Natalia Alaverdian](032-natalia-alaverdian)
 + [034 Ekaterina Zavodchikova](034-ekaterina-zavodchikova)
 + [Anton Lisin](anton-lisin)

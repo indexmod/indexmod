@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://rubanstudio.com.au/cdn/shop/articles/RUBAN-SOCIAL-OLYMPICS_2048x2048.png?v=1721864677
-credits:
+credits: RUBAN rubanstudio.com.au
 ---
 
 RUBAN is a fashion brand based in Moscow, Russia, specializing in haute couture and custom clothing design. Founded in 2010, the brand offers a range of high-end fashion services and collections[1][2].
@@ -43,7 +43,8 @@ RUBAN offers a diverse clothing line featuring:
 
 The brand maintains an online store at rubancouture.com and is active on social media platforms like Instagram and Facebook[1][2][4][5].
 
-Citations:
+## Citations
+
 [1] https://www.rubancouture.com
 [2] https://www.instagram.com/ruban_fashion/
 [3] https://www.cushionbank.co.uk/brand-selection/p/ruban-black-edition
@@ -68,7 +69,7 @@ Citations:
 
 
 
-# See also
+## See also
 
 + [CR Fashion Book](cr-fashion-book)
 + [Quoris Art](quoris-art)
@@ -76,7 +77,7 @@ Citations:
 + [Moda Operandi](moda-operandi)
 + [Trekhgorka](trekhgorka)
 
-### Featured Items
+## Featured Items
 
 + [Camel Kimono Coat by Ruban for preorder in 2014](camel-kimono-coat-ruban-2014)  
 + [Fashion director of Glamour Maria Fedorova at Trekhgorka Quoris Art](maria-fedorova-trekhgorka-quoris-art)  

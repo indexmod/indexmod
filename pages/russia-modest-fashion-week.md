@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://aetoswire.com/storage/clients/client-9594/zuhat-fashion-show-photo-pesnya-2024-0306-117.JPG
-credits:
+credits: Russia's Modest Fashion Week aetoswire.com
 ---
 
 Russia's Modest Fashion Week is an international fashion platform that celebrates modest fashion with a global perspective. From March 1 to 8, 2024, Moscow Fashion Week (MFW) prominently featured modest fashion, showcasing designers from Russia and 10 other countries including Egypt, Tunisia, Indonesia, China, and South Africa[2].
@@ -26,7 +26,8 @@ Russia's Modest Fashion Week is an international fashion platform that celebrate
 **Cultural Significance**
 The event goes beyond fashion, serving as a platform for cultural expression, inclusivity, and storytelling. Brands like KUZINA championed diversity by featuring models with Down syndrome, expanding the traditional boundaries of fashion representation[2].
 
-Citations:
+## Citations
+
 [1] https://www.modestfashionweeks.co
 [2] https://aetoswire.com/en/news/1103202438153
 [3] https://russianfashioncouncil.ru/en/news

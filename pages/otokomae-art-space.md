@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://cdn.worldota.net/t/640x400/extranet/7b/78/7b78ee3e47953503944c3af1b40364f15d2c16f4.jpeg
-credits:
+credits: Otokomae worldota.net
 ---
 
 Otokomae is an **art-space** located in Moscow, Russia, situated at Neglinnaya 10 (postal code 107031). It is a unique venue that describes itself as a "space that erases stereotypes"[6].
@@ -21,7 +21,8 @@ While the search results also reference an art boutique hotel with the same name
 
 The venue seems to be an innovative space that aims to challenge traditional artistic boundaries, as suggested by their self-description of "erasing stereotypes"[6]. It appears to be an active cultural platform in Moscow's art scene.
 
-Citations:
+## Citations
+
 [1] https://www.tripadvisor.co.uk/Hotel_Review-g298484-d4609149-Reviews-Otokomae_Art_Boutique_Hotel-Moscow_Central_Russia.html
 [2] https://www.instagram.com/explore/locations/905732047/otokomae/?__d=1
 [3] https://www.tripadvisor.in/Hotel_Feature-g298484-d4609149-zft1-Otokomae_Art_Boutique_Hotel.html

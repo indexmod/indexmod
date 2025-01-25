@@ -5,8 +5,9 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://assets.vogue.com/photos/5a5d303e9244ee6f8a9d7fc2/master/w_2560%2Cc_limit/00-story-image-gosha-fw-18-hair.jpg
-credits:
+credits: Gosha Rubchinskiy vogue.com
 ---
+
 Gosha Rubchinskiy is a Russian fashion brand founded in 2008 by designer Georgiy Aleksandrovich Rubchinskiy. The brand quickly became notable for its unique approach to fashion, drawing inspiration from Russian youth culture, street style, and the post-Soviet era[1][2][3].
 
 ## Brand Characteristics
@@ -36,7 +37,8 @@ In 2018, Rubchinskiy faced allegations of inappropriate behavior with a minor, w
 
 The brand remains influential in the fashion world, having been supported by celebrities like Kylie Jenner and recognized for its innovative approach to streetwear and Russian cultural expression[2].
 
-Citations:
+## Citations
+
 [1] https://www.grailed.com/designers/gosha-rubchinskiy
 [2] https://us.vestiairecollective.com/men-clothing/gosha-rubchinskiy/
 [3] https://en.wikipedia.org/wiki/Gosha_Rubchinskiy

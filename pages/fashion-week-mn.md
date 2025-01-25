@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://images.squarespace-cdn.com/content/v1/61d8e971d8f43a769fda4454/1682534479124-QCJVWL4BYTWYQ3HA1BVQ/IMG_8093.jpg?format=500w
-credits:
+credits: Fashion Week MN
 ---
 
 Fashion Week Minnesota (FWMN) is a bi-annual fashion event showcasing the state's fashion community and creative talents[2][4][6]. Founded in 2015 by Sarah Edwards and Yana Pelokin, the event features runway shows, presentations, panels, and shopping events that highlight Minnesota's fashion designers, makers, and retailers[2][7].
@@ -22,7 +22,8 @@ The founder, Sarah Edwards, emphasizes that Fashion Week MN was never just about
 
 Platforms like Instagram (@fashionweekmn) and Eventbrite are used to promote and organize the events, making it accessible to a wide audience[3][8].
 
-Citations:
+## Citations
+
 [1] https://www.fashionweekmn.com
 [2] https://en.wikipedia.org/wiki/Fashion_Week_Minnesota
 [3] https://www.instagram.com/fashionweekmn/

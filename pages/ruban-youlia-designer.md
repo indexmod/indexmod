@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.themoscowtimes.com/image/article_1360/0a/a6628bf3ab204ce9a52adc71fcb93ffd.jpg
-credits:
+credits: Julia Ruban themoscowtimes.com
 ---
 
 Julia Ruban is a Russian fashion designer who co-founded the RUBAN fashion brand in 2010 with her sister Alisa Ruban[1]. The sisters established their luxury fashion brand after working as intern-assistants and stylists, driven by a desire to create unique design solutions[1].
@@ -37,7 +37,8 @@ The RUBAN brand has attracted notable muses, including:
 
 Julia Ruban is active on social media, with her Instagram account (@jruban) having 97,000 followers as of the search results[2].
 
-Citations:
+## Citations
+
 [1] https://www.rubancouture.com/about/
 [2] https://www.instagram.com/jruban/
 [3] https://www.fbrq.com/blogs/designer/alisa-julia-ruban-2777115733

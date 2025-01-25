@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://media.themoviedb.org/t/p/w500/3S3oTOmB4nTaiQaJFdYjnzkQRLD.jpg
-credits:
+credits: Yury Aleksandrovich Dud hemoviedb.org
 ---
 
 Yury Aleksandrovich Dud is a prominent Russian journalist, YouTuber, and media personality born on October 11, 1986, in Potsdam, East Germany. He has Ukrainian origins but identifies as Russian and has lived in Russia since the age of 4[1][3].
@@ -41,7 +41,8 @@ Dud has received multiple awards, including GQ Russia's Person of the Year in 20
 
 As of January 2025, Dud continues to be a significant voice in independent Russian media, known for his critical reporting and in-depth interviews.
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Yury_Dud
 [2] https://meduza.io/en/feature/2024/01/02/yury-dud-russia-s-most-popular-anti-war-youtuber-shares-his-wish-for-the-new-year
 [3] https://www.imdb.com/name/nm10097978/

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://www.worldfashionmedianewsmagazine.com/uploads/5/5/3/8/5538124/ivgushchin-8442_orig.jpg
-credits:
+credits: BRICS+ Fashion Summit worldfashionmedianewsmagazine.com
 ---
 
 The BRICS+ Fashion Summit is a premier international platform dedicated to promoting emerging fashion markets, bringing together over 100 countries under the BRICS Alliance framework[1][5]. The most recent summit took place in Moscow from October 3-5, 2024, alongside Moscow Fashion Week, featuring participants from over 80 countries[3].
@@ -28,7 +28,8 @@ The BRICS+ Fashion Summit has become a significant forum for creative and econom
 
 Looking ahead, the next BRICS Fashion Forum is scheduled for September 2024 in Moscow[7], indicating the continued importance of this platform in shaping the future of global fashion.
 
-Citations:
+## Citations
+
 [1] https://fashionsummit.org/en
 [2] https://fashionsummit.org/en/about
 [3] https://laotiantimes.com/2024/10/31/fashion-as-cultural-diplomacy-southeast-asias-presence-in-brics-summit/

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://static.themoscowtimes.com/image/article_1360/73/TASS_32216133.jpg
-credits:
+credits: Vyacheslav Mikhailovich Zaitsev themoscowtimes.com
 ---
 
 Vyacheslav Mikhailovich Zaitsev was a renowned Russian fashion designer, painter, graphic artist, and theatrical costume designer who became a legendary figure in Soviet and Russian fashion[1][2].
@@ -34,7 +34,8 @@ In 2016, Zaitsev was diagnosed with Parkinson's disease, which led to his retire
 - People's Artist of the Russian Federation (2006)
 - Academic of the Russian Academy of Arts (2007)[3]
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Vyacheslav_Zaitsev
 [2] https://en.e-mm.ru/magazine/view/vyacheslav_zaitsev_the_success_story_of_a_famous_fashion_designer_7100/
 [3] https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B9%D1%86%D0%B5%D0%B2,_%D0%92%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87

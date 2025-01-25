@@ -4,7 +4,7 @@ permalink: rahman-rahemur
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image:
+image: /images/rahman-rahemur.jpg
 credits:
 ---
 
@@ -22,7 +22,8 @@ credits:
 ## Признание
 Среди его достижений — финалист премии British Fashion Council's Changemakers "People" в 2021 году и победитель премии Outstanding Achievements Award от British Bangladeshi Fashion Council в 2019 году[1][2].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Rahemur_Rahman
 [2] https://www.arts.ac.uk/colleges/london-college-of-fashion/people/rahemur-rahman
 [3] https://www.vice.com/en/article/how-to-be-creative-racism-classism/

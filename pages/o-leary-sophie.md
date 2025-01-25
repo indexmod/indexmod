@@ -4,7 +4,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://d38we5ntdyxyje.cloudfront.net/782956/profile/NVEPZQEM_avatar_medium_square.jpg
-credits:
+credits: Sophie O'Leary cloudfront.net
 ---
 
 Sophie O'Leary is a **contemporary abstract artist** born in Hampshire in 1973 and currently based in London[1][2]. She is known for her distinctive visual style that captures the essence of places through her artwork[1].
@@ -32,7 +32,8 @@ O'Leary continues to be active in the art scene, with recent works including:
 
 Her artwork can be found on platforms like Saatchi Art and she maintains an active presence on social media, particularly Instagram, where she shares her artistic process and latest works[2][4].
 
-Citations:
+## Citations
+
 [1] https://www.saatchiart.com/en-de/sophichka
 [2] https://www.instagram.com/sophichka_art/
 [3] https://www.facebook.com/sophieolearyart/?locale=en_GB

@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-22
 image: https://fashionweekonline.com/wp-content/uploads/2020/03/Oxford-fashion-studio-featured-1-1000x580.jpg
-credits:
+credits: Oxford Fashion Week fashionweekonline.com
 ---
 
 Oxford Fashion Week is an annual independent fashion exhibition held in Oxford, England. Founded in 2009 by Oxford University graduates Carl Anglim and Victoria Watson, the event showcases design talent and fashion creativity[1][2].
@@ -32,7 +32,8 @@ While the search results provide limited recent details, the event has continued
 
 The event continues to be a platform for emerging designers and provides a showcase for innovative fashion talent in the Oxford area.
 
-Citations:
+## Citations
+
 [1] https://www.cherwellcollective.com/blog/sustainable-fashion-week/
 [2] https://en.wikipedia.org/wiki/Oxford_Fashion_Week
 [3] https://www.instagram.com/oxfordfashionstudio/

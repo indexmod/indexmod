@@ -5,7 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-21
 image: https://images.lbc.co.uk/images/687422?crop=16_9&width=660&relax=1&format=webp&signature=xbCMnOB5B7WcpfudY4tjydeAErc%3D
-credits:
+credits: Alexei Alexandrovich Zimin lbc.co.uk
 ---
 
 Alexei Alexandrovich Zimin was a prominent Russian writer, chef, journalist, and restaurateur who became known for his critical stance against the Russian government. Born on 13 December 1971 in Dubna near Moscow, he made significant contributions to Russia's culinary and media landscape[1].
@@ -32,7 +32,8 @@ Zimin had been living in exile in the United Kingdom since 2015. In November 202
 
 He was married to Tatiana Dolmatovskaya, a costume designer, and they had three children: Varvara, Nikolai, and Paul. Zimin was cremated in Belgrade and buried at Highgate Cemetery on 13 December 2024[1].
 
-Citations:
+## Citations
+
 [1] https://en.wikipedia.org/wiki/Alexei_Zimin
 [2] https://www.standard.co.uk/news/london/alexei-zimin-zima-soho-london-russia-war-hotel-death-belgrade-b1193787.html
 [3] https://www.bbc.co.uk/news/articles/c7049jn5kd3o

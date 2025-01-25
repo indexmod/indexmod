@@ -5,7 +5,7 @@ date: 2025-01-10
 update: 2025-01-18
 layout: crypto
 image: https://i1.sndcdn.com/avatars-000215422937-sckjje-t1080x1080.jpg
-credits:
+credits: Andrei Deinichenko sndcdn.com
 ---
 
 Andrei Deinichenko is a Russian **visual artist**, **writer**, and **multimedia creator** born in 1971 in Aksai. He is a multifaceted professional with several notable achievements:
@@ -29,7 +29,8 @@ He has been involved in creative projects such as the film "Indigo" (2008), wher
 
 His work spans multiple disciplines, demonstrating a versatile approach to artistic and creative expression.
 
-Citations:
+## Citations
+
 [1] https://soundcloud.com/deinichenko-andrei
 [2] https://www.facebook.com/public/Andrei-Deinichenko
 [3] https://www.imdb.com/name/nm6826609/
