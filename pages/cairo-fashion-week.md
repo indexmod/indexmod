@@ -4,8 +4,8 @@ permalink: cairo-fashion-week
 layout: crypto
 date: 2025-01-10
 update: 2025-01-18
-image:
-credits: https://www.abouther.com/sites/default/files/2023/05/15/egypt_fashion_week.jpg
+image: https://www.abouther.com/sites/default/files/2023/05/15/egypt_fashion_week.jpg
+credits: Cairo Fashion Week abouther.com
 ---
 
 Cairo Fashion Week is a prominent international fashion trade event that brings together fashion industry professionals and designers. It serves as a trade, promotional, and artistic fashion forum designed to showcase fashion from local, Middle Eastern, and international brands[1][4][6].
