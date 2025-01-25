@@ -46,21 +46,11 @@ exclude: true
             animation: fadeIn 5s ease-in-out;
         }
 
-        .fade-out {
-            animation: fadeOut 5s ease-in-out;
-        }
-
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
 
-        @keyframes fadeOut {
-            from { opacity: 1; }
-            to { opacity: 0; }
-        }
-
-        /* Контейнер для изображения и названия */
         .footer-container {
             display: flex;
             align-items: center;
@@ -100,7 +90,7 @@ exclude: true
             let items = [
                 {% for page in site.pages %}
                     {% assign words = page.title | replace: ',', '' | replace: '.', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' | replace: '–', '' | replace: '_', '' | replace: '/', '' | replace: '&', '' | strip | split: " " %}
-                    {% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,3 | upcase %}
+                    {% assign token = words[0] | replace: '[^a-zA-Z]', '' | slice: 0,4 | upcase %}
 
                     {% for word in words offset:1 %}
                         {% assign clean_word = word | replace: '[^a-zAZ]', '' %}
@@ -110,25 +100,22 @@ exclude: true
 
                     {% assign img1 = "/images/" | append: page.permalink | append: ".jpg" %}
                     {% assign img2 = "/images/" | append: page.permalink | append: "-1.jpg" %}
-                    {% assign img3 = "/images/" | append: page.permalink | append: "1.jpg" %}
                     {% assign final_image = page.image | default: img1 %}
 
                     {
                         token: "{{ token | strip }}",
                         title: "{{ page.title }}",
-                        images: [ "{{ final_image }}", "{{ img3 }}", "{{ img2 }}"]
+                        images: [ "{{ final_image }}", "{{ img2 }}"]
                     },
                 {% endfor %}
             ];
 
-            // Функция для проверки существования изображения
             function imageExists(url) {
                 return fetch(url, { method: 'HEAD' })
                     .then(response => response.ok)
-                    .catch(() => false); // Если ошибка, возвращаем false
+                    .catch(() => false);
             }
 
-            // Перемешиваем массив случайным образом
             items = items.sort(() => Math.random() - 0.5);
 
             let currentIndex = 0;
@@ -139,33 +126,26 @@ exclude: true
                     let imageUrls = currentItem.images;
                     let imageIndex = 0;
 
-                    // Функция для показа изображения с анимацией
                     function showImageWithFade(imageUrl) {
                         imageExists(imageUrl).then(exists => {
                             if (exists) {
                                 imageElement.src = imageUrl;
                             } else {
-                                imageElement.src = '/images/logo.png'; // если изображение не найдено, показываем logo.png
+                                imageElement.src = '/images/logo.png';
                             }
 
                             imageElement.classList.add("fade-in");
                             setTimeout(() => {
                                 imageElement.classList.remove("fade-in");
-                            }, 5000); // Фейд длится 5 секунд
+                            }, 5000);
                         });
                     }
 
-                    // Показываем 3 изображения с интервалами
                     showImageWithFade(imageUrls[imageIndex]);
                     setTimeout(() => {
                         imageIndex = 1;
                         showImageWithFade(imageUrls[imageIndex]);
-                    }, 5000); // Через 5 секунд показываем следующее
-
-                    setTimeout(() => {
-                        imageIndex = 2;
-                        showImageWithFade(imageUrls[imageIndex]);
-                    }, 10000); // Через 10 секунд показываем следующее
+                    }, 5000);
 
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
@@ -176,14 +156,14 @@ exclude: true
                     setTimeout(() => {
                         tokenContainer.classList.remove("fade-in");
                         titleElement.classList.remove("fade-in");
-                    }, 10000); // Токен и заголовок фейдятся 10 секунд
+                    }, 10000);
 
                     currentIndex = (currentIndex + 1) % items.length;
                 }
             }
 
             showNextItem();
-            setInterval(showNextItem, 10000); // Повторять показ раз в 10 секунд (показываем все изображения за 10 секунд)
+            setInterval(showNextItem, 10000);
         });
     </script>
 </body>
