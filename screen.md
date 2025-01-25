@@ -169,7 +169,7 @@ exclude: true
                     }, 10000); // Через 10 секунд показываем следующее
 
                     tokenContainer.innerHTML = currentItem.token;
-                    titleElement.innerHTML = currentItem.title;
+                    titleElement.innerHTML = currentItem.title;  <!-- Вернул вывод page.title -->
 
                     tokenContainer.classList.add("fade-in");
                     titleElement.classList.add("fade-in");
