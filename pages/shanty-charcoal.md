@@ -4,15 +4,9 @@ permalink: shanty-charcoal
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/shanty-charcoal.jpg
-credits:
+image: /images/shanty-charcoal-1.jpg
+credits: Barbara Antinoro performing The Shanty Charcoal Shanty Charcoal at YouTube
 ---
-
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Barbara Antinoro performing The Shanty Charcoal**
-
-*Photo: [Barbara Antinoro](index) / [Shanty Charcoal at YouTube](https://www.youtube.com/watch?v=2ti2tU63TMg)*
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-2.jpg)
 
