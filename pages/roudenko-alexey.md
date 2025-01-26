@@ -16,6 +16,63 @@ Roudenko's professional experience includes working with Radugadesign, a company
 
 With a career spanning over a decade, Roudenko joined Behance on October 28, 2013, and has since been featured in various categories including Set, Props & Costume, Exhibition & Signage, 3D Motion, and After Effects[1]. His work demonstrates a fusion of technology and artistry, appealing to a wide audience in the digital art world.
 
+# Alexey Rudenko aka arthew0
+
+**Media artist**, working in the field of cutting-edge computer technologies.
+
+In his works, Alexey combines modern technologies with the visionary ideas of Kandinsky, Malevich, Skryabin, and the traditions of the Russian avant-garde. His interests lie in sound synthesis, the study of forms and movements using computer vision, as well as simulating synesthesia.
+
+[Website](https://www.arthew0.ru/)  
+[Instagram](https://www.instagram.com/arthew0/)  
+[Vimeo](https://vimeo.com/arthew0)  
+[Facebook](https://www.facebook.com/arthew0/)  
+[SoundCloud](https://soundcloud.com/arthew0/)  
+[OpenSea](https://opensea.io/arthew0)  
+[Foundation](https://foundation.app/@arthew0)
+
+---
+
+## Selected Exhibitions
+
+| **Year** | **Event**                                                                                   | **Link**                                                                                              |
+|----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 2015     | Multimedia exhibition "Amber. The Second Rebirth. 50 Million Years Later." Moscow Museum     | [Link](https://www.arthew0.ru/blog/amber/)                                                             |
+| 2016     | Audiovisual installation as part of the exhibition "PROUN Continuum" PROUN Gallery, Moscow     | [Link](https://www.arthew0.ru/blog/proun-forms/)                                                       |
+| 2018     | Audiovisual installation as part of the exhibition "Exhibition of the New" PROUN Gallery, Moscow | [Link](https://www.arthew0.ru/blog/correlation/)                                                       |
+| 2018     | Audiovisual installation "Möbius" as part of the exhibition "Echo". PROUN Gallery, Moscow      | [Link](https://proun.am/echo/)                                                                         |
+| 2021     | Forms:Flow CV Color. As part of the "Elusive Matter" exhibition at the Intervals Festival, Nizhny Novgorod | [Link](https://www.arthew0.ru/blog/flow_cv_colors/) [Generative Gallery](https://generativegallery.com/ggxintervals/) |
+| 2021     | @Public Visuals exhibition, Tokyo, Japan                                                    | [Link](https://www.arthew0.ru/blog/artificalcreaturescollector/)                                       |
+| 2022     | Tomorrow NFT showcase, Ramat Gan Museum of Israeli Art                                      | [Link](https://generativegallery.com/tomorrow-nft/)                                                    |
+| 2023     | @Public Visuals exhibition, Tokyo, Japan                                                    | [Link](https://www.arthew0.ru/blog/artificalcreaturescontact/)                                         |
+
+---
+
+## Lectures
+
+| **Year** | **Lecture**                                                                                     | **Link**                                                                                              |
+|----------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 2016     | MISP "Chromesthesia: Kandinsky, Skryabin, Museums, and Parties"                                   | [Link](http://www.mispxx-xxi.ru/lektsiya-hromesteziya-kandinskij-skryabin-muzei-i-vecherinki/)         |
+| 2021     | Lecture "The Art of Sound and Video Synthesis"                                                   | [Link](https://moscowmusicschool.ru/events/iskusstvo-sinteza-zvuka-i-video/)                          |
+
+---
+
+## Festivals
+
+| **Year** | **Festival**                        | **Location**          |
+|----------|-------------------------------------|-----------------------|
+| 2017     | Burning Man Decompression           | Moscow               |
+| 2019     | Urvakan Festival                    | Yerevan              |
+| 2020     | Signal Bali Festival                | Bali                 |
+| 2022     | GAMMA Festival                      | Not specified        |
+| 2022     | NUR Festival                        | Not specified        |
+
+---
+
+## English Description
+
+**ALEXEY RUDENKO (Arthew0)** is a media artist and physicist who works with the latest computer technology. In his works, Alexey combines modern technology with visionary ideas of Kandinsky, Malevich, Skryabin, and the traditions of the Russian avant-garde. His interests lie in the field of sound synthesis, studies of forms and motions by means of computer vision, and simulations of synaesthesia.
+
+
 ## Citations
 
 [1] https://www.behance.net/alexey_roudenko
