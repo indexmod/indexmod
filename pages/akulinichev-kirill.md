@@ -12,6 +12,12 @@ credits: Customized hoodie by Kirill Akulinichev
 Born in 1972, Rostov-on-Don. Lives and works in Saint Petersburg.  
 Interdisciplinary artist and curator. His parents are architects. He studied architecture at the AA Institute (Rostov-on-Don) and costume design at the Moscow State University of Design and Technology (Moscow). Akulinitchev works in various art forms, including painting, ceramics, video art, and performance, creating objects, assemblages, and installations. He is the founder of the video art group INSIDE.
 
+## Kurganov about Akulinitchev
+
+Mikhail Kurganov, independent curator: "Absorbing the atmosphere of doom and decay of the Silver Age along with the chilly air, as well as the spirit of the rave culture of the '90s, his art combines the typical undergroundness and aestheticism of the St. Petersburg art scene. Akulinitchev's psychedelic painting is 'ordered chaos.' The canvases depict a world balancing in a moment between birth and decay – a metamodelist attempt at contemplating and documenting the fragile state of modernity."
+
+
+
 ## Artistic Style and Approach  
 Akulinitchev’s art encompasses:
 - **Paintings**
