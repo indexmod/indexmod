@@ -26,7 +26,7 @@ His work combines surreal spaces between figurativeness and abstraction, often i
 
 ![]({{ site.url }}/images/akulinichev-kirill-november.jpg)
 
-**КАЖДЫЙ НОЯБРЬ, КАК В ПЕРВЫЙ РАЗ 2022 Холст, акрил / Аcrylic, on canvas 100 х 100 см**
+**Each November, like the first time 2022 Acrylic on canvas, 100 x 100 cm**
 
 ## Notable Works
 - **"Opus 3"** (2022) – Acrylic on canvas, 120 cm diameter  
