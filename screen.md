@@ -7,7 +7,7 @@ image: /logo.png
 ---
 
 <div class="content-wrapper">
-        <div id="token" class="token-container">ЗАГРУЗКА...</div>
+        <div id="token" class="token-container">One sec...</div>
         <div class="footer-container">
             <img id="image" class="footer-image" src="" alt="Image" />
             <span id="title" class="footer-title"></span>
@@ -47,7 +47,7 @@ image: /logo.png
                     // Обновляем текстовые элементы и картинку
                     tokenContainer.innerHTML = currentItem.token;
                     titleElement.innerHTML = currentItem.title;
-                    imageElement.src = currentItem.image || '/images/black.jpg';
+                    imageElement.src = currentItem.image || '/logo.png';
 
                     // Плавно показываем новые элементы
                     setTimeout(() => {
