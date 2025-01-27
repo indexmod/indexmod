@@ -4,7 +4,7 @@ permalink: raketa-amphibia
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/raketa-amphibia.jpg
+image: /images/raketa-amphibia-1.jpg
 credits: Raketa Amphibia
 ---
 

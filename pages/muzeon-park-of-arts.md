@@ -4,8 +4,8 @@ permalink: muzeon-park-of-arts
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/permalink.jpg
-credits:
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Moscow_Park_of_the_Arts.jpg/255px-Moscow_Park_of_the_Arts.jpg
+credits: wikimedia.org
 ---
 
 (Rus. Парк искусств “Музеон”, est. 1992, Moscow) is a park shared by the modern art division of Tretyakov Gallery and Central House of Artists, established by the City of Moscow in <span id="a1">[\[1\]](#f1)</span.

@@ -2,9 +2,8 @@
 title: Во, Дан
 permalink: vo-danh
 layout: crypto
-permalink:
-image:
-credits:
+image: /images/vo-danh-1.jpg
+credits: Дан Во «2.2.1861» 2009 Photo Solomon R. Guggenheim Museum, New York Art-and-houses.ru http://art-and-houses.ru/2018/02/03/pervaya-retrospektiva-dana-vo-v-muzee-guggenhajma/
 ---
 
 Дан Во — современный художник вьетнамского происхождения, родившийся 5 августа 1975 года в городе Вунгтау, Вьетнам[1]. В 1979 году, в возрасте 4 лет, его семья бежала из Южного Вьетнама на самодельной лодке и была спасена датским грузовым судном[1]. После этого семья Во поселилась в Дании[1].
@@ -29,12 +28,6 @@ credits:
 [6] https://www.facebook.com/groups/creationpeoples/posts/750623325049707/
 [7] https://www.instagram.com/danwitzstreetart/
 [8] https://www.wychwoodart.com/dan-bloodworth
-
-![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Дан Во «2.2.1861» 2009**
-
-*Photo: [Solomon R. Guggenheim Museum, New York](solomon-r-guggenheim-museum) / [Art-and-houses.ru](http://art-and-houses.ru/2018/02/03/pervaya-retrospektiva-dana-vo-v-muzee-guggenhajma/)*
 
 ## Prizes
 

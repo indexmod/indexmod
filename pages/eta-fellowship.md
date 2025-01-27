@@ -4,17 +4,11 @@ permalink: eta-fellowship
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/permalink.jpg
-credits:
+image: /images/eta-fellowship-1.jpg
+credits: Userpic of "Eta" on Facebook in 2017
 ---
 
 (Rus. Товарищество «Эта», est. 2017, Mozzhinka) is a creative fellowship based in Moscow, founded by Maksim Kamo and Andrei Dei with aim to visualize of science data. In 2017 also collaborated with Petro Sanchuk, Elvira Kuznetsova.
-
-![(Userpic of "Eta" on Facebook in 2017)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)
-
-**Userpic of "Eta" on Facebook in 2017**
-
-*Image: [Andrei Dei](dei-andrei) / [Eta Facebook]()*
 
 ## Naming and identity
 
@@ -56,6 +50,6 @@ The name of the fellowship "Heth / Eta" comes from Russian «Эта» — pronun
 + [Petro Sanchuk](sanchuk-petro)
 + [Elvira Kuznetsova](kuznetsova-elvira)
 
-# Footnotes
+## Footnotes
 
 [[1]](#a1) <span id="f1"></span> [Основатель проекта «Эта» рассказал о визуализации пространственных данных в Геофизическом центре Российской академии наук (Пресс-релизы, «Эта»)](https://e-t-a.ga/7-nov-2017)

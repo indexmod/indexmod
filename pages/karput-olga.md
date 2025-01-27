@@ -4,8 +4,8 @@ permalink: karput-olga
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/karput-olga.jpg
-credits:
+image: https://image-cdn.hypb.st/https%3A%2F%2Fbae.hypebeast.com%2Ffiles%2F2018%2F04%2F032c-km20-capsule-collection-lookbook-2.jpg?q=90&w=2180&format=jpeg&cbr=1&fit=max
+credits: hypb.st
 ---
 
 Olga Karput is a prominent figure in the Russian fashion industry, known for her role as the founder of the concept store and café "Kuznetskiy Most 20" (KM20) in Moscow. Born on January 24, 1983, in Minsk, she was raised by a single mother and developed an early passion for fashion, often visiting boutiques around the world to explore new styles[2][3].

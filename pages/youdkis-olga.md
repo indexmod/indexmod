@@ -4,8 +4,8 @@ permalink: youdkis-olga
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/youdkis-olga.jpg
-credits:
+image: https://static.sobaka.ru/images/imglib/magimg/85/yudkis_family.jpg
+credits: sobaka.ru
 ---
 
 Olga Youdkis, born in 1968 in Saint Petersburg, is a notable Russian media personality and the PR director of GUM (ЗАО “Московский международный дом” “Восток и Запад”), which operates under the Bosco di Ciliegi brand. Her role has positioned her as a significant influencer within the Russian fashion industry, culminating in her ranking 5th on SNC's list of the “100 most influential people in Russian fashion” in 2015. Currently, she resides and works in Moscow.
@@ -49,7 +49,8 @@ Olga Youdkis has effectively utilized media channels to promote Russian fashion 
 
 These projects reflect Youdkis's commitment to advancing the Russian fashion industry and her influence as a key figure in its development.
 
-Citations:
+## Citations
+
 [1] https://kommersant.co.uk/articles/i-still-don-t-know-what-will-become-of-my-brand-an-interview-with-the-fashion-designer-olga-vilshenko
 [2] https://www.artygeneration.com/home/2018/4/19/olga-nikich-textile-designer
 [3] https://www.heidikingstone.com/whatever-happened-to-olga/

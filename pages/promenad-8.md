@@ -4,7 +4,7 @@ permalink: promenad-8
 layout: crypto
 date: 2018-01-02
 update: 2025-01-24
-image: /images/promenad-8.jpg
+image: /images/promenad-8-1.jpg
 credits:
 ---
 

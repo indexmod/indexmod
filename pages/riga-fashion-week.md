@@ -4,8 +4,8 @@ permalink: riga-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/riga-fashion-week.jpg
-credits:
+image: https://schonmagazine.com/wp-content/uploads/2024/04/7P5A1544.jpg
+credits: schonmagazine.com
 ---
 
 Riga Fashion Week, a prominent event in the Baltic region, is currently taking place from January 15 to January 18, 2025. This edition marks the **39th** iteration of the event, which showcases both local and international designers, highlighting the creativity and innovation within Latvia's fashion scene.
@@ -34,12 +34,17 @@ Riga Fashion Week is set to continue its tradition of biannual events, with futu
 
 This year's edition promises to be an exciting showcase of talent and creativity, contributing to the growing reputation of Riga as a significant player in the global fashion landscape.
 
-Citations:
-[1] https://www.rfw.lv
+## Citations
+
+**[1] https://www.rfw.lv
 [2] https://metalmagazine.eu/en/post/riga-fashion-week-2024-play-it-safe
 [3] https://andrisr.com/riga-fashion-week/
 [4] https://www.instagram.com/rigafashionweek_official/
 [5] https://www.facebook.com/Riga.Fashion.Week/
 [6] https://www.instagram.com/rigafashionweek_official/p/DBtXqLmCvkq/
 [7] https://bffederation.com/en/projects/riga-fashion-week-en
-[8] https://www.facebook.com/Riga.Fashion.Week/posts/experience-39th-riga-fashion-week-shows-%EF%B8%8Fjoin-our-livestream-from-the-main-fashi/951063763720610/
+[8] https://www.facebook.com/Riga.Fashion.Week/posts/experience-39th-riga-fashion-week-shows-%EF%B8%8Fjoin-our-livestream-from-the-main-fashi/951063763720610/**
+
+## See also
+
+[Baltic Fashion Federation](baltic-fashion-federation-the)

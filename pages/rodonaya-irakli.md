@@ -4,8 +4,8 @@ permalink: rodonaya-irakli
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/rodonaya-irakli.jpg
-credits:
+image: https://m.media-amazon.com/images/M/MV5BYTNhMTFhMzktODI5Yi00ZGQ0LTk5NjItMzJjZGQxMTRiZjBkXkEyXkFqcGc@._V1_FMjpg_UY1841_.jpg
+credits: imdb.com
 ---
 
 Irakli Rodonaya is a Georgian producer and actor born on July 4, 1981, in Gagra, Abkhaz ASSR, Georgian SSR, USSR (now Abkhazia)[1][6]. He is known for his work in the film industry, particularly for his involvement in the critically acclaimed movie "Brighton 4th" (2021)[1][2].
@@ -39,7 +39,8 @@ His content often relates to his work in the film industry and personal life.
 
 Rodonaya's background as a Georgian born in Abkhazia has influenced his perspective on identity and nationality. In an interview, he humorously remarked about being Georgian in Abkhazia and Abkhazian in Georgia, suggesting that living in Canada was a solution to this complex identity[7].
 
-Citations:
+## Citations
+
 [1] https://www.imdb.com/name/nm7722204/
 [2] https://www.instagram.com/erekle/
 [3] https://www.kinopoisk.ru/name/3095128/

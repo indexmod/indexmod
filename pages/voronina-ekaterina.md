@@ -4,8 +4,8 @@ permalink: voronina-ekaterina
 layout: crypto
 date: 2018-01-02
 update: 2025-01-23
-image: /images/voronina-ekaterina.jpg
-credits:
+image: https://www.thesymbol.ru/upload/img_cache/802/80223b122254d217de81ac699ed73d2a_cropped_666x998.webp
+credits: thesymbol.ru Voronina Ekaterina гиперженственность без гендера от выпускницы Polimoda
 ---
 
 Ekaterina Voronina is a talented fashion designer based in St. Petersburg, Russia. She graduated from the prestigious Polimoda fashion school in Florence, Italy, where she honed her skills in fashion design. Voronina has developed a unique aesthetic that often incorporates elements of agender fashion, making her work appealing to a diverse audience.

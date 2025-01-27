@@ -4,7 +4,7 @@ permalink: oh-my-brand
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/oh-my-brand.jpg
+image: /images/oh-my-brand-1.jpg
 credits:
 ---
 

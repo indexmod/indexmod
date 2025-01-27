@@ -4,8 +4,8 @@ permalink: oriflame-company
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/oriflame-company.jpg
-credits:
+image: https://media-cis-cdn.oriflame.com/contentImage?externalMediaId=83428dce-775b-485c-a671-35d953e01646&name=noginsk_d1_2&inputFormat=jpg&h=396&la=ru-RU&w=925&imageFormat=Jpeg&q=90
+credits: oriflame.ru
 ---
 
 Oriflame is a Swedish-Swiss multinational multi-level marketing company specializing in beauty and personal care products[2]. Founded on January 1, 1967, by brothers Jonas af Jochnick and Robert af Jochnick, along with their friend Bengt Hellsten, the company sells products directly to consumers through a network of independent sellers[2].
@@ -34,7 +34,8 @@ Oriflame has manufacturing plants in several countries, including:
 
 The company sells approximately 1.2 million products worldwide every day and has been actively working on environmental sustainability in their product formulation and packaging[3].
 
-Citations:
+## Citations
+
 [1] https://uk.oriflame.com
 [2] https://en.wikipedia.org/wiki/Oriflame
 [3] https://corporate.oriflame.com
@@ -48,7 +49,7 @@ Citations:
 Oriflame in Russia. Young worker in factory in Noginsk
 Photo: Yasya Fogelgardt / The Village
 
-# See also
+## See also
 
 + [Jess](jess)
 + [Как делают помады и блески для губ (The Village)](http://www.the-village.ru/village/business/process/227475-pomady)

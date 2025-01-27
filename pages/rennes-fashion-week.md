@@ -4,8 +4,8 @@ permalink: rennes-fashion-week
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: /images/rennes-fashion-week.jpg
-credits:
+image: https://www.getfootballnewsfrance.com/assets/balenciaga-runway-paris-fashion-week-womenswear-spring-summer-2022-1170x780.jpg
+credits: getfootballnewsfrance.com
 ---
 
 Rennes is set to host several significant fashion events in 2025, showcasing a vibrant mix of styles and cultural influences.
@@ -26,7 +26,8 @@ Rennes is becoming increasingly recognized for its dynamic fashion scene, with v
 
 These events not only promote fashion but also foster community engagement and cultural exchange, positioning Rennes as an important player in the global fashion landscape.
 
-Citations:
+## Citations
+
 [1] https://allevents.in/rennes/fashion
 [2] https://www.eventbrite.nl/e/africa-fashion-week-rennes-tickets-73835675493
 [3] https://www.facebook.com/events/rennes-france/africa-fashion-week-rennes/520137308796734/
