@@ -40,3 +40,15 @@ credits: my-travel-diary.by Антон Бородачёв
 [8] [Road Planner - 798 Art Zone](http://beijing.roadplanner.ru/art/artkod.html)
 
 Eng.: Located in Beijing, this creative hub hosts art and fashion exhibitions, often linked with high-fashion events.
+
+
+<!-- Prompt:
+- Edit "Citations" section title to ## Citations.
+- Format the references in the "Citations" section as follows: [1] [URL](URL).
+- When referring to a citation number in the text, use the following HTML tag format: <strong>[1]</strong>.
+- Ensure each citation number correctly corresponds to the entry in the "Citations" section.
+- The citation numbers should be clickable links in the format above.
+- Provide a list of related topics in the same format as above.
+- Use the pattern "[Topic Name](topic-link)" for each item.
+- Leave this Prompt after editing at the end of the code.
+-->
