@@ -1,5 +1,5 @@
 ---
-title: i-D
+title: Ай-ди (журнал)
 permalink: i-d
 layout: crypto
 date: 2018-01-02
