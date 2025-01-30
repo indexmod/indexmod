@@ -1,0 +1,75 @@
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+/* Сброс стилей */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Old Standard TT', serif;
+  line-height: 1.6;
+  color: #000;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем контент */
+}
+
+/* Контейнер для содержимого */
+.container {
+  max-width: min(100%, 1200px);
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #000;
+  text-align: left;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* Основной текст */
+p, a, ul, ol, li, table {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #000;
+  text-align: left;
+}
+
+strong {
+  font-weight: 900;
+  color: green;
+}
+
+/* Списки */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem
