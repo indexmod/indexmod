@@ -16,19 +16,20 @@ html {
 body {
   font-family: 'Old Standard TT', serif;
   line-height: 1.6;
-  color: #000; /* Чёрный текст */
-  background-color: #fff; /* Белый фон */
-  margin: 40px; /* Большие поля */
+  color: #000;
+  background-color: #fff;
+  padding: 40px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Выровнять содержимое по левому краю */
+  align-items: center; /* Центрируем контент */
 }
 
 /* Контейнер для содержимого */
 .container {
-  max-width: 1200px;
+  max-width: min(100%, 1200px);
   width: 100%;
   padding: 20px;
+  margin: 0 auto;
 }
 
 /* Заголовки */
@@ -36,33 +37,33 @@ h1, h2, h3 {
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #000;
-  text-align: left; /* Выровнять заголовки по левому краю */
+  text-align: left;
 }
 
 h1 {
-  font-size: 4rem; /* Уменьшенный размер по умолчанию */
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 3rem; /* Средний размер */
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2rem; /* Средний размер */
+  font-size: 2rem;
 }
 
 /* Основной текст */
 p, a, ul, ol, li, table {
-  font-size: 1.2rem; /* Унифицированный размер текста */
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   line-height: 1.8;
   color: #000;
-  text-align: left; /* Выровнять текст по левому краю */
+  text-align: left;
 }
 
 strong {
-  font-weight: 900; /* Жирный шрифт */
-  color: green;     /* Зелёный текст */
+  font-weight: 900;
+  color: green;
 }
 
 /* Списки */
@@ -71,121 +72,4 @@ ul, ol {
 }
 
 li {
-  margin-bottom: 0.5rem;
-}
-
-/* Ссылки */
-a {
-  color: #007acc; /* Голубой цвет для ссылок */
-  text-decoration: none; /* Убрано подчёркивание */
-}
-
-a:hover {
-  color: #005b8f; /* Темный цвет при наведении */
-  text-decoration: underline;
-}
-
-/* Общие стили для изображений */
-img {
-  max-width: 50%; /* Подгоняет изображение под ширину контейнера */
-  height: auto;
-  filter: grayscale(70%); /* Полностью черно-белый фильтр */
-  border: 0.5px solid #000; /* Тонкая черная рамка */
-  margin: 5px 0; /* Отступ только сверху и снизу */
-  text-align: left; /* Выравнивание по левому краю */
-}
-
-.badge {
-  display: inline-block; /* Убедиться, что badge ведет себя как блок внутри текста */
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 4px;
-  padding: 2px 8px; /* Добавлен небольшой вертикальный отступ */
-  margin-right: 5px; /* Добавлен отступ справа, чтобы не сливалось со следующим словом */
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
-  background-color: #11312C;
-  color: #3ED2B4;
-  letter-spacing: 1px; /* Немного увеличиваем расстояние между буквами для читаемости */
-}
-
-
-
-/* Медиа-запросы для адаптивности */
-@media (max-width: 1024px) {
-  img {
-    max-width: 70%; /* Увеличиваем ширину на средних экранах */
-  }
-}
-
-@media (max-width: 768px) {
-  img {
-    max-width: 90%; /* Увеличиваем ширину на мобильных устройствах */
-  }
-}
-
-/* Таблицы */
-.table-container {
-  overflow-x: auto; /* Горизонтальная прокрутка */
-  -webkit-overflow-scrolling: touch; /* Поддержка скроллинга на мобильных устройствах */
-}
-
-table {
-  width: 100%; /* Установим ширину таблиц на 100% */
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-  border: 1px solid #000; /* Общая рамка */
-}
-
-th, td {
-  padding: 0.75rem;
-  text-align: left;
-  border: 1px solid #000; /* Тонкие линии для всех ячеек */
-}
-
-.table-container::-webkit-scrollbar {
-  height: 6px;
-}
-
-.table-container::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 3px;
-}
-
-.table-container::-webkit-scrollbar-thumb:hover {
-  background: #999999;
-}
-
-/* Контейнеры и блоки */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.column {
-  flex: 1 1 45%;
-  padding: 0 10px;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.8rem; /* Уменьшить для мобильных телефонов */
-  }
-
-  th, td {
-    font-size: 1rem; /* Уменьшение шрифта внутри таблиц */
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 2.5rem; /* Ещё меньше для маленьких экранов */
-  }
-
-  th, td {
-    font-size: 0.9rem; /* Ещё меньше шрифт внутри таблиц */
-    padding: 0.5rem;
-  }
-}
+  margin-bottom: 0.5rem
