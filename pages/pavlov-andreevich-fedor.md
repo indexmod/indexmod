@@ -41,11 +41,36 @@ His works are held in collections including the Museu de Arte do Rio, Moscow Mus
 
 ## Citations
 
-[1] https://fyodorpavlovandreevich.com
-[2] https://en.wikipedia.org/wiki/Fyodor_Pavlov-Andreevich
-[3] https://gazelliarthouse.com/artists/fyodor-pavlov-andreevich/biography/
-[4] https://www.designboom.com/art/fyodor-pavlov-andreevich-antifurniture-sculptures-challenge-everyday-comfort-fears-design-museum-london-10-26-2023/
-[5] https://www.instagram.com/fyodorpavlovandreevich/
-[6] https://www.artsy.net/artist/fyodor-pavlov-andreevich
-[7] https://www.youtube.com/watch?v=IAH9scjLEjU
-[8] https://gazelliarthouse.com/artists/fyodor-pavlov-andreevich/works/
+**[1]** [Fyodor Pavlov-Andreevich Official Website](https://fyodorpavlovandreevich.com)  
+**[2]** [Wikipedia - Fyodor Pavlov-Andreevich](https://en.wikipedia.org/wiki/Fyodor_Pavlov-Andreevich)  
+**[3]** [Gazelli Art House - Fyodor Pavlov-Andreevich Biography](https://gazelliarthouse.com/artists/fyodor-pavlov-andreevich/biography/)  
+**[4]** [Designboom - ANTIFURNITURE Exhibition](https://www.designboom.com/art/fyodor-pavlov-andreevich-antifurniture-sculptures-challenge-everyday-comfort-fears-design-museum-london-10-26-2023/)  
+**[5]** [Instagram - Fyodor Pavlov-Andreevich](https://www.instagram.com/fyodorpavlovandreevich/)  
+**[6]** [Artsy - Fyodor Pavlov-Andreevich](https://www.artsy.net/artist/fyodor-pavlov-andreevich)  
+**[7]** [YouTube - Fyodor Pavlov-Andreevich](https://www.youtube.com/watch?v=IAH9scjLEjU)  
+**[8]** [Gazelli Art House - Fyodor Pavlov-Andreevich Works](https://gazelliarthouse.com/artists/fyodor-pavlov-andreevich/works/)  
+
+## See also
+
++ [Pavlov-Andreevich, Fedor](pavlov-andreevich-fedor)  
++ [Marina Abramović](marina-abramovic)  
++ [Performance Art](performance-art)  
+
+<!-- Prompt:
+- Не менять язык статьи, сохранять оригинальный язык.  
+- Если тема оформлена как "Имя Фамилия", заголовок должен быть "Фамилия, Имя".  
+- Изменить title: A Template на основной топик в статье.  
+- Создать permalink: на основе title.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+- Изменить заголовок раздела "Citations" на ## Citations.  
+- Оформить ссылки в разделе "Citations" в формате: **[1]** [URL](URL).  
+- При ссылке на источник в тексте, использовать формат: **[x]**, **[x]**.  
+- Убедиться, что номера цитат соответствуют записям в разделе "Citations".  
+- Сделать номера цитат кликабельными по указанному выше формату.  
+- Добавить список связанных тем в том же формате.  
+- Использовать шаблон - "[Название темы](ссылка-на-тему)" для каждого пункта.  
+- Раздел ## See also должен включаться автоматически в конец статьи.  
+- Результат в md коде
+- Оставить этот Prompt после редактирования в конце кода.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+-->

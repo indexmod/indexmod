@@ -31,24 +31,43 @@ He has been recognized as one of the early independent Russian designers, gainin
 
 ## Citations
 
-[1] https://1granary.com/opinion/defining-post-soviet-aesthetic/
-[2] https://www.showstudio.com/contributors/artur_lomakin
-[3] https://www.new-east-archive.org/articles/show/546/artur-lomakin-forget-me-not-conceptual-fashion-moscow
-[4] https://www.instagram.com/arturlomakin/
-[5] https://doca.moscow/doca/2015/proekty/37/
-[6] https://www.showstudio.com/projects/dressing_the_screen_russia/essay-russias-young-creatives
-[7] https://www.pinterest.com/pin/forget-me-not-by-artur-lomakin-spring-lookbook-2011-ad--297589487852020586/
-[8] https://www.new-east-archive.org/lists/list-item/7844/forget-me-not1
+**[1]** [1 Granary - Defining Post-Soviet Aesthetic](https://1granary.com/opinion/defining-post-soviet-aesthetic/)  
+**[2]** [Showstudio - Artur Lomakin](https://www.showstudio.com/contributors/artur_lomakin)  
+**[3]** [New East Archive - Artur Lomakin: Forget Me Not](https://www.new-east-archive.org/articles/show/546/artur-lomakin-forget-me-not-conceptual-fashion-moscow)  
+**[4]** [Instagram - Artur Lomakin](https://www.instagram.com/arturlomakin/)  
+**[5]** [DOCA Moscow - Artur Lomakin Projects](https://doca.moscow/doca/2015/proekty/37/)  
+**[6]** [Showstudio - Russia's Young Creatives](https://www.showstudio.com/projects/dressing_the_screen_russia/essay-russias-young-creatives)  
+**[7]** [Pinterest - Forget Me Not by Artur Lomakin](https://www.pinterest.com/pin/forget-me-not-by-artur-lomakin-spring-lookbook-2011-ad--297589487852020586/)  
+**[8]** [New East Archive - Forget Me Not](https://www.new-east-archive.org/lists/list-item/7844/forget-me-not1)  
 
-# See also
+## See also
 
-+ [Svetlana Tanakina](index)
-+ [Frorget Me Not](index)
-+ [Black Square Magazine](index)
-+ [Huligan Magazine](index)
-+ [Eric Panov](index)
-+ [Gosha Rubchinskiy](index)
++ [Svetlana Tanakina](index)  
++ [Forget Me Not](index)  
++ [Black Square Magazine](index)  
++ [Huligan Magazine](index)  
++ [Eric Panov](index)  
++ [Gosha Rubchinskiy](index)  
 
-# Footnotes
+## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [Step into a suburban snowscape with Russian fashion brand Forget Me Not (Calvertjournal.com)](https://www.calvertjournal.com/news/show/7464/step-into-a-suburban-snowscape-with-russian-fashion-brand-forget-me-not)
+[[1]](#a1) <span id="f1"></span> [Step into a suburban snowscape with Russian fashion brand Forget Me Not (Calvertjournal.com)](https://www.calvertjournal.com/news/show/7464/step-into-a-suburban-snowscape-with-russian-fashion-brand-forget-me-not)  
+
+<!-- Prompt:
+- Не менять язык статьи, сохранять оригинальный язык.  
+- Если тема оформлена как "Имя Фамилия", заголовок должен быть "Фамилия, Имя".  
+- Изменить title: A Template на основной топик в статье.  
+- Создать permalink: на основе title.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+- Изменить заголовок раздела "Citations" на ## Citations.  
+- Оформить ссылки в разделе "Citations" в формате: **[1]** [URL](URL).  
+- При ссылке на источник в тексте, использовать формат: **[x]**, **[x]**.  
+- Убедиться, что номера цитат соответствуют записям в разделе "Citations".  
+- Сделать номера цитат кликабельными по указанному выше формату.  
+- Добавить список связанных тем в том же формате.  
+- Использовать шаблон - "[Название темы](ссылка-на-тему)" для каждого пункта.  
+- Раздел ## See also должен включаться автоматически в конец статьи.  
+- Результат в md коде
+- Оставить этот Prompt после редактирования в конце кода.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+-->

@@ -3,7 +3,7 @@ title: Bezous
 permalink: bezous
 layout: crypto
 date: 2018-01-02
-update: 2025-01-22
+update: 2025-01-23
 image: /images/bezous.jpg
 credits:
 ---
@@ -16,14 +16,15 @@ Bezous has collaborated with other artists and professionals in the fashion indu
 
 The designer has presented collections at Moscow Fashion Week, with records of a Fall/Winter 2011-2012 show being discussed in fashion forums[6]. This indicates that the brand has been active in the fashion industry for over a decade.
 
-Citations:
-[1] https://bizuu.com
-[2] https://www.instagram.com/bezous_official/
-[3] https://www.facebook.com/pages/BEZOUS/112135222154376
-[4] https://www.facebook.com/ruslanbezous/?locale=fr_FR
-[5] https://www.facebook.com/PUCHOKART/videos/puchok-art-bezous/346437776094492/
-[6] https://forums.thefashionspot.com/threads/bezous-f-w-11-12-moscow.221173/
-[7] https://www.instagram.com/bezoux/
+## Citations
+
+**[1]** [Bizuu](https://bizuu.com)  
+**[2]** [Instagram - BEZOUS Official](https://www.instagram.com/bezous_official/)  
+**[3]** [Facebook - BEZOUS](https://www.facebook.com/pages/BEZOUS/112135222154376)  
+**[4]** [Facebook - Ruslan Bezous](https://www.facebook.com/ruslanbezous/?locale=fr_FR)  
+**[5]** [Facebook - Puchok Art BEZOUS Video](https://www.facebook.com/PUCHOKART/videos/puchok-art-bezous/346437776094492/)  
+**[6]** [The Fashion Spot Forum - BEZOUS F/W 11-12 Moscow](https://forums.thefashionspot.com/threads/bezous-f-w-11-12-moscow.221173/)  
+**[7]** [Instagram - BEZOUX](https://www.instagram.com/bezoux/)  
 
 ## Random quote
 
@@ -37,12 +38,29 @@ Citations:
 
 ## See also
 
-+ [Cycles and Seasons by MasterCard](index)
-+ [Marina Riemer](index)
-
++ [Cycles and Seasons by MasterCard](index)  
++ [Marina Riemer](index)  
 
 ## Footnotes
 
-[[1]](#a1) <span id="f1"></span> [На счет три. Третий сезон Cycles and Seasons by MasterCard стартует в понедельник (Vogue.ru)](https://www.vogue.ru/search/bezous/)
+[[1]](#a1) <span id="f1"></span> [На счет три. Третий сезон Cycles and Seasons by MasterCard стартует в понедельник (Vogue.ru)](https://www.vogue.ru/search/bezous/)  
+[[2]](#a2) <span id="f2"></span> [Теневые игроки моды: кто стоит за производством одежды. Часть 1, вводная (Sncmedia.ru)](http://www.sncmedia.ru/fashion/tenevye-igroki-mody-kto-stoit-za-proizvodstvom-odezhdy-chast-1-vvodnaya/)  
 
-[[2]](#a2) <span id="f2"></span> [Теневые игроки моды: кто стоит за производством одежды. Часть 1, вводная (Sncmedia.ru)](http://www.sncmedia.ru/fashion/tenevye-igroki-mody-kto-stoit-za-proizvodstvom-odezhdy-chast-1-vvodnaya/)
+<!-- Prompt:
+- Не менять язык статьи, сохранять оригинальный язык.  
+- Если тема оформлена как "Имя Фамилия", заголовок должен быть "Фамилия, Имя".  
+- Изменить title: A Template на основной топик в статье.  
+- Создать permalink: на основе title.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+- Изменить заголовок раздела "Citations" на ## Citations.  
+- Оформить ссылки в разделе "Citations" в формате: **[1]** [URL](URL).  
+- При ссылке на источник в тексте, использовать формат: **[x]**, **[x]**.  
+- Убедиться, что номера цитат соответствуют записям в разделе "Citations".  
+- Сделать номера цитат кликабельными по указанному выше формату.  
+- Добавить список связанных тем в том же формате.  
+- Использовать шаблон - "[Название темы](ссылка-на-тему)" для каждого пункта.  
+- Раздел ## See also должен включаться автоматически в конец статьи.  
+- Результат в md коде
+- Оставить этот Prompt после редактирования в конце кода.  
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
+-->

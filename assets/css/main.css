@@ -3,189 +3,258 @@
 
 /* Сброс стилей */
 * {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
- font-size: 16px;
- scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
- font-family: 'Old Standard TT', serif;
- line-height: 1.6;
- color: #000; /* Чёрный текст */
- background-color: #fff; /* Белый фон */
- margin: 40px; /* Большие поля */
- display: flex;
- flex-direction: column;
- align-items: flex-start; /* Выровнять содержимое по левому краю */
+  font-family: 'Old Standard TT', serif;
+  line-height: 1.6;
+  color: #000; /* Чёрный текст */
+  background-color: #fff; /* Белый фон */
+  margin: 40px; /* Большие поля */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выровнять содержимое по левому краю */
 }
 
 /* Контейнер для содержимого */
-.container {
- max-width: 1200px;
- width: 100%;
- padding: 20px;
+.content-container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
 }
 
 /* Заголовки */
 h1, h2, h3 {
- font-weight: bold;
- margin-bottom: 1.5rem;
- color: #000;
- text-align: left; /* Выровнять заголовки по левому краю */
+  font-weight: bold;
+  margin-top: 2rem; /* Отступ сверху */
+  margin-bottom: 2rem; /* Отступ снизу */
+  color: #000;
+  text-align: left; /* Выровнять заголовки по левому краю */
+  word-wrap: break-word; /* Перенос слов, если они не помещаются в строку */
+  overflow-wrap: break-word; /* Дополнительный перенос для старых браузеров */
+  line-height: 1.2; /* Увеличиваем расстояние между строками */
+  hyphens: auto; /* Автоматическое разбиение длинных слов */
 }
+
 
 h1 {
- font-size: 4rem; /* Уменьшенный размер по умолчанию */
+  font-size: 2.3rem; /* Размер для экранов больше 768px */
 }
 
-h2 {
- font-size: 3rem; /* Средний размер */
-}
-
-h3 {
- font-size: 2rem; /* Средний размер */
+h2, h3 {
+  font-size: 1.7rem; /* Размер для экранов больше 768px */
 }
 
 /* Основной текст */
 p, a, ul, ol, li, table {
- font-size: 1.2rem; /* Унифицированный размер текста */
- margin-bottom: 1rem;
- line-height: 1.8;
- color: #000;
- text-align: left; /* Выровнять текст по левому краю */
+  font-size: 1.2rem; /* Унифицированный размер текста */
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: #000;
+  text-align: left; /* Выровнять текст по левому краю */
 }
 
+/* Границы таблиц */
+table {
+  table-layout: auto; /* Адаптировать таблицу по ширине контента */
+  border-collapse: collapse; /* Убирает пробелы между границами ячеек */
+  width: max-content;
+}
+
+th, td {
+  border: 1px solid #000; /* Черная граница 1px */
+  padding: 0.5rem; /* Добавить отступ внутри ячеек */
+  text-align: left; /* Выровнять текст внутри ячеек по левому краю */
+}
+
+
+
 strong {
- font-weight: 900; /* Жирный шрифт */
- color: green;     /* Зелёный текст */
+  font-weight: 900; /* Жирный шрифт */
+  color: green;     /* Зелёный текст */
 }
 
 /* Списки */
 ul, ol {
- padding-left: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 li {
- margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Ссылки */
 a {
- color: #007acc; /* Голубой цвет для ссылок */
- text-decoration: none; /* Убрано подчёркивание */
+  color: #007acc; /* Голубой цвет для ссылок */
+  text-decoration: none; /* Убрано подчёркивание */
 }
 
 a:hover {
- color: #005b8f; /* Темный цвет при наведении */
- text-decoration: underline;
+  color: #005b8f; /* Темный цвет при наведении */
+  text-decoration: underline;
 }
 
 /* Общие стили для изображений */
 img {
- max-width: 50%; /* Подгоняет изображение под ширину контейнера */
- height: auto;
- filter: grayscale(70%); /* Полностью черно-белый фильтр */
- border: 0.5px solid #000; /* Тонкая черная рамка */
- margin: 5px 0; /* Отступ только сверху и снизу */
- text-align: left; /* Выравнивание по левому краю */
+  max-width: 100%; /* Подгоняет изображение под ширину контейнера */
+  height: auto;
+  filter: grayscale(70%); /* Полностью черно-белый фильтр */
+  border: 0.5px solid #000; /* Тонкая черная рамка */
+  margin: 5px 0; /* Отступ только сверху и снизу */
+  text-align: left; /* Выравнивание по левому краю */
 }
 
+/* Стили для блока с изображением */
+.image-section {
+  margin-bottom: 1.5rem;
+}
+
+/* Информация о кредите */
+.credits-info {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Бейдж токена */
 .badge {
- display: inline-block; /* Убедиться, что badge ведет себя как блок внутри текста */
- font-size: 18px;
- font-weight: bold;
- text-transform: uppercase;
- border-radius: 4px;
- padding: 2px 8px; /* Добавлен небольшой вертикальный отступ */
- margin-right: 5px; /* Добавлен отступ справа, чтобы не сливалось со следующим словом */
- box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
- font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
- background-color: #11312C;
- color: #3ED2B4;
- letter-spacing: 1px; /* Немного увеличиваем расстояние между буквами для читаемости */
+  display: inline-block; /* Убедиться, что badge ведет себя как блок внутри текста */
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 2px 8px; /* Добавлен небольшой вертикальный отступ */
+  margin-right: 5px; /* Добавлен отступ справа, чтобы не сливалось со следующим словом */
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
+  background-color: #11312C;
+  color: #3ED2B4;
+  letter-spacing: 1px; /* Немного увеличиваем расстояние между буквами для читаемости */
 }
-
-
 
 /* Медиа-запросы для адаптивности */
 @media (max-width: 1024px) {
- img {
-   max-width: 70%; /* Увеличиваем ширину на средних экранах */
- }
+  img {
+    max-width: 70%; /* Увеличиваем ширину на средних экранах */
+  }
+
+  h1 {
+    font-size: 2rem; /* Уменьшаем размер заголовков для планшетов */
+  }
+
+h2, h3 {
+    font-size: 1.6rem; /* Уменьшаем размер h3 для планшетов */
+  }
 }
 
 @media (max-width: 768px) {
- img {
-   max-width: 90%; /* Увеличиваем ширину на мобильных устройствах */
- }
-}
+  img {
+    max-width: 90%; /* Увеличиваем ширину на мобильных устройствах */
+  }
 
-/* Таблицы */
-.table-container {
- overflow-x: auto; /* Горизонтальная прокрутка */
- -webkit-overflow-scrolling: touch; /* Поддержка скроллинга на мобильных устройствах */
-}
+  h1 {
+    font-size: 2rem; /* Уменьшаем размер заголовков для мобильных устройств */
+  }
 
-table {
- width: 100%; /* Установим ширину таблиц на 100% */
- border-collapse: collapse;
- margin-bottom: 1rem;
- border: 1px solid #000; /* Общая рамка */
-}
-
-th, td {
- padding: 0.75rem;
- text-align: left;
- border: 1px solid #000; /* Тонкие линии для всех ячеек */
-}
-
-.table-container::-webkit-scrollbar {
- height: 6px;
-}
-
-.table-container::-webkit-scrollbar-thumb {
- background: #cccccc;
- border-radius: 3px;
-}
-
-.table-container::-webkit-scrollbar-thumb:hover {
- background: #999999;
-}
-
-/* Контейнеры и блоки */
-.row {
- display: flex;
- flex-wrap: wrap;
- gap: 20px;
-}
-
-.column {
- flex: 1 1 45%;
- padding: 0 10px;
-}
-
-@media (max-width: 768px) {
- h1 {
-   font-size: 2.8rem; /* Уменьшить для мобильных телефонов */
- }
-
- th, td {
-   font-size: 1rem; /* Уменьшение шрифта внутри таблиц */
- }
+h2, h3 {
+    font-size: 1.5rem; /* Уменьшаем размер h3 для мобильных устройств */
+  }
 }
 
 @media (max-width: 480px) {
- h1 {
-   font-size: 2.5rem; /* Ещё меньше для маленьких экранов */
- }
+  h1 {
+    font-size: 2rem; /* Уменьшаем размер для маленьких экранов */
+  }
 
- th, td {
-   font-size: 0.9rem; /* Ещё меньше шрифт внутри таблиц */
-   padding: 0.5rem;
- }
+  h2 {
+    font-size: 1.5rem; /* Уменьшаем размер h2 для маленьких экранов */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Уменьшаем размер h3 для маленьких экранов */
+  }
+
+  th, td {
+    font-size: 0.9rem; /* Уменьшаем шрифт внутри таблиц */
+    padding: 0.5rem;
+  }
+}
+
+/* Контейнер футера */
+.page-footer {
+  margin-top: 2rem;
+  padding: 0px;
+  text-align: left; /* Выровнять футер по левому краю */
+}
+
+/* Линия футера */
+.footer-line {
+  width: 90%;
+  align-self: center;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 20px; /* Отступ сверху */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Контейнер футера */
+.page-footer {
+  padding: 20px;
+  text-align: left; /* Выровнять по левому краю */
+}
+
+/* Контейнер для логотипа и года */
+.footer-content {
+  display: flex; /* Используем Flexbox */
+  align-items: center; /* Центрируем по вертикали */
+  gap: 10px; /* Отступ между логотипом и годом */
+}
+
+/* Логотип футера */
+.footer-logo {
+  width: auto; /* Устанавливаем ширину логотипа 100px */
+  height: 20px; /* Высота будет пропорциональна ширине */
+  margin: 0; /* Убираем все отступы */
+  border: none; /* Убираем любые рамки */
+  outline: none; /* Убираем возможные внешние границы */
+}
+
+/* Годы в футере */
+.footer-year {
+  font-size: 20px; /* Размер шрифта */
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* Ссылка футера */
+.footer-link {
+  font-size: 20px; /* Размер шрифта 30px */
+  font-weight: normal;
+  text-decoration: none; /* Убираем подчеркивание */
+  color: inherit; /* Цвет текста соответствует основному */
+}
+
+/* Общий стиль для футера */
+footer {
+  font-size: 20px; /* Размер шрифта для всего футера */
+  text-align: left; /* Выровнять текст футера по левому краю */
+}
+
+/* Токен-информация */
+.token-info {
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: left;
+  margin-left: 10px; /* Убираем левый отступ */
+  padding-left: 0; /* Убираем левый внутренний отступ */
+  max-width: 100%; /* Предотвращаем выход за границы */
+  word-wrap: break-word;
 }
