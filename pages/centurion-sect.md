@@ -45,18 +45,20 @@ Centurion Sect is a UK garage punk band with a discography that includes several
 - **Roadkill** (2015)
 
 ## Концерты и активность
-Centurion Sect активно выступает на различных мероприятиях, что позволяет им расширять свою аудиторию и привлекать новых поклонников **[1]**.  
 
-Группа также имеет страницы в социальных сетях, где можно следить за новостями и обновлениями о предстоящих концертах и новых релизах **[6]**.
+Centurion Sect активно выступает на различных мероприятиях, что позволяет им расширять свою аудиторию и привлекать новых поклонников **[1]**. Группа также имеет страницы в социальных сетях, где можно следить за новостями и обновлениями о предстоящих концертах и новых релизах **[6]**.
 
-## See also
+
+## См. также
+
 - [Punk music](punk-music)
 - [Vinyl records](vinyl-records)
 - [Underground music scene](underground-music-scene)
 - [Live music venues](live-music-venues)
 - [DIY punk movement](diy-punk-movement)
 
-## Citations
+## Источники
+
 **[1]** [Shazam - Centurion Sect](https://www.shazam.com/ru-ru/artist/centurion-sect/1435508648)  
 **[2]** [Razor Ray](https://www.razorray.pl)  
 **[3]** [Biblical Archaeology](https://www.biblicalarchaeology.org/daily/biblical-topics/new-testament/the-strange-ending-of-the-gospel-of-mark-and-why-it-makes-all-the-difference/)  
