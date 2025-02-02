@@ -8,7 +8,7 @@ image: https://iv.kommersant.ru/ISSUES.PHOTO/REGIONS/SARATOV_ONLINE/2021/03/16/2
 credits: kommersant.ru Anna Russka
 ---
 
-**Anna Russka** is a prominent **Russian** marketing expert, public figure, and founder of the educational initiative **"Reputation Business Forum."** She has made significant contributions to the fields of fashion, branding, and ecology.
+**Anna Russka** is a prominent **Russian** marketing expert, public figure, and founder of the educational initiative **"Reputation Business Forum"**. She has made significant contributions to the fields of fashion, branding, and ecology.
 
 ## Background and Career
 
