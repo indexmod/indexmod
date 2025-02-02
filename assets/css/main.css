@@ -243,6 +243,7 @@ table {
   width: 70%;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  margin: 1.5rem 0; /* Добавляет отступы сверху и снизу таблицы */
 }
 
 th, td {
