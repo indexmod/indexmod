@@ -44,7 +44,6 @@ h1, h2, h3 {
   hyphens: auto; /* Автоматическое разбиение длинных слов */
 }
 
-
 h1 {
   font-size: 2.3rem; /* Размер для экранов больше 768px */
 }
@@ -75,8 +74,6 @@ th, td {
   text-align: left; /* Выровнять текст внутри ячеек по левому краю */
 }
 
-
-
 strong {
   font-weight: 900; /* Жирный шрифт */
   color: green;     /* Зелёный текст */
@@ -102,14 +99,104 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Бейдж токена */
+.badge {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-right: 5px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
+  background-color: #11312C;
+  color: #3ED2B4;
+  letter-spacing: 1px;
+}
+
+/* Контейнер футера */
+.page-footer {
+  margin-top: 2rem;
+  padding: 0px;
+  text-align: left;
+}
+
+/* Линия футера */
+.footer-line {
+  width: 90%;
+  align-self: center;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Контейнер футера */
+.page-footer {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Контейнер для логотипа и года */
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Логотип футера */
+.footer-logo {
+  width: auto;
+  height: 20px;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+/* Годы в футере */
+.footer-year {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* Ссылка футера */
+.footer-link {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Общий стиль для футера */
+footer {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Токен-информация */
+.token-info {
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 0;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+/* --- НАСТРОЙКИ ИЗОБРАЖЕНИЙ --- */
+
 /* Общие стили для изображений */
 img {
-  max-width: 100%; /* Подгоняет изображение под ширину контейнера */
+  max-width: 100%;
   height: auto;
-  filter: grayscale(70%); /* Полностью черно-белый фильтр */
-  border: 0.5px solid #000; /* Тонкая черная рамка */
-  margin: 5px 0; /* Отступ только сверху и снизу */
-  text-align: left; /* Выравнивание по левому краю */
+  filter: grayscale(70%);
+  border: 0.5px solid #000;
+  margin: 5px 0;
+  text-align: left;
 }
 
 /* Стили для блока с изображением */
@@ -123,138 +210,56 @@ img {
   margin-bottom: 2rem;
 }
 
-/* Бейдж токена */
-.badge {
-  display: inline-block; /* Убедиться, что badge ведет себя как блок внутри текста */
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 4px;
-  padding: 2px 8px; /* Добавлен небольшой вертикальный отступ */
-  margin-right: 5px; /* Добавлен отступ справа, чтобы не сливалось со следующим словом */
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-family: 'Verdana', 'DejaVu Sans', 'Geneva', sans-serif;
-  background-color: #11312C;
-  color: #3ED2B4;
-  letter-spacing: 1px; /* Немного увеличиваем расстояние между буквами для читаемости */
+/* Адаптивность изображений */
+@media (min-width: 1025px) {
+  img {
+    max-width: 50%; /* На больших экранах - 50% */
+  }
 }
 
-/* Медиа-запросы для адаптивности */
 @media (max-width: 1024px) {
   img {
-    max-width: 70%; /* Увеличиваем ширину на средних экранах */
+    max-width: 70%;
   }
 
   h1 {
-    font-size: 2rem; /* Уменьшаем размер заголовков для планшетов */
+    font-size: 2rem;
   }
 
-h2, h3 {
-    font-size: 1.6rem; /* Уменьшаем размер h3 для планшетов */
+  h2, h3 {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 768px) {
   img {
-    max-width: 90%; /* Увеличиваем ширину на мобильных устройствах */
+    max-width: 90%;
   }
 
   h1 {
-    font-size: 2rem; /* Уменьшаем размер заголовков для мобильных устройств */
+    font-size: 2rem;
   }
 
-h2, h3 {
-    font-size: 1.5rem; /* Уменьшаем размер h3 для мобильных устройств */
+  h2, h3 {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
+  img {
+    max-width: 100%; /* На маленьких экранах - 100% */
+  }
+
   h1 {
-    font-size: 2rem; /* Уменьшаем размер для маленьких экранов */
+    font-size: 2rem;
   }
 
-  h2 {
-    font-size: 1.5rem; /* Уменьшаем размер h2 для маленьких экранов */
-  }
-
-  h3 {
-    font-size: 1.5rem; /* Уменьшаем размер h3 для маленьких экранов */
+  h2, h3 {
+    font-size: 1.5rem;
   }
 
   th, td {
-    font-size: 0.9rem; /* Уменьшаем шрифт внутри таблиц */
+    font-size: 0.9rem;
     padding: 0.5rem;
   }
-}
-
-/* Контейнер футера */
-.page-footer {
-  margin-top: 2rem;
-  padding: 0px;
-  text-align: left; /* Выровнять футер по левому краю */
-}
-
-/* Линия футера */
-.footer-line {
-  width: 90%;
-  align-self: center;
-  margin: 0 auto;
-  border: none;
-  border-top: 1px solid black;
-  margin-top: 20px; /* Отступ сверху */
-  margin-bottom: 10px; /* Отступ снизу */
-}
-
-/* Контейнер футера */
-.page-footer {
-  padding: 20px;
-  text-align: left; /* Выровнять по левому краю */
-}
-
-/* Контейнер для логотипа и года */
-.footer-content {
-  display: flex; /* Используем Flexbox */
-  align-items: center; /* Центрируем по вертикали */
-  gap: 10px; /* Отступ между логотипом и годом */
-}
-
-/* Логотип футера */
-.footer-logo {
-  width: auto; /* Устанавливаем ширину логотипа 100px */
-  height: 20px; /* Высота будет пропорциональна ширине */
-  margin: 0; /* Убираем все отступы */
-  border: none; /* Убираем любые рамки */
-  outline: none; /* Убираем возможные внешние границы */
-}
-
-/* Годы в футере */
-.footer-year {
-  font-size: 20px; /* Размер шрифта */
-  font-weight: normal;
-  line-height: 1;
-}
-
-/* Ссылка футера */
-.footer-link {
-  font-size: 20px; /* Размер шрифта 30px */
-  font-weight: normal;
-  text-decoration: none; /* Убираем подчеркивание */
-  color: inherit; /* Цвет текста соответствует основному */
-}
-
-/* Общий стиль для футера */
-footer {
-  font-size: 20px; /* Размер шрифта для всего футера */
-  text-align: left; /* Выровнять текст футера по левому краю */
-}
-
-/* Токен-информация */
-.token-info {
-  font-size: 1rem;
-  margin-top: 2rem;
-  text-align: left;
-  margin-left: 10px; /* Убираем левый отступ */
-  padding-left: 0; /* Убираем левый внутренний отступ */
-  max-width: 100%; /* Предотвращаем выход за границы */
-  word-wrap: break-word;
 }
