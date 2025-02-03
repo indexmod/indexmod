@@ -21,8 +21,6 @@ Hungarian fashion has transformed from the Socialist era's inexpensive off-the-r
 | **Contemporary** | Hungarian designers such as **Dóra Abodi**, **Dóra Tomcsányi**, and labels like **Nanushka** and **Je Suis Belle** have achieved global success. |
 
 
-
-
 The **Budapest Central European Fashion Week (BCEFW)** showcases over 50 Central European and international designers twice a year. Recently, Hungarian brands made a significant appearance at **Milan Fashion Week**, presenting their Spring-Summer 2025 collections alongside luxury cosmetics and design products.
 
 ## Art Nouveau and Magyar Szecesszió
