@@ -112,7 +112,7 @@ strong {
 
 /* Линия футера */
 .footer-line {
-  width: 90%;
+  width: 120%;
   align-self: center;
   margin: 0 auto;
   border: none;
@@ -142,6 +142,53 @@ strong {
   border: none;
   outline: none;
 }
+
+/* Кнопка редактирования */
+.edit-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Отмена стилей при наведении */
+.edit-button:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Отмена стилей при клике */
+.edit-button:active {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+/* Логотип в кнопке */
+.button-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  position: relative;
+  top: -2px; /* Поднимаем на 1px */
+}
+
+
+
+
 
 /* Годы в футере */
 .footer-year {
