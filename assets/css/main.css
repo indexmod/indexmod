@@ -265,3 +265,32 @@ th, td {
     padding: 0.5rem;
   }
 }
+
+/* --- ИСПРАВЛЕНИЯ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ --- */
+
+/* Делаем контент шире на мобильных */
+@media (max-width: 768px) {
+  .content-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+}
+
+/* Исправляем узкий контейнер для credits-info */
+.credits-info {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-break: anywhere;
+  hyphens: auto;
+}
+
+/* Гибкое форматирование ссылок в credits-info */
+.credits-info a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
+}
