@@ -144,6 +144,7 @@ strong {
 }
 
 /* Кнопка редактирования */
+
 .edit-button {
   display: inline-flex;
   align-items: center;
@@ -153,10 +154,12 @@ strong {
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
-  border: 1px solid black;
+  border: 4px solid transparent;
   font-size: 16px;
   font-weight: bold;
+  border-image: repeating-linear-gradient(90deg, black, black 10px, transparent 10px, transparent 20px) 10;
 }
+
 
 /* Отмена стилей при наведении */
 .edit-button:hover {
