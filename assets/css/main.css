@@ -153,28 +153,20 @@ strong {
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
-  border: 0.1px dashed grey; /* Длинные пунктирные границы */
+  border: 1px dashed grey; /* Длинные пунктирные границы */
   font-family: 'Roboto Mono';
   font-size: 16px;
   font-weight: bold;
 }
 
-
-/* Отмена стилей при наведении */
-.edit-button:hover {
-  text-decoration: none;
-  background-color: white;
-  color: grey;
-  border: 0.1px dashed grey; /* Длинные пунктирные границы */
-}
-
-/* Отмена стилей при клике */
+/* Отмена стилей при наведении и клике */
+.edit-button:hover,
 .edit-button:active {
   text-decoration: none;
   background-color: white;
   color: grey;
-  border: 0.1px dashed grey; /* Длинные пунктирные границы */
 }
+
 
 
 /* Логотип в кнопке */
