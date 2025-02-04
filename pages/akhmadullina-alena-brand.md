@@ -1,45 +1,76 @@
 ---
-title: Alena Akhmadullina (brand)
+title: Akhmadullina, Alena (brand)
 permalink: alena-akhmadullina
 layout: crypto
-date: 2018-01-02
-update: 2025-01-23
+created: 2018-01-02
+update: 2025-02-04
 image: https://iy.kommersant.ru/Issues.photo/LifeStyle_News/2020/05/28/KLS_000001_10878_1_t241_123005.webp
 credits: Бренд Alena Akhmadullina представил капсулу 3D-одежды https://www.kommersant.ru/doc/4358157
 ---
 
-Alena Akhmadullina is a prominent Russian fashion brand founded in 2001 by designer Alena Akhmadullina in St. Petersburg. The brand quickly gained recognition for its unique blend of Russian fairy-tale inspirations and modern fashion sensibilities, aiming to bring a sense of magic to the everyday lives of women.
+**Alena Akhmadullina** is a prominent Russian fashion brand founded in **2001** by designer **Alena Akhmadullina** in **St. Petersburg**. The brand quickly gained recognition for its unique blend of **Russian fairy-tale** inspirations and modern fashion sensibilities, aiming to bring a sense of magic to the everyday lives of women.
 
 ## Brand Development and Milestones
 
-- **Runway Debut**: The brand made its debut at Russian Fashion Week in Moscow in 2001 and showcased its first collection at Paris Fashion Week in 2005, establishing a significant international presence[2].
-- **Retail Expansion**: The first concept store opened in Moscow's historical Nikolskaya Street in 2008, followed by several boutiques across Moscow, including locations in Vremena Goda Galleries and Crocus City Mall[2][3].
-- **Product Lines**: In 2017, the brand launched a second line called Akhmadullina Dreams, aimed at offering more affordable options while maintaining the brand's aesthetic of beauty and elegance[2].
+| **Year** | **Milestone**                                      |  
+|----------|----------------------------------------------------|  
+| **2001**     | Runway debut at **Russian Fashion Week** in **Moscow**. |  
+| **2005**     | Showcased first collection at **Paris Fashion Week**. |  
+| **2008**     | Opened first concept store in **Moscow** on **Nikolskaya Street**. |  
+| **2017**     | Launched second line, **Akhmadullina Dreams**, offering more affordable options. |  
 
 ## Notable Contributions
 
 Alena Akhmadullina has designed costumes for significant events, including:
-- The Opening Ceremony of the Vancouver Olympics (2010).
-- The uniform for Russia’s Olympic Team (2008).
-- Special collections for global brands such as Volvo and Absolut, as well as collaborations with local brands like Ekonika and Natura Siberica[2].
+- The **Opening Ceremony** of the **Vancouver Olympics** (**2010**).
+- The uniform for **Russia’s Olympic Team** (**2008**).
+- Special collections for global brands such as **Volvo** and **Absolut**, as well as collaborations with local brands like **Ekonika** and **Natura Siberica**[2].
 
 ## Design Philosophy
 
-Akhmadullina’s collections are characterized by sharp tailoring, vibrant colors, luxurious fabrics, and sophisticated textures. Her approach combines traditional craftsmanship with contemporary techniques, appealing to modern sensibilities while celebrating Russian heritage[3].
+Akhmadullina’s collections are characterized by sharp tailoring, vibrant colors, luxurious fabrics, and sophisticated textures. Her approach combines traditional craftsmanship with contemporary techniques, appealing to modern sensibilities while celebrating **Russian heritage**[3].
 
 ## Online Presence
 
-The brand maintains an official online store where customers can explore its latest collections, including clothing, accessories, and exclusive digital capsules[1]. Alena Akhmadullina also engages with her audience through social media platforms like Instagram, showcasing her designs and fashion shows[6].
+The brand maintains an official [online store](https://alenaakhmadullina.ru/en/) where customers can explore its latest collections, including clothing, accessories, and exclusive digital capsules[1]. **Alena Akhmadullina** also engages with her audience through social media platforms like **Instagram**, showcasing her designs and fashion shows[6].
 
-Overall, Alena Akhmadullina stands out as a jewel of Russian fashion, merging cultural narratives with innovative design to create a distinctive identity in the global fashion landscape.
+Overall, **Alena Akhmadullina** stands out as a jewel of **Russian fashion**, merging cultural narratives with innovative design to create a distinctive identity in the global fashion landscape.
 
-## Citations
+## ## Citations
 
-**[1] https://alenaakhmadullina.ru/en/
-[2] https://alenaakhmadullina.ru/en/brand/
-[3] https://dressone.store/designers/alena-akhmadullina/
-[4] https://www.vinted.co.uk/brand/967344-alena-akhmadullina
-[5] https://www.google.com/policies/faq
-[6] https://www.instagram.com/alenaakhmadullina/
-[7] https://frontrow.uk.com/designer/alena-akhmadullina/
-[8] https://www.vogue.com/fashion-shows/designer/alena-akhmadullina**
+**[1]** [Alena Akhmadullina Official Website](https://alenaakhmadullina.ru/en/)  
+**[2]** [Alena Akhmadullina Brand Page](https://alenaakhmadullina.ru/en/brand/)  
+**[3]** [Dressone Store - Alena Akhmadullina](https://dressone.store/designers/alena-akhmadullina/)  
+**[4]** [Vinted - Alena Akhmadullina](https://www.vinted.co.uk/brand/967344-alena-akhmadullina)  
+**[5]** [Google FAQ](https://www.google.com/policies/faq)  
+**[6]** [Alena Akhmadullina on Instagram](https://www.instagram.com/alenaakhmadullina/)  
+**[7]** [Frontrow UK - Alena Akhmadullina](https://frontrow.uk.com/designer/alena-akhmadullina/)  
+**[8]** [Vogue Fashion Shows - Alena Akhmadullina](https://www.vogue.com/fashion-shows/designer/alena-akhmadullina)
+
+## See also
+- [Alena Akhmadullina (designer)](alena-akhmadullina-designer)
+- [Russian Fashion Week](russian-fashion-week)
+- [Olympic Costumes](olympic-costumes)
+- [Fashion Designers from Russia](fashion-designers-from-russia)
+
+<!-- Prompt:  
+- Не менять язык статьи, сохранять оригинальный язык.  
+- Если тема оформлена как "Имя Фамилия", заголовок должен быть "Фамилия, Имя".  
+- Изменить title: A Template на основной топик в статье.  
+- Создать permalink: на основе title (без / пред и / после/)  
+- Замени date: на created:  
+- Замени update: хххх-хх-хх текущую дату в таком же формате  
+- Изменить заголовок раздела "Citations" на ## Citations.  
+- Оформить ссылки в разделе "Citations" в формате: **[x]** [URL](URL).  
+- При ссылке на источник в тексте, использовать формат: **[x]**, **[x]**.  
+- Убедиться, что номера цитат соответствуют записям в разделе "Citations".  
+- Не применять форматирование **...** в строке credits:
+- Сделать номера цитат кликабельными по указанному выше формату.  
+- Добавить список связанных тем в том же формате.  
+- Если есть списки с годами (при условии что они не содержат длинные предложения или ссылки) - конвертируй их в таблицы.  
+- Выделяй даты, места, географические названия, адреса, имена собственные **таким образом**.  
+- Использовать шаблон - "[Название темы](ссылка-на-тему)" для каждого пункта.  
+- Раздел ## See also должен включаться автоматически в конец статьи.  
+- Результат в md коде.  
+- Оставить этот Prompt после редактирования в конце кода.  
+-->
