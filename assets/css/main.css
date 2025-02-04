@@ -149,11 +149,12 @@ strong {
   align-items: center;
   padding: 10px 20px;
   background-color: white;
-  color: black;
+  color: grey;
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
   border: 0.1px dashed grey; /* Длинные пунктирные границы */
+  font-family: 'Roboto Mono';
   font-size: 16px;
   font-weight: bold;
 }
@@ -163,16 +164,16 @@ strong {
 .edit-button:hover {
   text-decoration: none;
   background-color: white;
-  color: black;
-  border: 1px solid black;
+  color: grey;
+  border: 0.1px dashed grey; /* Длинные пунктирные границы */
 }
 
 /* Отмена стилей при клике */
 .edit-button:active {
   text-decoration: none;
   background-color: white;
-  color: black;
-  border: 1px solid black;
+  color: grey;
+  border: 0.1px dashed grey; /* Длинные пунктирные границы */
 }
 
 
