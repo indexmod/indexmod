@@ -301,6 +301,11 @@ th, td {
   white-space: normal;
 }
 
+/* Запрещаем перенос годов и отдельных слов */
+td:first-child, td strong {
+  white-space: nowrap;
+}
+
 /* Адаптивность таблиц */
 @media (max-width: 768px) {
   table {

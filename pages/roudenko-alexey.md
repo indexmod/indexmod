@@ -27,16 +27,20 @@ In his works, Alexey combines modern technologies with the visionary ideas of Ka
 
 ### Selected Exhibitions
 
-| **Year** | **Event**                                                                                   | **Link**                                                                                              |
+### Selected Exhibitions
+
+| **Year** | **Event**                                                                                   | **Place**                                                                                              |
 |----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 2015     | Multimedia exhibition "Amber. The Second Rebirth. 50 Million Years Later." Moscow Museum     | [Link](https://www.arthew0.ru/blog/amber/)                                                             |
-| 2016     | Audiovisual installation as part of the exhibition "PROUN Continuum" PROUN Gallery, Moscow     | [Link](https://www.arthew0.ru/blog/proun-forms/)                                                       |
-| 2018     | Audiovisual installation as part of the exhibition "Exhibition of the New" PROUN Gallery, Moscow | [Link](https://www.arthew0.ru/blog/correlation/)                                                       |
-| 2018     | Audiovisual installation "Möbius" as part of the exhibition "Echo". PROUN Gallery, Moscow      | [Link](https://proun.am/echo/)                                                                         |
-| 2021     | Forms:Flow CV Color. As part of the "Elusive Matter" exhibition at the Intervals Festival, Nizhny Novgorod | [Link](https://www.arthew0.ru/blog/flow_cv_colors/) [Generative Gallery](https://generativegallery.com/ggxintervals/) |
-| 2021     | @Public Visuals exhibition, Tokyo, Japan                                                    | [Link](https://www.arthew0.ru/blog/artificalcreaturescollector/)                                       |
-| 2022     | Tomorrow NFT showcase, Ramat Gan Museum of Israeli Art                                      | [Link](https://generativegallery.com/tomorrow-nft/)                                                    |
-| 2023     | @Public Visuals exhibition, Tokyo, Japan                                                    | [Link](https://www.arthew0.ru/blog/artificalcreaturescontact/)                                         |
+| **2015** | Multimedia exhibition "Amber. The Second Rebirth. 50 Million Years Later."                  | **Moscow Museum**                                                                                      |
+| **2016** | Audiovisual installation as part of the exhibition "PROUN Continuum"                          | **PROUN Gallery**, **Moscow**                                                                           |
+| **2018** | Audiovisual installation as part of the exhibition "Exhibition of the New"                   | **PROUN Gallery**, **Moscow**                                                                           |
+| **2018** | Audiovisual installation "Möbius" as part of the exhibition "Echo"                           | **PROUN Gallery**, **Moscow**                                                                           |
+| **2021** | "Forms:Flow CV Color" as part of the "Elusive Matter" exhibition at the **Intervals Festival** | **Nizhny Novgorod**                                                                                   |
+| **2021** | **@Public Visuals** exhibition                                                               | **Tokyo, Japan**                                                                                       |
+| **2022** | **Tomorrow NFT** showcase                                                                    | **Ramat Gan Museum of Israeli Art**                                                                     |
+| **2023** | **@Public Visuals** exhibition                                                               | **Tokyo, Japan**                                                                                       |
+| **2024** | **Synthesis of Processes**                                                                   | **Generative Gallery**                                                                                 |
+
 
 
 ### Lectures
