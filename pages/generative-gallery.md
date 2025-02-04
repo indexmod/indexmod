@@ -24,7 +24,7 @@ Here's a summary of key events held by **Generative Gallery** from its inception
 | **2022** | Participation in the **.dreams exhibition** at the **Theatre of Digital Art** in **Dubai**, showcasing immersive digital artworks. |
 | **2022** | Major exhibition titled "**Megalopolis**," recognized as one of the largest public digital art exhibitions in **Moscow**. |
 | **2023** | Continued collaborations with over fifty artists and participation in notable art fairs like **Cosmoscow**. |
-| **2024** | Planned events and exhibitions that further explore the integration of digital art into physical spaces; details pending. |
+| **2024** | **Synthesis of Processes** |
 | **2025** | Ongoing discussions about acquiring a dedicated gallery space to enhance its presence in the art scene. |
 
 **Generative Gallery** continues to innovate within the digital art landscape, emphasizing partnerships and collaborations to enrich its offerings and engage audiences with cutting-edge media[1][4][5].
@@ -42,6 +42,20 @@ Here's a summary of key events held by **Generative Gallery** from its inception
 **[10]** [https://www.itsnicethat.com/articles/bleed-blank-architects-graphic-design-201017](https://www.itsnicethat.com/articles/bleed-blank-architects-graphic-design-201017)
 
 ## See also:
+
++ [Smirnova, Anna](smirnova-anna)
++ [Nefedkin, Ivan](nefedkin-ivan)
++ [Roudenko, Alexey](roudenko-alexey)
++ [Proun (movement)](proun-movement)
++ [Generative Sequencer](generative-sequencer)  
++ [Jamming Bot](jamming-bot)  
++ [Flow CV](flow-cv)  
++ [Visio](visio)  
++ [Sounding Form](sounding-form)  
++ [Color of the Day](color-of-the-day)  
++ [Generative GPS](generative-gps)  
++ [Color of the Day. Sculpture](color-of-the-day-sculpture)  
++ [Noise in Perception](noise-in-perception)
 - [Generative Art](https://generative.gallery)
 - [NFT Art](https://www.afisha.ru/exhibition/generative-gallery-186750/)
 - [Radugadesign](https://www.radugadesign.com)
