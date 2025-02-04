@@ -149,14 +149,14 @@ strong {
   align-items: center;
   padding: 10px 20px;
   background-color: white;
-  color: silver;
+  color: grey;
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
   border: 1px dashed silver; /* Длинные пунктирные границы */
-  font-family: 'Verdana';
+  font-family: 'Monaco';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* Отмена стилей при наведении и клике */
