@@ -8,7 +8,6 @@ image: /images/generative-gallery.jpg
 credits: Анна Смирнова, «Цифровое искусство в галерее. Опыт Generative Gallery»
 ---
 
-## Overview of Generative Gallery
 
 **Generative Gallery** is a prominent digital and media art gallery based in **Moscow**, founded in **2018** by **Ivan Nefedkin**, who is also the creative director of **Radugadesign**. The gallery aims to expand the visibility and potential of digital art through various formats, including exhibitions, online projects, and educational programs. Its inaugural exhibition took place at the **MARS Center** in **2018**, where it began forming a community of artists that continues to thrive today[1][4].
 
