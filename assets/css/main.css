@@ -149,12 +149,12 @@ strong {
   align-items: center;
   padding: 10px 20px;
   background-color: white;
-  color: grey;
+  color: silver;
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
-  border: 1px dashed grey; /* Длинные пунктирные границы */
-  font-family: 'Roboto Mono';
+  border: 1px dashed silver; /* Длинные пунктирные границы */
+  font-family: 'Verdana';
   font-size: 16px;
   font-weight: bold;
 }
@@ -164,7 +164,7 @@ strong {
 .edit-button:active {
   text-decoration: none;
   background-color: white;
-  color: grey;
+  color: silver;
 }
 
 
