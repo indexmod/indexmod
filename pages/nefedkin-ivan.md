@@ -29,7 +29,10 @@ Overall, **Ivan Nefedkin's** influence extends beyond his studio and gallery; he
 ## See also:
 
 - [Radugadesign](https://www.radugadesign.com)
-- [Generative Gallery](https://generative.gallery)
++ [Generative Gallery](generative-gallery)
++ [Smirnova, Anna](smirnova-anna)
++ [Roudenko, Alexey](roudenko-alexey)
++ [Proun (movement)](proun-movement)
 - [Russian Design School](https://design.hse.ru)
 - [Instagram](https://www.instagram.com)
 - [LinkedIn](https://www.linkedin.com)

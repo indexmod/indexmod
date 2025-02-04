@@ -80,6 +80,10 @@ In his works, Alexey combines modern technologies with the visionary ideas of Ka
 
 ### See also
 
++ [Generative Gallery](generative-gallery)
++ [Smirnova, Anna](smirnova-anna)
++ [Nefedkin, Ivan](nefedkin-ivan)
++ [Proun (movement)](proun-movement)
 - [Galina Leonova](galina-leonova)  
 - [Mikhail Maximov](mikhail-maximov)  
 - [Proun (disambiguation)](proun-disambiguation)  

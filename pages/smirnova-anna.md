@@ -25,7 +25,10 @@ In addition to her curatorial work, **Anna Smirnova** is also active on social m
 
 ## See also:
 
-- [Generative Gallery](https://generative.gallery)
++ [Generative Gallery](generative-gallery)
++ [Nefedkin, Ivan](nefedkin-ivan)
++ [Roudenko, Alexey](roudenko-alexey)
++ [Proun (movement)](proun-movement)
 - [Russian State University for Humanities](https://www.rguhu.ru)
 - [Instagram](https://www.instagram.com)
 - [ArtStation](https://www.artstation.com)
