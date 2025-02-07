@@ -2,7 +2,7 @@
 title: Arutyunov, Alexander (brand)
 permalink: alexander-arutyunov-brand
 layout: crypto
-date: created: 2018-01-02
+created: 2018-01-02
 update: 2025-02-04
 image: /images/alexander-arutyunov-brand.jpg
 credits: Uniform Prosecco Bar in Moscow by Alexander Arutyunov

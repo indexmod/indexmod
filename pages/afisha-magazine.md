@@ -2,7 +2,7 @@
 title: Afisha (magazine)
 permalink: afisha-magazine
 layout: crypto
-date: created: 2018-01-02
+created: 2018-01-02
 update: 2025-02-04
 image: /images/afisha-magazine.jpg
 credits: Cover 1999, **Москва**, **Афиша индастриз** [https://booksonsale.ru/book.php?i=77](https://booksonsale.ru/book.php?i=77)

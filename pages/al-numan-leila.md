@@ -2,7 +2,7 @@
 title: Al-Numan, Leila
 permalink: al-numan-leila
 layout: crypto
-date: created: 2018-01-02
+created: 2018-01-02
 update: 2025-02-04
 image: /images/al-numan-leila.jpg
 credits: Al-Numan, Leila

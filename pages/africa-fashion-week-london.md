@@ -5,7 +5,7 @@ layout: crypto
 created: 2018-01-02
 update: 2025-02-04
 image: https://bazeonlineradio.co.ke/storage/2023/11/1-fashion-Baze-Radio-756x504.jpg
-credits: Source:
+credits: Source
 ---
 
 Africa Fashion Week London (AFWL) is Europe's largest annual African fashion event, founded in **2011** by **Queen Ronke Ademiluyi-Ogunwusi**.

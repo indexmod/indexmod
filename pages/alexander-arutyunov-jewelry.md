@@ -2,7 +2,7 @@
 title: Arutyunov, Alexander (Jewelry)
 permalink: alexander-arutyunov-jewelry
 layout: crypto
-date: created: 2018-01-02
+created: 2018-01-02
 update: 2025-02-04
 image: /images/alexander-arutyunov-jewelry.jpg
 credits: AAJ
