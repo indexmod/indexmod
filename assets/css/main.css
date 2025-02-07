@@ -154,7 +154,7 @@ strong {
   text-decoration: none;
   border-radius: 25px;
   border: 1px dashed black; /* Длинные пунктирные границы */
-  font-family: 'Monaco';
+  font-family: 'Old Standard TT';
   font-size: 16px;
   font-weight: normal;
 }
