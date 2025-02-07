@@ -152,10 +152,10 @@ strong {
   color: black;
   text-align: center;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
   border: 1px solid black; /* Длинные пунктирные границы */
   font-family: 'Old Standard TT';
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 900;
 }
 
