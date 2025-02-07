@@ -148,15 +148,15 @@ strong {
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
-  background-color: silver;
+  background-color: white;
   color: black;
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
-  border: 1px black; /* Длинные пунктирные границы */
+  border: 1px solid black; /* Длинные пунктирные границы */
   font-family: 'Old Standard TT';
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /* Отмена стилей при наведении и клике */
@@ -164,24 +164,20 @@ strong {
 .edit-button:active {
   text-decoration: none;
   background-color: white;
-  color: silver;
+  color: black;
 }
-
 
 
 /* Логотип в кнопке */
 .button-logo {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 17px;
+  height: 17px;
+  margin-right: 20px;
   outline: none;
   border: none;
   position: relative;
   top: 0px; /* Поднимаем на 1px */
 }
-
-
-
 
 
 /* Годы в футере */
