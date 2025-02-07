@@ -177,7 +177,7 @@ strong {
   outline: none;
   border: none;
   position: relative;
-  top: -2px; /* Поднимаем на 1px */
+  top: 0px; /* Поднимаем на 1px */
 }
 
 
