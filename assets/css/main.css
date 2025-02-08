@@ -307,14 +307,14 @@ img {
 table {
   table-layout: auto;
   border-collapse: collapse;
-  width: 70%;
+  width: 99%;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  margin: 1.5rem 0; /* Добавляет отступы сверху и снизу таблицы */
+  margin: 3rem 0; /* Добавляет отступы сверху и снизу таблицы */
 }
 
 th, td {
-  border: 1px solid #000;
+  border: 1px solid black;
   padding: 0.5rem;
   text-align: left;
   word-break: break-word;
@@ -323,18 +323,6 @@ th, td {
 }
 
 /* Запрещаем перенос годов и отдельных слов */
-td:first-child, td strong {
+td:first-child, td:second-child, td strong {
   white-space: nowrap;
-}
-
-/* Адаптивность таблиц */
-@media (max-width: 768px) {
-  table {
-    width: 95%;
-  }
-
-  th, td {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
 }
