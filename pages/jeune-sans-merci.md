@@ -25,6 +25,8 @@ credits: Основательница бренда Sans Merci — об инте�
 
 ## See also
 
+- [Popova, Ksenia](popova-ksenia)  
+- [Panchenko, Alexander](panchenko-alexander)  
 - [Sans Merci](http://sansmerciatelier.ru)  
 - [John Keats](https://en.wikipedia.org/wiki/John_Keats)  
 - [La Belle Dame sans Merci](https://en.wikipedia.org/wiki/La_Belle_Dame_sans_Merci:_A_Ballad)  

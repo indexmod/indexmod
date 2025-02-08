@@ -30,8 +30,8 @@ credits: Основательница бренда Sans Merci — об инте�
 ## See also
 
 - [Sans Merci](http://sansmerciatelier.ru)  
-- [Popova, Ksenia – Founder of Sans Merci](popova-ksenia-founder-of-sans-merci)  
-- [Jeune Sans Merci](jeune-sans-merci-affordable-line)  
+- [Popova, Ksenia](popova-ksenia)  
+- [Jeune Sans Merci](jeune-sans-merci)  
 
 <!-- Prompt:  
 - Не менять язык статьи, сохранять оригинальный язык.  
