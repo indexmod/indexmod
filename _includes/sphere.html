@@ -40,7 +40,7 @@
         scene.add(ambientLight);
 
         new RGBELoader().load(
-            "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/equirectangular/quarry_01_1k.hdr",
+          "https://cdn.polyhaven.org/hdri/indoor/indoor_01_4k.hdr",
             function (texture) {
                 texture.mapping = THREE.EquirectangularReflectionMapping;
                 scene.environment = texture;
