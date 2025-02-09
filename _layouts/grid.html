@@ -7,7 +7,7 @@
   <style>
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(4, 1fr);
       gap: 20px;
       justify-content: center;
     }
@@ -17,9 +17,17 @@
       align-items: center;
       text-align: center;
     }
-    .grid-item img {
-      width: 100px;
+    .grid-item canvas {
+      width: 100%;
+      max-width: 250px;
       height: auto;
+      aspect-ratio: 1 / 1;
+    }
+    .grid-item a {
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0073e6;
+      font-weight: bold;
     }
     @media (max-width: 600px) {
       .grid-container {
@@ -27,16 +35,101 @@
       }
     }
   </style>
+  <script type="importmap">
+      {
+          "imports": {
+              "three": "https://unpkg.com/three@0.172.0/build/three.module.js",
+              "three/addons/": "https://unpkg.com/three@0.172.0/examples/jsm/"
+          }
+      }
+  </script>
 </head>
 <body>
-  {% include logo.html %}
-  <h1>Indexmod Fashion & Art Сhainpædia Grid</h1>
+  <h3>Indexmod Radndome 24 Grid</h3>
   <div class="grid-container">
-    {% for page in site.pages | sort: "title" %}
+    {% assign random_pages = site.pages | sample: 24 %}
+    {% for page in random_pages %}
       {% unless page.exclude %}
         <div class="grid-item">
-          <img src="{{ page.image }}" alt="{{ page.title }}">
-          {% include token.html %}
+          <canvas id="c{{ page.permalink | slugify }}"></canvas>
+          <script type="module">
+            import * as THREE from "three";
+            import { TextureLoader } from "three";
+            import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
+
+            let scene, camera, renderer, mesh;
+
+            function init() {
+                const canvas = document.getElementById("c{{ page.permalink | slugify }}");
+                const size = Math.min(canvas.parentElement.clientWidth, 250);
+
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
+                camera.position.set(0, 0, 10);
+
+                renderer = new THREE.WebGLRenderer({
+                    canvas: canvas,
+                    antialias: true,
+                    alpha: true
+                });
+                renderer.setSize(size, size);
+                renderer.setPixelRatio(window.devicePixelRatio || 1);
+
+                const light = new THREE.DirectionalLight(0xffffff, 1);
+                light.position.set(5, 5, 5);
+                scene.add(light);
+
+                const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+                scene.add(ambientLight);
+
+                new TextureLoader().load(
+                    "{{ page.image }}",
+                    function (texture) {
+                        texture.mapping = THREE.EquirectangularReflectionMapping;
+                        scene.environment = texture;
+                        createObject();
+                        animate();
+                    }
+                );
+            }
+
+            function createObject() {
+                const material = new THREE.MeshStandardMaterial({
+                    roughness: 0,
+                    metalness: 1,
+                    envMapIntensity: 1.5
+                });
+
+                const M = [];
+                let p = new THREE.BoxGeometry(1, 1, 1, 1, 1, 1);
+                M.push(p);
+
+                let m = p.clone();
+                m.rotateY(Math.PI / 4);
+                m.rotateX(Math.PI / 4);
+                M.push(m);
+
+                m = p.clone();
+                m.rotateZ(Math.PI / 4);
+                m.rotateX(Math.PI / 4);
+                M.push(m);
+
+                const geometry = mergeGeometries(M, false);
+                mesh = new THREE.Mesh(geometry, material);
+                scene.add(mesh);
+            }
+
+            function animate() {
+                requestAnimationFrame(animate);
+                if (mesh) {
+                    mesh.rotation.y += 0.01;
+                }
+                renderer.render(scene, camera);
+            }
+
+            init();
+          </script>
+          <a href="{{ site.url }}{{ page.permalink }}">{{ page.title }}</a>
         </div>
       {% endunless %}
     {% endfor %}
