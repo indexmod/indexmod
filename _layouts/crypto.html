@@ -9,10 +9,10 @@
 <body>
   <main class="content-container">
     {% include sphere.html %}
-    {% include edit-button.html %}
+
 
     <header class="page-header">
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }} {% include edit-button.html %}</h1>
     </header>
 
     <section class="main-content">
