@@ -5,6 +5,7 @@ layout: crypto
 date: 2018-01-02
 update: 2025-01-23
 image: https://mir-s3-cdn-cf.behance.net/projects/404/64427478639119.Y3JvcCw2NzEsNTI1LDM5MiwxMzE.jpg
+best100: true
 ---
 
 Iluxa Kisselman is an accomplished **Art Director** and **freelance artist** based in Moscow, Russia. He has a background in architecture, having studied at the Moscow Architectural Institute and specialized in various artistic disciplines. His educational journey includes attending the Special Art School No. 1 and the Special Architectural School No. 50, where he honed his skills in design and visual arts under notable instructors.

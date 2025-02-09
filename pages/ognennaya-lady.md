@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: /images/ognennaya-lady.jpg
 credits:
+best100: true
 ---
 
 Today brand is transformed by owner to [Oleg Ognenny](ognenny-oleg)

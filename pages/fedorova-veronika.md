@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://kak2z.ru/my_img/img/2019/10/29/a5b95.jpg
 credits: Fedorova, Veronika kak2z.ru
+best100: true
 ---
 
 Veronika Fedorova is the daughter of Maria (Masha) Fedorova, a prominent Russian journalist and former editor-in-chief of *Vogue Russia* and *Glamour Russia*. Veronika has gained attention in recent years for her transformation and modeling career. She impressed followers with significant weight loss, which was highlighted on social media platforms like Instagram[3][5].

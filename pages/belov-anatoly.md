@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: /images/belov-anatoly.jpg
 credits:
+best100: true
 ---
 
 Anatoly Belov, born in 1977 in Kyiv, is a multifaceted Ukrainian artist known for his work as a musician, singer, visual artist, and performer[2][4]. He is a prominent figure in Ukraine's queer art scene and the frontman of the queer band Lyudska Podoba, which he formed in 2012[1][2].

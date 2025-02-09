@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-24
 image: https://live.staticflickr.com/65535/49053781557_d9e77fdac1_b.jpg
 credits:
+best100: true
 ---
 
 Anton Polsky, also known by his artistic pseudonym "Make," is a Russian artist, activist, and urban researcher born in 1982 in Moscow[3][8]. He is recognized for his work in street art, urban activism, and participatory practices aimed at involving citizens in city development processes[1][4].
