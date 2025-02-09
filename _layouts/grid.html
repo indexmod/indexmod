@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include meta-cover.html %}
+  {% include favicon.html %}
+  {% include yandex.html %}
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      justify-content: center;
+    }
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .grid-item img {
+      width: 100px;
+      height: auto;
+    }
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include logo.html %}
+  <h1>Indexmod Fashion & Art Сhainpædia Grid</h1>
+  <div class="grid-container">
+    {% for page in site.pages | sort: "title" %}
+      {% unless page.exclude %}
+        <div class="grid-item">
+          <img src="{{ page.image }}" alt="{{ page.title }}">
+          {% include token.html %}
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</body>
+</html>
