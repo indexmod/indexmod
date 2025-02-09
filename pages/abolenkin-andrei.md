@@ -1,7 +1,7 @@
 ---
 title: Abolenkin, Andrei
 permalink: abolenkin-andrei
-layout: crypto
+layout: crymod
 date: 2018-01-02
 update: 2025-01-23
 image: /images/abolenkin-andrei.jpg
