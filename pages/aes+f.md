@@ -1,7 +1,7 @@
 ---
-title: AES + F
+title: AES+F
 permalink: aes+f
-layout: crypto
+layout: crymod
 created: 2018-01-02
 update: 2025-02-04
 image: /images/aes+f.jpg

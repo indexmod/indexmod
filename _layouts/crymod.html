@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: en-US }}">
+<head>
+  {% include meta.html %}
+  {% include crypto.html %}
+  {% include favicon.html %}
+  {% include yandex.html %}
+</head>
+<body>
+  <main class="content-container">
+    {% include sphere.html %}
+
+    <header class="page-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <section class="main-content">
+      {{ content }}
+    </section>
+
+    <section class="image-section">
+      <img src="{{ page.image }}" alt="{{ page.image }}">
+    </section>
+
+    <section class="credits-info">
+      <p><strong>{{ page.credits }} {{ page.image }}</strong></p>
+    </section>
+  </main>
+
+  <hr class="footer-line">
+
+  <footer class="page-footer">
+    {% include footer.html %}
+  </footer>
+
+  <section class="token-info">
+    <p><span class="badge">{% include token.html %}</span> This is token name for the following topic «{{ page.title }}»</p>
+  </section>
+</body>
+</html>

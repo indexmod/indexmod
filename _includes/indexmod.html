@@ -1,0 +1,80 @@
+<canvas id="c" width="50" height="50" style="
+    display: inline-block;  /* Отображать в строке текста */
+    background: transparent; /* Прозрачный фон */
+    vertical-align: middle;  /* Выравнивание по центру строки */
+    border: none;            /* Убираем рамку */
+"></canvas>
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.172.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.172.0/examples/jsm/"
+        }
+    }
+</script>
+
+<script type="module">
+    import * as THREE from "three";
+    import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+    import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
+
+    let scene, camera, renderer, controls;
+
+    function init() {
+        scene = new THREE.Scene();
+
+        camera = new THREE.PerspectiveCamera(35, 1, 0.1, 50);
+        camera.position.set(0, 0, 6);
+
+        renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("c"), antialias: true, alpha: true });
+        renderer.setSize(50, 50);  // Размер канваса, 50x50px
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+        controls = new OrbitControls(camera, renderer.domElement);
+        controls.autoRotate = true;
+        controls.enableDamping = true;
+
+        const light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(5, 5, 5);
+        scene.add(light);
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(ambientLight);
+
+        new RGBELoader().load(
+            "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/equirectangular/quarry_01_1k.hdr",
+            function (texture) {
+                texture.mapping = THREE.EquirectangularReflectionMapping;
+                scene.environment = texture;
+
+                createObject();  // Создаем только один объект
+                animate();
+            }
+        );
+    }
+
+    function createObject() {
+        const material = new THREE.MeshStandardMaterial({
+            roughness: 0.3,
+            metalness: 1,
+            color: 0xaaaaaa
+        });
+
+        const geometry = new THREE.TetrahedronGeometry(1, 0);  // Используем только тетраэдр
+        const mesh = new THREE.Mesh(geometry, material);
+        scene.add(mesh);
+    }
+
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        renderer.render(scene, camera);
+    }
+
+    window.addEventListener("resize", () => {
+        renderer.setSize(50, 50); // Принудительно пересчитываем размер канваса
+    });
+
+    init();
+</script>

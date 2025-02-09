@@ -1,0 +1,94 @@
+<canvas id="c" width="300" height="300" style="
+    display: block;
+    background: transparent;
+    vertical-align: bottom;
+    border: none;
+"></canvas>
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.172.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.172.0/examples/jsm/",
+            "three/addons/utils/BufferGeometryUtils.js": "https://unpkg.com/three@0.172.0/examples/jsm/utils/BufferGeometryUtils.js"
+        }
+    }
+</script>
+
+<script type="module">
+    import * as THREE from "three";
+    import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
+    import * as BufferGeometryUtils from "three/addons/utils/BufferGeometryUtils.js";
+
+    let scene, camera, renderer, mesh;
+
+    function init() {
+        scene = new THREE.Scene();
+
+        camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
+        camera.position.set(0, 0, 3);
+
+        renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("c"), antialias: true, alpha: true });
+        renderer.setSize(300, 300);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+        const light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(3, 5, 5);
+        scene.add(light);
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(ambientLight);
+
+        new RGBELoader().load(
+            "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/equirectangular/quarry_01_1k.hdr",
+            function (texture) {
+                texture.mapping = THREE.EquirectangularReflectionMapping;
+                scene.environment = texture;
+
+                createObject();
+                animate();
+            }
+        );
+    }
+
+    function createObject() {
+        const material = new THREE.MeshStandardMaterial({
+            roughness: 0.2,
+            metalness: 0.9,
+            color: 0xaaaaaa,
+            side: THREE.DoubleSide
+        });
+
+        // --- Начало вставки Cylinder 1 ---
+        const geometry = new THREE.CylinderGeometry(0, 0.8, 1.2, 20, 1, true);
+        geometry.translate(0, geometry.parameters.height / 2, 0);
+
+        const geometry2 = new THREE.CylinderGeometry(0.8, 0, 1.2, 20, 1, true);
+        geometry2.translate(0, -geometry2.parameters.height / 2, 0);
+
+        const mergedGeometry = BufferGeometryUtils.mergeGeometries([geometry, geometry2]);
+
+        mesh = new THREE.Mesh(mergedGeometry, material);
+        scene.add(mesh);
+
+        mesh.position.x = -0.5;
+        mesh.rotation.y = Math.PI / 6;
+        // --- Конец вставки Cylinder 1 ---
+    }
+
+    function animate() {
+        requestAnimationFrame(animate);
+
+        if (mesh) {
+            mesh.rotation.y += 0.02;
+        }
+
+        renderer.render(scene, camera);
+    }
+
+    window.addEventListener("resize", () => {
+        renderer.setSize(300, 300);
+    });
+
+    init();
+</script>
