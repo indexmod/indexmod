@@ -5,7 +5,8 @@ layout: crypto
 created: 2018-02-10
 update: 2025-02-10
 image: /images/artyomov-andrey.jpg
-credits: [Business of Fashion](https://www.businessoffashion.com/people/andrey-artyomov/)
+top100: true
+credits: Business of Fashion https://www.businessoffashion.com/people/andrey-artyomov/)
 ---
 
 **Andrey Artyomov** is a prominent **Russian** fashion designer and stylist, best known as the founder and creative director of the brand **Walk of Shame (WOS)**. His work is characterized by a playful and youthful aesthetic, which he captures through the brand's tongue-in-cheek name, reflecting a sense of humor and modernity in fashion **[3]**, **[8]**.
