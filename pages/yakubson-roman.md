@@ -17,8 +17,6 @@ The artist's educational background includes a **Master of Fine Arts (MFA)** fro
 
 Some of Yakubson's notable works include a series of **fake Vogue Italia covers**, which have been shared and appreciated on platforms like **Pinterest** **[5]**. His art is also featured in **private collections**, as evidenced by his presence on **Collecteurs**, a platform for socially conscious art collections **[3]**, **[6]**.  
 
-While specific details about his artistic style or major exhibitions are not provided in the search results, Yakubson's diverse range of artistic mediums suggests a versatile and multifaceted approach to his craft.  
-
 ## Citations  
 
 **[1]** [https://www.behance.net/RomanYakubson](https://www.behance.net/RomanYakubson)  
