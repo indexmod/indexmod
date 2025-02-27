@@ -4,7 +4,7 @@ permalink: yakubson-roman
 layout: crypto
 created: 2025-02-27
 update: 2025-02-27
-image: /images/permalink.jpg
+image: /images/yakubson-roman.jpg
 credits: slicing_thewind flickr.com
 top100: true
 ---
