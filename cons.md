@@ -33,3 +33,10 @@ layout: page
 ## Реф
 
 https://exactitudes.com/
+
+
+## Автор и контакты
+
++ Андрей Дей (Indexmod Fashion & Art Сhainpædia)
++ indexmod@me.com
++ +79859657040
