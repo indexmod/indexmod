@@ -2,6 +2,7 @@
 title: FaceWall by Indexmod Fashion & Art Сhainpædia
 permalink: outline-concept
 layout: page
+exclude: true
 ---
 
 ![FaceWall](/facewall.png)

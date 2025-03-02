@@ -2,6 +2,8 @@
 title: Технический райдер для инсталляции «FaceWall»
 permalink: outline-rider
 layout: page
+exclude: true
+
 ---
 
 ![FaceWall](/facewall.png)
