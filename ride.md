@@ -77,3 +77,6 @@ exclude: true
 + Андрей Дей (Indexmod Fashion & Art Сhainpædia)
 + indexmod@me.com
 + +79859657040
+
+
+[Концепт](outline-concept)

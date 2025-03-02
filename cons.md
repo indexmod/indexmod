@@ -42,3 +42,6 @@ exclude: true
 + [Андрей Дей](https://indexmod.xyz/deinichenko-andrei) Indexmod Fashion & Art Сhainpædia
 + indexmod@me.com
 + +79859657040
+
+
+[Техрайдер](outline-rider)
