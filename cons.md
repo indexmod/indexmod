@@ -1,5 +1,5 @@
 ---
-title: Мультимедийная инсталляция «FaceWall by Indexmod Fashion & Art Сhainpædia»
+title: FaceWall by Indexmod Fashion & Art Сhainpædia
 permalink: outline-concept
 layout: page
 ---
