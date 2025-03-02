@@ -29,12 +29,12 @@ layout: page
 
 ## Реф
 
-[Exactitudes](https://exactitudes.com/)
++ [Exactitudes](https://exactitudes.com/)
 
 ## Примеры работ
 
-[Screen](https://indexmod.xyz/screen)  
-[Grid](https://indexmod.xyz/grid)  
++ [Screen](https://indexmod.xyz/screen)  
++ [Grid](https://indexmod.xyz/grid)  
 
 ## Автор и контакты
 
