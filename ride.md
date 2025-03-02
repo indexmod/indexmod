@@ -1,5 +1,5 @@
 ---
-title: Технический райдер для инсталляции «FaceWall»
+title: FaceWall (техрайдер)
 permalink: outline-rider
 layout: page
 exclude: true
