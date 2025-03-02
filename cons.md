@@ -29,15 +29,15 @@ layout: page
 
 ## Реф
 
-https://exactitudes.com/
+[Exactitudes](https://exactitudes.com/)
 
 ## Примеры работ
 
-https://indexmod.xyz/screen
-https://indexmod.xyz/grid
+[Screen](https://indexmod.xyz/screen)  
+[Grid](https://indexmod.xyz/grid)  
 
 ## Автор и контакты
 
-+ [Андрей Дей (Indexmod Fashion & Art Сhainpædia](https://indexmod.xyz/deinichenko-andrei)
++ [Андрей Дей](https://indexmod.xyz/deinichenko-andrei) Indexmod Fashion & Art Сhainpædia
 + indexmod@me.com
 + +79859657040
