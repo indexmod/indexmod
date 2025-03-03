@@ -4,8 +4,8 @@ permalink: zhang-chi
 layout: crypto
 created: 2025-03-03
 update: 2025-03-03
-image: /images/permalink.jpg
-credits:
+image: https://www.thatsmags.com/uploads/galleries/images/Chi%20Zhang.jpg
+credits: www.thatsmags.com
 top100: true
 ---
 
