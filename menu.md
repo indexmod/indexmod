@@ -58,7 +58,7 @@ exclude: true
 
 <div class="button-container">
     <a href="https://www3.nhk.or.jp/nhkworld/en/shows/2032309/?cid=wohk-fb-org_vod_dig_466_dps-202502-001&fbclid=IwY2xjawIMbGpleHRuA2FlbQIxMAABHar-FnnqHdxTQcAsr00_Qqt-ex-Y-HynDXqFxROQAR1F1pAkm_5vdCMh6A_aem_NCTfat0nd5XCZRKgEU0yVw" class="button blue" id="btn1">NHK</a>
-    <a href="https://pillowpile-studio-mails.tilda.ws/mail-nr-one" class="button green" id="btn2">2</a>
+    <a href="https://pillowpile-studio-mails.tilda.ws/mail-nr-one" class="button green" id="btn2">Mail</a>
     <a href="https://www.wikipedia.org" class="button red" id="btn3">3</a>
     <a href="https://www.github.com" class="button yellow" id="btn4">4</a>
     <a href="https://www.stackoverflow.com" class="button purple" id="btn5">5</a>
