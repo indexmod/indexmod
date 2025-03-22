@@ -1,6 +1,6 @@
 ---
-title: Chak, Nadezda
-permalink: chak-nadezda
+title: Chak, Nadezhda
+permalink: chak-nadezhda
 layout: crypto
 created: 2025-03-23
 update: 2025-03-23
@@ -9,7 +9,7 @@ credits: АрхРевю
 top100: true
 ---
 
-**Nadezda Chak** is a prominent interior designer and decorator based in **Russia**. She is the founder of **Intro by Chak**, an interior design studio that has gained recognition for its innovative and stylish projects **[3][6]**. Chak's work has received international acclaim, as evidenced by her inclusion in the **TOP100 AD International Property Awards** in **2017** and her status as a finalist in the **SBID (Society of British and International Design) awards** in **2018** **[3]**.
+**Nadezhda Chak** (Rus. Надежда, Надя Чак) is a prominent interior designer and decorator based in **Russia**. She is the founder of **Intro by Chak**, an interior design studio that has gained recognition for its innovative and stylish projects **[3][6]**. Chak's work has received international acclaim, as evidenced by her inclusion in the **TOP100 AD International Property Awards** in **2017** and her status as a finalist in the **SBID (Society of British and International Design) awards** in **2018** **[3]**.
 
 Chak's design philosophy and portfolio can be explored through her Instagram account **[@intro_by_chak](https://www.instagram.com/intro_by_chak/)**, where she showcases her interior design and decor projects **[3]**. Her work has garnered a significant following, with clients and design enthusiasts able to view her creations on various social media platforms, including **Pinterest** **[4]**.
 
