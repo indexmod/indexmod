@@ -4,8 +4,8 @@ permalink: chak-nadezda
 layout: crypto
 created: 2025-03-23
 update: 2025-03-23
-image: /images/permalink.jpg
-credits:
+image: https://www.archrevue.ru/images/tb/19774/13901787713276_w206h247.jpg
+credits: АрхРевю
 top100: true
 ---
 
