@@ -25,7 +25,7 @@ exclude: true
     .button {
         width: 200px;
         height: 100px;
-        font-size: 100px;
+        font-size: 70px;
         font-family: Arial, sans-serif;
         display: flex;
         justify-content: center;
@@ -35,9 +35,9 @@ exclude: true
         background-color: black;
         text-decoration: none;
         color: black;
-        cursor: none;
+        cursor: pointer;
         outline: none;
-        pointer-events: none;
+        pointer-events: auto;
     }
     .active {
         color: white;
@@ -50,7 +50,7 @@ exclude: true
 <div class="button-container">
     <a href="https://www3.nhk.or.jp/nhkworld/en/shows/2032309/?cid=wohk-fb-org_vod_dig_466_dps-202502-001&fbclid=IwY2xjawIMbGpleHRuA2FlbQIxMAABHar-FnnqHdxTQcAsr00_Qqt-ex-Y-HynDXqFxROQAR1F1pAkm_5vdCMh6A_aem_NCTfat0nd5XCZRKgEU0yVw" class="button red" id="btn1">NHK</a>
     <a href="https://pillowpile-studio-mails.tilda.ws/mail-nr-one" class="button yellow" id="btn2">Pi-pa</a>
-    <a href="liminal.indexmod.xyz" class="button green" id="btn3">Lim</a>
+    <a href="https://liminal.indexmod.xyz" class="button green" id="btn3">Lim</a>
     <div class="button"></div>
     <div class="button"></div>
     <div class="button"></div>
