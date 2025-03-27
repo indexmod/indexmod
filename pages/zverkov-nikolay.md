@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: /images/zverkov-nikolay.jpg
 credits:
+top100: true
 ---
 
 Nikolay Zverkov is a prominent Russian photographer, born on August 7, 1983, making him 41 years old as of 2025[1]. Despite having two degrees in law and economics, Zverkov chose to pursue a creative career in photography[1]. He has been working as a photographer for over a decade, specializing in reportage and fashion photography[1].

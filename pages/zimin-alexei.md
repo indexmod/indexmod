@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-21
 image: https://images.lbc.co.uk/images/687422?crop=16_9&width=660&relax=1&format=webp&signature=xbCMnOB5B7WcpfudY4tjydeAErc%3D
 credits: Alexei Alexandrovich Zimin lbc.co.uk
+top100: true
 ---
 
 Alexei Alexandrovich Zimin was a prominent Russian writer, chef, journalist, and restaurateur who became known for his critical stance against the Russian government. Born on 13 December 1971 in Dubna near Moscow, he made significant contributions to Russia's culinary and media landscape[1].

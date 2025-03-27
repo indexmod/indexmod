@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://i.scdn.co/image/ab6761610000517403a4a0cb8ffbe3256b6240a1
 credits: Aleksandr Zaloopin i.scdn.co
+top100: true
 ---
 
 Aleksandr Zaloopin is a Russian singer known for being the first openly gay chanson artist in Russia[1]. His musical career is characterized by unique storytelling through songs that typically describe life experiences from a first-person perspective[1].

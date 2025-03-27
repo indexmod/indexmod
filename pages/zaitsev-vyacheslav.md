@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://static.themoscowtimes.com/image/article_1360/73/TASS_32216133.jpg
 credits: Vyacheslav Mikhailovich Zaitsev themoscowtimes.com
+top100: true
 ---
 
 Vyacheslav Mikhailovich Zaitsev was a renowned Russian fashion designer, painter, graphic artist, and theatrical costume designer who became a legendary figure in Soviet and Russian fashion[1][2].
