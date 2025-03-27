@@ -5,7 +5,7 @@ layout: crypto
 created: 2025-03-27
 update: 2025-03-27
 image: /images/erdman-leila.jpg
-credits: Erdman, Leila, flickr.com 
+credits: Erdman, Leila, flickr.com
 top100: true
 ---
 
@@ -13,24 +13,19 @@ top100: true
 
 ## Career Highlights
 
-### Selected Exhibitions
-
-| Year  | Exhibition / Event | Location |
-|-------|--------------------|----------|
+| Year | Exhibition / Event | Location |
+|------|------------------|----------|
 | **2024** | *The Phair Photo Art Fair*, *Portraits*, *That’s Contemporary! A call for VIDEO ARTS* | **Turin, Cremona** |
-| **2023** | *Death. Redeath. Rebirth* (curated by Gili Zaidman) | **Indie Gallery, Tel Aviv** |
-| **2023** | *Connection lost* (curated by Adi Yekutieli) | **Artists’ House, Tel Aviv** |
-| **2023** | *Oblivion* | **Art-residence Kakdelart, Old Yaffo** |
-| **2023** | *Mother, show me a world without war* | **Talis Gallery, Jerusalem** |
-| **2023** | *Misunderstandings* (solo show) | **Foco Gallery, Lisbon** |
-| **2022** | *World and Peace. Fragility* (solo show, supported by Ria Keburia Foundation and Tbilisi City Hall) | **Deda Ena Park, Tbilisi** |
-| **2021** | *Temporary Infinity / The Choice* (solo show, supported by Fotografia Gallery) | **Magnolia Photo Laboratory, Fabrika, Tbilisi** |
-| **2020** | **Art-director of the pop-up creative platform** *The Future Hub* (in collaboration with Stroganov Academy of Visual Arts) | **Moscow International Book Fair, Manege Exhibition Hall, Moscow** |
-| **2020** | *Sashen’ka I loved you! I was mistaken* | **Moscow International Book Fair, Manege Exhibition Hall, Moscow** |
-| **2020** | *Closeness on the Distance* | **BAZA Studio + Box Kite, New York** |
-| **2019** | *Understatement* (solo show, curated by Vladimir Fridkes (AES+F), music by Vladimir Volkov) | **Richter, Moscow** |
-| **2017** | **Participation in** *Tbilisi Photo Festival* (with Ria Keburia Foundation) | **Tbilisi** |
-| **2016** | *All About You-th* Project | **New York, Moscow, Tbilisi** |
+| **2023** | *Death. Redeath. Rebirth* | **Tel Aviv** |
+| **2023** | *Mother, show me a world without war* | **Jerusalem** |
+| **2023** | Solo exhibition *Misunderstandings* | **Lisbon** |
+| **2022** | Solo exhibition *World and Peace. Fragility* | **Tbilisi** |
+| **2019** | *Understatement* | **Moscow** |
+| **2017** | Participation in *Tbilisi Photo Festival* | **Tbilisi** |
+
+### Creative Projects
+- Erdman was the **art director** of a pop-up platform, **The Future Hub**, collaborating with **Stroganov Academy of Visual Arts** during the **Moscow International Book Fair** in **2020**.
+- She runs an ongoing initiative **All About You-th**, spanning multiple cities, including **New York, Moscow,** and **Tbilisi** **[1]**, **[6]**, **[7]**.
 
 ## Artistic Themes
 Her projects often delve into **personal** and **collective narratives**, exploring how art can bridge emotional and social divides.
