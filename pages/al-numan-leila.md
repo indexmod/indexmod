@@ -6,6 +6,7 @@ created: 2018-01-02
 update: 2025-02-04
 image: /images/al-numan-leila.jpg
 credits: Al-Numan, Leila
+top100: true
 ---
 
 Leila Al-Numan is a prominent artist known for her work in the field of monumental and decorative art. She graduated from the **Moscow State Academic Art Institute** named after **S.G. Stroganov** in **1993**, specializing in monumental-decorative and applied arts. Currently, she serves as the chief artist at the **Alexandria Studio**, where she continues to contribute to the art community through various projects and exhibitions**[1]**, **[4]**, **[7]**.

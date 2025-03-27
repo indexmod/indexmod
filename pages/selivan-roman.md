@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://media.licdn.com/dms/image/v2/C4E03AQGOPESjXkLNAg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625993281965?e=2147483647&v=beta&t=D8OZkQeD5J0UjSOW7vvQd7gPm890C4qlUlZky18sNiY
 credits:
+top100: true
 ---
 
 Roman Selivan is a multi-talented professional with several notable roles and achievements:

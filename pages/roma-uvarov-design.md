@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://static.sobaka.ru/images/image/01/03/73/18/_normal.jpg?v=1539857724
 credits: Roma Uvarov Design sobaka.ru
+top100: true
 ---
 
 Roma Uvarov Design is a unique Russian fashion brand known for its distinctive and creative approach to clothing design. **Key Characteristics**:

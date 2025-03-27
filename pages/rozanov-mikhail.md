@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: /images/rozanov-mikhail.jpg
 credits:
+top100: true
 ---
 
 Mikhail Villievich Rozanov is a Russian photographer and actor born on July 15, 1973, in Moscow[2]. He is known for his distinctive black and white photography, creating images through expeditions to various countries[2].

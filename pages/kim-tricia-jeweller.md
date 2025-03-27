@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 credits:
 image: https://triciakim.co/wp-content/uploads/2023/10/essence1-1-768x1037.jpg
+top100: true
 ---
 
 Tricia Kim is a Korean-American jewelry designer and entrepreneur who founded Nagicia Jewelry in Bali, Indonesia in 2001[2][3][4]. She is a long-term Bali resident who has established herself as a notable figure in sustainable and heritage-focused luxury jewelry design[5][7].

@@ -6,6 +6,7 @@ created: 2018-01-02
 update: 2025-02-04
 image: https://storage.yandexcloud.net/moskvichmag/uploads/2019/11/akhmad2.jpg
 credits: Люди Анастасия Барышева 11.12.2019 Это мой город дизайнер Алена Ахмадуллина https://moskvichmag.ru/lyudi/eto-moj-gorod-dizajner-alena-ahmadullina/
+top100: true
 ---
 
 **Alena Akhmadullina** is a prominent **Russian** fashion designer known for her eponymous brand, which she founded in **2001** in **St. Petersburg**. Her designs are celebrated for their unique blends of **Russian folklore** and modern aesthetics, making her a key figure in the **Russian fashion** industry.

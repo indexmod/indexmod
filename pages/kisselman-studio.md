@@ -9,6 +9,7 @@ image: https://copybrothers.ru/wp-content/uploads/kisselman-1.jpg
 ---
 
 ## Kisselman Art and Projects
+
 - **Instagram Presence**: Kisselman Studio is represented on Instagram under the handle @kisselmanart, showcasing a variety of art projects and works. The account has 1,748 followers and features 280 posts related to the artist's work and initiatives, including a project aimed at children called @kiselstudiokids[1].
 
 ## Educational Focus

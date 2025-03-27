@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://static01.nyt.com/images/2015/01/28/t-magazine/28sergeenko-mosci/28sergeenko-mosci-tmagSF-v2.jpg
 credits:
+top100: true
 ---
 
 Ulyana Sergeenko is a prominent **Kazakhstani and Russian fashion designer** born on August 30, 1979, in Ust-Kamenogorsk, Kazakhstan (then part of the USSR)[2]. She comes from a family of linguists and initially studied philology at St. Petersburg State University[2].

@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-30
 image: https://assets.vogue.com/photos/5a5d303e9244ee6f8a9d7fc2/master/w_2560%2Cc_limit/00-story-image-gosha-fw-18-hair.jpg
 credits: Gosha Rubchinskiy vogue.com
+top100: true
 ---
 
 Gosha Rubchinskiy is a Russian fashion brand founded in 2008 by designer Georgiy Aleksandrovich Rubchinskiy. The brand quickly became notable for its unique approach to fashion, drawing inspiration from Russian youth culture, street style, and the post-Soviet era[1][2][3].
@@ -67,7 +68,7 @@ The success of Rubchinsky and Demna Gvasalia of Vetements brought huge attention
 - Если тема оформлена как "Имя Фамилия", заголовок должен быть "Фамилия, Имя".  
 - Изменить title: A Template на основной топик в статье.  
 - Создать permalink: на основе title.  
-- Обнови дату в переменной update: 2025-хх-хх на текущую дату 
+- Обнови дату в переменной update: 2025-хх-хх на текущую дату
 - Изменить заголовок раздела "Citations" на ## Citations.  
 - Оформить ссылки в разделе "Citations" в формате: **[1]** [URL](URL).  
 - При ссылке на источник в тексте, использовать формат: **[x]**, **[x]**.  

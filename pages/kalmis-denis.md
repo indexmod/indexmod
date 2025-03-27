@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: /images/kalmis-denis.jpg
 credits:
+top100: true
 ---
 
 Denis Kalmis is a talented young chef known for his innovative approach to cooking. He has garnered attention for his inspiring culinary creations, showcasing a unique style that combines creativity and technical skill[2].

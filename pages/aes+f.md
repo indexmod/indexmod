@@ -6,6 +6,7 @@ created: 2018-01-02
 update: 2025-02-04
 image: /images/aes+f.jpg
 credits: Tatiana Arzamasova, Lev Evzovich, Evgeny Svyatsky, Vladimir Fridkes
+top100: true
 ---
 
 **AES+F** is a collective of four **Russian** artists: **Tatiana Arzamasova** (born **1955**), **Lev Evzovich** (born **1958**), **Evgeny Svyatsky** (born **1957**), and **Vladimir Fridkes** (born **1956**) **[1]**, **[2]**. The group was initially formed as **AES Group** in **1987** by **Arzamasova**, **Evzovich**, and **Svyatsky**, with **Fridkes** joining in **1995** to complete the current formation **[2]**.

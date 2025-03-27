@@ -6,7 +6,6 @@ created: 2018-01-02
 update: 2025-02-03
 image: https://russpass.ru/restaurant/_next/image?url=https%3A%2F%2Fcms.russpass.ru%2Fv1%2Ffile%2F676d21e9a3817ae611833345%2F2448&w=2048&q=75
 credits: russpass.ru Рамен Изакая Бар Смоленская
-
 ---
 
 ### **Определение**  

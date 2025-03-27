@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: /images/mamedova-tatiana.jpg
 credits:
+top100: true
 ---
 
 ![(Additional images correspondent to the article)]({{ site.url }}/images/{{ page.permalink }}-1.jpg)

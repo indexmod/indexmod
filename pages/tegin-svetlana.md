@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://ashadedviewonfashion.com/wp-content/uploads/2018/06/Aglaya-Tarasova-with-Svetlana-Tegin.png
 credits:
+top100: true
 ---
 
 Svetlana Tegin is a prominent fashion designer and the founder of the Tegin Fashion House, known for her premium women's clothing collections that blend romantic aesthetics with inspirations from cinema, theater, and fairy tales. She has established a notable reputation in the fashion industry, particularly in Moscow, where her designs are sought after by many celebrities and actresses who wear them at high-profile events.

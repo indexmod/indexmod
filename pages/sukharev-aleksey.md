@@ -6,7 +6,6 @@ created: 2025-03-02
 update: 2025-03-02
 image: /images/permalink.jpg
 credits:
-top100: true
 face: /face/permalink.jpg
 type: face
 ---

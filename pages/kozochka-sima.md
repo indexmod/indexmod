@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 credits:
 image: https://static.life.ru/publications/2021/3/20/3150476742.4300523.jpg
+top100: true
 ---
 
 Sima Kozochka, whose real name is Seraфима Соловьева, is a notable figure in the fashion and social media landscape. Born in Moscow, she has gained recognition for her unique appearance and has become a prominent model and influencer.

@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: /images/lomakin-artur-designer.jpg
 credits:
+top100: true
 ---
 
 Artur Lomakin is a Russian fashion designer and photographer known for founding the fashion brand **Forget Me Not** in 2010[1][2][8]. He is recognized for introducing a **minimalist aesthetic** to Moscow's underground fashion scene[8].

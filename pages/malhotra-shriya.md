@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://www.resite.org/files/shriya-malhotra.jpg
 credits:
+top100: true
 ---
 
 Shriya Malhotra is an independent researcher, artist, and writer with a focus on urban studies and creative activism. Originally from New Delhi, she has worked extensively with the art collective Partizaning in Moscow, exploring innovative approaches to urban engagement and public space[2][4][7].

@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://theblueprint.ru/upload/23982/social_image@2x.jpg
 credits:
+top100: true
 ---
 
 Anzor Kankulov is a prominent Russian fashion journalist, educator, and academic leader in the fashion industry. He currently serves as the Head of the Fashion Department and leads the HSE Fashion Lab at the Higher School of Economics (HSE) Design School[2][3][4].

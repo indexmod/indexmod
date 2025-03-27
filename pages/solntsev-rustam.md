@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://teleprogramma.org/sites/default/files/text-images/2023-01/glavnaya_1672852038_1672853708.png
 credits:
+top100: true
 ---
 
 Rustam Solntsev, born Rustam Kalganov on December 29, 1976, in Slavyansk-on-Kuban, Russia, is a controversial figure best known for his multiple appearances on the reality TV show "Dom-2"[1][2].

@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-23
 image: https://static.wixstatic.com/media/915b53_3cb88fdcbe99470db15c52c26b37a174~mv2.jpg/v1/fill/w_594,h_557,al_c,lg_1,q_80,enc_auto/915b53_3cb88fdcbe99470db15c52c26b37a174~mv2.jpg
 credits:
+top100: true
 ---
 
 Protey Temen is a contemporary mixed media artist born on March 26, 1984, in Moscow, Russia. He is known for his innovative approach that combines various artistic forms, including drawings, video art, installations, and books, to explore the intersections of science and abstract visual data. His work often reflects a deep engagement with the poetry of everyday life processes, aiming to bridge the gap between scientific concepts and artistic expression.

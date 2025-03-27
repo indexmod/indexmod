@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://sun9-65.userapi.com/s/v1/ig2/G61TfWZvD-7UK_0eq_uQ4yrTF8yqsR6_hhW_xvRmnbCSklx4i7JvZB1hY8GHLOcv31J-IT7V2gshG4PaS3V28Gfw.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=QwndOJGS0qM3-hoGG5o5UwOxMAYPc4CP6AQL-4AYaCk&cs=605x807
 credits: Customized hoodie by Kirill Akulinichev
+top100: true
 ---
 
 Born in 1972, Rostov-on-Don. Lives and works in Saint Petersburg. Interdisciplinary artist and curator. His parents are architects. He studied architecture at the AA Institute (Rostov-on-Don) and costume design at the Moscow State University of Design and Technology (Moscow). Akulinitchev works in various art forms, including painting, ceramics, video art, and performance, creating objects, assemblages, and installations. He is the founder of the video art group INSIDE.

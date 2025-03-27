@@ -6,6 +6,7 @@ update: 2025-01-18
 layout: crypto
 image: https://r.fashionunited.com/XUGaxb-MJhLQ8JKIrnsUA_28vwZabcXRLoJgireN5N8/resize:fit:1200:630:0/gravity:ce/quality:70/aHR0cHM6Ly9zdGF0aWMuZmFzaGlvbnVuaXRlZC5jb20vMjAyMDAxL1RleG5vc2VyZ2V5LTEuanBn.jpeg
 credits:
+top100: true
 ---
 
 TexnoSergey, also known as Серёжа, is a multifaceted online personality active across various social media platforms. He has a notable presence on Instagram, where he shares content related to advertising and futurism, amassing over 54,000 followers. His Instagram handle is [@texnosergey](https://www.instagram.com/texnosergey/) and features a mix of personal posts and promotional material related to his work in advertising[1].

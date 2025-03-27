@@ -6,6 +6,7 @@ date: 2018-01-02
 update: 2025-01-22
 image: https://inhabitat.com/wp-content/blogs.dir/1/files/2012/11/kristi-malakoff-maibaum.jpeg
 credits:
+top100: true
 ---
 
 Kristi Malakoff is a **Canadian visual artist** known for her intricate and transformative art installations. Born and educated in Canada, she graduated with a BFA from the Emily Carr Institute in Vancouver in 2005, where she received numerous awards, including the Governor General's silver medal[2].
