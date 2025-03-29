@@ -4,8 +4,8 @@ permalink: samokhvalov-pavel
 layout: crypto
 created: 2025-03-29
 update: 2025-03-29
-image: /images/permalink.jpg
-credits:
+image: /images/samokhvalov-pavel.jpg
+credits: Lookatme 
 top100: true
 ---
 
