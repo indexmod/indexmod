@@ -54,85 +54,92 @@
           <canvas id="c-{{ page.permalink | slugify }}"></canvas>
           <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         </div>
-        <script type="module">
-            import * as THREE from "three";
-            import { TextureLoader } from "three";
-            import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
-
-            function init() {
-                const canvas = document.getElementById("c-{{ page.permalink | slugify }}");
-                if (!canvas) return;
-
-                const size = Math.min(canvas.parentElement.clientWidth, 250);
-
-                const scene = new THREE.Scene();
-                const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
-                camera.position.set(0, 0, 10);
-
-                const renderer = new THREE.WebGLRenderer({
-                    canvas: canvas,
-                    antialias: true,
-                    alpha: true
-                });
-                renderer.setSize(size, size);
-                renderer.setPixelRatio(window.devicePixelRatio || 1);
-
-                const light = new THREE.DirectionalLight(0xffffff, 1);
-                light.position.set(5, 5, 5);
-                scene.add(light);
-
-                const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-                scene.add(ambientLight);
-
-                new TextureLoader().load(
-                    "{{ page.image }}",
-                    function (texture) {
-                        texture.mapping = THREE.EquirectangularReflectionMapping;
-                        scene.environment = texture;
-                        createObject(scene);
-                        animate(scene, renderer, camera);
-                    }
-                );
-            }
-
-            function createObject(scene) {
-                const material = new THREE.MeshStandardMaterial({
-                    roughness: 0,
-                    metalness: 1,
-                    envMapIntensity: 1.5
-                });
-
-                const M = [];
-                let p = new THREE.BoxGeometry(1, 1, 1);
-                M.push(p);
-
-                let m = p.clone();
-                m.rotateY(Math.PI / 4);
-                m.rotateX(Math.PI / 4);
-                M.push(m);
-
-                m = p.clone();
-                m.rotateZ(Math.PI / 4);
-                m.rotateX(Math.PI / 4);
-                M.push(m);
-
-                const geometry = mergeGeometries(M, false);
-                const mesh = new THREE.Mesh(geometry, material);
-                scene.add(mesh);
-            }
-
-            function animate(scene, renderer, camera) {
-                function render() {
-                    requestAnimationFrame(render);
-                    renderer.render(scene, camera);
-                }
-                render();
-            }
-
-            init();
-        </script>
       {% endunless %}
     {% endfor %}
   </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { TextureLoader } from "three";
+    import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
+
+    const scenes = [];
+    const renderers = [];
+    const meshes = [];
+
+    function init(canvasId, imageUrl) {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas) return;
+
+        const size = Math.min(canvas.parentElement.clientWidth, 250);
+
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
+        camera.position.set(0, 0, 10);
+
+        const renderer = new THREE.WebGLRenderer({
+            canvas: canvas,
+            antialias: true,
+            alpha: true
+        });
+        renderer.setSize(size, size);
+        renderer.setPixelRatio(window.devicePixelRatio || 1);
+
+        const light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(5, 5, 5);
+        scene.add(light);
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(ambientLight);
+
+        new TextureLoader().load(imageUrl, function (texture) {
+            const material = new THREE.MeshStandardMaterial({
+                roughness: 0,
+                metalness: 1,
+                envMapIntensity: 1.5,
+                map: texture
+            });
+
+            const M = [];
+            let p = new THREE.BoxGeometry(1, 1, 1);
+            M.push(p);
+
+            let m = p.clone();
+            m.rotateY(Math.PI / 4);
+            m.rotateX(Math.PI / 4);
+            M.push(m);
+
+            m = p.clone();
+            m.rotateZ(Math.PI / 4);
+            m.rotateX(Math.PI / 4);
+            M.push(m);
+
+            const geometry = mergeGeometries(M, false);
+            const mesh = new THREE.Mesh(geometry, material);
+            scene.add(mesh);
+
+            scenes.push({ scene, camera });
+            renderers.push(renderer);
+            meshes.push(mesh);
+        });
+    }
+
+    function animate() {
+        requestAnimationFrame(animate);
+        for (let i = 0; i < meshes.length; i++) {
+            meshes[i].rotation.y += 0.01;
+            renderers[i].render(scenes[i].scene, scenes[i].camera);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        {% for page in filtered_pages %}
+        {% unless page.exclude %}
+            init("c-{{ page.permalink | slugify }}", "{{ page.image }}");
+        {% endunless %}
+        {% endfor %}
+        animate();
+    });
+  </script>
 </body>
 </html>
