@@ -53,12 +53,11 @@
 
     {% for page in filtered_pages %}
       {% unless page.exclude %}
-        <!-- Вывод контента страницы -->
-        <a href="{{ page.url }}">{{ page.title }}</a>
-      {% endunless %}
-    {% endfor %}
         <div class="grid-item">
           <canvas id="c{{ page.permalink | slugify }}"></canvas>
+        </div>
+      {% endunless %}
+    {% endfor %}
           <script type="module">
             import * as THREE from "three";
             import { TextureLoader } from "three";
