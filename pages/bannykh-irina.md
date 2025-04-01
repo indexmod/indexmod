@@ -6,7 +6,7 @@ created: 2025-03-02
 update: 2025-03-02
 image: /images/bannykh-irina.jpg
 credits:
-top100: true
+top100: false
 face: /face/bannykh-irina.jpg
 type: face
 ---
