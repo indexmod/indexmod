@@ -51,19 +51,20 @@
     {% for page in filtered_pages %}
       {% unless page.exclude %}
         <div class="grid-item">
+          <canvas id="c-{{ page.permalink | slugify }}"></canvas>
           <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         </div>
-      {% endunless %}
-    {% endfor %}
-          <script type="module">
+        <script type="module">
             import * as THREE from "three";
-            import { TextureLoader } from "three";
+            import { TextureLoader, BufferGeometry } from "three";
             import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 
             let scene, camera, renderer, mesh;
 
             function init() {
-                const canvas = document.getElementById("c{{ page.permalink | slugify }}");
+                const canvas = document.getElementById("c-{{ page.permalink | slugify }}");
+                if (!canvas) return;
+
                 const size = Math.min(canvas.parentElement.clientWidth, 250);
 
                 scene = new THREE.Scene();
@@ -85,15 +86,17 @@
                 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
                 scene.add(ambientLight);
 
-                new TextureLoader().load(
-                    "{{ page.image }}",
-                    function (texture) {
+                if ("{{ page.image }}") {
+                    new TextureLoader().load("{{ page.image }}", function (texture) {
                         texture.mapping = THREE.EquirectangularReflectionMapping;
                         scene.environment = texture;
                         createObject();
                         animate();
-                    }
-                );
+                    });
+                } else {
+                    createObject();
+                    animate();
+                }
             }
 
             function createObject() {
@@ -105,17 +108,17 @@
 
                 const M = [];
                 let p = new THREE.BoxGeometry(1, 1, 1, 1, 1, 1);
-                M.push(p);
+                M.push(new BufferGeometry().fromGeometry(p));
 
                 let m = p.clone();
                 m.rotateY(Math.PI / 4);
                 m.rotateX(Math.PI / 4);
-                M.push(m);
+                M.push(new BufferGeometry().fromGeometry(m));
 
                 m = p.clone();
                 m.rotateZ(Math.PI / 4);
                 m.rotateX(Math.PI / 4);
-                M.push(m);
+                M.push(new BufferGeometry().fromGeometry(m));
 
                 const geometry = mergeGeometries(M, false);
                 mesh = new THREE.Mesh(geometry, material);
@@ -131,9 +134,7 @@
             }
 
             init();
-          </script>
-          <a href="{{ site.url }}/{{ page.permalink }}">{{ page.title }}</a>
-        </div>
+        </script>
       {% endunless %}
     {% endfor %}
   </div>
