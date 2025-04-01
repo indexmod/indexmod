@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indexmod Best 100 Grid</title>
-
+  {% include meta-cover.html %}
+  {% include favicon.html %}
+  {% include yandex.html %}
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      justify-content: center;
+    }
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .grid-item canvas {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+    .grid-item a {
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0073e6;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
   <script type="importmap">
       {
           "imports": {
@@ -13,139 +43,65 @@
           }
       }
   </script>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 20px;
-      background-color: #f0f0f0;
-    }
-
-    h3 {
-      margin-bottom: 20px;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .grid-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      background: white;
-      padding: 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .grid-item canvas {
-      width: 100%;
-      max-width: 250px;
-      height: auto;
-      aspect-ratio: 1 / 1;
-    }
-
-    .grid-item a {
-      margin-top: 10px;
-      text-decoration: none;
-      color: #0073e6;
-      font-weight: bold;
-    }
-
-    @media (max-width: 600px) {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
 </head>
 <body>
-
   <h3>Indexmod Best 100 Grid</h3>
   <div class="grid-container">
-    {% assign filtered_pages = site.pages | where: "top100", true %}
+    {% assign filtered_pages = site.pages | where: "top100", true | sample: 100 %}
     {% for page in filtered_pages %}
       {% unless page.exclude %}
         <div class="grid-item">
-          <canvas id="c-{{ page.permalink | slugify }}"></canvas>
-          <p>{{ page.title }}</p>
-          <a href="{{ page.url | relative_url }}">Подробнее</a>
-        </div>
-      {% endunless %}
-    {% endfor %}
-  </div>
+          <canvas id="c{{ page.permalink | slugify }}"></canvas>
+          <script type="module">
+            import * as THREE from "three";
+            import { TextureLoader } from "three";
+            import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 
-  <script type="module">
-    import * as THREE from "three";
-    import { TextureLoader } from "three";
-    import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
+            let scene, camera, renderer, mesh;
 
-    const scenes = [];
-    const renderers = [];
-    const meshes = [];
+            function init() {
+                const canvas = document.getElementById("c{{ page.permalink | slugify }}");
+                const size = Math.min(canvas.parentElement.clientWidth, 250);
 
-    function loadEnvironmentTexture(textureUrl, callback) {
-        new TextureLoader().load(
-            textureUrl,
-            function (texture) {
-                texture.mapping = THREE.EquirectangularReflectionMapping;
-                texture.colorSpace = THREE.SRGBColorSpace;
-                callback(texture);
-            },
-            undefined,
-            function (error) {
-                console.error("Ошибка загрузки окружения", error);
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
+                camera.position.set(0, 0, 10);
+
+                renderer = new THREE.WebGLRenderer({
+                    canvas: canvas,
+                    antialias: true,
+                    alpha: true
+                });
+                renderer.setSize(size, size);
+                renderer.setPixelRatio(window.devicePixelRatio || 1);
+
+                const light = new THREE.DirectionalLight(0xffffff, 1);
+                light.position.set(5, 5, 5);
+                scene.add(light);
+
+                const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+                scene.add(ambientLight);
+
+                new TextureLoader().load(
+                    "{{ page.image }}",
+                    function (texture) {
+                        texture.mapping = THREE.EquirectangularReflectionMapping;
+                        scene.environment = texture;
+                        createObject();
+                        animate();
+                    }
+                );
             }
-        );
-    }
 
-    function init(canvasId, imageUrl) {
-        const canvas = document.getElementById(canvasId);
-        if (!canvas) return;
-
-        const size = Math.min(canvas.parentElement.clientWidth, 250);
-
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
-        camera.position.set(0, 0, 10);
-
-        const renderer = new THREE.WebGLRenderer({
-            canvas: canvas,
-            antialias: true,
-            alpha: true
-        });
-        renderer.setSize(size, size);
-        renderer.setPixelRatio(window.devicePixelRatio || 1);
-
-        const light = new THREE.DirectionalLight(0xffffff, 1);
-        light.position.set(5, 5, 5);
-        scene.add(light);
-
-        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-        scene.add(ambientLight);
-
-        loadEnvironmentTexture(imageUrl, (envTexture) => {
-            scene.environment = envTexture;
-            scene.background = envTexture;
-
-            new TextureLoader().load(imageUrl, function (texture) {
+            function createObject() {
                 const material = new THREE.MeshStandardMaterial({
                     roughness: 0,
                     metalness: 1,
-                    envMapIntensity: 2,
-                    envMap: envTexture,
-                    map: texture
+                    envMapIntensity: 1.5
                 });
 
                 const M = [];
-                let p = new THREE.BoxGeometry(3, 3, 3);
+                let p = new THREE.BoxGeometry(1, 1, 1, 1, 1, 1);
                 M.push(p);
 
                 let m = p.clone();
@@ -159,31 +115,24 @@
                 M.push(m);
 
                 const geometry = mergeGeometries(M, false);
-                const mesh = new THREE.Mesh(geometry, material);
+                mesh = new THREE.Mesh(geometry, material);
                 scene.add(mesh);
+            }
 
-                meshes.push(mesh);
-                scenes.push({ scene, camera, renderer });
-            });
-        });
-    }
+            function animate() {
+                requestAnimationFrame(animate);
+                if (mesh) {
+                    mesh.rotation.y += 0.01;
+                }
+                renderer.render(scene, camera);
+            }
 
-    function animate() {
-        requestAnimationFrame(animate);
-        for (let i = 0; i < meshes.length; i++) {
-            meshes[i].rotation.y += 0.01;
-            scenes[i].renderer.render(scenes[i].scene, scenes[i].camera);
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", function () {
-        {% for page in filtered_pages %}
-        {% unless page.exclude %}
-            init("c-{{ page.permalink | slugify }}", "/images/{{ page.image }}");
-        {% endunless %}
-        {% endfor %}
-        animate();
-    });
-  </script>
+            init();
+          </script>
+          <a href="{{ site.url }}/{{ page.permalink }}">{{ page.title }}</a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
 </body>
 </html>
