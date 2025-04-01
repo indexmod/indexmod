@@ -60,7 +60,7 @@
 
   <script type="module">
     import * as THREE from "three";
-    import { TextureLoader } from "three";
+    import { TextureLoader, CubeTextureLoader } from "three";
     import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 
     const scenes = [];
@@ -70,11 +70,16 @@
 
     function loadEnvironmentTexture(callback) {
         new TextureLoader().load(
-            "/images/envmap.jpg", // Укажите путь к текстуре окружения
+            "/images/envmap.jpg", // Путь к HDR- или JPG-карте окружения
             function (texture) {
                 texture.mapping = THREE.EquirectangularReflectionMapping;
+                texture.colorSpace = THREE.SRGBColorSpace;
                 environmentMap = texture;
                 callback();
+            },
+            undefined,
+            function (error) {
+                console.error("Ошибка загрузки окружения", error);
             }
         );
     }
@@ -111,7 +116,7 @@
             const material = new THREE.MeshStandardMaterial({
                 roughness: 0,
                 metalness: 1,
-                envMapIntensity: 1.5,
+                envMapIntensity: 2,
                 envMap: environmentMap,
                 map: texture
             });
