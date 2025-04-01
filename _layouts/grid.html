@@ -52,11 +52,11 @@
     {% assign filtered_pages = best_pages | concat: top_pages | uniq %}
 
     {% for page in filtered_pages %}
-      {% unless page.exclude %}
+      {% if page.best100 == true or page.top100 == true %}
         <div class="grid-item">
           <canvas id="c{{ page.permalink | slugify }}"></canvas>
         </div>
-      {% endunless %}
+      {% endif %}
     {% endfor %}
           <script type="module">
             import * as THREE from "three";
