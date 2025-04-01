@@ -66,6 +66,18 @@
     const scenes = [];
     const renderers = [];
     const meshes = [];
+    let environmentMap = null;
+
+    function loadEnvironmentTexture(callback) {
+        new TextureLoader().load(
+            "/images/envmap.jpg", // Укажите путь к текстуре окружения
+            function (texture) {
+                texture.mapping = THREE.EquirectangularReflectionMapping;
+                environmentMap = texture;
+                callback();
+            }
+        );
+    }
 
     function init(canvasId, imageUrl) {
         const canvas = document.getElementById(canvasId);
@@ -92,16 +104,20 @@
         const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
         scene.add(ambientLight);
 
+        scene.environment = environmentMap;
+        scene.background = environmentMap;
+
         new TextureLoader().load(imageUrl, function (texture) {
             const material = new THREE.MeshStandardMaterial({
                 roughness: 0,
                 metalness: 1,
                 envMapIntensity: 1.5,
+                envMap: environmentMap,
                 map: texture
             });
 
             const M = [];
-            let p = new THREE.BoxGeometry(1, 1, 1);
+            let p = new THREE.BoxGeometry(3, 3, 3, 1, 1, 1);
             M.push(p);
 
             let m = p.clone();
@@ -117,6 +133,7 @@
             const geometry = mergeGeometries(M, false);
             const mesh = new THREE.Mesh(geometry, material);
             scene.add(mesh);
+            mesh.position.set(-0.1, -0.1, 0);
 
             scenes.push({ scene, camera });
             renderers.push(renderer);
@@ -132,13 +149,15 @@
         }
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
-        {% for page in filtered_pages %}
-        {% unless page.exclude %}
-            init("c-{{ page.permalink | slugify }}", "{{ page.image }}");
-        {% endunless %}
-        {% endfor %}
-        animate();
+    loadEnvironmentTexture(() => {
+        document.addEventListener("DOMContentLoaded", function () {
+            {% for page in filtered_pages %}
+            {% unless page.exclude %}
+                init("c-{{ page.permalink | slugify }}", "{{ page.image }}");
+            {% endunless %}
+            {% endfor %}
+            animate();
+        });
     });
   </script>
 </body>
