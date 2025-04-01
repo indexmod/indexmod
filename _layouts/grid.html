@@ -56,10 +56,8 @@
         </div>
         <script type="module">
             import * as THREE from "three";
-            import { TextureLoader, BufferGeometry } from "three";
+            import { TextureLoader } from "three";
             import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
-
-            let scene, camera, renderer, mesh;
 
             function init() {
                 const canvas = document.getElementById("c-{{ page.permalink | slugify }}");
@@ -67,11 +65,11 @@
 
                 const size = Math.min(canvas.parentElement.clientWidth, 250);
 
-                scene = new THREE.Scene();
-                camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 20);
                 camera.position.set(0, 0, 10);
 
-                renderer = new THREE.WebGLRenderer({
+                const renderer = new THREE.WebGLRenderer({
                     canvas: canvas,
                     antialias: true,
                     alpha: true
@@ -86,20 +84,18 @@
                 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
                 scene.add(ambientLight);
 
-                if ("{{ page.image }}") {
-                    new TextureLoader().load("{{ page.image }}", function (texture) {
+                new TextureLoader().load(
+                    "{{ page.image }}",
+                    function (texture) {
                         texture.mapping = THREE.EquirectangularReflectionMapping;
                         scene.environment = texture;
-                        createObject();
-                        animate();
-                    });
-                } else {
-                    createObject();
-                    animate();
-                }
+                        createObject(scene);
+                        animate(scene, renderer, camera);
+                    }
+                );
             }
 
-            function createObject() {
+            function createObject(scene) {
                 const material = new THREE.MeshStandardMaterial({
                     roughness: 0,
                     metalness: 1,
@@ -107,30 +103,30 @@
                 });
 
                 const M = [];
-                let p = new THREE.BoxGeometry(1, 1, 1, 1, 1, 1);
-                M.push(new BufferGeometry().fromGeometry(p));
+                let p = new THREE.BoxGeometry(1, 1, 1);
+                M.push(p);
 
                 let m = p.clone();
                 m.rotateY(Math.PI / 4);
                 m.rotateX(Math.PI / 4);
-                M.push(new BufferGeometry().fromGeometry(m));
+                M.push(m);
 
                 m = p.clone();
                 m.rotateZ(Math.PI / 4);
                 m.rotateX(Math.PI / 4);
-                M.push(new BufferGeometry().fromGeometry(m));
+                M.push(m);
 
                 const geometry = mergeGeometries(M, false);
-                mesh = new THREE.Mesh(geometry, material);
+                const mesh = new THREE.Mesh(geometry, material);
                 scene.add(mesh);
             }
 
-            function animate() {
-                requestAnimationFrame(animate);
-                if (mesh) {
-                    mesh.rotation.y += 0.01;
+            function animate(scene, renderer, camera) {
+                function render() {
+                    requestAnimationFrame(render);
+                    renderer.render(scene, camera);
                 }
-                renderer.render(scene, camera);
+                render();
             }
 
             init();
