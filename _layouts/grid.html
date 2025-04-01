@@ -54,7 +54,7 @@
     {% for page in filtered_pages %}
       {% if page.best100 == true or page.top100 == true %}
         <div class="grid-item">
-          <canvas id="c{{ page.permalink | slugify }}"></canvas>
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         </div>
       {% endif %}
     {% endfor %}
