@@ -47,16 +47,12 @@
 <body>
   <h3>Indexmod Best 100 Grid</h3>
   <div class="grid-container">
-    {% assign best_pages = site.pages | where: "best100", true %}
-    {% assign top_pages = site.pages | where: "top100", true %}
-    {% assign filtered_pages = best_pages | concat: top_pages | uniq %}
+    {% assign filtered_pages = site.pages | where: "top100", true %}
 
     {% for page in filtered_pages %}
-      {% if page.best100 == true or page.top100 == true %}
-        <div class="grid-item">
-          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-        </div>
-      {% endif %}
+      <div class="grid-item">
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      </div>
     {% endfor %}
           <script type="module">
             import * as THREE from "three";

@@ -6,7 +6,7 @@ date: 2010-01-10
 update: 2025-02-11  
 image: https://st.peopletalk.ru/wp-content/uploads/2016/08/Dusya-Maksimova-i-Vladimir-Bordok.jpg  
 credits: peopletalk.ru  
-best100: true  
+top100: true
 ---
 
 Ukr. **Volodymyr Bordok** (also **Vova Bordo**, born **1982, Dniepro**) is a **Russian and Ukrainian** artist, journalist, founder of the brand **"13. 15."** and the creative association **"Super duet,"** former Chief Editor of **Vconfession** online edition, ex-art director of **Air Store** in **Moscow**. He also works as a **DJ, accessories designer, author of fashion concepts, shop window decorator, promoter, and collector**.  
