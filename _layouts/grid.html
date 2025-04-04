@@ -51,7 +51,7 @@
     {% for page in filtered_pages %}
       {% unless page.exclude %}
         <div class="grid-item">
-          <canvas id="c{{ page.permalink | slugify }}"></canvas>
+          <canvas id="{{ page.permalink | slugify }}"></canvas>
           <script type="module">
             import * as THREE from "three";
             import { TextureLoader } from "three";
@@ -60,7 +60,7 @@
             let scene, camera, renderer, mesh;
 
             function init() {
-                const canvas = document.getElementById("c{{ page.permalink | slugify }}");
+                const canvas = document.getElementById("{{ page.permalink | slugify }}");
                 const size = Math.min(canvas.parentElement.clientWidth, 250);
 
                 scene = new THREE.Scene();
