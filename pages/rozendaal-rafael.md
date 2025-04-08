@@ -4,7 +4,7 @@ permalink: rozendaal-rafael
 layout: crypto
 date: 2018-01-02
 update: 2025-01-22
-image: https://cms.newnow-festival.com/media/pages/kuenstler-innen/rafael-rozendaal/dda4b75c4b-1684246879/230419-300dpi-rafael-rozendaal-museum-folkwang-0907-2-1200x.jpg
+image: https://www.newrafael.com/wp-content/uploads/2024/12/2024-rafael-rozendaal-by-naeem-douglas-01.jpg
 credits: Rafaël Rozendaal newnow-festival.com
 top100: true
 ---
