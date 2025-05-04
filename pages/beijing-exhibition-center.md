@@ -30,14 +30,14 @@ In summary, the **Beijing Exhibition Hall** is a historic and multifunctional ex
 
 ## Citations
 
-**[1]** [https://en.wikipedia.org/wiki/Beijing_Exhibition_Center](https://en.wikipedia.org/wiki/Beijing_Exhibition_Center)  
-**[2]** [http://en.ciec-expo.com/ciec/ciecexpoen/channels/5107.html](http://en.ciec-expo.com/ciec/ciecexpoen/channels/5107.html)  
-**[3]** [https://english.beijing.gov.cn/investinginbeijing/business_activities/venue_resources/202005/t20200521_1905090.html](https://english.beijing.gov.cn/investinginbeijing/business_activities/venue_resources/202005/t20200521_1905090.html)  
-**[4]** [http://www.chinaexhibition.com/china_trade_shows_venue_profile/84-Beijing_Exhibition_Center_(BEC).html](http://www.chinaexhibition.com/china_trade_shows_venue_profile/84-Beijing_Exhibition_Center_(BEC).html)  
-**[5]** [http://en.ciec-expo.com/ciec/ciecexpoen/channels/5102.html](http://en.ciec-expo.com/ciec/ciecexpoen/channels/5102.html)  
-**[6]** [https://en.wikipedia.org/wiki/Beijing_Planning_Exhibition_Hall](https://en.wikipedia.org/wiki/Beijing_Planning_Exhibition_Hall)  
-**[7]** [https://www.tripadvisor.co.uk/Attraction_Review-g294212-d1793515-Reviews-Beijing_Urban_Planning_Exhibition_Hall-Beijing.html](https://www.tripadvisor.co.uk/Attraction_Review-g294212-d1793515-Reviews-Beijing_Urban_Planning_Exhibition_Hall-Beijing.html)  
-**[8]** [http://www.cimtshow.com/enlevel3.jsp?id=6700](http://www.cimtshow.com/enlevel3.jsp?id=6700)
+**[1]** [https://en.wikipedia.org/wiki/Beijing_Exhibition_Center] (https://en.wikipedia.org/wiki/Beijing_Exhibition_Center)  
+**[2]** [http://en.ciec-expo.com/ciec/ciecexpoen/channels/5107.html] (http://en.ciec-expo.com/ciec/ciecexpoen/channels/5107.html)  
+**[3]** [https://english.beijing.gov.cn/investinginbeijing/business_activities/venue_resources/202005/t20200521_1905090.html] (https://english.beijing.gov.cn/investinginbeijing/business_activities/venue_resources/202005/t20200521_1905090.html)  
+**[4]** [http://www.chinaexhibition.com/china_trade_shows_venue_profile/84-Beijing_Exhibition_Center_(BEC).html] (http://www.chinaexhibition.com/china_trade_shows_venue_profile/84-Beijing_Exhibition_Center_BEC.html)  
+**[5]** [http://en.ciec-expo.com/ciec/ciecexpoen/channels/5102.html] (http://en.ciec-expo.com/ciec/ciecexpoen/channels/5102.html)  
+**[6]** [https://en.wikipedia.org/wiki/Beijing_Planning_Exhibition_Hall] (https://en.wikipedia.org/wiki/Beijing_Planning_Exhibition_Hall)  
+**[7]** [https://www.tripadvisor.co.uk/Attraction_Review-g294212-d1793515-Reviews-Beijing_Urban_Planning_Exhibition_Hall-Beijing.html] (https://www.tripadvisor.co.uk/Attraction_Review-g294212-d1793515-Reviews-Beijing_Urban_Planning_Exhibition_Hall-Beijing.html)  
+**[8]** [http://www.cimtshow.com/enlevel3.jsp?id=6700] (http://www.cimtshow.com/enlevel3.jsp?id=6700)
 
 ## See also
 
