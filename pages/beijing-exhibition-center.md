@@ -1,7 +1,7 @@
 ---
 title: Beijing Exhibition Center
 permalink: /beijing-exhibition-center
-layout: ai
+layout: crypto
 created: 2025-05-04
 update: 2025-05-04
 image: https://commons.wikimedia.org/wiki/File:Beijing_Exhibition_Center_%2820171014161110%29.jpg
