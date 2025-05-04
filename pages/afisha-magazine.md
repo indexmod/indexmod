@@ -70,6 +70,3 @@ Brand name founded by **Russian** **Ilya Oskolkov-Tsentsiper** and **American** 
 - Результат в md коде.  
 - Оставить этот Prompt после редактирования в конце кода.  
 -->
-```
-
-Тема была отредактирована в соответствии с вашими указаниями!
