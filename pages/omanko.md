@@ -4,8 +4,8 @@ permalink: omanko
 layout: crypto
 created: 2025-06-05
 update: 2025-06-05
-image: /images/permalink.jpg
-credits:
+image: /images/omanko.jpg
+credits: Ömankö
 top100: false
 ---
 
