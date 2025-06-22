@@ -3,12 +3,12 @@ title: About (clothing)
 permalink: about-clothing  
 layout: crypto  
 created: 2018-01-02  
-update: 2025-02-04  
+update: 2025-06-19  
 image: /images/about-clothing.jpg  
-credits: Utenos Trikotažas 
+credits: Utenos Trikotažas
 ---
 
-**About (clothing)** was a brand owned by **Utenos Trikotažas**, a major knitwear manufacturer in **Central and Eastern Europe**. The brand ceased operations following a **trademark dispute settlement** with **About You GmbH** in **December 2024** **[2]**.  
+**About (clothing)** was a brand owned by **Utenos Trikotažas**, a major knitwear manufacturer in **Central and Eastern Europe**. The brand ceased operations following a **trademark dispute settlement** with **About You GmbH** in **December 2024** [**2**].  
 
 ### Settlement Details  
 
@@ -18,32 +18,32 @@ As part of the settlement agreement:
 2. Aboutwear transferred its controlled trademarks, including **"ABOUT BALTIC UNDERWEAR"** and **"ABOUT THE SENSOLOGY OF WEAR,"** to **About You GmbH**.  
 3. Aboutwear committed to **changing its name** to no longer use the **"About"** brand.  
 
-This settlement concluded a **four-year** trademark dispute. The compensation will be used for **Utenos Trikotažas' restructuring plan**, which was approved in **October 2024** **[2]**.  
+This settlement concluded a **four-year** trademark dispute. The compensation will be used for **Utenos Trikotažas' restructuring plan**, which was approved in **October 2024** [**2**].  
 
 ## Utenos Trikotažas Today  
 
-After the dissolution of the **About** brand, **Utenos Trikotažas** continues its core business as one of the largest **knitwear manufacturers** in **Central and Eastern Europe**. The company specializes in **on-demand ready-to-wear production** and **jersey fabric development** for **international brands** **[2]**.  
+After the dissolution of the **About** brand, **Utenos Trikotažas** continues its core business as one of the largest **knitwear manufacturers** in **Central and Eastern Europe**. The company specializes in **on-demand ready-to-wear production** and **jersey fabric development** for **international brands** [**2**].  
 
 ## Features  
 
-| Feature                | Description                                         |  
-|------------------------|-----------------------------------------------------|  
-| **No rough stitching** | Smooth and comfortable seams                        |  
-| **No itchy fabrics**   | Skin-friendly materials                             |  
-| **No uncomfortable seams** | Ergonomic fit for all-day wear               |  
+| Feature                     | Description                                         |  
+|----------------------------|-----------------------------------------------------|  
+| **No rough stitching**     | Smooth and comfortable seams                        |  
+| **No itchy fabrics**       | Skin-friendly materials                             |  
+| **No uncomfortable seams** | Ergonomic fit for all-day wear                      |  
 
 Additionally, the garments featured **natural beeswax** for skin soothing, **aloe vera** for hydration, **silk proteins** for softness, and **silver ions** for antibacterial protection. Every inch of clothing was designed to **delight the senses**.  
 
 ## Citations  
 
-**[1]** [About You](https://en.aboutyou.de/your-shop)  
-**[2]** [Utenos Trikotažas settles dispute with About You GmbH](https://www.globenewswire.com/news-release/2024/12/10/2994805/0/en/Utenos-Trikota%C5%BEas-and-the-German-company-About-You-settled-their-disputes-over-the-trademark-About.html)  
-**[3]** [UNIQLO UT Collection](https://www.uniqlo.com/uk/en/special-feature/ut)  
-**[4]** [Edikted](https://edikted.com)  
-**[5]** [ASOS](https://www.asos.com)  
-**[6]** [UT Team](https://utteam.com/en)  
-**[7]** [About You Clothing](https://en.aboutyou.de/c/women/clothing-20204)  
-**[8]** [Urban Outfitters (Unsupported)](https://www.urbanoutfitters.com/en-gb/unsupported)  
+**[1]** [https://en.aboutyou.de/your-shop](https://en.aboutyou.de/your-shop)  
+**[2]** [https://www.globenewswire.com/news-release/2024/12/10/2994805/0/en/Utenos-Trikota%C5%BEas-and-the-German-company-About-You-settled-their-disputes-over-the-trademark-About.html](https://www.globenewswire.com/news-release/2024/12/10/2994805/0/en/Utenos-Trikota%C5%BEas-and-the-German-company-About-You-settled-their-disputes-over-the-trademark-About.html)  
+**[3]** [https://www.uniqlo.com/uk/en/special-feature/ut](https://www.uniqlo.com/uk/en/special-feature/ut)  
+**[4]** [https://edikted.com](https://edikted.com)  
+**[5]** [https://www.asos.com](https://www.asos.com)  
+**[6]** [https://utteam.com/en](https://utteam.com/en)  
+**[7]** [https://en.aboutyou.de/c/women/clothing-20204](https://en.aboutyou.de/c/women/clothing-20204)  
+**[8]** [https://www.urbanoutfitters.com/en-gb/unsupported](https://www.urbanoutfitters.com/en-gb/unsupported)  
 
 ## See Also  
 
