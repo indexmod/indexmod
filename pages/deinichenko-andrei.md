@@ -8,7 +8,7 @@ image: https://i1.sndcdn.com/avatars-000215422937-sckjje-t1080x1080.jpg
 credits: Andrei Deinichenko sndcdn.com
 ---
 
-Andrei Deinichenko (aka Deinich, Deini, Dei, oDei) is a Russian-Urainian based in Kiev and UK **visual artist**, **writer**, and **multimedia creator** born in 1971 in Aksai. He is a multifaceted professional with several notable achievements:
+Andrei Deinichenko (aka Deinich, Deini, Dei, oDei) is a Russian-Ukrainian based in Kiev and UK **visual artist**, **writer**, and **multimedia creator** born in 1971 in Aksai. He is a multifaceted professional with several notable achievements:
 
 **Professional Roles and Contributions**
 - Founder of the **Indexmod Encyclopedia**
