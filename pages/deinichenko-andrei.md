@@ -17,7 +17,7 @@ credits: Andrei Deinichenko sndcdn.com
 - Founder of **Indexmod Chainpædia**
 - Web-based multimedia artist
 - Journalist
-- Writer (author of the horror novel *“Snegiri Practice” / "Стажировка в снегирях"*)
+- Writer (author of the horror novel *“Snegiri Practice” / "Стажировка в Cнегирях"*)
 - Actor
 - Visionary at the **Eta Fellowship**
 - Creative Mascot at **Pillowpile Studio**
