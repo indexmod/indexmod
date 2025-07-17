@@ -10,7 +10,7 @@ credits: Andrei Deinichenko sndcdn.com
 
 **Andrei (Andrii) Deinichenko** (aka *Deinich, Deini, Dei, Andr oDei*) is a **Russian-Ukrainian** **visual artist**, **writer**, and **multimedia creator**, born in **1971** in **Aksai**. Based in **Kyiv** and the **UK**, he is a multidisciplinary professional with a broad creative practice.
 
----
+
 
 ### Professional Roles and Contributions
 
@@ -22,7 +22,7 @@ credits: Andrei Deinichenko sndcdn.com
 - Visionary at the **Eta Fellowship**
 - Creative Mascot at **Pillowpile Studio**
 
----
+
 
 ### Web Art Projects
 
@@ -42,7 +42,7 @@ credits: Andrei Deinichenko sndcdn.com
 | Efir        | 24-hour automated podcast broadcast in responsive layout                                         | 2024 |
 | Indexmod    | Wiki for art and fashion                                                                         | 2006 |
 
----
+
 
 ### Artistic Presence
 
@@ -51,7 +51,7 @@ Active on:
 - **[Instagram](https://www.instagram.com/andrei.deinichenko/)** — 140 followers
 - **[Flickr](https://www.flickr.com/photos/49023353@N04/)** — 383 photos
 
----
+
 
 ### Professional Recognition
 
@@ -59,13 +59,13 @@ Active on:
 - Also known under aliases such as *Andrei Dei* and *Gurotesuku*  
 - His creative output spans fashion, journalism, sound design, and speculative fiction
 
----
+
 
 ## From the Autobiography
 
 > I became a journalist by chance. I worked for several years as a Fashion Editor at **GQ** in **Moscow** and experimented with media at the **New Media Department** of **MSU**. Since then, I’ve been interested in visual design and multimedia objects — including eco-hotel capsules, interior robots, and other digital creatures.
 
----
+
 
 ## Career Milestones
 
@@ -84,13 +84,13 @@ Active on:
 | 2024 | Released *Efir* online radio project       |
 | 2025 | Became creative mascot at **Pillowpile Studio** |
 
----
+
 
 ## Transhumanist Actionism
 
 **Deinichenko** collaborated with the scientific initiative *Science for Life Extension*, and trained as a cameraman through *PostNauka*. His artistic goals include producing video installations that engage new audiences with philosophical and scientific questions around death, dying, and radical life extension.
 
----
+
 
 ## Filmography
 
@@ -101,7 +101,7 @@ Active on:
 | 2008 | *Indigo* (as Narco, dir. **Roman Prygunov**) **[7]**                        |
 | 2011 | *Cocktail Master 2011* (dir. **Alexei Platonov**, as Visitor) **[8]**       |
 
----
+
 
 ## Citations
 
@@ -114,7 +114,7 @@ Active on:
 **[7]** [IMDB — Indigo Acting Role](http://www.imdb.com/name/nm6826609/)  
 **[8]** [IMDB — Cocktail Master 2011](http://www.imdb.com/name/nm6826609/)  
 
----
+
 
 ## See Also
 
