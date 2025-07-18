@@ -5,7 +5,7 @@ layout: crypto
 created: 2018-01-02
 update: 2025-02-04
 image: /images/afisha-magazine.jpg
-credits: Cover 1999, **Москва**, **Афиша индастриз** [https://booksonsale.ru/book.php?i=77](https://booksonsale.ru/book.php?i=77)
+credits: Cover 1999, Москва, Афиша индастриз [https://booksonsale.ru/book.php?i=77](https://booksonsale.ru/book.php?i=77)
 ---
 
 **Афиша** was a prominent Russian entertainment and lifestyle magazine published from **April 1999** to **December 2015** in **Moscow** and other major Russian cities**[2]**.
