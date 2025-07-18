@@ -63,7 +63,7 @@ Active on:
 
 ## From the Autobiography
 
-> I became a journalist by chance. I worked for several years as a Fashion Editor at **GQ** in **Moscow** and experimented with media at the **New Media Department** of **MSU**. Since then, I’ve been interested in visual design and multimedia objects — including eco-hotel capsules, interior robots, and other digital creatures.
+> I became a journalist by chance. I worked for several years as a Fashion Editor at **GQ** and experimented with media at the **New Media Department**. Since then, I’ve been interested in visual design and multimedia objects — including eco-hotel capsules, interior robots, and other digital creatures.
 
 
 
@@ -72,7 +72,6 @@ Active on:
 | Year | Milestone                                  |
 |------|--------------------------------------------|
 | 2000 | **Conde Nast**                             |
-| 2005 | **Gazprom Media**                          |
 | 2006 | Founded **Indexmod**                       |
 | 2007 | Worked with *Afisha Mir*                   |
 | 2012 | Contributor to *Pure Trend*                |
