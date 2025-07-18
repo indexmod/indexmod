@@ -8,7 +8,7 @@ image: https://i1.sndcdn.com/avatars-000215422937-sckjje-t1080x1080.jpg
 credits: Andrei Deinichenko sndcdn.com  
 ---
 
-**Andrei (Andrii) Deinichenko** (aka *Deinich, Deini, Dei, Andr oDei*) is a **Russian-Ukrainian** **visual artist**, **writer**, and **multimedia creator**, born in **1971** in **Aksai**. Based in **Kyiv** and the **UK**, he is a multidisciplinary professional with a broad creative practice.
+**Andrei (Andrii) Deinichenko** (aka *Deinich, Deini, Dei, Andr oDei*) is a **visual artist**, **writer**, and **multimedia creator**, born in **1971** in **Aksai**. Based in **Kyiv** and the **UK**, he is a multidisciplinary professional with a broad creative practice.
 
 
 
