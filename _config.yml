@@ -2,8 +2,8 @@ title: Indexmod Fashion & Art Сhainpædia
 email: indexmod@me.com
 description: > # многострочное значение
   Editor Andr-o-Dei indexmod@me.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://indexmod.xyz"
+url: ""        # ← пусто (ВАЖНО)
+baseurl: "/indexmod"
 
 github_username: indexmod
 
