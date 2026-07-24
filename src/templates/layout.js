@@ -1,6 +1,6 @@
 export default function layout(c, rightUI = "") {
 
-return new Response(`
+return `
 <!doctype html>
 <html>
 
@@ -72,12 +72,7 @@ xx лет
 </body>
 
 </html>
-`,
-{
-headers:{
-"Content-Type":"text/html; charset=utf-8"
-}
-});
+`;
 
 }
 

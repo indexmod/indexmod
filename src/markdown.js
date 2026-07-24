@@ -22,15 +22,21 @@ export function parse(md = "") {
 
         if (i === -1) return;
 
-        frontmatter[
-          line.slice(0, i).trim()
-        ] =
+
+        const key =
+          line.slice(0, i).trim();
+
+
+        const value =
           line.slice(i + 1).trim();
+
+
+        frontmatter[key] = value;
 
       });
 
 
-    content = match[2];
+    content = match[2].trim();
 
   }
 
@@ -64,9 +70,19 @@ export function parse(md = "") {
 
   return {
 
+    title:
+      frontmatter.title || "",
+
+
+    slug:
+      frontmatter.slug || "",
+
+
     ...frontmatter,
 
+
     content,
+
 
     html
 

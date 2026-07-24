@@ -1,335 +1,552 @@
-import { renderPage } from "./render.js";
-import { getFile, savePage, list } from "./storage.js";
+import {
+  getFile,
+  getHtml,
+  savePage,
+  saveHtml,
+  list
+} from "./storage.js";
+
+
 import { parse } from "./markdown.js";
+
+import { renderPage } from "./render.js";
+
 
 import indexTemplate from "./templates/index.js";
 import articleTemplate from "./templates/article.js";
 import editorTemplate from "./templates/editor.js";
 
 
+import layout from "./templates/layout.js";
+
+
+
 export default {
 
-  async fetch(req, env) {
 
-    const url = new URL(req.url);
-    const path = url.pathname;
+async fetch(req, env) {
 
 
-    try {
+const url =
+new URL(req.url);
 
 
-      // ======================
-      // STATIC
-      // ======================
+const path =
+url.pathname;
 
-      if (path === "/logo.svg") {
 
-        const file = await env.PAGES.get(
-          "logo.svg"
-        );
 
+try {
 
-        if (!file) {
-          return new Response(
-            "not found",
-            {status:404}
-          );
-        }
 
 
-        return new Response(
-          await file.arrayBuffer(),
-          {
-            headers:{
-              "Content-Type":
-              "image/svg+xml"
-            }
-          }
-        );
+/*
+======================
+STATIC
+======================
+*/
 
-      }
 
+if(path === "/logo.svg") {
 
 
-      if (path === "/favicon.svg") {
+const file =
+await env.PAGES.get(
+"logo.svg"
+);
 
-        const file = await env.PAGES.get(
-          "favicon.svg"
-        );
 
+if(!file)
+return new Response(
+"not found",
+{status:404}
+);
 
-        if (!file) {
-          return new Response(
-            "not found",
-            {status:404}
-          );
-        }
 
 
-        return new Response(
-          await file.arrayBuffer(),
-          {
-            headers:{
-              "Content-Type":
-              "image/svg+xml"
-            }
-          }
-        );
+return new Response(
+await file.arrayBuffer(),
+{
+headers:{
+"Content-Type":
+"image/svg+xml"
+}
+}
+);
 
-      }
 
+}
 
 
-      // ======================
-      // API LIST
-      // ======================
 
-      if (path === "/_list") {
+if(path === "/favicon.svg") {
 
-        return Response.json(
-          await list(env)
-        );
 
-      }
+const file =
+await env.PAGES.get(
+"favicon.svg"
+);
 
 
+if(!file)
+return new Response(
+"not found",
+{status:404}
+);
 
-      // ======================
-      // API GET
-      // ======================
 
-      if (path.startsWith("/_get/")) {
 
-        const slug =
-          path.split("/").pop();
+return new Response(
+await file.arrayBuffer(),
+{
+headers:{
+"Content-Type":
+"image/svg+xml"
+}
+}
+);
 
 
+}
 
-        const md =
-          await getFile(
-            env,
-            slug
-          );
 
 
-        if (!md) {
 
-          return Response.json(
-            {
-              error:"not found"
-            },
-            {
-              status:404
-            }
-          );
 
-        }
+/*
+======================
+API LIST
+======================
+*/
 
 
-        return Response.json(
-          parse(md)
-        );
+if(path === "/_list") {
 
-      }
 
+return Response.json(
+await list(env)
+);
 
 
-      // ======================
-      // API SAVE
-      // ======================
+}
 
-      if (path === "/_save") {
 
-        const body =
-          await req.json();
 
 
 
-        await savePage(
-          env,
-          body.slug,
-          body.content
-        );
+/*
+======================
+API GET
+======================
+*/
 
 
-        return new Response(
-          "ok"
-        );
+if(path.startsWith("/_get/")) {
 
-      }
 
+const slug =
+path.split("/").pop();
 
 
-      // ======================
-      // HOME
-      // ======================
 
-      if (path === "/") {
+const md =
+await getFile(
+env,
+slug
+);
 
-        const pages =
-          await list(env);
 
 
+if(!md) {
 
-        return renderPage(
+return Response.json(
+{
+error:"not found"
+},
+{
+status:404
+}
+);
 
-          indexTemplate,
+}
 
-          indexTemplate(pages)
 
-        );
 
-      }
+return Response.json(
+parse(md)
+);
 
 
+}
 
-      // ======================
-      // NEW PAGE
-      // ======================
 
-      if (path === "/new") {
 
-        return renderPage(
 
-          editorTemplate,
 
-          editorTemplate({
-            slug:"",
-            content:""
-          })
 
-        );
 
-      }
+/*
+======================
+SAVE + PUBLISH
+======================
+*/
 
 
+if(path === "/_save") {
 
-      // ======================
-      // EDITOR
-      // ======================
 
-      if (path.startsWith("/edit/")) {
+const body =
+await req.json();
 
 
-        const slug =
-          path.slice(6);
 
+const slug =
+body.slug;
 
 
-        const md =
-          await getFile(
-            env,
-            slug
-          );
 
+const md =
+body.content;
 
 
-        const page =
-          md
-          ? parse(md)
-          : {
-              slug,
-              title:"",
-              content:""
-            };
 
+// 1. save markdown
 
+await savePage(
+env,
+slug,
+md
+);
 
-        return renderPage(
 
-          editorTemplate,
 
-          editorTemplate(page)
+// 2. generate article html
 
-        );
+const page =
+parse(md);
 
-      }
 
 
+const article =
+layout(
 
-      // ======================
-      // ARTICLE SSR
-      // ======================
+articleTemplate({
+...page,
+slug
+}),
 
-      if (
-        path.startsWith("/")
-        &&
-        !path.startsWith("/_")
-      ) {
+`<a href="/edit/${slug}">Edit</a>`
 
+);
 
-        const slug =
-          path.slice(1);
 
 
+await saveHtml(
+env,
+slug,
+article
+);
 
-        const md =
-          await getFile(
-            env,
-            slug
-          );
 
 
 
-        if (!md) {
+// 3. regenerate index
 
-          return new Response(
-            "404",
-            {
-              status:404
-            }
-          );
+const pages =
+await list(env);
 
-        }
 
 
+const index =
+layout(
 
-        const page =
-          parse(md);
+indexTemplate(
+pages
+)
 
+);
 
 
-        return renderPage(
 
-          articleTemplate,
+await saveHtml(
+env,
+"index",
+index
+);
 
-          articleTemplate({
-            ...page,
-            slug
-          })
 
-        );
 
-      }
+return new Response(
+"published"
+);
 
 
 
-      return new Response(
-        "404",
-        {
-          status:404
-        }
-      );
+}
 
 
-    }
 
 
-    catch(e) {
 
-      return new Response(
 
-        e.message,
 
-        {
-          status:500
-        }
+/*
+======================
+HOME
+======================
+*/
 
-      );
 
-    }
+if(path === "/") {
 
 
-  }
+const html =
+await getHtml(
+env,
+"index"
+);
+
+
+
+if(html) {
+
+
+return new Response(
+html,
+{
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8"
+}
+}
+);
+
+
+}
+
+
+
+// fallback
+
+const pages =
+await list(env);
+
+
+
+return renderPage(
+
+indexTemplate(
+pages
+)
+
+);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*
+======================
+NEW
+======================
+*/
+
+
+if(path === "/new") {
+
+
+return renderPage(
+
+editorTemplate({
+slug:"",
+content:""
+})
+
+);
+
+
+}
+
+
+
+
+
+
+
+/*
+======================
+EDITOR
+======================
+*/
+
+
+if(path.startsWith("/edit/")) {
+
+
+const slug =
+path.slice(6);
+
+
+
+const md =
+await getFile(
+env,
+slug
+);
+
+
+
+const page =
+md
+?
+parse(md)
+:
+{
+slug,
+title:"",
+content:""
+};
+
+
+
+return renderPage(
+
+editorTemplate(
+page
+)
+
+);
+
+
+}
+
+
+
+
+
+
+
+/*
+======================
+ARTICLE
+======================
+*/
+
+
+if(
+path.startsWith("/")
+&&
+!path.startsWith("/_")
+) {
+
+
+const slug =
+path.slice(1);
+
+
+
+const html =
+await getHtml(
+env,
+slug
+);
+
+
+
+if(html) {
+
+
+return new Response(
+html,
+{
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8"
+}
+}
+);
+
+
+}
+
+
+
+const md =
+await getFile(
+env,
+slug
+);
+
+
+
+if(!md)
+return new Response(
+"404",
+{
+status:404
+}
+);
+
+
+
+const page =
+parse(md);
+
+
+
+return renderPage(
+
+articleTemplate({
+...page,
+slug
+})
+
+);
+
+
+}
+
+
+
+
+
+return new Response(
+"404",
+{
+status:404
+}
+);
+
+
+
+}
+
+catch(e){
+
+
+return new Response(
+
+e.message,
+
+{
+status:500
+}
+
+);
+
+
+}
+
+
+}
+
 
 };

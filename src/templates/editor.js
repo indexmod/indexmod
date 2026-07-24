@@ -3,6 +3,9 @@ export default `
 <textarea id="md"></textarea>
 
 
+<button onclick="save()">Save</button>
+
+
 <script>
 
 
@@ -41,6 +44,7 @@ Write here...
 Text with reference [1]
 
 \`;
+
 
 
 async function load(){

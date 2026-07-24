@@ -2,40 +2,80 @@
 // R2 STORAGE
 // ===============================
 
-const file = (slug) => slug + ".md";
+
+const mdFile = (slug) =>
+  slug + ".md";
+
+
+const htmlFile = (slug) =>
+  slug + ".html";
+
 
 
 // ===============================
-// GET FILE
+// GET MARKDOWN
 // ===============================
 
 export async function getFile(env, slug) {
 
-  const obj = await env.PAGES.get(
-    file(slug)
-  );
+  const obj =
+    await env.PAGES.get(
+      mdFile(slug)
+    );
+
 
   return obj
     ? await obj.text()
     : null;
+
 }
 
 
+
 // ===============================
-// SAVE FILE
+// GET HTML
 // ===============================
 
-export async function putFile(env, slug, content) {
+export async function getHtml(env, slug) {
+
+  const obj =
+    await env.PAGES.get(
+      htmlFile(slug)
+    );
+
+
+  return obj
+    ? await obj.text()
+    : null;
+
+}
+
+
+
+// ===============================
+// SAVE MARKDOWN
+// ===============================
+
+export async function putFile(
+  env,
+  slug,
+  content
+) {
 
   await env.PAGES.put(
-    file(slug),
+    mdFile(slug),
     content
   );
 
 }
 
 
-export async function savePage(env, slug, content) {
+
+export async function savePage(
+  env,
+  slug,
+  content
+) {
 
   await putFile(
     env,
@@ -46,43 +86,97 @@ export async function savePage(env, slug, content) {
 }
 
 
+
 // ===============================
-// LIST FILES
+// SAVE HTML
+// ===============================
+
+export async function saveHtml(
+  env,
+  slug,
+  html
+) {
+
+  await env.PAGES.put(
+
+    htmlFile(slug),
+
+    html,
+
+    {
+      httpMetadata:{
+        contentType:
+        "text/html; charset=utf-8"
+      }
+    }
+
+  );
+
+}
+
+
+
+// ===============================
+// LIST PAGES
 // ===============================
 
 export async function list(env) {
 
-  const res = await env.PAGES.list();
+  const res =
+    await env.PAGES.list();
 
-  const pages = await Promise.all(
 
-    res.objects
-      .filter(o => o.key.endsWith(".md"))
+  const pages =
+    await Promise.all(
 
-      .map(async o => {
+      res.objects
 
-        const slug = o.key.replace(".md","");
+        .filter(o =>
+          o.key.endsWith(".md")
+        )
 
-        const md = await getFile(
-          env,
-          slug
-        );
+        .map(async o => {
 
-        const parsed = parseFrontmatter(md);
 
-        return {
-          slug,
-          title: parsed.title || slug
-        };
+          const slug =
+            o.key.replace(".md","");
 
-      })
 
-  );
+
+          const md =
+            await getFile(
+              env,
+              slug
+            );
+
+
+
+          const parsed =
+            parseFrontmatter(md);
+
+
+
+          return {
+
+            slug,
+
+            title:
+            parsed.title || slug
+
+          };
+
+
+        })
+
+    );
+
 
 
   pages.sort(
+
     (a,b) =>
-      a.title.localeCompare(b.title)
+    a.title.localeCompare(b.title)
+
   );
 
 
@@ -91,45 +185,75 @@ export async function list(env) {
 }
 
 
-// временно,
-// пока markdown.js ещё не подключён
-function parseFrontmatter(md = "") {
 
-  const m = md.match(
-    /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
-  );
+// ===============================
+// FRONTMATTER
+// ===============================
+
+function parseFrontmatter(
+  md = ""
+) {
+
+
+  const m =
+    md.match(
+      /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+    );
+
 
 
   if (!m) {
+
     return {
+
       title:"",
       content:md
+
     };
+
   }
+
 
 
   const fm = {};
 
 
+
   m[1]
+
     .split("\n")
-    .forEach(line => {
 
-      const i = line.indexOf(":");
+    .forEach(line=>{
 
-      if(i === -1) return;
+
+      const i =
+        line.indexOf(":");
+
+
+
+      if(i === -1)
+        return;
+
+
 
       fm[
         line.slice(0,i).trim()
       ] =
         line.slice(i+1).trim();
 
+
     });
 
 
+
   return {
-    title: fm.title || "",
-    content:m[2]
+
+    title:
+    fm.title || "",
+
+    content:
+    m[2]
+
   };
 
 }
