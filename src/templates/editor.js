@@ -10,6 +10,9 @@ ${page.slug ? "Edit" : "New"}
 <textarea id="md">${page.content || ""}</textarea>
 
 
+<br><br>
+
+
 <button onclick="save()">
 Save
 </button>
@@ -23,7 +26,9 @@ async function save(){
 
 
 const md =
-document.getElementById("md").value;
+document
+.getElementById("md")
+.value;
 
 
 
@@ -31,7 +36,7 @@ const slug =
 
 (
 md.match(
-/slug:\s*(.*)/
+/slug:\\s*(.*)/
 )?.[1]
 || "untitled"
 )
@@ -47,12 +52,15 @@ md.match(
 
 
 
-await fetch("/_save", {
+await fetch(
+"/_save",
+{
 
 method:"POST",
 
 headers:{
-"Content-Type":"application/json"
+"Content-Type":
+"application/json"
 },
 
 body:
@@ -65,7 +73,6 @@ content:md
 })
 
 });
-
 
 
 location.href =

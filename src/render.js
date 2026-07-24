@@ -1,19 +1,18 @@
-export function renderPage(content, rightUI = "") {
+import layout from "./templates/layout.js";
 
-  return new Response(
-    `
-    <!doctype html>
-    <html>
-    <body>
-    ${content}
-    </body>
-    </html>
-    `,
-    {
-      headers:{
-        "Content-Type":"text/html;charset=UTF-8"
-      }
-    }
+
+// ===============================
+// PAGE RENDERER
+// ===============================
+
+export function renderPage(
+  content,
+  rightUI = ""
+) {
+
+  return layout(
+    content,
+    rightUI
   );
 
 }
