@@ -8,35 +8,76 @@ import editorTemplate from "./templates/editor.js";
 
 
 export default {
+
   async fetch(req, env) {
 
     const url = new URL(req.url);
     const path = url.pathname;
 
+
     try {
+
 
       // ======================
       // STATIC
       // ======================
 
       if (path === "/logo.svg") {
-        const file = await env.PAGES.get("logo.svg");
-        return new Response(await file.arrayBuffer(), {
-          headers: {
-            "Content-Type": "image/svg+xml"
+
+        const file = await env.PAGES.get(
+          "logo.svg"
+        );
+
+
+        if (!file) {
+          return new Response(
+            "not found",
+            {status:404}
+          );
+        }
+
+
+        return new Response(
+          await file.arrayBuffer(),
+          {
+            headers:{
+              "Content-Type":
+              "image/svg+xml"
+            }
           }
-        });
+        );
+
       }
+
 
 
       if (path === "/favicon.svg") {
-        const file = await env.PAGES.get("favicon.svg");
-        return new Response(await file.arrayBuffer(), {
-          headers: {
-            "Content-Type": "image/svg+xml"
+
+        const file = await env.PAGES.get(
+          "favicon.svg"
+        );
+
+
+        if (!file) {
+          return new Response(
+            "not found",
+            {status:404}
+          );
+        }
+
+
+        return new Response(
+          await file.arrayBuffer(),
+          {
+            headers:{
+              "Content-Type":
+              "image/svg+xml"
+            }
           }
-        });
+        );
+
       }
+
 
 
       // ======================
@@ -52,22 +93,38 @@ export default {
       }
 
 
+
       // ======================
       // API GET
       // ======================
 
       if (path.startsWith("/_get/")) {
 
-        const slug = path.split("/").pop();
+        const slug =
+          path.split("/").pop();
 
-        const md = await getFile(env, slug);
+
+
+        const md =
+          await getFile(
+            env,
+            slug
+          );
+
 
         if (!md) {
+
           return Response.json(
-            {error:"not found"},
-            {status:404}
+            {
+              error:"not found"
+            },
+            {
+              status:404
+            }
           );
+
         }
+
 
         return Response.json(
           parse(md)
@@ -76,13 +133,17 @@ export default {
       }
 
 
+
       // ======================
       // API SAVE
       // ======================
 
       if (path === "/_save") {
 
-        const body = await req.json();
+        const body =
+          await req.json();
+
+
 
         await savePage(
           env,
@@ -90,68 +151,185 @@ export default {
           body.content
         );
 
-        return new Response("ok");
+
+        return new Response(
+          "ok"
+        );
 
       }
 
 
+
       // ======================
-      // PAGES
+      // HOME
       // ======================
 
       if (path === "/") {
 
+        const pages =
+          await list(env);
+
+
+
         return renderPage(
+
           indexTemplate,
-          `<a href="/new">New</a>`
+
+          indexTemplate(pages)
+
         );
 
       }
 
+
+
+      // ======================
+      // NEW PAGE
+      // ======================
 
       if (path === "/new") {
 
         return renderPage(
+
           editorTemplate,
-          `<button onclick="save()">Save</button>`
+
+          editorTemplate({
+            slug:"",
+            content:""
+          })
+
         );
 
       }
 
+
+
+      // ======================
+      // EDITOR
+      // ======================
 
       if (path.startsWith("/edit/")) {
 
+
+        const slug =
+          path.slice(6);
+
+
+
+        const md =
+          await getFile(
+            env,
+            slug
+          );
+
+
+
+        const page =
+          md
+          ? parse(md)
+          : {
+              slug,
+              title:"",
+              content:""
+            };
+
+
+
         return renderPage(
+
           editorTemplate,
-          `<button onclick="save()">Save</button>`
+
+          editorTemplate(page)
+
         );
 
       }
 
 
-      if (path.startsWith("/") && !path.startsWith("/_")) {
+
+      // ======================
+      // ARTICLE SSR
+      // ======================
+
+      if (
+        path.startsWith("/")
+        &&
+        !path.startsWith("/_")
+      ) {
+
+
+        const slug =
+          path.slice(1);
+
+
+
+        const md =
+          await getFile(
+            env,
+            slug
+          );
+
+
+
+        if (!md) {
+
+          return new Response(
+            "404",
+            {
+              status:404
+            }
+          );
+
+        }
+
+
+
+        const page =
+          parse(md);
+
+
 
         return renderPage(
+
           articleTemplate,
-          `<a href="/edit/${path.slice(1)}">Edit</a>`
+
+          articleTemplate({
+            ...page,
+            slug
+          })
+
         );
 
       }
 
 
-      return new Response("404", {
-        status:404
-      });
-
-
-    } catch(e) {
 
       return new Response(
+        "404",
+        {
+          status:404
+        }
+      );
+
+
+    }
+
+
+    catch(e) {
+
+      return new Response(
+
         e.message,
-        {status:500}
+
+        {
+          status:500
+        }
+
       );
 
     }
 
+
   }
+
 };

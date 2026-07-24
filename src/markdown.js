@@ -1,57 +1,74 @@
-// ===============================
-// MARKDOWN PARSER
-// ===============================
+import { marked } from "marked";
+
 
 export function parse(md = "") {
 
-  const m = md.match(
+  const match = md.match(
     /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
   );
 
 
-  if (!m) {
+  let frontmatter = {};
+  let content = md;
 
-    return {
-      title: "",
-      slug: "",
-      content: md
-    };
+
+  if (match) {
+
+    match[1]
+      .split("\n")
+      .forEach(line => {
+
+        const i = line.indexOf(":");
+
+        if (i === -1) return;
+
+        frontmatter[
+          line.slice(0, i).trim()
+        ] =
+          line.slice(i + 1).trim();
+
+      });
+
+
+    content = match[2];
 
   }
 
 
-  const fm = {};
+  let html = marked.parse(
+    content
+  );
 
 
-  m[1]
-    .split("\n")
-    .forEach(line => {
+  // AUTO IMAGE LINKS
 
-      const i = line.indexOf(":");
+  html = html.replace(
 
-      if (i === -1) return;
+    /(^|\s)(https?:\/\/[^\s]+?\.(jpg|jpeg|png|gif|webp|svg))(\s|$)/gi,
 
+    '$1<img src="$2" style="max-width:100%;display:block;margin:20px 0;">$4'
 
-      const key =
-        line.slice(0, i).trim();
+  );
 
 
-      const value =
-        line.slice(i + 1).trim();
+  // FOOTNOTES
 
+  html = html.replace(
 
-      fm[key] = value;
+    /\[(\d+)\]/g,
 
-    });
+    '<span class="fn">[$1]</span>'
+
+  );
 
 
   return {
 
-    title: fm.title || "",
+    ...frontmatter,
 
-    slug: fm.slug || "",
+    content,
 
-    content: m[2]
+    html
 
   };
 
