@@ -62,7 +62,6 @@ export async function putFile(
   content
 ) {
 
-
   await env.PAGES.put(
     mdFile(slug),
     content
@@ -82,29 +81,8 @@ export async function putHtml(
   html
 ) {
 
-
   await env.PAGES.put(
     htmlFile(slug),
-    html
-  );
-
-}
-
-
-
-// ===============================
-// SAVE HTML ALIAS
-// ===============================
-
-export async function saveHtml(
-  env,
-  slug,
-  html
-) {
-
-  await putHtml(
-    env,
-    slug,
     html
   );
 
@@ -165,7 +143,8 @@ export async function list(env) {
       res.objects
 
         .filter(
-          o => o.key.endsWith(".md")
+          o =>
+          o.key.endsWith(".md")
         )
 
 
@@ -209,13 +188,12 @@ export async function list(env) {
 
   pages.sort(
 
-    (a,b) =>
+    (a,b)=>
       a.title.localeCompare(
         b.title
       )
 
   );
-
 
 
   return pages;
@@ -258,10 +236,8 @@ function parseFrontmatter(
 
 
   m[1]
-
     .split("\n")
-
-    .forEach(line => {
+    .forEach(line=>{
 
 
       const i =
@@ -269,7 +245,7 @@ function parseFrontmatter(
 
 
 
-      if (i === -1)
+      if(i === -1)
         return;
 
 
