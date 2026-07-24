@@ -297,23 +297,11 @@ indexTemplate(pages)
 // NEW
 //
 
-if(path === "/new") {
+if (path === "/new") {
 
-
-return renderPage(
-
-editorTemplate,
-
-editorTemplate({
-
-slug:"",
-
-content:""
-
-})
-
-);
-
+  return new Response(
+    "NEW WORKS"
+  );
 
 }
 
