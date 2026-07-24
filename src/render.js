@@ -2,7 +2,7 @@ import layout from "./templates/layout.js";
 
 
 // ===============================
-// PAGE RENDERER
+// PAGE RENDERER 2
 // ===============================
 
 import layout from "./templates/layout.js";
