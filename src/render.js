@@ -2,12 +2,13 @@ import layout from "./templates/layout.js";
 
 
 // ===============================
-// PAGE RENDERER 2
+// PAGE RENDERER
 // ===============================
 
-import layout from "./templates/layout.js";
-
-export function renderPage(content, rightUI = "") {
+export function renderPage(
+  content,
+  rightUI = ""
+) {
 
   return new Response(
 
