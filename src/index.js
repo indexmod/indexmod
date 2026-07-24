@@ -55,10 +55,14 @@ await env.PAGES.get(
 
 
 if(!file)
+
 return new Response(
 "not found",
-{status:404}
+{
+status:404
+}
 );
+
 
 
 return new Response(
@@ -86,10 +90,14 @@ await env.PAGES.get(
 
 
 if(!file)
+
 return new Response(
 "not found",
-{status:404}
+{
+status:404
+}
 );
+
 
 
 return new Response(
@@ -104,6 +112,7 @@ headers:{
 
 
 }
+
 
 
 
@@ -191,16 +200,13 @@ body.content;
 
 
 
-//
-// создаём HTML копию
-//
-
 const page =
 parse(content);
 
 
 
 const html =
+
 `
 <!doctype html>
 
@@ -237,8 +243,6 @@ ${page.html}
 
 </html>
 `;
-
-
 
 
 
@@ -281,9 +285,9 @@ await list(env);
 
 return renderPage(
 
-indexTemplate,
+indexTemplate(pages),
 
-indexTemplate(pages)
+""
 
 );
 
@@ -293,18 +297,25 @@ indexTemplate(pages)
 
 
 
+
 //
 // NEW
 //
 
-if (path === "/new") {
+if(path === "/new") {
 
-  return renderPage(
-    "NEW WORKS",
-    ""
-  );
+
+return editorTemplate({
+
+slug:"",
+
+content:""
+
+});
+
 
 }
+
 
 
 
@@ -342,16 +353,11 @@ content:""
 
 
 
-return renderPage(
-
-editorTemplate,
-
-editorTemplate(page)
-
-);
+return editorTemplate(page);
 
 
 }
+
 
 
 
@@ -367,15 +373,10 @@ path.startsWith("/")
 ) {
 
 
-
 const slug =
 path.slice(1);
 
 
-
-//
-// сначала готовый HTML
-//
 
 const html =
 await getHtml(
@@ -406,10 +407,6 @@ headers:{
 
 
 
-//
-// fallback для старых страниц
-//
-
 const md =
 await getFile(
 env,
@@ -438,15 +435,15 @@ parse(md);
 
 return renderPage(
 
-articleTemplate,
-
 articleTemplate({
 
 ...page,
 
 slug
 
-})
+}),
+
+""
 
 );
 
@@ -467,6 +464,7 @@ status:404
 
 
 }
+
 
 catch(e){
 
