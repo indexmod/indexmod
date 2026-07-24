@@ -204,13 +204,17 @@ parse(content);
 
 
 const html =
+renderPage(
+
 articleTemplate({
 
 ...page,
 
 slug
 
-});
+})
+
+);
 
 
 
@@ -222,7 +226,7 @@ slug,
 
 content,
 
-html
+await html.text()
 
 );
 
@@ -254,9 +258,7 @@ await list(env);
 
 return renderPage(
 
-indexTemplate(pages),
-
-""
+indexTemplate(pages)
 
 );
 
@@ -280,14 +282,10 @@ return renderPage(
 editorTemplate({
 
 slug:"",
-
 title:"",
-
 content:""
 
-}),
-
-""
+})
 
 );
 
@@ -341,9 +339,7 @@ content:""
 
 return renderPage(
 
-editorTemplate(page),
-
-""
+editorTemplate(page)
 
 );
 
@@ -435,9 +431,7 @@ articleTemplate({
 
 slug
 
-}),
-
-""
+})
 
 );
 
