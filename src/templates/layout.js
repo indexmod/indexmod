@@ -1,6 +1,11 @@
-export default function layout(c, rightUI = "") {
+export default function layout(
+  c,
+  rightUI = ""
+) {
 
-return `
+return new Response(
+
+`
 <!doctype html>
 <html>
 
@@ -34,11 +39,13 @@ ${css()}
 
 <div class="topbar">
 
+
 <a href="/" class="logo">
 
 <img src="/logo.svg">
 
 </a>
+
 
 
 <div class="nav">
@@ -51,20 +58,27 @@ ${rightUI}
 </div>
 
 
+
 ${c}
+
 
 
 <footer class="site-footer">
 
+
 <a class="footer-link" href="https://mod.indexmod.press">
 
+
 <span class="footer-dot"></span>
+
 
 <span class="footer-text">
 xx лет
 </span>
 
+
 </a>
+
 
 </footer>
 
@@ -72,7 +86,20 @@ xx лет
 </body>
 
 </html>
-`;
+
+`,
+
+{
+
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8"
+}
+
+}
+
+);
+
 
 }
 
@@ -90,10 +117,14 @@ return `
 box-sizing:border-box;
 }
 
+
 html,body{
+
 margin:0;
 padding:0;
+
 }
+
 
 
 body {
@@ -186,6 +217,7 @@ margin:0 0 40px;
 }
 
 
+
 h2 {
 
 font-size:28px;
@@ -193,6 +225,7 @@ font-size:28px;
 font-weight:normal;
 
 }
+
 
 
 a {
@@ -204,11 +237,13 @@ text-decoration:none;
 }
 
 
+
 a:hover {
 
 text-decoration:underline;
 
 }
+
 
 
 button {
@@ -220,6 +255,7 @@ cursor:pointer;
 color:#1a73e8;
 
 }
+
 
 
 textarea {
@@ -251,11 +287,13 @@ gap:40px;
 }
 
 
+
 .letter {
 
 font-size:90px;
 
 }
+
 
 
 .col a {
@@ -313,6 +351,7 @@ display:inline-block;
 }
 
 
+
 .footer-text {
 
 font-family:
@@ -323,6 +362,7 @@ sans-serif;
 font-weight:900;
 
 }
+
 
 
 `;
