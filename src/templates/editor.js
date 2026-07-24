@@ -1,109 +1,21 @@
-export default function editorTemplate(page = {}) {
-
-
-const slug =
-page.slug || "";
-
-
-const title =
-page.title || "";
-
-
-const content =
-page.content || "";
-
-
+export default function editorTemplate(){
 
 return `
 
-<textarea id="md"></textarea>
+<h1>New page</h1>
 
-
-<button onclick="save()">
-Save
-</button>
-
-
-<script>
-
-
-document.getElementById("md").value =
-\`---
-title: ${title}
-slug: ${slug}
+<textarea id="md">
+---
+title:
+slug:
 ---
 
-${content}
-\`;
+Write here...
+</textarea>
 
-
-
-async function save(){
-
-
-const md =
-document.getElementById("md").value;
-
-
-
-const match =
-md.match(
-/slug:\\s*(.*)/
-);
-
-
-
-const slug =
-
-(
-match
-? match[1]
-: ""
-)
-
-.trim()
-
-.toLowerCase()
-
-.replace(
-/[^a-z0-9-]/g,
-"-"
-)
-
-|| "untitled";
-
-
-
-await fetch(
-"/_save",
-{
-
-method:"POST",
-
-headers:{
-"Content-Type":"application/json"
-},
-
-body:
-JSON.stringify({
-slug,
-content:md
-})
-
-}
-
-);
-
-
-
-location.href =
-"/" + slug;
-
-
-}
-
-
-</script>
+<button>
+Save
+</button>
 
 `;
 
