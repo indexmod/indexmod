@@ -62,26 +62,12 @@ export async function putFile(
   content
 ) {
 
+
   await env.PAGES.put(
     mdFile(slug),
     content
   );
 
-}
-
-
-
-export async function savePage(
-  env,
-  slug,
-  content
-) {
-
-  await putFile(
-    env,
-    slug,
-    content
-  );
 
 }
 
@@ -91,25 +77,16 @@ export async function savePage(
 // SAVE HTML
 // ===============================
 
-export async function saveHtml(
+export async function putHtml(
   env,
   slug,
   html
 ) {
 
+
   await env.PAGES.put(
-
     htmlFile(slug),
-
-    html,
-
-    {
-      httpMetadata:{
-        contentType:
-        "text/html; charset=utf-8"
-      }
-    }
-
+    html
   );
 
 }
@@ -117,13 +94,50 @@ export async function saveHtml(
 
 
 // ===============================
-// LIST PAGES
+// SAVE PAGE
+// ===============================
+
+export async function savePage(
+  env,
+  slug,
+  content,
+  html = null
+) {
+
+
+  await putFile(
+    env,
+    slug,
+    content
+  );
+
+
+
+  if (html) {
+
+    await putHtml(
+      env,
+      slug,
+      html
+    );
+
+  }
+
+
+}
+
+
+
+// ===============================
+// LIST FILES
 // ===============================
 
 export async function list(env) {
 
+
   const res =
     await env.PAGES.list();
+
 
 
   const pages =
@@ -131,16 +145,19 @@ export async function list(env) {
 
       res.objects
 
-        .filter(o =>
-          o.key.endsWith(".md")
+        .filter(
+          o => o.key.endsWith(".md")
         )
+
 
         .map(async o => {
 
 
           const slug =
-            o.key.replace(".md","");
-
+            o.key.replace(
+              ".md",
+              ""
+            );
 
 
           const md =
@@ -148,7 +165,6 @@ export async function list(env) {
               env,
               slug
             );
-
 
 
           const parsed =
@@ -161,7 +177,7 @@ export async function list(env) {
             slug,
 
             title:
-            parsed.title || slug
+              parsed.title || slug
 
           };
 
@@ -175,9 +191,12 @@ export async function list(env) {
   pages.sort(
 
     (a,b) =>
-    a.title.localeCompare(b.title)
+      a.title.localeCompare(
+        b.title
+      )
 
   );
+
 
 
   return pages;
@@ -223,7 +242,7 @@ function parseFrontmatter(
 
     .split("\n")
 
-    .forEach(line=>{
+    .forEach(line => {
 
 
       const i =
@@ -231,7 +250,7 @@ function parseFrontmatter(
 
 
 
-      if(i === -1)
+      if (i === -1)
         return;
 
 
@@ -249,10 +268,10 @@ function parseFrontmatter(
   return {
 
     title:
-    fm.title || "",
+      fm.title || "",
 
     content:
-    m[2]
+      m[2]
 
   };
 
