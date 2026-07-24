@@ -5,6 +5,10 @@ const slug =
 page.slug || "";
 
 
+const title =
+page.title || "";
+
+
 const content =
 page.content || "";
 
@@ -15,22 +19,22 @@ return `
 <textarea id="md"></textarea>
 
 
+<button onclick="save()">
+Save
+</button>
+
+
 <script>
 
 
-const initial = \`
----
-title: ${page.title || ""}
+document.getElementById("md").value =
+\`---
+title: ${title}
 slug: ${slug}
 ---
 
 ${content}
 \`;
-
-
-
-document.getElementById("md").value =
-initial;
 
 
 
@@ -42,11 +46,19 @@ document.getElementById("md").value;
 
 
 
+const match =
+md.match(
+/slug:\\s*(.*)/
+);
+
+
+
 const slug =
 
 (
-md.match(/slug:\\s*(.*)/)?.[1]
-|| ""
+match
+? match[1]
+: ""
 )
 
 .trim()
@@ -74,11 +86,8 @@ headers:{
 
 body:
 JSON.stringify({
-
 slug,
-
 content:md
-
 })
 
 }
@@ -94,14 +103,7 @@ location.href =
 }
 
 
-
 </script>
-
-
-<button onclick="save()">
-Save
-</button>
-
 
 `;
 
