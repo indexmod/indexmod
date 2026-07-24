@@ -299,8 +299,9 @@ indexTemplate(pages)
 
 if (path === "/new") {
 
-  return new Response(
-    "NEW WORKS"
+  return renderPage(
+    "NEW WORKS",
+    ""
   );
 
 }
