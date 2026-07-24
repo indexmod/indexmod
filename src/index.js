@@ -466,24 +466,16 @@ status:404
 }
 
 
-catch(e){
+catch (e) {
 
-
-return new Response(
-
-e.message,
-
-{
-status:500
-}
-
-);
-
+  return new Response(
+    e.stack || e.message || String(e),
+    {
+      status: 500,
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8"
+      }
+    }
+  );
 
 }
-
-
-
-}
-
-};
