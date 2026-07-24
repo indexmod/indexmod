@@ -68,7 +68,6 @@ export async function putFile(
     content
   );
 
-
 }
 
 
@@ -86,6 +85,26 @@ export async function putHtml(
 
   await env.PAGES.put(
     htmlFile(slug),
+    html
+  );
+
+}
+
+
+
+// ===============================
+// SAVE HTML ALIAS
+// ===============================
+
+export async function saveHtml(
+  env,
+  slug,
+  html
+) {
+
+  await putHtml(
+    env,
+    slug,
     html
   );
 
