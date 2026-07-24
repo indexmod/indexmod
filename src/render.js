@@ -1,14 +1,19 @@
-import layout from "./templates/layout.js";
+export function renderPage(content, rightUI = "") {
 
-
-export function renderPage(
-  content,
-  rightUI = ""
-) {
-
-  return layout(
-    content,
-    rightUI
+  return new Response(
+    `
+    <!doctype html>
+    <html>
+    <body>
+    ${content}
+    </body>
+    </html>
+    `,
+    {
+      headers:{
+        "Content-Type":"text/html;charset=UTF-8"
+      }
+    }
   );
 
 }
