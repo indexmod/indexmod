@@ -2,22 +2,23 @@ import {
   getFile,
   getHtml,
   savePage,
-  saveHtml,
   list
 } from "./storage.js";
 
 
-import { parse } from "./markdown.js";
+import {
+  parse
+} from "./markdown.js";
 
-import { renderPage } from "./render.js";
+
+import {
+  renderPage
+} from "./render.js";
 
 
 import indexTemplate from "./templates/index.js";
 import articleTemplate from "./templates/article.js";
 import editorTemplate from "./templates/editor.js";
-
-
-import layout from "./templates/layout.js";
 
 
 
@@ -40,12 +41,9 @@ try {
 
 
 
-/*
-======================
-STATIC
-======================
-*/
-
+//
+// STATIC
+//
 
 if(path === "/logo.svg") {
 
@@ -61,7 +59,6 @@ return new Response(
 "not found",
 {status:404}
 );
-
 
 
 return new Response(
@@ -95,7 +92,6 @@ return new Response(
 );
 
 
-
 return new Response(
 await file.arrayBuffer(),
 {
@@ -112,13 +108,9 @@ headers:{
 
 
 
-
-/*
-======================
-API LIST
-======================
-*/
-
+//
+// API LIST
+//
 
 if(path === "/_list") {
 
@@ -133,20 +125,15 @@ await list(env)
 
 
 
-
-/*
-======================
-API GET
-======================
-*/
-
+//
+// API GET
+//
 
 if(path.startsWith("/_get/")) {
 
 
 const slug =
 path.split("/").pop();
-
 
 
 const md =
@@ -182,15 +169,9 @@ parse(md)
 
 
 
-
-
-
-/*
-======================
-SAVE + PUBLISH
-======================
-*/
-
+//
+// SAVE
+//
 
 if(path === "/_save") {
 
@@ -205,120 +186,78 @@ body.slug;
 
 
 
-const md =
+const content =
 body.content;
 
 
 
-// 1. save markdown
-
-await savePage(
-env,
-slug,
-md
-);
-
-
-
-// 2. generate article html
+//
+// создаём HTML копию
+//
 
 const page =
-parse(md);
+parse(content);
 
-
-
-const article =
-layout(
-
-articleTemplate({
-...page,
-slug
-}),
-
-`<a href="/edit/${slug}">Edit</a>`
-
-);
-
-
-
-await saveHtml(
-env,
-slug,
-article
-);
-
-
-
-
-// 3. regenerate index
-
-const pages =
-await list(env);
-
-
-
-const index =
-layout(
-
-indexTemplate(
-pages
-)
-
-);
-
-
-
-await saveHtml(
-env,
-"index",
-index
-);
-
-
-
-return new Response(
-"published"
-);
-
-
-
-}
-
-
-
-
-
-
-
-/*
-======================
-HOME
-======================
-*/
-
-
-if(path === "/") {
 
 
 const html =
-await getHtml(
+`
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>
+${page.title || slug}
+</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body>
+
+<h1>
+${page.title || slug}
+</h1>
+
+
+<div class="content">
+
+${page.html}
+
+</div>
+
+
+</body>
+
+</html>
+`;
+
+
+
+
+
+await savePage(
+
 env,
-"index"
+
+slug,
+
+content,
+
+html
+
 );
 
-
-
-if(html) {
 
 
 return new Response(
-html,
-{
-headers:{
-"Content-Type":
-"text/html;charset=UTF-8"
-}
-}
+"ok"
 );
 
 
@@ -326,7 +265,14 @@ headers:{
 
 
 
-// fallback
+
+
+//
+// HOME
+//
+
+if(path === "/") {
+
 
 const pages =
 await list(env);
@@ -335,12 +281,11 @@ await list(env);
 
 return renderPage(
 
-indexTemplate(
-pages
-)
+indexTemplate,
+
+indexTemplate(pages)
 
 );
-
 
 
 }
@@ -348,26 +293,23 @@ pages
 
 
 
-
-
-
-
-
-/*
-======================
-NEW
-======================
-*/
-
+//
+// NEW
+//
 
 if(path === "/new") {
 
 
 return renderPage(
 
+editorTemplate,
+
 editorTemplate({
+
 slug:"",
+
 content:""
+
 })
 
 );
@@ -378,15 +320,9 @@ content:""
 
 
 
-
-
-
-/*
-======================
-EDITOR
-======================
-*/
-
+//
+// EDIT
+//
 
 if(path.startsWith("/edit/")) {
 
@@ -419,9 +355,9 @@ content:""
 
 return renderPage(
 
-editorTemplate(
-page
-)
+editorTemplate,
+
+editorTemplate(page)
 
 );
 
@@ -431,15 +367,9 @@ page
 
 
 
-
-
-
-/*
-======================
-ARTICLE
-======================
-*/
-
+//
+// ARTICLE
+//
 
 if(
 path.startsWith("/")
@@ -448,10 +378,15 @@ path.startsWith("/")
 ) {
 
 
+
 const slug =
 path.slice(1);
 
 
+
+//
+// сначала готовый HTML
+//
 
 const html =
 await getHtml(
@@ -465,19 +400,26 @@ if(html) {
 
 
 return new Response(
+
 html,
+
 {
 headers:{
 "Content-Type":
 "text/html;charset=UTF-8"
 }
 }
+
 );
 
 
 }
 
 
+
+//
+// fallback для старых страниц
+//
 
 const md =
 await getFile(
@@ -487,13 +429,16 @@ slug
 
 
 
-if(!md)
+if(!md) {
+
 return new Response(
 "404",
 {
 status:404
 }
 );
+
+}
 
 
 
@@ -504,9 +449,14 @@ parse(md);
 
 return renderPage(
 
+articleTemplate,
+
 articleTemplate({
+
 ...page,
+
 slug
+
 })
 
 );
@@ -546,7 +496,7 @@ status:500
 }
 
 
-}
 
+}
 
 };
