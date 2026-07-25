@@ -147,11 +147,9 @@ if(
 path === "/_list"
 ) {
 
-
 return Response.json(
 await list(env)
 );
-
 
 }
 
@@ -183,15 +181,12 @@ slug
 if(!md)
 
 return Response.json(
-
 {
 error:"not found"
 },
-
 {
 status:404
 }
-
 );
 
 
@@ -268,7 +263,6 @@ return new Response(
 "ok"
 );
 
-
 }
 
 
@@ -338,10 +332,6 @@ return renderPage(
 
 editorTemplate({
 
-slug:"",
-
-title:"",
-
 content:
 `---
 title:
@@ -366,7 +356,6 @@ title:"New article"
 })
 
 );
-
 
 }
 
@@ -395,36 +384,26 @@ slug
 
 
 
+if(md){
+
+
 const page =
-md
-?
-{
-...parse(md),
-slug
-}
-:
-{
-
-slug,
-
-title:titleFromSlug(slug),
-
-content:
-`---
-title: ${titleFromSlug(slug)}
-slug: ${slug}
----
-
-Write text here...
-`
-
-};
+parse(md);
 
 
 
 return renderPage(
 
-editorTemplate(page),
+editorTemplate({
+
+...page,
+
+// ВАЖНО:
+// возвращаем полный markdown
+
+content: md
+
+}),
 
 `
 <button onclick="save()">
@@ -435,7 +414,48 @@ Save
 buildMeta({
 
 title:
-page.title,
+page.title || slug,
+
+slug
+
+})
+
+);
+
+
+}
+
+
+
+const title =
+titleFromSlug(slug);
+
+
+
+return renderPage(
+
+editorTemplate({
+
+content:
+`---
+title: ${title}
+slug: ${slug}
+---
+
+Write text here...
+`
+
+}),
+
+`
+<button onclick="save()">
+Save
+</button>
+`,
+
+buildMeta({
+
+title,
 
 slug
 
@@ -484,10 +504,6 @@ titleFromSlug(slug);
 return renderPage(
 
 editorTemplate({
-
-slug,
-
-title,
 
 content:
 `---
@@ -552,10 +568,11 @@ buildMeta({
 title:
 page.title || slug,
 
-
 description:
-page.content,
+page.description,
 
+image:
+page.image,
 
 slug
 
@@ -605,7 +622,6 @@ headers:{
 
 
 }
-
 
 };
 

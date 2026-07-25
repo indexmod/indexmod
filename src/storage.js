@@ -4,7 +4,11 @@
 
 
 const mdFile = (slug) =>
-  slug + ".md";
+  `${slug}.md`;
+
+
+const htmlFile = (slug) =>
+  `${slug}.html`;
 
 
 
@@ -18,20 +22,39 @@ export async function getFile(
   slug
 ) {
 
-
-const obj =
-await env.PAGES.get(
-  mdFile(slug)
-);
-
+  const obj =
+    await env.PAGES.get(
+      mdFile(slug)
+    );
 
 
-return obj
-?
-await obj.text()
-:
-null;
+  return obj
+    ? await obj.text()
+    : null;
 
+}
+
+
+
+// ===============================
+// GET HTML CACHE
+// ===============================
+
+
+export async function getHtml(
+  env,
+  slug
+) {
+
+  const obj =
+    await env.PAGES.get(
+      htmlFile(slug)
+    );
+
+
+  return obj
+    ? await obj.text()
+    : null;
 
 }
 
@@ -46,20 +69,15 @@ export async function getIndex(
   env
 ) {
 
-
-const obj =
-await env.PAGES.get(
-  "index.html"
-);
-
+  const obj =
+    await env.PAGES.get(
+      "index.html"
+    );
 
 
-return obj
-?
-await obj.text()
-:
-null;
-
+  return obj
+    ? await obj.text()
+    : null;
 
 }
 
@@ -79,9 +97,34 @@ export async function putFile(
 
 await env.PAGES.put(
 
-mdFile(slug),
+  mdFile(slug),
 
-content
+  content
+
+);
+
+
+}
+
+
+
+// ===============================
+// SAVE HTML CACHE
+// ===============================
+
+
+export async function putHtml(
+  env,
+  slug,
+  html
+) {
+
+
+await env.PAGES.put(
+
+  htmlFile(slug),
+
+  html
 
 );
 
@@ -122,7 +165,8 @@ html
 export async function savePage(
   env,
   slug,
-  content
+  content,
+  html = null
 ) {
 
 
@@ -135,6 +179,24 @@ slug,
 content
 
 );
+
+
+
+if(html){
+
+
+await putHtml(
+
+env,
+
+slug,
+
+html
+
+);
+
+
+}
 
 
 }
@@ -158,7 +220,6 @@ await env.PAGES.list();
 
 const pages =
 await Promise.all(
-
 
 res.objects
 
@@ -232,14 +293,14 @@ return pages;
 // ===============================
 
 
-function parseFrontmatter(
+export function parseFrontmatter(
 md = ""
 ) {
 
 
 const m =
 md.match(
-/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
 );
 
 
@@ -266,7 +327,7 @@ const fm = {};
 
 m[1]
 
-.split("\n")
+.split(/\r?\n/)
 
 .forEach(line=>{
 
@@ -281,12 +342,21 @@ return;
 
 
 
-fm[
-line.slice(0,i).trim()
-]
-=
-line.slice(i+1).trim();
+const key =
+line
+.slice(0,i)
+.trim();
 
+
+
+const value =
+line
+.slice(i+1)
+.trim();
+
+
+
+fm[key] = value;
 
 
 });
@@ -298,6 +368,10 @@ return {
 
 title:
 fm.title || "",
+
+
+slug:
+fm.slug || "",
 
 
 content:

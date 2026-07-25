@@ -1,17 +1,26 @@
 export default function editorTemplate(page = {}) {
 
-return `
 
-<textarea id="md">${page.content || `---
+const fallback = `---
 title:
 slug:
 ---
 
 Write text here...
-`}</textarea>
+`;
+
+
+
+return `
+
+<textarea id="md">${escapeHtml(
+page.content || fallback
+)}</textarea>
+
 
 
 <script>
+
 
 async function save(){
 
@@ -23,6 +32,8 @@ document
 
 
 
+// берём slug из frontmatter
+
 const slugMatch =
 md.match(
 /^slug:\s*(.+)$/m
@@ -30,22 +41,58 @@ md.match(
 
 
 
-const slug =
-
-(
+let slug =
 slugMatch
 ?
-slugMatch[1]
+slugMatch[1].trim()
 :
-"untitled"
-)
+"";
 
-.trim()
+
+
+// если slug нет — создаём из title
+
+if(!slug){
+
+
+const titleMatch =
+md.match(
+/^title:\s*(.+)$/m
+);
+
+
+
+slug =
+titleMatch
+?
+titleMatch[1]
+:
+"untitled";
+
+
+}
+
+
+
+slug =
+slug
 
 .toLowerCase()
 
+.trim()
+
 .replace(
-/[^a-z0-9-]/g,
+/[^a-z0-9а-яё\s-]/gi,
+""
+)
+
+.replace(
+(/\s+/g),
+"-"
+)
+
+.replace(
+(/-+/g),
 "-"
 );
 
@@ -87,6 +134,7 @@ return;
 }
 
 
+
 location.href =
 "/" + slug;
 
@@ -94,9 +142,28 @@ location.href =
 }
 
 
+
 </script>
 
 
 `;
+
+}
+
+
+
+function escapeHtml(str = "") {
+
+
+return String(str)
+
+.replace(/&/g,"&amp;")
+
+.replace(/</g,"&lt;")
+
+.replace(/>/g,"&gt;")
+
+.replace(/"/g,"&quot;");
+
 
 }

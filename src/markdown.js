@@ -1,12 +1,17 @@
 import { marked } from "marked";
 
 
+// ===============================
+// PARSE MARKDOWN
+// ===============================
+
 export function parse(md = "") {
 
 
 let title = "";
 let description = "";
 let image = "";
+let slug = "";
 
 let content = md;
 
@@ -16,9 +21,10 @@ let content = md;
 // FRONTMATTER
 // ===============================
 
+
 const fm =
 md.match(
-/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
 );
 
 
@@ -26,13 +32,19 @@ md.match(
 if(fm){
 
 
-const meta = fm[1];
+const meta =
+fm[1];
 
-content = fm[2];
+
+content =
+fm[2];
+
 
 
 meta
-.split("\n")
+
+.split(/\r?\n/)
+
 .forEach(line=>{
 
 
@@ -40,29 +52,58 @@ const i =
 line.indexOf(":");
 
 
+
 if(i === -1)
 return;
 
 
+
 const key =
-line.slice(0,i).trim();
+line
+.slice(0,i)
+.trim();
+
 
 
 const value =
-line.slice(i+1).trim();
+line
+.slice(i+1)
+.trim();
 
 
 
-if(key==="title")
-title=value;
+switch(key){
 
 
-if(key==="description")
-description=value;
+case "title":
+
+title = value;
+
+break;
 
 
-if(key==="image")
-image=value;
+case "description":
+
+description = value;
+
+break;
+
+
+case "image":
+
+image = value;
+
+break;
+
+
+case "slug":
+
+slug = value;
+
+break;
+
+
+}
 
 
 });
@@ -73,11 +114,12 @@ image=value;
 
 
 // ===============================
-// FALLBACK TITLE
+// TITLE FALLBACK
 // ===============================
 
 
 if(!title){
+
 
 const h =
 content.match(
@@ -85,21 +127,26 @@ content.match(
 );
 
 
+
 if(h)
-title=h[1];
+title =
+h[1].trim();
+
 
 }
 
 
 
 // ===============================
-// FALLBACK DESCRIPTION
+// DESCRIPTION FALLBACK
 // ===============================
 
 
 if(!description){
 
+
 description =
+
 content
 
 .replace(
@@ -113,7 +160,7 @@ content
 )
 
 .replace(
-/\n+/g,
+/\s+/g,
 " "
 )
 
@@ -121,16 +168,18 @@ content
 
 .slice(0,180);
 
+
 }
 
 
 
 // ===============================
-// FALLBACK IMAGE
+// IMAGE FALLBACK
 // ===============================
 
 
 if(!image){
+
 
 const img =
 content.match(
@@ -138,21 +187,29 @@ content.match(
 );
 
 
+
 if(img)
-image=img[1];
+image =
+img[1];
+
 
 }
 
 
 
 // ===============================
-// MARKDOWN HTML
+// HTML
 // ===============================
 
 
 const html =
 marked.parse(content);
 
+
+
+// ===============================
+// RETURN
+// ===============================
 
 
 return {
@@ -163,9 +220,13 @@ description,
 
 image,
 
+slug,
+
 content,
 
-html
+html,
+
+raw: md
 
 };
 
