@@ -12,6 +12,10 @@ let title = "";
 
 let slug = "";
 
+let description = "";
+
+let image = "";
+
 let content = md;
 
 
@@ -64,20 +68,37 @@ line
 
 
 
-if(key === "title") {
+switch(key){
+
+case "title":
 
 title = value;
 
-}
+break;
 
 
-
-if(key === "slug") {
+case "slug":
 
 slug = value;
 
-}
+break;
 
+
+case "description":
+
+description = value;
+
+break;
+
+
+case "image":
+
+image = value;
+
+break;
+
+
+}
 
 
 });
@@ -89,9 +110,10 @@ slug = value;
 
 // ===============================
 // REMOVE INTERNAL PROMPT
+// FROM PUBLIC HTML
 // ===============================
 
-content =
+const publicContent =
 content.replace(
 /<!--\s*INDEXMOD PROMPT[\s\S]*?-->/,
 ""
@@ -103,10 +125,9 @@ content.replace(
 // MARKDOWN → HTML
 // ===============================
 
-
 const html =
 marked.parse(
-content
+publicContent
 );
 
 
@@ -116,6 +137,10 @@ return {
 title,
 
 slug,
+
+description,
+
+image,
 
 content,
 

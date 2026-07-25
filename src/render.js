@@ -1,25 +1,32 @@
 import layout from "./templates/layout.js";
 
 
+
 export function renderPage(
   content,
-  rightUI = ""
+  rightUI = "",
+  meta = {}
 ) {
 
-  return new Response(
 
-    layout(
-      content,
-      rightUI
-    ),
+return new Response(
 
-    {
-      headers:{
-        "Content-Type":
-          "text/html;charset=UTF-8"
-      }
-    }
+layout(
+  content,
+  rightUI,
+  meta
+),
 
-  );
+
+{
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8"
+}
+}
+
+
+);
+
 
 }
