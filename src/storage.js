@@ -11,6 +11,10 @@ const htmlFile = (slug) =>
   `${slug}.html`;
 
 
+const indexMetaFile =
+"index.meta.json";
+
+
 
 // ===============================
 // GET MARKDOWN
@@ -78,6 +82,42 @@ export async function getIndex(
   return obj
     ? await obj.text()
     : null;
+
+}
+
+
+
+// ===============================
+// GET INDEX META
+// ===============================
+
+
+export async function getIndexMeta(
+  env
+) {
+
+  const obj =
+    await env.PAGES.get(
+      indexMetaFile
+    );
+
+
+  if(!obj)
+    return null;
+
+
+  try {
+
+    return JSON.parse(
+      await obj.text()
+    );
+
+  }
+  catch {
+
+    return null;
+
+  }
 
 }
 
@@ -158,6 +198,41 @@ html
 
 
 // ===============================
+// SAVE INDEX META
+// ===============================
+
+
+export async function putIndexMeta(
+  env,
+  meta
+) {
+
+
+await env.PAGES.put(
+
+indexMetaFile,
+
+JSON.stringify(
+meta
+),
+
+{
+httpMetadata:{
+
+contentType:
+"application/json;charset=UTF-8"
+
+}
+}
+
+);
+
+
+}
+
+
+
+// ===============================
 // SAVE PAGE
 // ===============================
 
@@ -213,66 +288,19 @@ export async function list(
 ) {
 
 
-const objects =
-[];
-
-
-
-let cursor;
-
-
-
-do {
-
-
-const res =
-await env.PAGES.list(
-cursor
-?
-{
-cursor
-}
-:
-undefined
-);
-
-
-
-objects.push(
-...res.objects
-);
-
-
-
-cursor =
-res.truncated
-?
-res.cursor
-:
-undefined;
-
-
-}
-while(cursor);
+const keys =
+await listMarkdownKeys(env);
 
 
 
 const pages =
 await Promise.all(
 
-objects
-
-.filter(
-o =>
-o.key.endsWith(".md")
-)
-
-
-.map(async o=>{
+.map(async key=>{
 
 
 const slug =
-o.key.replace(
+key.replace(
 ".md",
 ""
 );
@@ -321,6 +349,99 @@ b.title
 
 
 return pages;
+
+
+}
+
+
+
+// ===============================
+// LIST MARKDOWN KEYS
+// ===============================
+
+
+export async function listMarkdownKeys(
+  env
+) {
+
+
+const objects =
+[];
+
+
+
+let cursor;
+
+
+
+do {
+
+
+const res =
+await env.PAGES.list(
+cursor
+?
+{
+cursor
+}
+:
+undefined
+);
+
+
+
+objects.push(
+...res.objects
+);
+
+
+
+cursor =
+res.truncated
+?
+res.cursor
+:
+undefined;
+
+
+}
+while(cursor);
+
+
+
+return objects
+
+.map(o =>
+o.key
+)
+
+.filter(key =>
+key.endsWith(".md")
+)
+
+.sort();
+
+
+}
+
+
+
+// ===============================
+// INDEX SIGNATURE
+// ===============================
+
+
+export function indexSignature(
+keys = []
+) {
+
+return keys
+
+.slice()
+
+.sort()
+
+.join("\n");
 
 
 }
