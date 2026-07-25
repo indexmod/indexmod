@@ -1,3 +1,6 @@
+import prompt from "./prompt.js";
+
+
 export default function editorTemplate(page = {}) {
 
 
@@ -13,6 +16,8 @@ ${page.slug ? "Edit" : "New"}
 title:
 slug:
 ---
+
+${prompt}
 
 Write text here...
 `}</textarea>
@@ -44,7 +49,7 @@ document
 
 const slugMatch =
 md.match(
-/^slug:\s*(.+)$/m
+/^slug:\\s*(.+)$/m
 );
 
 
