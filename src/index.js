@@ -9,7 +9,11 @@ import {
 import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
 import { rebuildIndex } from "./build.js";
+
 import { buildMeta } from "./meta.js";
+
+import { sitemap } from "./sitemap.js";
+import { robots } from "./robots.js";
 
 
 import articleTemplate from "./templates/article.js";
@@ -36,6 +40,61 @@ try {
 
 
 // ======================
+// SITEMAP
+// ======================
+
+
+if(
+path === "/sitemap.xml"
+){
+
+return new Response(
+
+await sitemap(env),
+
+{
+headers:{
+"Content-Type":
+"application/xml;charset=UTF-8",
+
+"Cache-Control":
+"public,max-age=3600"
+}
+}
+
+);
+
+}
+
+
+
+// ======================
+// ROBOTS
+// ======================
+
+
+if(
+path === "/robots.txt"
+){
+
+return new Response(
+
+robots(),
+
+{
+headers:{
+"Content-Type":
+"text/plain;charset=UTF-8"
+}
+}
+
+);
+
+}
+
+
+
+// ======================
 // STATIC
 // ======================
 
@@ -43,7 +102,7 @@ try {
 if(
 path === "/logo.svg" ||
 path === "/favicon.svg"
-) {
+){
 
 
 const file =
@@ -69,7 +128,6 @@ return new Response(
 await file.arrayBuffer(),
 
 {
-
 headers:{
 "Content-Type":
 "image/svg+xml",
@@ -77,7 +135,6 @@ headers:{
 "Cache-Control":
 "public,max-age=86400"
 }
-
 }
 
 );
@@ -94,7 +151,7 @@ headers:{
 
 if(
 path.startsWith("/styles/")
-) {
+){
 
 
 const file =
@@ -120,7 +177,6 @@ return new Response(
 await file.arrayBuffer(),
 
 {
-
 headers:{
 "Content-Type":
 "text/css",
@@ -128,7 +184,6 @@ headers:{
 "Cache-Control":
 "public,max-age=86400"
 }
-
 }
 
 );
@@ -139,13 +194,13 @@ headers:{
 
 
 // ======================
-// LIST API
+// API LIST
 // ======================
 
 
 if(
 path === "/_list"
-) {
+){
 
 return Response.json(
 await list(env)
@@ -156,13 +211,13 @@ await list(env)
 
 
 // ======================
-// GET API
+// API GET
 // ======================
 
 
 if(
 path.startsWith("/_get/")
-) {
+){
 
 
 const slug =
@@ -181,12 +236,15 @@ slug
 if(!md)
 
 return Response.json(
+
 {
 error:"not found"
 },
+
 {
 status:404
 }
+
 );
 
 
@@ -207,7 +265,7 @@ parse(md)
 
 if(
 path === "/_save"
-) {
+){
 
 
 const body =
@@ -215,18 +273,49 @@ await req.json();
 
 
 
-const slug =
-body.slug;
-
-
-
 const content =
-body.content;
+body.content || "";
 
 
 
 const page =
 parse(content);
+
+
+
+let slug =
+body.slug ||
+page.slug ||
+page.title;
+
+
+
+if(!slug){
+
+return new Response(
+"slug missing",
+{
+status:400
+}
+);
+
+}
+
+
+
+slug =
+slug
+
+.toLowerCase()
+
+.trim()
+
+.replace(/\s+/g,"-")
+
+.replace(
+/[^a-z0-9\-]/g,
+""
+);
 
 
 
@@ -259,22 +348,27 @@ await rebuildIndex(env);
 
 
 
-return new Response(
-"ok"
-);
+return Response.json({
+
+ok:true,
+
+slug
+
+});
+
 
 }
 
 
 
 // ======================
-// HOME CACHE
+// HOME
 // ======================
 
 
 if(
 path === "/"
-) {
+){
 
 
 let index =
@@ -325,7 +419,7 @@ headers:{
 
 if(
 path === "/new"
-) {
+){
 
 
 return renderPage(
@@ -343,11 +437,13 @@ Write text here...
 
 }),
 
+
 `
 <button onclick="save()">
 Save
 </button>
 `,
+
 
 buildMeta({
 
@@ -356,6 +452,7 @@ title:"New article"
 })
 
 );
+
 
 }
 
@@ -368,7 +465,7 @@ title:"New article"
 
 if(
 path.startsWith("/edit/")
-) {
+){
 
 
 const slug =
@@ -398,12 +495,11 @@ editorTemplate({
 
 ...page,
 
-// ВАЖНО:
-// возвращаем полный markdown
-
-content: md
+// сохраняем оригинальный markdown
+content:md
 
 }),
+
 
 `
 <button onclick="save()">
@@ -411,10 +507,17 @@ Save
 </button>
 `,
 
+
 buildMeta({
 
 title:
 page.title || slug,
+
+description:
+page.description,
+
+image:
+page.image,
 
 slug
 
@@ -447,11 +550,13 @@ Write text here...
 
 }),
 
+
 `
 <button onclick="save()">
 Save
 </button>
 `,
+
 
 buildMeta({
 
@@ -477,7 +582,7 @@ if(
 path.startsWith("/")
 &&
 !path.startsWith("/_")
-) {
+){
 
 
 const slug =
@@ -516,11 +621,13 @@ Write text here...
 
 }),
 
+
 `
 <button onclick="save()">
 Save
 </button>
 `,
+
 
 buildMeta({
 
@@ -557,11 +664,13 @@ return renderPage(
 
 html,
 
+
 `
 <a href="/edit/${slug}">
 Edit
 </a>
 `,
+
 
 buildMeta({
 
@@ -593,8 +702,8 @@ status:404
 );
 
 
-}
 
+}
 
 catch(e){
 
