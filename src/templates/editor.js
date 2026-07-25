@@ -94,6 +94,11 @@ slug
 .replace(
 (/-+/g),
 "-"
+)
+
+.replace(
+(/^-|-$/g),
+""
 );
 
 
@@ -125,8 +130,11 @@ content:md
 
 if(!res.ok){
 
+const message =
+await res.text();
+
 alert(
-"Save error"
+"Save error: " + message
 );
 
 return;
@@ -136,7 +144,7 @@ return;
 
 
 location.href =
-"/" + slug;
+"/" + encodeURIComponent(slug);
 
 
 }

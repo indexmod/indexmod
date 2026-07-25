@@ -57,3 +57,8 @@ ${urls}
 `;
 
 }
+
+
+
+export const sitemap =
+generateSitemap;

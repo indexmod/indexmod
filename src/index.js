@@ -221,7 +221,9 @@ path.startsWith("/_get/")
 
 
 const slug =
-path.split("/").pop();
+decodeSlug(
+path.split("/").pop()
+);
 
 
 
@@ -310,12 +312,29 @@ slug
 
 .trim()
 
+.replace(
+/[^a-z0-9а-яё\s-]/gi,
+""
+)
+
 .replace(/\s+/g,"-")
 
-.replace(
-/[^a-z0-9\-]/g,
-""
+.replace(/-+/g,"-")
+
+.replace(/^-|-$/g,"");
+
+
+
+if(!slug){
+
+return new Response(
+"slug missing",
+{
+status:400
+}
 );
+
+}
 
 
 
@@ -469,7 +488,9 @@ path.startsWith("/edit/")
 
 
 const slug =
-path.slice(6);
+decodeSlug(
+path.slice(6)
+);
 
 
 
@@ -586,7 +607,9 @@ path.startsWith("/")
 
 
 const slug =
-path.slice(1);
+decodeSlug(
+path.slice(1)
+);
 
 
 
@@ -745,5 +768,22 @@ return slug
 .replace(/\b\w/g,c =>
 c.toUpperCase()
 );
+
+}
+
+
+
+function decodeSlug(slug = ""){
+
+try {
+
+return decodeURIComponent(slug);
+
+}
+catch {
+
+return slug;
+
+}
 
 }
