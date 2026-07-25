@@ -1,13 +1,17 @@
 import {
   getFile,
   getHtml,
+  getIndex,
   savePage,
   list
 } from "./storage.js";
 
 
 import { parse } from "./markdown.js";
+
 import { renderPage } from "./render.js";
+
+import { rebuildIndex } from "./build.js";
 
 
 import indexTemplate from "./templates/index.js";
@@ -35,7 +39,7 @@ try {
 
 
 // ======================
-// STATIC FILES
+// STATIC
 // ======================
 
 
@@ -49,11 +53,14 @@ const name =
 path.slice(1);
 
 
+
 const file =
 await env.PAGES.get(name);
 
 
+
 if(!file)
+
 return new Response(
 "not found",
 {
@@ -81,9 +88,8 @@ headers:{
 
 
 
-
 // ======================
-// CSS
+// CSS FROM R2
 // ======================
 
 
@@ -92,16 +98,15 @@ path.startsWith("/styles/")
 ) {
 
 
-const name =
-path.slice(1);
-
-
 const file =
-await env.PAGES.get(name);
+await env.PAGES.get(
+path.slice(1)
+);
 
 
 
 if(!file)
+
 return new Response(
 "not found",
 {
@@ -118,7 +123,7 @@ await file.arrayBuffer(),
 {
 headers:{
 "Content-Type":
-"text/css;charset=UTF-8"
+"text/css"
 }
 }
 
@@ -126,7 +131,6 @@ headers:{
 
 
 }
-
 
 
 
@@ -135,16 +139,19 @@ headers:{
 // ======================
 
 
-if(path === "/_list") {
+if(
+path === "/_list"
+) {
 
 
 return Response.json(
+
 await list(env)
+
 );
 
 
 }
-
 
 
 
@@ -153,7 +160,9 @@ await list(env)
 // ======================
 
 
-if(path.startsWith("/_get/")) {
+if(
+path.startsWith("/_get/")
+) {
 
 
 const slug =
@@ -169,29 +178,30 @@ slug
 
 
 
-if(!md){
+if(!md)
 
 return Response.json(
+
 {
 error:"not found"
 },
+
 {
 status:404
 }
-);
 
-}
+);
 
 
 
 return Response.json(
+
 parse(md)
+
 );
 
 
 }
-
-
 
 
 
@@ -200,7 +210,9 @@ parse(md)
 // ======================
 
 
-if(path === "/_save") {
+if(
+path === "/_save"
+) {
 
 
 const body =
@@ -248,6 +260,10 @@ html
 
 
 
+await rebuildIndex(env);
+
+
+
 return new Response(
 "ok"
 );
@@ -257,29 +273,72 @@ return new Response(
 
 
 
-
 // ======================
 // HOME
 // ======================
 
 
-if(path === "/") {
+if(
+path === "/"
+) {
 
 
-const pages =
-await list(env);
+const index =
+await getIndex(env);
 
 
 
-return renderPage(
+if(index) {
 
-indexTemplate(pages),
 
-`
-<a href="/new">
-New
-</a>
-`
+return new Response(
+
+index,
+
+{
+
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8",
+
+"Cache-Control":
+"public, max-age=3600"
+
+}
+
+}
+
+);
+
+}
+
+
+
+// первый запуск
+// если index.html еще нет
+
+
+await rebuildIndex(env);
+
+
+
+const fresh =
+await getIndex(env);
+
+
+
+return new Response(
+
+fresh,
+
+{
+
+headers:{
+"Content-Type":
+"text/html;charset=UTF-8"
+}
+
+}
 
 );
 
@@ -288,18 +347,25 @@ New
 
 
 
-
 // ======================
 // NEW
 // ======================
 
 
-if(path === "/new") {
+if(
+path === "/new"
+) {
 
 
 return renderPage(
 
-editorTemplate(),
+editorTemplate({
+
+slug:"",
+title:"",
+content:""
+
+}),
 
 `
 <button onclick="save()">
@@ -311,7 +377,6 @@ Save
 
 
 }
-
 
 
 
@@ -338,22 +403,23 @@ slug
 
 
 
-const page =
-parse(
+const page = {
+
+slug,
+
+title:
+parse(md || "").title,
+
+content:
 md || ""
-);
+
+};
 
 
 
 return renderPage(
 
-editorTemplate({
-
-...page,
-
-slug
-
-}),
+editorTemplate(page),
 
 `
 <button onclick="save()">
@@ -365,8 +431,6 @@ Save
 
 
 }
-
-
 
 
 
@@ -387,6 +451,34 @@ path.slice(1);
 
 
 
+const html =
+await getHtml(
+env,
+slug
+);
+
+
+
+if(html) {
+
+
+return renderPage(
+
+html,
+
+`
+<a href="/edit/${slug}">
+Edit
+</a>
+`
+
+);
+
+
+}
+
+
+
 const md =
 await getFile(
 env,
@@ -395,7 +487,7 @@ slug
 
 
 
-if(!md){
+if(!md)
 
 return new Response(
 "404",
@@ -403,8 +495,6 @@ return new Response(
 status:404
 }
 );
-
-}
 
 
 
@@ -427,24 +517,12 @@ slug
 <a href="/edit/${slug}">
 Edit
 </a>
-`,
-
-{
-
-title:page.title,
-
-slug,
-
-description:
-page.description || ""
-
-}
+`
 
 );
 
 
 }
-
 
 
 
@@ -458,7 +536,6 @@ status:404
 
 
 }
-
 
 catch(e){
 

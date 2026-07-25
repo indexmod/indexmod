@@ -11,12 +11,14 @@ const htmlFile = (slug) =>
   slug + ".html";
 
 
-
 // ===============================
 // GET MARKDOWN
 // ===============================
 
-export async function getFile(env, slug) {
+export async function getFile(
+  env,
+  slug
+) {
 
   const obj =
     await env.PAGES.get(
@@ -33,14 +35,39 @@ export async function getFile(env, slug) {
 
 
 // ===============================
-// GET HTML CACHE
+// GET HTML ARTICLE
 // ===============================
 
-export async function getHtml(env, slug) {
+export async function getHtml(
+  env,
+  slug
+) {
 
   const obj =
     await env.PAGES.get(
       htmlFile(slug)
+    );
+
+
+  return obj
+    ? await obj.text()
+    : null;
+
+}
+
+
+
+// ===============================
+// GET INDEX CACHE
+// ===============================
+
+export async function getIndex(
+  env
+) {
+
+  const obj =
+    await env.PAGES.get(
+      "index.html"
     );
 
 
@@ -63,8 +90,11 @@ export async function putFile(
 ) {
 
   await env.PAGES.put(
+
     mdFile(slug),
+
     content
+
   );
 
 }
@@ -72,7 +102,7 @@ export async function putFile(
 
 
 // ===============================
-// SAVE HTML CACHE
+// SAVE HTML ARTICLE
 // ===============================
 
 export async function putHtml(
@@ -82,8 +112,32 @@ export async function putHtml(
 ) {
 
   await env.PAGES.put(
+
     htmlFile(slug),
+
     html
+
+  );
+
+}
+
+
+
+// ===============================
+// SAVE INDEX CACHE
+// ===============================
+
+export async function putIndex(
+  env,
+  html
+) {
+
+  await env.PAGES.put(
+
+    "index.html",
+
+    html
+
   );
 
 }
@@ -103,31 +157,45 @@ export async function savePage(
 
 
   await putFile(
+
     env,
+
     slug,
+
     content
+
   );
+
 
 
   if(html){
 
+
     await putHtml(
+
       env,
+
       slug,
+
       html
+
     );
 
+
   }
+
 
 }
 
 
 
 // ===============================
-// LIST
+// LIST PAGES
 // ===============================
 
-export async function list(env) {
+export async function list(
+  env
+) {
 
 
 const res =
@@ -187,15 +255,18 @@ parsed.title || slug
 
 
 pages.sort(
+
 (a,b)=>
 a.title.localeCompare(
 b.title
 )
+
 );
 
 
 
 return pages;
+
 
 }
 
@@ -205,13 +276,14 @@ return pages;
 // FRONTMATTER
 // ===============================
 
-export function parseFrontmatter(
+function parseFrontmatter(
 md = ""
-){
+) {
+
 
 const m =
 md.match(
-/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/
+/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
 );
 
 
@@ -221,7 +293,7 @@ if(!m){
 return {
 
 title:"",
-slug:"",
+
 content:md
 
 };
@@ -242,8 +314,10 @@ m[1]
 const i =
 line.indexOf(":");
 
+
 if(i === -1)
 return;
+
 
 
 fm[
@@ -251,6 +325,7 @@ line.slice(0,i).trim()
 ]
 =
 line.slice(i+1).trim();
+
 
 
 });
@@ -262,14 +337,10 @@ return {
 title:
 fm.title || "",
 
-
-slug:
-fm.slug || "",
-
-
 content:
 m[2]
 
 };
+
 
 }
