@@ -14,7 +14,6 @@ import { renderPage } from "./render.js";
 import { rebuildIndex } from "./build.js";
 
 
-import indexTemplate from "./templates/index.js";
 import articleTemplate from "./templates/article.js";
 import editorTemplate from "./templates/editor.js";
 
@@ -89,7 +88,7 @@ headers:{
 
 
 // ======================
-// CSS FROM R2
+// CSS
 // ======================
 
 
@@ -195,9 +194,7 @@ status:404
 
 
 return Response.json(
-
 parse(md)
-
 );
 
 
@@ -283,12 +280,20 @@ path === "/"
 ) {
 
 
-const index =
+let index =
 await getIndex(env);
 
 
 
-if(index) {
+if(!index){
+
+await rebuildIndex(env);
+
+index =
+await getIndex(env);
+
+}
+
 
 
 return new Response(
@@ -304,38 +309,6 @@ headers:{
 "Cache-Control":
 "public, max-age=3600"
 
-}
-
-}
-
-);
-
-}
-
-
-
-// первый запуск
-// если index.html еще нет
-
-
-await rebuildIndex(env);
-
-
-
-const fresh =
-await getIndex(env);
-
-
-
-return new Response(
-
-fresh,
-
-{
-
-headers:{
-"Content-Type":
-"text/html;charset=UTF-8"
 }
 
 }
@@ -363,7 +336,15 @@ editorTemplate({
 
 slug:"",
 title:"",
-content:""
+
+content:
+`---
+title:
+slug:
+---
+
+Write text here...
+`
 
 }),
 
@@ -403,16 +384,28 @@ slug
 
 
 
-const page = {
-
+const page =
+md
+?
+{
+...parse(md),
+slug
+}
+:
+{
 slug,
 
 title:
-parse(md || "").title,
+titleFromSlug(slug),
 
 content:
-md || ""
+`---
+title: ${titleFromSlug(slug)}
+slug: ${slug}
+---
 
+Write text here...
+`
 };
 
 
@@ -459,7 +452,7 @@ slug
 
 
 
-if(html) {
+if(html){
 
 
 return renderPage(
@@ -487,14 +480,39 @@ slug
 
 
 
-if(!md)
+if(!md){
 
-return new Response(
-"404",
-{
-status:404
-}
+
+return renderPage(
+
+editorTemplate({
+
+slug,
+
+title:
+titleFromSlug(slug),
+
+content:
+`---
+title: ${titleFromSlug(slug)}
+slug: ${slug}
+---
+
+Write text here...
+`
+
+}),
+
+`
+<button onclick="save()">
+Save
+</button>
+`
+
 );
+
+
+}
 
 
 
@@ -539,7 +557,6 @@ status:404
 
 catch(e){
 
-
 return new Response(
 
 e.stack || e.message,
@@ -565,3 +582,19 @@ headers:{
 }
 
 };
+
+
+
+
+
+function titleFromSlug(slug){
+
+return slug
+
+.replace(/-/g," ")
+
+.replace(/\b\w/g, c =>
+c.toUpperCase()
+);
+
+}
