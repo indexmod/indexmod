@@ -17,7 +17,7 @@ return `
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Indexmod — evolving fashion and art encyclopedia">
+<meta name="description" content="Indexmod — fashion and art encyclopedia">
 
 <meta property="og:type" content="article">
 
@@ -274,6 +274,14 @@ max-width:900px;
 .content p{
 
 margin:0 0 30px;
+
+}
+
+.content strong{
+
+color:#2f8f46;
+
+font-weight:normal;
 
 }
 
