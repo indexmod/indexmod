@@ -1,1 +1,53 @@
-/* view layer overrides later */
+.content {
+
+max-width:900px;
+
+}
+
+
+.content p {
+
+margin:0 0 30px;
+
+}
+
+
+.content strong {
+
+font-weight:normal;
+color:green;
+
+}
+
+
+.content table {
+
+border-collapse:collapse;
+width:100%;
+
+margin:40px 0;
+
+}
+
+
+.content th,
+.content td {
+
+border-bottom:1px solid #ddd;
+
+padding:10px;
+
+text-align:left;
+
+}
+
+
+.content blockquote {
+
+border-left:3px solid #000;
+
+padding-left:30px;
+
+font-style:italic;
+
+}

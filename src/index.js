@@ -35,11 +35,14 @@ try {
 
 
 // ======================
-// STATIC
+// STATIC FILES
 // ======================
 
 
-if(path === "/logo.svg" || path === "/favicon.svg") {
+if(
+path === "/logo.svg" ||
+path === "/favicon.svg"
+) {
 
 
 const name =
@@ -59,18 +62,71 @@ status:404
 );
 
 
+
 return new Response(
+
 await file.arrayBuffer(),
+
 {
 headers:{
 "Content-Type":
 "image/svg+xml"
 }
 }
+
 );
 
 
 }
+
+
+
+
+// ======================
+// CSS
+// ======================
+
+
+if(
+path.startsWith("/styles/")
+) {
+
+
+const name =
+path.slice(1);
+
+
+const file =
+await env.PAGES.get(name);
+
+
+
+if(!file)
+return new Response(
+"not found",
+{
+status:404
+}
+);
+
+
+
+return new Response(
+
+await file.arrayBuffer(),
+
+{
+headers:{
+"Content-Type":
+"text/css;charset=UTF-8"
+}
+}
+
+);
+
+
+}
+
 
 
 
@@ -81,11 +137,14 @@ headers:{
 
 if(path === "/_list") {
 
+
 return Response.json(
 await list(env)
 );
 
+
 }
+
 
 
 
@@ -101,11 +160,13 @@ const slug =
 path.split("/").pop();
 
 
+
 const md =
 await getFile(
 env,
 slug
 );
+
 
 
 if(!md){
@@ -122,11 +183,15 @@ status:404
 }
 
 
+
 return Response.json(
 parse(md)
 );
 
+
 }
+
+
 
 
 
@@ -145,6 +210,7 @@ await req.json();
 
 const slug =
 body.slug;
+
 
 
 const content =
@@ -186,6 +252,7 @@ return new Response(
 "ok"
 );
 
+
 }
 
 
@@ -222,7 +289,6 @@ New
 
 
 
-
 // ======================
 // NEW
 // ======================
@@ -233,11 +299,59 @@ if(path === "/new") {
 
 return renderPage(
 
+editorTemplate(),
+
+`
+<button onclick="save()">
+Save
+</button>
+`
+
+);
+
+
+}
+
+
+
+
+// ======================
+// EDIT
+// ======================
+
+
+if(
+path.startsWith("/edit/")
+) {
+
+
+const slug =
+path.slice(6);
+
+
+
+const md =
+await getFile(
+env,
+slug
+);
+
+
+
+const page =
+parse(
+md || ""
+);
+
+
+
+return renderPage(
+
 editorTemplate({
 
-slug:"",
-title:"",
-content:""
+...page,
+
+slug
 
 }),
 
@@ -257,57 +371,6 @@ Save
 
 
 // ======================
-// EDIT
-// ======================
-
-
-if(path.startsWith("/edit/")) {
-
-
-const slug =
-path.slice(6);
-
-
-
-const md =
-await getFile(
-env,
-slug
-);
-
-
-
-const page = {
-
-slug,
-
-title:"",
-
-content: md || ""
-
-};
-
-
-
-return renderPage(
-
-editorTemplate(page),
-
-`
-<button onclick="save()">
-Save
-</button>
-`
-
-);
-
-
-}
-
-
-
-
-// ======================
 // ARTICLE
 // ======================
 
@@ -321,32 +384,6 @@ path.startsWith("/")
 
 const slug =
 path.slice(1);
-
-
-
-const html =
-await getHtml(
-env,
-slug
-);
-
-
-
-if(html){
-
-return renderPage(
-
-html,
-
-`
-<a href="/edit/${slug}">
-Edit
-</a>
-`
-
-);
-
-}
 
 
 
@@ -390,12 +427,24 @@ slug
 <a href="/edit/${slug}">
 Edit
 </a>
-`
+`,
+
+{
+
+title:page.title,
+
+slug,
+
+description:
+page.description || ""
+
+}
 
 );
 
 
 }
+
 
 
 
@@ -410,6 +459,7 @@ status:404
 
 }
 
+
 catch(e){
 
 
@@ -418,11 +468,14 @@ return new Response(
 e.stack || e.message,
 
 {
+
 status:500,
+
 headers:{
 "Content-Type":
 "text/plain;charset=utf-8"
 }
+
 }
 
 );

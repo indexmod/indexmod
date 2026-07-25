@@ -1,35 +1,25 @@
-/* index layer overrides later */
-/* ================= GRID ================= */
+.grid {
 
-#list {
-  column-count: 3;
-  column-gap: 40px;
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:40px;
+
 }
 
-@media (max-width: 900px) {
-  #list {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 600px) {
-  #list {
-    column-count: 1;
-  }
-}
-
-/* ================= LINKS ================= */
-
-#list a {
-  display: block;
-  margin-bottom: 6px;
-}
-
-/* ================= LETTER SECTIONS ================= */
 
 .letter {
-  font-size: 32px;
-  margin-top: 32px;
-  margin-bottom: 12px;
-  font-weight: bold;
+
+font-size:90px;
+
+}
+
+
+.col a {
+
+display:block;
+
+margin:6px 0;
+
 }
