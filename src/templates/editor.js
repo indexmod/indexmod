@@ -1,41 +1,17 @@
-import prompt from "./prompt.js";
-
-
 export default function editorTemplate(page = {}) {
 
-
 return `
-
-<h1>
-${page.slug ? "Edit" : "New"}
-</h1>
-
-
 
 <textarea id="md">${page.content || `---
 title:
 slug:
 ---
 
-${prompt}
-
 Write text here...
 `}</textarea>
 
 
-
-<br><br>
-
-
-
-<button onclick="save()">
-Save
-</button>
-
-
-
 <script>
-
 
 async function save(){
 
@@ -49,7 +25,7 @@ document
 
 const slugMatch =
 md.match(
-/^slug:\\s*(.+)$/m
+/^slug:\s*(.+)$/m
 );
 
 
@@ -109,7 +85,6 @@ alert(
 return;
 
 }
-
 
 
 location.href =

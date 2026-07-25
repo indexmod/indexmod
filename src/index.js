@@ -16,20 +16,6 @@ import editorTemplate from "./templates/editor.js";
 
 
 
-function nav(items = []) {
-
-return items.map(x => `
-
-<a href="${x.href}">
-${x.text}
-</a>
-
-`).join("");
-
-}
-
-
-
 export default {
 
 
@@ -48,42 +34,39 @@ url.pathname;
 try {
 
 
+// ======================
 // STATIC
+// ======================
 
-if(
-path === "/logo.svg" ||
-path === "/favicon.svg"
-) {
+
+if(path === "/logo.svg" || path === "/favicon.svg") {
+
+
+const name =
+path.slice(1);
 
 
 const file =
-await env.PAGES.get(
-path.slice(1)
-);
+await env.PAGES.get(name);
 
 
 if(!file)
 return new Response(
 "not found",
-{status:404}
+{
+status:404
+}
 );
 
 
 return new Response(
-
 await file.arrayBuffer(),
-
 {
 headers:{
 "Content-Type":
-path.endsWith(".svg")
-?
 "image/svg+xml"
-:
-"text/plain"
 }
 }
-
 );
 
 
@@ -91,7 +74,10 @@ path.endsWith(".svg")
 
 
 
-// LIST
+// ======================
+// API LIST
+// ======================
+
 
 if(path === "/_list") {
 
@@ -103,7 +89,10 @@ await list(env)
 
 
 
-// GET
+// ======================
+// API GET
+// ======================
+
 
 if(path.startsWith("/_get/")) {
 
@@ -119,7 +108,7 @@ slug
 );
 
 
-if(!md)
+if(!md){
 
 return Response.json(
 {
@@ -130,24 +119,28 @@ status:404
 }
 );
 
+}
+
 
 return Response.json(
 parse(md)
 );
 
-
 }
 
 
 
-
+// ======================
 // SAVE
+// ======================
+
 
 if(path === "/_save") {
 
 
 const body =
 await req.json();
+
 
 
 const slug =
@@ -158,13 +151,13 @@ const content =
 body.content;
 
 
+
 const page =
 parse(content);
 
 
 
 const html =
-
 articleTemplate({
 
 ...page,
@@ -198,8 +191,10 @@ return new Response(
 
 
 
-
+// ======================
 // HOME
+// ======================
+
 
 if(path === "/") {
 
@@ -213,14 +208,11 @@ return renderPage(
 
 indexTemplate(pages),
 
-nav([
-
-{
-href:"/new",
-text:"New"
-}
-
-])
+`
+<a href="/new">
+New
+</a>
+`
 
 );
 
@@ -230,7 +222,11 @@ text:"New"
 
 
 
+
+// ======================
 // NEW
+// ======================
+
 
 if(path === "/new") {
 
@@ -245,14 +241,11 @@ content:""
 
 }),
 
-nav([
-
-{
-href:"/",
-text:"Home"
-}
-
-])
+`
+<button onclick="save()">
+Save
+</button>
+`
 
 );
 
@@ -262,13 +255,18 @@ text:"Home"
 
 
 
+
+// ======================
 // EDIT
+// ======================
+
 
 if(path.startsWith("/edit/")) {
 
 
 const slug =
 path.slice(6);
+
 
 
 const md =
@@ -278,23 +276,15 @@ slug
 );
 
 
-const page =
 
-md
+const page = {
 
-?
-
-{
-...parse(md),
-slug
-}
-
-:
-
-{
 slug,
+
 title:"",
-content:""
+
+content: md || ""
+
 };
 
 
@@ -303,14 +293,11 @@ return renderPage(
 
 editorTemplate(page),
 
-nav([
-
-{
-href:"/",
-text:"Home"
-}
-
-])
+`
+<button onclick="save()">
+Save
+</button>
+`
 
 );
 
@@ -320,8 +307,10 @@ text:"Home"
 
 
 
-
+// ======================
 // ARTICLE
+// ======================
+
 
 if(
 path.startsWith("/")
@@ -343,19 +332,17 @@ slug
 
 
 
-if(html) {
+if(html){
 
-
-return new Response(
+return renderPage(
 
 html,
 
-{
-headers:{
-"Content-Type":
-"text/html;charset=UTF-8"
-}
-}
+`
+<a href="/edit/${slug}">
+Edit
+</a>
+`
 
 );
 
@@ -371,7 +358,7 @@ slug
 
 
 
-if(!md)
+if(!md){
 
 return new Response(
 "404",
@@ -379,6 +366,8 @@ return new Response(
 status:404
 }
 );
+
+}
 
 
 
@@ -397,25 +386,16 @@ slug
 
 }),
 
-nav([
-
-{
-href:"/new",
-text:"New"
-},
-
-{
-href:"/edit/"+slug,
-text:"Edit"
-}
-
-])
+`
+<a href="/edit/${slug}">
+Edit
+</a>
+`
 
 );
 
 
 }
-
 
 
 
