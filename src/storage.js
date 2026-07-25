@@ -33,7 +33,7 @@ export async function getFile(env, slug) {
 
 
 // ===============================
-// GET HTML
+// GET HTML CACHE
 // ===============================
 
 export async function getHtml(env, slug) {
@@ -72,7 +72,7 @@ export async function putFile(
 
 
 // ===============================
-// SAVE HTML
+// SAVE HTML CACHE
 // ===============================
 
 export async function putHtml(
@@ -109,8 +109,7 @@ export async function savePage(
   );
 
 
-
-  if (html) {
+  if(html){
 
     await putHtml(
       env,
@@ -120,83 +119,83 @@ export async function savePage(
 
   }
 
-
 }
 
 
 
 // ===============================
-// LIST FILES
+// LIST
 // ===============================
 
 export async function list(env) {
 
 
-  const res =
-    await env.PAGES.list();
+const res =
+await env.PAGES.list();
 
 
 
-  const pages =
-    await Promise.all(
+const pages =
+await Promise.all(
 
-      res.objects
+res.objects
 
-        .filter(
-          o =>
-          o.key.endsWith(".md")
-        )
-
-
-        .map(async o => {
+.filter(
+o =>
+o.key.endsWith(".md")
+)
 
 
-          const slug =
-            o.key.replace(
-              ".md",
-              ""
-            );
+.map(async o=>{
 
 
-          const md =
-            await getFile(
-              env,
-              slug
-            );
-
-
-          const parsed =
-            parseFrontmatter(md);
+const slug =
+o.key.replace(
+".md",
+""
+);
 
 
 
-          return {
-
-            slug,
-
-            title:
-              parsed.title || slug
-
-          };
-
-
-        })
-
-    );
+const md =
+await getFile(
+env,
+slug
+);
 
 
 
-  pages.sort(
-
-    (a,b)=>
-      a.title.localeCompare(
-        b.title
-      )
-
-  );
+const parsed =
+parseFrontmatter(md);
 
 
-  return pages;
+
+return {
+
+slug,
+
+title:
+parsed.title || slug
+
+};
+
+
+})
+
+);
+
+
+
+pages.sort(
+(a,b)=>
+a.title.localeCompare(
+b.title
+)
+);
+
+
+
+return pages;
 
 }
 
@@ -206,68 +205,71 @@ export async function list(env) {
 // FRONTMATTER
 // ===============================
 
-function parseFrontmatter(
-  md = ""
-) {
+export function parseFrontmatter(
+md = ""
+){
 
-
-  const m =
-    md.match(
-      /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
-    );
-
-
-
-  if (!m) {
-
-    return {
-
-      title:"",
-      content:md
-
-    };
-
-  }
+const m =
+md.match(
+/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/
+);
 
 
 
-  const fm = {};
+if(!m){
+
+return {
+
+title:"",
+slug:"",
+content:md
+
+};
+
+}
 
 
 
-  m[1]
-    .split("\n")
-    .forEach(line=>{
-
-
-      const i =
-        line.indexOf(":");
+const fm = {};
 
 
 
-      if(i === -1)
-        return;
+m[1]
+.split("\n")
+.forEach(line=>{
+
+
+const i =
+line.indexOf(":");
+
+if(i === -1)
+return;
+
+
+fm[
+line.slice(0,i).trim()
+]
+=
+line.slice(i+1).trim();
+
+
+});
 
 
 
-      fm[
-        line.slice(0,i).trim()
-      ] =
-        line.slice(i+1).trim();
+return {
+
+title:
+fm.title || "",
 
 
-    });
+slug:
+fm.slug || "",
 
 
+content:
+m[2]
 
-  return {
-
-    title:
-      fm.title || "",
-
-    content:
-      m[2]
-
-  };
+};
 
 }
