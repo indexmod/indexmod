@@ -1,8 +1,37 @@
+import { og } from "../meta.js";
+
+
+
 export default function layout(
   c,
   rightUI = "",
   meta = {}
 ) {
+
+
+
+const title =
+meta.title ||
+"Indexmod";
+
+
+
+const description =
+meta.description ||
+"Indexmod — fashion and art encyclopedia";
+
+
+
+const url =
+meta.url ||
+(
+meta.slug
+?
+`https://indexmod.press/${meta.slug}`
+:
+"https://indexmod.press"
+);
+
 
 
 return `
@@ -12,6 +41,7 @@ return `
 <html>
 
 <head>
+
 
 <meta charset="utf-8">
 
@@ -24,27 +54,32 @@ return `
 
 
 <title>
-
-${escapeHtml(
-meta.title ||
-"Indexmod"
-
-)}
-
+${escapeHtml(title)}
 </title>
 
 
 
-<meta name="description" content="${
-escapeHtml(
-meta.description ||
-"Indexmod — fashion and art encyclopedia"
-)
-}">
+<meta name="description"
+content="${escapeHtml(description)}">
 
 
 
-${og(meta)}
+<link rel="canonical"
+href="${url}">
+
+
+
+${og({
+
+...meta,
+
+title,
+
+description,
+
+url
+
+})}
 
 
 
@@ -57,8 +92,8 @@ ${og(meta)}
 <link rel="stylesheet" href="/styles/index.css">
 
 
-
 </head>
+
 
 
 <body>
@@ -68,15 +103,11 @@ ${og(meta)}
 <header class="site-header">
 
 
-
 <a href="/" class="logo">
-
 
 <img src="/logo.svg">
 
-
 </a>
-
 
 
 </header>
@@ -92,9 +123,7 @@ ${og(meta)}
 
 <div class="actions">
 
-
 ${rightUI}
-
 
 </div>
 
@@ -106,9 +135,7 @@ ${rightUI}
 
 <main>
 
-
 ${c}
-
 
 </main>
 
@@ -118,14 +145,11 @@ ${c}
 <footer class="site-footer">
 
 
-
 <a class="footer-link"
 href="https://mod.indexmod.press">
 
 
-
 <span class="footer-dot"></span>
-
 
 
 <span class="footer-text">
@@ -135,9 +159,7 @@ xx лет
 </span>
 
 
-
 </a>
-
 
 
 </footer>
@@ -149,105 +171,9 @@ xx лет
 
 </html>
 
-
 `;
 
 }
-
-
-
-
-
-// ===============================
-// OPEN GRAPH
-// ===============================
-
-
-function og(meta = {}) {
-
-
-const title =
-meta.title ||
-"Indexmod Fashion and Art";
-
-
-
-const description =
-meta.description ||
-"Indexmod — fashion and art encyclopedia";
-
-
-
-const url =
-meta.slug
-?
-`https://indexmod.press/${meta.slug}`
-:
-"https://indexmod.press";
-
-
-
-return `
-
-
-<meta property="og:type" content="article">
-
-
-<meta property="og:site_name" content="Indexmod Fashion and Art">
-
-
-<meta property="og:title"
-content="${escapeHtml(title)}">
-
-
-<meta property="og:description"
-content="${escapeHtml(description)}">
-
-
-<meta property="og:url"
-content="${url}">
-
-
-
-<meta name="twitter:card"
-content="summary_large_image">
-
-
-<meta name="twitter:title"
-content="${escapeHtml(title)}">
-
-
-<meta name="twitter:description"
-content="${escapeHtml(description)}">
-
-
-
-${
-meta.image
-?
-
-`
-
-<meta property="og:image"
-content="${meta.image}">
-
-
-<meta name="twitter:image"
-content="${meta.image}">
-
-`
-
-:
-
-""
-
-}
-
-
-`;
-
-}
-
 
 
 
@@ -264,6 +190,5 @@ return String(str)
 .replace(/</g,"&lt;")
 
 .replace(/>/g,"&gt;");
-
 
 }

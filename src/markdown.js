@@ -1,19 +1,11 @@
 import { marked } from "marked";
 
 
-// ===============================
-// PARSE MARKDOWN
-// ===============================
-
 export function parse(md = "") {
 
 
 let title = "";
-
-let slug = "";
-
 let description = "";
-
 let image = "";
 
 let content = md;
@@ -26,7 +18,7 @@ let content = md;
 
 const fm =
 md.match(
-/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/
+/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
 );
 
 
@@ -37,7 +29,6 @@ if(fm){
 const meta = fm[1];
 
 content = fm[2];
-
 
 
 meta
@@ -53,52 +44,25 @@ if(i === -1)
 return;
 
 
-
 const key =
-line
-.slice(0,i)
-.trim();
-
+line.slice(0,i).trim();
 
 
 const value =
-line
-.slice(i+1)
-.trim();
+line.slice(i+1).trim();
 
 
 
-switch(key){
-
-case "title":
-
-title = value;
-
-break;
+if(key==="title")
+title=value;
 
 
-case "slug":
-
-slug = value;
-
-break;
+if(key==="description")
+description=value;
 
 
-case "description":
-
-description = value;
-
-break;
-
-
-case "image":
-
-image = value;
-
-break;
-
-
-}
+if(key==="image")
+image=value;
 
 
 });
@@ -109,34 +73,91 @@ break;
 
 
 // ===============================
-// REMOVE INTERNAL PROMPT
-// FROM PUBLIC HTML
+// FALLBACK TITLE
 // ===============================
 
-const publicContent =
-content.replace(
-/<!--\s*INDEXMOD PROMPT[\s\S]*?-->/,
-""
+
+if(!title){
+
+const h =
+content.match(
+/^#\s+(.+)$/m
 );
 
 
+if(h)
+title=h[1];
+
+}
+
+
 
 // ===============================
-// MARKDOWN → HTML
+// FALLBACK DESCRIPTION
 // ===============================
+
+
+if(!description){
+
+description =
+content
+
+.replace(
+/!\[.*?\]\(.*?\)/g,
+""
+)
+
+.replace(
+/[#>*_`]/g,
+""
+)
+
+.replace(
+/\n+/g,
+" "
+)
+
+.trim()
+
+.slice(0,180);
+
+}
+
+
+
+// ===============================
+// FALLBACK IMAGE
+// ===============================
+
+
+if(!image){
+
+const img =
+content.match(
+/!\[.*?\]\((.*?)\)/
+);
+
+
+if(img)
+image=img[1];
+
+}
+
+
+
+// ===============================
+// MARKDOWN HTML
+// ===============================
+
 
 const html =
-marked.parse(
-publicContent
-);
+marked.parse(content);
 
 
 
 return {
 
 title,
-
-slug,
 
 description,
 

@@ -28,7 +28,17 @@ content,
 <a href="/new">
 New
 </a>
-`
+`,
+
+{
+
+title:
+"Indexmod",
+
+description:
+"Indexmod — fashion and art encyclopedia"
+
+}
 
 );
 
@@ -38,7 +48,18 @@ await env.PAGES.put(
 
 "index.html",
 
-html
+html,
+
+{
+
+httpMetadata:{
+
+contentType:
+"text/html;charset=UTF-8"
+
+}
+
+}
 
 );
 

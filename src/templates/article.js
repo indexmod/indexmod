@@ -5,7 +5,7 @@ return `
 <article>
 
 <h1>
-${page.title || page.slug}
+${page.title || page.slug || ""}
 </h1>
 
 

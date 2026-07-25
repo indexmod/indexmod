@@ -7,51 +7,31 @@ const mdFile = (slug) =>
   slug + ".md";
 
 
-const htmlFile = (slug) =>
-  slug + ".html";
-
 
 // ===============================
 // GET MARKDOWN
 // ===============================
+
 
 export async function getFile(
   env,
   slug
 ) {
 
-  const obj =
-    await env.PAGES.get(
-      mdFile(slug)
-    );
 
-
-  return obj
-    ? await obj.text()
-    : null;
-
-}
+const obj =
+await env.PAGES.get(
+  mdFile(slug)
+);
 
 
 
-// ===============================
-// GET HTML ARTICLE
-// ===============================
+return obj
+?
+await obj.text()
+:
+null;
 
-export async function getHtml(
-  env,
-  slug
-) {
-
-  const obj =
-    await env.PAGES.get(
-      htmlFile(slug)
-    );
-
-
-  return obj
-    ? await obj.text()
-    : null;
 
 }
 
@@ -61,19 +41,25 @@ export async function getHtml(
 // GET INDEX CACHE
 // ===============================
 
+
 export async function getIndex(
   env
 ) {
 
-  const obj =
-    await env.PAGES.get(
-      "index.html"
-    );
+
+const obj =
+await env.PAGES.get(
+  "index.html"
+);
 
 
-  return obj
-    ? await obj.text()
-    : null;
+
+return obj
+?
+await obj.text()
+:
+null;
+
 
 }
 
@@ -83,41 +69,22 @@ export async function getIndex(
 // SAVE MARKDOWN
 // ===============================
 
+
 export async function putFile(
   env,
   slug,
   content
 ) {
 
-  await env.PAGES.put(
 
-    mdFile(slug),
+await env.PAGES.put(
 
-    content
+mdFile(slug),
 
-  );
+content
 
-}
+);
 
-
-
-// ===============================
-// SAVE HTML ARTICLE
-// ===============================
-
-export async function putHtml(
-  env,
-  slug,
-  html
-) {
-
-  await env.PAGES.put(
-
-    htmlFile(slug),
-
-    html
-
-  );
 
 }
 
@@ -127,18 +94,21 @@ export async function putHtml(
 // SAVE INDEX CACHE
 // ===============================
 
+
 export async function putIndex(
   env,
   html
 ) {
 
-  await env.PAGES.put(
 
-    "index.html",
+await env.PAGES.put(
 
-    html
+"index.html",
 
-  );
+html
+
+);
+
 
 }
 
@@ -148,41 +118,23 @@ export async function putIndex(
 // SAVE PAGE
 // ===============================
 
+
 export async function savePage(
   env,
   slug,
-  content,
-  html = null
+  content
 ) {
 
 
-  await putFile(
+await putFile(
 
-    env,
+env,
 
-    slug,
+slug,
 
-    content
+content
 
-  );
-
-
-
-  if(html){
-
-
-    await putHtml(
-
-      env,
-
-      slug,
-
-      html
-
-    );
-
-
-  }
+);
 
 
 }
@@ -192,6 +144,7 @@ export async function savePage(
 // ===============================
 // LIST PAGES
 // ===============================
+
 
 export async function list(
   env
@@ -205,6 +158,7 @@ await env.PAGES.list();
 
 const pages =
 await Promise.all(
+
 
 res.objects
 
@@ -250,6 +204,7 @@ parsed.title || slug
 
 })
 
+
 );
 
 
@@ -276,6 +231,7 @@ return pages;
 // FRONTMATTER
 // ===============================
 
+
 function parseFrontmatter(
 md = ""
 ) {
@@ -290,6 +246,7 @@ md.match(
 
 if(!m){
 
+
 return {
 
 title:"",
@@ -297,6 +254,7 @@ title:"",
 content:md
 
 };
+
 
 }
 
@@ -307,12 +265,15 @@ const fm = {};
 
 
 m[1]
+
 .split("\n")
+
 .forEach(line=>{
 
 
 const i =
 line.indexOf(":");
+
 
 
 if(i === -1)
@@ -334,11 +295,14 @@ line.slice(i+1).trim();
 
 return {
 
+
 title:
 fm.title || "",
 
+
 content:
 m[2]
+
 
 };
 

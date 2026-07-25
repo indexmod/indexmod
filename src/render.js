@@ -1,4 +1,5 @@
 import layout from "./templates/layout.js";
+import { buildMeta } from "./meta.js";
 
 
 
@@ -9,24 +10,35 @@ export function renderPage(
 ) {
 
 
+
+const pageMeta =
+buildMeta(meta);
+
+
+
 return new Response(
 
 layout(
-  content,
-  rightUI,
-  meta
+
+content,
+
+rightUI,
+
+pageMeta
+
 ),
 
-
 {
+
 headers:{
+
 "Content-Type":
 "text/html;charset=UTF-8"
-}
+
 }
 
+}
 
 );
-
 
 }

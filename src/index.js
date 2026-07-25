@@ -8,10 +8,9 @@ import {
 
 
 import { parse } from "./markdown.js";
-
 import { renderPage } from "./render.js";
-
 import { rebuildIndex } from "./build.js";
+import { buildMeta } from "./meta.js";
 
 
 import articleTemplate from "./templates/article.js";
@@ -48,13 +47,10 @@ path === "/favicon.svg"
 ) {
 
 
-const name =
-path.slice(1);
-
-
-
 const file =
-await env.PAGES.get(name);
+await env.PAGES.get(
+path.slice(1)
+);
 
 
 
@@ -74,10 +70,14 @@ return new Response(
 await file.arrayBuffer(),
 
 {
+
 headers:{
 "Content-Type":
-"image/svg+xml"
+"image/svg+xml",
+"Cache-Control":
+"public,max-age=86400"
 }
+
 }
 
 );
@@ -120,10 +120,14 @@ return new Response(
 await file.arrayBuffer(),
 
 {
+
 headers:{
 "Content-Type":
-"text/css"
+"text/css",
+"Cache-Control":
+"public,max-age=86400"
 }
+
 }
 
 );
@@ -134,7 +138,7 @@ headers:{
 
 
 // ======================
-// API LIST
+// LIST
 // ======================
 
 
@@ -144,9 +148,7 @@ path === "/_list"
 
 
 return Response.json(
-
 await list(env)
-
 );
 
 
@@ -155,7 +157,7 @@ await list(env)
 
 
 // ======================
-// API GET
+// GET API
 // ======================
 
 
@@ -180,15 +182,12 @@ slug
 if(!md)
 
 return Response.json(
-
 {
 error:"not found"
 },
-
 {
 status:404
 }
-
 );
 
 
@@ -271,7 +270,7 @@ return new Response(
 
 
 // ======================
-// HOME
+// HOME CACHE
 // ======================
 
 
@@ -303,11 +302,12 @@ index,
 {
 
 headers:{
+
 "Content-Type":
 "text/html;charset=UTF-8",
 
 "Cache-Control":
-"public, max-age=3600"
+"public,max-age=3600"
 
 }
 
@@ -335,6 +335,7 @@ return renderPage(
 editorTemplate({
 
 slug:"",
+
 title:"",
 
 content:
@@ -352,7 +353,13 @@ Write text here...
 <button onclick="save()">
 Save
 </button>
-`
+`,
+
+buildMeta({
+
+title:"New article"
+
+})
 
 );
 
@@ -384,6 +391,11 @@ slug
 
 
 
+const title =
+titleFromSlug(slug);
+
+
+
 const page =
 md
 ?
@@ -393,19 +405,20 @@ slug
 }
 :
 {
+
 slug,
 
-title:
-titleFromSlug(slug),
+title,
 
 content:
 `---
-title: ${titleFromSlug(slug)}
+title: ${title}
 slug: ${slug}
 ---
 
 Write text here...
 `
+
 };
 
 
@@ -418,7 +431,16 @@ editorTemplate(page),
 <button onclick="save()">
 Save
 </button>
-`
+`,
+
+buildMeta({
+
+title:
+page.title,
+
+slug
+
+})
 
 );
 
@@ -444,34 +466,6 @@ path.slice(1);
 
 
 
-const html =
-await getHtml(
-env,
-slug
-);
-
-
-
-if(html){
-
-
-return renderPage(
-
-html,
-
-`
-<a href="/edit/${slug}">
-Edit
-</a>
-`
-
-);
-
-
-}
-
-
-
 const md =
 await getFile(
 env,
@@ -483,18 +477,22 @@ slug
 if(!md){
 
 
+const title =
+titleFromSlug(slug);
+
+
+
 return renderPage(
 
 editorTemplate({
 
 slug,
 
-title:
-titleFromSlug(slug),
+title,
 
 content:
 `---
-title: ${titleFromSlug(slug)}
+title: ${title}
 slug: ${slug}
 ---
 
@@ -507,7 +505,15 @@ Write text here...
 <button onclick="save()">
 Save
 </button>
-`
+`,
+
+buildMeta({
+
+title,
+
+slug
+
+})
 
 );
 
@@ -516,26 +522,69 @@ Save
 
 
 
+
 const page =
 parse(md);
 
 
 
-return renderPage(
+let html =
+await getHtml(
+env,
+slug
+);
 
+
+
+if(!html){
+
+
+html =
 articleTemplate({
 
 ...page,
 
 slug
 
-}),
+});
+
+
+}
+
+
+
+return renderPage(
+
+html,
 
 `
 <a href="/edit/${slug}">
 Edit
 </a>
-`
+`,
+
+buildMeta({
+
+title:
+page.title || slug,
+
+
+description:
+
+page.content
+
+.replace(/[#>*_`\[\]()]/g,"")
+
+.replace(/\s+/g," ")
+
+.trim()
+
+.slice(0,180),
+
+
+slug
+
+})
 
 );
 
@@ -552,14 +601,16 @@ status:404
 );
 
 
-
 }
+
 
 catch(e){
 
+
 return new Response(
 
-e.stack || e.message,
+e.stack ||
+e.message,
 
 {
 
@@ -578,12 +629,10 @@ headers:{
 }
 
 
-
 }
 
+
 };
-
-
 
 
 
@@ -593,7 +642,7 @@ return slug
 
 .replace(/-/g," ")
 
-.replace(/\b\w/g, c =>
+.replace(/\b\w/g,c =>
 c.toUpperCase()
 );
 
