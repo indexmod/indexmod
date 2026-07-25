@@ -1,4 +1,5 @@
 import { og } from "../meta.js";
+import yandexMetrika from "../metrics.js";
 
 
 
@@ -90,6 +91,8 @@ url
 <link rel="stylesheet" href="/styles/editor.css">
 
 <link rel="stylesheet" href="/styles/index.css">
+
+${yandexMetrika()}
 
 
 </head>
