@@ -1,7 +1,6 @@
 import layout from "./templates/layout.js";
 
 
-
 export function renderPage(
   content,
   rightUI = ""
@@ -17,7 +16,7 @@ export function renderPage(
     {
       headers:{
         "Content-Type":
-          "text/html;charset=UTF-8"
+        "text/html;charset=UTF-8"
       }
     }
 

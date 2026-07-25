@@ -1,25 +1,13 @@
 import { marked } from "marked";
 
 
-// ===============================
-// MARKDOWN PARSER
-// ===============================
 
 export function parse(md = "") {
 
 
-const front = {
+let title = "";
 
-title:"",
-slug:"",
-created:"",
-update:""
-
-};
-
-
-
-let body = md;
+let content = md;
 
 
 
@@ -27,27 +15,24 @@ let body = md;
 // FRONTMATTER
 // ===============================
 
-
-const match =
+const fm =
 md.match(
-/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/
+/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
 );
 
 
 
-if(match){
+if(fm){
 
 
-const yaml =
-match[1];
+const meta = fm[1];
 
 
-body =
-match[2];
+content = fm[2];
 
 
 
-yaml
+meta
 .split("\n")
 .forEach(line=>{
 
@@ -56,34 +41,31 @@ const i =
 line.indexOf(":");
 
 
-
 if(i === -1)
 return;
 
 
-
 const key =
-line
-.slice(0,i)
-.trim();
-
+line.slice(0,i).trim();
 
 
 const value =
-line
-.slice(i+1)
-.trim();
+line.slice(i+1).trim();
 
 
 
-front[key] =
-value;
+if(key === "title") {
+
+title = value;
+
+}
 
 
 });
 
 
 }
+
 
 
 
@@ -94,46 +76,18 @@ value;
 
 const html =
 marked.parse(
-body
+content
 );
 
 
 
 return {
 
+title,
 
-title:
-front.title ||
-front.slug ||
-"untitled",
-
-
-
-slug:
-front.slug ||
-"",
-
-
-
-created:
-front.created ||
-"",
-
-
-
-update:
-front.update ||
-"",
-
-
-
-content:
-body,
-
-
+content,
 
 html
-
 
 };
 
