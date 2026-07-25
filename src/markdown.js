@@ -1,91 +1,157 @@
-import { marked } from "marked";
+// ===============================
+// MARKDOWN PARSER
+// ===============================
 
 
 export function parse(md = "") {
 
-  const match = md.match(
-    /^---\n([\s\S]*?)\n---\n([\s\S]*)$/
-  );
+
+const front =
+{
+title:"",
+slug:"",
+content:""
+};
 
 
-  let frontmatter = {};
-  let content = md;
+
+// ===============================
+// FRONTMATTER
+// ===============================
 
 
-  if (match) {
-
-    match[1]
-      .split("\n")
-      .forEach(line => {
-
-        const i = line.indexOf(":");
-
-        if (i === -1) return;
+const match =
+md.match(
+/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+);
 
 
-        const key =
-          line.slice(0, i).trim();
+
+let body =
+md;
 
 
-        const value =
-          line.slice(i + 1).trim();
+
+if(match){
 
 
-        frontmatter[key] = value;
-
-      });
-
-
-    content = match[2].trim();
-
-  }
+const yaml =
+match[1];
 
 
-  let html = marked.parse(
-    content
-  );
+body =
+match[2];
 
 
-  // AUTO IMAGE LINKS
 
-  html = html.replace(
-
-    /(^|\s)(https?:\/\/[^\s]+?\.(jpg|jpeg|png|gif|webp|svg))(\s|$)/gi,
-
-    '$1<img src="$2" style="max-width:100%;display:block;margin:20px 0;">$4'
-
-  );
+yaml
+.split("\n")
+.forEach(line=>{
 
 
-  // FOOTNOTES
-
-  html = html.replace(
-
-    /\[(\d+)\]/g,
-
-    '<span class="fn">[$1]</span>'
-
-  );
+const i =
+line.indexOf(":");
 
 
-  return {
 
-    title:
-      frontmatter.title || "",
-
-
-    slug:
-      frontmatter.slug || "",
+if(i === -1)
+return;
 
 
-    ...frontmatter,
+
+const key =
+line
+.slice(0,i)
+.trim();
 
 
-    content,
+
+const value =
+line
+.slice(i+1)
+.trim();
 
 
-    html
 
-  };
+front[key] =
+value;
+
+
+});
+
+
+}
+
+
+
+// ===============================
+// SIMPLE HTML
+// ===============================
+
+
+let html =
+body;
+
+
+
+html =
+html
+.replace(
+/^# (.*)$/gm,
+"<h1>$1</h1>"
+);
+
+
+
+html =
+html
+.replace(
+/^## (.*)$/gm,
+"<h2>$1</h2>"
+);
+
+
+
+html =
+html
+.replace(
+/\*\*(.*?)\*\*/g,
+"<strong>$1</strong>"
+);
+
+
+
+html =
+html
+.replace(
+/\n\n/g,
+"<br><br>"
+);
+
+
+
+return {
+
+
+title:
+front.title ||
+front.slug ||
+"untitled",
+
+
+slug:
+front.slug ||
+"",
+
+
+content:
+body,
+
+
+html
+
+
+};
+
 
 }
