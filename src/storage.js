@@ -213,15 +213,54 @@ export async function list(
 ) {
 
 
+const objects =
+[];
+
+
+
+let cursor;
+
+
+
+do {
+
+
 const res =
-await env.PAGES.list();
+await env.PAGES.list(
+cursor
+?
+{
+cursor
+}
+:
+undefined
+);
+
+
+
+objects.push(
+...res.objects
+);
+
+
+
+cursor =
+res.truncated
+?
+res.cursor
+:
+undefined;
+
+
+}
+while(cursor);
 
 
 
 const pages =
 await Promise.all(
 
-res.objects
+objects
 
 .filter(
 o =>

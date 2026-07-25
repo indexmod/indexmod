@@ -1,6 +1,5 @@
 import {
   getFile,
-  getIndex,
   savePage,
   list
 } from "./storage.js";
@@ -211,6 +210,44 @@ await list(env)
 
 
 // ======================
+// API REBUILD INDEX
+// ======================
+
+
+if(
+path === "/_rebuild"
+){
+
+
+if(
+req.method !== "POST"
+){
+
+return new Response(
+"method not allowed",
+{
+status:405
+}
+);
+
+}
+
+
+
+await rebuildIndex(env);
+
+
+
+return Response.json({
+ok:true
+});
+
+
+}
+
+
+
+// ======================
 // API GET
 // ======================
 
@@ -390,19 +427,8 @@ path === "/"
 ){
 
 
-let index =
-await getIndex(env);
-
-
-
-if(!index){
-
+const index =
 await rebuildIndex(env);
-
-index =
-await getIndex(env);
-
-}
 
 
 
@@ -418,7 +444,7 @@ headers:{
 "text/html;charset=UTF-8",
 
 "Cache-Control":
-"public,max-age=3600"
+"no-cache"
 
 }
 
