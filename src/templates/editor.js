@@ -1,5 +1,6 @@
 export default function editorTemplate(page = {}) {
 
+
 return `
 
 <h1>
@@ -7,10 +8,19 @@ ${page.slug ? "Edit" : "New"}
 </h1>
 
 
-<textarea id="md">${page.content || ""}</textarea>
+
+<textarea id="md">${page.content || `---
+title:
+slug:
+---
+
+Write text here...
+`}</textarea>
+
 
 
 <br><br>
+
 
 
 <button onclick="save()">
@@ -32,13 +42,21 @@ document
 
 
 
+const slugMatch =
+md.match(
+/^slug:\s*(.+)$/m
+);
+
+
+
 const slug =
 
 (
-md.match(
-/slug:\\s*(.*)/
-)?.[1]
-|| "untitled"
+slugMatch
+?
+slugMatch[1]
+:
+"untitled"
 )
 
 .trim()
@@ -52,6 +70,7 @@ md.match(
 
 
 
+const res =
 await fetch(
 "/_save",
 {
@@ -73,6 +92,19 @@ content:md
 })
 
 });
+
+
+
+if(!res.ok){
+
+alert(
+"Save error"
+);
+
+return;
+
+}
+
 
 
 location.href =
