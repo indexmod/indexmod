@@ -1,0 +1,36 @@
+name: Sync R2 assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "styles/**"
+      - "logo.svg"
+      - "favicon.svg"
+      - "scripts/sync-assets.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/sync-assets.yml"
+  workflow_dispatch:
+
+jobs:
+  sync-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Wrangler
+        run: npm install --global wrangler@4
+
+      - name: Upload assets to R2
+        run: npm run sync:assets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

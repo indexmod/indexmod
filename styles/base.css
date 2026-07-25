@@ -36,6 +36,12 @@ body {
 }
 
 
+.logo {
+  display: inline-block;
+  padding: 4px;
+}
+
+
 .logo img {
   height: 250px;
   display: block;
@@ -76,7 +82,7 @@ margin:40px 0;
 
 .actions {
 
-font-size:22px;
+font-size:25px;
 
 }
 
@@ -91,7 +97,7 @@ text-decoration:none;
 
 a:hover {
 
-text-decoration:underline;
+text-decoration:none;
 
 }
 
@@ -102,6 +108,7 @@ all:unset;
 cursor:pointer;
 
 color:#1a73e8;
+font-size:inherit;
 
 }
 
