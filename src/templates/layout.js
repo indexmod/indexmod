@@ -3,9 +3,7 @@ export default function layout(
   rightUI = ""
 ) {
 
-return new Response(
-
-`
+  return `
 <!doctype html>
 <html>
 
@@ -24,7 +22,6 @@ return new Response(
 
 <meta name="twitter:card" content="summary_large_image">
 
-
 <style>
 
 ${css()}
@@ -33,101 +30,58 @@ ${css()}
 
 </head>
 
-
 <body>
-
 
 <div class="topbar">
 
-
 <a href="/" class="logo">
-
 <img src="/logo.svg">
-
 </a>
 
-
-
 <div class="nav">
-
 ${rightUI}
-
 </div>
 
-
 </div>
-
-
 
 ${c}
 
-
-
 <footer class="site-footer">
-
 
 <a class="footer-link" href="https://mod.indexmod.press">
 
-
 <span class="footer-dot"></span>
-
 
 <span class="footer-text">
 xx лет
 </span>
 
-
 </a>
 
-
 </footer>
-
 
 </body>
 
 </html>
-
-`,
-
-{
-
-headers:{
-"Content-Type":
-"text/html;charset=UTF-8"
-}
+`;
 
 }
 
-);
-
-
-}
-
-
-
-// ===============================
-// CSS
-// ===============================
-
-function css(){
+function css() {
 
 return `
 
-* {
+*{
 box-sizing:border-box;
 }
 
-
-html,body{
-
+html,
+body{
 margin:0;
 padding:0;
-
 }
 
-
-
-body {
+body{
 
 font-family:
 Georgia,
@@ -150,209 +104,138 @@ padding:100px 40px;
 
 }
 
-
-
-.topbar {
+.topbar{
 
 display:flex;
-
 justify-content:space-between;
-
 align-items:flex-start;
-
 margin-bottom:40px;
 
 }
 
-
-
-.logo img {
+.logo img{
 
 height:250px;
-
 display:block;
-
 animation:pulse 4s infinite ease-in-out;
 
 }
 
+@keyframes pulse{
 
-
-@keyframes pulse {
-
-0% {
-transform:scale(1);
-}
-
-50% {
-transform:scale(1.04);
-}
-
-100% {
-transform:scale(1);
-}
+0%{transform:scale(1);}
+50%{transform:scale(1.04);}
+100%{transform:scale(1);}
 
 }
 
-
-
-.nav {
+.nav{
 
 display:flex;
-
 gap:18px;
 
 }
 
-
-
-h1 {
+h1{
 
 font-size:48px;
-
 font-weight:normal;
-
 margin:0 0 40px;
 
 }
 
-
-
-h2 {
+h2{
 
 font-size:28px;
-
 font-weight:normal;
 
 }
 
-
-
-a {
+a{
 
 color:#1a73e8;
-
 text-decoration:none;
 
 }
 
-
-
-a:hover {
+a:hover{
 
 text-decoration:underline;
 
 }
 
-
-
-button {
+button{
 
 all:unset;
-
 cursor:pointer;
-
 color:#1a73e8;
 
 }
 
-
-
-textarea {
+textarea{
 
 width:100%;
-
 height:80vh;
-
 font-family:monospace;
-
 font-size:16px;
-
 border:none;
-
 outline:none;
 
 }
 
-
-
-.grid {
+.grid{
 
 display:grid;
-
 grid-template-columns:repeat(3,1fr);
-
 gap:40px;
 
 }
 
-
-
-.letter {
+.letter{
 
 font-size:90px;
 
 }
 
-
-
-.col a {
+.col a{
 
 display:block;
-
 margin:6px 0;
 
 }
 
-
-
-img {
+img{
 
 max-width:100%;
-
 height:auto;
 
 }
 
-
-
-.site-footer {
+.site-footer{
 
 margin-top:80px;
-
 display:flex;
-
 justify-content:flex-end;
 
 }
 
-
-
-.footer-link {
+.footer-link{
 
 color:violet;
 
 }
 
-
-
-.footer-dot {
+.footer-dot{
 
 width:20px;
-
 height:20px;
-
 border-radius:50%;
-
 background:silver;
-
 display:inline-block;
 
 }
 
-
-
-.footer-text {
+.footer-text{
 
 font-family:
 Helvetica,
@@ -362,8 +245,6 @@ sans-serif;
 font-weight:900;
 
 }
-
-
 
 `;
 
