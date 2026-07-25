@@ -1,6 +1,5 @@
 import {
   getFile,
-  getHtml,
   getIndex,
   savePage,
   list
@@ -74,6 +73,7 @@ await file.arrayBuffer(),
 headers:{
 "Content-Type":
 "image/svg+xml",
+
 "Cache-Control":
 "public,max-age=86400"
 }
@@ -124,6 +124,7 @@ await file.arrayBuffer(),
 headers:{
 "Content-Type":
 "text/css",
+
 "Cache-Control":
 "public,max-age=86400"
 }
@@ -138,7 +139,7 @@ headers:{
 
 
 // ======================
-// LIST
+// LIST API
 // ======================
 
 
@@ -182,12 +183,15 @@ slug
 if(!md)
 
 return Response.json(
+
 {
 error:"not found"
 },
+
 {
 status:404
 }
+
 );
 
 
@@ -391,11 +395,6 @@ slug
 
 
 
-const title =
-titleFromSlug(slug);
-
-
-
 const page =
 md
 ?
@@ -408,11 +407,11 @@ slug
 
 slug,
 
-title,
+title:titleFromSlug(slug),
 
 content:
 `---
-title: ${title}
+title: ${titleFromSlug(slug)}
 slug: ${slug}
 ---
 
@@ -522,24 +521,12 @@ slug
 
 
 
-
 const page =
 parse(md);
 
 
 
-let html =
-await getHtml(
-env,
-slug
-);
-
-
-
-if(!html){
-
-
-html =
+const html =
 articleTemplate({
 
 ...page,
@@ -547,9 +534,6 @@ articleTemplate({
 slug
 
 });
-
-
-}
 
 
 
@@ -570,16 +554,7 @@ page.title || slug,
 
 
 description:
-
-page.content
-
-.replace(/[#>*_`\[\]()]/g,"")
-
-.replace(/\s+/g," ")
-
-.trim()
-
-.slice(0,180),
+page.content,
 
 
 slug
