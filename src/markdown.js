@@ -1,17 +1,25 @@
+import { marked } from "marked";
+
+
 // ===============================
 // MARKDOWN PARSER
 // ===============================
 
-
 export function parse(md = "") {
 
 
-const front =
-{
+const front = {
+
 title:"",
 slug:"",
-content:""
+created:"",
+update:""
+
 };
+
+
+
+let body = md;
 
 
 
@@ -22,13 +30,8 @@ content:""
 
 const match =
 md.match(
-/^---\n([\s\S]*?)\n---\n([\s\S]*)$/
+/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/
 );
-
-
-
-let body =
-md;
 
 
 
@@ -85,47 +88,13 @@ value;
 
 
 // ===============================
-// SIMPLE HTML
+// MARKDOWN → HTML
 // ===============================
 
 
-let html =
-body;
-
-
-
-html =
-html
-.replace(
-/^# (.*)$/gm,
-"<h1>$1</h1>"
-);
-
-
-
-html =
-html
-.replace(
-/^## (.*)$/gm,
-"<h2>$1</h2>"
-);
-
-
-
-html =
-html
-.replace(
-/\*\*(.*?)\*\*/g,
-"<strong>$1</strong>"
-);
-
-
-
-html =
-html
-.replace(
-/\n\n/g,
-"<br><br>"
+const html =
+marked.parse(
+body
 );
 
 
@@ -139,13 +108,28 @@ front.slug ||
 "untitled",
 
 
+
 slug:
 front.slug ||
 "",
 
 
+
+created:
+front.created ||
+"",
+
+
+
+update:
+front.update ||
+"",
+
+
+
 content:
 body,
+
 
 
 html
