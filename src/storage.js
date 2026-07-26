@@ -96,28 +96,34 @@ export async function getIndexMeta(
   env
 ) {
 
-  const obj =
-    await env.PAGES.get(
-      indexMetaFile
-    );
+
+const obj =
+await env.PAGES.get(
+  indexMetaFile
+);
 
 
-  if(!obj)
-    return null;
+if(!obj)
+return null;
 
 
-  try {
+try {
 
-    return JSON.parse(
-      await obj.text()
-    );
 
-  }
-  catch {
+return JSON.parse(
+await obj.text()
+);
 
-    return null;
 
-  }
+}
+catch {
+
+
+return null;
+
+
+}
+
 
 }
 
@@ -137,9 +143,9 @@ export async function putFile(
 
 await env.PAGES.put(
 
-  mdFile(slug),
+mdFile(slug),
 
-  content
+content
 
 );
 
@@ -149,7 +155,7 @@ await env.PAGES.put(
 
 
 // ===============================
-// SAVE HTML CACHE
+// SAVE HTML
 // ===============================
 
 
@@ -162,9 +168,9 @@ export async function putHtml(
 
 await env.PAGES.put(
 
-  htmlFile(slug),
+htmlFile(slug),
 
-  html
+html
 
 );
 
@@ -174,7 +180,7 @@ await env.PAGES.put(
 
 
 // ===============================
-// SAVE INDEX CACHE
+// SAVE INDEX
 // ===============================
 
 
@@ -212,17 +218,17 @@ await env.PAGES.put(
 
 indexMetaFile,
 
-JSON.stringify(
-meta
-),
+JSON.stringify(meta),
 
 {
+
 httpMetadata:{
 
 contentType:
 "application/json;charset=UTF-8"
 
 }
+
 }
 
 );
@@ -296,7 +302,7 @@ await listMarkdownKeys(env);
 const pages =
 await Promise.all(
 
-.map(async key=>{
+keys.map(async key=>{
 
 
 const slug =
@@ -332,7 +338,6 @@ parsed.title || slug
 
 })
 
-
 );
 
 
@@ -340,6 +345,7 @@ parsed.title || slug
 pages.sort(
 
 (a,b)=>
+
 a.title.localeCompare(
 b.title
 )
@@ -361,14 +367,11 @@ return pages;
 
 
 export async function listMarkdownKeys(
-  env
+env
 ) {
 
 
-const objects =
-[];
-
-
+const objects = [];
 
 let cursor;
 
@@ -379,6 +382,7 @@ do {
 
 const res =
 await env.PAGES.list(
+
 cursor
 ?
 {
@@ -386,6 +390,7 @@ cursor
 }
 :
 undefined
+
 );
 
 
@@ -401,7 +406,7 @@ res.truncated
 ?
 res.cursor
 :
-undefined;
+null;
 
 
 }
@@ -411,13 +416,37 @@ while(cursor);
 
 return objects
 
-.map(o =>
+.map(
+o =>
 o.key
 )
 
-.filter(key =>
+
+.filter(
+
+key =>
 key.endsWith(".md")
+
 )
+
+
+.filter(
+
+key =>
+
+![
+
+"index.html.md",
+
+"sitemap.xml.md",
+
+"robots.txt.md"
+
+]
+.includes(key)
+
+)
+
 
 .sort();
 
@@ -432,8 +461,9 @@ key.endsWith(".md")
 
 
 export function indexSignature(
-keys = []
+keys=[]
 ) {
+
 
 return keys
 
@@ -454,13 +484,15 @@ return keys
 
 
 export function parseFrontmatter(
-md = ""
+md=""
 ) {
 
 
 const m =
 md.match(
+
 /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
+
 );
 
 
@@ -471,6 +503,8 @@ if(!m){
 return {
 
 title:"",
+
+slug:"",
 
 content:md
 
@@ -516,7 +550,7 @@ line
 
 
 
-fm[key] = value;
+fm[key]=value;
 
 
 });
@@ -524,7 +558,6 @@ fm[key] = value;
 
 
 return {
-
 
 title:
 fm.title || "",
@@ -534,9 +567,16 @@ slug:
 fm.slug || "",
 
 
+description:
+fm.description || "",
+
+
+image:
+fm.image || "",
+
+
 content:
 m[2]
-
 
 };
 
