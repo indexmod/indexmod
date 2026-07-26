@@ -84,13 +84,13 @@ url
 
 
 
-<link rel="stylesheet" href="/styles/1/base.css">
+<link rel="stylesheet" href="/styles/base.css">
 
-<link rel="stylesheet" href="/styles/1/view.css">
+<link rel="stylesheet" href="/styles/view.css">
 
-<link rel="stylesheet" href="/styles/1/editor.css">
+<link rel="stylesheet" href="/styles/editor.css">
 
-<link rel="stylesheet" href="/styles/1/index.css">
+<link rel="stylesheet" href="/styles/index.css">
 
 
 
@@ -179,6 +179,7 @@ xx лет
 `;
 
 }
+
 
 
 
