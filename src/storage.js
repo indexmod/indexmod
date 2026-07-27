@@ -2,6 +2,8 @@
 // R2 STORAGE
 // ===============================
 
+import { normalizeSlug } from "./slug.js";
+
 
 const mdFile = (slug) =>
   `${slug}.md`;
@@ -285,6 +287,32 @@ html
 
 
 // ===============================
+// DELETE PAGE
+// ===============================
+
+
+export async function deletePage(
+  env,
+  slug
+) {
+
+await Promise.all([
+
+env.PAGES.delete(
+mdFile(slug)
+),
+
+env.PAGES.delete(
+htmlFile(slug)
+)
+
+]);
+
+}
+
+
+
+// ===============================
 // LIST PAGES
 // ===============================
 
@@ -326,9 +354,17 @@ parseFrontmatter(md);
 
 
 
+const permalink =
+normalizeSlug(
+parsed.slug || slug
+);
+
+
+
 return {
 
-slug,
+slug:
+permalink || slug,
 
 title:
 parsed.title || slug
@@ -355,6 +391,83 @@ b.title
 
 
 return pages;
+
+
+}
+
+
+
+// ===============================
+// FIND PAGE BY PERMALINK
+// ===============================
+
+
+export async function findPageByPermalink(
+env,
+permalink
+) {
+
+
+const target =
+normalizeSlug(permalink);
+
+
+if(!target)
+return null;
+
+
+const keys =
+await listMarkdownKeys(env);
+
+
+for(const key of keys){
+
+
+const storageSlug =
+key.replace(
+".md",
+""
+);
+
+
+const md =
+await getFile(
+env,
+storageSlug
+);
+
+
+const parsed =
+parseFrontmatter(md);
+
+
+const frontmatterSlug =
+normalizeSlug(
+parsed.slug || ""
+);
+
+
+if(frontmatterSlug === target){
+
+return {
+
+storageSlug,
+
+slug:
+target,
+
+content:
+md
+
+};
+
+}
+
+
+}
+
+
+return null;
 
 
 }

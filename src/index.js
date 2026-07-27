@@ -1,5 +1,7 @@
 import {
   getFile,
+  findPageByPermalink,
+  deletePage,
   savePage,
   list
 } from "./storage.js";
@@ -8,6 +10,7 @@ import {
 import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
 import { rebuildIndex } from "./build.js";
+import { normalizeSlug } from "./slug.js";
 
 import { buildMeta } from "./meta.js";
 
@@ -323,9 +326,16 @@ parse(content);
 
 
 let slug =
-body.slug ||
 page.slug ||
+body.slug ||
 page.title;
+
+
+
+const originalSlug =
+normalizeSlug(
+body.originalSlug || ""
+);
 
 
 
@@ -343,22 +353,7 @@ status:400
 
 
 slug =
-slug
-
-.toLowerCase()
-
-.trim()
-
-.replace(
-/[^a-z0-9а-яё\s-]/gi,
-""
-)
-
-.replace(/\s+/g,"-")
-
-.replace(/-+/g,"-")
-
-.replace(/^-|-$/g,"");
+normalizeSlug(slug);
 
 
 
@@ -397,6 +392,20 @@ content,
 html
 
 );
+
+
+
+if(
+originalSlug &&
+originalSlug !== slug
+){
+
+await deletePage(
+env,
+originalSlug
+);
+
+}
 
 
 
@@ -528,11 +537,41 @@ slug
 
 
 
-if(md){
+let storageSlug =
+slug;
+
+let content =
+md;
+
+
+
+if(!content){
+
+const found =
+await findPageByPermalink(
+env,
+slug
+);
+
+if(found){
+
+storageSlug =
+found.storageSlug;
+
+content =
+found.content;
+
+}
+
+}
+
+
+
+if(content){
 
 
 const page =
-parse(md);
+parse(content);
 
 
 
@@ -543,7 +582,9 @@ editorTemplate({
 ...page,
 
 // сохраняем оригинальный markdown
-content:md
+content,
+
+storageSlug
 
 }),
 
@@ -647,7 +688,31 @@ slug
 
 
 
-if(!md){
+let content =
+md;
+
+
+
+if(!content){
+
+const found =
+await findPageByPermalink(
+env,
+slug
+);
+
+if(found){
+
+content =
+found.content;
+
+}
+
+}
+
+
+
+if(!content){
 
 
 const title =
@@ -694,7 +759,14 @@ slug
 
 
 const page =
-parse(md);
+parse(content);
+
+
+
+const permalink =
+normalizeSlug(
+page.slug || slug
+) || slug;
 
 
 
@@ -703,7 +775,8 @@ articleTemplate({
 
 ...page,
 
-slug
+slug:
+permalink
 
 });
 
@@ -715,7 +788,7 @@ html,
 
 
 `
-<a href="/edit/${slug}">
+<a href="/edit/${permalink}">
 Edit
 </a>
 `,
@@ -724,7 +797,7 @@ Edit
 buildMeta({
 
 title:
-page.title || slug,
+page.title || permalink,
 
 description:
 page.description,
@@ -732,7 +805,8 @@ page.description,
 image:
 page.image,
 
-slug
+slug:
+permalink
 
 })
 
