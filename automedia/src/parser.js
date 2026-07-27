@@ -4,21 +4,22 @@ const stopWords = new Set([
 ]);
 
 export function analyzeMarkdown(markdown = "") {
-  const body = stripFrontmatter(markdown);
-  const paragraphs = body
+  const { body, title } = splitFrontmatter(markdown);
+  const articleText = body.replace(/<!--[\s\S]*?-->/g, "");
+  const paragraphs = articleText
     .split(/\n\s*\n/)
     .map((paragraph) => paragraph.trim())
     .filter(isMeaningfulParagraph);
 
   const firstParagraph = paragraphs[0] || "";
-  const entities = extractEntities(body);
-  const topics = extractTopics(body);
+  const entities = extractEntities(articleText);
+  const topics = extractTopics(articleText);
 
   return {
     firstParagraph,
     entities,
     topics,
-    queries: buildQueries(entities, topics, firstParagraph)
+    queries: buildQueries(entities, topics, firstParagraph, title)
   };
 }
 
@@ -47,18 +48,34 @@ export function extractTopics(text = "") {
     .map(([word]) => word);
 }
 
-export function buildQueries(entities, topics, paragraph = "") {
-  const queries = [...entities];
+export function buildQueries(entities, topics, paragraph = "", title = "") {
+  const queries = [];
 
-  if (entities[0] && topics[0]) queries.push(`${entities[0]} ${topics[0]}`);
+  if (/[\p{L}]/u.test(title)) queries.push(title);
+
+  const specificEntities = [...entities]
+    .filter((entity) => !isGenericEntity(entity))
+    .sort((a, b) => b.split(/\s+/).length - a.split(/\s+/).length);
+
+  queries.push(...specificEntities);
+
+  if (specificEntities[0] && topics[0]) queries.push(`${specificEntities[0]} ${topics[0]}`);
   if (!queries.length && topics.length) queries.push(topics.join(" "));
   if (!queries.length && paragraph) queries.push(paragraph.split(/\s+/).slice(0, 8).join(" "));
 
   return [...new Set(queries)].slice(0, 5);
 }
 
-function stripFrontmatter(markdown) {
-  return markdown.replace(/^---\s*\n[\s\S]*?\n---\s*\n?/, "");
+function splitFrontmatter(markdown) {
+  const match = markdown.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
+  if (!match) return { title: "", body: markdown };
+
+  const title = match[1].match(/^title:\s*(.+)$/m)?.[1]?.trim() || "";
+  return { title, body: match[2] };
+}
+
+function isGenericEntity(entity) {
+  return ["Russian", "The Cyrillic", "History", "Year", "Event", "Brand"].includes(entity);
 }
 
 function isMeaningfulParagraph(value) {

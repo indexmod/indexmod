@@ -15,14 +15,18 @@ export class AutoMedia {
 
   async searchImages(markdown, options = {}) {
     const analysis = this.analyzeArticle(markdown);
-    const query = options.query || analysis.queries[0];
-    if (!query) return { analysis, query: "", images: [] };
+    const queries = options.query ? [options.query] : analysis.queries;
 
-    const results = await Promise.all(
-      this.providers.map((provider) => provider.search(query, options))
-    );
+    for (const query of queries) {
+      const results = await Promise.all(
+        this.providers.map((provider) => provider.search(query, options))
+      );
+      const images = results.flat();
 
-    return { analysis, query, images: results.flat() };
+      if (images.length) return { analysis, query, images };
+    }
+
+    return { analysis, query: "", images: [] };
   }
 
   async previewInsertion(markdown, options = {}) {

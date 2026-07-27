@@ -2,7 +2,7 @@ import defaultPrompt from "./templates/prompt.js";
 
 export function promptForEditor(article, prompt) {
   const cleanArticle = String(article || "")
-    .replace(/\n*<!--\s*(?:INDEXMOD ADMIN PROMPT|Prompt:)[\s\S]*?-->\s*$/i, "")
+    .replace(/\n*<!--\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\s\S]*?-->\s*$/i, "")
     .trimEnd();
 
   const cleanPrompt = normalizePrompt(prompt || defaultPrompt);
