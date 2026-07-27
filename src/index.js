@@ -1,5 +1,6 @@
 import {
   getFile,
+  getIndex,
   findPageByPermalink,
   deletePage,
   savePage,
@@ -437,6 +438,7 @@ path === "/"
 
 
 const index =
+await getIndex(env) ||
 await rebuildIndex(env);
 
 
@@ -453,7 +455,7 @@ headers:{
 "text/html;charset=UTF-8",
 
 "Cache-Control":
-"no-cache"
+"public,max-age=300,s-maxage=3600,stale-while-revalidate=86400"
 
 }
 

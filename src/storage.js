@@ -196,7 +196,18 @@ await env.PAGES.put(
 
 "index.html",
 
-html
+html,
+
+{
+
+httpMetadata:{
+
+contentType:
+"text/html;charset=UTF-8"
+
+}
+
+}
 
 );
 
