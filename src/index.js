@@ -27,7 +27,7 @@ import editorTemplate from "./templates/editor.js";
 export default {
 
 
-async fetch(req, env) {
+async fetch(req, env, ctx) {
 
 
 const url =
@@ -251,6 +251,45 @@ ok:true
 
 
 
+function scheduleIndexRebuild(env, ctx) {
+
+
+const rebuild =
+rebuildIndex(env)
+
+.catch(error => {
+
+
+console.error(
+"Index rebuild failed",
+error
+);
+
+
+});
+
+
+
+if(ctx?.waitUntil){
+
+
+ctx.waitUntil(rebuild);
+
+
+return;
+
+
+}
+
+
+
+return rebuild;
+
+
+}
+
+
+
 // ======================
 // API GET
 // ======================
@@ -410,7 +449,7 @@ originalSlug
 
 
 
-await rebuildIndex(env);
+scheduleIndexRebuild(env, ctx);
 
 
 
