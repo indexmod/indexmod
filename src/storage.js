@@ -17,6 +17,10 @@ const indexMetaFile =
 "index.meta.json";
 
 
+const indexPagesFile =
+"index.pages.json";
+
+
 
 // ===============================
 // GET MARKDOWN
@@ -239,6 +243,82 @@ httpMetadata:{
 
 contentType:
 "application/json;charset=UTF-8"
+
+}
+
+
+
+// ===============================
+// INDEX PAGE LIST
+// ===============================
+
+
+export async function getIndexPages(
+  env
+) {
+
+
+const obj =
+await env.PAGES.get(
+  indexPagesFile
+);
+
+
+if(!obj)
+return null;
+
+
+try {
+
+
+const pages =
+JSON.parse(await obj.text());
+
+
+return Array.isArray(pages)
+? pages
+: null;
+
+
+}
+catch {
+
+
+return null;
+
+
+}
+
+
+}
+
+
+
+export async function putIndexPages(
+  env,
+  pages
+) {
+
+
+await env.PAGES.put(
+
+indexPagesFile,
+
+JSON.stringify(pages),
+
+{
+
+httpMetadata:{
+
+contentType:
+"application/json;charset=UTF-8"
+
+}
+
+}
+
+);
+
 
 }
 
