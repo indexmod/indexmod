@@ -2,6 +2,8 @@
 // UNIVERSAL META GENERATOR
 // ===============================
 
+import { normalizeSlug } from "./slug.js";
+
 
 const DOMAIN =
 "https://indexmod.press";
@@ -39,14 +41,16 @@ data.html ||
 
 
 const slug =
-data.slug || "";
+normalizeSlug(
+data.slug || ""
+);
 
 
 
 const url =
 slug
 ?
-`${DOMAIN}/${slug}`
+encodeURI(`${DOMAIN}/${slug}`)
 :
 DOMAIN;
 
@@ -61,6 +65,9 @@ description,
 slug,
 
 url,
+
+robots:
+data.robots || "index,follow",
 
 type:
 slug
@@ -115,12 +122,6 @@ content="${escapeHtml(meta.description)}">
 
 <meta property="og:url"
 content="${escapeHtml(meta.url)}">
-
-
-
-<link rel="canonical"
-href="${escapeHtml(meta.url)}">
-
 
 
 <meta name="twitter:card"

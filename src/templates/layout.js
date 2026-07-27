@@ -65,6 +65,11 @@ content="${escapeHtml(description)}">
 
 
 
+<meta name="robots"
+content="${escapeHtml(meta.robots || "index,follow")}">
+
+
+
 <link rel="canonical"
 href="${escapeHtml(url)}">
 

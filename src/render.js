@@ -6,7 +6,8 @@ import { buildMeta } from "./meta.js";
 export function renderPage(
   content,
   rightUI = "",
-  meta = {}
+  meta = {},
+  options = {}
 ) {
 
 
@@ -29,6 +30,9 @@ pageMeta
 ),
 
 {
+
+status:
+options.status || 200,
 
 headers:{
 

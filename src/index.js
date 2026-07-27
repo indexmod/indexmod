@@ -501,7 +501,10 @@ Save
 
 buildMeta({
 
-title:"New article"
+title:"New article",
+
+robots:
+"noindex,follow"
 
 })
 
@@ -608,6 +611,10 @@ image:
 page.image,
 
 slug
+,
+
+robots:
+"noindex,follow"
 
 })
 
@@ -651,6 +658,10 @@ buildMeta({
 title,
 
 slug
+,
+
+robots:
+"noindex,follow"
 
 })
 
@@ -748,8 +759,16 @@ buildMeta({
 title,
 
 slug
+,
 
-})
+robots:
+"noindex,follow"
+
+}),
+
+{
+status:404
+}
 
 );
 

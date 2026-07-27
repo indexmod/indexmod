@@ -378,7 +378,20 @@ parsed.title || slug
 
 
 
-pages.sort(
+const uniquePages =
+[
+...new Map(
+pages.map(page => [
+page.slug,
+page
+])
+)
+.values()
+];
+
+
+
+uniquePages.sort(
 
 (a,b)=>
 
@@ -390,7 +403,115 @@ b.title
 
 
 
-return pages;
+return uniquePages;
+
+
+}
+
+
+
+// ===============================
+// LIST SEO PAGES
+// ===============================
+
+
+export async function listSeoPages(
+env
+) {
+
+
+const objects =
+await listMarkdownObjects(env);
+
+
+const pages =
+await Promise.all(
+
+objects.map(async object=>{
+
+
+const storageSlug =
+object.key.replace(
+".md",
+""
+);
+
+
+const md =
+await getFile(
+env,
+storageSlug
+);
+
+
+const parsed =
+parseFrontmatter(md);
+
+
+const slug =
+normalizeSlug(
+parsed.slug || storageSlug
+);
+
+
+return {
+
+slug,
+
+title:
+parsed.title || storageSlug,
+
+lastmod:
+formatDate(object.uploaded)
+
+};
+
+
+})
+
+);
+
+
+const uniquePages =
+new Map();
+
+
+pages.forEach(page=>{
+
+
+if(!page.slug)
+return;
+
+
+const current =
+uniquePages.get(page.slug);
+
+
+if(
+!current ||
+(
+page.lastmod &&
+page.lastmod > current.lastmod
+)
+){
+
+uniquePages.set(
+page.slug,
+page
+);
+
+}
+
+
+});
+
+
+return [...uniquePages.values()]
+
+.sort(
+(a,b)=>
+a.slug.localeCompare(b.slug)
+);
 
 
 }
@@ -484,6 +605,31 @@ env
 ) {
 
 
+const objects =
+await listMarkdownObjects(env);
+
+
+
+return objects
+
+.map(
+o =>
+o.key
+)
+
+
+.sort();
+
+
+}
+
+
+
+async function listMarkdownObjects(
+env
+) {
+
+
 const objects = [];
 
 let cursor;
@@ -529,23 +675,17 @@ while(cursor);
 
 return objects
 
-.map(
-o =>
-o.key
-)
-
-
 .filter(
 
-key =>
-key.endsWith(".md")
+object =>
+object.key.endsWith(".md")
 
 )
 
 
 .filter(
 
-key =>
+object =>
 
 ![
 
@@ -556,12 +696,9 @@ key =>
 "robots.txt.md"
 
 ]
-.includes(key)
+.includes(object.key)
 
 )
-
-
-.sort();
 
 
 }
@@ -585,6 +722,30 @@ return keys
 .sort()
 
 .join("\n");
+
+
+}
+
+
+
+function formatDate(value){
+
+
+if(!value)
+return "";
+
+
+const date =
+new Date(value);
+
+
+if(Number.isNaN(date.getTime()))
+return "";
+
+
+return date
+.toISOString()
+.slice(0,10);
 
 
 }

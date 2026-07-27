@@ -1,4 +1,4 @@
-import { list } from "./storage.js";
+import { listSeoPages } from "./storage.js";
 
 
 const DOMAIN =
@@ -10,7 +10,7 @@ export async function generateSitemap(env){
 
 
 const pages =
-await list(env);
+await listSeoPages(env);
 
 
 
@@ -23,8 +23,22 @@ return `
 <url>
 
 <loc>
-${DOMAIN}/${page.slug}
+${escapeXml(pageUrl(page.slug))}
 </loc>
+
+${page.lastmod ? `
+<lastmod>
+${escapeXml(page.lastmod)}
+</lastmod>
+` : ""}
+
+<changefreq>
+weekly
+</changefreq>
+
+<priority>
+0.8
+</priority>
 
 </url>
 
@@ -46,6 +60,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${DOMAIN}/
 </loc>
 
+<changefreq>
+daily
+</changefreq>
+
+<priority>
+1.0
+</priority>
+
 </url>
 
 
@@ -62,3 +84,31 @@ ${urls}
 
 export const sitemap =
 generateSitemap;
+
+
+
+function escapeXml(value = ""){
+
+return String(value)
+
+.replace(/&/g,"&amp;")
+
+.replace(/</g,"&lt;")
+
+.replace(/>/g,"&gt;")
+
+.replace(/"/g,"&quot;")
+
+.replace(/'/g,"&apos;");
+
+}
+
+
+
+function pageUrl(slug = ""){
+
+return encodeURI(
+`${DOMAIN}/${slug}`
+);
+
+}
