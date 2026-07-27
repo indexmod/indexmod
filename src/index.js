@@ -24,8 +24,11 @@ import { robots } from "./robots.js";
 
 import articleTemplate from "./templates/article.js";
 import editorTemplate from "./templates/editor.js";
-import promptTemplate from "./templates/prompt.js";
-import updateTemplate from "./templates/update.js";
+import { AutoMedia } from "../automedia/src/index.js";
+
+
+const autoMedia =
+new AutoMedia();
 
 
 
@@ -700,101 +703,6 @@ robots:
 
 
 if(
-path.startsWith("/update/")
-){
-
-
-const slug =
-decodeSlug(
-path.slice(8)
-);
-
-
-let md =
-await getFile(
-env,
-slug
-);
-
-
-if(!md){
-
-
-const found =
-await findPageByPermalink(
-env,
-slug
-);
-
-
-md =
-found?.content || null;
-
-
-}
-
-
-if(!md){
-
-
-return new Response(
-"not found",
-{
-status:404
-}
-);
-
-
-}
-
-
-const page =
-parse(md);
-
-
-return renderPage(
-
-updateTemplate({
-
-prompt:
-promptTemplate,
-
-content:
-md
-
-}),
-
-
-`
-<button onclick="copyPrompt()">
-Copy
-</button>
-
-<a href="/edit/${encodeURIComponent(slug)}">
-Edit
-</a>
-`,
-
-
-buildMeta({
-
-title:
-`Update ${page.title || slug}`,
-
-robots:
-"noindex,follow"
-
-})
-
-);
-
-
-}
-
-
-
-
-if(
 path.startsWith("/")
 &&
 !path.startsWith("/_")
@@ -906,13 +814,62 @@ page.slug || slug
 
 
 
+let illustration =
+"";
+
+let image =
+page.image === "true"
+?
+""
+:
+page.image;
+
+
+if(page.image === "true"){
+
+
+try {
+
+
+const preview =
+await autoMedia.previewInsertion(
+content
+);
+
+
+illustration =
+preview.html || "";
+
+image =
+preview.image?.url || "";
+
+
+}
+catch(error){
+
+
+console.error(
+"AutoMedia lookup failed",
+error
+);
+
+
+}
+
+
+}
+
+
+
 const html =
 articleTemplate({
 
 ...page,
 
 slug:
-permalink
+permalink,
+
+illustration
 
 });
 
@@ -927,10 +884,6 @@ html,
 <a href="/edit/${permalink}">
 Edit
 </a>
-
-<a href="/update/${encodeURIComponent(permalink)}">
-Update
-</a>
 `,
 
 
@@ -943,7 +896,7 @@ description:
 page.description,
 
 image:
-page.image,
+image,
 
 slug:
 permalink
