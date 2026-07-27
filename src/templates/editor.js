@@ -75,14 +75,13 @@ titleMatch[1]
 
 }
 
+let res;
 
 
-slug =
-normalizeSlug(slug);
+try {
 
 
-
-const res =
+res =
 await fetch(
 "/_save",
 {
@@ -109,6 +108,21 @@ content:md
 
 
 
+}
+catch(error){
+
+
+alert(
+"Save error: " + error.message
+);
+
+return;
+
+
+}
+
+
+
 if(!res.ok){
 
 const message =
@@ -117,7 +131,6 @@ await res.text();
 alert(
 "Save error: " + message
 );
-
 return;
 
 }
