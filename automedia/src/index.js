@@ -18,10 +18,16 @@ export class AutoMedia {
     const queries = options.query ? [options.query] : analysis.queries;
 
     for (const query of queries) {
-      const results = await Promise.all(
-        this.providers.map((provider) => provider.search(query, options))
-      );
-      const images = results.flat();
+      let images = [];
+
+      try {
+        const results = await Promise.all(
+          this.providers.map((provider) => provider.search(query, options))
+        );
+        images = results.flat();
+      } catch (error) {
+        console.error("AutoMedia search failed", { query, error });
+      }
 
       if (images.length) return { analysis, query, images };
     }
