@@ -247,6 +247,15 @@ contentType:
 }
 
 
+}
+
+
+);
+
+
+}
+
+
 
 // ===============================
 // INDEX PAGE LIST
@@ -312,13 +321,6 @@ httpMetadata:{
 
 contentType:
 "application/json;charset=UTF-8"
-
-}
-
-}
-
-);
-
 
 }
 
