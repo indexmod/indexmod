@@ -10,7 +10,10 @@ import {
 
 import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
-import { rebuildIndex } from "./build.js";
+import {
+  rebuildIndex,
+  updateIndexPage
+} from "./build.js";
 import { normalizeSlug } from "./slug.js";
 
 import { buildMeta } from "./meta.js";
@@ -27,7 +30,7 @@ import editorTemplate from "./templates/editor.js";
 export default {
 
 
-async fetch(req, env, ctx) {
+async fetch(req, env) {
 
 
 const url =
@@ -251,45 +254,6 @@ ok:true
 
 
 
-function scheduleIndexRebuild(env, ctx) {
-
-
-const rebuild =
-rebuildIndex(env)
-
-.catch(error => {
-
-
-console.error(
-"Index rebuild failed",
-error
-);
-
-
-});
-
-
-
-if(ctx?.waitUntil){
-
-
-ctx.waitUntil(rebuild);
-
-
-return;
-
-
-}
-
-
-
-return rebuild;
-
-
-}
-
-
-
 // ======================
 // API GET
 // ======================
@@ -449,7 +413,22 @@ originalSlug
 
 
 
-scheduleIndexRebuild(env, ctx);
+await updateIndexPage(
+
+env,
+
+{
+
+slug,
+
+title:
+page.title || slug
+
+},
+
+originalSlug
+
+);
 
 
 
