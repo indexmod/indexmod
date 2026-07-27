@@ -3,12 +3,13 @@ export default function articleTemplate(page) {
 const content =
 page.illustration
 ?
-insertIllustration(
+replaceAutoMediaPlaceholder(
 page.html || "",
 page.illustration
 )
 :
-page.html || "";
+removeAutoMediaPlaceholder(
+page.html || "");
 
 return `
 
@@ -34,25 +35,25 @@ ${content}
 
 
 
-function insertIllustration(html, illustration) {
+function replaceAutoMediaPlaceholder(html, illustration) {
 
 
-const paragraphEnd =
-html.indexOf("</p>");
+return html.replace(
+/<p>\s*\{\{automedia:image\}\}\s*<\/p>/i,
+illustration
+);
 
 
-if(paragraphEnd === -1)
-return illustration + html;
+}
 
 
-const insertAt =
-paragraphEnd + 4;
+
+function removeAutoMediaPlaceholder(html) {
 
 
-return (
-html.slice(0, insertAt) +
-illustration +
-html.slice(insertAt)
+return html.replace(
+/<p>\s*\{\{automedia:image\}\}\s*<\/p>/i,
+""
 );
 
 

@@ -11,6 +11,7 @@ export function parse(md = "") {
 let title = "";
 let description = "";
 let image = "";
+let automedia = "";
 let slug = "";
 
 let content = md;
@@ -92,6 +93,13 @@ break;
 case "image":
 
 image = value;
+
+break;
+
+
+case "automedia":
+
+automedia = value;
 
 break;
 
@@ -219,6 +227,8 @@ title,
 description,
 
 image,
+
+automedia,
 
 slug,
 

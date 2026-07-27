@@ -226,6 +226,44 @@ await list(env)
 
 
 // ======================
+// AUTOMEDIA SEARCH API
+// ======================
+
+
+if(
+path === "/_media/search"
+){
+
+
+const query =
+url.searchParams.get("query") || "";
+
+
+if(!query.trim()){
+
+
+return Response.json(
+{ error:"query missing" },
+{ status:400 }
+);
+
+
+}
+
+
+return Response.json(
+await autoMedia.searchImages(
+"",
+{ query }
+)
+);
+
+
+}
+
+
+
+// ======================
 // ADMIN PROMPT API
 // ======================
 
@@ -940,7 +978,11 @@ page.image === "true"
 page.image;
 
 
-if(page.image === "true"){
+if(
+page.automedia === "true"
+&&
+content.includes("{{automedia:image}}")
+){
 
 
 try {
