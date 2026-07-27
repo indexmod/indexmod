@@ -32,6 +32,10 @@ async function writeIndex(env, pages) {
 <a href="/new">
 New
 </a>
+
+<a href="/admin/prompt">
+Prompt
+</a>
 `,
     {
       title: "Indexmod",

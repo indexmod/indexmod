@@ -21,6 +21,10 @@ const indexPagesFile =
 "index.pages.json";
 
 
+const promptFile =
+"admin-prompt.txt";
+
+
 
 // ===============================
 // GET MARKDOWN
@@ -88,6 +92,54 @@ export async function getIndex(
   return obj
     ? await obj.text()
     : null;
+
+}
+
+
+
+// ===============================
+// ADMIN PROMPT
+// ===============================
+
+
+export async function getAdminPrompt(env) {
+
+
+const obj =
+await env.PAGES.get(promptFile);
+
+
+return obj
+? await obj.text()
+: null;
+
+
+}
+
+
+
+export async function putAdminPrompt(env, prompt) {
+
+
+await env.PAGES.put(
+
+promptFile,
+
+prompt,
+
+{
+
+httpMetadata:{
+
+contentType:
+"text/plain;charset=UTF-8"
+
+}
+
+}
+
+);
+
 
 }
 

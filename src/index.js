@@ -1,8 +1,10 @@
 import {
   getFile,
   getIndex,
+  getAdminPrompt,
   findPageByPermalink,
   deletePage,
+  putAdminPrompt,
   savePage,
   list
 } from "./storage.js";
@@ -23,8 +25,10 @@ import { robots } from "./robots.js";
 
 
 import articleTemplate from "./templates/article.js";
+import adminPromptTemplate from "./templates/admin-prompt.js";
 import editorTemplate from "./templates/editor.js";
 import { AutoMedia } from "../automedia/src/index.js";
+import { promptForAdmin, promptForEditor } from "./prompt.js";
 
 
 const autoMedia =
@@ -216,6 +220,100 @@ path === "/_list"
 return Response.json(
 await list(env)
 );
+
+}
+
+
+
+// ======================
+// ADMIN PROMPT API
+// ======================
+
+
+if(
+path === "/_prompt"
+){
+
+
+if(req.method !== "POST"){
+
+
+return new Response(
+"method not allowed",
+{ status:405 }
+);
+
+
+}
+
+
+const body =
+await req.json();
+
+const prompt =
+String(body.prompt || "").trim();
+
+
+if(!prompt){
+
+
+return new Response(
+"prompt missing",
+{ status:400 }
+);
+
+
+}
+
+
+await putAdminPrompt(
+env, prompt);
+
+return Response.json({ ok:true });
+
+
+}
+
+
+
+// ======================
+// ADMIN PROMPT PAGE
+// ======================
+
+
+if(
+path === "/admin/prompt"
+){
+
+
+const prompt =
+promptForAdmin(
+await getAdminPrompt(env)
+);
+
+
+return renderPage(
+
+adminPromptTemplate(prompt),
+
+
+`
+<button onclick="savePrompt()">
+Save
+</button>
+`,
+
+
+buildMeta({
+
+title:"Prompt",
+
+robots:"noindex,nofollow"
+
+})
+
+);
+
 
 }
 
@@ -506,13 +604,17 @@ return renderPage(
 editorTemplate({
 
 content:
+promptForEditor(
 `---
 title:
 slug:
 ---
 
 Write text here...
-`
+`,
+
+await getAdminPrompt(env)
+)
 
 }),
 
@@ -610,7 +712,12 @@ editorTemplate({
 ...page,
 
 // сохраняем оригинальный markdown
+content:
+promptForEditor(
 content,
+
+await getAdminPrompt(env)
+),
 
 storageSlug
 
@@ -660,13 +767,17 @@ return renderPage(
 editorTemplate({
 
 content:
+promptForEditor(
 `---
 title: ${title}
 slug: ${slug}
 ---
 
 Write text here...
-`
+`,
+
+await getAdminPrompt(env)
+)
 
 }),
 
@@ -761,13 +872,17 @@ return renderPage(
 editorTemplate({
 
 content:
+promptForEditor(
 `---
 title: ${title}
 slug: ${slug}
 ---
 
 Write text here...
-`
+`,
+
+await getAdminPrompt(env)
+)
 
 }),
 

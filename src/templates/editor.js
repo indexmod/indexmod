@@ -39,7 +39,7 @@ document
 
 const slugMatch =
 md.match(
-/^slug:\s*(.+)$/m
+/^slug:\\s*(.+)$/m
 );
 
 
@@ -60,7 +60,7 @@ if(!slug){
 
 const titleMatch =
 md.match(
-/^title:\s*(.+)$/m
+/^title:\\s*(.+)$/m
 );
 
 
