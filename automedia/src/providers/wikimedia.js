@@ -28,7 +28,14 @@ export class WikimediaCommonsProvider {
       origin: "*"
     });
 
-    const response = await this.fetchImpl(`${endpoint}?${params}`);
+    const response = await this.fetchImpl(
+      `${endpoint}?${params}`,
+      {
+        headers: {
+          "Api-User-Agent": "AutoMedia/0.1 (https://indexmod.press)"
+        }
+      }
+    );
     if (!response.ok) throw new Error(`Wikimedia Commons request failed: ${response.status}`);
 
     const payload = await response.json();
