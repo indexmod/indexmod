@@ -556,6 +556,56 @@ return uniquePages;
 
 
 // ===============================
+// LIST STORED PAGES
+// ===============================
+
+
+export async function listStoredPages(env) {
+
+
+const keys =
+await listMarkdownKeys(env);
+
+
+const pages =
+await Promise.all(
+keys.map(async key => {
+
+
+const storageSlug =
+key.replace(".md", "");
+
+const content =
+await getFile(env, storageSlug);
+
+const page =
+parseFrontmatter(content);
+
+const permalink =
+normalizeSlug(page.slug || storageSlug) || storageSlug;
+
+return {
+storageSlug,
+permalink,
+title: page.title || storageSlug
+};
+
+
+})
+);
+
+
+return pages.sort(
+(a,b) =>
+a.title.localeCompare(b.title)
+);
+
+
+}
+
+
+
+// ===============================
 // LIST SEO PAGES
 // ===============================
 

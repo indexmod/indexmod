@@ -4,6 +4,7 @@ import {
   getAdminPrompt,
   findPageByPermalink,
   deletePage,
+  listStoredPages,
   putAdminPrompt,
   savePage,
   list
@@ -14,6 +15,7 @@ import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
 import {
   rebuildIndex,
+  removeIndexPage,
   updateIndexPage
 } from "./build.js";
 import { normalizeSlug } from "./slug.js";
@@ -25,6 +27,7 @@ import { robots } from "./robots.js";
 
 
 import articleTemplate from "./templates/article.js";
+import adminPanelTemplate from "./templates/admin-panel.js";
 import adminPromptTemplate from "./templates/admin-prompt.js";
 import editorTemplate from "./templates/editor.js";
 import { promptForAdmin, promptForEditor } from "./prompt.js";
@@ -317,6 +320,280 @@ robots:"noindex,nofollow"
 // ======================
 // API REBUILD INDEX
 // ======================
+
+
+// ======================
+// ADMIN PANEL
+// ======================
+
+
+if(
+path === "/admin/panel"
+){
+
+
+const pages =
+await listStoredPages(env);
+
+const counts =
+new Map();
+
+
+pages.forEach(page => {
+
+
+const key =
+page.title
+.toLocaleLowerCase()
+.replace(/[^\p{L}\p{N}]+/gu, "");
+
+
+counts.set(
+key,
+(counts.get(key) || 0) + 1
+);
+
+
+});
+
+
+pages.forEach(page => {
+
+
+const key =
+page.title
+.toLocaleLowerCase()
+.replace(/[^\p{L}\p{N}]+/gu, "");
+
+page.duplicate =
+(counts.get(key) || 0) > 1;
+
+
+});
+
+
+return renderPage(
+
+adminPanelTemplate(pages),
+
+"",
+
+buildMeta({
+
+title:"Admin panel",
+
+robots:"noindex,nofollow"
+
+})
+
+);
+
+
+}
+
+
+
+// ======================
+// ADMIN PERMALINK
+// ======================
+
+
+if(
+path === "/_admin/permalink"
+){
+
+
+if(req.method !== "POST"){
+
+
+return new Response(
+"method not allowed",
+{ status:405 }
+);
+
+
+}
+
+
+const body =
+await req.json();
+
+const storageSlug =
+normalizeSlug(body.storageSlug || "");
+
+const permalink =
+normalizeSlug(body.permalink || "");
+
+
+if(!storageSlug || !permalink){
+
+
+return new Response(
+"permalink missing",
+{ status:400 }
+);
+
+
+}
+
+
+const content =
+await getFile(env, storageSlug);
+
+
+if(!content){
+
+
+return new Response(
+"article not found",
+{ status:404 }
+);
+
+
+}
+
+
+const existing =
+await findPageByPermalink(env, permalink);
+
+const targetFile =
+await getFile(env, permalink);
+
+
+if(
+(existing && existing.storageSlug !== storageSlug)
+||
+(targetFile && permalink !== storageSlug)
+){
+
+
+return new Response(
+"permalink already exists",
+{ status:409 }
+);
+
+
+}
+
+
+const previous =
+parse(content);
+
+const nextContent =
+replaceFrontmatterValue(
+content,
+"slug",
+permalink
+);
+
+const next =
+parse(nextContent);
+
+const html =
+articleTemplate({
+
+...next,
+
+slug:permalink
+
+});
+
+
+await savePage(
+env,
+permalink,
+nextContent,
+html
+);
+
+
+if(storageSlug !== permalink){
+
+
+await deletePage(env, storageSlug);
+
+
+}
+
+
+await updateIndexPage(
+env,
+{
+slug:permalink,
+title:next.title || permalink
+},
+
+normalizeSlug(previous.slug || storageSlug)
+);
+
+
+return Response.json({ ok:true, permalink });
+
+
+}
+
+
+
+// ======================
+// ADMIN DELETE
+// ======================
+
+
+if(
+path === "/_admin/delete"
+){
+
+
+if(req.method !== "POST"){
+
+
+return new Response(
+"method not allowed",
+{ status:405 }
+);
+
+
+}
+
+
+const body =
+await req.json();
+
+const storageSlug =
+normalizeSlug(body.storageSlug || "");
+
+const content =
+await getFile(env, storageSlug);
+
+
+if(!content){
+
+
+return new Response(
+"article not found",
+{ status:404 }
+);
+
+
+}
+
+
+const page =
+parse(content);
+
+await deletePage(env, storageSlug);
+
+await removeIndexPage(
+env,
+normalizeSlug(page.slug || storageSlug)
+);
+
+return Response.json({ ok:true });
+
+
+}
+
+
 
 
 if(
@@ -1043,10 +1320,60 @@ try {
 return decodeURIComponent(slug);
 
 }
+
 catch {
 
 return slug;
 
 }
+
+
+}
+
+
+
+function replaceFrontmatterValue(content, key, value) {
+
+
+const match =
+content.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+
+
+if(!match)
+return `---\n${key}: ${value}\n---\n\n${content}`;
+
+
+const lines =
+match[1].split(/\r?\n/);
+
+const expression =
+new RegExp(`^${key}:`);
+
+const index =
+lines.findIndex(line => expression.test(line));
+
+
+if(index === -1){
+
+
+lines.push(`${key}: ${value}`);
+
+
+}
+else {
+
+
+lines[index] =
+`${key}: ${value}`;
+
+
+}
+
+
+return (
+`---\n${lines.join("\n")}\n---\n\n` +
+content.slice(match[0].length)
+);
+
 
 }
