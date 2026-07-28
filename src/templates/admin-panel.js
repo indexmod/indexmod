@@ -1,4 +1,4 @@
-export default function adminPanelTemplate(pages = []) {
+export default function adminPanelTemplate(pages = [], nextCursor = null) {
   const rows = pages.map((page) => `
 <tr>
   <td><a href="/${encodeURIComponent(page.permalink)}">${escapeHtml(page.title)}</a></td>
@@ -16,6 +16,7 @@ export default function adminPanelTemplate(pages = []) {
     <thead><tr><th>Title</th><th>Permalink</th><th>Status</th><th></th></tr></thead>
     <tbody>${rows}</tbody>
   </table>
+  ${nextCursor ? `<p><a href="/admin/panel?cursor=${encodeURIComponent(nextCursor)}">Next articles</a></p>` : ""}
 </div>
 
 <script>

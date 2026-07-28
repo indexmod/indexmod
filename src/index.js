@@ -4,7 +4,7 @@ import {
   getAdminPrompt,
   findPageByPermalink,
   deletePage,
-  listStoredPages,
+  listStoredPagesPage,
   putAdminPrompt,
   savePage,
   list
@@ -352,8 +352,16 @@ path === "/admin/panel"
 ){
 
 
-const pages =
-await listStoredPages(env);
+const {
+pages,
+nextCursor
+} =
+await listStoredPagesPage(
+env,
+{
+cursor: url.searchParams.get("cursor") || undefined
+}
+);
 
 const counts =
 new Map();
@@ -394,7 +402,10 @@ page.duplicate =
 
 return renderPage(
 
-adminPanelTemplate(pages),
+adminPanelTemplate(
+pages,
+nextCursor
+),
 
 "",
 

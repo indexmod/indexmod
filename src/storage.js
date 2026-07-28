@@ -606,6 +606,81 @@ a.title.localeCompare(b.title)
 
 
 // ===============================
+// LIST STORED PAGES FOR ADMIN
+// ===============================
+
+
+export async function listStoredPagesPage(
+env,
+{
+limit = 50,
+cursor = undefined
+} = {}
+) {
+
+
+const result =
+await env.PAGES.list({
+limit,
+...(cursor ? { cursor } : {})
+});
+
+
+const markdownObjects =
+result.objects.filter(
+object =>
+object.key.endsWith(".md")
+&&
+![
+"index.html.md",
+"sitemap.xml.md",
+"robots.txt.md"
+].includes(object.key)
+);
+
+
+const pages =
+await Promise.all(
+markdownObjects.map(async object => {
+
+
+const storageSlug =
+object.key.slice(0, -3);
+
+const content =
+await getFile(env, storageSlug);
+
+const page =
+parseFrontmatter(content || "");
+
+const permalink =
+normalizeSlug(page.slug || storageSlug) || storageSlug;
+
+return {
+storageSlug,
+permalink,
+title: page.title || storageSlug
+};
+
+
+})
+);
+
+
+return {
+pages: pages.sort(
+(a,b) =>
+a.title.localeCompare(b.title)
+),
+nextCursor: result.truncated ? result.cursor : null
+};
+
+
+}
+
+
+
+// ===============================
 // LIST SEO PAGES
 // ===============================
 
