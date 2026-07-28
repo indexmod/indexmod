@@ -52,6 +52,26 @@ url.pathname;
 try {
 
 
+if(
+path.startsWith("/admin/")
+||
+path.startsWith("/_admin/")
+||
+path === "/_prompt"
+){
+
+
+const denied =
+requireAdmin(req, env);
+
+
+if(denied)
+return denied;
+
+
+}
+
+
 // ======================
 // SITEMAP
 // ======================
@@ -1360,6 +1380,9 @@ lines.push(`${key}: ${value}`);
 
 
 }
+
+
+
 else {
 
 
@@ -1373,6 +1396,101 @@ lines[index] =
 return (
 `---\n${lines.join("\n")}\n---\n\n` +
 content.slice(match[0].length)
+);
+
+
+}
+
+
+
+function requireAdmin(req, env) {
+
+
+const password =
+env.ADMIN_PASSWORD;
+
+
+if(!password){
+
+
+return new Response(
+"admin password is not configured",
+{ status:503 }
+);
+
+
+}
+
+
+const authorization =
+req.headers.get("Authorization") || "";
+
+
+if(!authorization.startsWith("Basic ")){
+
+
+return unauthorized();
+
+
+}
+
+
+try {
+
+
+const credentials =
+atob(authorization.slice(6));
+
+const divider =
+credentials.indexOf(":");
+
+
+const username =
+credentials.slice(0, divider);
+
+const providedPassword =
+credentials.slice(divider + 1);
+
+
+if(username !== "admin" || providedPassword !== password){
+
+
+return unauthorized();
+
+
+}
+
+
+return null;
+
+
+}
+catch {
+
+
+return unauthorized();
+
+
+}
+
+
+}
+
+
+
+function unauthorized() {
+
+
+return new Response(
+"authentication required",
+{
+status:401,
+headers:{
+"WWW-Authenticate":
+"Basic realm=\"Indexmod admin\", charset=\"UTF-8\"",
+"Cache-Control":"no-store"
+}
+}
 );
 
 
