@@ -51,32 +51,3 @@ padding-left:30px;
 font-style:italic;
 
 }
-
-
-
-.automedia-image {
-
-margin:28px 0;
-
-}
-
-
-
-.automedia-image img {
-
-display:block;
-width:100%;
-max-width:960px;
-height:auto;
-
-}
-
-
-
-.automedia-image figcaption {
-
-margin-top:8px;
-font-size:14px;
-line-height:1.4;
-
-}

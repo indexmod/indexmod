@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - "src/**"
-      - "automedia/**"
       - "wrangler.toml"
       - "package.json"
       - "package-lock.json"

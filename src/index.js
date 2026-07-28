@@ -27,12 +27,7 @@ import { robots } from "./robots.js";
 import articleTemplate from "./templates/article.js";
 import adminPromptTemplate from "./templates/admin-prompt.js";
 import editorTemplate from "./templates/editor.js";
-import { AutoMedia } from "../automedia/src/index.js";
 import { promptForAdmin, promptForEditor } from "./prompt.js";
-
-
-const autoMedia =
-new AutoMedia();
 
 
 
@@ -220,44 +215,6 @@ path === "/_list"
 return Response.json(
 await list(env)
 );
-
-}
-
-
-
-// ======================
-// AUTOMEDIA SEARCH API
-// ======================
-
-
-if(
-path === "/_media/search"
-){
-
-
-const query =
-url.searchParams.get("query") || "";
-
-
-if(!query.trim()){
-
-
-return Response.json(
-{ error:"query missing" },
-{ status:400 }
-);
-
-
-}
-
-
-return Response.json(
-await autoMedia.searchImages(
-"",
-{ query }
-)
-);
-
 
 }
 
@@ -967,54 +924,12 @@ page.slug || slug
 
 
 
-let illustration =
-"";
-
 let image =
 page.image === "true"
 ?
 ""
 :
 page.image;
-
-
-if(
-page.automedia === "true"
-&&
-content.includes("{{automedia:image}}")
-){
-
-
-try {
-
-
-const preview =
-await autoMedia.previewInsertion(
-content
-);
-
-
-illustration =
-preview.html || "";
-
-image =
-preview.image?.url || "";
-
-
-}
-catch(error){
-
-
-console.error(
-"AutoMedia lookup failed",
-error
-);
-
-
-}
-
-
-}
 
 
 
@@ -1024,9 +939,7 @@ articleTemplate({
 ...page,
 
 slug:
-permalink,
-
-illustration
+permalink
 
 });
 

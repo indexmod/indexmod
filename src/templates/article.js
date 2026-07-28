@@ -1,16 +1,5 @@
 export default function articleTemplate(page) {
 
-const content =
-page.illustration
-?
-replaceAutoMediaPlaceholder(
-page.html || "",
-page.illustration
-)
-:
-removeAutoMediaPlaceholder(
-page.html || "");
-
 return `
 
 <article>
@@ -22,7 +11,7 @@ ${page.title || page.slug || ""}
 
 <div class="content">
 
-${content}
+${page.html || ""}
 
 </div>
 
@@ -30,31 +19,5 @@ ${content}
 </article>
 
 `;
-
-}
-
-
-
-function replaceAutoMediaPlaceholder(html, illustration) {
-
-
-return html.replace(
-/<p>\s*\{\{automedia:image\}\}\s*<\/p>/i,
-illustration
-);
-
-
-}
-
-
-
-function removeAutoMediaPlaceholder(html) {
-
-
-return html.replace(
-/<p>\s*\{\{automedia:image\}\}\s*<\/p>/i,
-""
-);
-
 
 }
