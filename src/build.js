@@ -25,13 +25,18 @@ export async function updateIndexPage(env, page, previousSlug = "") {
 }
 
 export async function removeIndexPage(env, slug) {
+  return removeIndexPages(env, [slug]);
+}
+
+export async function removeIndexPages(env, slugs) {
   let pages = await getIndexPages(env);
 
   if (!pages) {
     pages = await list(env);
   }
 
-  pages = pages.filter((page) => page.slug !== slug);
+  const removedSlugs = new Set(slugs);
+  pages = pages.filter((page) => !removedSlugs.has(page.slug));
   await putIndexPages(env, pages);
   return writeIndex(env, pages);
 }

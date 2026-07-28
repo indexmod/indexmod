@@ -16,6 +16,7 @@ import { renderPage } from "./render.js";
 import {
   rebuildIndex,
   removeIndexPage,
+  removeIndexPages,
   updateIndexPage
 } from "./build.js";
 import { normalizeSlug } from "./slug.js";
@@ -620,6 +621,100 @@ normalizeSlug(page.slug || storageSlug)
 );
 
 return Response.json({ ok:true });
+
+
+}
+
+
+
+// ======================
+// ADMIN BULK DELETE
+// ======================
+
+
+if(
+path === "/_admin/delete-many"
+){
+
+
+if(req.method !== "POST"){
+
+
+return new Response(
+"method not allowed",
+{ status:405 }
+);
+
+
+}
+
+
+const body =
+await req.json();
+
+const storageSlugs =
+[...new Set(
+(Array.isArray(body.storageSlugs) ? body.storageSlugs : [])
+.map(slug => normalizeSlug(slug || ""))
+.filter(Boolean)
+)]
+.slice(0, 50);
+
+
+if(!storageSlugs.length){
+
+
+return new Response(
+"articles missing",
+{ status:400 }
+);
+
+
+}
+
+
+const articles =
+await Promise.all(
+storageSlugs.map(async storageSlug => {
+
+
+const content =
+await getFile(env, storageSlug);
+
+if(!content)
+return null;
+
+const page =
+parse(content);
+
+return {
+storageSlug,
+slug: normalizeSlug(page.slug || storageSlug)
+};
+
+
+})
+);
+
+const existingArticles =
+articles.filter(Boolean);
+
+
+await Promise.all(
+existingArticles.map(article =>
+deletePage(env, article.storageSlug)
+)
+);
+
+await removeIndexPages(
+env,
+existingArticles.map(article => article.slug)
+);
+
+return Response.json({
+ok:true,
+deleted:existingArticles.length
+});
 
 
 }

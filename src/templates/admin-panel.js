@@ -1,19 +1,21 @@
 export default function adminPanelTemplate(pages = [], nextCursor = null) {
   const rows = pages.map((page) => `
 <tr>
+  <td><input type="checkbox" data-select="${escapeAttribute(page.storageSlug)}" aria-label="Select ${escapeAttribute(page.title)}"></td>
   <td><a href="/${encodeURIComponent(page.permalink)}">${escapeHtml(page.title)}</a></td>
   <td><input value="${escapeAttribute(page.permalink)}" data-permalink="${escapeAttribute(page.storageSlug)}"></td>
   <td>${page.duplicate ? "Duplicate" : ""}</td>
   <td>
     <button onclick="savePermalink('${escapeJs(page.storageSlug)}')">Save</button>
-    ${page.duplicate ? `<button onclick="deletePage('${escapeJs(page.storageSlug)}')">Delete</button>` : ""}
+    <button onclick="deletePage('${escapeJs(page.storageSlug)}')">Delete</button>
   </td>
 </tr>`).join("");
 
   return `
 <div class="admin-panel">
+  <p><button type="button" onclick="deleteSelected()">Delete selected</button></p>
   <table>
-    <thead><tr><th>Title</th><th>Permalink</th><th>Status</th><th></th></tr></thead>
+    <thead><tr><th><input type="checkbox" aria-label="Select all" onchange="toggleAll(this.checked)"></th><th>Title</th><th>Permalink</th><th>Status</th><th></th></tr></thead>
     <tbody>${rows}</tbody>
   </table>
   ${nextCursor ? `<p><a href="/admin/panel?cursor=${encodeURIComponent(nextCursor)}">Next articles</a></p>` : ""}
@@ -37,6 +39,24 @@ async function deletePage(storageSlug){
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ storageSlug })
+  });
+  if(!response.ok){ alert(await response.text()); return; }
+  location.reload();
+}
+
+function toggleAll(checked){
+  document.querySelectorAll('[data-select]').forEach(input => { input.checked = checked; });
+}
+
+async function deleteSelected(){
+  const storageSlugs = [...document.querySelectorAll('[data-select]:checked')]
+    .map(input => input.dataset.select);
+  if(!storageSlugs.length){ alert('Select at least one article.'); return; }
+  if(!confirm('Delete ' + storageSlugs.length + ' selected articles?')) return;
+  const response = await fetch('/_admin/delete-many', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ storageSlugs })
   });
   if(!response.ok){ alert(await response.text()); return; }
   location.reload();
