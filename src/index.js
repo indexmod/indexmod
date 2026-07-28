@@ -25,7 +25,7 @@ import { buildMeta } from "./meta.js";
 
 import { sitemap } from "./sitemap.js";
 import { robots } from "./robots.js";
-import { isApprovedImageHost } from "./image-hosts.js";
+import { isAllowedImageSourceUrl } from "./image-hosts.js";
 
 
 import articleTemplate from "./templates/article.js";
@@ -1623,11 +1623,7 @@ return new Response(
 }
 
 
-if(
-sourceUrl.protocol !== "https:"
-||
-!isApprovedImageHost(sourceUrl.hostname)
-){
+if(!isAllowedImageSourceUrl(sourceUrl)){
 
 
 return new Response(
@@ -1655,11 +1651,19 @@ return new Response(
 }
 
 
-const contentType =
+const upstreamContentType =
 upstream.headers.get("Content-Type") || "";
 
 
-if(!contentType.startsWith("image/")){
+const contentType =
+upstreamContentType.startsWith("image/")
+?
+upstreamContentType
+:
+inferImageContentType(sourceUrl.pathname);
+
+
+if(!contentType){
 
 
 return new Response(
@@ -1680,6 +1684,44 @@ headers:{
 }
 }
 );
+
+
+}
+
+
+
+function inferImageContentType(pathname = "") {
+
+
+const path =
+pathname.toLowerCase();
+
+
+if(path.endsWith(".jpg") || path.endsWith(".jpeg"))
+return "image/jpeg";
+
+
+if(path.endsWith(".png"))
+return "image/png";
+
+
+if(path.endsWith(".gif"))
+return "image/gif";
+
+
+if(path.endsWith(".webp"))
+return "image/webp";
+
+
+if(path.endsWith(".avif"))
+return "image/avif";
+
+
+if(path.endsWith(".svg"))
+return "image/svg+xml";
+
+
+return "";
 
 
 }

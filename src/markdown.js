@@ -1,5 +1,5 @@
 import { marked } from "marked";
-import { isApprovedImageHost } from "./image-hosts.js";
+import { isAllowedImageSourceUrl } from "./image-hosts.js";
 
 
 // ===============================
@@ -92,7 +92,8 @@ break;
 
 case "image":
 
-image = value;
+image =
+unwrapMarkdownUrl(value);
 
 break;
 
@@ -191,7 +192,7 @@ content.match(
 
 if(img)
 image =
-img[1];
+unwrapMarkdownUrl(img[1]);
 
 
 }
@@ -206,9 +207,11 @@ img[1];
 const html =
 proxyExternalImages(
 marked.parse(
+normalizeImageMarkdown(
 renderPageSelectors(content, {
 image
 })
+)
 )
 );
 
@@ -246,7 +249,7 @@ function proxyExternalImages(html = "") {
 
 
 return html.replace(
-/<img\b([^>]*?)\bsrc="(https:\/\/[^"\s]+)"([^>]*)>/gi,
+/<img\b([^>]*?)\bsrc="(https?:\/\/[^"\s]+)"([^>]*)>/gi,
 (_match, before, source, after) => {
 
 
@@ -269,7 +272,7 @@ return `<img${before}src="${source}"${after}>`;
 }
 
 
-if(!isApprovedImageHost(sourceUrl.hostname))
+if(!isAllowedImageSourceUrl(sourceUrl))
 return `<img${before}src="${source}"${after}>`;
 
 
@@ -298,12 +301,48 @@ part.replace(
 /\{\{\s*page:image\s*\}\}/gi,
 page.image
 ?
-`![](${page.image})`
+`![](${unwrapMarkdownUrl(page.image)})`
 :
 ""
 )
 )
 .join("");
+
+
+}
+
+
+
+function normalizeImageMarkdown(content = "") {
+
+
+return String(content).replace(
+/!\[([^\]]*)\]\(\s*\[[^\]]*\]\((https?:\/\/[^)\s]+)\)\s*\)/gi,
+(_match, alt, source) =>
+`![${alt}](${source})`
+);
+
+
+}
+
+
+
+function unwrapMarkdownUrl(value = "") {
+
+
+const source =
+String(value).trim();
+
+
+const markdownLink =
+source.match(/^\[[^\]]*\]\((https?:\/\/[^)\s]+)\)$/i);
+
+
+return markdownLink
+?
+markdownLink[1]
+:
+source;
 
 
 }
