@@ -18,14 +18,7 @@ export function promptForAdmin(prompt) {
 function normalizePrompt(value) {
   let prompt = stripComment(value);
 
-  prompt = prompt.replace(
-    /^- (?:Добавить во фронтаматер image: true.*|Если статья нуждается в иллюстрации, записывать automedia: true.*)\n?/gim,
-    ""
-  );
-
-  prompt = prompt.replace(
-    /IMAGE RULES:\s*[\s\S]*?(?=\nCONTENT:)/i,
-    `IMAGE RULES:
+  const directImageRules = `## IMAGE RULES
 
 - Найти релевантный файл только в проверенном источнике, предпочтительно Wikimedia Commons.
 - Проверить автора, источник и лицензию. Не использовать Fair use, страницы файлов и придуманные URL.
@@ -34,8 +27,26 @@ function normalizePrompt(value) {
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/87/Space-gallery_798-art-district.jpg)
 
-*Image: Wikimedia Commons. Author: Name. License: CC BY-SA 4.0. Source: https://commons.wikimedia.org/*
-`
+*Image: Wikimedia Commons. Author: Name. License: CC BY-SA 4.0. Source: https://commons.wikimedia.org/*`;
+
+  prompt = prompt.replace(
+    /### Правила обработки изображений[\s\S]*?(?=\n---\s*\n\s*## STRUCTURE)/i,
+    directImageRules
+  );
+
+  prompt = prompt.replace(
+    /## IMAGE RULES[\s\S]*?(?=\n---\s*\n\s*## CONTENT)/i,
+    directImageRules
+  );
+
+  prompt = prompt.replace(
+    /^- (?:Добавить во фронтаматер image: true.*|Если статья нуждается в иллюстрации, записывать automedia: true.*)\n?/gim,
+    ""
+  );
+
+  prompt = prompt.replace(
+    /IMAGE RULES:\s*[\s\S]*?(?=\nCONTENT:)/i,
+    directImageRules.replace("## IMAGE RULES", "IMAGE RULES:") + "\n"
   );
 
   if (!prompt.includes("записывать её прямой URL в image:")) {
