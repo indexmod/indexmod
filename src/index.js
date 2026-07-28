@@ -1693,7 +1693,8 @@ const hosts = [
 "upload.wikimedia.org",
 "images.unsplash.com",
 "live.staticflickr.com",
-"iiif.europeana.eu"
+"iiif.europeana.eu",
+"leader-id.ru"
 ];
 
 
