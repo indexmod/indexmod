@@ -204,7 +204,11 @@ img[1];
 
 const html =
 proxyExternalImages(
-marked.parse(content)
+marked.parse(
+renderPageSelectors(content, {
+image
+})
+)
 );
 
 
@@ -244,6 +248,23 @@ return html.replace(
 /<img\b([^>]*?)\bsrc="(https:\/\/[^"\s]+)"([^>]*)>/gi,
 (_match, before, source, after) =>
 `<img${before}src="/_media?url=${encodeURIComponent(source)}"${after}>`
+);
+
+
+}
+
+
+
+function renderPageSelectors(content = "", page = {}) {
+
+
+return String(content).replace(
+/\{\{\s*page:image\s*\}\}/gi,
+page.image
+?
+`![](${page.image})`
+:
+""
 );
 
 

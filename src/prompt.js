@@ -22,10 +22,12 @@ function normalizePrompt(value) {
 
 - Найти релевантный файл только в проверенном источнике, предпочтительно Wikimedia Commons.
 - Проверить автора, источник и лицензию. Не использовать Fair use, страницы файлов и придуманные URL.
-- В image: во frontmatter записать тот же прямой URL файла, который используется в статье.
+- В image: во frontmatter записать только чистый прямой URL файла изображения, без Markdown-разметки, квадратных скобок и круглых скобок.
+- В Markdown статьи вставлять иллюстрацию только через селектор {{page:image}}. Рендер подставит image из frontmatter и обработает внешний URL через медиапрокси.
+- Не использовать формат [URL](URL) для URL изображения во frontmatter или внутри src.
 - После первого смыслового абзаца вставить блок в следующем виде, заменив URL и кредит реальными данными:
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/87/Space-gallery_798-art-district.jpg)
+{{page:image}}
 
 *Image: Wikimedia Commons. Author: Name. License: CC BY-SA 4.0. Source: https://commons.wikimedia.org/*`;
 
@@ -49,10 +51,10 @@ function normalizePrompt(value) {
     directImageRules.replace("## IMAGE RULES", "IMAGE RULES:") + "\n"
   );
 
-  if (!prompt.includes("записывать её прямой URL в image:")) {
+  if (!prompt.includes("чистый прямой URL файла изображения")) {
     prompt = prompt.replace(
       "- Статья должна быть структурирована как справочный материал.",
-      "- Статья должна быть структурирована как справочный материал.\n- Если статья нуждается в иллюстрации, записывать её прямой URL в image: во frontmatter и вставлять её в Markdown статьи."
+      "- Статья должна быть структурирована как справочный материал.\n- Если статья нуждается в иллюстрации, записывать чистый прямой URL файла изображения в image: во frontmatter, а в Markdown статьи вставлять картинку через селектор {{page:image}}."
     );
   }
 
