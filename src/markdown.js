@@ -276,11 +276,25 @@ if(!isAllowedImageSourceUrl(sourceUrl))
 return `<img${before}src="${source}"${after}>`;
 
 
-return `<img${before}src="/_media?url=${encodeURIComponent(source)}"${after}>`;
+return `<img${before}src="/_media?url=${encodeURIComponent(source)}" data-source="${escapeHtmlAttribute(source)}" onerror="this.onerror=null;this.src=this.dataset.source"${after}>`;
 
 
 }
 );
+
+
+}
+
+
+
+function escapeHtmlAttribute(value = "") {
+
+
+return String(value)
+.replace(/&/g, "&amp;")
+.replace(/"/g, "&quot;")
+.replace(/</g, "&lt;")
+.replace(/>/g, "&gt;");
 
 
 }
