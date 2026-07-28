@@ -23,6 +23,7 @@ color:green;
 .content table {
 
 border-collapse:collapse;
+border:0.5px solid #e6e6e6;
 width:100%;
 
 margin:40px 0;
@@ -33,11 +34,17 @@ margin:40px 0;
 .content th,
 .content td {
 
-border-bottom:1px solid #ddd;
+border:0.5px solid #e6e6e6;
 
 padding:10px;
 
 text-align:left;
+vertical-align:top;
+
+font-family:Monaco, "Courier New", monospace;
+font-size:14px;
+font-weight:100;
+line-height:1.45;
 
 }
 
