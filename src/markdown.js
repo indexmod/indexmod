@@ -203,7 +203,9 @@ img[1];
 
 
 const html =
-marked.parse(content);
+proxyExternalImages(
+marked.parse(content)
+);
 
 
 
@@ -229,6 +231,20 @@ html,
 raw: md
 
 };
+
+
+}
+
+
+
+function proxyExternalImages(html = "") {
+
+
+return html.replace(
+/<img\b([^>]*?)\bsrc="(https:\/\/[^"\s]+)"([^>]*)>/gi,
+(_match, before, source, after) =>
+`<img${before}src="/_media?url=${encodeURIComponent(source)}"${after}>`
+);
 
 
 }

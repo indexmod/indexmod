@@ -134,6 +134,20 @@ headers:{
 
 
 if(
+path === "/_media"
+){
+
+
+return proxyImage(
+url.searchParams.get("url") || ""
+);
+
+
+}
+
+
+
+if(
 path === "/logo.svg" ||
 path === "/favicon.svg"
 ){
@@ -1527,7 +1541,6 @@ return new Response(
 
 }
 
-
 const authorization =
 req.headers.get("Authorization") || "";
 
@@ -1578,6 +1591,117 @@ return unauthorized();
 
 
 }
+
+
+}
+
+
+
+async function proxyImage(source) {
+
+
+let sourceUrl;
+
+try {
+
+
+sourceUrl =
+new URL(source);
+
+
+}
+catch {
+
+
+return new Response(
+"invalid image URL",
+{ status:400 }
+);
+
+
+}
+
+
+if(
+sourceUrl.protocol !== "https:"
+||
+!isApprovedImageHost(sourceUrl.hostname)
+){
+
+
+return new Response(
+"image source is not allowed",
+{ status:403 }
+);
+
+
+}
+
+
+const upstream =
+await fetch(sourceUrl);
+
+
+if(!upstream.ok){
+
+
+return new Response(
+"image is unavailable",
+{ status:502 }
+);
+
+
+}
+
+
+const contentType =
+upstream.headers.get("Content-Type") || "";
+
+
+if(!contentType.startsWith("image/")){
+
+
+return new Response(
+"image source did not return an image",
+{ status:415 }
+);
+
+
+}
+
+
+return new Response(
+upstream.body,
+{
+headers:{
+"Content-Type":contentType,
+"Cache-Control":"public,max-age=86400"
+}
+}
+);
+
+
+}
+
+
+
+function isApprovedImageHost(hostname) {
+
+
+const hosts = [
+"aros.dk",
+"upload.wikimedia.org",
+"images.unsplash.com",
+"live.staticflickr.com",
+"iiif.europeana.eu"
+];
+
+
+return hosts.some(host =>
+hostname === host
+||
+hostname.endsWith(`.${host}`)
+);
 
 
 }
