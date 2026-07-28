@@ -25,6 +25,7 @@ import { buildMeta } from "./meta.js";
 
 import { sitemap } from "./sitemap.js";
 import { robots } from "./robots.js";
+import { isApprovedImageHost } from "./image-hosts.js";
 
 
 import articleTemplate from "./templates/article.js";
@@ -1678,30 +1679,6 @@ headers:{
 "Cache-Control":"public,max-age=86400"
 }
 }
-);
-
-
-}
-
-
-
-function isApprovedImageHost(hostname) {
-
-
-const hosts = [
-"aros.dk",
-"upload.wikimedia.org",
-"images.unsplash.com",
-"live.staticflickr.com",
-"iiif.europeana.eu",
-"leader-id.ru"
-];
-
-
-return hosts.some(host =>
-hostname === host
-||
-hostname.endsWith(`.${host}`)
 );
 
 

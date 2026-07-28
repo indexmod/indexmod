@@ -1,4 +1,5 @@
 import { marked } from "marked";
+import { isApprovedImageHost } from "./image-hosts.js";
 
 
 // ===============================
@@ -246,8 +247,36 @@ function proxyExternalImages(html = "") {
 
 return html.replace(
 /<img\b([^>]*?)\bsrc="(https:\/\/[^"\s]+)"([^>]*)>/gi,
-(_match, before, source, after) =>
-`<img${before}src="/_media?url=${encodeURIComponent(source)}"${after}>`
+(_match, before, source, after) => {
+
+
+let sourceUrl;
+
+try {
+
+
+sourceUrl =
+new URL(source);
+
+
+}
+catch {
+
+
+return `<img${before}src="${source}"${after}>`;
+
+
+}
+
+
+if(!isApprovedImageHost(sourceUrl.hostname))
+return `<img${before}src="${source}"${after}>`;
+
+
+return `<img${before}src="/_media?url=${encodeURIComponent(source)}"${after}>`;
+
+
+}
 );
 
 
@@ -258,14 +287,23 @@ return html.replace(
 function renderPageSelectors(content = "", page = {}) {
 
 
-return String(content).replace(
+return String(content)
+.split(/(<!--[\s\S]*?-->)/g)
+.map(part =>
+part.startsWith("<!--")
+?
+part
+:
+part.replace(
 /\{\{\s*page:image\s*\}\}/gi,
 page.image
 ?
 `![](${page.image})`
 :
 ""
-);
+)
+)
+.join("");
 
 
 }
