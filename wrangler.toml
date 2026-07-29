@@ -4,4 +4,4 @@ compatibility_date = "2026-04-25"
 
 [[r2_buckets]]
 binding = "PAGES"
-bucket_name = "indexcms-pages"
+bucket_name = "indexmod"
