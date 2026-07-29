@@ -23,13 +23,13 @@
 .content td {
   padding: 10px;
 
-  border: 1px solid #000;
+  border: 0.7px solid #000;
 
   text-align: left;
   vertical-align: top;
 
-  font-family: "American Typewriter", "Courier New", serif;
-  font-size: 15px;
+  font-family: monospace;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.45;
 }
