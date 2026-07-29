@@ -1,7 +1,7 @@
 import { spawnSync } from "node:child_process";
 import { existsSync } from "node:fs";
 
-const bucket = process.env.R2_BUCKET || "indexcms-pages";
+const bucket = process.env.R2_BUCKET || "indexmod";
 
 const assets = [
   ["styles/base.css", "text/css;charset=UTF-8"],
