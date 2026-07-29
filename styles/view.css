@@ -1,4 +1,10 @@
-.content {
+ChatGPT Plus
+
+
+
+
+
+замени шрифт в таблицах на американ тайп и сделай границы черными и чуть толще .content {
 
 max-width:900px;
 
@@ -57,4 +63,48 @@ padding-left:30px;
 
 font-style:italic;
 
+}
+
+.content {
+  max-width: 900px;
+}
+
+.content p {
+  margin: 0 0 30px;
+}
+
+.content strong {
+  font-weight: normal;
+  color: green;
+}
+
+.content table {
+  width: 100%;
+  margin: 40px 0;
+
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.content th,
+.content td {
+  padding: 10px;
+
+  border: 1px solid #000;
+
+  text-align: left;
+  vertical-align: top;
+
+  font-family: "American Typewriter", "Courier New", serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.45;
+}
+
+.content blockquote {
+  padding-left: 30px;
+
+  border-left: 3px solid #000;
+
+  font-style: italic;
 }
