@@ -1,4 +1,4 @@
-name = "indexcms"
+name = "indexmod"
 main = "src/index.js"
 compatibility_date = "2026-04-25"
 
