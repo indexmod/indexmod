@@ -24,7 +24,7 @@ export default function indexTemplate(pages = []) {
 
   let html = `
 <section class="index-intro">
-<h1>Indexmod Fashion and Art Encyclopedia</h1>
+<h1>Indexmod Fashion and Art</h1>
 <p>Independent encyclopedia of fashion, art, designers, brands, institutions, exhibitions and fashion weeks.</p>
 <p><strong>${pages.length}</strong> published entries, arranged alphabetically.</p>
 </section>
