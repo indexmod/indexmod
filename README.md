@@ -11,10 +11,13 @@ The project collects and organizes articles about fashion weeks, designers, arti
 - `scripts/` — maintenance and asset synchronization tools
 - `wrangler.toml` — Cloudflare Worker and R2 configuration
 
-## Time capsule
+## Continuity documents
 
-This repository contains [`TIME_CAPSULE.md`](./TIME_CAPSULE.md), a dormant long-term stewardship document for the future of Indexmod.
+This repository contains two long-term continuity documents:
 
-It describes how the project should be preserved and, only after verified death or permanent incapacity of its owner, may gradually evolve into an open, self-extending knowledge system with anonymous contribution proposals, machine-assisted fact checking, transparent claim provenance, reversible moderation, and public content analytics.
+- [`DOMAIN_CONTINUITY.md`](./DOMAIN_CONTINUITY.md) — instructions for preserving public access if `indexmod.press` expires or becomes unavailable, including a `workers.dev` fallback, a static GitHub Pages mirror, independent hosting, archival exports, canonical migration, and domain-takeover protection.
+- [`TIME_CAPSULE.md`](./TIME_CAPSULE.md) — a dormant future-stewardship document describing how Indexmod may eventually become an open, self-extending knowledge system with anonymous contribution proposals, machine-assisted fact checking, transparent claim provenance, reversible moderation, and public content analytics.
 
-The time capsule is not executable code and must not be activated merely because the repository, domain, or owner appears inactive.
+Domain expiration alone does not activate the time capsule and must not be interpreted as proof that the owner has died, become incapacitated, or abandoned the project.
+
+The continuity documents are not executable code. They contain no credentials and do not grant ownership or authority over accounts, infrastructure, or project assets.
