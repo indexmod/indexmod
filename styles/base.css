@@ -8,173 +8,108 @@ body {
   padding: 0;
 }
 
-
 body {
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
   line-height: 1.75;
-
   color: #000;
   background: #fff;
-
   max-width: 1100px;
   margin: 0 auto;
-
   padding: 100px 40px;
 }
 
-
 /* HEADER */
-
 .site-header {
   display: flex;
   align-items: flex-start;
 }
-
 
 .logo {
   display: inline-block;
   padding: 4px;
 }
 
-
 .logo img {
   height: 250px;
   display: block;
-
   animation: pulse 4s infinite ease-in-out;
 }
 
-
 @keyframes pulse {
-
-0% {
- transform: scale(1);
+  0% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+  100% { transform: scale(1); }
 }
-
-50% {
- transform: scale(1.04);
-}
-
-100% {
- transform: scale(1);
-}
-
-}
-
 
 /* ACTIONS */
-
 .action-bar {
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-margin:40px 0;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
 }
-
 
 .actions {
-
-font-size:25px;
-
+  font-size: 25px;
 }
-
 
 a {
-
-color:#1a73e8;
-text-decoration:none;
-
+  color: #1a73e8;
+  text-decoration: none;
 }
-
 
 a:hover {
-
-text-decoration:none;
-
+  text-decoration: none;
 }
-
 
 button {
-
-all:unset;
-cursor:pointer;
-
-color:#1a73e8;
-font-size:inherit;
-
+  all: unset;
+  cursor: pointer;
+  color: #1a73e8;
+  font-size: inherit;
 }
-
 
 /* TYPOGRAPHY */
-
-
 h1 {
-
-font-size:48px;
-font-weight:normal;
-line-height:1.2;
-
-margin:0 0 40px;
-
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0 0 40px;
 }
-
 
 h2 {
-
-font-size:32px;
-font-weight:normal;
-
-margin-top:50px;
-
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 50px;
 }
-
 
 img {
-
-max-width:100%;
-height:auto;
-
+  max-width: 100%;
+  height: auto;
 }
-
 
 /* FOOTER */
-
 .site-footer {
-
-margin-top:100px;
-
-display:flex;
-justify-content:flex-end;
-
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-
-.footer-dot {
-
-width:20px;
-height:20px;
-
-border-radius:50%;
-
-background:silver;
-
-display:inline-block;
-
+.footer-link {
+  display: block;
+  width: clamp(112px, 15vw, 160px);
+  line-height: 0;
 }
 
+.footer-badge {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-.footer-text {
-
-font-family:inherit;
-
-font-weight:100;
-
+.footer-link:focus-visible {
+  outline: 2px solid #1a73e8;
+  outline-offset: 6px;
 }
