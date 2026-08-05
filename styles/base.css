@@ -9,6 +9,7 @@ body {
 }
 
 body {
+  --logo-size: clamp(240px, 46vw, 520px);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
   line-height: 1.75;
@@ -24,31 +25,41 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 40px;
   margin: 0 0 40px;
 }
 
 .logo {
   display: inline-block;
+  width: var(--logo-size);
   padding: 4px;
   line-height: 0;
   flex: 0 0 auto;
 }
 
 .logo img {
-  width: clamp(220px, 42vw, 500px);
+  width: 100%;
+  max-width: none;
   height: auto;
   display: block;
-  animation: pulse 4s infinite ease-in-out;
+  animation: pulse 3.6s infinite ease-in-out;
 }
 
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.07); }
+  50% { transform: scale(1.1); }
   100% { transform: scale(1); }
 }
 
 /* ACTIONS */
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: var(--logo-size);
+  margin: calc(-1 * (var(--logo-size) + 40px)) 0 40px;
+}
+
 .actions {
   display: flex;
   align-items: center;
@@ -56,7 +67,7 @@ body {
   gap: 18px;
   font-size: 25px;
   line-height: 1;
-  min-height: clamp(220px, 42vw, 500px);
+  min-height: var(--logo-size);
   text-align: right;
 }
 
@@ -69,10 +80,30 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 88px;
-  padding: 8px 14px;
+  min-width: 104px;
+  padding: 10px 18px;
   border: 1px solid currentColor;
   border-radius: 9999px;
+}
+
+@media (max-width: 640px) {
+  body {
+    --logo-size: clamp(168px, 48vw, 240px);
+  }
+
+  .site-header {
+    gap: 20px;
+  }
+
+  .actions {
+    font-size: 22px;
+  }
+
+  .actions a,
+  .actions button {
+    min-width: 82px;
+    padding: 8px 14px;
+  }
 }
 
 a {
