@@ -42,13 +42,10 @@ ${yandexMetrika()}
 <a href="/" class="logo" aria-label="Indexmod home">
 <img src="/logo.svg" alt="Indexmod" width="48" height="48">
 </a>
-</header>
-<div class="action-bar">
-<div></div>
 <div class="actions">
 ${rightUI}
 </div>
-</div>
+</header>
 <main>
 ${c}
 </main>

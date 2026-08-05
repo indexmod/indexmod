@@ -22,36 +22,57 @@ body {
 /* HEADER */
 .site-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0 0 40px;
 }
 
 .logo {
   display: inline-block;
   padding: 4px;
+  line-height: 0;
+  flex: 0 0 auto;
 }
 
 .logo img {
-  height: 250px;
+  width: clamp(220px, 42vw, 500px);
+  height: auto;
   display: block;
   animation: pulse 4s infinite ease-in-out;
 }
 
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.04); }
+  50% { transform: scale(1.07); }
   100% { transform: scale(1); }
 }
 
 /* ACTIONS */
-.action-bar {
+.actions {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 40px 0;
+  justify-content: flex-end;
+  gap: 18px;
+  font-size: 25px;
+  line-height: 1;
+  min-height: clamp(220px, 42vw, 500px);
+  text-align: right;
 }
 
-.actions {
-  font-size: 25px;
+.actions:empty {
+  display: none;
+}
+
+.actions a,
+.actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 88px;
+  padding: 8px 14px;
+  border: 1px solid currentColor;
+  border-radius: 9999px;
 }
 
 a {
