@@ -1,11 +1,7 @@
 import { og, structuredData } from "../meta.js";
 import yandexMetrika from "../metrics.js";
 
-export default function layout(
-  c,
-  rightUI = "",
-  meta = {}
-) {
+export default function layout(c, rightUI = "", meta = {}) {
   const title = meta.title || "Indexmod";
   const description = meta.description || "Indexmod — independent fashion and art encyclopedia";
   const url = meta.url || (meta.slug
@@ -16,19 +12,25 @@ export default function layout(
   const documentTitle = title === "Indexmod"
     ? "Indexmod — Fashion and Art Encyclopedia"
     : `${title} — Indexmod`;
+  const keywords = Array.isArray(meta.keywords) ? meta.keywords.join(", ") : "";
 
-  return `
-<!doctype html>
+  return `<!doctype html>
 <html lang="${escapeHtml(language)}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
+<meta name="generator" content="Indexmod Cloudflare Worker">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="${escapeHtml(url)}">
 <title>${escapeHtml(documentTitle)}</title>
 <meta name="description" content="${escapeHtml(description)}">
-<meta name="robots" content="${escapeHtml(meta.robots || "index,follow,max-image-preview:large")}">
-<link rel="canonical" href="${escapeHtml(url)}">
+<meta name="robots" content="${escapeHtml(meta.robots || "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1")}">
+${keywords ? `<meta name="keywords" content="${escapeHtml(keywords)}">` : ""}
+${meta.created ? `<meta name="article:published_time" content="${escapeHtml(meta.created)}">` : ""}
+${meta.updated ? `<meta name="article:modified_time" content="${escapeHtml(meta.updated)}">` : ""}
 ${og({ ...meta, title, description, url })}
 ${structuredData({ ...meta, title, description, url })}
 <link rel="stylesheet" href="/styles/base.css">
@@ -38,45 +40,32 @@ ${structuredData({ ...meta, title, description, url })}
 ${yandexMetrika()}
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
 <a href="/" class="logo" aria-label="Indexmod home">
-<img src="/logo.svg" alt="Indexmod" width="48" height="48">
+<img src="/logo.svg" alt="Indexmod" width="48" height="48" decoding="async">
 </a>
 </header>
 <div class="action-bar">
 <div></div>
-<div class="actions">
-${rightUI}
+<div class="actions">${rightUI}</div>
 </div>
-</div>
-<main>
+<main id="content">
 ${c}
 </main>
 <footer class="site-footer">
-<a
-  class="footer-link"
-  href="https://mod.indexmod.press"
-  aria-label="XX лет"
->
+<a class="footer-link" href="https://mod.indexmod.press" aria-label="XX лет">
 <svg class="footer-badge" viewBox="0 0 1000 1000" role="img" aria-hidden="true" focusable="false">
 <defs>
-  <radialGradient id="footer-sphere-gradient" cx="40%" cy="35%" r="75%">
-    <stop offset="0%" stop-color="#e0e0e0"/>
-    <stop offset="45%" stop-color="#b8b8b8"/>
-    <stop offset="100%" stop-color="#6f6f6f"/>
-  </radialGradient>
-  <radialGradient id="footer-sphere-shine" cx="35%" cy="30%" r="55%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
-    <stop offset="40%" stop-color="#ffffff" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-  </radialGradient>
+<radialGradient id="footer-sphere-gradient" cx="40%" cy="35%" r="75%">
+<stop offset="0%" stop-color="#e0e0e0"/><stop offset="45%" stop-color="#b8b8b8"/><stop offset="100%" stop-color="#6f6f6f"/>
+</radialGradient>
+<radialGradient id="footer-sphere-shine" cx="35%" cy="30%" r="55%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="40%" stop-color="#ffffff" stop-opacity="0.08"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
 </defs>
 <rect width="1000" height="1000" fill="#1a73e8"/>
-<g transform="translate(158.455 219.122) scale(1.544974 1.544974)">
-  <circle cx="64" cy="64" r="63" fill="url(#footer-sphere-gradient)"/>
-  <circle cx="52" cy="48" r="32" fill="url(#footer-sphere-shine)"/>
-  <circle cx="64" cy="64" r="63" fill="none" stroke="#4f4f4f" stroke-opacity="0.18"/>
-</g>
+<g transform="translate(158.455 219.122) scale(1.544974 1.544974)"><circle cx="64" cy="64" r="63" fill="url(#footer-sphere-gradient)"/><circle cx="52" cy="48" r="32" fill="url(#footer-sphere-shine)"/><circle cx="64" cy="64" r="63" fill="none" stroke="#4f4f4f" stroke-opacity="0.18"/></g>
 <path d="M415 370 644 729H469L331 489L204 729H22L248 370L22 0H192L331 253L469 0H644Z" fill="#fff" transform="translate(395.781 415.333) scale(0.312969 -0.267032)"/>
 <path d="M415 370 644 729H469L331 489L204 729H22L248 370L22 0H192L331 253L469 0H644Z" fill="#fff" transform="translate(638.448 415.333) scale(0.312969 -0.267032)"/>
 <path d="M5 0H89C173 -1 247 71 244 149V604H475V0H625V729H94V160C93 136 81 125 58 125H5Z" fill="#fff" transform="translate(158.430 779.333) scale(0.313978 -0.267032)"/>
@@ -86,8 +75,7 @@ ${c}
 </a>
 </footer>
 </body>
-</html>
-`;
+</html>`;
 }
 
 function escapeHtml(str = "") {
