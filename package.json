@@ -1,6 +1,8 @@
 {
   "type": "module",
   "scripts": {
+    "test": "node --test",
+    "test:seo": "node --test tests/seo.test.mjs",
     "sync:assets": "node scripts/sync-assets.mjs"
   },
   "dependencies": {

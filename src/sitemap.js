@@ -1,114 +1,60 @@
 import { listSeoPages } from "./storage.js";
+import { canonicalUrl, DOMAIN } from "./meta.js";
+import { normalizeSlug } from "./slug.js";
 
+export async function generateSitemap(env) {
+  const pages = await listSeoPages(env);
+  const unique = new Map();
 
-const DOMAIN =
-"https://indexmod.press";
+  for (const page of pages || []) {
+    const slug = normalizeSlug(page?.slug || "");
+    if (!slug || isPrivateSlug(slug)) continue;
 
+    const lastmod = normalizeDate(page.lastmod || page.updated || page.update || page.modified);
+    const previous = unique.get(slug);
 
+    if (!previous || (lastmod && (!previous.lastmod || lastmod > previous.lastmod))) {
+      unique.set(slug, { slug, lastmod });
+    }
+  }
 
-export async function generateSitemap(env){
+  const urls = [...unique.values()]
+    .sort((a, b) => a.slug.localeCompare(b.slug))
+    .map(page => renderUrl({
+      loc: canonicalUrl(page.slug),
+      lastmod: page.lastmod,
+      changefreq: "monthly",
+      priority: "0.7"
+    }))
+    .join("");
 
-
-const pages =
-await listSeoPages(env);
-
-
-
-const urls =
-pages.map(page => {
-
-
-return `
-
-<url>
-
-<loc>
-${escapeXml(pageUrl(page.slug))}
-</loc>
-
-${page.lastmod ? `
-<lastmod>
-${escapeXml(page.lastmod)}
-</lastmod>
-` : ""}
-
-<changefreq>
-weekly
-</changefreq>
-
-<priority>
-0.8
-</priority>
-
-</url>
-
-`;
-
-}).join("");
-
-
-
-return `<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-<url>
-
-<loc>
-${DOMAIN}/
-</loc>
-
-<changefreq>
-daily
-</changefreq>
-
-<priority>
-1.0
-</priority>
-
-</url>
-
-
-${urls}
-
-
-</urlset>
-
-`;
-
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${renderUrl({
+    loc: `${DOMAIN}/`,
+    changefreq: "weekly",
+    priority: "1.0"
+  })}${urls}</urlset>\n`;
 }
 
+export const sitemap = generateSitemap;
 
-
-export const sitemap =
-generateSitemap;
-
-
-
-function escapeXml(value = ""){
-
-return String(value)
-
-.replace(/&/g,"&amp;")
-
-.replace(/</g,"&lt;")
-
-.replace(/>/g,"&gt;")
-
-.replace(/"/g,"&quot;")
-
-.replace(/'/g,"&apos;");
-
+function renderUrl({ loc, lastmod, changefreq, priority }) {
+  return `<url>\n<loc>${escapeXml(loc)}</loc>\n${lastmod ? `<lastmod>${escapeXml(lastmod)}</lastmod>\n` : ""}<changefreq>${changefreq}</changefreq>\n<priority>${priority}</priority>\n</url>\n`;
 }
 
+function isPrivateSlug(slug) {
+  return slug.startsWith("_") || slug.startsWith("admin/") || slug.startsWith("edit/");
+}
 
+function normalizeDate(value) {
+  const match = String(value || "").trim().match(/^\d{4}-\d{2}-\d{2}/);
+  return match ? match[0] : "";
+}
 
-function pageUrl(slug = ""){
-
-return encodeURI(
-`${DOMAIN}/${slug}`
-);
-
+function escapeXml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
 }

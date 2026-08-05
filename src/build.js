@@ -1,6 +1,7 @@
 import indexTemplate from "./templates/index.js";
 import { getIndexPages, list, putIndex, putIndexPages } from "./storage.js";
 import layout from "./templates/layout.js";
+import { buildMeta } from "./meta.js";
 
 export async function rebuildIndex(env) {
   const pages = await list(env);
@@ -10,13 +11,10 @@ export async function rebuildIndex(env) {
 
 export async function updateIndexPage(env, page, previousSlug = "") {
   let pages = await getIndexPages(env);
-
-  if (!pages) {
-    pages = await list(env);
-  }
+  if (!pages) pages = await list(env);
 
   const oldSlug = previousSlug || page.slug;
-  pages = pages.filter((item) => item.slug !== oldSlug);
+  pages = pages.filter(item => item.slug !== oldSlug);
   pages.push(page);
   pages.sort((a, b) => a.title.localeCompare(b.title));
 
@@ -30,13 +28,10 @@ export async function removeIndexPage(env, slug) {
 
 export async function removeIndexPages(env, slugs) {
   let pages = await getIndexPages(env);
-
-  if (!pages) {
-    pages = await list(env);
-  }
+  if (!pages) pages = await list(env);
 
   const removedSlugs = new Set(slugs);
-  pages = pages.filter((page) => !removedSlugs.has(page.slug));
+  pages = pages.filter(page => !removedSlugs.has(page.slug));
   await putIndexPages(env, pages);
   return writeIndex(env, pages);
 }
@@ -45,15 +40,12 @@ async function writeIndex(env, pages) {
   const content = indexTemplate(pages);
   const html = layout(
     content,
-    `
-<a href="/new">
-New
-</a>
-`,
-    {
+    `<a href="/new">New</a>`,
+    buildMeta({
       title: "Indexmod",
-      description: "Indexmod — fashion and art encyclopedia"
-    }
+      description: "Indexmod is an independent encyclopedia of fashion, art, designers, brands, institutions, exhibitions and fashion weeks.",
+      language: "en"
+    })
   );
 
   await putIndex(env, html);

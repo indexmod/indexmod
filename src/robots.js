@@ -1,7 +1,10 @@
-export function robots() {
+import { DOMAIN } from "./meta.js";
 
-return `User-agent: *
+export function robots() {
+  return `User-agent: *
 Allow: /
+Allow: /new
+Allow: /edit/
 
 Disallow: /admin/
 Disallow: /_admin/
@@ -10,8 +13,9 @@ Disallow: /_list
 Disallow: /_save
 Disallow: /_rebuild
 Disallow: /_prompt
+Disallow: /_media
 
-Sitemap: https://indexmod.press/sitemap.xml
+Sitemap: ${DOMAIN}/sitemap.xml
+Host: indexmod.press
 `;
-
 }
