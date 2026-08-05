@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  --logo-size: clamp(240px, 46vw, 520px);
+  --logo-size: clamp(140px, 18vw, 180px);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
   line-height: 1.75;
@@ -31,10 +31,11 @@ body {
 
 .logo {
   display: inline-block;
-  width: var(--logo-size);
-  padding: 4px;
+  width: calc(var(--logo-size) * 1.08);
+  padding: calc(var(--logo-size) * 0.04);
   line-height: 0;
   flex: 0 0 auto;
+  overflow: visible;
 }
 
 .logo img {
@@ -42,12 +43,12 @@ body {
   max-width: none;
   height: auto;
   display: block;
-  animation: pulse 3.6s infinite ease-in-out;
+  animation: pulse 3.8s infinite ease-in-out;
 }
 
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+  50% { transform: scale(1.06); }
   100% { transform: scale(1); }
 }
 
@@ -88,7 +89,7 @@ body {
 
 @media (max-width: 640px) {
   body {
-    --logo-size: clamp(168px, 48vw, 240px);
+    --logo-size: clamp(112px, 36vw, 150px);
   }
 
   .site-header {
