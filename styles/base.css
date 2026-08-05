@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 22px;
@@ -19,7 +23,21 @@ body {
   padding: 100px 40px;
 }
 
-/* HEADER */
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  padding: 8px 12px;
+  color: #fff;
+  background: #000;
+  transform: translateY(-180%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .site-header {
   display: flex;
   align-items: flex-start;
@@ -42,7 +60,6 @@ body {
   100% { transform: scale(1); }
 }
 
-/* ACTIONS */
 .action-bar {
   display: flex;
   justify-content: space-between;
@@ -63,6 +80,12 @@ a:hover {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #1a73e8;
+  outline-offset: 4px;
+}
+
 button {
   all: unset;
   cursor: pointer;
@@ -70,7 +93,6 @@ button {
   font-size: inherit;
 }
 
-/* TYPOGRAPHY */
 h1 {
   font-size: 48px;
   font-weight: normal;
@@ -89,7 +111,6 @@ img {
   height: auto;
 }
 
-/* FOOTER */
 .site-footer {
   margin-top: 100px;
   display: flex;
@@ -112,4 +133,9 @@ img {
 .footer-link:focus-visible {
   outline: 2px solid #1a73e8;
   outline-offset: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .logo img { animation: none; }
 }
