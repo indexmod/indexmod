@@ -467,15 +467,18 @@ export async function list(
 ) {
 
 
-const keys =
-await listMarkdownKeys(env);
+const objects =
+await listMarkdownObjects(env);
 
 
 
 const pages =
 await Promise.all(
 
-keys.map(async key=>{
+objects.map(async object=>{
+
+
+const key = object.key;
 
 
 const slug =
@@ -512,7 +515,12 @@ slug:
 permalink || slug,
 
 title:
-parsed.title || slug
+parsed.title || slug,
+
+updatedAt:
+object.uploaded
+? new Date(object.uploaded).getTime()
+: 0
 
 };
 

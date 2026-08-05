@@ -1,4 +1,12 @@
 export default function indexTemplate(pages = []) {
+  const latestPage = pages.reduce((latest, page) => {
+    if (!latest || (page.updatedAt || 0) > (latest.updatedAt || 0)) {
+      return page;
+    }
+
+    return latest;
+  }, null);
+
   const groups = {};
 
   pages.forEach(page => {
@@ -26,7 +34,7 @@ export default function indexTemplate(pages = []) {
 <section class="index-intro">
 <h1>Indexmod Fashion and Art</h1>
 <p>Independent encyclopedia of fashion, art, designers, brands, institutions, exhibitions and fashion weeks</p>
-<p><strong>${pages.length}</strong> published entries</p>
+<p><strong>${pages.length}</strong> published entries${latestPage ? ` · Latest: <a href="/${encodeURI(latestPage.slug)}">${escapeHtml(latestPage.title)}</a>` : ""}</p>
 </section>
 
 <nav class="alphabet" aria-label="Alphabetical index">

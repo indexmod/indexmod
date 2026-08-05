@@ -17,7 +17,13 @@ export async function updateIndexPage(env, page, previousSlug = "") {
 
   const oldSlug = previousSlug || page.slug;
   pages = pages.filter((item) => item.slug !== oldSlug);
-  pages.push(page);
+  const storedPage = await env.PAGES.head(`${page.slug}.md`);
+  pages.push({
+    ...page,
+    updatedAt: storedPage?.uploaded
+      ? new Date(storedPage.uploaded).getTime()
+      : Date.now()
+  });
   pages.sort((a, b) => a.title.localeCompare(b.title));
 
   await putIndexPages(env, pages);
