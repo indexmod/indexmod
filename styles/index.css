@@ -15,6 +15,10 @@
   line-height: 1.5;
 }
 
+.index-links {
+  font-size: 0.9em;
+}
+
 .alphabet {
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +51,16 @@
   display: block;
   margin: 6px 0;
   overflow-wrap: anywhere;
+}
+
+.index-information {
+  max-width: 760px;
+  margin-top: 80px;
+  scroll-margin-top: 20px;
+}
+
+.index-information p {
+  max-width: 680px;
 }
 
 @media (max-width: 800px) {
