@@ -82,7 +82,7 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 104px;
-  padding: 10px 18px;
+  padding: 12px 22px;
   border: 3px solid currentColor;
   border-radius: 9999px;
 }
@@ -103,7 +103,7 @@ body {
   .actions a,
   .actions button {
     min-width: 82px;
-    padding: 8px 14px;
+    padding: 10px 16px;
   }
 }
 
