@@ -1,22 +1,24 @@
-import { listSeoPages } from "./storage.js";
-
+import { getIndexPages, listSeoPages } from "./storage.js";
 
 const DOMAIN =
 "https://indexmod.press";
 
-
-
 export async function generateSitemap(env){
 
+const indexedPages =
+await getIndexPages(env);
 
 const pages =
-await listSeoPages(env);
-
-
+indexedPages
+? indexedPages.map(page => ({
+slug:page.slug,
+title:page.title,
+lastmod:formatDate(page.updatedAt)
+}))
+: await listSeoPages(env);
 
 const urls =
 pages.map(page => {
-
 
 return `
 
@@ -46,13 +48,10 @@ weekly
 
 }).join("");
 
-
-
 return `<?xml version="1.0" encoding="UTF-8"?>
 
 <urlset
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
 
 <url>
 
@@ -70,9 +69,7 @@ daily
 
 </url>
 
-
 ${urls}
-
 
 </urlset>
 
@@ -80,35 +77,32 @@ ${urls}
 
 }
 
-
-
 export const sitemap =
 generateSitemap;
 
+function formatDate(value){
+if(!value)
+return "";
 
+const date =
+new Date(value);
 
-function escapeXml(value = ""){
-
-return String(value)
-
-.replace(/&/g,"&amp;")
-
-.replace(/</g,"&lt;")
-
-.replace(/>/g,"&gt;")
-
-.replace(/"/g,"&quot;")
-
-.replace(/'/g,"&apos;");
-
+return Number.isNaN(date.getTime())
+? ""
+: date.toISOString().slice(0,10);
 }
 
-
+function escapeXml(value = ""){
+return String(value)
+.replace(/&/g,"&amp;")
+.replace(/</g,"&lt;")
+.replace(/>/g,"&gt;")
+.replace(/"/g,"&quot;")
+.replace(/'/g,"&apos;");
+}
 
 function pageUrl(slug = ""){
-
 return encodeURI(
 `${DOMAIN}/${slug}`
 );
-
 }
