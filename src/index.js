@@ -1,5 +1,6 @@
 import {
   getFile,
+  getHtml,
   getIndex,
   getAdminPrompt,
   findPageByPermalink,
