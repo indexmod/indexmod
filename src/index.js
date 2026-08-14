@@ -899,7 +899,11 @@ slug
 
 });
 
-
+const documentHtml =
+await renderArticleDocument(
+page,
+slug
+);
 
 await savePage(
 
@@ -909,7 +913,7 @@ slug,
 
 content,
 
-html
+documentHtml
 
 );
 
@@ -1246,12 +1250,11 @@ env,
 slug
 );
 
-
+let storageSlug =
+slug;
 
 let content =
 md;
-
-
 
 if(!content){
 
@@ -1263,6 +1266,9 @@ slug
 
 if(found){
 
+storageSlug =
+found.storageSlug;
+
 content =
 found.content;
 
@@ -1270,7 +1276,17 @@ found.content;
 
 }
 
+const cachedHtml =
+await getHtml(
+env,
+storageSlug
+);
 
+if(isDocumentHtml(cachedHtml)){
+
+return htmlResponse(cachedHtml);
+
+}
 
 if(!content){
 
@@ -1342,55 +1358,9 @@ page.slug || slug
 
 
 
-let image =
-page.image === "true"
-?
-""
-:
-page.image;
-
-
-
-const html =
-articleTemplate({
-
-...page,
-
-slug:
+return renderArticleResponse(
+page,
 permalink
-
-});
-
-
-
-return renderPage(
-
-html,
-
-
-`
-<a href="/edit/${permalink}">
-Edit
-</a>
-`,
-
-
-buildMeta({
-
-title:
-page.title || permalink,
-
-description:
-page.description,
-
-image:
-image,
-
-slug:
-permalink
-
-})
-
 );
 
 
@@ -1439,6 +1409,110 @@ headers:{
 };
 
 
+
+async function renderArticleDocument(
+page,
+slug
+) {
+
+const permalink =
+normalizeSlug(page.slug || slug) || slug;
+
+const image =
+page.image === "true"
+? ""
+: page.image;
+
+const html =
+articleTemplate({
+...page,
+slug:permalink
+});
+
+return (
+await renderPage(
+html,
+`
+<a href="/edit/${permalink}">
+Edit
+</a>
+`,
+buildMeta({
+title:page.title || permalink,
+description:page.description,
+image,
+slug:permalink,
+created:page.created,
+updated:page.updated
+})
+)
+).text();
+
+}
+
+function renderArticleResponse(
+page,
+slug
+) {
+
+const permalink =
+normalizeSlug(page.slug || slug) || slug;
+
+const image =
+page.image === "true"
+? ""
+: page.image;
+
+const html =
+articleTemplate({
+...page,
+slug:permalink
+});
+
+return renderPage(
+html,
+`
+<a href="/edit/${permalink}">
+Edit
+</a>
+`,
+buildMeta({
+title:page.title || permalink,
+description:page.description,
+image,
+slug:permalink,
+created:page.created,
+updated:page.updated
+})
+);
+
+}
+
+function htmlResponse(
+documentHtml
+) {
+
+return new Response(
+documentHtml,
+{
+headers:{
+"Content-Type":"text/html;charset=UTF-8",
+"Cache-Control":"public,max-age=300,s-maxage=3600,stale-while-revalidate=86400"
+}
+}
+);
+
+}
+
+function isDocumentHtml(
+documentHtml
+) {
+
+return /^\s*<!doctype html>/i.test(
+documentHtml || ""
+);
+
+}
 
 function titleFromSlug(slug){
 
