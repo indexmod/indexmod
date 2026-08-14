@@ -13,6 +13,8 @@ let title = "";
 let description = "";
 let image = "";
 let slug = "";
+let created = "";
+let updated = "";
 
 let content = md;
 
@@ -101,6 +103,18 @@ break;
 case "slug":
 
 slug = value;
+
+break;
+
+case "created":
+
+created = value;
+
+break;
+
+case "updated":
+
+updated = value;
 
 break;
 
@@ -231,6 +245,10 @@ description,
 image,
 
 slug,
+
+created,
+
+updated,
 
 content,
 
