@@ -830,6 +830,21 @@ if(
 path === "/_save"
 ){
 
+if(
+req.method !== "POST"
+){
+
+return new Response(
+"method not allowed",
+{
+status:405,
+headers:{
+"Allow":"POST"
+}
+}
+);
+
+}
 
 const body =
 await req.json();
