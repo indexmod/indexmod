@@ -137,8 +137,45 @@ return;
 
 
 
+const result =
+await res.json();
+
+
+
+const savedSlug =
+result && result.slug;
+
+
+
+const savedUrl =
+(result && result.url) ||
+(savedSlug ? "/" + encodeURIComponent(savedSlug) : "");
+
+
+
+if(!savedUrl){
+
+alert(
+"Save error: saved page URL missing"
+);
+return;
+
+}
+
+
+
+if(window.IndexmodStatus){
+
+window.IndexmodStatus.show(
+"Opening page ******"
+);
+
+}
+
+
+
 location.href =
-"/" + encodeURIComponent(slug);
+savedUrl;
 
 
 }

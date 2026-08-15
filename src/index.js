@@ -973,7 +973,10 @@ return Response.json({
 
 ok:true,
 
-slug
+slug,
+
+url:
+`/${encodeURIComponent(slug)}`
 
 });
 

@@ -398,33 +398,33 @@ export async function savePage(
 ) {
 
 
-await putFile(
-
-env,
-
-slug,
-
-content
-
-);
+const writes = [
+  putFile(
+    env,
+    slug,
+    content
+  )
+];
 
 
 
 if(html){
 
 
-await putHtml(
-
-env,
-
-slug,
-
-html
-
+writes.push(
+  putHtml(
+    env,
+    slug,
+    html
+  )
 );
 
 
 }
+
+
+
+await Promise.all(writes);
 
 
 }
