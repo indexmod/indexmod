@@ -18,6 +18,10 @@ export function promptForAdmin(prompt) {
 function normalizePrompt(value) {
   let prompt = stripComment(value);
 
+  if (isLegacyPrompt(prompt)) {
+    prompt = stripComment(defaultPrompt);
+  }
+
   const directImageRules = `## IMAGE RULES
 
 - Найти релевантный файл только в проверенном источнике, предпочтительно Wikimedia Commons.
@@ -59,6 +63,12 @@ function normalizePrompt(value) {
   }
 
   return prompt.trim();
+}
+
+function isLegacyPrompt(prompt = "") {
+  return /(?:Всегда включать этот промпт|Keep this Prompt after editing|INDEXMOD PROMPT всегда должен полностью сохраняться)/i.test(
+    prompt
+  );
 }
 
 function stripComment(value = "") {
