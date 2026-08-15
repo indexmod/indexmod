@@ -38,6 +38,7 @@ ${structuredData({ ...meta, title, description, url })}
 ${yandexMetrika()}
 </head>
 <body>
+${statusHeader()}
 <header class="site-header">
 <a href="/" class="logo" aria-label="Indexmod home">
 <img src="/logo.svg" alt="Indexmod" width="48" height="48">
@@ -82,9 +83,192 @@ ${c}
 </svg>
 </a>
 </footer>
+${statusScript()}
 </body>
 </html>
 `;
+}
+
+export function attachStatusHeader(documentHtml = "") {
+  let html = String(documentHtml);
+
+  if (!html || html.includes("id=\"operation-status\"")) {
+    return html;
+  }
+
+  html = html.replace(/<body([^>]*)>/i, (match) => `${match}\n${statusHeader()}`);
+
+  if (html.includes("</body>")) {
+    return html.replace(/<\/body>/i, `${statusScript()}\n</body>`);
+  }
+
+  return `${html}\n${statusScript()}`;
+}
+
+function statusHeader() {
+  return `<header id="operation-status" class="operation-status" aria-live="polite" aria-atomic="true"></header>`;
+}
+
+function statusScript() {
+  return `<script>
+(function(){
+  const status = document.getElementById("operation-status");
+  if(!status) return;
+
+  const slowDelay = 300;
+  const doneDelay = 900;
+  const frames = ["■", "■■", "■■■", "■■■■", "■■■■■", "■■■■■■"];
+  let active = null;
+
+  function clearActive(task){
+    if(task && task.timer) clearTimeout(task.timer);
+    if(task && task.interval) clearInterval(task.interval);
+    if(active === task) active = null;
+  }
+
+  function show(text){
+    status.textContent = text;
+    status.classList.add("is-visible");
+  }
+
+  function hide(){
+    status.classList.remove("is-visible");
+    status.textContent = "";
+  }
+
+  function start(label){
+    const task = {
+      label,
+      startedAt: Date.now(),
+      shown: false,
+      frame: 0,
+      timer: 0,
+      interval: 0
+    };
+
+    task.timer = setTimeout(function(){
+      task.shown = true;
+      show(label + " " + frames[task.frame]);
+      task.interval = setInterval(function(){
+        task.frame = (task.frame + 1) % frames.length;
+        show(label + " " + frames[task.frame]);
+      }, 180);
+    }, slowDelay);
+
+    active = task;
+    return task;
+  }
+
+  function done(task, label){
+    if(!task) return;
+    const wasShown = task.shown;
+    clearActive(task);
+
+    if(wasShown){
+      show(label || (task.label + " done"));
+      setTimeout(hide, doneDelay);
+    }
+  }
+
+  function fail(task, label){
+    if(!task) return;
+    const wasShown = task.shown;
+    clearActive(task);
+
+    if(wasShown){
+      show(label || (task.label + " failed"));
+      setTimeout(hide, doneDelay * 2);
+    }
+  }
+
+  function labelForUrl(input){
+    const value = typeof input === "string" ? input : (input && input.url) || "";
+    let pathname = value;
+
+    try {
+      pathname = new URL(value, location.href).pathname;
+    }
+    catch(error){}
+
+    if(pathname === "/_save") return "saving";
+    if(pathname === "/_prompt") return "saving prompt";
+    if(pathname === "/_admin/permalink") return "saving permalink";
+    if(pathname === "/_admin/delete") return "deleting";
+    if(pathname === "/_admin/delete-many") return "deleting";
+    if(pathname === "/_list") return "loading list";
+    if(pathname.startsWith("/_get/")) return "opening page";
+    return "working";
+  }
+
+  window.IndexmodStatus = {
+    start,
+    done,
+    fail,
+    show,
+    hide,
+    run: async function(label, promise){
+      const task = start(label);
+      try {
+        const result = await promise;
+        done(task, label + " done");
+        return result;
+      }
+      catch(error){
+        fail(task, label + " failed");
+        throw error;
+      }
+    }
+  };
+
+  const originalFetch = window.fetch;
+  if(originalFetch){
+    window.fetch = async function(input, init){
+      const task = start(labelForUrl(input));
+      try {
+        const response = await originalFetch.apply(this, arguments);
+        if(response.ok) done(task);
+        else fail(task);
+        return response;
+      }
+      catch(error){
+        fail(task);
+        throw error;
+      }
+    };
+  }
+
+  document.addEventListener("click", function(event){
+    const link = event.target.closest && event.target.closest("a[href]");
+    if(!link || link.target || link.hasAttribute("download")) return;
+
+    let url;
+    try {
+      url = new URL(link.href, location.href);
+    }
+    catch(error){
+      return;
+    }
+
+    if(url.origin !== location.origin) return;
+    start("opening page");
+  }, true);
+
+  window.addEventListener("beforeunload", function(){
+    if(!active) start("opening page");
+  });
+
+  window.addEventListener("load", function(){
+    const nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    if(!nav) return;
+
+    const duration = Math.round(nav.responseEnd - nav.startTime);
+    if(duration > 700){
+      show("page opened " + duration + "ms");
+      setTimeout(hide, doneDelay);
+    }
+  });
+})();
+</script>`;
 }
 
 function escapeHtml(str = "") {

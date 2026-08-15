@@ -20,6 +20,33 @@ body {
   padding: 100px 40px;
 }
 
+.operation-status {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2147483647;
+  height: 20px;
+  padding: 0 6px;
+  border: 0;
+  overflow: hidden;
+  pointer-events: none;
+  color: #000;
+  background: transparent;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  opacity: 0;
+}
+
+.operation-status.is-visible {
+  opacity: 1;
+}
+
 /* HEADER */
 .site-header {
   display: flex;

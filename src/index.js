@@ -23,6 +23,7 @@ import {
 import { normalizeSlug } from "./slug.js";
 
 import { buildMeta } from "./meta.js";
+import { attachStatusHeader } from "./templates/layout.js";
 
 import { sitemap } from "./sitemap.js";
 import { robots } from "./robots.js";
@@ -1509,7 +1510,7 @@ documentHtml
 ) {
 
 return new Response(
-documentHtml,
+attachStatusHeader(documentHtml),
 {
 headers:{
 "Content-Type":"text/html;charset=UTF-8",
