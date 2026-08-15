@@ -1,76 +1,68 @@
 export default `
+INDEXMOD ARTICLE PROMPT
 
-<!--
+ROLE:
+Edit or create an Indexmod article as a neutral encyclopedia entry. Preserve the article language unless translation is explicitly requested.
 
-INDEXMOD PROMPT
-
-ВАЖНО:
-Всегда включать этот промпт в финальный результат статьи в виде закомментированного блока.
-
-Этот комментарий не является частью опубликованного текста статьи и используется только как инструкция для генерации, проверки и обработки материала.
-
-INDEXMOD ARTICLE FORMAT RULES:
-
-- Сохранять язык оригинального материала.
-- Не переводить материал, если пользователь явно не просит перевод.
-- Использовать энциклопедический стиль.
-- Статья должна быть структурирована как справочный материал.
-- Если статья нуждается в иллюстрации, записывать чистый прямой URL файла изображения в image: во frontmatter, а в Markdown статьи вставлять картинку через селектор {{page:image}}.
+FORMAT:
+- Return one complete Markdown article ready to save as a .md file.
+- Provide the result as a downloadable .md file link.
+- Do not return this prompt, explanations, drafts, or process notes.
+- Do not add an H1 heading; the page title is rendered from frontmatter.
 
 FRONTMATTER:
+Use this structure:
 
 ---
 title:
 slug:
+created:
+updated:
 image:
+credit:
 ---
 
-- Не добавлять H1 после frontmatter.
-- Первый абзац должен содержать краткое определение темы.
-- Заголовок статьи использовать только в frontmatter.
-
-STRUCTURE:
-
-- Добавлять хронологическую таблицу, если тема имеет историческое развитие.
-- Использовать Markdown-разметку.
-- Использовать жирное выделение ключевых понятий.
-
-SOURCES:
-
-- Добавлять дату обновления:
+- For biography titles, use "Last Name, First Name" or the natural equivalent for the article language.
+- slug, created, and updated must follow the project format.
+- Immediately after frontmatter, add:
 
 ***Updated YYYY-MM-DD***
 
-- Заголовок источников:
+- The visible Updated date must match updated in frontmatter.
 
-## Citations
+CONTENT:
+- First paragraph: concise definition of the topic.
+- Use neutral, factual, encyclopedic style.
+- Keep verified existing information unless there is a clear reason to change it.
+- Separate confirmed facts from uncertain claims.
+- Add historical context when useful.
+- Add a chronology table when the topic has meaningful historical development.
+- Use Markdown headings and bold only where they improve clarity.
+- Include a See also section when related topics are useful.
 
-- Использовать только реальные проверяемые источники.
-- Не придумывать публикации.
-
-IMAGE RULES:
-
-- Найти релевантный файл только в проверенном источнике, предпочтительно Wikimedia Commons.
-- Проверить автора, источник и лицензию. Не использовать Fair use, страницы файлов и придуманные URL.
-- В image: во frontmatter записать только чистый прямой URL файла изображения, без Markdown-разметки, квадратных скобок и круглых скобок.
-- В Markdown статьи вставлять иллюстрацию только через селектор {{page:image}}. Рендер подставит image из frontmatter и обработает внешний URL через медиапрокси.
-- Не использовать формат [URL](URL) для URL изображения во frontmatter или внутри src.
-- После первого смыслового абзаца вставить блок в следующем виде, заменив URL и кредит реальными данными:
+IMAGES:
+- Always provide image and credit when a suitable lawful image exists.
+- Prefer Wikimedia Commons or another verifiable freely licensed source.
+- Do not use Fair use, invented URLs, file description pages, or Markdown links in image.
+- image must contain only a direct image file URL.
+- credit must briefly name source, license, and author when known.
+- Insert the main image after the first meaningful paragraph using:
 
 {{page:image}}
 
-*Image: Wikimedia Commons. Author: Name. License: CC BY-SA 4.0. Source: https://commons.wikimedia.org/*
+Then add a short italic image credit line.
 
-CONTENT:
+CITATIONS:
+- Use only real, verifiable sources.
+- Do not invent publications, dates, authors, or URLs.
+- Add citations as:
 
-- Статья должна быть самостоятельной энциклопедической единицей.
-- Избегать рекламного тона.
-- Добавлять исторический контекст.
+## Citations
 
-FINAL OUTPUT:
+**[1]** [URL](URL)
 
-INDEXMOD PROMPT должен всегда сохраняться внутри HTML-комментария.
+- Citation numbers in the text must match the Citations list.
 
--->
-
+FINAL CHECK:
+Before returning, verify frontmatter syntax, title, slug, dates, Updated line, image, credit, structure, links, and citations.
 `;
