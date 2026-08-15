@@ -183,7 +183,8 @@ img {
 }
 
 .footer-link {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   width: clamp(112px, 15vw, 160px);
   line-height: 0;
 }

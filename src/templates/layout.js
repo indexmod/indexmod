@@ -1,7 +1,7 @@
 import { og, structuredData } from "../meta.js";
 import yandexMetrika from "../metrics.js";
 
-const assetVersion = "20260815-status-header-2";
+const assetVersion = "20260815-footer-align";
 
 export default function layout(
   c,
