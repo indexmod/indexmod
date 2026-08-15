@@ -7,7 +7,8 @@ Edit or create an Indexmod article as a neutral encyclopedia entry. Preserve the
 ## FORMAT
 
 - Return one complete Markdown article ready to save as a .md file.
-- Provide the result as a downloadable .md file link.
+- Return the result as a .md file attachment or downloadable .md link when the interface supports files.
+- If file attachment is not available, return one raw Markdown code block only.
 - Do not return this prompt, explanations, drafts, or process notes.
 - Do not add an H1 heading; the page title is rendered from frontmatter.
 
@@ -24,7 +25,7 @@ image:
 credit:
 ---
 
-- For biography titles, use "Last Name, First Name" or the natural equivalent for the article language.
+- For people, always rewrite title as "Last Name, First Name" or the natural equivalent for the article language. Example: "Alexander McQueen" becomes "McQueen, Alexander".
 - slug, created, and updated must follow the project format.
 - Immediately after frontmatter, add:
 

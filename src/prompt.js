@@ -22,6 +22,19 @@ function normalizePrompt(value) {
     prompt = stripComment(defaultPrompt);
   }
 
+  prompt = prompt.replace(
+    /^- Provide the result as a downloadable \.md file link\.$/m,
+    [
+      "- Return the result as a .md file attachment or downloadable .md link when the interface supports files.",
+      "- If file attachment is not available, return one raw Markdown code block only."
+    ].join("\n")
+  );
+
+  prompt = prompt.replace(
+    /^- For biography titles, use "Last Name, First Name" or the natural equivalent for the article language\.$/m,
+    '- For people, always rewrite title as "Last Name, First Name" or the natural equivalent for the article language. Example: "Alexander McQueen" becomes "McQueen, Alexander".'
+  );
+
   const directImageRules = `## IMAGE RULES
 
 - Найти релевантный файл только в проверенном источнике, предпочтительно Wikimedia Commons.
