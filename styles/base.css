@@ -23,14 +23,14 @@ body {
 
 .operation-status {
   position: fixed;
-  top: 0;
+  top: 10px;
   left: max(
     var(--page-x-padding),
     calc((100vw - 1100px) / 2 + var(--page-x-padding))
   );
   right: var(--page-x-padding);
   z-index: 2147483647;
-  height: 20px;
+  height: 34px;
   max-width: calc(1100px - (var(--page-x-padding) * 2));
   padding: 0;
   border: 0;
@@ -41,7 +41,7 @@ body {
   font-family: inherit;
   font-size: inherit;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 0;
   white-space: nowrap;
   text-overflow: ellipsis;

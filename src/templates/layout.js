@@ -1,7 +1,7 @@
 import { og, structuredData } from "../meta.js";
 import yandexMetrika from "../metrics.js";
 
-const assetVersion = "20260815-status-header";
+const assetVersion = "20260815-status-header-2";
 
 export default function layout(
   c,
@@ -136,7 +136,7 @@ function statusScript() {
 
   const slowDelay = 300;
   const doneDelay = 900;
-  const frames = ["■", "■■", "■■■", "■■■■", "■■■■■", "■■■■■■"];
+  const frames = ["●", "● ●", "● ● ●", "● ● ● ●", "● ● ● ● ●", "● ● ● ● ● ●"];
   let active = null;
 
   function clearActive(task){
@@ -184,7 +184,7 @@ function statusScript() {
     clearActive(task);
 
     if(wasShown){
-      show(label || (task.label + " done"));
+      show(label || (task.label + " Done"));
       setTimeout(hide, doneDelay);
     }
   }
@@ -195,7 +195,7 @@ function statusScript() {
     clearActive(task);
 
     if(wasShown){
-      show(label || (task.label + " failed"));
+      show(label || (task.label + " Failed"));
       setTimeout(hide, doneDelay * 2);
     }
   }
@@ -209,14 +209,14 @@ function statusScript() {
     }
     catch(error){}
 
-    if(pathname === "/_save") return "saving";
-    if(pathname === "/_prompt") return "saving prompt";
-    if(pathname === "/_admin/permalink") return "saving permalink";
-    if(pathname === "/_admin/delete") return "deleting";
-    if(pathname === "/_admin/delete-many") return "deleting";
-    if(pathname === "/_list") return "loading list";
-    if(pathname.startsWith("/_get/")) return "opening page";
-    return "working";
+    if(pathname === "/_save") return "Saving";
+    if(pathname === "/_prompt") return "Saving prompt";
+    if(pathname === "/_admin/permalink") return "Saving permalink";
+    if(pathname === "/_admin/delete") return "Deleting";
+    if(pathname === "/_admin/delete-many") return "Deleting";
+    if(pathname === "/_list") return "Loading list";
+    if(pathname.startsWith("/_get/")) return "Opening page";
+    return "Working";
   }
 
   window.IndexmodStatus = {
@@ -229,11 +229,11 @@ function statusScript() {
       const task = start(label);
       try {
         const result = await promise;
-        done(task, label + " done");
+        done(task, label + " Done");
         return result;
       }
       catch(error){
-        fail(task, label + " failed");
+        fail(task, label + " Failed");
         throw error;
       }
     }
@@ -269,11 +269,11 @@ function statusScript() {
     }
 
     if(url.origin !== location.origin) return;
-    start("opening page");
+    start("Opening page");
   }, true);
 
   window.addEventListener("beforeunload", function(){
-    if(!active) start("opening page");
+    if(!active) start("Opening page");
   });
 
   window.addEventListener("load", function(){
@@ -282,7 +282,7 @@ function statusScript() {
 
     const duration = Math.round(nav.responseEnd - nav.startTime);
     if(duration > 700){
-      show("page opened " + duration + "ms");
+      show("Page opened " + duration + "ms");
       setTimeout(hide, doneDelay);
     }
   });
