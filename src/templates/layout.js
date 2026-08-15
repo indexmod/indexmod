@@ -1,6 +1,8 @@
 import { og, structuredData } from "../meta.js";
 import yandexMetrika from "../metrics.js";
 
+const assetVersion = "20260815-status-header";
+
 export default function layout(
   c,
   rightUI = "",
@@ -31,10 +33,10 @@ export default function layout(
 <link rel="canonical" href="${escapeHtml(url)}">
 ${og({ ...meta, title, description, url })}
 ${structuredData({ ...meta, title, description, url })}
-<link rel="stylesheet" href="/styles/base.css">
-<link rel="stylesheet" href="/styles/view.css">
-<link rel="stylesheet" href="/styles/editor.css">
-<link rel="stylesheet" href="/styles/index.css">
+<link rel="stylesheet" href="${styleHref("/styles/base.css")}">
+<link rel="stylesheet" href="${styleHref("/styles/view.css")}">
+<link rel="stylesheet" href="${styleHref("/styles/editor.css")}">
+<link rel="stylesheet" href="${styleHref("/styles/index.css")}">
 ${yandexMetrika()}
 </head>
 <body>
@@ -92,7 +94,13 @@ ${statusScript()}
 export function attachStatusHeader(documentHtml = "") {
   let html = String(documentHtml);
 
-  if (!html || html.includes("id=\"operation-status\"")) {
+  if (!html) {
+    return html;
+  }
+
+  html = versionStyleLinks(html);
+
+  if (html.includes("id=\"operation-status\"")) {
     return html;
   }
 
@@ -103,6 +111,17 @@ export function attachStatusHeader(documentHtml = "") {
   }
 
   return `${html}\n${statusScript()}`;
+}
+
+function styleHref(path) {
+  return `${path}?v=${assetVersion}`;
+}
+
+function versionStyleLinks(html) {
+  return html.replace(
+    /href="(\/styles\/(?:base|view|editor|index)\.css)(?:\?[^"]*)?"/g,
+    (match, path) => `href="${styleHref(path)}"`
+  );
 }
 
 function statusHeader() {
