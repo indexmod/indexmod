@@ -184,7 +184,7 @@ function statusScript() {
     clearActive(task);
 
     if(wasShown){
-      show(label || (task.label + " Done"));
+      show(label || (task.label + " done"));
       setTimeout(hide, doneDelay);
     }
   }
@@ -195,7 +195,7 @@ function statusScript() {
     clearActive(task);
 
     if(wasShown){
-      show(label || (task.label + " Failed"));
+      show(label || (task.label + " failed"));
       setTimeout(hide, doneDelay * 2);
     }
   }
@@ -229,11 +229,11 @@ function statusScript() {
       const task = start(label);
       try {
         const result = await promise;
-        done(task, label + " Done");
+        done(task, label + " done");
         return result;
       }
       catch(error){
-        fail(task, label + " Failed");
+        fail(task, label + " failed");
         throw error;
       }
     }
