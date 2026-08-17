@@ -75,6 +75,13 @@ function normalizePrompt(value) {
     );
   }
 
+  if (!prompt.includes("Every See also item must be a clickable internal Markdown link")) {
+    prompt = prompt.replace(
+      /^- Include a See also section when related topics are useful\.$/m,
+      "- Include a See also section when related topics are useful. Every See also item must be a clickable internal Markdown link in the form `[Article title](/article-slug)`, even when the linked article does not yet exist in storage."
+    );
+  }
+
   return prompt.trim();
 }
 

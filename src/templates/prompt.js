@@ -39,7 +39,7 @@ CONTENT:
 - Add historical context when useful.
 - Add a chronology table when the topic has meaningful historical development.
 - Use Markdown headings and bold only where they improve clarity.
-- Include a See also section when related topics are useful.
+- Include a See also section when related topics are useful. Every See also item must be a clickable internal Markdown link in the form \`[Article title](/article-slug)\`, even when the linked article does not yet exist in storage.
 
 IMAGES:
 - Always provide image and credit when a suitable lawful image exists.
