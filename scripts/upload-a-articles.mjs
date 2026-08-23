@@ -6,6 +6,7 @@ const bucket = process.env.R2_BUCKET || "indexmod";
 const articlesDir = path.resolve("generated-articles/a");
 const manifestPath = path.join(articlesDir, "manifest.json");
 const publicOrigin = process.env.PUBLIC_ORIGIN || "https://indexmod.press";
+const overwriteExisting = process.env.OVERWRITE_EXISTING === "true";
 
 const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
 
@@ -17,7 +18,7 @@ for (const article of manifest) {
   const filePath = path.join(articlesDir, `${article.slug}.md`);
   const objectPath = `${bucket}/${article.slug}.md`;
 
-  if (await articleExists(article.slug)) {
+  if (!overwriteExisting && await articleExists(article.slug)) {
     console.log(`skip existing ${article.slug}.md`);
     skipped += 1;
     continue;
