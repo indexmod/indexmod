@@ -24,9 +24,8 @@ for (const article of manifest) {
   }
 
   const putResult = spawnSync(
-    "npx",
+    "wrangler",
     [
-      "wrangler",
       "r2",
       "object",
       "put",
