@@ -5,6 +5,7 @@ import { spawnSync } from "node:child_process";
 const bucket = process.env.R2_BUCKET || "indexmod";
 const articlesDir = path.resolve("generated-articles/a");
 const manifestPath = path.join(articlesDir, "manifest.json");
+const publicOrigin = process.env.PUBLIC_ORIGIN || "https://indexmod.press";
 
 const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
 
@@ -16,13 +17,7 @@ for (const article of manifest) {
   const filePath = path.join(articlesDir, `${article.slug}.md`);
   const objectPath = `${bucket}/${article.slug}.md`;
 
-  const getResult = spawnSync(
-    "npx",
-    ["wrangler", "r2", "object", "get", objectPath, "--remote", "--pipe"],
-    { encoding: "utf8" }
-  );
-
-  if (getResult.status === 0) {
+  if (await articleExists(article.slug)) {
     console.log(`skip existing ${article.slug}.md`);
     skipped += 1;
     continue;
@@ -40,7 +35,8 @@ for (const article of manifest) {
       "--file",
       filePath,
       "--content-type",
-      "text/markdown;charset=UTF-8"
+      "text/markdown;charset=UTF-8",
+      "--force"
     ],
     { encoding: "utf8" }
   );
@@ -60,4 +56,20 @@ console.log(JSON.stringify({ uploaded, skipped, failed }));
 
 if (failed) {
   process.exit(1);
+}
+
+async function articleExists(slug) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10000);
+
+  try {
+    const response = await fetch(`${publicOrigin}/_get/${encodeURIComponent(slug)}`, {
+      signal: controller.signal
+    });
+    return response.ok;
+  } catch {
+    return false;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
