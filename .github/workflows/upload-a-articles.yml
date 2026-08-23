@@ -1,0 +1,41 @@
+name: Upload A Articles
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload-a-articles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate articles
+        run: node scripts/generate-a-articles.mjs
+
+      - name: Upload articles to R2
+        run: node scripts/upload-a-articles.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          R2_BUCKET: indexmod
+
+      - name: Rebuild cached homepage
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent --show-error --request POST https://indexmod.press/_rebuild; then
+              exit 0
+            fi
+
+            sleep 10
+          done
+
+          exit 1
