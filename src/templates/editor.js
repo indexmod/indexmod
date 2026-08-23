@@ -25,13 +25,29 @@ const originalSlug =
 ${JSON.stringify(page.storageSlug || page.slug || "")};
 
 
+function stripPromptComment(value){
+
+
+return String(value || "")
+.replace(
+/\\n*<!--\\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\\s\\S]*?-->\\s*$/i,
+""
+)
+.trimEnd();
+
+
+}
+
+
 async function save(){
 
 
 const md =
+stripPromptComment(
 document
 .getElementById("md")
-.value;
+.value
+);
 
 
 

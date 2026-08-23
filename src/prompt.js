@@ -1,14 +1,18 @@
 import defaultPrompt from "./templates/prompt.js";
 
 export function promptForEditor(article, prompt) {
-  const cleanArticle = String(article || "")
-    .replace(/\n*<!--\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\s\S]*?-->\s*$/i, "")
-    .trimEnd();
+  const cleanArticle = stripPromptComment(article);
 
   const cleanPrompt = normalizePrompt(prompt || defaultPrompt);
   if (!cleanPrompt) return cleanArticle;
 
   return `${cleanArticle}\n\n<!-- INDEXMOD ADMIN PROMPT\n${cleanPrompt}\n-->\n`;
+}
+
+export function stripPromptComment(article) {
+  return String(article || "")
+    .replace(/\n*<!--\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\s\S]*?-->\s*$/i, "")
+    .trimEnd();
 }
 
 export function promptForAdmin(prompt) {

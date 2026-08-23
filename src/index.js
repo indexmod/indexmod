@@ -34,7 +34,7 @@ import articleTemplate from "./templates/article.js";
 import adminPanelTemplate from "./templates/admin-panel.js";
 import adminPromptTemplate from "./templates/admin-prompt.js";
 import editorTemplate from "./templates/editor.js";
-import { promptForAdmin, promptForEditor } from "./prompt.js";
+import { promptForAdmin, promptForEditor, stripPromptComment } from "./prompt.js";
 
 
 
@@ -853,7 +853,9 @@ await req.json();
 
 
 const content =
-body.content || "";
+stripPromptComment(
+body.content || ""
+);
 
 
 
