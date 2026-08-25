@@ -181,14 +181,23 @@ async function prepareSources() {
   }
 }
 
-async function fetchWithTimeout(url, timeoutMs = 15000) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { signal: controller.signal });
-  } finally {
-    clearTimeout(timeout);
+async function fetchWithTimeout(url, timeoutMs = 60000, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      return await fetch(url, { signal: controller.signal });
+    } catch (error) {
+      lastError = error;
+      console.log(`fetch retry ${attempt}/${attempts} ${url}`);
+      if (attempt === attempts) break;
+      await new Promise(resolve => setTimeout(resolve, attempt * 3000));
+    } finally {
+      clearTimeout(timeout);
+    }
   }
+  throw lastError;
 }
 
 function aesfArticle() {
