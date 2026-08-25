@@ -6,6 +6,76 @@ const sourceDir = path.join(root, "source");
 const outDir = root;
 const acceptedTest = "";
 const updated = "2026-08-25";
+const rangeManifest = [
+  { slug: "about-clothing", title: "About (clothing)" },
+  { slug: "abu-dhabi", title: "Abu Dhabi" },
+  { slug: "abu-jani-sandeep-khosla", title: "Abu Jani and Sandeep Khosla" },
+  { slug: "created", title: "Acid Noodles" },
+  { slug: "acne-studios", title: "Acne Studios" },
+  { slug: "adelaide-fashion-festival", title: "Adelaide Fashion Festival" },
+  { slug: "adjara-fashion-week", title: "Adjara Fashion Week" },
+  { slug: "aesf", title: "AES+F" },
+  { slug: "afghanistan", title: "Afghanistan" },
+  { slug: "afisha-magazine", title: "Afisha (magazine)" },
+  { slug: "africa-toto", title: "Africa (песня)" },
+  { slug: "africa-fashion-week", title: "Africa Fashion Week" },
+  { slug: "africa-fashion-week-london", title: "Africa Fashion Week London" },
+  { slug: "africa-fashion-week-nigeria", title: "Africa Fashion Week Nigeria" },
+  { slug: "african-art-centre", title: "African Art Centre" },
+  { slug: "african-fashion", title: "African fashion" },
+  { slug: "african-fashion-international", title: "African Fashion International" },
+  { slug: "african-fashion-week-toronto", title: "African Fashion Week Toronto" },
+  { slug: "ai-weiwei", title: "Ai Weiwei" },
+  { slug: "al-mubarakiah-souq", title: "Al-Mubarakiah Souq" },
+  { slug: "albania", title: "Albania" },
+  { slug: "alberta-fashion-week", title: "Alberta Fashion Week" },
+  { slug: "almaty", title: "Almaty" },
+  { slug: "alserkal-avenue", title: "Alserkal Avenue" },
+  { slug: "altanshagai", title: "Altanshagai" },
+  { slug: "altuzarra", title: "Altuzarra" },
+  { slug: "amarbayasgalant", title: "Amarbayasgalant" },
+  { slug: "american-eagle", title: "American Eagle" },
+  { slug: "amman", title: "Amman" },
+  { slug: "amsterdam", title: "Amsterdam" },
+  { slug: "amsterdam-fashion-week", title: "Amsterdam Fashion Week" },
+  { slug: "andorra", title: "Andorra" },
+  { slug: "andorra-la-vella", title: "Andorra la Vella" },
+  { slug: "anguilla", title: "Anguilla" },
+  { slug: "ankara", title: "Ankara" },
+  { slug: "another-magazine", title: "Another Magazine" },
+  { slug: "antigua-and-barbuda", title: "Antigua and Barbuda" },
+  { slug: "aoyama-theatre", title: "Aoyama Theatre" },
+  { slug: "aperture", title: "Aperture" },
+  { slug: "apia", title: "Apia" },
+  { slug: "apocalypses", title: "Apocalypses" },
+  { slug: "arab-world-institute", title: "Arab World Institute" },
+  { slug: "archive-store", title: "Archive (store)" },
+  { slug: "argentina", title: "Argentina" },
+  { slug: "armenia", title: "Armenia" },
+  { slug: "armenian-fashion-week", title: "Armenian Fashion Week" },
+  { slug: "art-in-america", title: "Art in America" },
+  { slug: "art-monthly", title: "Art Monthly" },
+  { slug: "artcom-media", title: "Artcom Media" },
+  { slug: "artfido", title: "Artfido" },
+  { slug: "artforum", title: "Artforum" },
+  { slug: "artmajeur", title: "ArtMajeur (service)" },
+  { slug: "artnet", title: "Artnet" },
+  { slug: "artnews", title: "ARTnews" },
+  { slug: "artpress", title: "ArtPress" },
+  { slug: "artreview", title: "ArtReview" },
+  { slug: "aruba", title: "Aruba" },
+  { slug: "as-seen-below-the-dome", title: "As Seen Below – The Dome" },
+  { slug: "ashgabad-fashion-week", title: "Ashgabad Fashion Week" },
+  { slug: "ashgabat", title: "Ashgabat" },
+  { slug: "asia-world-fashion-week", title: "Asia World Fashion Week" },
+  { slug: "asos", title: "ASOS" },
+  { slug: "athens", title: "Athens" },
+  { slug: "australia", title: "Australia" },
+  { slug: "australian-fashion-chamber", title: "Australian Fashion Chamber" },
+  { slug: "austria", title: "Austria" },
+  { slug: "axenoff-jewellery", title: "Axenoff Jewellery" },
+  { slug: "azerbaijan-fashion-week", title: "Azerbaijan Fashion Week" }
+];
 
 fs.mkdirSync(sourceDir, { recursive: true });
 fs.mkdirSync(outDir, { recursive: true });
@@ -166,12 +236,7 @@ fs.writeFileSync(path.join(root, "report.json"), JSON.stringify(report, null, 2)
 console.log(JSON.stringify({ written: report.length, outDir }, null, 2));
 
 async function prepareSources() {
-  const listResponse = await fetchWithTimeout("https://indexmod.press/_list");
-  if (!listResponse.ok) throw new Error(`Failed to fetch _list: ${listResponse.status}`);
-  const list = await listResponse.json();
-  const wanted = list
-    .filter(x => x.title && x.title.localeCompare("About (clothing)") >= 0 && x.title.localeCompare("Azerbaijan Fashion Week") <= 0)
-    .sort((a, b) => a.title.localeCompare(b.title));
+  const wanted = rangeManifest;
   fs.writeFileSync(path.join(root, "wanted.json"), JSON.stringify(wanted, null, 2));
   for (const [index, item] of wanted.entries()) {
     console.log(`source ${index + 1}/${wanted.length} ${item.slug}`);
