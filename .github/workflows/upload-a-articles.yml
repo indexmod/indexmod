@@ -10,6 +10,10 @@ on:
       - "scripts/upload-a-articles.mjs"
       - ".github/workflows/upload-a-articles.yml"
 
+concurrency:
+  group: upload-a-articles
+  cancel-in-progress: true
+
 jobs:
   upload-a-articles:
     runs-on: ubuntu-latest

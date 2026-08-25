@@ -38,7 +38,16 @@ for (const article of manifest) {
       "text/markdown;charset=UTF-8",
       "--force"
     ],
-    { encoding: "utf8" }
+    {
+      encoding: "utf8",
+      env: {
+        ...process.env,
+        CI: "true",
+        WRANGLER_SEND_METRICS: "false"
+      },
+      maxBuffer: 1024 * 1024 * 10,
+      timeout: 120000
+    }
   );
 
   if (putResult.status === 0) {
@@ -49,6 +58,9 @@ for (const article of manifest) {
 
   failed += 1;
   console.error(`failed ${article.slug}.md`);
+  if (putResult.error) {
+    console.error(putResult.error.message);
+  }
   console.error(putResult.stderr || putResult.stdout);
 }
 
