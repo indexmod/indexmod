@@ -2,6 +2,13 @@ name: Upload A Articles
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-a-articles.mjs"
+      - "scripts/upload-a-articles.mjs"
+      - ".github/workflows/upload-a-articles.yml"
 
 jobs:
   upload-a-articles:

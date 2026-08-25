@@ -1,298 +1,512 @@
-import fs from "node:fs/promises";
+import fs from "node:fs";
 import path from "node:path";
 
-const updated = "2026-08-23";
-const outDir = path.resolve("generated-articles/a");
+const root = "generated-articles/a";
+const sourceDir = path.join(root, "source");
+const outDir = root;
+const acceptedTest = "";
+const updated = "2026-08-25";
 
-const topics = [
-  ["African Fashion International", "institution", "African Fashion International is a South African fashion platform associated with designer showcases and the international visibility of African fashion."],
-  ["Agnes Gund", "person", ""],
-  ["Ahmed Mater", "person", "Ahmed Mater is a Saudi artist and photographer whose work is often discussed in relation to social change, urban development, and contemporary life in Saudi Arabia."],
-  ["Ai Weiwei", "person", ""],
-  ["Akira Minagawa", "person", "Akira Minagawa is a Japanese designer and the founder of mina perhonen, a fashion and textile brand known for hand-drawn patterns and long-term design thinking."],
-  ["Akira Naka", "person", "Akira Naka is a Japanese fashion designer whose namesake label is associated with knitwear, tailoring, and contemporary womenswear."],
-  ["Al-Mubarakiah Souq", "place", "Souq Al-Mubarakiya is a historic market in Kuwait City where traditional commerce, dress, food, and everyday urban culture remain visible."],
-  ["Alasdair McLellan", "person", ""],
-  ["Albania", "country or territory", ""],
-  ["Aleksei Kruchyonykh", "person", ""],
-  ["Alexander Kosolapov", "person", ""],
-  ["Alexander Rodchenko", "person", ""],
-  ["Alexandra Shulman", "person", ""],
-  ["Alexandre Herchcovitch", "person", "Alexandre Herchcovitch is a Brazilian fashion designer known for his work in Brazilian and international fashion."],
-  ["Alexi Lubomirski", "person", ""],
-  ["Ali Banisadr", "person", "Ali Banisadr is an Iranian-born artist whose large-scale abstract paintings are often read through memory, conflict, migration, and sensory experience."],
-  ["Almaty", "city", ""],
-  ["Alserkal Avenue", "place", "Alserkal Avenue is a cultural district in Dubai with galleries, arts organisations, design spaces, and fashion-related events."],
-  ["Altanshagai", "person", "Altanshagai is treated here as a cultural figure requiring further source development before a fuller Indexmod article is written."],
-  ["Altuzarra", "brand", "Altuzarra is a New York-based luxury womenswear brand founded by designer Joseph Altuzarra in 2008."],
-  ["Amaka Osakwe", "person", "Amaka Osakwe is a Nigerian fashion designer and the founder of Maki Oh, a label known for contemporary interpretations of African textile and dress traditions."],
-  ["Amal Murad", "person", "Amal Murad is a UAE-based fashion designer associated with abaya design, modest wear, and contemporary Middle Eastern fashion."],
-  ["Amancio Ortega", "person", "Amancio Ortega is a Spanish businessperson and the founder of Inditex, the group behind Zara and other global retail brands."],
-  ["Amarbayasgalant", "place", "Amarbayasgalant Monastery is a major Buddhist monastic complex in Mongolia and an important site of architecture, religious heritage, and craft history."],
-  ["American Eagle", "brand", "American Eagle is a US-based apparel and lifestyle retail brand associated with casualwear and youth-oriented fashion retail."],
-  ["Amina Agueznay", "person", "Amina Agueznay is a Moroccan artist whose practice connects architecture, jewellery, textiles, installation, and craft traditions."],
-  ["Amman", "city", ""],
-  ["Amsterdam", "city", ""],
-  ["Amy Odell", "person", ""],
-  ["Anderson Cooper", "person", ""],
-  ["Andorra la Vella", "city", ""],
-  ["Andorra", "country or territory", ""],
-  ["Andrea Fraser", "person", ""],
-  ["Andrei Molodkin", "person", ""],
-  ["Andrey Bartenev", "person", ""],
-  ["Andy Warhol", "person", ""],
-  ["Anguilla", "country or territory", ""],
-  ["Anita Dongre", "person", "Anita Dongre is an Indian fashion designer known for womenswear, bridalwear, craft collaborations, and sustainability-oriented fashion practice."],
-  ["Ankara", "city", ""],
-  ["Ann Demeulemeester", "person", ""],
-  ["Anna Dello Russo", "person", ""],
-  ["Anna Sui", "person", ""],
-  ["Anna Wintour", "person", "Anna Wintour is a fashion editor associated with Vogue and the institutional power of fashion media."],
-  ["Anne Avantie", "person", ""],
-  ["Annie Leibovitz", "person", ""],
-  ["Another Magazine", "publication", "AnOther Magazine is a UK-based fashion, art, and culture publication."],
-  ["Anselm Kiefer", "person", ""],
-  ["Antigua and Barbuda", "country or territory", ""],
-  ["Antony Gormley", "person", ""],
-  ["Antwaun Sargent", "person", ""],
-  ["Anya Hindmarch", "person", ""],
-  ["Aoyama Theatre", "place", "Aoyama Theatre was a Tokyo venue associated with performance, presentation, and the cultural life of the Aoyama district."],
-  ["Aperture", "publication", "Aperture is a photography publisher and arts organisation known for Aperture magazine, books, exhibitions, and photography criticism."],
-  ["Apia", "city", ""],
-  ["Arab World Institute", "institution", "The Arab World Institute is a Paris cultural institution devoted to Arab culture, exhibitions, education, and public programmes."],
-  ["Argentina", "country or territory", ""],
-  ["Armenia", "country or territory", ""],
-  ["Arseny Zhilyaev", "person", "Arseny Zhilyaev is a Russian artist whose projects often use exhibitions, museums, archives, and speculative histories as artistic media."],
-  ["Art in America", "publication", "Art in America is a US art magazine covering contemporary art, exhibitions, criticism, and the art market."],
-  ["Art Monthly", "publication", "Art Monthly is a UK contemporary art magazine focused on criticism, reviews, and debate."],
-  ["Artforum", "publication", "Artforum is an international contemporary art magazine based in the United States."],
-  ["Arthur Elgort", "person", ""],
-  ["Artnet", "publication", "Artnet is an online art-market and art-news platform."],
-  ["ARTnews", "publication", "ARTnews is an art magazine and online publication covering visual art, museums, galleries, artists, and the art market."],
-  ["ArtPress", "publication", "Art Press is a French contemporary art magazine."],
-  ["ArtReview", "publication", "ArtReview is a London-based contemporary art magazine and publishing platform."],
-  ["Aruba", "country or territory", ""],
-  ["Ashgabat", "city", ""],
-  ["ASOS", "brand", "ASOS is a UK-based online fashion retailer with international e-commerce operations."],
-  ["Athens", "city", ""],
-  ["Australia", "country or territory", ""],
-  ["Austria", "country or territory", ""],
-  ["Azza Fahmy", "person", "Azza Fahmy is an Egyptian jewellery designer known for contemporary jewellery informed by Egyptian and Middle Eastern visual culture."]
-];
+fs.mkdirSync(sourceDir, { recursive: true });
+fs.mkdirSync(outDir, { recursive: true });
 
-const sourceOverrides = new Map([
-  ["African Fashion International", [{ label: "African Fashion International", url: "https://africanfashioninternational.com/" }]],
-  ["Akira Minagawa", [{ label: "mina perhonen - About", url: "https://www.mina-perhonen.jp/en/about/" }]],
-  ["Akira Naka", [{ label: "AKIRA NAKA - About", url: "https://akiranaka.com/about/" }]],
-  ["Altanshagai", [{ label: "Fantastic Production - Altanshagai", url: "https://en.fantasticproduction.mn/altanshagai" }]],
-  ["Altuzarra", [{ label: "Altuzarra", url: "https://www.altuzarra.com/" }, { label: "Joseph Altuzarra", url: "https://en.wikipedia.org/wiki/Joseph_Altuzarra" }]],
-  ["Amal Murad", [{ label: "Amal Murad", url: "https://amalmurad.ae/" }]],
-  ["Aperture", [{ label: "Aperture", url: "https://aperture.org/" }]],
-  ["Arab World Institute", [{ label: "Institut du monde arabe", url: "https://www.imarabe.org/en" }]],
-  ["Arseny Zhilyaev", [{ label: "Whitechapel Gallery - Arseny Zhilyaev", url: "https://www.whitechapelgallery.org/events/arseniy-zhilyaev-conversation/" }]]
-]);
+await prepareSources();
 
-const exactOverrides = new Map([
-  ["Al-Mubarakiah Souq", "Souq Al-Mubarakiya"],
-  ["Amarbayasgalant", "Amarbayasgalant Monastery"],
-  ["American Eagle", "American Eagle Outfitters"],
-  ["Another Magazine", "Another Magazine"],
-  ["Aoyama Theatre", "Aoyama Theatre"],
-  ["Aperture", "Aperture (magazine)"],
-  ["ArtPress", "Art Press"],
-  ["ASOS", "ASOS.com"]
-]);
+const wanted = JSON.parse(fs.readFileSync(path.join(root, "wanted.json"), "utf8"));
+const accepted = extractAccepted(acceptedTest);
 
-const approvedSourceTitles = new Map([
-  ["Al-Mubarakiah Souq", ["Souq Al-Mubarakiya"]],
-  ["Amarbayasgalant", ["Amarbayasgalant Monastery"]],
-  ["American Eagle", ["American Eagle Outfitters"]],
-  ["Aperture", ["Aperture (magazine)"]],
-  ["ArtPress", ["Art press"]],
-  ["ASOS", ["ASOS plc", "ASOS.com"]]
-]);
-
-const peopleNoReverse = new Set(["Ai Weiwei"]);
-
-const seeAlsoByCategory = {
-  person: ["[Fashion designers](/fashion-designers)", "[Artists](/artists)", "[Photography](/photography)", "[Fashion media](/fashion-media)"],
-  place: ["[Cultural districts](/cultural-districts)", "[Fashion venues](/fashion-venues)", "[Museums](/museums)", "[Cities](/cities)"],
-  institution: ["[Cultural institutions](/cultural-institutions)", "[Museums](/museums)", "[Exhibitions](/exhibitions)", "[Art](/art)"],
-  brand: ["[Fashion brands](/fashion-brands)", "[Retail](/retail)", "[Ready-to-wear](/ready-to-wear)", "[Fashion business](/fashion-business)"],
-  publication: ["[Fashion media](/fashion-media)", "[Art magazines](/art-magazines)", "[Photography](/photography)", "[Criticism](/criticism)"],
-  city: ["[Fashion capitals](/fashion-capitals)", "[Cities](/cities)", "[Cultural geography](/cultural-geography)", "[Art scenes](/art-scenes)"],
-  "country or territory": ["[Countries](/countries)", "[Cultural geography](/cultural-geography)", "[Fashion systems](/fashion-systems)", "[Art scenes](/art-scenes)"]
+const categoryBySlug = {
+  "about-clothing": "Brand",
+  "abraham-thakore": "Brand",
+  "abu-dhabi": "City",
+  "abu-jani-sandeep-khosla": "Brand",
+  "created": "Exhibition",
+  "acne-studios": "Brand",
+  "adelaide-fashion-festival": "Fashion event",
+  "adjara-fashion-week": "Fashion event",
+  "aesf": "Artist collective",
+  "afghanistan": "Country or territory",
+  "afisha-magazine": "Publication",
+  "africa-toto": "Music",
+  "africa-fashion-week": "Fashion event",
+  "africa-fashion-week-london": "Fashion event",
+  "africa-fashion-week-nigeria": "Fashion event",
+  "african-art-centre": "Institution",
+  "african-fashion": "Fashion concept",
+  "african-fashion-international": "Institution",
+  "african-fashion-week-toronto": "Fashion event",
+  "armen-agop": "Person",
+  "amina-agueznay": "Person",
+  "ai-weiwei": "Person",
+  "aksenov-aleksei": "Person",
+  "akulinichev-kirill": "Person",
+  "al-mubarakiah-souq": "Place",
+  "al-numan-leila": "Person",
+  "azzedine-alaia": "Person",
+  "albania": "Country or territory",
+  "alberta-fashion-week": "Fashion event",
+  "alexander-maxim": "Person",
+  "almaty": "City",
+  "alserkal-avenue": "Place",
+  "altanshagai": "Person",
+  "altuzarra": "Brand",
+  "amarbayasgalant": "Place",
+  "american-eagle": "Brand",
+  "amirkhanova-shakri": "Person",
+  "amman": "City",
+  "amsterdam": "City",
+  "amsterdam-fashion-week": "Fashion event",
+  "andorra": "Country or territory",
+  "andorra-la-vella": "City",
+  "oksana-andreieva-antii-gonna": "Person",
+  "anguilla": "Country or territory",
+  "ankara": "City",
+  "another-magazine": "Publication",
+  "antigua-and-barbuda": "Country or territory",
+  "aoyama-theatre": "Venue",
+  "aperture": "Publication",
+  "apia": "City",
+  "apocalypses": "Archive",
+  "arab-world-institute": "Institution",
+  "archive-store": "Store",
+  "argentina": "Country or territory",
+  "armenia": "Country or territory",
+  "armenian-fashion-week": "Fashion event",
+  "art-in-america": "Publication",
+  "art-monthly": "Publication",
+  "art-newspaper-the": "Publication",
+  "artcom-media": "Media group",
+  "artfido": "Media platform",
+  "artforum": "Publication",
+  "artmajeur": "Media platform",
+  "artnet": "Media platform",
+  "artnews": "Publication",
+  "artpress": "Publication",
+  "artreview": "Publication",
+  "artyomov-andrey": "Person",
+  "aruba": "Country or territory",
+  "alexander-arutyunov-brand": "Brand",
+  "alexander-arutyunov-jewelry": "Jewellery",
+  "as-seen-below-the-dome": "Artwork",
+  "ashgabad-fashion-week": "Fashion event",
+  "ashgabat": "City",
+  "asia-world-fashion-week": "Fashion event",
+  "asos": "Brand",
+  "astafyev-gleb": "Person",
+  "athens": "City",
+  "australia": "Country or territory",
+  "australian-fashion-chamber": "Institution",
+  "austria": "Country or territory",
+  "anne-avantie": "Person",
+  "axenoff-jewellery": "Jewellery",
+  "azerbaijan-fashion-week": "Fashion event"
 };
 
-function slugify(value) {
-  return value
-    .normalize("NFKD")
-    .replace(/[ßẞ]/g, "ss")
-    .replace(/[æÆ]/g, "ae")
-    .replace(/[œŒ]/g, "oe")
-    .replace(/[øØ]/g, "o")
-    .replace(/[đĐ]/g, "d")
-    .replace(/[þÞ]/g, "th")
-    .replace(/[ðÐ]/g, "d")
-    .replace(/[łŁ]/g, "l")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9а-яё\s-]/gi, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+const fallbackSources = {
+  "aesf": [
+    ["AES+F Artist Residency Award 2022", "https://aesf.art/page/aesf-artist-residency-award-at-iscp_2022/"],
+    ["AES+F — Predictions and Revelations", "https://aesf.art/news/predictions-and-revelations/"],
+    ["Gropius Bau — AES+F. The Trilogy", "https://www.berlinerfestspiele.de/en/gropius-bau/programm/2012/ausstellungen/aesf-die-trilogie"],
+    ["LABoral — Last Riot", "https://laboralcentrodearte.org/en/artworks/last-riot-2007-2/"]
+  ],
+  "artcom-media": [["Artcom Media", "https://artcommedia.ru/"]],
+  "artfido": [["Artfido", "https://www.artfido.com/"]],
+  "art-newspaper-the": [["The Art Newspaper", "https://www.theartnewspaper.com/"]],
+  "artmajeur": [["ArtMajeur", "https://www.artmajeur.com/"]],
+  "archive-store": [["Archive Store", "https://archivestore.nl/"]],
+  "amsterdam-fashion-week": [["Amsterdam Fashion Week", "https://amsterdamfashionweek.nl/"]],
+  "armenian-fashion-week": [["Armenian Fashion Week", "https://www.instagram.com/armenianfashionweek/"]],
+  "australian-fashion-chamber": [["Australian Fashion Council", "https://ausfashioncouncil.com/"]],
+  "azerbaijan-fashion-week": [["Azerbaijan Fashion Week", "https://www.instagram.com/azerbaijanfashionweek/"]],
+  "axenoff-jewellery": [["Axenoff Jewellery", "https://axenoffjewellery.com/"]],
+  "alberta-fashion-week": [["Western Canada Fashion Week", "https://westerncanadafashionweek.com/"]],
+  "africa-toto": [["Toto — Africa", "https://en.wikipedia.org/wiki/Africa_(Toto_song)"]],
+  "akulinichev-kirill": [["Akhmadullina Dreams", "https://akhmadullinadreams.com/"]],
+  "amirkhanova-shakri": [["Tatler Russia — Shakri Amirkhanova", "https://www.tatler.ru/geroi/shakri-amirhanova"]],
+  "apocalypses": [["Garage Archive Collection", "https://archive.garagemca.org/"]],
+  "as-seen-below-the-dome": [["Moscow Museum of Modern Art", "https://mmoma.ru/"]],
+  "astafyev-gleb": [["Gleb Astafyev", "https://www.instagram.com/glebastafyev/"]]
+};
+
+const seeAlsoByCategory = {
+  "Brand": ["[Fashion brands](/fashion-brands)", "[Ready-to-wear](/ready-to-wear)", "[Fashion business](/fashion-business)"],
+  "Fashion event": ["[Fashion weeks around the world](/fashion-weeks-around-the-world)", "[Fashion capitals](/fashion-capitals)", "[Fashion systems](/fashion-systems)"],
+  "Publication": ["[Fashion media](/fashion-media)", "[Art magazines](/art-magazines)", "[Criticism](/criticism)"],
+  "Media platform": ["[Fashion media](/fashion-media)", "[Digital culture](/digital-culture)", "[Art magazines](/art-magazines)"],
+  "Media group": ["[Fashion media](/fashion-media)", "[Digital culture](/digital-culture)", "[Advertising](/advertising)"],
+  "Person": ["[Fashion designers](/fashion-designers)", "[Artists](/artists)", "[Fashion media](/fashion-media)"],
+  "Artist collective": ["[Artists](/artists)", "[Installation art](/installation-art)", "[Video art](/video-art)"],
+  "Country or territory": ["[Countries](/countries)", "[Cultural geography](/cultural-geography)", "[Fashion systems](/fashion-systems)"],
+  "City": ["[Cities](/cities)", "[Cultural geography](/cultural-geography)", "[Fashion capitals](/fashion-capitals)"],
+  "Institution": ["[Cultural institutions](/cultural-institutions)", "[Museums](/museums)", "[Exhibitions](/exhibitions)"],
+  "Place": ["[Cultural districts](/cultural-districts)", "[Cities](/cities)", "[Exhibitions](/exhibitions)"],
+  "Venue": ["[Fashion venues](/fashion-venues)", "[Performance](/performance)", "[Cities](/cities)"],
+  "Jewellery": ["[Jewellery](/jewellery)", "[Craft](/craft)", "[Fashion brands](/fashion-brands)"],
+  "Store": ["[Retail](/retail)", "[Fashion business](/fashion-business)", "[Fashion brands](/fashion-brands)"],
+  "Fashion concept": ["[Textiles](/textiles)", "[Fashion systems](/fashion-systems)", "[African fashion](/african-fashion)"],
+  "Archive": ["[Archives](/archives)", "[Fashion media](/fashion-media)", "[Cultural memory](/cultural-memory)"],
+  "Artwork": ["[Art](/art)", "[Installation art](/installation-art)", "[Exhibitions](/exhibitions)"],
+  "Music": ["[Popular culture](/popular-culture)", "[Media](/media)", "[Cultural memory](/cultural-memory)"],
+  "Exhibition": ["[Exhibitions](/exhibitions)", "[Moscow Fashion Week](/moscow-fashion-week)", "[Art scenes](/art-scenes)"]
+};
+
+const report = [];
+for (const item of wanted) {
+  const slug = item.slug;
+  let markdown = accepted.get(slug);
+  if (!markdown) markdown = buildFromR2(item);
+  markdown = customArticle(slug) || markdown;
+  markdown = finalTidy(markdown, slug);
+  fs.writeFileSync(path.join(outDir, `${slug}.md`), markdown, "utf8");
+  report.push({ slug, title: item.title, bytes: Buffer.byteLength(markdown), status: "written" });
 }
 
-function articleWord(category) {
-  return /^[aeiou]/i.test(category) ? "an" : "a";
+fs.writeFileSync(path.join(root, "manifest.json"), JSON.stringify(wanted.map(({slug,title}) => ({slug,title})), null, 2));
+fs.writeFileSync(path.join(root, "report.json"), JSON.stringify(report, null, 2));
+console.log(JSON.stringify({ written: report.length, outDir }, null, 2));
+
+async function prepareSources() {
+  const listResponse = await fetch("https://indexmod.press/_list");
+  if (!listResponse.ok) throw new Error(`Failed to fetch _list: ${listResponse.status}`);
+  const list = await listResponse.json();
+  const wanted = list
+    .filter(x => x.title && x.title.localeCompare("About (clothing)") >= 0 && x.title.localeCompare("Azerbaijan Fashion Week") <= 0)
+    .sort((a, b) => a.title.localeCompare(b.title));
+  fs.writeFileSync(path.join(root, "wanted.json"), JSON.stringify(wanted, null, 2));
+  for (const item of wanted) {
+    const response = await fetch(`https://indexmod.press/_get/${encodeURIComponent(item.slug)}`);
+    const body = response.ok ? await response.text() : JSON.stringify({ error: "not found", status: response.status });
+    fs.writeFileSync(path.join(sourceDir, `${item.slug}.json`), body);
+  }
 }
 
-function displayCategory(category) {
-  return category.charAt(0).toUpperCase() + category.slice(1);
+function aesfArticle() {
+  return `---
+title: AES+F
+slug: aesf
+created: 2026-08-25
+updated: 2026-08-25
+image: https://upload.wikimedia.org/wikipedia/commons/e/e5/AES%2BF_in_Venice%2C_2015.jpg
+credit: Asvyatsky / Wikimedia Commons. CC BY-SA 4.0; background poster by AES+F.
+---
+
+***Updated 2026-08-25***
+
+**AES+F** is a Russian artist collective known for large-scale video installations, photography, digital collage, sculpture and immersive exhibition projects. The group was formed as **AES Group** in 1987 by **Tatiana Arzamasova**, **Lev Evzovich** and **Evgeny Svyatsky**; it became AES+F after photographer **Vladimir Fridkes** joined in 1995.[1]
+
+{{page:image}}
+
+*Image: Opening of AES+F's Inverso Mundus at the Venice Biennale, 2015. Photograph by Asvyatsky; background poster by AES+F. Wikimedia Commons, CC BY-SA 4.0.*
+
+## Work
+
+AES+F uses staged imagery, computer-generated environments, opera, advertising aesthetics, mythological references and global media culture. Its projects often present polished allegorical worlds in which luxury, violence, spectacle and social anxiety occupy the same visual system.[1][2]
+
+The collective is especially associated with the **Liminal Space Trilogy**: **Last Riot** (2005-2007), **The Feast of Trimalchio** (2009-2010) and **Allegoria Sacra** (2011). **Last Riot** represented Russia at the 2007 Venice Biennale, and later trilogy presentations helped establish AES+F as a major post-Soviet video-art collective.[2][3]
+
+## Chronology
+
+| Year | Event |
+|---|---|
+| 1987 | AES Group was formed by Arzamasova, Evzovich and Svyatsky.[1] |
+| 1995 | Vladimir Fridkes joined; the group became AES+F.[1] |
+| 2007 | Last Riot was presented in the Russian Pavilion at the Venice Biennale.[3] |
+| 2012 | Gropius Bau presented AES+F. The Trilogy in Berlin.[3] |
+| 2019 | Manege Central Exhibition Hall in St. Petersburg presented AES+F. Predictions and Revelations.[2] |
+
+## See also
+
+- [Artists](/artists)
+- [Installation art](/installation-art)
+- [Video art](/video-art)
+
+## Citations
+
+**[1]** [AES+F Artist Residency Award 2022](https://aesf.art/page/aesf-artist-residency-award-at-iscp_2022/)
+
+**[2]** [AES+F — Predictions and Revelations](https://aesf.art/news/predictions-and-revelations/)
+
+**[3]** [Gropius Bau — AES+F. The Trilogy](https://www.berlinerfestspiele.de/en/gropius-bau/programm/2012/ausstellungen/aesf-die-trilogie)
+
+**[4]** [LABoral — Last Riot](https://laboralcentrodearte.org/en/artworks/last-riot-2007-2/)
+`;
 }
 
-function reversePersonTitle(title, category) {
-  if (category !== "person" || peopleNoReverse.has(title)) return title;
-  const parts = title.split(/\s+/);
-  if (parts.length < 2 || parts.length > 4) return title;
-  return `${parts.at(-1)}, ${parts.slice(0, -1).join(" ")}`;
+function customArticle(slug) {
+  if (slug === "altanshagai") {
+    return `---
+title: Altanshagai
+slug: altanshagai
+created: 2026-08-23
+updated: 2026-08-25
+image: 
+credit: 
+---
+
+***Updated 2026-08-25***
+
+**Altanshagai** is a Mongolian cultural figure documented through Fantastic Production. Publicly available information in English is limited; the available source identifies Altanshagai in relation to performance, media production and contemporary Mongolian cultural work.[1]
+
+## Context
+
+Because the published source record is narrow, this article avoids unsupported biographical claims. The entry is retained as a reference point for future documentation of Mongolian creative scenes, performance networks and fashion-adjacent cultural production.
+
+## See also
+
+- [Artists](/artists)
+- [Cultural geography](/cultural-geography)
+- [Fashion media](/fashion-media)
+
+## Citations
+
+**[1]** [Fantastic Production — Altanshagai](https://en.fantasticproduction.mn/altanshagai)
+`;
+  }
+
+  if (slug === "arab-world-institute") {
+    return `---
+title: Arab World Institute
+slug: arab-world-institute
+created: 2026-08-23
+updated: 2026-08-25
+image: 
+credit: 
+---
+
+***Updated 2026-08-25***
+
+**Arab World Institute** is a cultural institution in Paris devoted to Arab culture, history, art, language and public education. Founded through cooperation between France and Arab League member states, the institute presents exhibitions, talks, screenings, concerts, educational programmes and research resources connected with the Arab world.[1]
+
+## Cultural role
+
+The institution is relevant to fashion and art history through its exhibitions and public programmes on visual culture, architecture, photography, craft, design, heritage and contemporary artistic production. It also functions as a Paris reference point for cultural exchange between Europe, North Africa and the Middle East.
+
+## See also
+
+- [Cultural institutions](/cultural-institutions)
+- [Museums](/museums)
+- [Exhibitions](/exhibitions)
+
+## Citations
+
+**[1]** [Institut du monde arabe](https://www.imarabe.org/en)
+`;
+  }
+
+  return "";
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      "User-Agent": "Indexmod/1.0 (https://indexmod.press)"
-    }
+function extractAccepted(file) {
+  const map = new Map();
+  if (!fs.existsSync(file)) return map;
+  const md = fs.readFileSync(file, "utf8");
+  for (const match of md.matchAll(/~~~markdown\n([\s\S]*?)\n~~~/g)) {
+    const article = match[1].trim() + "\n";
+    const slug = article.match(/^slug:\s*(.+)$/m)?.[1]?.trim();
+    if (slug) map.set(slug, article);
+  }
+  return map;
+}
+
+function buildFromR2(item) {
+  if (item.slug === "aesf") return aesfArticle();
+  const sourcePath = path.join(sourceDir, `${item.slug}.json`);
+  const page = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+  if (page.error) throw new Error(`No source for ${item.slug}`);
+  const raw = page.raw || "";
+  const fm = parseFrontmatter(raw);
+  const category = categoryBySlug[item.slug] || "Topic";
+  const title = page.title || fm.title || item.title;
+  const created = normalizeDate(fm.created || fm.date || page.created) || "2018-01-02";
+  const image = (fm.image || page.image || "").trim();
+  const credit = (fm.credit || fm.credits || "").trim();
+  const sources = collectSources(raw, item.slug);
+  let body = stripFrontmatter(raw);
+  body = cleanBody(body, title, category);
+  if (!body || body.length < 80) body = fallbackIntro(title, category);
+
+  const parts = [];
+  parts.push("---");
+  parts.push(`title: ${yaml(title)}`);
+  parts.push(`slug: ${item.slug}`);
+  parts.push(`created: ${created}`);
+  parts.push(`updated: ${updated}`);
+  parts.push(`image: ${image}`);
+  parts.push(`credit: ${yaml(credit)}`);
+  parts.push("---\n");
+  parts.push(`***Updated ${updated}***\n`);
+  parts.push(body);
+  if (image && !body.includes("{{page:image}}")) {
+    const caption = credit ? `*Image credit: ${credit}*` : "*Image credit: source and license as stated in the article metadata.*";
+    const first = body.split(/\n{2,}/);
+    parts[parts.length - 1] = [first[0], "{{page:image}}", caption, ...first.slice(1)].join("\n\n");
+  }
+  if (!/## See also/.test(parts.join("\n"))) {
+    parts.push("\n## See also\n");
+    parts.push((seeAlsoByCategory[category] || ["[Fashion](/fashion)", "[Art](/art)", "[Design](/design)"]).map(x => `- ${x}`).join("\n"));
+  }
+  if (!/## Citations/.test(parts.join("\n"))) {
+    parts.push("\n## Citations\n");
+    parts.push((sources.length ? sources : (fallbackSources[item.slug] || [])).map((s, i) => `**[${i + 1}]** [${escapeMd(s[0])}](${s[1]})`).join("\n\n"));
+  }
+  return parts.join("\n").trim() + "\n";
+}
+
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+  const out = {};
+  if (!match) return out;
+  for (const line of match[1].split(/\r?\n/)) {
+    const i = line.indexOf(":");
+    if (i === -1) continue;
+    out[line.slice(0, i).trim()] = line.slice(i + 1).trim();
+  }
+  return out;
+}
+
+function stripFrontmatter(raw) {
+  return raw.replace(/^---\s*\n[\s\S]*?\n---\s*/, "");
+}
+
+function cleanBody(body, title, category) {
+  let text = body
+    .replace(/\n*<!--\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\s\S]*?-->\s*$/gi, "")
+    .replace(/\*\*\*Updated\s+\d{4}-\d{2}-\d{2}\*\*\*/g, "")
+    .replace(/\[\*\*(\d+)\*\*\]/g, "[$1]")
+    .replace(/\*\*\[(\d+)\]\*\*/g, "[$1]")
+    .replace(/^#\s+.*$/gm, "")
+    .replace(/Here(?:'|’)s a detailed overview:?\s*/gi, "")
+    .replace(/Here are key details about the event:?\s*/gi, "")
+    .replace(/\bupcoming\b/gi, "documented");
+
+  text = text.replace(new RegExp(`^\\*\\*${escapeRe(title)}\\*\\*\\s+is\\s+[^.]*?relevant to Indexmod's coverage of fashion, art, design, media, and cultural geography\\.\\s*`, "i"), "");
+  text = text.replace(/^.*?\s+relevant to Indexmod's coverage of fashion, art, design, media, and cultural geography\.\s*/gim, "");
+  text = removeSection(text, "Category");
+  text = removeSection(text, "Context");
+  text = removeSection(text, "Significance");
+  text = text.replace(/\n## Chronology\n\n\| Year \| Event \|\n\|---\|---\|\n(?:\| 20\d{2} \| (?:Source information|Article prepared)[^\n]+\|\n?)+/gi, "");
+  text = text.replace(/^.*?\bis treated as\b[^\n]*\n?/gim, "");
+  text = text.replace(/^As an? [^,\n]+, .*?helps connect individual entries in Indexmod[^\n]*\n?/gim, "");
+  text = text.replace(/^.*?helps connect individual entries in Indexmod[^\n]*\n?/gim, "");
+  text = text.replace(/Where the available record is incomplete[^\n]*\n?/gim, "");
+  text = text.replace(/^[-*]\s+\*\*Next Event\*\*:[^\n]*\n?/gim, "");
+  text = text.replace(/## Upcoming Events[\s\S]*?(?=\n## |\nCitations:|\n## Citations|$)/gi, "");
+  text = text.replace(/Citations:\s*/g, "## Citations\n\n");
+  text = normalizeSeeAlso(text);
+  text = text.replace(/\n{3,}/g, "\n\n").trim();
+  if (!text.startsWith(`**${title}**`) && !/^[-#|]/.test(text)) {
+    text = `**${title}** ${lowerFirst(text)}`;
+  }
+  if (!text || /^## /.test(text) || text.length < 80) return fallbackIntro(title, category);
+  return text;
+}
+
+function removeSection(text, heading) {
+  return text.replace(new RegExp(`\\n## ${heading}\\n[\\s\\S]*?(?=\\n## |$)`, "gi"), "");
+}
+
+function normalizeSeeAlso(text) {
+  return text.replace(/\n## См\. также\n/gi, "\n## See also\n").replace(/^\+\s+\[([^\]]+)\]\(([^)]+)\)/gm, (_, label, href) => {
+    const clean = href.startsWith("/") || href.startsWith("http") ? href : `/${href}`;
+    return `- [${label}](${clean})`;
   });
-  if (!response.ok) return null;
-  return response.json();
 }
 
-async function searchTitle(topic) {
-  const query = exactOverrides.get(topic) || topic;
-  const direct = await fetchJson(
-    `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`
-  );
-  if (isUsableSummary(topic, direct)) return direct;
-
-  const params = new URLSearchParams({
-    action: "opensearch",
-    search: query,
-    limit: "1",
-    namespace: "0",
-    format: "json"
-  });
-  const search = await fetchJson(`https://en.wikipedia.org/w/api.php?${params}`);
-  const found = Array.isArray(search) && search[1] && search[1][0];
-  if (!found) return null;
-
-  const foundSummary = await fetchJson(
-    `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(found)}`
-  );
-  return isUsableSummary(topic, foundSummary) ? foundSummary : null;
+function fallbackIntro(title, category) {
+  const noun = {
+    "Brand": "a fashion brand",
+    "Fashion event": "a fashion event",
+    "Publication": "a publication",
+    "Media platform": "a media platform",
+    "Media group": "a media group",
+    "Person": "a cultural figure",
+    "City": "a city",
+    "Country or territory": "a country or territory",
+    "Institution": "a cultural institution",
+    "Place": "a place",
+    "Venue": "a venue",
+    "Jewellery": "a jewellery subject",
+    "Artwork": "an artwork",
+    "Archive": "an archive-related subject",
+    "Music": "a music and popular-culture subject",
+    "Exhibition": "an exhibition project"
+  }[category] || "a cultural subject";
+  return `**${title}** is ${noun} documented in relation to fashion, art, design, media or cultural history. Publicly verifiable information is limited, so this entry keeps the identification concise and avoids unsupported interpretation.`;
 }
 
-function comparable(value = "") {
-  return slugify(value)
-    .replace(/\bplc\b/g, "")
-    .replace(/\bcom\b/g, "")
-    .replace(/\boutfitters\b/g, "eagle")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function isUsableSummary(topic, summary) {
-  if (!summary || summary.type === "disambiguation" || !summary.extract) return false;
-  const approved = approvedSourceTitles.get(topic);
-  if (approved && approved.includes(summary.title)) return true;
-  return comparable(topic) === comparable(summary.title || "");
-}
-
-function cleanExtract(summary) {
-  return String(summary.extract || "").replace(/\s+/g, " ").trim();
-}
-
-function firstParagraph(topic, category, summary, description) {
-  const intro = `**${topic}** is ${articleWord(category)} ${category} relevant to Indexmod's coverage of fashion, art, design, media, and cultural geography.`;
-  const extract = cleanExtract(summary);
-  if (extract) return `${intro} ${extract}[1]`;
-  return description ? `${intro} ${description}` : intro;
-}
-
-function contextParagraph(topic, category) {
-  const byCategory = {
-    person: `${topic} is treated as a named creative, editorial, business, or cultural figure. The entry focuses on public practice and documented relevance rather than private biography.`,
-    place: `${topic} is treated as a place or venue. The entry focuses on its role as a setting for cultural exchange, presentation, commerce, or visual identity.`,
-    institution: `${topic} is treated as an institution or platform. The entry focuses on how organisations structure visibility, exhibitions, education, markets, and professional networks.`,
-    brand: `${topic} is treated as a brand or company. The entry focuses on design identity, retail context, production, distribution, and public positioning.`,
-    publication: `${topic} is treated as a publication or media platform. The entry focuses on editorial framing, criticism, photography, fashion coverage, and art discourse.`,
-    city: `${topic} is treated as a city. The entry focuses on geography, cultural infrastructure, creative scenes, and its usefulness as a reference point for fashion and art history.`,
-    "country or territory": `${topic} is treated as a country or territory. The entry focuses on cultural geography, institutions, markets, textile traditions, and the conditions in which fashion and art circulate.`
-  };
-  return byCategory[category];
-}
-
-function chronology(summary) {
-  const rows = [];
-  if (summary.timestamp) {
-    rows.push(`| ${summary.timestamp.slice(0, 4)} | Source information for this article was checked.[1] |`);
+function collectSources(raw, slug) {
+  const out = [];
+  for (const match of raw.matchAll(/\*\*\[(\d+)\]\*\*\s*\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)) add(out, match[2], match[3]);
+  for (const match of raw.matchAll(/^\[(\d+)\]\s*(https?:\/\/\S+)/gm)) add(out, match[2], match[2]);
+  for (const match of raw.matchAll(/^\*\*\[(\d+)\]\s*(https?:\/\/\S+)/gm)) add(out, match[2], match[2]);
+  for (const match of raw.matchAll(/\*\*(\[\d+\]\s*https?:\/\/[\s\S]*?)\*\*/g)) {
+    for (const url of match[1].match(/https?:\/\/[^\s\]]+/g) || []) add(out, url, url);
   }
-  rows.push(`| ${updated.slice(0, 4)} | Article prepared for the Indexmod reference corpus. |`);
-  return rows.join("\n");
+  for (const source of fallbackSources[slug] || []) add(out, source[0], source[1]);
+  return out.filter(([label, url]) => /^https?:\/\//.test(url) && !/google\.com\/policies|pinterest\.|777ONE|^URL$/i.test(url)).slice(0, 10);
 }
 
-function citations(topic, summary) {
-  const sources = [];
-  if (summary.content_urls?.desktop?.page) {
-    sources.push({ label: summary.title || topic, url: summary.content_urls.desktop.page });
-  }
-  if (summary.wikibase_item) {
-    sources.push({ label: `Wikidata ${summary.wikibase_item}`, url: `https://www.wikidata.org/wiki/${summary.wikibase_item}` });
-  }
-  if (!sources.length && sourceOverrides.has(topic)) {
-    sources.push(...sourceOverrides.get(topic));
-  }
-  if (!sources.length) return "";
-
-  return `\n## Citations\n\n${sources.map((source, index) => `**[${index + 1}]** [${source.label}](${source.url})`).join("\n\n")}\n`;
+function add(out, label, url) {
+  if (!url || !/^https?:\/\//.test(url)) return;
+  url = url.replace(/[),.]+$/, "");
+  if (out.some(x => x[1] === url)) return;
+  out.push([label.replace(/^https?:\/\//, ""), url]);
 }
 
-function articleFor(topic, category, description, summary) {
-  const slug = slugify(topic);
-  const title = reversePersonTitle(topic, category);
-  const candidateImage = summary.originalimage?.source || summary.thumbnail?.source || "";
-  const image = candidateImage.includes("/wikipedia/commons/") ? candidateImage : "";
-  const credit = image ? "Wikimedia Commons or Wikipedia image file; license and author as stated on the source file page." : "";
-  const imageBlock = image ? `\n{{page:image}}\n\n*Image credit: ${credit}*\n` : "";
-  const seeAlso = (seeAlsoByCategory[category] || seeAlsoByCategory.person).map(item => `- ${item}`).join("\n");
-
-  return `---\ntitle: ${title}\nslug: ${slug}\ncreated: ${updated}\nupdated: ${updated}\nimage: ${image}\ncredit: ${credit}\n---\n\n***Updated ${updated}***\n\n${firstParagraph(topic, category, summary, description)}\n${imageBlock}\n## Category\n\n**Category:** ${displayCategory(category)}\n\n## Context\n\n${contextParagraph(topic, category)}\n\n## Significance\n\nAs ${articleWord(category)} ${category}, ${topic} helps connect individual entries in Indexmod to broader systems of authorship, place, image-making, publishing, commerce, and cultural memory. Where the available record is incomplete, this article keeps claims concise and separates identification from interpretation.\n\n## Chronology\n\n| Year | Event |\n|---|---|\n${chronology(summary)}\n\n## See also\n\n${seeAlso}\n${citations(topic, summary)}`;
+function finalTidy(markdown, slug) {
+  let md = markdown
+    .replace(/\n*<!--\s*(?:INDEXMOD(?: ADMIN)? PROMPT|Prompt:)[\s\S]*?-->\s*$/gi, "")
+    .replace(/\n*<!--\s*INDEXMOD[\s\S]*$/gi, "")
+    .replace(/updated: *\n/i, `updated: ${updated}\n`)
+    .replace(/update: /i, "updated: ")
+    .replace(/permalink: /i, "slug: ")
+    .replace(/date: /i, "created: ")
+    .replace(/credits: /i, "credit: ")
+    .replace(/^\*\*\*Updated\s+\d{4}-\d{2}-\d{2}\*\*\*/m, `***Updated ${updated}***`)
+    .trim() + "\n";
+  if (!/\n\*\*\*Updated /.test(md)) md = md.replace(/---\s*\n/, `---\n\n***Updated ${updated}***\n\n`);
+  md = md.replace(/^slug:.*$/m, `slug: ${slug}`);
+  md = md.replace(/^updated:.*$/m, `updated: ${updated}`);
+  md = md.replace(/The brand language in the earlier Indexmod article described/g, "The historical brand language described");
+  md = md.replace(/The earlier Indexmod record describes/g, "The archived project description records");
+  md = md.replace(/inherited Indexmod information/g, "archived project information");
+  md = md.replace(/Its relevance to Indexmod is strongest in discussions of/g, "Its relevance is strongest in discussions of");
+  md = md.replace(/should be treated as historical brand positioning/g, "should be read as historical brand positioning");
+  md = md.replace(/should be treated as archived project information/g, "should be read as archived project information");
+  md = md.replace(/therefore treated as active design systems/g, "therefore used as active design systems");
+  md = md.replace(/should therefore not automatically be treated as/g, "should therefore not automatically be read as");
+  md = md.replace(/should not automatically be treated as/g, "should not automatically be read as");
+  md = md.replace(/\| 2026 \| Article prepared for the Indexmod reference corpus\. \|\n?/g, "");
+  md = md.replace(/\| 2026 \| Source information for this article was checked\.[^|]*\|\n?/g, "");
+  md = md.replace(/^!\[[^\]]*\]\([^\n]+\)\n\n?/gm, "");
+  md = md.replace(/^\*\*([^*\n]+)\*\*\s+\*\*\1\*\*/m, "**$1**");
+  md = md.replace(/^\*\*African Fashion International\*\*\s+\*\*African Fashion International \(AFI\)\*\*/m, "**African Fashion International (AFI)**");
+  md = md.replace(/^\*\*Amirkhanova, Shakri\*\*\s+\*\*Shakri Khizrievna Amirkhanova\*\*/m, "**Shakri Khizrievna Amirkhanova**");
+  md = md.replace(/^\*\*ArtMajeur \(service\)\*\*\s+\*\*ArtMajeur\*\*/m, "**ArtMajeur**");
+  md = md.replace(/relevant to Indexmod's coverage of fashion, art, design, media, and cultural geography\.?\s*/gi, "");
+  md = md.replace(/^.*?\bis treated as\b[^\n]*\n?/gim, "");
+  md = md.replace(/^.*?helps connect individual entries in Indexmod[^\n]*\n?/gim, "");
+  md = md.replace(/\n{3,}/g, "\n\n");
+  return md;
 }
 
-await fs.mkdir(outDir, { recursive: true });
-for (const entry of await fs.readdir(outDir)) {
-  if (entry.endsWith(".md") || entry === "manifest.json") {
-    await fs.unlink(path.join(outDir, entry));
-  }
+function normalizeDate(value) {
+  return String(value || "").match(/\d{4}-\d{2}-\d{2}/)?.[0] || "";
 }
 
-const manifest = [];
-for (const [topic, category, description] of topics) {
-  const slug = slugify(topic);
-  const summary = (await searchTitle(topic)) || {};
-  const content = articleFor(topic, category, description, summary);
-  await fs.writeFile(path.join(outDir, `${slug}.md`), content, "utf8");
-  manifest.push({
-    topic,
-    slug,
-    category,
-    sourceTitle: summary.title || null,
-    hasManualSource: sourceOverrides.has(topic),
-    hasImage: Boolean(summary.originalimage || summary.thumbnail)
-  });
-  await new Promise(resolve => setTimeout(resolve, 120));
+function yaml(value) {
+  value = String(value || "");
+  return /[:#\[\]{},"'&*]|^\s|\s$/.test(value) ? JSON.stringify(value) : value;
 }
 
-await fs.writeFile(path.join(outDir, "manifest.json"), JSON.stringify(manifest, null, 2), "utf8");
-console.log(`Generated ${manifest.length} articles in ${outDir}`);
+function escapeMd(value) {
+  return String(value).replace(/\[/g, "\\[").replace(/\]/g, "\\]");
+}
+
+function escapeRe(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function lowerFirst(value) {
+  return value ? value.charAt(0).toLowerCase() + value.slice(1) : value;
+}
