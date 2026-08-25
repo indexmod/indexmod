@@ -8,7 +8,12 @@ const manifestPath = path.join(articlesDir, "manifest.json");
 const publicOrigin = process.env.PUBLIC_ORIGIN || "https://indexmod.press";
 const overwriteExisting = process.env.OVERWRITE_EXISTING === "true";
 
-const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
+const uploadPriority = ["azerbaijan-fashion-week", "artcom-media", "aesf", "about-clothing"];
+const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8")).sort((a, b) => {
+  const ai = uploadPriority.indexOf(a.slug);
+  const bi = uploadPriority.indexOf(b.slug);
+  return (ai === -1 ? uploadPriority.length : ai) - (bi === -1 ? uploadPriority.length : bi);
+});
 
 let uploaded = 0;
 let skipped = 0;
