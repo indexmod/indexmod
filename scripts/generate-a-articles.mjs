@@ -304,6 +304,102 @@ The institution is relevant to fashion and art history through its exhibitions a
 `;
   }
 
+  if (slug === "artcom-media") {
+    return `---
+title: Artcom Media
+slug: artcom-media
+created: 2018-01-02
+updated: 2026-08-25
+image: /images/artcom-media.jpg
+credit: 
+---
+
+***Updated 2026-08-25***
+
+**Artcom Media** is a Moscow-based media and communications group associated with publishing, advertising, digital marketing and event work. The earlier Indexmod record identifies the company with licensed magazine publishing and with Russian fashion, lifestyle and design media, including titles and projects such as Numéro, Port, SNC, Golf Digest, Interni, Objekt, Exterieurs Design, L'Officiel, TrendSpace.ru and related digital properties.[1][2]
+
+{{page:image}}
+
+*Image credit: source and license as stated in the article metadata.*
+
+## Profile
+
+The company record describes a group that combined publishing, advertising, digital services and event production. Public company descriptions also emphasize media planning, television, radio, outdoor and indoor advertising, programmatic advertising, paid search, social media campaigns, influencer marketing, online reputation work, analytics, video production and promotional activations.[2][3]
+
+## Chronology
+
+| Year | Event |
+|---|---|
+| 1990 | Art Service was established, later reshaped as Art Trading, according to the archived company history.[1] |
+| 1995 | ARTCOM Media advertising agency was established.[1] |
+| 2008 | ARTCOM Media publishing house was established.[1] |
+| 2018 | Russian Forbes editor Nikolai Uskov was dismissed by owner Alexander Fedotov; the dispute was covered in Russian media and is retained here as context for the media group record.[4] |
+
+## See also
+
+- [Fashion media](/fashion-media)
+- [Art magazines](/art-magazines)
+- [Nikolai Uskov](/uskov-nikolay)
+- [Anzor Kankulov](/anzor-kankulov)
+
+## Citations
+
+**[1]** [About Artcom Media Group](http://www.acmgroup.info/eng/about/)
+
+**[2]** [ARTCOM Media](https://art-com.ru/en)
+
+**[3]** [TAdviser — Artcom Media Group](https://tadviser.com/index.php/Company:Artcom_Media_Group_(ACMG))
+
+**[4]** [Nikolai Uskov](https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D0%BA%D0%BE%D0%B2,_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%A4%D0%B5%D0%BB%D0%B8%D0%BA%D1%81%D0%BE%D0%B2%D0%B8%D1%87)
+`;
+  }
+
+  if (slug === "azerbaijan-fashion-week") {
+    return `---
+title: Azerbaijan Fashion Week
+slug: azerbaijan-fashion-week
+created: 2018-01-02
+updated: 2026-08-25
+image: /images/azerbaijan-fashion-week.jpg
+credit: 
+---
+
+***Updated 2026-08-25***
+
+**Azerbaijan Fashion Week** is a fashion event in Baku that presents Azerbaijani and international designers through runway shows, industry meetings and public fashion programming. The project is documented in Indexmod as part of the regional fashion-week network around the South Caucasus and the Caspian cultural sphere.[1][2]
+
+{{page:image}}
+
+*Image credit: source and license as stated in the article metadata.*
+
+## Programme
+
+Available event descriptions position AFW as a platform for emerging and established designers, buyers, media representatives and fashion-industry guests. Later seasons also emphasized sustainable development, recycled materials and the connection between contemporary fashion, tourism and Azerbaijani cultural presentation.[2][3]
+
+## Organization
+
+The older Indexmod record names Fashion Consulting Group as organizer and describes the event as a twice-yearly fashion project. It also preserves staff and representation details from earlier public listings; these should be read as historical event information unless confirmed by a current AFW source.
+
+## See also
+
+- [Baku Fashion Week](/baku-fashion-week)
+- [Fashion weeks around the world](/fashion-weeks-around-the-world)
+- [Kazakhstan Fashion Week](/kazakhstan-fashion-week)
+- [Tbilisi Fashion Week](/tbilisi-fashion-week)
+- [Sunrise in Baku Fashion Project](/sunrise-in-baku-fashion-project)
+
+## Citations
+
+**[1]** [Azerbaijan Fashion Week — Instagram](https://www.instagram.com/azerbaijanfashionweek/)
+
+**[2]** [Azerbaijan Fashion Week — Azernews](https://www.azernews.az/culture/235107.html)
+
+**[3]** [Modepoint — Baku Fashion Week](https://modepoint.az/bfw.html)
+
+**[4]** [Baku Fashion Week](https://bakufashionweek.com)
+`;
+  }
+
   return "";
 }
 
@@ -404,8 +500,11 @@ function cleanBody(body, title, category) {
   text = text.replace(/## Upcoming Events[\s\S]*?(?=\n## |\nCitations:|\n## Citations|$)/gi, "");
   text = text.replace(/Citations:\s*/g, "## Citations\n\n");
   text = normalizeSeeAlso(text);
-  text = text.replace(/\n{3,}/g, "\n\n").trim();
-  if (!text.startsWith(`**${title}**`) && !/^[-#|]/.test(text)) {
+  text = text
+    .replace(/([^\n])\s+(##\s+)/g, "$1\n\n$2")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+  if (!startsWithTitle(text, title) && !/^[-#|]/.test(text)) {
     text = `**${title}** ${lowerFirst(text)}`;
   }
   if (!text || /^## /.test(text) || text.length < 80) return fallbackIntro(title, category);
@@ -494,6 +593,7 @@ function finalTidy(markdown, slug) {
   md = md.replace(/^\*\*African Fashion International\*\*\s+\*\*African Fashion International \(AFI\)\*\*/m, "**African Fashion International (AFI)**");
   md = md.replace(/^\*\*Amirkhanova, Shakri\*\*\s+\*\*Shakri Khizrievna Amirkhanova\*\*/m, "**Shakri Khizrievna Amirkhanova**");
   md = md.replace(/^\*\*ArtMajeur \(service\)\*\*\s+\*\*ArtMajeur\*\*/m, "**ArtMajeur**");
+  md = md.replace(/^\*\*([^*\n]+)\*\*\s+\1\b/im, "**$1**");
   md = md.replace(/relevant to Indexmod's coverage of fashion, art, design, media, and cultural geography\.?\s*/gi, "");
   md = md.replace(/^.*?\bis treated as\b[^\n]*\n?/gim, "");
   md = md.replace(/^.*?helps connect individual entries in Indexmod[^\n]*\n?/gim, "");
@@ -520,4 +620,17 @@ function escapeRe(value) {
 
 function lowerFirst(value) {
   return value ? value.charAt(0).toLowerCase() + value.slice(1) : value;
+}
+
+function startsWithTitle(text, title) {
+  const normalizedText = text
+    .replace(/^\*\*([^*]+)\*\*/, "$1")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .toLowerCase();
+  const normalizedTitle = String(title)
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .toLowerCase();
+  return normalizedText.startsWith(normalizedTitle);
 }
