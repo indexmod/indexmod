@@ -166,17 +166,28 @@ fs.writeFileSync(path.join(root, "report.json"), JSON.stringify(report, null, 2)
 console.log(JSON.stringify({ written: report.length, outDir }, null, 2));
 
 async function prepareSources() {
-  const listResponse = await fetch("https://indexmod.press/_list");
+  const listResponse = await fetchWithTimeout("https://indexmod.press/_list");
   if (!listResponse.ok) throw new Error(`Failed to fetch _list: ${listResponse.status}`);
   const list = await listResponse.json();
   const wanted = list
     .filter(x => x.title && x.title.localeCompare("About (clothing)") >= 0 && x.title.localeCompare("Azerbaijan Fashion Week") <= 0)
     .sort((a, b) => a.title.localeCompare(b.title));
   fs.writeFileSync(path.join(root, "wanted.json"), JSON.stringify(wanted, null, 2));
-  for (const item of wanted) {
-    const response = await fetch(`https://indexmod.press/_get/${encodeURIComponent(item.slug)}`);
+  for (const [index, item] of wanted.entries()) {
+    console.log(`source ${index + 1}/${wanted.length} ${item.slug}`);
+    const response = await fetchWithTimeout(`https://indexmod.press/_get/${encodeURIComponent(item.slug)}`);
     const body = response.ok ? await response.text() : JSON.stringify({ error: "not found", status: response.status });
     fs.writeFileSync(path.join(sourceDir, `${item.slug}.json`), body);
+  }
+}
+
+async function fetchWithTimeout(url, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
   }
 }
 
