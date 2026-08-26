@@ -12,6 +12,7 @@ export function parse(md = "") {
 let title = "";
 let description = "";
 let image = "";
+let credit = "";
 let slug = "";
 let created = "";
 let updated = "";
@@ -69,9 +70,11 @@ line
 
 
 const value =
+stripEnclosingQuotes(
 line
 .slice(i+1)
-.trim();
+.trim()
+);
 
 
 
@@ -96,6 +99,12 @@ case "image":
 
 image =
 unwrapMarkdownUrl(value);
+
+break;
+
+case "credit":
+
+credit = value;
 
 break;
 
@@ -223,7 +232,8 @@ proxyExternalImages(
 marked.parse(
 normalizeImageMarkdown(
 renderPageSelectors(content, {
-image
+image,
+credit
 })
 )
 )
@@ -243,6 +253,8 @@ title,
 description,
 
 image,
+
+credit,
 
 slug,
 
@@ -329,11 +341,20 @@ part.startsWith("<!--")
 ?
 part
 :
-part.replace(
-/\{\{\s*page:image\s*\}\}/gi,
+part
+.replace(
+/\{\{\s*(?:image:\s*)?page:image\s*\}\}/gi,
 page.image
 ?
 `![](${unwrapMarkdownUrl(page.image)})`
+:
+""
+)
+.replace(
+/\{\{\s*(?:credit:\s*)?page:credit\s*\}\}/gi,
+page.credit
+?
+`*Image credit: ${page.credit}*`
 :
 ""
 )
@@ -373,6 +394,28 @@ source.match(/^\[[^\]]*\]\((https?:\/\/[^)\s]+)\)$/i);
 return markdownLink
 ?
 markdownLink[1]
+:
+source;
+
+
+}
+
+
+
+function stripEnclosingQuotes(value = "") {
+
+
+const source =
+String(value).trim();
+
+
+const quote =
+source[0];
+
+
+return (quote === `"` || quote === `'`) && source.endsWith(quote)
+?
+source.slice(1, -1)
 :
 source;
 

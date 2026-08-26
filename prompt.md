@@ -101,11 +101,11 @@ Include a See also section when related topics are useful.
 - Do not use non-free Wikipedia cover art, press images, logos, or screenshots as article images.
 - image must contain only a direct image file URL.
 - credit must briefly name source, license, and author when known.
-- Insert the main image after the first meaningful paragraph using:
+- Insert the main image and credit immediately after the first meaningful paragraph using:
 
 {{page:image}}
 
-Then add a short italic image credit line.
+{{page:credit}}
 
 ## CITATIONS
 
