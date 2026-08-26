@@ -2,6 +2,14 @@ name = "indexmod"
 main = "src/index.js"
 compatibility_date = "2026-04-25"
 
+[vars]
+OG_IMAGE_PROXY = "1"
+OG_IMAGE_WIDTH = "1200"
+OG_IMAGE_HEIGHT = "630"
+OG_IMAGE_FIT = "cover"
+OG_IMAGE_QUALITY = "82"
+OG_IMAGE_FORMAT = "jpeg"
+
 [[r2_buckets]]
 binding = "PAGES"
 bucket_name = "indexmod"

@@ -142,7 +142,8 @@ path === "/_media"
 
 
 return proxyImage(
-url.searchParams.get("url") || ""
+url.searchParams.get("url") || "",
+url.searchParams
 );
 
 
@@ -1382,7 +1383,8 @@ page.slug || slug
 
 return renderArticleResponse(
 page,
-permalink
+permalink,
+env
 );
 
 
@@ -1463,6 +1465,7 @@ buildMeta({
 title:page.title || permalink,
 description:page.description,
 image,
+socialImageOptions:getSocialImageOptions(env),
 slug:permalink,
 created:page.created,
 updated:page.updated
@@ -1474,7 +1477,8 @@ updated:page.updated
 
 function renderArticleResponse(
 page,
-slug
+slug,
+env
 ) {
 
 const permalink =
@@ -1502,6 +1506,7 @@ buildMeta({
 title:page.title || permalink,
 description:page.description,
 image,
+socialImageOptions:getSocialImageOptions(env),
 slug:permalink,
 created:page.created,
 updated:page.updated
@@ -1694,7 +1699,7 @@ return unauthorized();
 
 
 
-async function proxyImage(source) {
+async function proxyImage(source, params = new URLSearchParams()) {
 
 
 let sourceUrl;
@@ -1731,8 +1736,58 @@ return new Response(
 }
 
 
-const upstream =
+const isOgImage =
+params.get("og") === "1";
+
+
+let upstream;
+
+
+try {
+
+
+upstream =
+await fetch(
+sourceUrl,
+isOgImage
+? {
+cf:{
+image:{
+width:positiveInteger(params.get("w"), 1200),
+height:positiveInteger(params.get("h"), 630),
+fit:allowedImageFit(params.get("fit")),
+quality:positiveInteger(params.get("q"), 82),
+format:allowedImageFormat(params.get("format"))
+}
+}
+}
+: undefined
+);
+
+
+}
+catch(error) {
+
+
+if(!isOgImage)
+throw error;
+
+
+upstream =
 await fetch(sourceUrl);
+
+
+}
+
+
+if(isOgImage && !upstream.ok){
+
+
+upstream =
+await fetch(sourceUrl);
+
+
+}
 
 
 if(!upstream.ok){
@@ -1780,6 +1835,85 @@ headers:{
 }
 }
 );
+
+
+}
+
+
+
+function getSocialImageOptions(env = {}) {
+
+
+return {
+enabled:
+String(env.OG_IMAGE_PROXY || "1") !== "0",
+width:
+positiveInteger(env.OG_IMAGE_WIDTH, 1200),
+height:
+positiveInteger(env.OG_IMAGE_HEIGHT, 630),
+fit:
+allowedImageFit(env.OG_IMAGE_FIT || "cover"),
+quality:
+positiveInteger(env.OG_IMAGE_QUALITY, 82),
+format:
+allowedImageFormat(env.OG_IMAGE_FORMAT || "jpeg")
+};
+
+
+}
+
+
+
+function positiveInteger(value, fallback) {
+
+
+const number =
+Number(value);
+
+
+if(Number.isInteger(number) && number > 0)
+return number;
+
+
+return fallback;
+
+
+}
+
+
+
+function allowedImageFit(value = "") {
+
+
+const fit =
+String(value || "")
+.toLowerCase();
+
+
+if(["scale-down", "contain", "cover", "crop", "pad"].includes(fit))
+return fit;
+
+
+return "cover";
+
+
+}
+
+
+
+function allowedImageFormat(value = "") {
+
+
+const format =
+String(value || "")
+.toLowerCase();
+
+
+if(["jpeg", "png", "webp", "avif"].includes(format))
+return format;
+
+
+return "jpeg";
 
 
 }

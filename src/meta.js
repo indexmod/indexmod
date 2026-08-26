@@ -6,6 +6,13 @@ import { normalizeSlug } from "./slug.js";
 
 const DOMAIN = "https://indexmod.press";
 const SITE_NAME = "Indexmod Fashion and Art";
+const DEFAULT_OG_IMAGE = {
+  width: 1200,
+  height: 630,
+  fit: "cover",
+  quality: 82,
+  format: "jpeg"
+};
 
 export function buildMeta(data = {}) {
   const title = clean(data.title || data.name || "Indexmod");
@@ -26,6 +33,9 @@ export function buildMeta(data = {}) {
     robots: data.robots || "index,follow,max-image-preview:large",
     type: slug ? "article" : "website",
     image: data.image || null,
+    socialImage: data.socialImage || socialImageUrl(data.image, data.socialImageOptions),
+    socialImageWidth: positiveInteger(data.socialImageOptions?.width, DEFAULT_OG_IMAGE.width),
+    socialImageHeight: positiveInteger(data.socialImageOptions?.height, DEFAULT_OG_IMAGE.height),
     language: data.language || "en",
     created: data.created || data.date || null,
     updated: data.updated || data.update || null,
@@ -34,6 +44,10 @@ export function buildMeta(data = {}) {
 }
 
 export function og(meta = {}) {
+  const image = meta.socialImage || meta.image;
+  const width = meta.socialImageWidth || DEFAULT_OG_IMAGE.width;
+  const height = meta.socialImageHeight || DEFAULT_OG_IMAGE.height;
+
   return `
 <meta property="og:type" content="${meta.type || "website"}">
 <meta property="og:site_name" content="${SITE_NAME}">
@@ -43,13 +57,45 @@ export function og(meta = {}) {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escapeHtml(meta.title)}">
 <meta name="twitter:description" content="${escapeHtml(meta.description)}">
-${meta.image ? `
-<meta property="og:image" content="${escapeHtml(meta.image)}">
+${image ? `
+<meta property="og:image" content="${escapeHtml(image)}">
+<meta property="og:image:secure_url" content="${escapeHtml(image)}">
+<meta property="og:image:width" content="${escapeHtml(width)}">
+<meta property="og:image:height" content="${escapeHtml(height)}">
 <meta property="og:image:alt" content="${escapeHtml(meta.title)}">
-<meta name="twitter:image" content="${escapeHtml(meta.image)}">
+<meta name="twitter:image" content="${escapeHtml(image)}">
 <meta name="twitter:image:alt" content="${escapeHtml(meta.title)}">
 ` : ""}
 `;
+}
+
+export function socialImageUrl(image, options = {}) {
+  const source = clean(image || "");
+
+  if(!source || source === "true")
+    return null;
+
+  if(options.enabled === false)
+    return absolutizeUrl(source);
+
+  const absoluteSource =
+  absolutizeUrl(source);
+
+  if(!absoluteSource)
+    return null;
+
+  const url =
+  new URL("/_media", DOMAIN);
+
+  url.searchParams.set("url", absoluteSource);
+  url.searchParams.set("og", "1");
+  url.searchParams.set("w", positiveInteger(options.width, DEFAULT_OG_IMAGE.width));
+  url.searchParams.set("h", positiveInteger(options.height, DEFAULT_OG_IMAGE.height));
+  url.searchParams.set("fit", clean(options.fit || DEFAULT_OG_IMAGE.fit));
+  url.searchParams.set("q", positiveInteger(options.quality, DEFAULT_OG_IMAGE.quality));
+  url.searchParams.set("format", clean(options.format || DEFAULT_OG_IMAGE.format));
+
+  return url.toString();
 }
 
 export function structuredData(meta = {}) {
@@ -105,6 +151,36 @@ function extractDescription(text = "") {
 
 function clean(text = "") {
   return String(text).replace(/\s+/g, " ").trim();
+}
+
+function absolutizeUrl(value = "") {
+  const url =
+  clean(value);
+
+  if(!url)
+    return null;
+
+  try {
+    return new URL(url).toString();
+  }
+  catch {
+    try {
+      return new URL(url, DOMAIN).toString();
+    }
+    catch {
+      return null;
+    }
+  }
+}
+
+function positiveInteger(value, fallback) {
+  const number =
+  Number(value);
+
+  if(Number.isInteger(number) && number > 0)
+    return number;
+
+  return fallback;
 }
 
 function escapeHtml(str = "") {
