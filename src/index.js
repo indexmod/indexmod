@@ -919,7 +919,8 @@ slug
 const documentHtml =
 await renderArticleDocument(
 page,
-slug
+slug,
+env
 );
 
 await savePage(
@@ -1421,7 +1422,8 @@ headers:{
 
 async function renderArticleDocument(
 page,
-slug
+slug,
+env
 ) {
 
 const permalink =
