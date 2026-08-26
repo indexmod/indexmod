@@ -1,6 +1,5 @@
 import {
   getFile,
-  getHtml,
   getIndex,
   getAdminPrompt,
   findPageByPermalink,
@@ -23,8 +22,6 @@ import {
 import { normalizeSlug } from "./slug.js";
 
 import { buildMeta } from "./meta.js";
-import { attachStatusHeader } from "./templates/layout.js";
-
 import { sitemap } from "./sitemap.js";
 import { robots } from "./robots.js";
 import { isAllowedImageSourceUrl } from "./image-hosts.js";
@@ -1299,18 +1296,6 @@ found.content;
 
 }
 
-const cachedHtml =
-await getHtml(
-env,
-storageSlug
-);
-
-if(isDocumentHtml(cachedHtml)){
-
-return htmlResponse(cachedHtml);
-
-}
-
 if(!content){
 
 
@@ -1511,32 +1496,6 @@ slug:permalink,
 created:page.created,
 updated:page.updated
 })
-);
-
-}
-
-function htmlResponse(
-documentHtml
-) {
-
-return new Response(
-attachStatusHeader(documentHtml),
-{
-headers:{
-"Content-Type":"text/html;charset=UTF-8",
-"Cache-Control":"public,max-age=300,s-maxage=3600,stale-while-revalidate=86400"
-}
-}
-);
-
-}
-
-function isDocumentHtml(
-documentHtml
-) {
-
-return /^\s*<!doctype html>/i.test(
-documentHtml || ""
 );
 
 }
