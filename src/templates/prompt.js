@@ -86,12 +86,18 @@ Include a See also section when related topics are useful.
 - Avoid broad filler See also lists such as only Fashion, Art, Design, Photography unless the topic genuinely has no stronger connections.
 
 IMAGES:
-- Always provide image and credit when a suitable lawful image exists.
-- Prefer Wikimedia Commons or another verifiable freely licensed source.
-- Do not use Fair use, invented URLs, file description pages, or Markdown links in image.
-- Do not use non-free Wikipedia cover art, press images, logos, or screenshots as article images.
-- image must contain only a direct image file URL.
-- credit must briefly name source, license, and author when known.
+- Always try to provide image and credit when a suitable lawful image exists.
+- Prefer Wikimedia Commons or another verifiable freely licensed source whenever a suitable image exists.
+- For freely licensed images, credit must name the author, source, and license when known.
+- If no suitable freely licensed image exists, an official editorial, press, institutional, gallery, museum, brand, designer, artist, or photographer image may be used when it is published by a clearly identifiable primary or authoritative source.
+- When using an official non-free editorial or press image, do not claim that it is freely licensed. Credit the photographer or creator when known and name the organization or website that published the image.
+- Prefer, in this order: freely licensed portrait or subject image; freely licensed image of the subject's work; official portrait from the subject, studio, institution, museum, gallery, brand, or press page; official image of a representative work, collection, exhibition, product, building, or project; another reputable editorial image with clear authorship and source.
+- Do not use anonymous image aggregators, Pinterest, repost accounts, search-result thumbnails, scraped image hosts, invented URLs, file description pages, or Markdown links in image.
+- Do not use non-free Wikipedia cover art, logos, screenshots, or unrelated promotional images as article images.
+- image must contain only a clean direct image file URL that can be loaded by the site.
+- Do not change the image selector syntax. Insert the main image only with the existing selector {{page:image}}; the renderer will replace it with the image value from frontmatter.
+- Do not change the credit selector syntax. Insert the image credit only with the existing selector {{page:credit}}; the renderer will replace it with the credit value from frontmatter.
+- Keep {{page:image}} and {{page:credit}} compatible with existing pages. Do not replace them with Markdown image syntax, HTML, new selector names, or inline URLs.
 - Insert the main image and credit immediately after the first meaningful paragraph using:
 
 {{page:image}}
