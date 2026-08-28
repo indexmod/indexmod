@@ -1701,6 +1701,24 @@ const isOgImage =
 params.get("og") === "1";
 
 
+const imageOptions =
+isOgImage
+?
+{
+width:positiveInteger(params.get("w"), 1200),
+height:positiveInteger(params.get("h"), 630),
+fit:allowedImageFit(params.get("fit"), "cover"),
+quality:positiveInteger(params.get("q"), 82),
+format:allowedImageFormat(params.get("format"))
+}
+:
+{
+width:positiveInteger(params.get("w"), 1600),
+fit:allowedImageFit(params.get("fit"), "scale-down"),
+quality:positiveInteger(params.get("q"), 85)
+};
+
+
 let upstream;
 
 
@@ -1710,28 +1728,16 @@ try {
 upstream =
 await fetch(
 sourceUrl,
-isOgImage
-? {
+{
 cf:{
-image:{
-width:positiveInteger(params.get("w"), 1200),
-height:positiveInteger(params.get("h"), 630),
-fit:allowedImageFit(params.get("fit")),
-quality:positiveInteger(params.get("q"), 82),
-format:allowedImageFormat(params.get("format"))
+image:imageOptions
 }
 }
-}
-: undefined
 );
 
 
 }
 catch(error) {
-
-
-if(!isOgImage)
-throw error;
 
 
 upstream =
@@ -1741,7 +1747,7 @@ await fetch(sourceUrl);
 }
 
 
-if(isOgImage && !upstream.ok){
+if(!upstream.ok){
 
 
 upstream =
@@ -1843,7 +1849,7 @@ return fallback;
 
 
 
-function allowedImageFit(value = "") {
+function allowedImageFit(value = "", fallback = "cover") {
 
 
 const fit =
@@ -1855,7 +1861,7 @@ if(["scale-down", "contain", "cover", "crop", "pad"].includes(fit))
 return fit;
 
 
-return "cover";
+return fallback;
 
 
 }

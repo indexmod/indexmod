@@ -24,6 +24,8 @@ export function buildMeta(data = {}) {
 
   const slug = normalizeSlug(data.slug || "");
   const url = slug ? encodeURI(`${DOMAIN}/${slug}`) : `${DOMAIN}/`;
+  const socialImage =
+  data.socialImage || socialImageUrl(data.image, data.socialImageOptions);
 
   return {
     title,
@@ -33,7 +35,8 @@ export function buildMeta(data = {}) {
     robots: data.robots || "index,follow,max-image-preview:large",
     type: slug ? "article" : "website",
     image: data.image || null,
-    socialImage: data.socialImage || socialImageUrl(data.image, data.socialImageOptions),
+    socialImage,
+    socialImageType: data.socialImageType || socialImageType(socialImage),
     socialImageWidth: positiveInteger(data.socialImageOptions?.width, DEFAULT_OG_IMAGE.width),
     socialImageHeight: positiveInteger(data.socialImageOptions?.height, DEFAULT_OG_IMAGE.height),
     language: data.language || "en",
@@ -47,6 +50,7 @@ export function og(meta = {}) {
   const image = meta.socialImage || meta.image;
   const width = meta.socialImageWidth || DEFAULT_OG_IMAGE.width;
   const height = meta.socialImageHeight || DEFAULT_OG_IMAGE.height;
+  const imageType = meta.socialImageType || socialImageType(image);
 
   return `
 <meta property="og:type" content="${meta.type || "website"}">
@@ -60,6 +64,7 @@ export function og(meta = {}) {
 ${image ? `
 <meta property="og:image" content="${escapeHtml(image)}">
 <meta property="og:image:secure_url" content="${escapeHtml(image)}">
+${imageType ? `<meta property="og:image:type" content="${escapeHtml(imageType)}">` : ""}
 <meta property="og:image:width" content="${escapeHtml(width)}">
 <meta property="og:image:height" content="${escapeHtml(height)}">
 <meta property="og:image:alt" content="${escapeHtml(meta.title)}">
@@ -106,6 +111,44 @@ export function socialImageUrl(image, options = {}) {
   url.searchParams.set("format", clean(options.format || DEFAULT_OG_IMAGE.format));
 
   return url.toString();
+}
+
+function socialImageType(image) {
+  const value =
+  clean(image || "");
+
+  if(!value)
+    return null;
+
+  let url;
+
+  try {
+    url =
+    new URL(value);
+  }
+  catch {
+    return null;
+  }
+
+  const format =
+  clean(url.searchParams.get("format")).toLowerCase();
+
+  if(format === "jpg" || format === "jpeg")
+    return "image/jpeg";
+
+  if(["png", "webp", "avif"].includes(format))
+    return `image/${format}`;
+
+  const pathname =
+  url.pathname.toLowerCase();
+
+  if(/\.(?:jpg|jpeg)$/.test(pathname))
+    return "image/jpeg";
+
+  if(/\.(?:png|webp|avif)$/.test(pathname))
+    return `image/${pathname.split(".").pop()}`;
+
+  return null;
 }
 
 export function structuredData(meta = {}) {
