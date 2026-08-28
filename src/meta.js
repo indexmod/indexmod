@@ -70,13 +70,11 @@ ${image ? `
 }
 
 export function socialImageUrl(image, options = {}) {
-  const source = clean(image || "");
+  const source =
+  clean(image || "");
 
   if(!source || source === "true")
     return null;
-
-  if(options.enabled === false)
-    return absolutizeUrl(source);
 
   const absoluteSource =
   absolutizeUrl(source);
@@ -84,11 +82,8 @@ export function socialImageUrl(image, options = {}) {
   if(!absoluteSource)
     return null;
 
-  const wikimediaThumbnail =
-  wikimediaThumbnailUrl(absoluteSource, positiveInteger(options.width, DEFAULT_OG_IMAGE.width));
-
-  if(wikimediaThumbnail)
-    return wikimediaThumbnail;
+  if(options.enabled === false)
+    return absoluteSource;
 
   const url =
   new URL("/_media", DOMAIN);
@@ -177,71 +172,6 @@ function absolutizeUrl(value = "") {
       return null;
     }
   }
-}
-
-function wikimediaThumbnailUrl(source, width) {
-  let url;
-
-  try {
-    url = new URL(source);
-  }
-  catch {
-    return null;
-  }
-
-  if(url.hostname.toLowerCase() !== "upload.wikimedia.org")
-    return null;
-
-  const path =
-  url.pathname;
-
-  if(!path.startsWith("/wikipedia/commons/") || path.startsWith("/wikipedia/commons/thumb/"))
-    return null;
-
-  const segments =
-  path.split("/").filter(Boolean);
-
-  if(segments.length < 5)
-    return null;
-
-  const filename =
-  segments[segments.length - 1];
-
-  let decodedFilename;
-
-  try {
-    decodedFilename = decodeURIComponent(filename);
-  }
-  catch {
-    return null;
-  }
-
-  const extension =
-  decodedFilename.split(".").pop().toLowerCase();
-
-  const thumbFilename =
-  extension === "svg"
-  ? `${wikimediaThumbnailWidth(width)}px-${decodedFilename}.png`
-  : `${wikimediaThumbnailWidth(width)}px-${decodedFilename}`;
-
-  const thumbPath =
-  [
-    "",
-    "wikipedia",
-    "commons",
-    "thumb",
-    ...segments.slice(2),
-    encodeURIComponent(thumbFilename).replace(/%2F/g, "/")
-  ].join("/");
-
-  return new URL(thumbPath, "https://upload.wikimedia.org").toString();
-}
-
-function wikimediaThumbnailWidth(width) {
-  const allowedWidths =
-  [120, 250, 330, 500, 640, 800, 960, 1024, 1280, 1920, 2560];
-
-  return allowedWidths.find(allowedWidth => allowedWidth >= width) || 2560;
 }
 
 function positiveInteger(value, fallback) {
