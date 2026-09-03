@@ -19,7 +19,7 @@ export default function layout(
     ? "Indexmod — Fashion and Art Encyclopedia"
     : `${title} — Indexmod`;
 
-  return `
+  return openLinksInNewTabs(`
 <!doctype html>
 <html lang="${escapeHtml(language)}">
 <head>
@@ -88,7 +88,7 @@ ${c}
 ${statusScript()}
 </body>
 </html>
-`;
+`);
 }
 
 export function attachStatusHeader(documentHtml = "") {
@@ -99,6 +99,7 @@ export function attachStatusHeader(documentHtml = "") {
   }
 
   html = versionStyleLinks(html);
+  html = openLinksInNewTabs(html);
 
   if (html.includes("id=\"operation-status\"")) {
     return html;
@@ -122,6 +123,22 @@ function versionStyleLinks(html) {
     /href="(\/styles\/(?:base|view|editor|index)\.css)(?:\?[^"]*)?"/g,
     (match, path) => `href="${styleHref(path)}"`
   );
+}
+
+function openLinksInNewTabs(html = "") {
+  return String(html).replace(/<a\b([^>]*)>/gi, (match, attributes) => {
+    let nextAttributes = attributes;
+
+    if (!/\starget\s*=/i.test(nextAttributes)) {
+      nextAttributes += ` target="_blank"`;
+    }
+
+    if (!/\srel\s*=/i.test(nextAttributes)) {
+      nextAttributes += ` rel="noopener noreferrer"`;
+    }
+
+    return `<a${nextAttributes}>`;
+  });
 }
 
 function statusHeader() {
