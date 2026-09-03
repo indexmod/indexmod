@@ -127,6 +127,10 @@ function versionStyleLinks(html) {
 
 function openLinksInNewTabs(html = "") {
   return String(html).replace(/<a\b([^>]*)>/gi, (match, attributes) => {
+    if (/\shref\s*=\s*["']\/edit(?:\/|["'?])/i.test(attributes)) {
+      return match;
+    }
+
     let nextAttributes = attributes;
 
     if (!/\starget\s*=/i.test(nextAttributes)) {
