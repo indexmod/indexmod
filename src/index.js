@@ -22,6 +22,7 @@ import {
 import { normalizeSlug } from "./slug.js";
 
 import { buildMeta } from "./meta.js";
+import { legalMarkdown } from "./legal.js";
 import { sitemap } from "./sitemap.js";
 import { robots } from "./robots.js";
 import { isAllowedImageSourceUrl } from "./image-hosts.js";
@@ -1020,6 +1021,27 @@ headers:{
 
 }
 
+);
+
+
+}
+
+
+
+// ======================
+// LEGAL
+// ======================
+
+
+if(
+path === "/legal"
+){
+
+
+return renderArticleResponse(
+parse(legalMarkdown),
+"legal",
+env
 );
 
 
