@@ -1,7 +1,7 @@
 import { og, structuredData } from "../meta.js";
 import yandexMetrika from "../metrics.js";
 
-const assetVersion = "20260815-footer-align";
+const assetVersion = "20260904-legal-footer";
 
 export default function layout(
   c,
@@ -53,6 +53,19 @@ ${rightUI}
 ${c}
 </main>
 <footer class="site-footer">
+<nav class="footer-nav" aria-label="Legal links">
+  <a class="footer-mini-logo" href="/" aria-label="Indexmod home">
+    <img src="/logo.svg" alt="" width="24" height="24">
+  </a>
+  <a href="/legal">Legal</a>
+  <a href="/legal#privacy">Privacy</a>
+  <a href="/legal#cookies">Cookies</a>
+  <a href="/legal#copyright">Copyright</a>
+  <a href="/legal#contact">Contact</a>
+  <a class="footer-license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="Creative Commons BY-NC-SA 4.0">
+    <span aria-hidden="true">cc</span>
+  </a>
+</nav>
 <a
   class="footer-link"
   href="https://mod.indexmod.press"
