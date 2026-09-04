@@ -3,9 +3,28 @@ import { getIndexPages, list, putIndex, putIndexPages } from "./storage.js";
 import layout from "./templates/layout.js";
 
 export async function rebuildIndex(env) {
-  const pages = await list(env);
+  const pages = ensureBuiltInPages(
+    await getIndexPages(env) ||
+    await list(env)
+  );
   await putIndexPages(env, pages);
   return writeIndex(env, pages);
+}
+
+function ensureBuiltInPages(pages = []) {
+  const nextPages = pages.filter(
+    page => page && page.slug !== "legal"
+  );
+
+  nextPages.push({
+    slug: "legal",
+    title: "Legal",
+    updatedAt: Date.parse("2026-09-04T00:00:00.000Z")
+  });
+
+  nextPages.sort((a, b) => a.title.localeCompare(b.title));
+
+  return nextPages;
 }
 
 export async function updateIndexPage(env, page, previousSlug = "") {
