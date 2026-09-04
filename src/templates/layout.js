@@ -1,7 +1,6 @@
 import { og, structuredData } from "../meta.js";
-import yandexMetrika from "../metrics.js";
 
-const assetVersion = "20260904-legal-footer";
+const assetVersion = "20260904-consent-analytics";
 
 export default function layout(
   c,
@@ -37,7 +36,6 @@ ${structuredData({ ...meta, title, description, url })}
 <link rel="stylesheet" href="${styleHref("/styles/view.css")}">
 <link rel="stylesheet" href="${styleHref("/styles/editor.css")}">
 <link rel="stylesheet" href="${styleHref("/styles/index.css")}">
-${yandexMetrika()}
 </head>
 <body>
 ${statusHeader()}
@@ -98,7 +96,9 @@ ${c}
 </svg>
 </a>
 </footer>
+${consentBanner()}
 ${statusScript()}
+${analyticsConsentScript()}
 </body>
 </html>
 `);
@@ -160,6 +160,120 @@ function openLinksInNewTabs(html = "") {
 
 function statusHeader() {
   return `<header id="operation-status" class="operation-status" aria-live="polite" aria-atomic="true"></header>`;
+}
+
+function consentBanner() {
+  return `<section id="cookie-consent" class="cookie-consent" aria-label="Analytics consent" hidden>
+  <p>
+    Indexmod uses optional analytics to understand site visits.
+  </p>
+  <div class="cookie-consent-actions">
+    <a href="/legal#privacy">Privacy</a>
+    <button type="button" data-consent-reject>Reject</button>
+    <button type="button" data-consent-accept>Accept analytics</button>
+  </div>
+</section>`;
+}
+
+function analyticsConsentScript() {
+  return `<script>
+(function(){
+  const key = "indexmod.analyticsConsent";
+  const banner = document.getElementById("cookie-consent");
+  let analyticsStarted = false;
+
+  function storedConsent(){
+    try {
+      return window.localStorage.getItem(key);
+    }
+    catch(error){
+      return null;
+    }
+  }
+
+  function saveConsent(value){
+    try {
+      window.localStorage.setItem(key, value);
+    }
+    catch(error){}
+  }
+
+  function hideBanner(){
+    if(banner) banner.hidden = true;
+  }
+
+  function showBanner(){
+    if(banner) banner.hidden = false;
+  }
+
+  function loadScript(src){
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = src;
+    document.head.appendChild(script);
+  }
+
+  function startGoogleTagManager(){
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      "gtm.start": new Date().getTime(),
+      event: "gtm.js"
+    });
+    loadScript("https://www.googletagmanager.com/gtm.js?id=GTM-W447XBTZ");
+  }
+
+  function startYandexMetrika(){
+    window.ym = window.ym || function(){
+      (window.ym.a = window.ym.a || []).push(arguments);
+    };
+    window.ym.l = 1 * new Date();
+    loadScript("https://mc.yandex.ru/metrika/tag.js");
+    window.ym(109041768, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true
+    });
+  }
+
+  function startAnalytics(){
+    if(analyticsStarted) return;
+    analyticsStarted = true;
+    startGoogleTagManager();
+    startYandexMetrika();
+  }
+
+  if(storedConsent() === "accepted"){
+    startAnalytics();
+    hideBanner();
+  }
+  else if(storedConsent() === "rejected"){
+    hideBanner();
+  }
+  else {
+    showBanner();
+  }
+
+  if(banner){
+    const accept = banner.querySelector("[data-consent-accept]");
+    const reject = banner.querySelector("[data-consent-reject]");
+
+    if(accept){
+      accept.addEventListener("click", function(){
+        saveConsent("accepted");
+        hideBanner();
+        startAnalytics();
+      });
+    }
+
+    if(reject){
+      reject.addEventListener("click", function(){
+        saveConsent("rejected");
+        hideBanner();
+      });
+    }
+  }
+})();
+</script>`;
 }
 
 function statusScript() {
