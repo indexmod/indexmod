@@ -41,7 +41,7 @@ Indexmod is intended for a general cultural audience. Some articles may discuss 
 
 ## Contact
 
-For privacy, copyright, correction or takedown requests, contact the site owner at: indexmod@me.com.
+For privacy, copyright, correction or takedown requests, contact the site owner at: indexmod@me.com
 
 ## Legal Sources
 
