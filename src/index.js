@@ -11,10 +11,15 @@ import {
 } from "./storage.js";
 
 
+import { redirectTarget, GONE_SLUGS, HOME_ALIASES } from "./url-policy.js";
+import { applyEditorial } from "./editorial.js";
+import { renderIndex } from "./build.js";
+
 import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
 import {
   rebuildIndex,
+  rebuildIndexBatch,
   removeIndexPage,
   removeIndexPages,
   updateIndexPage
@@ -36,7 +41,7 @@ import { promptForAdmin, promptForEditor, stripPromptComment } from "./prompt.js
 
 
 
-export default {
+const worker = {
 
 
 async fetch(req, env) {
@@ -53,6 +58,18 @@ url.pathname;
 
 try {
 
+const target = redirectTarget(url);
+// Resolve article permalinks before redirecting a GET/HEAD, so host and
+// storage aliases reach the final URL in one hop. Never run a mutation first.
+if (target && (!["GET", "HEAD"].includes(req.method)
+  || HOME_ALIASES.has(path.replace(/^\/+|\/+$/g, ""))
+  || /^\/(?:(?:edit|admin|new)(?:\/|$)|_)/.test(path)
+  || ["/", "/robots.txt", "/sitemap.xml", "/legal"].includes(path))) {
+  return Response.redirect(target, 301);
+}
+if (GONE_SLUGS.has(path.replace(/^\/+|\/+$/g, ""))) {
+  return new Response("This draft has been removed.", { status:410, headers:{"X-Robots-Tag":"noindex"} });
+}
 
 if(
 path.startsWith("/admin/")
@@ -568,7 +585,10 @@ await updateIndexPage(
 env,
 {
 slug:permalink,
-title:next.title || permalink
+title:next.title || permalink,
+robots:next.robots,
+draft:next.draft,
+placeholder:next.placeholder
 },
 
 normalizeSlug(previous.slug || storageSlug)
@@ -758,12 +778,13 @@ status:405
 
 
 
-await rebuildIndex(env);
+const result = await rebuildIndexBatch(env, url.searchParams.get("cursor"));
 
 
 
 return Response.json({
-ok:true
+ok:true,
+...result
 });
 
 
@@ -961,7 +982,10 @@ env,
 slug,
 
 title:
-page.title || slug
+page.title || slug,
+robots: page.robots,
+draft: page.draft,
+placeholder: page.placeholder
 
 },
 
@@ -998,8 +1022,7 @@ path === "/"
 
 
 const index =
-await getIndex(env) ||
-await rebuildIndex(env);
+await renderIndex(env);
 
 
 
@@ -1389,11 +1412,10 @@ page.slug || slug
 
 
 
-return renderArticleResponse(
-page,
-permalink,
-env
-);
+const canonicalPath = `/${encodeURIComponent(permalink)}`;
+const articleTarget = redirectTarget(url, canonicalPath);
+if (articleTarget) return Response.redirect(articleTarget, 301);
+return renderArticleResponse(page, permalink, env);
 
 
 }
@@ -1440,6 +1462,23 @@ headers:{
 
 };
 
+export default {
+  async fetch(req, env) {
+    const response = await worker.fetch(req, env);
+    const url = new URL(req.url);
+    const target = redirectTarget(url);
+    if (target && response.status !== 301) return Response.redirect(target, 301);
+    // Includes editor errors and missing editor pages, not just rendered forms.
+    if (/^\/(?:edit(?:\/|$)|new(?:\/|$)|_)/.test(url.pathname)) {
+      const headers = new Headers(response.headers);
+      headers.set("X-Robots-Tag", "noindex");
+      headers.set("Cache-Control", "no-store");
+      return new Response(response.body, {status:response.status, headers});
+    }
+    return response;
+  }
+};
+
 
 
 async function renderArticleDocument(
@@ -1447,6 +1486,8 @@ page,
 slug,
 env
 ) {
+
+page = applyEditorial(page, slug);
 
 const permalink =
 normalizeSlug(page.slug || slug) || slug;
@@ -1465,13 +1506,11 @@ slug:permalink
 return (
 await renderPage(
 html,
-`
-<a href="/edit/${permalink}">
-Edit
-</a>
-`,
+"",
 buildMeta({
-title:page.title || permalink,
+title:page.seoTitle || page.title || permalink,
+language:page.language,
+robots:page.robots,
 description:page.description,
 image,
 socialImageOptions:getSocialImageOptions(env),
@@ -1490,6 +1529,8 @@ slug,
 env
 ) {
 
+page = applyEditorial(page, slug);
+
 const permalink =
 normalizeSlug(page.slug || slug) || slug;
 
@@ -1506,13 +1547,11 @@ slug:permalink
 
 return renderPage(
 html,
-`
-<a href="/edit/${permalink}">
-Edit
-</a>
-`,
+"",
 buildMeta({
-title:page.title || permalink,
+title:page.seoTitle || page.title || permalink,
+language:page.language,
+robots:page.robots,
 description:page.description,
 image,
 socialImageOptions:getSocialImageOptions(env),

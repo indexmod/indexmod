@@ -1,14 +1,33 @@
 import indexTemplate from "./templates/index.js";
-import { getIndexPages, list, putIndex, putIndexPages } from "./storage.js";
+import { getIndexPages, getLegacyIndexPages, list, putIndex, putIndexPages, rebuildIndexPagesBatch } from "./storage.js";
 import layout from "./templates/layout.js";
+import { isPublicPage } from "./url-policy.js";
+import { buildMeta } from "./meta.js";
+
+export async function renderIndex(env) {
+  const pages = await getIndexPages(env);
+  if (pages) return indexDocument(ensureBuiltInPages(pages));
+  const legacyPages = await getLegacyIndexPages(env);
+  return legacyPages
+    ? indexDocument(ensureBuiltInPages(legacyPages))
+    : rebuildIndex(env);
+}
 
 export async function rebuildIndex(env) {
   const pages = ensureBuiltInPages(
-    await getIndexPages(env) ||
     await list(env)
   );
   await putIndexPages(env, pages);
   return writeIndex(env, pages);
+}
+
+export async function rebuildIndexBatch(env, cursor = null) {
+  const result = await rebuildIndexPagesBatch(env, cursor);
+  if (result.done) {
+    const pages = await getIndexPages(env);
+    await writeIndex(env, ensureBuiltInPages(pages || []));
+  }
+  return result;
 }
 
 function ensureBuiltInPages(pages = []) {
@@ -28,7 +47,7 @@ function ensureBuiltInPages(pages = []) {
 }
 
 export async function updateIndexPage(env, page, previousSlug = "") {
-  let pages = await getIndexPages(env);
+  let pages = await getIndexPages(env) || await getLegacyIndexPages(env);
 
   if (!pages) {
     pages = await list(env);
@@ -39,6 +58,7 @@ export async function updateIndexPage(env, page, previousSlug = "") {
   const storedPage = await env.PAGES.head(`${page.slug}.md`);
   pages.push({
     ...page,
+    storageSlug: page.slug,
     updatedAt: storedPage?.uploaded
       ? new Date(storedPage.uploaded).getTime()
       : Date.now()
@@ -54,7 +74,7 @@ export async function removeIndexPage(env, slug) {
 }
 
 export async function removeIndexPages(env, slugs) {
-  let pages = await getIndexPages(env);
+  let pages = await getIndexPages(env) || await getLegacyIndexPages(env);
 
   if (!pages) {
     pages = await list(env);
@@ -67,20 +87,22 @@ export async function removeIndexPages(env, slugs) {
 }
 
 async function writeIndex(env, pages) {
-  const content = indexTemplate(pages);
+  const html = indexDocument(pages);
+  await putIndex(env, html);
+  return html;
+}
+
+function indexDocument(pages) {
+  const content = indexTemplate(pages.filter(isPublicPage));
   const html = layout(
     content,
-    `
-<a href="/new">
-New
-</a>
-`,
-    {
+    "",
+    buildMeta({
       title: "Indexmod",
       description: "Indexmod — fashion and art encyclopedia"
-    }
+    })
   );
 
-  await putIndex(env, html);
+  // Render current templates rather than serving legacy HTML from R2.
   return html;
 }

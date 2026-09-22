@@ -3,6 +3,7 @@
 // ===============================
 
 import { normalizeSlug } from "./slug.js";
+import { isPublicPage, isPlaceholder } from "./url-policy.js";
 
 
 const mdFile = (slug) =>
@@ -18,7 +19,13 @@ const indexMetaFile =
 
 
 const indexPagesFile =
+"index.pages.seo-v2.json";
+
+const legacyIndexPagesFile =
 "index.pages.json";
+
+const buildingIndexPagesFile =
+"index.pages.seo-v2.build.json";
 
 
 const promptFile =
@@ -320,9 +327,7 @@ export async function getIndexPages(
 
 
 const obj =
-await env.PAGES.get(
-  indexPagesFile
-);
+await env.PAGES.get(indexPagesFile);
 
 
 if(!obj)
@@ -342,6 +347,8 @@ return Array.isArray(pages)
 
 
 }
+
+
 catch {
 
 
@@ -351,6 +358,83 @@ return null;
 }
 
 
+}
+
+
+export async function getLegacyIndexPages(env) {
+  const obj = await env.PAGES.get(legacyIndexPagesFile);
+  if (!obj) return null;
+  try {
+    const pages = JSON.parse(await obj.text());
+    return Array.isArray(pages) ? pages : null;
+  } catch {
+    return null;
+  }
+}
+
+
+export async function rebuildIndexPagesBatch(
+  env,
+  cursor = null
+) {
+
+const result = await env.PAGES.list({
+  limit: 100,
+  ...(cursor ? { cursor } : {})
+});
+
+const markdownObjects = result.objects.filter(object =>
+  object.key.endsWith(".md") &&
+  !object.key.includes("/") &&
+  ![
+    "index.html.md",
+    "sitemap.xml.md",
+    "robots.txt.md"
+  ].includes(object.key)
+);
+
+const batch = await Promise.all(markdownObjects.map(async object => {
+  const storageSlug = object.key.slice(0, -3);
+  const md = await getFile(env, storageSlug);
+  const parsed = parseFrontmatter(md || "");
+  const slug = normalizeSlug(parsed.slug || storageSlug) || storageSlug;
+
+  return {
+    slug,
+    title: parsed.title || storageSlug,
+    robots: parsed.robots,
+    draft: parsed.draft,
+    placeholder: isPlaceholder(parsed.content),
+    storageSlug,
+    updatedAt: object.uploaded ? new Date(object.uploaded).getTime() : 0
+  };
+}));
+
+let pages = [];
+if (cursor) {
+  const building = await env.PAGES.get(buildingIndexPagesFile);
+  if (building) {
+    try {
+      const parsed = JSON.parse(await building.text());
+      if (Array.isArray(parsed)) pages = parsed;
+    } catch {}
+  }
+}
+
+const bySlug = new Map(pages.map(page => [page.slug, page]));
+batch.forEach(page => bySlug.set(page.slug, page));
+pages = [...bySlug.values()].sort((a, b) => a.title.localeCompare(b.title));
+
+if (result.truncated) {
+  await env.PAGES.put(buildingIndexPagesFile, JSON.stringify(pages), {
+    httpMetadata:{contentType:"application/json;charset=UTF-8"}
+  });
+  return { done:false, cursor:result.cursor, count:pages.length };
+}
+
+await putIndexPages(env, pages);
+await env.PAGES.delete(buildingIndexPagesFile);
+return { done:true, cursor:null, count:pages.length };
 }
 
 
@@ -516,6 +600,10 @@ permalink || slug,
 
 title:
 parsed.title || slug,
+robots: parsed.robots,
+draft: parsed.draft,
+placeholder: isPlaceholder(parsed.content),
+storageSlug: slug,
 
 updatedAt:
 object.uploaded
@@ -637,7 +725,7 @@ limit,
 const markdownObjects =
 result.objects.filter(
 object =>
-object.key.endsWith(".md")
+object.key.endsWith(".md") && !object.key.includes("/")
 &&
 ![
 "index.html.md",
@@ -738,6 +826,9 @@ slug,
 
 title:
 parsed.title || storageSlug,
+robots: parsed.robots,
+draft: parsed.draft,
+placeholder: isPlaceholder(parsed.content),
 
 lastmod:
 formatDate(object.uploaded)
@@ -757,7 +848,7 @@ new Map();
 pages.forEach(page=>{
 
 
-if(!page.slug)
+if(!isPublicPage(page))
 return;
 
 
@@ -801,77 +892,16 @@ a.slug.localeCompare(b.slug)
 // ===============================
 
 
-export async function findPageByPermalink(
-env,
-permalink
-) {
-
-
-const target =
-normalizeSlug(permalink);
-
-
-if(!target)
-return null;
-
-
-const keys =
-await listMarkdownKeys(env);
-
-
-for(const key of keys){
-
-
-const storageSlug =
-key.replace(
-".md",
-""
-);
-
-
-const md =
-await getFile(
-env,
-storageSlug
-);
-
-
-const parsed =
-parseFrontmatter(md);
-
-
-const frontmatterSlug =
-normalizeSlug(
-parsed.slug || ""
-);
-
-
-if(frontmatterSlug === target){
-
-return {
-
-storageSlug,
-
-slug:
-target,
-
-content:
-md
-
-};
-
+export async function findPageByPermalink(env, permalink) {
+  const target = normalizeSlug(permalink);
+  if (!target) return null;
+  const pages = await getIndexPages(env) || await getLegacyIndexPages(env) || await list(env);
+  const match = pages.find(page => page.slug === target);
+  if (!match) return null;
+  const storageSlug = match.storageSlug || match.slug;
+  const content = await getFile(env, storageSlug);
+  return content ? {storageSlug, slug:target, content} : null;
 }
-
-
-}
-
-
-return null;
-
-
-}
-
-
 
 // ===============================
 // LIST MARKDOWN KEYS
@@ -956,7 +986,7 @@ return objects
 .filter(
 
 object =>
-object.key.endsWith(".md")
+object.key.endsWith(".md") && !object.key.includes("/")
 
 )
 
@@ -1041,7 +1071,7 @@ md=""
 
 
 const m =
-md.match(
+md.trimStart().match(
 
 /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
 
@@ -1102,7 +1132,7 @@ line
 
 
 
-fm[key]=value;
+fm[key]=value.replace(/^(["'])([\s\S]*)\1$/, "$2");
 
 
 });
@@ -1119,6 +1149,8 @@ slug:
 fm.slug || "",
 
 
+robots: fm.robots || "",
+draft: fm.draft === "true",
 description:
 fm.description || "",
 
