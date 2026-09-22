@@ -3,6 +3,7 @@
 // ===============================
 
 import { normalizeSlug } from "./slug.js";
+import { isPublicPage, isPlaceholder } from "./url-policy.js";
 
 
 const mdFile = (slug) =>
@@ -18,7 +19,7 @@ const indexMetaFile =
 
 
 const indexPagesFile =
-"index.pages.json";
+"index.pages.seo-v2.json";
 
 
 const promptFile =
@@ -516,6 +517,10 @@ permalink || slug,
 
 title:
 parsed.title || slug,
+robots: parsed.robots,
+draft: parsed.draft,
+placeholder: isPlaceholder(parsed.content),
+storageSlug: slug,
 
 updatedAt:
 object.uploaded
@@ -637,7 +642,7 @@ limit,
 const markdownObjects =
 result.objects.filter(
 object =>
-object.key.endsWith(".md")
+object.key.endsWith(".md") && !object.key.includes("/")
 &&
 ![
 "index.html.md",
@@ -738,6 +743,9 @@ slug,
 
 title:
 parsed.title || storageSlug,
+robots: parsed.robots,
+draft: parsed.draft,
+placeholder: isPlaceholder(parsed.content),
 
 lastmod:
 formatDate(object.uploaded)
@@ -757,7 +765,7 @@ new Map();
 pages.forEach(page=>{
 
 
-if(!page.slug)
+if(!isPublicPage(page))
 return;
 
 
@@ -801,77 +809,16 @@ a.slug.localeCompare(b.slug)
 // ===============================
 
 
-export async function findPageByPermalink(
-env,
-permalink
-) {
-
-
-const target =
-normalizeSlug(permalink);
-
-
-if(!target)
-return null;
-
-
-const keys =
-await listMarkdownKeys(env);
-
-
-for(const key of keys){
-
-
-const storageSlug =
-key.replace(
-".md",
-""
-);
-
-
-const md =
-await getFile(
-env,
-storageSlug
-);
-
-
-const parsed =
-parseFrontmatter(md);
-
-
-const frontmatterSlug =
-normalizeSlug(
-parsed.slug || ""
-);
-
-
-if(frontmatterSlug === target){
-
-return {
-
-storageSlug,
-
-slug:
-target,
-
-content:
-md
-
-};
-
+export async function findPageByPermalink(env, permalink) {
+  const target = normalizeSlug(permalink);
+  if (!target) return null;
+  const pages = await getIndexPages(env) || await list(env);
+  const match = pages.find(page => page.slug === target);
+  if (!match) return null;
+  const storageSlug = match.storageSlug || match.slug;
+  const content = await getFile(env, storageSlug);
+  return content ? {storageSlug, slug:target, content} : null;
 }
-
-
-}
-
-
-return null;
-
-
-}
-
-
 
 // ===============================
 // LIST MARKDOWN KEYS
@@ -956,7 +903,7 @@ return objects
 .filter(
 
 object =>
-object.key.endsWith(".md")
+object.key.endsWith(".md") && !object.key.includes("/")
 
 )
 
@@ -1041,7 +988,7 @@ md=""
 
 
 const m =
-md.match(
+md.trimStart().match(
 
 /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
 
@@ -1102,7 +1049,7 @@ line
 
 
 
-fm[key]=value;
+fm[key]=value.replace(/^(["'])([\s\S]*)\1$/, "$2");
 
 
 });
@@ -1119,6 +1066,8 @@ slug:
 fm.slug || "",
 
 
+robots: fm.robots || "",
+draft: fm.draft === "true",
 description:
 fm.description || "",
 
