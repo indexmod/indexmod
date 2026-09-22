@@ -1,6 +1,4 @@
 import { marked } from "marked";
-import { isPlaceholder } from "./url-policy.js";
-import { extractDescription } from "./meta.js";
 import { isAllowedImageSourceUrl } from "./image-hosts.js";
 
 
@@ -18,10 +16,6 @@ let credit = "";
 let slug = "";
 let created = "";
 let updated = "";
-let seoTitle = "";
-let language = "";
-let robots = "";
-let draft = false;
 
 let content = md;
 
@@ -33,7 +27,7 @@ let content = md;
 
 
 const fm =
-md.trimStart().match(
+md.match(
 /^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?([\s\S]*)$/
 );
 
@@ -86,11 +80,6 @@ line
 
 switch(key){
 
-
-case "seo_title": seoTitle = value; break;
-case "language": language = value; break;
-case "robots": robots = value; break;
-case "draft": draft = value === "true"; break;
 
 case "title":
 
@@ -179,8 +168,35 @@ h[1].trim();
 
 
 if(!description){
-description = extractDescription(content);
+
+
+description =
+
+content
+
+.replace(
+/!\[.*?\]\(.*?\)/g,
+""
+)
+
+.replace(
+/[#>*_`]/g,
+""
+)
+
+.replace(
+/\s+/g,
+" "
+)
+
+.trim()
+
+.slice(0,180);
+
+
 }
+
+
 
 // ===============================
 // IMAGE FALLBACK
@@ -232,8 +248,6 @@ credit
 
 return {
 
-seoTitle, language, robots: draft || isPlaceholder(content) ? "noindex,follow" : robots,
-draft, placeholder: isPlaceholder(content),
 title,
 
 description,

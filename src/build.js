@@ -1,16 +1,10 @@
 import indexTemplate from "./templates/index.js";
 import { getIndexPages, list, putIndex, putIndexPages } from "./storage.js";
 import layout from "./templates/layout.js";
-import { isPublicPage } from "./url-policy.js";
-import { buildMeta } from "./meta.js";
-
-export async function renderIndex(env) {
-  const pages = await getIndexPages(env);
-  return pages ? indexDocument(ensureBuiltInPages(pages)) : rebuildIndex(env);
-}
 
 export async function rebuildIndex(env) {
   const pages = ensureBuiltInPages(
+    await getIndexPages(env) ||
     await list(env)
   );
   await putIndexPages(env, pages);
@@ -45,7 +39,6 @@ export async function updateIndexPage(env, page, previousSlug = "") {
   const storedPage = await env.PAGES.head(`${page.slug}.md`);
   pages.push({
     ...page,
-    storageSlug: page.slug,
     updatedAt: storedPage?.uploaded
       ? new Date(storedPage.uploaded).getTime()
       : Date.now()
@@ -74,22 +67,20 @@ export async function removeIndexPages(env, slugs) {
 }
 
 async function writeIndex(env, pages) {
-  const html = indexDocument(pages);
-  await putIndex(env, html);
-  return html;
-}
-
-function indexDocument(pages) {
-  const content = indexTemplate(pages.filter(isPublicPage));
+  const content = indexTemplate(pages);
   const html = layout(
     content,
-    "",
-    buildMeta({
+    `
+<a href="/new">
+New
+</a>
+`,
+    {
       title: "Indexmod",
       description: "Indexmod — fashion and art encyclopedia"
-    })
+    }
   );
 
-  // Render current templates rather than serving legacy HTML from R2.
+  await putIndex(env, html);
   return html;
 }

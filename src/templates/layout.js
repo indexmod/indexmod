@@ -1,4 +1,3 @@
-import { publicLinks } from "../url-policy.js";
 import { og, structuredData } from "../meta.js";
 
 const assetVersion = "20260904-consent-analytics";
@@ -19,7 +18,7 @@ export default function layout(
     ? "Indexmod — Fashion and Art Encyclopedia"
     : `${title} — Indexmod`;
 
-  const document = `
+  return openLinksInNewTabs(`
 <!doctype html>
 <html lang="${escapeHtml(language)}">
 <head>
@@ -102,8 +101,7 @@ ${statusScript()}
 ${analyticsConsentScript()}
 </body>
 </html>
-`;
-  return openLinksInNewTabs(meta.robots?.includes("noindex") ? document : publicLinks(document));
+`);
 }
 
 export function attachStatusHeader(documentHtml = "") {
