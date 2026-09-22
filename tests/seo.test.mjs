@@ -8,9 +8,11 @@ import {isPlaceholder, publicLinks} from "../src/url-policy.js";
 import {fixtureEnv} from "./fixtures.mjs";
 
 const request = (url, env, options) => worker.fetch(new Request(url, options), env);
+const warmSeoIndex = env => request("https://indexmod.press/_rebuild", env, {method:"POST"});
 
 test("protocol, www, home aliases and article aliases redirect straight to final URLs", async () => {
   const env = fixtureEnv();
+  assert.equal((await warmSeoIndex(env)).status,200);
   for (const host of ["http://indexmod.press", "http://www.indexmod.press", "https://www.indexmod.press", "https://indexmod.press"]) {
     for (const [path, final] of [["/sample", "/sample"], ["/home", "/"], ["/index", "/"], ["/home/", "/"], ["/old-slug", "/new-slug"]]) {
       const response = await request(host+path+"?ref=test", env, {method:"HEAD"});
@@ -35,6 +37,7 @@ test("noncanonical POST redirects without writing anything", async () => {
 
 test("public templates have one absolute query-free canonical; public links omit editor", async () => {
   const env = fixtureEnv();
+  assert.equal((await warmSeoIndex(env)).status,200);
   for (const path of ["/", "/sample", "/legal", "/тема"]) {
     const response = await request("https://indexmod.press"+path+"?utm_source=test", env);
     assert.equal(response.status,200);
@@ -79,6 +82,7 @@ test("empty topics stay editable and get noindex; removed template gets 410", as
 
 test("sitemap excludes legacy, service, draft, empty and missing URLs on cold and warm catalogs", async () => {
   const env = fixtureEnv();
+  assert.equal((await warmSeoIndex(env)).status,200);
   for (const warmed of [false,true]) {
     if (warmed) await request("https://indexmod.press/",env);
     const xml = await (await request("https://indexmod.press/sitemap.xml",env)).text();

@@ -19,6 +19,7 @@ import { parse } from "./markdown.js";
 import { renderPage } from "./render.js";
 import {
   rebuildIndex,
+  rebuildIndexBatch,
   removeIndexPage,
   removeIndexPages,
   updateIndexPage
@@ -777,12 +778,13 @@ status:405
 
 
 
-await rebuildIndex(env);
+const result = await rebuildIndexBatch(env, url.searchParams.get("cursor"));
 
 
 
 return Response.json({
-ok:true
+ok:true,
+...result
 });
 
 

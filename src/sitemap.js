@@ -1,4 +1,4 @@
-import { getIndexPages, listSeoPages } from "./storage.js";
+import { getIndexPages, getLegacyIndexPages, listSeoPages } from "./storage.js";
 
 import { ORIGIN as DOMAIN, isPublicPage, canonicalUrl } from "./url-policy.js";
 import { editorialUpdated } from "./editorial.js";
@@ -6,7 +6,8 @@ import { editorialUpdated } from "./editorial.js";
 export async function generateSitemap(env){
 
 const indexedPages =
-await getIndexPages(env);
+await getIndexPages(env) ||
+await getLegacyIndexPages(env);
 
 const pages =
 indexedPages

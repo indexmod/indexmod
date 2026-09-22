@@ -1,12 +1,16 @@
 import indexTemplate from "./templates/index.js";
-import { getIndexPages, list, putIndex, putIndexPages } from "./storage.js";
+import { getIndexPages, getLegacyIndexPages, list, putIndex, putIndexPages, rebuildIndexPagesBatch } from "./storage.js";
 import layout from "./templates/layout.js";
 import { isPublicPage } from "./url-policy.js";
 import { buildMeta } from "./meta.js";
 
 export async function renderIndex(env) {
   const pages = await getIndexPages(env);
-  return pages ? indexDocument(ensureBuiltInPages(pages)) : rebuildIndex(env);
+  if (pages) return indexDocument(ensureBuiltInPages(pages));
+  const legacyPages = await getLegacyIndexPages(env);
+  return legacyPages
+    ? indexDocument(ensureBuiltInPages(legacyPages))
+    : rebuildIndex(env);
 }
 
 export async function rebuildIndex(env) {
@@ -15,6 +19,15 @@ export async function rebuildIndex(env) {
   );
   await putIndexPages(env, pages);
   return writeIndex(env, pages);
+}
+
+export async function rebuildIndexBatch(env, cursor = null) {
+  const result = await rebuildIndexPagesBatch(env, cursor);
+  if (result.done) {
+    const pages = await getIndexPages(env);
+    await writeIndex(env, ensureBuiltInPages(pages || []));
+  }
+  return result;
 }
 
 function ensureBuiltInPages(pages = []) {
@@ -34,7 +47,7 @@ function ensureBuiltInPages(pages = []) {
 }
 
 export async function updateIndexPage(env, page, previousSlug = "") {
-  let pages = await getIndexPages(env);
+  let pages = await getIndexPages(env) || await getLegacyIndexPages(env);
 
   if (!pages) {
     pages = await list(env);
@@ -61,7 +74,7 @@ export async function removeIndexPage(env, slug) {
 }
 
 export async function removeIndexPages(env, slugs) {
-  let pages = await getIndexPages(env);
+  let pages = await getIndexPages(env) || await getLegacyIndexPages(env);
 
   if (!pages) {
     pages = await list(env);
