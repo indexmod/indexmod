@@ -1,7 +1,7 @@
 import { getIndexPages, listSeoPages } from "./storage.js";
 
-const DOMAIN =
-"https://indexmod.press";
+import { ORIGIN as DOMAIN, isPublicPage, canonicalUrl } from "./url-policy.js";
+import { editorialUpdated } from "./editorial.js";
 
 export async function generateSitemap(env){
 
@@ -11,14 +11,14 @@ await getIndexPages(env);
 const pages =
 indexedPages
 ? indexedPages.map(page => ({
-slug:page.slug,
-title:page.title,
+...page,
 lastmod:formatDate(page.updatedAt)
 }))
 : await listSeoPages(env);
 
 const urls =
-pages.map(page => {
+[...new Map(pages.filter(isPublicPage).map(page => [page.slug, page])).values()].map(page => {
+page = {...page, lastmod: [page.lastmod, editorialUpdated(page.slug)].filter(Boolean).sort().at(-1)};
 
 return `
 
@@ -87,7 +87,7 @@ return "";
 const date =
 new Date(value);
 
-return Number.isNaN(date.getTime())
+return Number.isNaN(date.getTime()) || date.getTime() > Date.now()
 ? ""
 : date.toISOString().slice(0,10);
 }
@@ -102,7 +102,5 @@ return String(value)
 }
 
 function pageUrl(slug = ""){
-return encodeURI(
-`${DOMAIN}/${slug}`
-);
+return canonicalUrl(slug);
 }
