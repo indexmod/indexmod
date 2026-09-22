@@ -3,6 +3,7 @@
 // ===============================
 
 import { normalizeSlug } from "./slug.js";
+import { canonicalUrl } from "./url-policy.js";
 
 const DOMAIN = "https://indexmod.press";
 const SITE_NAME = "Indexmod Fashion and Art";
@@ -23,7 +24,7 @@ export function buildMeta(data = {}) {
   );
 
   const slug = normalizeSlug(data.slug || "");
-  const url = slug ? encodeURI(`${DOMAIN}/${slug}`) : `${DOMAIN}/`;
+  const url = canonicalUrl(slug);
   const socialImage =
   data.socialImage || socialImageUrl(data.image, data.socialImageOptions);
 
@@ -190,16 +191,19 @@ export function structuredData(meta = {}) {
   return `<script type="application/ld+json">${safeJson(data)}</script>`;
 }
 
-function extractDescription(text = "") {
+export function extractDescription(text = "") {
   return String(text)
-    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<!--[\s\S]*?(?:-->|$)/g, "")
+    .replace(/^\s*\**Updated[^\n]*\n/gim, "")
+    .replace(/\{\{[^}]+\}\}/g, "")
     .replace(/<[^>]*>/g, "")
     .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
-    .replace(/\[[^\]]+\]\([^)]*\)/g, "")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/\[\d+\]/g, "")
     .replace(/[#>*_`]/g, "")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 170);
+    .slice(0, 160);
 }
 
 function clean(text = "") {
