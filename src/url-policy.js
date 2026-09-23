@@ -47,7 +47,7 @@ export function publicLinks(html) {
       try { path = decodeURIComponent(url.pathname).replace(/\/+$/, "") || "/"; }
       catch { return anchor; }
       if (href.startsWith("#")) return anchor;
-      if (/^\/(edit|new|admin)(\/|$)/.test(path) || GONE_SLUGS.has(path.slice(1))) return label;
+      if (/^\/(new|admin)(\/|$)/.test(path) || GONE_SLUGS.has(path.slice(1))) return label;
       if (HOME_ALIASES.has(path.slice(1))) url.pathname = "/";
       url.protocol = "https:";
       url.hostname = "indexmod.press";
