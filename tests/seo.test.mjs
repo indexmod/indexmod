@@ -35,7 +35,7 @@ test("noncanonical POST redirects without writing anything", async () => {
   assert.deepEqual([...env.PAGES.files], before);
 });
 
-test("public templates have one absolute query-free canonical; public links omit editor", async () => {
+test("public templates have one absolute query-free canonical and article edit actions", async () => {
   const env = fixtureEnv();
   assert.equal((await warmSeoIndex(env)).status,200);
   for (const path of ["/", "/sample", "/legal", "/тема"]) {
@@ -45,7 +45,11 @@ test("public templates have one absolute query-free canonical; public links omit
     const canonicals = [...html.matchAll(/rel="canonical" href="([^"]+)"/g)].map(m=>m[1]);
     assert.deepEqual(canonicals, ["https://indexmod.press"+encodeURI(path)]);
     assert.match(response.headers.get("Cache-Control"),/s-maxage=3600/);
-    assert.doesNotMatch(html, /href="\/(?:edit\/|new(?:"|\/)|home(?:"|\/)|index(?:"|\/)|new-page(?:"|\/))/);
+    assert.doesNotMatch(html, /href="\/(?:new(?:"|\/)|home(?:"|\/)|index(?:"|\/)|new-page(?:"|\/))/);
+    if (path === "/sample") assert.match(html, /href="\/edit\/sample"[^>]*>\s*Edit\s*<\/a>/);
+    if (path === "/тема") assert.match(html, /href="\/edit\/%D1%82%D0%B5%D0%BC%D0%B0"[^>]*>\s*Edit\s*<\/a>/);
+    if (path === "/legal") assert.match(html, /href="\/edit\/legal"[^>]*>\s*Edit\s*<\/a>/);
+    if (path === "/") assert.doesNotMatch(html, /href="\/edit\//);
     if (path === "/") assert.doesNotMatch(html, /href="\/(?:empty|blank|hidden|draft|missing)/);
   }
 });

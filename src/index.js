@@ -1506,7 +1506,11 @@ slug:permalink
 return (
 await renderPage(
 html,
-"",
+`
+<a href="/edit/${encodeURIComponent(permalink)}">
+Edit
+</a>
+`,
 buildMeta({
 title:page.seoTitle || page.title || permalink,
 language:page.language,
@@ -1547,7 +1551,11 @@ slug:permalink
 
 return renderPage(
 html,
-"",
+`
+<a href="/edit/${encodeURIComponent(permalink)}">
+Edit
+</a>
+`,
 buildMeta({
 title:page.seoTitle || page.title || permalink,
 language:page.language,
