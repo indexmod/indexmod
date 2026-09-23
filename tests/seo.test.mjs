@@ -113,7 +113,7 @@ test("saving a filled topic removes noindex and restores sitemap membership", as
   assert.match(xml,/https:\/\/indexmod.press\/empty\s*</);
 });
 
-test("editorial metadata fits limits; CMS overrides win; brand FAQ is visible without FAQPage", () => {
+test("editorial metadata fits limits; CMS overrides win; article content is never injected", () => {
   for (const [slug, meta] of Object.entries(metadata)) {
     assert([...meta.title+" — Indexmod"].length<=60,slug);
     assert([...meta.description].length>=140 && [...meta.description].length<=160,slug);
@@ -122,10 +122,12 @@ test("editorial metadata fits limits; CMS overrides win; brand FAQ is visible wi
   }
   const explicit = applyEditorial(parse("---\ntitle: Original\nseo_title: CMS title\ndescription: CMS description\n---\nBody."),"karput-olga");
   assert.equal(explicit.seoTitle,"CMS title"); assert.equal(explicit.description,"CMS description");
-  for (const slug of ["acne-studios","oriflame-company"]) {
-    const result = applyEditorial(parse("---\ntitle: Brand\n---\nOriginal text."),slug);
-    assert.match(result.html,/<h2>Questions and answers<\/h2>/);
-    assert.doesNotMatch(result.html,/FAQPage|требует проверки/);
+  for (const slug of ["acne-studios","oriflame-company","unrelated-article"]) {
+    const page = parse("---\ntitle: Brand\n---\nOriginal text.");
+    const result = applyEditorial(page,slug);
+    assert.equal(result.content,page.content);
+    assert.equal(result.html,page.html);
+    assert.doesNotMatch(result.html,/Questions and answers|seo-editorial-2026-09-22/);
   }
   assert.doesNotMatch(extractDescription("***Updated 2026-09-01***\n\n[Person](/person) writes books.[1]"), /Updated|\[1\]|\/person/);
   assert.equal(buildMeta({slug:"sample"}).url,"https://indexmod.press/sample");
