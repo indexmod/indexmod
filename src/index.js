@@ -1517,7 +1517,8 @@ socialImageOptions:getSocialImageOptions(env),
 slug:permalink,
 created:page.created,
 updated:page.updated
-})
+}),
+{logoUI: articleMapLink(permalink)}
 )
 ).text();
 
@@ -1558,18 +1559,20 @@ socialImageOptions:getSocialImageOptions(env),
 slug:permalink,
 created:page.created,
 updated:page.updated
-})
+}),
+{logoUI: articleMapLink(permalink)}
 );
 
 }
 
 function articleActions(permalink) {
+  return `<a href="/edit/${encodeURIComponent(permalink)}">Edit</a>`;
+}
+
+function articleMapLink(permalink) {
   const articleUrl = `https://indexmod.press/${encodeURIComponent(permalink)}`;
   const mapUrl = `https://map.indexmod.press/?add=${encodeURIComponent(articleUrl)}`;
-  return `
-<a href="/edit/${encodeURIComponent(permalink)}">Edit</a>
-<a href="${mapUrl}">Map</a>
-`;
+  return `<a class="map-dot" href="${mapUrl}" aria-label="Map — add this article" title="Map"></a>`;
 }
 
 function titleFromSlug(slug){

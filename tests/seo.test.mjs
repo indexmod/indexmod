@@ -51,9 +51,11 @@ test("public templates have one absolute query-free canonical and article edit a
     if (path === "/legal") assert.match(html, /href="\/edit\/legal"[^>]*>\s*Edit\s*<\/a>/);
     if (path !== "/") {
       const articleURL = `https://indexmod.press${encodeURI(path)}`;
-      assert.match(html, new RegExp(`href="https://map\\.indexmod\\.press/\\?add=${encodeURIComponent(articleURL)}"[^>]*>Map</a>`));
+      assert.match(html, new RegExp(`<div class="site-brand">[\\s\\S]*?<a class="map-dot" href="https://map\\.indexmod\\.press/\\?add=${encodeURIComponent(articleURL)}"[^>]*aria-label="Map — add this article"`));
+      assert.doesNotMatch(html.match(/<div class="actions">[\s\S]*?<\/div>/)?.[0] || "", /Map/);
     }
     if (path === "/") {
+      assert.doesNotMatch(html, /class="map-dot"/);
       assert.match(html, /class="actions">\s*<a href="\/new"[^>]*>New<\/a>/);
       assert.doesNotMatch(html, /href="\/edit\//);
     }
@@ -123,6 +125,7 @@ test("saving a filled topic removes noindex and restores sitemap membership", as
   assert.equal(response.status,200);
   const page = await request("https://indexmod.press/empty",env);
   assert.equal(page.headers.get("X-Robots-Tag"),null);
+  assert.match(env.PAGES.files.get("empty.html"), /class="map-dot"/);
   const xml = await (await request("https://indexmod.press/sitemap.xml",env)).text();
   assert.match(xml,/https:\/\/indexmod.press\/empty\s*</);
 });

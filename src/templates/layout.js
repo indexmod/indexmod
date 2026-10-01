@@ -1,12 +1,13 @@
 import { publicLinks } from "../url-policy.js";
 import { og, structuredData } from "../meta.js";
 
-const assetVersion = "20261001-map-link";
+const assetVersion = "20261001-map-dot";
 
 export default function layout(
   c,
   rightUI = "",
-  meta = {}
+  meta = {},
+  logoUI = ""
 ) {
   const title = meta.title || "Indexmod";
   const description = meta.description || "Indexmod — independent fashion and art encyclopedia";
@@ -41,9 +42,12 @@ ${structuredData({ ...meta, title, description, url })}
 <body>
 ${statusHeader()}
 <header class="site-header">
+<div class="site-brand">
 <a href="/" class="logo" aria-label="Indexmod home">
 <img src="/logo.svg" alt="Indexmod" width="48" height="48">
 </a>
+${logoUI}
+</div>
 <div class="actions">
 ${rightUI}
 </div>
