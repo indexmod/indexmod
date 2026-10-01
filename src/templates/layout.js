@@ -1,7 +1,7 @@
 import { publicLinks } from "../url-policy.js";
 import { og, structuredData } from "../meta.js";
 
-const assetVersion = "20260904-consent-analytics";
+const assetVersion = "20261001-borderless-actions";
 
 export default function layout(
   c,

@@ -115,8 +115,7 @@ body {
   justify-content: center;
   min-width: 104px;
   padding: 24px;
-  border: 3px solid currentColor;
-  border-radius: 9999px;
+  border: 0;
 }
 
 @media (max-width: 640px) {
@@ -150,6 +149,7 @@ a:hover {
 
 button {
   all: unset;
+  border: 0;
   cursor: pointer;
   color: #1a73e8;
   font-size: inherit;
@@ -216,8 +216,7 @@ img {
   justify-content: center;
   width: 28px;
   height: 28px;
-  border: 2px solid currentColor;
-  border-radius: 50%;
+  border: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 700;

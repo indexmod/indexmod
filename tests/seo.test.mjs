@@ -45,13 +45,23 @@ test("public templates have one absolute query-free canonical and article edit a
     const canonicals = [...html.matchAll(/rel="canonical" href="([^"]+)"/g)].map(m=>m[1]);
     assert.deepEqual(canonicals, ["https://indexmod.press"+encodeURI(path)]);
     assert.match(response.headers.get("Cache-Control"),/s-maxage=3600/);
-    assert.doesNotMatch(html, /href="\/(?:new(?:"|\/)|home(?:"|\/)|index(?:"|\/)|new-page(?:"|\/))/);
+    assert.doesNotMatch(html, /href="\/(?:home(?:"|\/)|index(?:"|\/)|new-page(?:"|\/))/);
     if (path === "/sample") assert.match(html, /href="\/edit\/sample"[^>]*>\s*Edit\s*<\/a>/);
     if (path === "/тема") assert.match(html, /href="\/edit\/%D1%82%D0%B5%D0%BC%D0%B0"[^>]*>\s*Edit\s*<\/a>/);
     if (path === "/legal") assert.match(html, /href="\/edit\/legal"[^>]*>\s*Edit\s*<\/a>/);
-    if (path === "/") assert.doesNotMatch(html, /href="\/edit\//);
+    if (path === "/") {
+      assert.match(html, /class="actions">\s*<a href="\/new"[^>]*>New<\/a>/);
+      assert.doesNotMatch(html, /href="\/edit\//);
+    }
+    else assert.doesNotMatch(html, /href="\/new"/);
     if (path === "/") assert.doesNotMatch(html, /href="\/(?:empty|blank|hidden|draft|missing)/);
   }
+});
+
+test("New on the home page opens the article editor", async () => {
+  const response = await request("https://indexmod.press/new", fixtureEnv());
+  assert.equal(response.status, 200);
+  assert.match(await response.text(), /<textarea id="md">/);
 });
 
 test("edit pages remain crawlable but always have an HTTP noindex header", async () => {

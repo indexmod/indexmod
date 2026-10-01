@@ -96,7 +96,7 @@ function indexDocument(pages) {
   const content = indexTemplate(pages.filter(isPublicPage));
   const html = layout(
     content,
-    "",
+    `<a href="/new">New</a>`,
     buildMeta({
       title: "Indexmod",
       description: "Indexmod — fashion and art encyclopedia"
