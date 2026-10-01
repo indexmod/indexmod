@@ -124,17 +124,18 @@ body {
   }
 
   .site-header {
-    gap: 20px;
+    gap: 8px;
   }
 
   .actions {
-    font-size: 22px;
+    gap: 8px;
+    font-size: 20px;
   }
 
   .actions a,
   .actions button {
-    min-width: 82px;
-    padding: 18px;
+    min-width: 0;
+    padding: 12px 6px;
   }
 }
 

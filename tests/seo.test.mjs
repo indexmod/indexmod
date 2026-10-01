@@ -49,6 +49,10 @@ test("public templates have one absolute query-free canonical and article edit a
     if (path === "/sample") assert.match(html, /href="\/edit\/sample"[^>]*>\s*Edit\s*<\/a>/);
     if (path === "/тема") assert.match(html, /href="\/edit\/%D1%82%D0%B5%D0%BC%D0%B0"[^>]*>\s*Edit\s*<\/a>/);
     if (path === "/legal") assert.match(html, /href="\/edit\/legal"[^>]*>\s*Edit\s*<\/a>/);
+    if (path !== "/") {
+      const articleURL = `https://indexmod.press${encodeURI(path)}`;
+      assert.match(html, new RegExp(`href="https://map\\.indexmod\\.press/\\?add=${encodeURIComponent(articleURL)}"[^>]*>Map</a>`));
+    }
     if (path === "/") {
       assert.match(html, /class="actions">\s*<a href="\/new"[^>]*>New<\/a>/);
       assert.doesNotMatch(html, /href="\/edit\//);

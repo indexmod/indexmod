@@ -1506,11 +1506,7 @@ slug:permalink
 return (
 await renderPage(
 html,
-`
-<a href="/edit/${encodeURIComponent(permalink)}">
-Edit
-</a>
-`,
+articleActions(permalink),
 buildMeta({
 title:page.seoTitle || page.title || permalink,
 language:page.language,
@@ -1551,11 +1547,7 @@ slug:permalink
 
 return renderPage(
 html,
-`
-<a href="/edit/${encodeURIComponent(permalink)}">
-Edit
-</a>
-`,
+articleActions(permalink),
 buildMeta({
 title:page.seoTitle || page.title || permalink,
 language:page.language,
@@ -1569,6 +1561,15 @@ updated:page.updated
 })
 );
 
+}
+
+function articleActions(permalink) {
+  const articleUrl = `https://indexmod.press/${encodeURIComponent(permalink)}`;
+  const mapUrl = `https://map.indexmod.press/?add=${encodeURIComponent(articleUrl)}`;
+  return `
+<a href="/edit/${encodeURIComponent(permalink)}">Edit</a>
+<a href="${mapUrl}">Map</a>
+`;
 }
 
 function titleFromSlug(slug){

@@ -1,7 +1,7 @@
 import { publicLinks } from "../url-policy.js";
 import { og, structuredData } from "../meta.js";
 
-const assetVersion = "20261001-borderless-actions";
+const assetVersion = "20261001-map-link";
 
 export default function layout(
   c,
