@@ -224,24 +224,21 @@ function analyticsConsentScript() {
     loadScript("https://www.googletagmanager.com/gtm.js?id=GTM-W447XBTZ");
   }
 
-  function startYandexMetrika(){
-    window.ym = window.ym || function(){
-      (window.ym.a = window.ym.a || []).push(arguments);
+  function startGoogleAnalytics(){
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(){
+      window.dataLayer.push(arguments);
     };
-    window.ym.l = 1 * new Date();
-    loadScript("https://mc.yandex.ru/metrika/tag.js");
-    window.ym(109041768, "init", {
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true
-    });
+    window.gtag("js", new Date());
+    window.gtag("config", "G-RERFC3F88M");
+    loadScript("https://www.googletagmanager.com/gtag/js?id=G-RERFC3F88M");
   }
 
   function startAnalytics(){
     if(analyticsStarted) return;
     analyticsStarted = true;
     startGoogleTagManager();
-    startYandexMetrika();
+    startGoogleAnalytics();
   }
 
   if(storedConsent() === "accepted"){

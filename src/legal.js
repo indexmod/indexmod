@@ -54,7 +54,7 @@ When an anonymous edit is made, the technical data of that edit (such as IP addr
 
 ## Cookies
 
-Indexmod may use essential cookies and optional analytics technologies, including Google Tag Manager and Yandex Metrica. Analytics should run only after visitor consent where consent is legally required. A visitor may refuse non-essential cookies where the site interface provides that choice.
+Indexmod may use essential cookies and optional analytics technologies, including Google Tag Manager and Google Analytics 4. Analytics should run only after visitor consent where consent is legally required. A visitor may refuse non-essential cookies where the site interface provides that choice.
 
 <a id="copyright"></a>
 
