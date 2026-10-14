@@ -25,7 +25,9 @@ content,
 
 rightUI,
 
-pageMeta
+pageMeta,
+
+options.logoUI || ""
 
 ),
 
