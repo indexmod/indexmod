@@ -3,8 +3,8 @@ title: Gap–Lichtenstein–Whitney
 slug: gap-lichtenstein-whitney
 created: 2026-10-14
 updated: 2026-10-14
-image: https://mcusercontent.com/387f59a72ae7b64ccae37d5c9/_compresseds/848bcef2-4270-adbe-314f-a8a66913e11b.jpg
-credit: Quarter-zip sherpa pullover incorporating Roy Lichtenstein's Cathedral #2 (1969). Photograph by Max Kütz. © Estate of Roy Lichtenstein, all rights reserved. Published by the Whitney Museum of American Art.
+image: https://artsy-media-uploads.s3.amazonaws.com/Zxlr0GNPbR5OtqfeJSR8MA%2FWhitney+Gap+collab.png
+credit: Gap–Lichtenstein–Whitney collection. Photograph by Max Kütz. © Estate of Roy Lichtenstein, all rights reserved. Editorial photograph published by Artsy.
 ---
 
 ***Updated 2026-10-14***

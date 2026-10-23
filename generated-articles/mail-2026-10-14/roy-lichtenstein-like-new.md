@@ -3,8 +3,8 @@ title: 'Roy Lichtenstein: Like New'
 slug: roy-lichtenstein-like-new
 created: 2026-10-14
 updated: 2026-10-14
-image: https://mcusercontent.com/387f59a72ae7b64ccae37d5c9/images/cccdde0a-23dc-3cae-3b29-c26bbd21b9a2.jpg
-credit: Roy Lichtenstein, Laughing Cat, 1961, private collection. © Estate of Roy Lichtenstein/DACS 2026. Image published in the Whitney Museum of American Art exhibition newsletter.
+image: https://gagosian.com/media/images/artists/roy-lichtenstein/imO0R945HZoZ_300x300.jpg
+credit: Roy Lichtenstein, Masterpiece, 1962, oil on canvas. © Estate of Roy Lichtenstein. Image published by Gagosian.
 ---
 
 ***Updated 2026-10-14***
