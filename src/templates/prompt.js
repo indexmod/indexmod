@@ -46,6 +46,14 @@ CONTENT QUALITY:
 - Use Markdown headings and bold only where they improve clarity.
 - If reliable information is limited, say so briefly and keep the article factual rather than filling space.
 
+EXISTING ARTICLE REVISIONS:
+- When this prompt is applied to an already written article, preserve the original article as much as possible. Do not rewrite it from scratch or replace its structure, wording, or voice unless necessary.
+- First identify what must be corrected, updated, or added; change only those passages and retain all other original text.
+- If a rewrite or addition is necessary, use Markdown footnotes to make the editorial history visible in the article. Put a footnote marker immediately after every changed or added sentence or paragraph, and add the corresponding note under a ## Revision notes section.
+- Each revision footnote must state the date and whether the passage was Updated or Added, for example: [^update-2026-11-19-1] Updated 2026-11-19: ... or [^add-2026-11-19-1] Added 2026-11-19: ... .
+- Keep unchanged original passages unmarked. Do not silently rewrite existing text. Revision footnotes do not replace factual citations; use both when needed.
+- If no change is needed, preserve the original text and do not add revision notes.
+
 Do not use generic corpus language such as:
 - "relevant to Indexmod's coverage"
 - "treated as"
@@ -131,5 +139,8 @@ Before returning, verify:
 - citations and citation numbering;
 - no indexmod.press/2026 citation;
 - See also links are internal, useful, and checked against existing storage or article lists when available;
+- existing article text is preserved unless a change is necessary;
+- every changed or added passage has a matching revision footnote under ## Revision notes;
+- unchanged original passages have not been silently rewritten;
 - no prompt text or hidden admin prompt comment is included.
 `;
