@@ -1,7 +1,22 @@
 name: Sync Admin Prompt
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - prompt.md
+      - src/templates/prompt.js
+      - scripts/sync-admin-prompt.mjs
+      - .github/workflows/sync-admin-prompt.yml
   workflow_dispatch:
+
+concurrency:
+  group: sync-admin-prompt-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   sync-admin-prompt:
