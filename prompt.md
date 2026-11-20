@@ -30,11 +30,11 @@ credit:
 
 - For people, always rewrite title as "Last Name, First Name" or the natural equivalent for the article language. Example: "Alexander McQueen" becomes "McQueen, Alexander".
 - slug, created, and updated must follow the project format.
-- Immediately after frontmatter, add:
-
-***Updated YYYY-MM-DD***
-
-- The visible Updated date must match updated in frontmatter.
+- updated is the only update date stored in frontmatter.
+- Do not add a separate ***Updated YYYY-MM-DD*** line after frontmatter.
+- Do not show a previous and a current update date together.
+- Do not add the word Updates, an update badge, or other editorial labels beside the article title or section headings.
+- The site may render one Last updated label from frontmatter; do not duplicate that date in the Markdown body.
 
 ## CONTENT QUALITY
 
@@ -53,10 +53,12 @@ credit:
 
 - When this prompt is applied to an already written article, preserve the original article as much as possible. Do not rewrite it from scratch or replace its structure, wording, or voice unless necessary.
 - First identify what must be corrected, updated, or added; change only those passages and retain all other original text.
-- If a rewrite or addition is necessary, use Markdown footnotes to make the editorial history visible in the article. Put a footnote marker immediately after every changed or added sentence or paragraph, and add the corresponding note under a `## Revision notes` section.
-- Each revision footnote must state the date and whether the passage was `Updated` or `Added`, for example: `[^update-2026-11-19-1] Updated 2026-11-19: ...` or `[^add-2026-11-19-1] Added 2026-11-19: ...`.
-- Keep unchanged original passages unmarked. Do not silently rewrite existing text. Revision footnotes do not replace factual citations; use both when needed.
-- If no change is needed, preserve the original text and do not add revision notes.
+- Keep unchanged original passages unmarked. Do not silently rewrite existing text.
+- For every substantive changed or added sentence or paragraph, add one short numeric update marker immediately after the changed passage. The marker must use the same square-bracket style as a source citation and link to its matching entry in Updates Review, for example [4](#update-4).
+- Do not use Markdown footnote syntax, footnote identifiers, or a Revision notes section for the new system.
+- Group related changes into one update entry instead of marking every minor copy edit.
+- If the article still contains the old standalone Updated line, References section, or Revision notes, migrate those structural elements to the new system during the substantive revision. Do not leave both systems in the final article.
+- If no substantive change is needed, preserve the article, keep its existing updated date, and do not create an artificial Updates Review section.
 
 Do not use generic corpus language such as:
 
@@ -126,17 +128,29 @@ Include a See also section when related topics are useful.
 
 - Use only real, verifiable sources.
 - Do not invent publications, dates, authors, or URLs.
-- Do not cite `indexmod.press/2026` or any topic-list page as a factual source.
+- Do not cite indexmod.press/2026 or any topic-list page as a factual source.
 - Use at least two real external sources for people, brands, institutions, publications, venues, and places when available.
 - For cities, countries, and territories, Wikipedia/Wikidata may be sufficient for basic identification, but add stronger cultural or fashion/art sources when making specific claims.
-- Add citations as:
+- Use one continuous sequence of square-bracket numbers across source citations and update markers, based on first appearance in the article. Numbers must not restart in the second section.
+- A source marker in the article uses the visible form [n] and links to its entry in Citations, for example [1](#citation-1). An update marker uses the same visible form and links to Updates Review, for example [4](#update-4). Do not use a different icon, star, arrow, label, or footnote syntax to distinguish them.
+- Do not place update markers beside headings. Place them after the changed sentence or paragraph.
+- At the bottom of the article, use these sections in this order:
 
 ## Citations
 
-**[1]** [URL](URL)
+<a id="citation-1"></a>
+**[1]** [Source title](URL)
 
-- Citation numbers in the text must match the Citations list.
-- Every factual claim that is specific, non-obvious, dated, disputed, or potentially time-sensitive should be supported by a citation.
+## Updates Review
+
+<a id="update-4"></a>
+**[4]** 2026-11-20 — Short description of the substantive change.
+
+- Citations contains source entries only, using the numbers assigned by the shared sequence. If a number belongs to an update, it is intentionally absent from Citations.
+- Updates Review is placed immediately after Citations. Each entry begins with its square-bracket number, includes the date, and contains one short sentence no longer than two rendered lines.
+- Do not call the source section References. Do not call the update section Revision notes.
+- Create Updates Review only when the article has substantive updates. One entry may cover several related changes.
+- The updated value in frontmatter must be the date of the latest substantive update recorded in Updates Review.
 
 ## FINAL CHECK
 
@@ -145,14 +159,19 @@ Before returning, verify:
 - frontmatter syntax;
 - title and person-name inversion;
 - slug format;
-- created, updated, and visible Updated line;
+- created and updated values;
+- absence of a separate Updated line and duplicate dates;
+- absence of Updates labels beside the title or headings;
 - subject type and article structure;
 - absence of generic placeholder language;
 - image URL and credit;
-- citations and citation numbering;
-- no `indexmod.press/2026` citation;
+- every source marker and update marker uses the shared square-bracket sequence;
+- citation markers link to the matching Citations entry;
+- update markers link to the matching Updates Review entry;
+- Citations and Updates Review use one continuous sequence and the correct section names;
+- every Updates Review entry is substantive, dated, concise, and no longer than two rendered lines;
+- no indexmod.press/2026 citation;
 - See also links are internal, useful, and checked against existing storage or article lists when available;
 - existing article text is preserved unless a change is necessary;
-- every changed or added passage has a matching revision footnote under `## Revision notes`;
-- unchanged original passages have not been silently rewritten;
+- no artificial update entry was created when no substantive change was made;
 - no prompt text or hidden admin prompt comment is included.
